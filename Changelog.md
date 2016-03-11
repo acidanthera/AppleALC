@@ -1,6 +1,10 @@
 AppleALC Changelog
 ==================
 
+#### v1.0.2
+- Added ALC269 10.9.x/10.10.x patches (by Andrey1970)
+- Added ALC270 codec support (by m-dudarev)
+
 #### v1.0.1
 - boot-args presence is now optional
 - Platforms must conform to layout-id from now on

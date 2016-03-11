@@ -2,57 +2,30 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Vendor</key>
-	<string>Realtek</string>
-	<key>CodecID</key>
-	<integer>283902569</integer>
-	<key>CodecName</key>
-	<string>ALC269</string>
-	<key>Revisions</key>
-	<array>
-		<integer>1049090</integer>
-		<integer>1048832</integer>
-	</array>
 	<key>Author</key>
-	<string>Multiple</string>
+	<string>m-dudarev</string>
+	<key>CodecID</key>
+	<integer>624</integer>
+	<key>CodecName</key>
+	<string>ALC270</string>
 	<key>Files</key>
 	<dict>
-		<key>Platforms</key>
-		<array>
-			<dict>
-				<key>Id</key>
-				<integer>27</integer>
-				<key>Comment</key>
-				<string>ALC269 Acer Aspire, Andrey1970</string>
-				<key>Path</key>
-				<string>Platforms27.xml.zlib</string>
-			</dict>
-			<dict>
-				<key>Id</key>
-				<integer>28</integer>
-				<key>Comment</key>
-				<string>ALC269VC Lenovo Z580, John</string>
-				<key>Path</key>
-				<string>Platforms28.xml.zlib</string>
-			</dict>
-		</array>
 		<key>Layouts</key>
 		<array>
 			<dict>
 				<key>Id</key>
-				<integer>27</integer>
-				<key>Comment</key>
-				<string>ALC269 Acer Aspire</string>
+				<integer>28</integer>
 				<key>Path</key>
-				<string>layout27.xml.zlib</string>
+				<string>layout28.xml.zlib</string>
 			</dict>
+		</array>
+		<key>Platforms</key>
+		<array>
 			<dict>
 				<key>Id</key>
 				<integer>28</integer>
-				<key>Comment</key>
-				<string>ALC269VC Lenovo Z580</string>
 				<key>Path</key>
-				<string>layout28.xml.zlib</string>
+				<string>Platforms.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>
@@ -62,33 +35,9 @@
 			<key>Count</key>
 			<integer>2</integer>
 			<key>Find</key>
-			<data>hBnUEQ==</data>
-			<key>MinKernel</key>
-			<string>13</string>
-			<key>Name</key>
-			<string>AppleHDA</string>
-			<key>Replace</key>
-			<data>aQLsEA==</data>
-		</dict>
-		<dict>
-			<key>Count</key>
-			<integer>2</integer>
-			<key>Find</key>
 			<data>hQjsEA==</data>
 			<key>MinKernel</key>
-			<string>13</string>
-			<key>Name</key>
-			<string>AppleHDA</string>
-			<key>Replace</key>
-			<data>AAAAAA==</data>
-		</dict>
-		<dict>
-			<key>Count</key>
-			<integer>2</integer>
-			<key>Find</key>
-			<data>gxnUEQ==</data>
-			<key>MinKernel</key>
-			<string>15</string>
+			<integer>13</integer>
 			<key>Name</key>
 			<string>AppleHDA</string>
 			<key>Replace</key>
@@ -100,14 +49,42 @@
 			<key>Find</key>
 			<data>hAjsEA==</data>
 			<key>MinKernel</key>
-			<string>13</string>
-			<key>MaxKernel</key>
-			<string>14</string>
+			<integer>13</integer>
+			<key>Name</key>
+			<string>AppleHDA</string>
+			<key>Replace</key>
+			<data>AAAAAA==</data>
+		</dict>
+		<dict>
+			<key>Count</key>
+			<integer>2</integer>
+			<key>Find</key>
+			<data>ixnUEQ==</data>
+			<key>MinKernel</key>
+			<integer>13</integer>
+			<key>Name</key>
+			<string>AppleHDA</string>
+			<key>Replace</key>
+			<data>cALsEA==</data>
+		</dict>
+		<dict>
+			<key>Count</key>
+			<integer>2</integer>
+			<key>Find</key>
+			<data>gxnUEQ==</data>
+			<key>MinKernel</key>
+			<integer>13</integer>
 			<key>Name</key>
 			<string>AppleHDA</string>
 			<key>Replace</key>
 			<data>AAAAAA==</data>
 		</dict>
 	</array>
+	<key>Revisions</key>
+	<array>
+		<integer>1048832</integer>
+	</array>
+	<key>Vendor</key>
+	<string>Realtek</string>
 </dict>
 </plist>
