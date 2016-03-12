@@ -2,16 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Intel</key>
-	<dict>
-		<key>Tree</key>
-		<array>
-			<string>AppleACPIPCI</string>
-			<string>HDAU</string>
-		</array>
-		<key>controllerNum</key>
-		<integer>1</integer>
-	</dict>
 	<key>All</key>
 	<dict>
 		<key>Detect</key>
@@ -22,6 +12,26 @@
 			<string>HDEF</string>
 			<string>AppleHDAController</string>
 			<string>IOHDACodecDevice</string>
+		</array>
+		<key>controllerNum</key>
+		<integer>1</integer>
+	</dict>
+	<key>Intel</key>
+	<dict>
+		<key>Tree</key>
+		<array>
+			<string>AppleACPIPCI</string>
+			<string>HDAU</string>
+		</array>
+		<key>controllerNum</key>
+		<integer>1</integer>
+	</dict>
+	<key>Nvidia</key>
+	<dict>
+		<key>Tree</key>
+		<array>
+			<string>AppleACPIPCI</string>
+			<string>HDAU</string>
 		</array>
 		<key>controllerNum</key>
 		<integer>1</integer>
