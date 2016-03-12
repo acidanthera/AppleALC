@@ -352,6 +352,20 @@
 					<key>Comment</key>
 					<string>CX20590 for Lenovo Yoga 13, usr-sse2</string>
 				</dict>
+				<dict>
+					<key>Codec</key>
+					<string>ALC270</string>
+					<key>CodecID</key>
+					<integer>283902576</integer>
+					<key>Comment</key>
+					<string>ALC270 for Asus K56CB</string>
+					<key>ConfigData</key>
+					<data>AZccMAGXHQkBlx6gAZcfkAGHHCABhx0QAYcegQGHHwQ=</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>28</integer>
+				</dict>
 			</array>
 			<key>IOClass</key>
 			<string>AppleHDAHardwareConfigDriver</string>
