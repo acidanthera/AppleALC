@@ -3,106 +3,129 @@
 <plist version="1.0">
 <array>
 	<dict>
-		<key>Name</key>
-		<string>X99 HDEF controller</string>
-		<key>Vendor</key>
-		<string>Intel</string>
 		<key>Device</key>
 		<integer>36128</integer>
+		<key>Name</key>
+		<string>X99 HDEF controller</string>
 		<key>Patches</key>
 		<array>
 			<dict>
 				<key>Count</key>
 				<integer>4</integer>
-				<key>Name</key>
-				<string>AppleHDAController</string>
 				<key>Find</key>
 				<data>IIw=</data>
 				<key>MinKernel</key>
 				<string>13</string>
+				<key>Name</key>
+				<string>AppleHDAController</string>
 				<key>Replace</key>
 				<data>II0=</data>
 			</dict>
 		</array>
-	</dict>
-	<dict>
-		<key>Name</key>
-		<string>HD4600 controller</string>
 		<key>Vendor</key>
 		<string>Intel</string>
+	</dict>
+	<dict>
 		<key>Device</key>
 		<integer>3084</integer>
+		<key>Name</key>
+		<string>HD4600 controller</string>
 		<key>Patches</key>
 		<array>
 			<dict>
 				<key>Count</key>
 				<integer>4</integer>
-				<key>Name</key>
-				<string>AppleHDAController</string>
 				<key>Find</key>
 				<data>DAoAAA==</data>
-				<key>MinKernel</key>
-				<string>13</string>
 				<key>MaxKernel</key>
 				<string>13</string>
+				<key>MinKernel</key>
+				<string>13</string>
+				<key>Name</key>
+				<string>AppleHDAController</string>
 				<key>Replace</key>
 				<data>DAwAAA==</data>
 			</dict>
 			<dict>
 				<key>Count</key>
 				<integer>2</integer>
-				<key>Name</key>
-				<string>AppleHDAController</string>
 				<key>Find</key>
 				<data>CwwAAA==</data>
-				<key>MinKernel</key>
-				<string>13</string>
 				<key>MaxKernel</key>
 				<string>13</string>
+				<key>MinKernel</key>
+				<string>13</string>
+				<key>Name</key>
+				<string>AppleHDAController</string>
 				<key>Replace</key>
 				<data>DAwAAA==</data>
 			</dict>
 			<dict>
 				<key>Count</key>
 				<integer>3</integer>
-				<key>Name</key>
-				<string>AppleHDAController</string>
 				<key>Find</key>
 				<data>PQwKAAA=</data>
-				<key>MinKernel</key>
-				<string>14</string>
 				<key>MaxKernel</key>
 				<string>14</string>
+				<key>MinKernel</key>
+				<string>14</string>
+				<key>Name</key>
+				<string>AppleHDAController</string>
 				<key>Replace</key>
 				<data>PQwMAAA=</data>
 			</dict>
 			<dict>
 				<key>Count</key>
 				<integer>1</integer>
-				<key>Name</key>
-				<string>AppleHDAController</string>
 				<key>Find</key>
 				<data>PQsMAAA=</data>
-				<key>MinKernel</key>
-				<string>14</string>
 				<key>MaxKernel</key>
 				<string>14</string>
+				<key>MinKernel</key>
+				<string>14</string>
+				<key>Name</key>
+				<string>AppleHDAController</string>
 				<key>Replace</key>
 				<data>PQwMAAA=</data>
 			</dict>
 			<dict>
 				<key>Count</key>
 				<integer>5</integer>
-				<key>Name</key>
-				<string>AppleHDAController</string>
 				<key>Find</key>
 				<data>PQwKAAA=</data>
 				<key>MinKernel</key>
 				<string>15</string>
+				<key>Name</key>
+				<string>AppleHDAController</string>
 				<key>Replace</key>
 				<data>PQwMAAA=</data>
 			</dict>
 		</array>
+		<key>Vendor</key>
+		<string>Intel</string>
+	</dict>
+	<dict>
+		<key>Device</key>
+		<integer>3044</integer>
+		<key>Name</key>
+		<string>Nvidia GT240 HDMI</string>
+		<key>Patches</key>
+		<array>
+			<dict>
+				<key>Count</key>
+				<integer>2</integer>
+				<key>Find</key>
+				<data>CgDeEA==</data>
+				<key>MinKernel</key>
+				<string>10</string>
+				<key>Name</key>
+				<string>AppleHDA</string>
+				<key>Replace</key>
+				<data>DQDeEA==</data>
+			</dict>
+		</array>
+		<key>Vendor</key>
+		<string>Nvidia</string>
 	</dict>
 </array>
 </plist>

@@ -26,5 +26,15 @@
 		<key>controllerNum</key>
 		<integer>1</integer>
 	</dict>
+	<key>Nvidia</key>
+	<dict>
+		<key>Tree</key>
+		<array>
+			<string>AppleACPIPCI</string>
+			<string>HDAU</string>
+		</array>
+		<key>controllerNum</key>
+		<integer>1</integer>
+	</dict>
 </dict>
 </plist>
