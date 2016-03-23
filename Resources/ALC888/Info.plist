@@ -24,9 +24,9 @@
 				<key>Comment</key>
 				<string>InsanelyDeepak  8/6 ports (Gray, Black, Orange, Pink, Green, Blue)</string>
 				<key>Id</key>
-				<integer>1</integer>
+				<integer>11</integer>
 				<key>Path</key>
-				<string>layout1.xml.zlib</string>
+				<string>layout11.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -43,7 +43,7 @@
 				<key>Comment</key>
 				<string>InsanelyDeepak - Realtek ALC888</string>
 				<key>Id</key>
-				<integer>1</integer>
+				<integer>11</integer>
 				<key>Path</key>
 				<string>PlatformsID.xml.zlib</string>
 			</dict>

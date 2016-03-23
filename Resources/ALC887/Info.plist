@@ -32,41 +32,41 @@
 				<key>Comment</key>
 				<string>InsanelyDeepak  5/6 ports (Gray, Black, Orange, Pink, Green, Blue)</string>
 				<key>Id</key>
-				<integer>1</integer>
+				<integer>11</integer>
 				<key>Path</key>
-				<string>layout1.xml.zlib</string>
+				<string>layout11.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>InsanelyDeepak  5/6 ports ( Orange, Pink, Green, Blue) </string>
 				<key>Id</key>
-				<integer>2</integer>
+				<integer>12</integer>
 				<key>Path</key>
-				<string>layout2.xml.zlib</string>
+				<string>layout12.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>InsanelyDeepak  6/7 ports (Gray, Black, Orange, Pink, Green, Blue)</string>
 				<key>Id</key>
-				<integer>3</integer>
+				<integer>13</integer>
 				<key>Path</key>
-				<string>layout3.xml.zlib</string>
+				<string>layout13.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>InsanelyDeepak  5/6 ports ( Green,Pink, Blue,Orange)</string>
 				<key>Id</key>
-				<integer>4</integer>
+				<integer>14</integer>
 				<key>Path</key>
-				<string>layout4.xml.zlib</string>
+				<string>layout14.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>InsanelyDeepak  5/6 ports ( Green,Pink, Blue,Orange)</string>
 				<key>Id</key>
-				<integer>11</integer>
+				<integer>15</integer>
 				<key>Path</key>
-				<string>layout11.xml.zlib</string>
+				<string>layout15.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -99,39 +99,39 @@
 				<key>Comment</key>
 				<string>InsanelyDeepak  - Realtek ALC887-VD</string>
 				<key>Id</key>
-				<integer>1</integer>
-				<key>Path</key>
-				<string>PlatformsID.xml.zlib</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>InsanelyDeepak  - Realtek ALC887-VD</string>
-				<key>Id</key>
-				<integer>2</integer>
-				<key>Path</key>
-				<string>PlatformsID.xml.zlib</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>InsanelyDeepak  - Realtek ALC887-VD</string>
-				<key>Id</key>
-				<integer>3</integer>
-				<key>Path</key>
-				<string>PlatformsID.xml.zlib</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>InsanelyDeepak  - Realtek ALC887-VD</string>
-				<key>Id</key>
-				<integer>4</integer>
-				<key>Path</key>
-				<string>PlatformsID.xml.zlib</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>InsanelyDeepak  - Realtek ALC887-VD</string>
-				<key>Id</key>
 				<integer>11</integer>
+				<key>Path</key>
+				<string>PlatformsID.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>InsanelyDeepak  - Realtek ALC887-VD</string>
+				<key>Id</key>
+				<integer>12</integer>
+				<key>Path</key>
+				<string>PlatformsID.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>InsanelyDeepak  - Realtek ALC887-VD</string>
+				<key>Id</key>
+				<integer>13</integer>
+				<key>Path</key>
+				<string>PlatformsID.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>InsanelyDeepak  - Realtek ALC887-VD</string>
+				<key>Id</key>
+				<integer>14</integer>
+				<key>Path</key>
+				<string>PlatformsID.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>InsanelyDeepak  - Realtek ALC887-VD</string>
+				<key>Id</key>
+				<integer>15</integer>
 				<key>Path</key>
 				<string>PlatformsID.xml.zlib</string>
 			</dict>
