@@ -13,6 +13,8 @@
 		<key>Layouts</key>
 		<array>
 			<dict>
+				<key>Comment </key>
+				<string>Mirone Laptop Patch</string>
 				<key>Id</key>
 				<integer>3</integer>
 				<key>Path</key>
@@ -22,10 +24,12 @@
 		<key>Platforms</key>
 		<array>
 			<dict>
+				<key>Comment </key>
+				<string>Mirone Laptop Patch</string>
 				<key>Id</key>
 				<integer>3</integer>
 				<key>Path</key>
-				<string>Platforms3.xml.zlib</string>
+				<string>PlatformsM.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>

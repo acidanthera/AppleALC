@@ -13,18 +13,42 @@
 		<key>Layouts</key>
 		<array>
 			<dict>
+				<key>Comment</key>
+				<string>InsanelyDeepak - Realtek ALC889</string>
+				<key>Id</key>
+				<integer>2</integer>
+				<key>Path</key>
+				<string>layout2.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>InsanelyDeepak - Realtek ALC889</string>
+				<key>Id</key>
+				<integer>3</integer>
+				<key>Path</key>
+				<string>layout3.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>InsanelyDeepak - Realtek ALC889</string>
+				<key>Id</key>
+				<integer>4</integer>
+				<key>Path</key>
+				<string>layout4.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Toleda resources by Ukr55</string>
 				<key>Id</key>
 				<integer>1</integer>
-				<key>Comment</key>
-				<string>Ukr55</string>
 				<key>Path</key>
 				<string>layout1.xml.zlib</string>
 			</dict>
 			<dict>
+				<key>Comment</key>
+				<string>Custom by Sergey_Galan</string>
 				<key>Id</key>
 				<integer>12</integer>
-				<key>Comment</key>
-				<string>Sergey_Galan</string>
 				<key>Path</key>
 				<string>layout12.xml.zlib</string>
 			</dict>
@@ -32,18 +56,42 @@
 		<key>Platforms</key>
 		<array>
 			<dict>
-				<key>Id</key>
-				<integer>1</integer>
 				<key>Comment</key>
-				<string>Ukr55</string>
+				<string>InsanelyDeepak - Realtek ALC889</string>
+				<key>Id</key>
+				<integer>2</integer>
 				<key>Path</key>
-				<string>Platforms1.xml.zlib</string>
+				<string>PlatformsID.xml.zlib</string>
 			</dict>
 			<dict>
+				<key>Comment</key>
+				<string>InsanelyDeepak - Realtek ALC889</string>
+				<key>Id</key>
+				<integer>3</integer>
+				<key>Path</key>
+				<string>PlatformsID.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>InsanelyDeepak - Realtek ALC889</string>
+				<key>Id</key>
+				<integer>4</integer>
+				<key>Path</key>
+				<string>PlatformsID.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Toleda resources by Ukr55</string>
+				<key>Id</key>
+				<integer>1</integer>
+				<key>Path</key>
+				<string>PlatformsT.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom by Sergey_Galan</string>
 				<key>Id</key>
 				<integer>12</integer>
-				<key>Comment</key>
-				<string>Sergey_Galan</string>
 				<key>Path</key>
 				<string>Platforms12.xml.zlib</string>
 			</dict>
@@ -55,55 +103,73 @@
 			<key>Count</key>
 			<integer>2</integer>
 			<key>Find</key>
-			<data>ixnUEQ==</data>
+			<data>
+			ixnUEQ==
+			</data>
 			<key>MinKernel</key>
 			<string>13</string>
 			<key>Name</key>
 			<string>AppleHDA</string>
 			<key>Replace</key>
-			<data>iQjsEA==</data>
+			<data>
+			iQjsEA==
+			</data>
 		</dict>
 		<dict>
 			<key>Count</key>
 			<integer>2</integer>
 			<key>Find</key>
-			<data>gxnUEQ==</data>
+			<data>
+			gxnUEQ==
+			</data>
 			<key>MinKernel</key>
 			<string>15</string>
 			<key>Name</key>
 			<string>AppleHDA</string>
 			<key>Replace</key>
-			<data>AAAAAA==</data>
+			<data>
+			AAAAAA==
+			</data>
 		</dict>
 		<dict>
 			<key>Count</key>
 			<integer>1</integer>
 			<key>Find</key>
-			<data>QcaGQwEAAAA=</data>
+			<data>
+			QcaGQwEAAAA=
+			</data>
 			<key>MinKernel</key>
 			<string>13</string>
 			<key>Name</key>
 			<string>AppleHDA</string>
 			<key>Replace</key>
-			<data>QcaGQwEAAAE=</data>
+			<data>
+			QcaGQwEAAAE=
+			</data>
 		</dict>
 		<dict>
 			<key>Count</key>
 			<integer>1</integer>
 			<key>Find</key>
-			<data>QcYGAEiLu2g=</data>
+			<data>
+			QcYGAEiLu2g=
+			</data>
 			<key>MinKernel</key>
 			<string>14</string>
 			<key>Name</key>
 			<string>AppleHDA</string>
 			<key>Replace</key>
-			<data>QcYGAUiLu2g=</data>
+			<data>
+			QcYGAUiLu2g=
+			</data>
 		</dict>
 		<dict>
 			<key>Count</key>
 			<integer>1</integer>
 			<key>Find</key>
-			<data>QcYGAEmLvCQ=</data>
+			<data>
+			QcYGAEmLvCQ=
+			</data>
 			<key>MaxKernel</key>
 			<integer>13</integer>
 			<key>MinKernel</key>
@@ -111,7 +177,9 @@
 			<key>Name</key>
 			<string>AppleHDA</string>
 			<key>Replace</key>
-			<data>QcYGAUmLvCQ=</data>
+			<data>
+			QcYGAUmLvCQ=
+			</data>
 		</dict>
 	</array>
 	<key>Vendor</key>

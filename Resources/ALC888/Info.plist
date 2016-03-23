@@ -8,28 +8,60 @@
 	<integer>2184</integer>
 	<key>CodecName</key>
 	<string>ALC888</string>
-	<key>Revisions</key>
-	<array>
-		<integer>1048833</integer>
-	</array>
 	<key>Files</key>
 	<dict>
 		<key>Layouts</key>
 		<array>
 			<dict>
+				<key>Comment</key>
+				<string>Mirone 3 ports (Pink, Green, Blue)</string>
+				<key>Id</key>
+				<integer>5</integer>
+				<key>Path</key>
+				<string>layout5.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>InsanelyDeepak  8/6 ports (Gray, Black, Orange, Pink, Green, Blue)</string>
 				<key>Id</key>
 				<integer>1</integer>
 				<key>Path</key>
 				<string>layout1.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Mirone 5/6 ports (Gray, Black, Orange, Pink, Green, Blue)</string>
+				<key>Id</key>
+				<integer>7</integer>
+				<key>Path</key>
+				<string>layout7.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
 			<dict>
+				<key>Comment</key>
+				<string>InsanelyDeepak - Realtek ALC888</string>
 				<key>Id</key>
 				<integer>1</integer>
 				<key>Path</key>
-				<string>Platforms.xml.zlib</string>
+				<string>PlatformsID.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Mirone resources</string>
+				<key>Id</key>
+				<integer>5</integer>
+				<key>Path</key>
+				<string>Platforms57.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Mirone resources</string>
+				<key>Id</key>
+				<integer>7</integer>
+				<key>Path</key>
+				<string>Platforms57.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>
@@ -39,7 +71,9 @@
 			<key>Count</key>
 			<integer>1</integer>
 			<key>Find</key>
-			<data>QcYGAEmLvCQ=</data>
+			<data>
+			QcYGAEmLvCQ=
+			</data>
 			<key>MaxKernel</key>
 			<integer>13</integer>
 			<key>MinKernel</key>
@@ -47,56 +81,78 @@
 			<key>Name</key>
 			<string>AppleHDA</string>
 			<key>Replace</key>
-			<data>QcYGAUmLvCQ=</data>
+			<data>
+			QcYGAUmLvCQ=
+			</data>
 		</dict>
 		<dict>
 			<key>Count</key>
 			<integer>1</integer>
 			<key>Find</key>
-			<data>QcYGAEiLu2g=</data>
+			<data>
+			QcYGAEiLu2g=
+			</data>
 			<key>MinKernel</key>
 			<integer>14</integer>
 			<key>Name</key>
 			<string>AppleHDA</string>
 			<key>Replace</key>
-			<data>QcYGAUiLu2g=</data>
+			<data>
+			QcYGAUiLu2g=
+			</data>
 		</dict>
 		<dict>
 			<key>Count</key>
 			<integer>1</integer>
 			<key>Find</key>
-			<data>QcaGQwEAAAA=</data>
+			<data>
+			QcaGQwEAAAA=
+			</data>
 			<key>MinKernel</key>
 			<integer>13</integer>
 			<key>Name</key>
 			<string>AppleHDA</string>
 			<key>Replace</key>
-			<data>QcaGQwEAAAE=</data>
+			<data>
+			QcaGQwEAAAE=
+			</data>
 		</dict>
 		<dict>
 			<key>Count</key>
 			<integer>2</integer>
 			<key>Find</key>
-			<data>ixnUEQ==</data>
+			<data>
+			ixnUEQ==
+			</data>
 			<key>MinKernel</key>
 			<string>13</string>
 			<key>Name</key>
 			<string>AppleHDA</string>
 			<key>Replace</key>
-			<data>iAjsEA==</data>
+			<data>
+			iAjsEA==
+			</data>
 		</dict>
 		<dict>
 			<key>Count</key>
 			<integer>2</integer>
 			<key>Find</key>
-			<data>gxnUEQ==</data>
+			<data>
+			gxnUEQ==
+			</data>
 			<key>MinKernel</key>
 			<string>15</string>
 			<key>Name</key>
 			<string>AppleHDA</string>
 			<key>Replace</key>
-			<data>AAAAAA==</data>
+			<data>
+			AAAAAA==
+			</data>
 		</dict>
+	</array>
+	<key>Revisions</key>
+	<array>
+		<integer>1048833</integer>
 	</array>
 	<key>Vendor</key>
 	<string>Realtek</string>

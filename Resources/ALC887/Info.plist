@@ -14,55 +14,7 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>x-tropic</string>
-				<key>Id</key>
-				<integer>1</integer>
-				<key>Path</key>
-				<string>layout1.xml.zlib</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>InsanelyDeepak - Realtek ALC887VD</string>
-				<key>Id</key>
-				<integer>11</integer>
-				<key>Path</key>
-				<string>layout11.xml.zlib</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>InsanelyDeepak - Realtek ALC887VD</string>
-				<key>Id</key>
-				<integer>12</integer>
-				<key>Path</key>
-				<string>layout12.xml.zlib</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>InsanelyDeepak - Realtek ALC887VD</string>
-				<key>Id</key>
-				<integer>13</integer>
-				<key>Path</key>
-				<string>layout13.xml.zlib</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>InsanelyDeepak - Realtek ALC887VD</string>
-				<key>Id</key>
-				<integer>14</integer>
-				<key>Path</key>
-				<string>layout14.xml.zlib</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>InsanelyDeepak - Realtek ALC887VD</string>
-				<key>Id</key>
-				<integer>15</integer>
-				<key>Path</key>
-				<string>layout15.xml.zlib</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>John98 Mirone resources</string>
+				<string>Mirone 3 ports (Pink, Green, Blue)</string>
 				<key>Id</key>
 				<integer>5</integer>
 				<key>Path</key>
@@ -70,7 +22,55 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Constanta</string>
+				<string>Mirone 5/6 ports (Gray, Black, Orange, Pink, Green, Blue)</string>
+				<key>Id</key>
+				<integer>7</integer>
+				<key>Path</key>
+				<string>layout7.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>InsanelyDeepak  5/6 ports (Gray, Black, Orange, Pink, Green, Blue)</string>
+				<key>Id</key>
+				<integer>1</integer>
+				<key>Path</key>
+				<string>layout1.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>InsanelyDeepak  5/6 ports ( Orange, Pink, Green, Blue) </string>
+				<key>Id</key>
+				<integer>2</integer>
+				<key>Path</key>
+				<string>layout2.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>InsanelyDeepak  6/7 ports (Gray, Black, Orange, Pink, Green, Blue)</string>
+				<key>Id</key>
+				<integer>3</integer>
+				<key>Path</key>
+				<string>layout3.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>InsanelyDeepak  5/6 ports ( Green,Pink, Blue,Orange)</string>
+				<key>Id</key>
+				<integer>4</integer>
+				<key>Path</key>
+				<string>layout4.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>InsanelyDeepak  5/6 ports ( Green,Pink, Blue,Orange)</string>
+				<key>Id</key>
+				<integer>11</integer>
+				<key>Path</key>
+				<string>layout11.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom by Constanta</string>
 				<key>Id</key>
 				<integer>99</integer>
 				<key>Path</key>
@@ -81,63 +81,63 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>x-tropic</string>
-				<key>Id</key>
-				<integer>1</integer>
-				<key>Path</key>
-				<string>Platforms1.xml.zlib</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>InsanelyDeepak - Realtek ALC887VD</string>
-				<key>Id</key>
-				<integer>11</integer>
-				<key>Path</key>
-				<string>Platforms11.xml.zlib</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>InsanelyDeepak - Realtek ALC887VD</string>
-				<key>Id</key>
-				<integer>12</integer>
-				<key>Path</key>
-				<string>Platforms12.xml.zlib</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>InsanelyDeepak - Realtek ALC887VD</string>
-				<key>Id</key>
-				<integer>13</integer>
-				<key>Path</key>
-				<string>Platforms13.xml.zlib</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>InsanelyDeepak - Realtek ALC887VD</string>
-				<key>Id</key>
-				<integer>14</integer>
-				<key>Path</key>
-				<string>Platforms14.xml.zlib</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>InsanelyDeepak - Realtek ALC887VD</string>
-				<key>Id</key>
-				<integer>15</integer>
-				<key>Path</key>
-				<string>Platforms15.xml.zlib</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>John98 Mirone resources</string>
+				<string>Mirone resources</string>
 				<key>Id</key>
 				<integer>5</integer>
 				<key>Path</key>
-				<string>Platforms5.xml.zlib</string>
+				<string>PlatformsM.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Constanta</string>
+				<string>Mirone resources</string>
+				<key>Id</key>
+				<integer>7</integer>
+				<key>Path</key>
+				<string>PlatformsM.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>InsanelyDeepak  - Realtek ALC887-VD</string>
+				<key>Id</key>
+				<integer>1</integer>
+				<key>Path</key>
+				<string>PlatformsID.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>InsanelyDeepak  - Realtek ALC887-VD</string>
+				<key>Id</key>
+				<integer>2</integer>
+				<key>Path</key>
+				<string>PlatformsID.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>InsanelyDeepak  - Realtek ALC887-VD</string>
+				<key>Id</key>
+				<integer>3</integer>
+				<key>Path</key>
+				<string>PlatformsID.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>InsanelyDeepak  - Realtek ALC887-VD</string>
+				<key>Id</key>
+				<integer>4</integer>
+				<key>Path</key>
+				<string>PlatformsID.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>InsanelyDeepak  - Realtek ALC887-VD</string>
+				<key>Id</key>
+				<integer>11</integer>
+				<key>Path</key>
+				<string>PlatformsID.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom by Constanta</string>
 				<key>Id</key>
 				<integer>99</integer>
 				<key>Path</key>

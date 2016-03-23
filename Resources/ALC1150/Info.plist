@@ -2,48 +2,114 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Vendor</key>
-	<string>Realtek</string>
+	<key>Author</key>
+	<string>toleda</string>
 	<key>CodecID</key>
 	<integer>2304</integer>
 	<key>CodecName</key>
 	<string>ALC1150</string>
-	<key>Revisions</key>
-	<array>
-		<integer>1048577</integer>
-	</array>
-	<key>Author</key>
-	<string>toleda</string>
 	<key>Files</key>
 	<dict>
-		<key>Platforms</key>
-		<array>
-			<dict>
-				<key>Id</key>
-				<integer>1</integer>
-				<key>Path</key>
-				<string>Platforms.xml.zlib</string>
-			</dict>
-			<dict>
-				<key>Id</key>
-				<integer>2</integer>
-				<key>Path</key>
-				<string>Platforms.xml.zlib</string>
-			</dict>
-		</array>
 		<key>Layouts</key>
 		<array>
 			<dict>
+				<key>Comment</key>
+				<string>Mirone 3 ports (Pink, Green, Blue)</string>
+				<key>Id</key>
+				<integer>5</integer>
+				<key>Path</key>
+				<string>layout5.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Mirone 5/6 ports (Gray, Black, Orange, Pink, Green, Blue)</string>
+				<key>Id</key>
+				<integer>7</integer>
+				<key>Path</key>
+				<string>layout7.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom by vit9696 (Toleda)</string>
 				<key>Id</key>
 				<integer>1</integer>
 				<key>Path</key>
 				<string>layout1.xml.zlib</string>
 			</dict>
 			<dict>
+				<key>Comment</key>
+				<string>Custom by vit9696 (Toleda)</string>
 				<key>Id</key>
 				<integer>2</integer>
 				<key>Path</key>
 				<string>layout2.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>InsanelyDeepak RealtekALC1150</string>
+				<key>Id</key>
+				<integer>11</integer>
+				<key>Path</key>
+				<string>layout11.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>InsanelyDeepak RealtekALC1150</string>
+				<key>Id</key>
+				<integer>12</integer>
+				<key>Path</key>
+				<string>layout12.xml.zlib</string>
+			</dict>
+		</array>
+		<key>Platforms</key>
+		<array>
+			<dict>
+				<key>Comment</key>
+				<string>Mirone resources</string>
+				<key>Id</key>
+				<integer>5</integer>
+				<key>Path</key>
+				<string>PlatformsM.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Mirone resources</string>
+				<key>Id</key>
+				<integer>7</integer>
+				<key>Path</key>
+				<string>PlatformsM.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom by vit9696 (Toleda)</string>
+				<key>Id</key>
+				<integer>1</integer>
+				<key>Path</key>
+				<string>PlatformsT.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom by vit9696 (Toleda)</string>
+				<key>Id</key>
+				<integer>2</integer>
+				<key>Path</key>
+				<string>PlatformsT.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>InsanelyDeepak RealtekALC1150</string>
+				<key>Id</key>
+				<integer>11</integer>
+				<key>Path</key>
+				<string>PlatformsID.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>InsanelyDeepak RealtekALC1150</string>
+				<key>Id</key>
+				<integer>12</integer>
+				<key>Path</key>
+				<string>PlatformsID.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>
@@ -103,26 +169,40 @@
 			<key>Count</key>
 			<integer>2</integer>
 			<key>Find</key>
-			<data>ixnUEQ==</data>
+			<data>
+			ixnUEQ==
+			</data>
 			<key>MinKernel</key>
 			<string>13</string>
 			<key>Name</key>
 			<string>AppleHDA</string>
 			<key>Replace</key>
-			<data>AAnsEA==</data>
+			<data>
+			AAnsEA==
+			</data>
 		</dict>
 		<dict>
 			<key>Count</key>
 			<integer>2</integer>
 			<key>Find</key>
-			<data>gxnUEQ==</data>
+			<data>
+			gxnUEQ==
+			</data>
 			<key>MinKernel</key>
 			<string>15</string>
 			<key>Name</key>
 			<string>AppleHDA</string>
 			<key>Replace</key>
-			<data>AAAAAA==</data>
+			<data>
+			AAAAAA==
+			</data>
 		</dict>
 	</array>
+	<key>Revisions</key>
+	<array>
+		<integer>1048577</integer>
+	</array>
+	<key>Vendor</key>
+	<string>Realtek</string>
 </dict>
 </plist>

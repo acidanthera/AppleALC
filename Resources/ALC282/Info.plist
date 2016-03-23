@@ -14,7 +14,23 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>ALC282 Asus x200LA</string>
+				<string>Mirone Laptop patch ALC282 v1</string>
+				<key>Id</key>
+				<integer>3</integer>
+				<key>Path</key>
+				<string>layout3.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Mirone Laptop patch ALC282 v2</string>
+				<key>Id</key>
+				<integer>4</integer>
+				<key>Path</key>
+				<string>layout4.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom ALC282 Asus x200LA by S.Mitrofanov</string>
 				<key>Id</key>
 				<integer>86</integer>
 				<key>Path</key>
@@ -25,11 +41,27 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>ALC282 Asus x200LA</string>
+				<string>Mirone resources</string>
+				<key>Id</key>
+				<integer>3</integer>
+				<key>Path</key>
+				<string>PlatformsM3.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Mirone resources</string>
+				<key>Id</key>
+				<integer>4</integer>
+				<key>Path</key>
+				<string>PlatformsM4.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom ALC282 Asus x200LA by S.Mitrofanov</string>
 				<key>Id</key>
 				<integer>86</integer>
 				<key>Path</key>
-				<string>Platforms.xml.zlib</string>
+				<string>Platforms86.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>
@@ -39,37 +71,49 @@
 			<key>Count</key>
 			<integer>2</integer>
 			<key>Find</key>
-			<data>PYQZ1BE=</data>
+			<data>hBnUEQ==</data>
 			<key>MinKernel</key>
 			<string>13</string>
 			<key>Name</key>
 			<string>AppleHDA</string>
 			<key>Replace</key>
-			<data>PYIC7BA=</data>
+			<data>ggLsEA==</data>
 		</dict>
 		<dict>
 			<key>Count</key>
 			<integer>2</integer>
 			<key>Find</key>
-			<data>PYUI7BA=</data>
+			<data>hQjsEA==</data>
 			<key>MinKernel</key>
 			<string>13</string>
 			<key>Name</key>
 			<string>AppleHDA</string>
 			<key>Replace</key>
-			<data>PQAAAAA=</data>
+			<data>AAAAAA==</data>
 		</dict>
 		<dict>
 			<key>Count</key>
 			<integer>2</integer>
 			<key>Find</key>
-			<data>PYMZ1BE=</data>
+			<data>hAjsEA==</data>
+			<key>MinKernel</key>
+			<string>13</string>
+			<key>Name</key>
+			<string>AppleHDA</string>
+			<key>Replace</key>
+			<data>AAAAAA==</data>
+		</dict>
+		<dict>
+			<key>Count</key>
+			<integer>2</integer>
+			<key>Find</key>
+			<data>gxnUEQ==</data>
 			<key>MinKernel</key>
 			<string>15</string>
 			<key>Name</key>
 			<string>AppleHDA</string>
 			<key>Replace</key>
-			<data>PQAAAAA=</data>
+			<data>AAAAAA==</data>
 		</dict>
 	</array>
 	<key>Vendor</key>
