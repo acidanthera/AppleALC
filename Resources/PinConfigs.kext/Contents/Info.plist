@@ -30,7 +30,9 @@
 			<array>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - ADI-1988B</string>
 					<key>CodecID</key>
@@ -66,7 +68,14 @@
 					<key>Comment</key>
 					<string>Custom AD1988B by Rodion</string>
 					<key>ConfigData</key>
-					<data>AXccIAF3HZABdx6gAXcfkQFHHCEBRx2QAUcegQFHHwIBJxwQAScdQAEnHhEBJx8BAkccEQJHHWACRx4RAkcfAQFnHBIBZx0QAWceEQFnHwECVxwUAlcdIAJXHhECVx8BAccc8AHHHQABxx4AAccfQAE3HPABNx0AATceAAE3H0ABpxzwAacdAAGnHgABpx9AAYcc8AGHHQABhx4AAYcfQA==</data>
+					<data>
+					AXccIAF3HZABdx6gAXcfkQFHHCEBRx2QAUce
+					gQFHHwIBJxwQAScdQAEnHhEBJx8BAkccEQJH
+					HWACRx4RAkcfAQFnHBIBZx0QAWceEQFnHwEC
+					VxwUAlcdIAJXHhECVx8BAccc8AHHHQABxx4A
+					AccfQAE3HPABNx0AATceAAE3H0ABpxzwAacd
+					AAGnHgABpx9AAYcc8AGHHQABhx4AAYcfQA==
+					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
@@ -74,7 +83,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - ADI-2000B</string>
 					<key>CodecID</key>
@@ -108,7 +119,11 @@
 					<key>CodecID</key>
 					<integer>283902569</integer>
 					<key>ConfigData</key>
-					<data>AYccIAGHHRABhx6BAYcfBAGXHBABlx0BAZceoAGXH5kBtxxAAbcdAQG3HhMBtx+ZAhccUAIXHRACFx4hAhcfBAFHDAI=</data>
+					<data>
+					AYccIAGHHRABhx6BAYcfBAGXHBABlx0BAZce
+					oAGXH5kBtxxAAbcdAQG3HhMBtx+ZAhccUAIX
+					HRACFx4hAhcfBAFHDAI=
+					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
@@ -116,13 +131,19 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Realtek ALC269-VB v1</string>
 					<key>CodecID</key>
 					<integer>283902569</integer>
 					<key>ConfigData</key>
-					<data>AUccQAFHHQEBRx4TAUcfmQGHHCABhx0QAYcegQGHHwMBlxwQAZcdAQGXHqABlx+ZAhccUAIXHRACFx4hAhcfAwFHDAI=</data>
+					<data>
+					AUccQAFHHQEBRx4TAUcfmQGHHCABhx0QAYce
+					gQGHHwMBlxwQAZcdAQGXHqABlx+ZAhccUAIX
+					HRACFx4hAhcfAwFHDAI=
+					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
@@ -130,7 +151,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>ALC269</string>
 					<key>CodecID</key>
@@ -138,7 +161,15 @@
 					<key>Comment</key>
 					<string>Mirone - Realtek ALC269 for Asus K53SJ, Asus G73s</string>
 					<key>ConfigData</key>
-					<data>AScc8AEnHQABJx4AAScfQAFHHBABRx0BAUceEwFHH5ABdxxQAXcdAQF3HhMBdx+QAYccIAGHHZABhx6BAYcfAwGXHDABlx0BAZceoAGXH5ABpxzwAacdAAGnHgABpx9AAbcc8AG3HQABtx4AAbcfQAHXHPAB1x0AAdceAAHXH0AB5xzwAecdAAHnHgAB5x9AAhccQAIXHRACFx4hAhcfAwFHDAI=</data>
+					<data>
+					AScc8AEnHQABJx4AAScfQAFHHBABRx0BAUce
+					EwFHH5ABdxxQAXcdAQF3HhMBdx+QAYccIAGH
+					HZABhx6BAYcfAwGXHDABlx0BAZceoAGXH5AB
+					pxzwAacdAAGnHgABpx9AAbcc8AG3HQABtx4A
+					AbcfQAHXHPAB1x0AAdceAAHXH0AB5xzwAecd
+					AAHnHgAB5x9AAhccQAIXHRACFx4hAhcfAwFH
+					DAI=
+					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
@@ -146,13 +177,19 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Realtek ALC269-VB v2</string>
 					<key>CodecID</key>
 					<integer>283902569</integer>
 					<key>ConfigData</key>
-					<data>AUccEAFHHQABRx4TAUcfkAGHHCABhx2QAYcegQGHHwIBtxwwAbcdEAG3HqABtx+QAhccQAIXHRACFx4hAhcfAgFHDAI=</data>
+					<data>
+					AUccEAFHHQABRx4TAUcfkAGHHCABhx2QAYce
+					gQGHHwIBtxwwAbcdEAG3HqABtx+QAhccQAIX
+					HRACFx4hAhcfAgFHDAI=
+					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
@@ -160,13 +197,19 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Realtek ALC269-VB v3</string>
 					<key>CodecID</key>
 					<integer>283902569</integer>
 					<key>ConfigData</key>
-					<data>ASccEAEnHQABJx6gAScfkAFHHCABRx0AAUceEwFHH5ABhxwwAYcdEAGHHoEBhx8AAhccUAIXHRACFx4hAhcfAAFHDAI=</data>
+					<data>
+					ASccEAEnHQABJx6gAScfkAFHHCABRx0AAUce
+					EwFHH5ABhxwwAYcdEAGHHoEBhx8AAhccUAIX
+					HRACFx4hAhcfAAFHDAI=
+					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
@@ -174,13 +217,19 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Realtek ALC269-VC v1</string>
 					<key>CodecID</key>
 					<integer>283902569</integer>
 					<key>ConfigData</key>
-					<data>AUccEAFHHQABRx4TAUcfkAGHHDABhx0QAYcegQGHHwABJxxAAScdAAEnHqABJx+QAVccUAFXHRABVx4hAVcfAAFHDAI=</data>
+					<data>
+					AUccEAFHHQABRx4TAUcfkAGHHDABhx0QAYce
+					gQGHHwABJxxAAScdAAEnHqABJx+QAVccUAFX
+					HRABVx4hAVcfAAFHDAI=
+					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
@@ -188,13 +237,19 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Realtek ALC269-VC v2</string>
 					<key>CodecID</key>
 					<integer>283902569</integer>
 					<key>ConfigData</key>
-					<data>ASccEAEnHQABJx6mAScfkAFXHCABVx0QAVceIQFXHwABhxwwAYcdEAGHHoEBhx8CAbccQAG3HQABtx4XAbcfkAG3DAI=</data>
+					<data>
+					ASccEAEnHQABJx6mAScfkAFXHCABVx0QAVce
+					IQFXHwABhxwwAYcdEAGHHoEBhx8CAbccQAG3
+					HQABtx4XAbcfkAG3DAI=
+					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
@@ -202,13 +257,19 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Realtek ALC269VC-v3</string>
 					<key>CodecID</key>
 					<integer>283902569</integer>
 					<key>ConfigData</key>
-					<data>ASccEAEnHQABJx6mAScfkAFHHCABRx0AAUceFwFHH5ABVxwwAVcdEAFXHiEBVx8AAYccQAGHHZABhx6BAYcfAgFHDAI=</data>
+					<data>
+					ASccEAEnHQABJx6mAScfkAFHHCABRx0AAUce
+					FwFHH5ABVxwwAVcdEAFXHiEBVx8AAYccQAGH
+					HZABhx6BAYcfAgFHDAI=
+					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
@@ -216,7 +277,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>ALC269</string>
 					<key>CodecID</key>
@@ -224,7 +287,15 @@
 					<key>Comment</key>
 					<string>Custom ALC269 for Acer Aspire by Andrey1970</string>
 					<key>ConfigData</key>
-					<data>AScc8AEnHQABJx4AAScfQAFHHBABRx0BAUceFwFHH5ABRwwCAXcc8AF3HQABdx4AAXcfQAGHHPABhx0AAYceAAGHH0ABlxzwAZcdAAGXHgABlx9AAacc8AGnHQABpx4AAacfQAG3HCABtx0BAbceoAG3H5AB1xzwAdcdAAHXHgAB1x9AAecc8AHnHQAB5x4AAecfQAIXHDACFx0QAhceIQIXHwMBhxwgAYcdkAGHHoEBhx8D</data>
+					<data>
+					AScc8AEnHQABJx4AAScfQAFHHBABRx0BAUce
+					FwFHH5ABRwwCAXcc8AF3HQABdx4AAXcfQAGH
+					HPABhx0AAYceAAGHH0ABlxzwAZcdAAGXHgAB
+					lx9AAacc8AGnHQABpx4AAacfQAG3HCABtx0B
+					AbceoAG3H5AB1xzwAdcdAAHXHgAB1x9AAecc
+					8AHnHQAB5x4AAecfQAIXHDACFx0QAhceIQIX
+					HwMBhxwgAYcdkAGHHoEBhx8D
+					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
@@ -232,7 +303,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>ALC269VC</string>
 					<key>CodecID</key>
@@ -240,7 +313,11 @@
 					<key>Comment</key>
 					<string>ALC269VC for Lenovo Z580, John</string>
 					<key>ConfigData</key>
-					<data>AVccQAFXHRABVx4hAVcfAwGHHCABhx0QAYcegQGHHwMBlxwwAZcdAQGXHqABlx+QAbccEAG3HQEBtx4XAbcfkAFXDAI=</data>
+					<data>
+					AVccQAFXHRABVx4hAVcfAwGHHCABhx0QAYce
+					gQGHHwMBlxwwAZcdAQGXHqABlx+QAbccEAG3
+					HQEBtx4XAbcfkAFXDAI=
+					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
@@ -248,13 +325,19 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>CodecID</key>
 					<integer>283902569</integer>
 					<key>Comment</key>
 					<string>ALC269VC for Lenovo V580, ar4er</string>
 					<key>ConfigData</key>
-					<data>ASccEAEnHQABJx6mAScfkAFHHCABRx0AAUceFwFHH5ABVxwwAVcdEAFXHiEBVx8AAYccQAGHHZABhx6BAYcfAgFHDAI=</data>
+					<data>
+					ASccEAEnHQABJx6mAScfkAFHHCABRx0AAUce
+					FwFHH5ABVxwwAVcdEAFXHiEBVx8AAYccQAGH
+					HZABhx6BAYcfAgFHDAI=
+					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
@@ -262,13 +345,18 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Realtek ALC270 v1</string>
 					<key>CodecID</key>
 					<integer>283902576</integer>
 					<key>ConfigData</key>
-					<data>AUccEAFHHQABRx4TAUcfkAGXHCABlx0AAZceoAGXH5ACFxwwAhcdEAIXHiECFx8AAUcMAg==</data>
+					<data>
+					AUccEAFHHQABRx4TAUcfkAGXHCABlx0AAZce
+					oAGXH5ACFxwwAhcdEAIXHiECFx8AAUcMAg==
+					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
@@ -276,13 +364,18 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Realtek ALC270 v2</string>
 					<key>CodecID</key>
 					<integer>283902576</integer>
 					<key>ConfigData</key>
-					<data>ASccEAEnHQABJx6gAScfkAFHHCABRx0AAUceEwFHH5ACFxwwAhcdEAIXHiECFx8BAUcMAg==</data>
+					<data>
+					ASccEAEnHQABJx6gAScfkAFHHCABRx0AAUce
+					EwFHH5ACFxwwAhcdEAIXHiECFx8BAUcMAg==
+					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
@@ -290,7 +383,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>ALC270</string>
 					<key>CodecID</key>
@@ -298,7 +393,15 @@
 					<key>Comment</key>
 					<string>ALC270 for Asus Laptop with alternative microphone</string>
 					<key>ConfigData</key>
-					<data>ASccEAEnHQEBJx6mAScfkAFHHCABRx0BAUceEwFHH5ABdxzwAXcdAAF3HgABdx9AAYccMAGHHRABhx6BAYcfAgGXHPABlx0AAZceAAGXH0ABpxzwAacdAAGnHgABpx9AAbcc8AG3HQABtx4AAbcfQAHXHPAB1x0AAdceAAHXH0AB5xzwAecdAAHnHgAB5x9AAhccQAIXHRACFx4hAhcfAgFHDAI=</data>
+					<data>
+					ASccEAEnHQEBJx6mAScfkAFHHCABRx0BAUce
+					EwFHH5ABdxzwAXcdAAF3HgABdx9AAYccMAGH
+					HRABhx6BAYcfAgGXHPABlx0AAZceAAGXH0AB
+					pxzwAacdAAGnHgABpx9AAbcc8AG3HQABtx4A
+					AbcfQAHXHPAB1x0AAdceAAHXH0AB5xzwAecd
+					AAHnHgAB5x9AAhccQAIXHRACFx4hAhcfAgFH
+					DAI=
+					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
@@ -306,7 +409,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>ALC270</string>
 					<key>CodecID</key>
@@ -314,7 +419,15 @@
 					<key>Comment</key>
 					<string>ALC270 for Asus Laptop</string>
 					<key>ConfigData</key>
-					<data>AScc8AEnHQABJx4AAScfQAFHHBABRx0BAUceFwFHH5ABdxzwAXcdAAF3HgABdx9AAYccIAGHHRABhx6BAYcfBAGXHDABlx0BAZceoAGXH5ABpxzwAacdAAGnHgABpx9AAbcc8AG3HQABtx4AAbcfQAHXHPAB1x0AAdceAAHXH0AB5xzwAecdAAHnHgAB5x9AAhccIAIXHRACFx4hAhcfBAFHDAI=</data>
+					<data>
+					AScc8AEnHQABJx4AAScfQAFHHBABRx0BAUce
+					FwFHH5ABdxzwAXcdAAF3HgABdx9AAYccIAGH
+					HRABhx6BAYcfBAGXHDABlx0BAZceoAGXH5AB
+					pxzwAacdAAGnHgABpx9AAbcc8AG3HQABtx4A
+					AbcfQAHXHPAB1x0AAdceAAHXH0AB5xzwAecd
+					AAHnHgAB5x9AAhccIAIXHRACFx4hAhcfBAFH
+					DAI=
+					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
@@ -322,13 +435,19 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Realtek ALC282_v1</string>
 					<key>CodecID</key>
 					<integer>283902594</integer>
 					<key>ConfigData</key>
-					<data>ASccEAEnHQABJx6gAScfmQFHHCABRx0AAUceEwGXHDABlx0QAZceiwGXHwABRx+ZAhccUAIXHRACFx4rAhcfAQFHDAICFwwC</data>
+					<data>
+					ASccEAEnHQABJx6gAScfmQFHHCABRx0AAUce
+					EwGXHDABlx0QAZceiwGXHwABRx+ZAhccUAIX
+					HRACFx4rAhcfAQFHDAICFwwC
+					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
@@ -336,13 +455,20 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Realtek ALC282_v2</string>
 					<key>CodecID</key>
 					<integer>283902594</integer>
 					<key>ConfigData</key>
-					<data>ASccQAEnHQABJx6gAScfkAFHHBABRx0AAUceFwFHH5ABhxwwAYcdEAGHHoEBhx8AAeccIAHnHRAB5x5EAecfAAIXHFACFx0QAhceIQIXHwABRwwC</data>
+					<data>
+					ASccQAEnHQABJx6gAScfkAFHHBABRx0AAUce
+					FwFHH5ABhxwwAYcdEAGHHoEBhx8AAeccIAHn
+					HRAB5x5EAecfAAIXHFACFx0QAhceIQIXHwAB
+					RwwC
+					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
@@ -350,13 +476,23 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>CodecID</key>
 					<integer>283902594</integer>
 					<key>Comment</key>
 					<string>Custom ALC282 for Asus x200la</string>
 					<key>ConfigData</key>
-					<data>ASccEAEnHQABJx6BAScfAAFHHCABRx0BAUceEAFHH5kBdxzwAXcdAAF3HgABdx9AAYcc8AGHHQABhx4AAYcfQAGXHDABlx0BAZcepgGXH5kBpxzwAacdAAGnHgABpx9AAbcc8AG3HQABtx4AAbcfQAHXHPAB1x0AAdceAAHXH0AB5xzwAecdAAHnHgAB5x9AAhccUAIXHUACFx4rAhcfAAFHDAICFwwC</data>
+					<data>
+					ASccEAEnHQABJx6BAScfAAFHHCABRx0BAUce
+					EAFHH5kBdxzwAXcdAAF3HgABdx9AAYcc8AGH
+					HQABhx4AAYcfQAGXHDABlx0BAZcepgGXH5kB
+					pxzwAacdAAGnHgABpx9AAbcc8AG3HQABtx4A
+					AbcfQAHXHPAB1x0AAdceAAHXH0AB5xzwAecd
+					AAHnHgAB5x9AAhccUAIXHUACFx4rAhcfAAFH
+					DAICFwwC
+					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
@@ -364,13 +500,20 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Realtek ALC662</string>
 					<key>CodecID</key>
 					<integer>283903586</integer>
 					<key>ConfigData</key>
-					<data>AUccEAFHHUABRx4RAUcfkAGHHCABhx2QAYceoAGHH5AB5xwwAecdYQHnHksB5x8BAaccQAGnHTABpx6BAacfAQG3HFABtx1AAbceIQG3HwEBlxxgAZcdkAGXHoEBlx8C</data>
+					<data>
+					AUccEAFHHUABRx4RAUcfkAGHHCABhx2QAYce
+					oAGHH5AB5xwwAecdYQHnHksB5x8BAaccQAGn
+					HTABpx6BAacfAQG3HFABtx1AAbceIQG3HwEB
+					lxxgAZcdkAGXHoEBlx8C
+					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
@@ -378,13 +521,22 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Realtek ALC662</string>
 					<key>CodecID</key>
 					<integer>283903586</integer>
 					<key>ConfigData</key>
-					<data>AUccEAFHHUABRx4RAUcfAQFXHCABVx0QAVceAQFXHwEBZxwwAWcdYAFnHgEBZx8BAXccQAF3HSABdx4BAXcfAQGHHFABhx2QAYceoAGHH5ABlxxgAZcdkAGXHoEBlx8CAacccAGnHTABpx6BAacfAQG3HIABtx1AAbceIQG3HwIB5xyQAecdYAHnHkUB5x8B</data>
+					<data>
+					AUccEAFHHUABRx4RAUcfAQFXHCABVx0QAVce
+					AQFXHwEBZxwwAWcdYAFnHgEBZx8BAXccQAF3
+					HSABdx4BAXcfAQGHHFABhx2QAYceoAGHH5AB
+					lxxgAZcdkAGXHoEBlx8CAacccAGnHTABpx6B
+					AacfAQG3HIABtx1AAbceIQG3HwIB5xyQAecd
+					YAHnHkUB5x8B
+					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
@@ -392,161 +544,22 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
-					<string>Mirone - Realtek ALC663</string>
+					<string>InsanelyDeepak - Realtek ALC662 </string>
 					<key>CodecID</key>
-					<integer>283903587</integer>
+					<integer>283903586</integer>
 					<key>ConfigData</key>
-					<data>ASccEAEnHQABJx6gAScfkAFHHCABRx0AAUceEwFHH5ACFxwwAhcdEAIXHiECFx8CAUcMAg==</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>3</integer>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
-					<key>Codec</key>
-					<string>Mirone - Realtek ALC663_V2</string>
-					<key>CodecID</key>
-					<integer>283903587</integer>
-					<key>ConfigData</key>
-					<data>AUccEAFHHQABRx4TAUcfkAGHHCABhx0QAYcegQGHHwIBlxwwAZcdAAGXHqABlx+QAdccQAHXHYAB1x4FAdcfQAHnHFAB5x0QAeceRQHnHwACFxxgAhcdEAIXHiECFx8BAUcMAg==</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>4</integer>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
-					<key>Codec</key>
-					<string>ALC663</string>
-					<key>CodecID</key>
-					<integer>283903587</integer>
-					<key>Comment</key>
-					<string>Custom ALC663 for Asus N56/76 by m-dudarev</string>
-					<key>ConfigData</key>
-					<data>AZccEAGXHQABlx6gAZcfkAGHHCABhx0QAYcegQGHHwIBRxwwAUcdAAFHHhABRx+QAUcMAgIXHEACFx0QAhceIQIXHwIBFxzwARcdAAEXHgABFx9AAecc8AHnHQAB5x4AAecfQA==</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>28</integer>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
-					<key>CodecID</key>
-					<integer>283903592</integer>
-					<key>Comment</key>
-					<string>ALC668 Mirone Laptop Patch</string>
-					<key>ConfigData</key>
-					<data>ABJxwQAScdAAEnHqABJx+QAUccIAFHHQABRx4XAUcfkAFXHDABVx0QAVceIQFXHwEBZxxAAWcdAAFnHgABZx9AAbccUAG3HRABtx6BAbcfAgHXHGAB1x0AAdcewAHXH0ABRwwA==</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>3</integer>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
-					<key>Codec</key>
-					<string>Mirone - Realtek ALC882</string>
-					<key>CodecID</key>
-					<integer>283904130</integer>
-					<key>ConfigData</key>
-					<data>AUccEAFHHUABRx4RAUcfAQGHHFABhx2QAYceoAGHH5ABlxxgAZcdkAGXHoEBlx8CAacccAGnHTABpx6BAacfAQG3HIABtx1AAbceIQG3HwEB5xyQAecd4AHnHkUB5x8B</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>5</integer>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
-					<key>Codec</key>
-					<string>Mirone - Realtek ALC882</string>
-					<key>CodecID</key>
-					<integer>283904130</integer>
-					<key>ConfigData</key>
-					<data>AUccEAFHHUABRx4RAUcfAQFXHCABVx0QAVceAQFXHwEBZxwwAWcdYAFnHgEBZx8BAXccQAF3HSABdx4BAXcfAQGHHFABhx2QAYceoAGHH5ABlxxgAZcdkAGXHoEBlx8CAacccAGnHTABpx6BAacfAQG3HIABtx1AAbceIQG3HwIB5xyQAecdYAHnHkUB5x8B</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>7</integer>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
-					<key>Codec</key>
-					<string>ALC883</string>
-					<key>CodecID</key>
-					<integer>283904131</integer>
-					<key>Comment</key>
-					<string>Mirone - Realtek ALC883 by Andrey1970</string>
-					<key>ConfigData</key>
-					<data>AUccEAFHHUABRx4RAUcfAQFXHCABVx0QAVceAQFXHwEBZxwwAWcdYAFnHgEBZx8BAXccQAF3HSABdx4BAXcfAQGHHFABhx2QAYceoAGHH5ABlxxgAZcdkAGXHoEBlx8CAacccAGnHTABpx6BAacfAQG3HIABtx1AAbceIQG3HwIB5xyQAecdYAHnHkUB5x8B</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>7</integer>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
-					<key>Codec</key>
-					<string>ALC885</string>
-					<key>CodecID</key>
-					<integer>283904133</integer>
-					<key>Comment</key>
-					<string>Custom ALC885 by alex1960</string>
-					<key>ConfigData</key>
-					<data>IUccECFHHUAhRx4RIUcfASFXHCAhVx0QIVceASFXHwEhZxwwIWcdYCFnHgEhZx8BIXcc8CF3HQAhdx4AIXcfQCGHHEAhhx2QIYceoCGHH5AhlxxgIZcdkCGXHoEhlx8CIaccUCGnHTAhpx6BIacfASG3HHAhtx1AIbceISG3HwIh5xyQIecdYSHnHksh5x8BIfccoCH3HQEh9x7LIfcfASEXHPAhFx0AIRceACEXH0A=</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>1</integer>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
-					<key>Codec</key>
-					<string>Mirone - Realtek ALC887-VD</string>
-					<key>CodecID</key>
-					<integer>283904135</integer>
-					<key>ConfigData</key>
-					<data>AUccEAFHHUABRx4RAUcfAQGHHFABhx2QAYceoAGHH5ABlxxgAZcdkAGXHoEBlx8CAacccAGnHTABpx6BAacfAQG3HIABtx1AAbceIQG3HwIB5xyQAecdYAHnHkUB5x8BAUcMAg==</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>5</integer>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
-					<key>Codec</key>
-					<string>Mirone - Realtek ALC887-VD</string>
-					<key>CodecID</key>
-					<integer>283904135</integer>
-					<key>ConfigData</key>
-					<data>AUccEAFHHUABRx4RAUcfAQFXHCABVx0QAVceAQFXHwEBZxwwAWcdYAFnHgEBZx8BAXccQAF3HSABdx4BAXcfAQGHHFABhx2QAYceoAGHH5ABlxxgAZcdkAGXHoEBlx8CAacccAGnHTABpx6BAacfAQG3HIABtx1AAbceIQG3HwIB5xyQAecdYAHnHkUB5x8BAUcMAg==</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>7</integer>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
-					<key>Codec</key>
-					<string>Realtek ALC887-VD</string>
-					<key>CodecID</key>
-					<integer>283904135</integer>
-					<key>Comment</key>
-					<string>InsanelyDeepak RealtekALC</string>
-					<key>ConfigData</key>
-					<data>IUccECFHHUAhRx4RIUcfASG3HCAhtx1AIbceISG3HwIhpxwwIacdMCGnHoEhpx8BIYccUCGHHZAhhx6hIYcfkCGXHGAhlx2QIZcegSGXHwIh5xyQIecdYCHnHkUh5x8B</data>
+					<data>
+					IUccECFHHUAhRx4RIUcfASFXHCAhVx0QIVce
+					ASFXHwEhZxwwIWcdYCFnHgEhZx8BIXccQCF3
+					HSAhdx4BIXcfASGHHFAhhx2QIYceoCGHH5Ah
+					lxxgIZcdkCGXHoEhlx8CIacccCGnHTAhpx6B
+					IacfASG3HIAhtx1AIbceISG3HwIh5xyQIecd
+					YCHnHkUh5x8B
+					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
@@ -554,15 +567,20 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
-					<string>Realtek ALC887-VD</string>
+					<string>InsanelyDeepak - Realtek ALC662 </string>
 					<key>CodecID</key>
-					<integer>283904135</integer>
-					<key>Comment</key>
-					<string>InsanelyDeepak RealtekALC</string>
+					<integer>283903586</integer>
 					<key>ConfigData</key>
-					<data>IUccECFHHUAhRx4RIUcfkCFXHPAhVx0AIVceACFXH0AhZxzwIWcdACFnHgAhZx9AIXcc8CF3HQAhdx4AIXcfQCGHHEAhhx1gIYceASGHHwEhlxxgIZcdkCGXHqAhlx+QIaccUCGnHRAhpx4BIacfASG3HHAhtx1AIbceISG3HwIh5xyQIecdYSHnHksh5x8BIfcc8CH3HQAh9x4AIfcfQCEXHPAhFx0AIRceACEXH0A=</data>
+					<data>
+					IUccECFHHUAhRx4RIUcfkCGHHCAhhx2QIYce
+					oCGHH5Ah5xwwIecdYSHnHksh5x8BIaccQCGn
+					HTAhpx6BIacfASG3HFAhtx1AIbceISG3HwEh
+					lxxgIZcdkCGXHoEhlx8C
+					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
@@ -570,15 +588,20 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
-					<string>Realtek ALC887-VD</string>
+					<string>InsanelyDeepak - Realtek ALC662 v2</string>
 					<key>CodecID</key>
-					<integer>283904135</integer>
-					<key>Comment</key>
-					<string>InsanelyDeepak RealtekALC</string>
+					<integer>283903586</integer>
 					<key>ConfigData</key>
-					<data>IUccECFHHUAhRx4RIUcfkCFXHCAhVx0QIVceASFXHwEhZxzwIWcdACFnHgAhZx9AIXcc8CF3HQAhdx4AIXcfQCGHHEAhhx2QIYceoCGHH5AhlxxgIZcdkCGXHoEhlx8CIaccUCGnHTAhpx6BIacfASG3HHAhtx1AIbceISG3HwIh5xyQIecdYSHnHksh5x8BIfcc8CH3HQAh9x4AIfcfQCEXHPAhFx0AIRceACEXH0A=</data>
+					<data>
+					AUccEAFHHUABRx4RAUcfkAGHHCABhx2QAYce
+					oAGHH5AB5xwwAecdYQHnHksB5x8BAaccQAGn
+					HTABpx6BAacfAQG3HFABtx1AAbceIQG3HwEB
+					lxxgAZcdkAGXHoEBlx8C
+					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
@@ -586,15 +609,20 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
-					<string>Realtek ALC887-VD</string>
+					<string>InsanelyDeepak - Realtek ALC662 </string>
 					<key>CodecID</key>
-					<integer>283904135</integer>
-					<key>Comment</key>
-					<string>InsanelyDeepak RealtekALC</string>
+					<integer>283903586</integer>
 					<key>ConfigData</key>
-					<data>ARcc8AEXHQABFx4AARcfQAEnHPABJx0AASceAAEnH0ABRxxAAUcdQAFHHhEBRx8BAVcc8AFXHQABVx4AAVcfQAFnHPABZx0AAWceAAFnH0ABdxzwAXcdAAF3HgABdx9AAYccEAGHHZABhx6gAYcfkAGXHPABlx0AAZceAAGXH0ABpxwgAacdMAGnHoEBpx8CAbccUAG3HUABtx4hAbcfAgHnHHAB5x1hAeceRQHnHwIB9xzwAfcdAAH3HgAB9x9A</data>
+					<data>
+					IUccECFHHUAhRx4RIUcfASGHHCAhhx2QIYce
+					oCGHH5AhlxxgIZcdkCGXHqEhlx8CIaccQCGn
+					HTAhpx6BIacfASG3HFAhtx1AIbceISG3HwIh
+					5xwwIecdYSHnHksh5x8B
+					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
@@ -602,43 +630,104 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
-					<string>Realtek ALC887-VD</string>
+					<string>Mirone - Realtek ALC663</string>
 					<key>CodecID</key>
-					<integer>283904135</integer>
+					<integer>283903587</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccEAEnHQABJx6gAScfkAFHHCABRx0AAUce
+					EwFHH5ACFxwwAhcdEAIXHiECFx8CAUcMAg==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>Mirone - Realtek ALC663_V2</string>
+					<key>CodecID</key>
+					<integer>283903587</integer>
+					<key>ConfigData</key>
+					<data>
+					AUccEAFHHQABRx4TAUcfkAGHHCABhx0QAYce
+					gQGHHwIBlxwwAZcdAAGXHqABlx+QAdccQAHX
+					HYAB1x4FAdcfQAHnHFAB5x0QAeceRQHnHwAC
+					FxxgAhcdEAIXHiECFx8BAUcMAg==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>4</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>ALC663</string>
+					<key>CodecID</key>
+					<integer>283903587</integer>
 					<key>Comment</key>
-					<string>InsanelyDeepak RealtekALC</string>
+					<string>Custom ALC663 for Asus N56/76 by m-dudarev</string>
 					<key>ConfigData</key>
-					<data>AUccEAFHHUABRx4RAUcfAQGHHFABhx2QAYceoAGHH5ABlxxgAZcdkAGXHoEBlx8CAacccAGnHTABpx6BAacfAQG3HIABtx1AAbceIQG3HwIB5xyQAecdYAHnHkUB5x8B</data>
+					<data>
+					AZccEAGXHQABlx6gAZcfkAGHHCABhx0QAYce
+					gQGHHwIBRxwwAUcdAAFHHhABRx+QAUcMAgIX
+					HEACFx0QAhceIQIXHwIBFxzwARcdAAEXHgAB
+					Fx9AAecc8AHnHQAB5x4AAecfQA==
+					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
-					<integer>15</integer>
+					<integer>28</integer>
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
-					<key>Codec</key>
-					<string>Custom Realtek ALC887-VD by Constanta</string>
+					<data>
+					AwAAAA==
+					</data>
 					<key>CodecID</key>
-					<integer>283904135</integer>
+					<integer>283903592</integer>
+					<key>Comment</key>
+					<string>ALC668 Mirone Laptop Patch</string>
 					<key>ConfigData</key>
-					<data>IUccECFHHUAhRx4RIUcfASGHHFAhhx2QIYceoCGHH5AhlxxgIZcdkCGXHoEhlx8CIacccCGnHTAhpx6BIacfASG3HIAhtx1AIbceISG3HwIh5xyQIecdYCHnHkUh5x8B</data>
+					<data>
+					ABJxwQAScdAAEnHqABJx+QAUccIAFHHQABRx
+					4XAUcfkAFXHDABVx0QAVceIQFXHwEBZxxAAW
+					cdAAFnHgABZx9AAbccUAG3HRABtx6BAbcfAg
+					HXHGAB1x0AAdcewAHXH0ABRwwA==
+					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
-					<integer>99</integer>
+					<integer>3</integer>
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
-					<string>Mirone - Realtek ALC888 3 ports (Pink, Green, Blue)</string>
+					<string>Mirone - Realtek ALC882</string>
 					<key>CodecID</key>
-					<integer>283904136</integer>
+					<integer>283904130</integer>
 					<key>ConfigData</key>
-					<data>AUccEAFHHUABRx4RAUcfAQGHHFABhx2QAYceoAGHH5ABlxxgAZcdkAGXHoEBlx8CAacccAGnHTABpx6BAacfAQG3HIABtx1AAbceIQG3HwEB5xyQAecd4AHnHkUB5x8B</data>
+					<data>
+					AUccEAFHHUABRx4RAUcfAQGHHFABhx2QAYce
+					oAGHH5ABlxxgAZcdkAGXHoEBlx8CAacccAGn
+					HTABpx6BAacfAQG3HIABtx1AAbceIQG3HwEB
+					5xyQAecd4AHnHkUB5x8B
+					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
@@ -646,13 +735,355 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>Mirone - Realtek ALC882</string>
+					<key>CodecID</key>
+					<integer>283904130</integer>
+					<key>ConfigData</key>
+					<data>
+					AUccEAFHHUABRx4RAUcfAQFXHCABVx0QAVce
+					AQFXHwEBZxwwAWcdYAFnHgEBZx8BAXccQAF3
+					HSABdx4BAXcfAQGHHFABhx2QAYceoAGHH5AB
+					lxxgAZcdkAGXHoEBlx8CAacccAGnHTABpx6B
+					AacfAQG3HIABtx1AAbceIQG3HwIB5xyQAecd
+					YAHnHkUB5x8B
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>7</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>ALC883</string>
+					<key>CodecID</key>
+					<integer>283904131</integer>
+					<key>Comment</key>
+					<string>Mirone - Realtek ALC883 by Andrey1970</string>
+					<key>ConfigData</key>
+					<data>
+					AUccEAFHHUABRx4RAUcfAQFXHCABVx0QAVce
+					AQFXHwEBZxwwAWcdYAFnHgEBZx8BAXccQAF3
+					HSABdx4BAXcfAQGHHFABhx2QAYceoAGHH5AB
+					lxxgAZcdkAGXHoEBlx8CAacccAGnHTABpx6B
+					AacfAQG3HIABtx1AAbceIQG3HwIB5xyQAecd
+					YAHnHkUB5x8B
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>7</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>InsanelyDeepak - Realtek ALC883</string>
+					<key>CodecID</key>
+					<integer>283904131</integer>
+					<key>ConfigData</key>
+					<data>
+					IUccECFHHUAhRx4RIUcfASFXHCAhVx0QIVce
+					ASFXHwEhZxwwIWcdYCFnHgEhZx8BIXccQCF3
+					HSAhdx4BIXcfASGHHFAhhx2QIYceoCGHH5Ah
+					lxxgIZcdkCGXHoEhlx8CIacccCGnHTAhpx6B
+					IacfASG3HIAhtx1AIbceISG3HwIh5xyQIecd
+					YCHnHkUh5x8B
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>11</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>InsanelyDeepak - Realtek ALC883</string>
+					<key>CodecID</key>
+					<integer>283904131</integer>
+					<key>ConfigData</key>
+					<data>
+					AUccQAFHHUEBRx4QAUcfkAFXHFABVx0QAVce
+					CwFXHwEBZxxgAWcdYAFnHgsBZx8BAXcc8AF3
+					HQABdx4AAXcfQAGHHBABhx2RAYceoAGHH5AB
+					lxzwAZcdAAGXHgABlx9AAaccIAGnHTEBpx6L
+					AacfAQG3HIABtx1AAbceKwG3HwEBxxzwAccd
+					AAHHHgABxx9AAdcc8AHXHQAB1x4AAdcfQAHn
+					HJAB5x0RAeceRAHnHwEB9xzwAfcdAAH3HgAB
+					9x9A
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>12</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>ALC885</string>
+					<key>CodecID</key>
+					<integer>283904133</integer>
+					<key>Comment</key>
+					<string>Custom ALC885 by alex1960</string>
+					<key>ConfigData</key>
+					<data>
+					IUccECFHHUAhRx4RIUcfASFXHCAhVx0QIVce
+					ASFXHwEhZxwwIWcdYCFnHgEhZx8BIXcc8CF3
+					HQAhdx4AIXcfQCGHHEAhhx2QIYceoCGHH5Ah
+					lxxgIZcdkCGXHoEhlx8CIaccUCGnHTAhpx6B
+					IacfASG3HHAhtx1AIbceISG3HwIh5xyQIecd
+					YSHnHksh5x8BIfccoCH3HQEh9x7LIfcfASEX
+					HPAhFx0AIRceACEXH0A=
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>Mirone - Realtek ALC887-VD</string>
+					<key>CodecID</key>
+					<integer>283904135</integer>
+					<key>ConfigData</key>
+					<data>
+					AUccEAFHHUABRx4RAUcfAQGHHFABhx2QAYce
+					oAGHH5ABlxxgAZcdkAGXHoEBlx8CAacccAGn
+					HTABpx6BAacfAQG3HIABtx1AAbceIQG3HwIB
+					5xyQAecdYAHnHkUB5x8BAUcMAg==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>5</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>Mirone - Realtek ALC887-VD</string>
+					<key>CodecID</key>
+					<integer>283904135</integer>
+					<key>ConfigData</key>
+					<data>
+					AUccEAFHHUABRx4RAUcfAQFXHCABVx0QAVce
+					AQFXHwEBZxwwAWcdYAFnHgEBZx8BAXccQAF3
+					HSABdx4BAXcfAQGHHFABhx2QAYceoAGHH5AB
+					lxxgAZcdkAGXHoEBlx8CAacccAGnHTABpx6B
+					AacfAQG3HIABtx1AAbceIQG3HwIB5xyQAecd
+					YAHnHkUB5x8BAUcMAg==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>7</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>InsanelyDeepak  - Realtek ALC887-VD</string>
+					<key>CodecID</key>
+					<integer>283904135</integer>
+					<key>Comment</key>
+					<string>InsanelyDeepak  5/6 ports (Gray, Black, Orange, Pink, Green, Blue)</string>
+					<key>ConfigData</key>
+					<data>
+					IUccECFHHUAhRx4RIUcfASG3HCAhtx1AIbce
+					ISG3HwIhpxwwIacdMCGnHoEhpx8BIYccUCGH
+					HZAhhx6hIYcfkCGXHGAhlx2QIZcegSGXHwIh
+					5xyQIecdYCHnHkUh5x8B
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>11</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>InsanelyDeepak  - Realtek ALC887-VD</string>
+					<key>CodecID</key>
+					<integer>283904135</integer>
+					<key>Comment</key>
+					<string>InsanelyDeepak  5/6 ports ( Orange, Pink, Green, Blue) </string>
+					<key>ConfigData</key>
+					<data>
+					IUccECFHHUAhRx4RIUcfkCFXHPAhVx0AIVce
+					ACFXH0AhZxzwIWcdACFnHgAhZx9AIXcc8CF3
+					HQAhdx4AIXcfQCGHHEAhhx1gIYceASGHHwEh
+					lxxgIZcdkCGXHqAhlx+QIaccUCGnHRAhpx4B
+					IacfASG3HHAhtx1AIbceISG3HwIh5xyQIecd
+					YSHnHksh5x8BIfcc8CH3HQAh9x4AIfcfQCEX
+					HPAhFx0AIRceACEXH0A=
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>12</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>InsanelyDeepak  - Realtek ALC887-VD</string>
+					<key>CodecID</key>
+					<integer>283904135</integer>
+					<key>Comment</key>
+					<string>InsanelyDeepak  6/7 ports (Gray, Black, Orange, Pink, Green, Blue)</string>
+					<key>ConfigData</key>
+					<data>
+					IUccECFHHUAhRx4RIUcfkCFXHCAhVx0QIVce
+					ASFXHwEhZxzwIWcdACFnHgAhZx9AIXcc8CF3
+					HQAhdx4AIXcfQCGHHEAhhx2QIYceoCGHH5Ah
+					lxxgIZcdkCGXHoEhlx8CIaccUCGnHTAhpx6B
+					IacfASG3HHAhtx1AIbceISG3HwIh5xyQIecd
+					YSHnHksh5x8BIfcc8CH3HQAh9x4AIfcfQCEX
+					HPAhFx0AIRceACEXH0A=
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>13</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>InsanelyDeepak  - Realtek ALC887-VD</string>
+					<key>CodecID</key>
+					<integer>283904135</integer>
+					<key>Comment</key>
+					<string>InsanelyDeepak  5/6 ports ( Green,Pink, Blue,Orange)</string>
+					<key>ConfigData</key>
+					<data>
+					ARcc8AEXHQABFx4AARcfQAEnHPABJx0AASce
+					AAEnH0ABRxxAAUcdQAFHHhEBRx8BAVcc8AFX
+					HQABVx4AAVcfQAFnHPABZx0AAWceAAFnH0AB
+					dxzwAXcdAAF3HgABdx9AAYccEAGHHZABhx6g
+					AYcfkAGXHPABlx0AAZceAAGXH0ABpxwgAacd
+					MAGnHoEBpx8CAbccUAG3HUABtx4hAbcfAgHn
+					HHAB5x1hAeceRQHnHwIB9xzwAfcdAAH3HgAB
+					9x9A
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>14</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>InsanelyDeepak  - Realtek ALC887-VD</string>
+					<key>CodecID</key>
+					<integer>283904135</integer>
+					<key>Comment</key>
+					<string>InsanelyDeepak  5/6 ports ( Green,Pink, Blue,Orange)</string>
+					<key>ConfigData</key>
+					<data>
+					AUccEAFHHUABRx4RAUcfAQGHHFABhx2QAYce
+					oAGHH5ABlxxgAZcdkAGXHoEBlx8CAacccAGn
+					HTABpx6BAacfAQG3HIABtx1AAbceIQG3HwIB
+					5xyQAecdYAHnHkUB5x8B
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>15</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>Custom Realtek ALC887-VD by Constanta</string>
+					<key>CodecID</key>
+					<integer>283904135</integer>
+					<key>ConfigData</key>
+					<data>
+					IUccECFHHUAhRx4RIUcfASGHHFAhhx2QIYce
+					oCGHH5AhlxxgIZcdkCGXHoEhlx8CIacccCGn
+					HTAhpx6BIacfASG3HIAhtx1AIbceISG3HwIh
+					5xyQIecdYCHnHkUh5x8B
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>99</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>Mirone - Realtek ALC888 3 ports (Pink, Green, Blue)</string>
+					<key>CodecID</key>
+					<integer>283904136</integer>
+					<key>ConfigData</key>
+					<data>
+					AUccEAFHHUABRx4RAUcfAQGHHFABhx2QAYce
+					oAGHH5ABlxxgAZcdkAGXHoEBlx8CAacccAGn
+					HTABpx6BAacfAQG3HIABtx1AAbceIQG3HwEB
+					5xyQAecd4AHnHkUB5x8B
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>5</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Realtek ALC888 5/6 ports (Gray, Black, Orange, Pink, Green, Blue)</string>
 					<key>CodecID</key>
 					<integer>283904136</integer>
 					<key>ConfigData</key>
-					<data>AUccEAFHHUABRx4RAUcfAQFXHCABVx0QAVceAQFXHwEBZxwwAWcdYAFnHgEBZx8BAXccQAF3HSABdx4BAXcfAQGHHFABhx2QAYceoAGHH5ABlxxgAZcdkAGXHoEBlx8CAacccAGnHTABpx6BAacfAQG3HIABtx1AAbceIQG3HwIB5xyQAecdYAHnHkUB5x8B</data>
+					<data>
+					AUccEAFHHUABRx4RAUcfAQFXHCABVx0QAVce
+					AQFXHwEBZxwwAWcdYAFnHgEBZx8BAXccQAF3
+					HSABdx4BAXcfAQGHHFABhx2QAYceoAGHH5AB
+					lxxgAZcdkAGXHoEBlx8CAacccAGnHTABpx6B
+					AacfAQG3HIABtx1AAbceIQG3HwIB5xyQAecd
+					YAHnHkUB5x8B
+					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
@@ -664,7 +1095,15 @@
 					<key>Comment</key>
 					<string>ALC889, Toleda</string>
 					<key>ConfigData</key>
-					<data>IUccECFHHUAhRx4RIUcfkCFXHCAhVx0QIVceASFXHwEhZxwwIWcdYCFnHgEhZx8BIXcc8CF3HQAhdx4AIXcfQCGHHEAhhx2QIYceoCGHH5AhlxxgIZcdkCGXHoEhlx8CIaccUCGnHTAhpx6BIacfASG3HHAhtx1AIbceISG3HwIh5xyQIecdYSHnHksh5x8BIfcc8CH3HQAh9x4AIfcfQCEXHPAhFx0AIRceACEXH0A=</data>
+					<data>
+					IUccECFHHUAhRx4RIUcfkCFXHCAhVx0QIVce
+					ASFXHwEhZxwwIWcdYCFnHgEhZx8BIXcc8CF3
+					HQAhdx4AIXcfQCGHHEAhhx2QIYceoCGHH5Ah
+					lxxgIZcdkCGXHoEhlx8CIaccUCGnHTAhpx6B
+					IacfASG3HHAhtx1AIbceISG3HwIh5xyQIecd
+					YSHnHksh5x8BIfcc8CH3HQAh9x4AIfcfQCEX
+					HPAhFx0AIRceACEXH0A=
+					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
@@ -676,7 +1115,17 @@
 					<key>Comment</key>
 					<string>alc889, Custom by Sergey_Galan</string>
 					<key>ConfigData</key>
-					<data>IRcc8CEXHQAhFx4AIRcfQCEnHPAhJx0AISceACEnH0AhRxwwIUcdQSFHHhEhRx8BIVcc8CFXHQAhVx4AIVcfQCFnHPAhZx0AIWceACFnH0AhdxzwIXcdACF3HgAhdx9AIYccECGHHZEhhx6gIYcfkCGXHCAhlx2QIZcegSGXHwEhpxzwIacdACGnHgAhpx9AIbccgCG3HUAhtx4hIbcfASHHHPAhxx0AIcceACHHH0Ah1xzwIdcdACHXHgAh1x9AIecckCHnHSEh5x5LIecfASH3HPAh9x0AIfceACH3H0A=</data>
+					<data>
+					IRcc8CEXHQAhFx4AIRcfQCEnHPAhJx0AISce
+					ACEnH0AhRxwwIUcdQSFHHhEhRx8BIVcc8CFX
+					HQAhVx4AIVcfQCFnHPAhZx0AIWceACFnH0Ah
+					dxzwIXcdACF3HgAhdx9AIYccECGHHZEhhx6g
+					IYcfkCGXHCAhlx2QIZcegSGXHwEhpxzwIacd
+					ACGnHgAhpx9AIbccgCG3HUAhtx4hIbcfASHH
+					HPAhxx0AIcceACHHH0Ah1xzwIdcdACHXHgAh
+					1x9AIecckCHnHSEh5x5LIecfASH3HPAh9x0A
+					IfceACH3H0A=
+					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
@@ -688,7 +1137,15 @@
 					<key>Comment</key>
 					<string>ALC892, Toleda</string>
 					<key>ConfigData</key>
-					<data>IUccECFHHUAhRx4RIUcfkCFHDAIhVxwgIVcdECFXHgEhVx8BIWccMCFnHWAhZx4BIWcfASF3HPAhdx0AIXceACF3H0AhhxxAIYcdkCGHHqAhhx+QIZccYCGXHZAhlx6BIZcfAiGnHFAhpx0wIacegSGnHwEhtxxwIbcdQCG3HiEhtx8CIbcMAiHnHJAh5x1hIeceSyHnHwEh9xzwIfcdACH3HgAh9x9AIRcc8CEXHQAhFx4AIRcfQA==</data>
+					<data>
+					IUccECFHHUAhRx4RIUcfkCFHDAIhVxwgIVcd
+					ECFXHgEhVx8BIWccMCFnHWAhZx4BIWcfASF3
+					HPAhdx0AIXceACF3H0AhhxxAIYcdkCGHHqAh
+					hx+QIZccYCGXHZAhlx6BIZcfAiGnHFAhpx0w
+					IacegSGnHwEhtxxwIbcdQCG3HiEhtx8CIbcM
+					AiHnHJAh5x1hIeceSyHnHwEh9xzwIfcdACH3
+					HgAh9x9AIRcc8CEXHQAhFx4AIRcfQA==
+					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
@@ -700,7 +1157,15 @@
 					<key>Comment</key>
 					<string>ALC892, Toleda</string>
 					<key>ConfigData</key>
-					<data>IUccECFHHUAhRx4RIUcfkCFHDAIhVxzwIVcdACFXHgAhVx9AIWcc8CFnHQAhZx4AIWcfQCF3HPAhdx0AIXceACF3H0AhhxxAIYcdYCGHHgEhhx8BIZccYCGXHZAhlx6gIZcfkCGnHFAhpx0QIaceASGnHwEhtxxwIbcdQCG3HiEhtx8CIbcMAiHnHJAh5x1hIeceSyHnHwEh9xzwIfcdACH3HgAh9x9AIRcc8CEXHQAhFx4AIRcfQA==</data>
+					<data>
+					IUccECFHHUAhRx4RIUcfkCFHDAIhVxzwIVcd
+					ACFXHgAhVx9AIWcc8CFnHQAhZx4AIWcfQCF3
+					HPAhdx0AIXceACF3H0AhhxxAIYcdYCGHHgEh
+					hx8BIZccYCGXHZAhlx6gIZcfkCGnHFAhpx0Q
+					IaceASGnHwEhtxxwIbcdQCG3HiEhtx8CIbcM
+					AiHnHJAh5x1hIeceSyHnHwEh9xzwIfcdACH3
+					HgAh9x9AIRcc8CEXHQAhFx4AIRcfQA==
+					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
@@ -712,7 +1177,15 @@
 					<key>Comment</key>
 					<string>ALC892, Toleda</string>
 					<key>ConfigData</key>
-					<data>IUccECFHHUAhRx4RIUcfkCFXHCAhVx0QIVceASFXHwEhZxzwIWcdACFnHgAhZx9AIXcc8CF3HQAhdx4AIXcfQCGHHEAhhx2QIYceoCGHH5AhlxxgIZcdkCGXHoEhlx8CIaccUCGnHTAhpx6BIacfASG3HHAhtx1AIbceISG3HwIh5xyQIecdYSHnHksh5x8BIfcc8CH3HQAh9x4AIfcfQCEXHPAhFx0AIRceACEXH0A=</data>
+					<data>
+					IUccECFHHUAhRx4RIUcfkCFXHCAhVx0QIVce
+					ASFXHwEhZxzwIWcdACFnHgAhZx9AIXcc8CF3
+					HQAhdx4AIXcfQCGHHEAhhx2QIYceoCGHH5Ah
+					lxxgIZcdkCGXHoEhlx8CIaccUCGnHTAhpx6B
+					IacfASG3HHAhtx1AIbceISG3HwIh5xyQIecd
+					YSHnHksh5x8BIfcc8CH3HQAh9x4AIfcfQCEX
+					HPAhFx0AIRceACEXH0A=
+					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
@@ -724,7 +1197,15 @@
 					<key>Comment</key>
 					<string>ALC898, Toleda</string>
 					<key>ConfigData</key>
-					<data>IUccECFHHUAhRx4RIUcfkCFHDAIhVxwgIVcdECFXHgEhVx8BIWccMCFnHWAhZx4BIWcfASF3HPAhdx0AIXceACF3H0AhhxxAIYcdkCGHHqAhhx+QIZccYCGXHZAhlx6BIZcfAiGnHFAhpx0wIacegSGnHwEhtxxwIbcdQCG3HiEhtx8CIbcMAiHnHJAh5x1hIeceSyHnHwEh9xzwIfcdACH3HgAh9x9AIRcc8CEXHQAhFx4AIRcfQA==</data>
+					<data>
+					IUccECFHHUAhRx4RIUcfkCFHDAIhVxwgIVcd
+					ECFXHgEhVx8BIWccMCFnHWAhZx4BIWcfASF3
+					HPAhdx0AIXceACF3H0AhhxxAIYcdkCGHHqAh
+					hx+QIZccYCGXHZAhlx6BIZcfAiGnHFAhpx0w
+					IacegSGnHwEhtxxwIbcdQCG3HiEhtx8CIbcM
+					AiHnHJAh5x1hIeceSyHnHwEh9xzwIfcdACH3
+					HgAh9x9AIRcc8CEXHQAhFx4AIRcfQA==
+					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
@@ -736,7 +1217,15 @@
 					<key>Comment</key>
 					<string>ALC898, Toleda</string>
 					<key>ConfigData</key>
-					<data>IUccECFHHUAhRx4RIUcfkCFHDAIhVxzwIVcdACFXHgAhVx9AIWcc8CFnHQAhZx4AIWcfQCF3HPAhdx0AIXceACF3H0AhhxxAIYcdYCGHHgEhhx8BIZccYCGXHZAhlx6gIZcfkCGnHFAhpx0QIaceASGnHwEhtxxwIbcdQCG3HiEhtx8CIbcMAiHnHJAh5x1hIeceSyHnHwEh9xzwIfcdACH3HgAh9x9AIRcc8CEXHQAhFx4AIRcfQA==</data>
+					<data>
+					IUccECFHHUAhRx4RIUcfkCFHDAIhVxzwIVcd
+					ACFXHgAhVx9AIWcc8CFnHQAhZx4AIWcfQCF3
+					HPAhdx0AIXceACF3H0AhhxxAIYcdYCGHHgEh
+					hx8BIZccYCGXHZAhlx6gIZcfkCGnHFAhpx0Q
+					IaceASGnHwEhtxxwIbcdQCG3HiEhtx8CIbcM
+					AiHnHJAh5x1hIeceSyHnHwEh9xzwIfcdACH3
+					HgAh9x9AIRcc8CEXHQAhFx4AIRcfQA==
+					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
@@ -748,7 +1237,15 @@
 					<key>Comment</key>
 					<string>ALC898, Toleda</string>
 					<key>ConfigData</key>
-					<data>IUccECFHHUAhRx4RIUcfkCFXHCAhVx0QIVceASFXHwEhZxzwIWcdACFnHgAhZx9AIXcc8CF3HQAhdx4AIXcfQCGHHEAhhx2QIYceoCGHH5AhlxxgIZcdkCGXHoEhlx8CIaccUCGnHTAhpx6BIacfASG3HHAhtx1AIbceISG3HwIh5xyQIecdYSHnHksh5x8BIfcc8CH3HQAh9x4AIfcfQCEXHPAhFx0AIRceACEXH0A=</data>
+					<data>
+					IUccECFHHUAhRx4RIUcfkCFXHCAhVx0QIVce
+					ASFXHwEhZxzwIWcdACFnHgAhZx9AIXcc8CF3
+					HQAhdx4AIXcfQCGHHEAhhx2QIYceoCGHH5Ah
+					lxxgIZcdkCGXHoEhlx8CIaccUCGnHTAhpx6B
+					IacfASG3HHAhtx1AIbceISG3HwIh5xyQIecd
+					YSHnHksh5x8BIfcc8CH3HQAh9x4AIfcfQCEX
+					HPAhFx0AIRceACEXH0A=
+					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
@@ -760,7 +1257,15 @@
 					<key>Comment</key>
 					<string>ALC1150, Toleda</string>
 					<key>ConfigData</key>
-					<data>AUccEAFHHUABRx4RAUcfkAFHDAIBVxwgAVcdEAFXHgEBVx8BAWccMAFnHWABZx4BAWcfAQF3HPABdx0AAXceAAF3H0ABhxxAAYcdkAGHHqABhx+QAZccYAGXHZABlx6BAZcfAgGnHFABpx0wAacegQGnHwEBtxxwAbcdQAG3HiEBtx8CAbcMAgHnHJAB5x1hAeceSwHnHwEB9xzwAfcdAAH3HgAB9x9AARcc8AEXHQABFx4AARcfQA==</data>
+					<data>
+					AUccEAFHHUABRx4RAUcfkAFHDAIBVxwgAVcd
+					EAFXHgEBVx8BAWccMAFnHWABZx4BAWcfAQF3
+					HPABdx0AAXceAAF3H0ABhxxAAYcdkAGHHqAB
+					hx+QAZccYAGXHZABlx6BAZcfAgGnHFABpx0w
+					AacegQGnHwEBtxxwAbcdQAG3HiEBtx8CAbcM
+					AgHnHJAB5x1hAeceSwHnHwEB9xzwAfcdAAH3
+					HgAB9x9AARcc8AEXHQABFx4AARcfQA==
+					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
@@ -772,7 +1277,15 @@
 					<key>Comment</key>
 					<string>ALC1150, Toleda</string>
 					<key>ConfigData</key>
-					<data>AUccEAFHHUABRx4RAUcfkAFHDAIBVxzwAVcdAAFXHgABVx9AAWcc8AFnHQABZx4AAWcfQAF3HPABdx0AAXceAAF3H0ABhxxAAYcdYAGHHgEBhx8BAZccYAGXHZABlx6gAZcfkAGnHFABpx0QAaceAQGnHwEBtxxwAbcdQAG3HiEBtx8CAbcMAgHnHJAB5x1hAeceSwHnHwEB9xzwAfcdAAH3HgAB9x9AARcc8AEXHQABFx4AARcfQA==</data>
+					<data>
+					AUccEAFHHUABRx4RAUcfkAFHDAIBVxzwAVcd
+					AAFXHgABVx9AAWcc8AFnHQABZx4AAWcfQAF3
+					HPABdx0AAXceAAF3H0ABhxxAAYcdYAGHHgEB
+					hx8BAZccYAGXHZABlx6gAZcfkAGnHFABpx0Q
+					AaceAQGnHwEBtxxwAbcdQAG3HiEBtx8CAbcM
+					AgHnHJAB5x1hAeceSwHnHwEB9xzwAfcdAAH3
+					HgAB9x9AARcc8AEXHQABFx4AARcfQA==
+					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
@@ -780,13 +1293,20 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Realtek ALC1150</string>
 					<key>CodecID</key>
 					<integer>283904256</integer>
 					<key>ConfigData</key>
-					<data>AUccEAFHHUABRx4RAUcfAQGHHFABhx2QAYceoAGHH5ABlxxgAZcdkAGXHoEBlx8CAacccAGnHTABpx6BAacfAQG3HIABtx1AAbceIQG3HwEB5xyQAecd4AHnHkUB5x8BAUcMAg==</data>
+					<data>
+					AUccEAFHHUABRx4RAUcfAQGHHFABhx2QAYce
+					oAGHH5ABlxxgAZcdkAGXHoEBlx8CAacccAGn
+					HTABpx6BAacfAQG3HIABtx1AAbceIQG3HwEB
+					5xyQAecd4AHnHkUB5x8BAUcMAg==
+					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
@@ -794,13 +1314,22 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Realtek ALC1150</string>
 					<key>CodecID</key>
 					<integer>283904256</integer>
 					<key>ConfigData</key>
-					<data>AUccEAFHHUABRx4RAUcfAQFXHCABVx0QAVceAQFXHwEBZxwwAWcdYAFnHgEBZx8BAXccQAF3HSABdx4BAXcfAQGHHFABhx2QAYceoAGHH5ABlxxgAZcdkAGXHoEBlx8CAacccAGnHTABpx6BAacfAQG3HIABtx1AAbceIQG3HwIB5xyQAecdYAHnHkUB5x8BAUcMAg==</data>
+					<data>
+					AUccEAFHHUABRx4RAUcfAQFXHCABVx0QAVce
+					AQFXHwEBZxwwAWcdYAFnHgEBZx8BAXccQAF3
+					HSABdx4BAXcfAQGHHFABhx2QAYceoAGHH5AB
+					lxxgAZcdkAGXHoEBlx8CAacccAGnHTABpx6B
+					AacfAQG3HIABtx1AAbceIQG3HwIB5xyQAecd
+					YAHnHkUB5x8BAUcMAg==
+					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
@@ -808,13 +1337,19 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Conexant CX20590</string>
 					<key>CodecID</key>
 					<integer>351359086</integer>
 					<key>ConfigData</key>
-					<data>AZccQAGXHRABlx4hAZcfAAGnHDABpx0QAacegQGnHwABtxwgAbcdAAG3HqcBtx+QAfccEAH3HQAB9x4XAfcfkQ==</data>
+					<data>
+					AZccQAGXHRABlx4hAZcfAAGnHDABpx0QAace
+					gQGnHwABtxwgAbcdAAG3HqcBtx+QAfccEAH3
+					HQAB9x4XAfcfkQ==
+					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
@@ -822,13 +1357,22 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AQAAAA==</data>
+					<data>
+					AQAAAA==
+					</data>
 					<key>CodecID</key>
 					<integer>351359086</integer>
 					<key>Comment</key>
 					<string>CX20590 Custom for Lenovo Yoga 13 by usr-sse2</string>
 					<key>ConfigData</key>
-					<data>AZccMAGXHUABlx4rAZcfDgH3HCAB9x0BAfceEAH3H5ACNxwQAjcdAQI3HqACNx+QAaccQAGnHRABpx6BAacfAQG3HPABtx0AAbceAAG3H0ABxxzwAccdAAHHHgABxx9AAdcc8AHXHQAB1x4AAdcfQAHnHPAB5x0AAeceAAHnH0ACBxzwAgcdAAIHHgACBx9AAicc8AInHQACJx4AAicfQA==</data>
+					<data>
+					AZccMAGXHUABlx4rAZcfDgH3HCAB9x0BAfce
+					EAH3H5ACNxwQAjcdAQI3HqACNx+QAaccQAGn
+					HRABpx6BAacfAQG3HPABtx0AAbceAAG3H0AB
+					xxzwAccdAAHHHgABxx9AAdcc8AHXHQAB1x4A
+					AdcfQAHnHPAB5x0AAeceAAHnH0ACBxzwAgcd
+					AAIHHgACBx9AAicc8AInHQACJx4AAicfQA==
+					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
