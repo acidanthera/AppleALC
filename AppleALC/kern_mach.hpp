@@ -12,6 +12,7 @@
 
 #include "kern_util.hpp"
 
+#include <sys/time.h>
 #include <sys/types.h>
 #include <sys/vnode.h>
 #include <mach-o/loader.h>

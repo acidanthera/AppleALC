@@ -31,10 +31,34 @@ namespace IOUtil {
 		return nullptr;
 	}
 	
-	IORegistryEntry *findEntryByPrefix(const char *path, const char *prefix, const IORegistryPlane *plane, void (*proc)(IORegistryEntry *)) {
+	int getComputerModel() {
+		auto entry = IORegistryEntry::fromPath("/", gIODTPlane);
+		if (entry) {
+			auto prop =  entry->getProperty("compatible");
+			if (prop) {
+				auto data = OSDynamicCast(OSData, prop);
+				if (data) {
+					//TODO: make this more reliable
+					if (strstr(static_cast<const char *>(data->getBytesNoCopy()), "Book", strlen("Book"))) {
+						return ComputerModel::ComputerLaptop;
+					} else {
+						return ComputerModel::ComputerDesktop;
+					}
+				} else {
+					DBGLOG("ioutil @ compatible property has invalid format");
+				}
+			} else {
+				DBGLOG("ioutil @ failed to get compatible property");
+			}
+		}
+		DBGLOG("ioutil @ failed to get DT entry");
+		return ComputerModel::ComputerAny;
+	}
+	
+	IORegistryEntry *findEntryByPrefix(const char *path, const char *prefix, const IORegistryPlane *plane, bool (*proc)(IORegistryEntry *), bool brute) {
 		auto entry = IORegistryEntry::fromPath(path, plane);
 		if (entry) {
-			auto res = findEntryByPrefix(entry, prefix, plane, proc);
+			auto res = findEntryByPrefix(entry, prefix, plane, proc, brute);
 			entry->release();
 			return res;
 		}
@@ -43,30 +67,41 @@ namespace IOUtil {
 	}
 	
 
-	IORegistryEntry *findEntryByPrefix(IORegistryEntry *entry, const char *prefix, const IORegistryPlane *plane, void (*proc)(IORegistryEntry *)) {
-		auto iterator = entry->getChildIterator(plane);
+	IORegistryEntry *findEntryByPrefix(IORegistryEntry *entry, const char *prefix, const IORegistryPlane *plane, bool (*proc)(IORegistryEntry *), bool brute) {
 		bool found {false};
+		IORegistryEntry *res {nullptr};
 		
-		if (iterator) {
-			IORegistryEntry *res {nullptr};
-			size_t len = strlen(prefix);
-			while ((res = OSDynamicCast(IORegistryEntry, iterator->getNextObject())) != nullptr) {
-				//DBGLOG("ioutil @ iterating over %s", res->getName());
-				if (!strncmp(prefix, res->getName(), len)) {
-					found = true;
-					if (proc)
-						proc(res);
-					else
-						break;
+		size_t bruteCount {0};
+		
+		do {
+			bruteCount++;
+			auto iterator = entry->getChildIterator(plane);
+			
+			if (iterator) {
+				size_t len = strlen(prefix);
+				while ((res = OSDynamicCast(IORegistryEntry, iterator->getNextObject())) != nullptr) {
+					//DBGLOG("ioutil @ iterating over %s", res->getName());
+					if (!strncmp(prefix, res->getName(), len)) {
+						found = proc ? proc(res) : true;
+						if (found) {
+							if (bruteCount > 1)
+								DBGLOG("ioutil @ bruted %s value in %zu attempts", prefix, bruteCount);
+							if (!proc)
+								break;
+						}
+					}
 				}
+				iterator->release();
+				
+			} else {
+				SYSLOG("ioutil @ failed to iterate over entry");
+				return nullptr;
 			}
-			iterator->release();
-			if (!found)
-				DBGLOG("ioutil @ failed to find %s", prefix);
-			return proc ? nullptr : res;
-		}
+			
+		} while (brute && bruteCount < bruteMax && !found);
 		
-		SYSLOG("ioutil @ failed to iterate over entry");
-		return nullptr;
+		if (!found)
+			DBGLOG("ioutil @ failed to find %s", prefix);
+		return proc ? nullptr : res;
 	}
 }

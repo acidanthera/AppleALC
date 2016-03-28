@@ -10,6 +10,7 @@
 
 #include "kern_util.hpp"
 #include "kern_patcher.hpp"
+#include "kern_iokit.hpp"
 
 #include <sys/types.h>
 #include <stdint.h>
@@ -22,13 +23,13 @@ struct CodecLookupInfo {
 	const char **tree;
 	size_t treeSize;
 	size_t controllerNum;
-	bool detect {false};
+	bool detect;
 };
 
 struct KextPatch {
 	KernelPatcher::LookupPatch patch;
-	uint32_t minKernel {KernelPatcher::KernelAny};
-	uint32_t maxKernel {KernelPatcher::KernelAny};
+	uint32_t minKernel;
+	uint32_t maxKernel;
 };
 
 /**
@@ -36,14 +37,15 @@ struct KextPatch {
  */
 struct ControllerModInfo {
 	static constexpr uint32_t PlatformAny {0};
-	const char *name {nullptr};
-	uint32_t vendor {0};
-	uint32_t device {0};
-	const uint32_t *revisions {nullptr};
-	size_t revisionNum {0};
-	uint32_t platform {PlatformAny};
-	const KextPatch *patches {nullptr};
-	size_t patchNum {0};
+	const char *name;
+	uint32_t vendor;
+	uint32_t device;
+	const uint32_t *revisions;
+	size_t revisionNum;
+	uint32_t platform;
+	int computerModel;
+	const KextPatch *patches;
+	size_t patchNum;
 };
 
 /**
@@ -51,24 +53,24 @@ struct ControllerModInfo {
  */
 struct CodecModInfo {
 	struct File {
-		const uint8_t *data {nullptr};
-		uint32_t dataLength {0};
-		uint32_t minKernel {KernelPatcher::KernelAny};
-		uint32_t maxKernel {KernelPatcher::KernelAny};
-		uint32_t layout {0};
+		const uint8_t *data;
+		uint32_t dataLength;
+		uint32_t minKernel;
+		uint32_t maxKernel;
+		uint32_t layout;
 	};
 
-	const char *name {nullptr};
-	uint16_t codec {0};
-	const uint32_t *revisions {nullptr};
-	size_t revisionNum {0};
+	const char *name;
+	uint16_t codec;
+	const uint32_t *revisions;
+	size_t revisionNum;
 	
-	const File *platforms {nullptr};
-	size_t platformNum {0};
-	const File *layouts {nullptr};
-	size_t layoutNum {0};
-	const KextPatch *patches {nullptr};
-	size_t patchNum {0};
+	const File *platforms;
+	size_t platformNum;
+	const File *layouts;
+	size_t layoutNum;
+	const KextPatch *patches;
+	size_t patchNum;
 };
 
 /**
@@ -76,10 +78,10 @@ struct CodecModInfo {
  *  Corresponds to Vendors.plist resource file
  */
 struct VendorModInfo {
-	const char *name {nullptr};
-	uint16_t vendor {0};
-	const CodecModInfo *codecs {nullptr};
-	const size_t codecsNum {0};
+	const char *name;
+	uint16_t vendor;
+	const CodecModInfo *codecs;
+	const size_t codecsNum;
 };
 
 /**

@@ -16,7 +16,7 @@
 				<key>Id</key>
 				<integer>1</integer>
 				<key>Comment</key>
-				<string>Ukr55</string>
+				<string>Toleda resources by Ukr55</string>
 				<key>Path</key>
 				<string>layout1.xml.zlib</string>
 			</dict>
@@ -24,7 +24,7 @@
 				<key>Id</key>
 				<integer>12</integer>
 				<key>Comment</key>
-				<string>Sergey_Galan</string>
+				<string>Custom by Sergey_Galan</string>
 				<key>Path</key>
 				<string>layout12.xml.zlib</string>
 			</dict>
@@ -35,15 +35,15 @@
 				<key>Id</key>
 				<integer>1</integer>
 				<key>Comment</key>
-				<string>Ukr55</string>
+				<string>Toleda resources by Ukr55</string>
 				<key>Path</key>
-				<string>Platforms1.xml.zlib</string>
+				<string>PlatformsT.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Id</key>
 				<integer>12</integer>
 				<key>Comment</key>
-				<string>Sergey_Galan</string>
+				<string>Custom by Sergey_Galan</string>
 				<key>Path</key>
 				<string>Platforms12.xml.zlib</string>
 			</dict>

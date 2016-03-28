@@ -10,6 +10,7 @@
 	<string>ALC888</string>
 	<key>Revisions</key>
 	<array>
+		<integer>1048577</integer>
 		<integer>1048833</integer>
 	</array>
 	<key>Files</key>
@@ -17,19 +18,39 @@
 		<key>Layouts</key>
 		<array>
 			<dict>
+				<key>Comment</key>
+				<string>Mirone 3 ports (Pink, Green, Blue)</string>
 				<key>Id</key>
-				<integer>1</integer>
+				<integer>5</integer>
 				<key>Path</key>
-				<string>layout1.xml.zlib</string>
+				<string>layout5.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Mirone 5/6 ports (Gray, Black, Orange, Pink, Green, Blue)</string>
+				<key>Id</key>
+				<integer>7</integer>
+				<key>Path</key>
+				<string>layout7.xml.zlib</string>
 			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
 			<dict>
+				<key>Comment</key>
+				<string>Mirone resources</string>
 				<key>Id</key>
-				<integer>1</integer>
+				<integer>5</integer>
 				<key>Path</key>
-				<string>Platforms.xml.zlib</string>
+				<string>PlatformsM.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Mirone resources</string>
+				<key>Id</key>
+				<integer>7</integer>
+				<key>Path</key>
+				<string>PlatformsM.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>

@@ -4,6 +4,33 @@
 <array>
 	<dict>
 		<key>Device</key>
+		<integer>36000</integer>
+		<key>Name</key>
+		<string>Z97 HDEF controller</string>
+		<key>Patches</key>
+		<array>
+			<dict>
+				<key>Count</key>
+				<integer>4</integer>
+				<key>Find</key>
+				<data>
+				IIw=
+				</data>
+				<key>MinKernel</key>
+				<string>13</string>
+				<key>Name</key>
+				<string>AppleHDAController</string>
+				<key>Replace</key>
+				<data>
+				oIw=
+				</data>
+			</dict>
+		</array>
+		<key>Vendor</key>
+		<string>Intel</string>
+	</dict>
+	<dict>
+		<key>Device</key>
 		<integer>3084</integer>
 		<key>Name</key>
 		<string>HD4600 controller</string>
@@ -13,7 +40,9 @@
 				<key>Count</key>
 				<integer>4</integer>
 				<key>Find</key>
-				<data>DAoAAA==</data>
+				<data>
+				DAoAAA==
+				</data>
 				<key>MaxKernel</key>
 				<string>13</string>
 				<key>MinKernel</key>
@@ -21,13 +50,17 @@
 				<key>Name</key>
 				<string>AppleHDAController</string>
 				<key>Replace</key>
-				<data>DAwAAA==</data>
+				<data>
+				DAwAAA==
+				</data>
 			</dict>
 			<dict>
 				<key>Count</key>
 				<integer>2</integer>
 				<key>Find</key>
-				<data>CwwAAA==</data>
+				<data>
+				CwwAAA==
+				</data>
 				<key>MaxKernel</key>
 				<string>13</string>
 				<key>MinKernel</key>
@@ -35,13 +68,17 @@
 				<key>Name</key>
 				<string>AppleHDAController</string>
 				<key>Replace</key>
-				<data>DAwAAA==</data>
+				<data>
+				DAwAAA==
+				</data>
 			</dict>
 			<dict>
 				<key>Count</key>
 				<integer>3</integer>
 				<key>Find</key>
-				<data>PQwKAAA=</data>
+				<data>
+				PQwKAAA=
+				</data>
 				<key>MaxKernel</key>
 				<string>14</string>
 				<key>MinKernel</key>
@@ -49,13 +86,17 @@
 				<key>Name</key>
 				<string>AppleHDAController</string>
 				<key>Replace</key>
-				<data>PQwMAAA=</data>
+				<data>
+				PQwMAAA=
+				</data>
 			</dict>
 			<dict>
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Find</key>
-				<data>PQsMAAA=</data>
+				<data>
+				PQsMAAA=
+				</data>
 				<key>MaxKernel</key>
 				<string>14</string>
 				<key>MinKernel</key>
@@ -63,19 +104,25 @@
 				<key>Name</key>
 				<string>AppleHDAController</string>
 				<key>Replace</key>
-				<data>PQwMAAA=</data>
+				<data>
+				PQwMAAA=
+				</data>
 			</dict>
 			<dict>
 				<key>Count</key>
 				<integer>5</integer>
 				<key>Find</key>
-				<data>PQwKAAA=</data>
+				<data>
+				PQwKAAA=
+				</data>
 				<key>MinKernel</key>
 				<string>15</string>
 				<key>Name</key>
 				<string>AppleHDAController</string>
 				<key>Replace</key>
-				<data>PQwMAAA=</data>
+				<data>
+				PQwMAAA=
+				</data>
 			</dict>
 		</array>
 		<key>Vendor</key>
@@ -92,13 +139,17 @@
 				<key>Count</key>
 				<integer>4</integer>
 				<key>Find</key>
-				<data>IIw=</data>
+				<data>
+				IIw=
+				</data>
 				<key>MinKernel</key>
 				<string>13</string>
 				<key>Name</key>
 				<string>AppleHDAController</string>
 				<key>Replace</key>
-				<data>II0=</data>
+				<data>
+				II0=
+				</data>
 			</dict>
 		</array>
 		<key>Vendor</key>
@@ -115,37 +166,49 @@
 				<key>Count</key>
 				<integer>5</integer>
 				<key>Find</key>
-				<data>AQUJAAAEAACHAAAA</data>
+				<data>
+				AQUJAAAEAACHAAAA
+				</data>
 				<key>MinKernel</key>
 				<string>14</string>
 				<key>Name</key>
 				<string>AppleIntelFramebufferAzul</string>
 				<key>Replace</key>
-				<data>AQUJAAAIAACHAAAA</data>
+				<data>
+				AQUJAAAIAACHAAAA
+				</data>
 			</dict>
 			<dict>
 				<key>Count</key>
 				<integer>3</integer>
 				<key>Find</key>
-				<data>AgQKAAAEAACHAAAA</data>
+				<data>
+				AgQKAAAEAACHAAAA
+				</data>
 				<key>MinKernel</key>
 				<string>14</string>
 				<key>Name</key>
 				<string>AppleIntelFramebufferAzul</string>
 				<key>Replace</key>
-				<data>AgQKAAAIAACHAAAA</data>
+				<data>
+				AgQKAAAIAACHAAAA
+				</data>
 			</dict>
 			<dict>
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Find</key>
-				<data>AwYIAAAEAAARAAAA</data>
+				<data>
+				AwYIAAAEAAARAAAA
+				</data>
 				<key>MinKernel</key>
 				<string>14</string>
 				<key>Name</key>
 				<string>AppleIntelFramebufferAzul</string>
 				<key>Replace</key>
-				<data>AwYIAAAIAAARAAAA</data>
+				<data>
+				AwYIAAAIAAARAAAA
+				</data>
 			</dict>
 		</array>
 		<key>Platform</key>
@@ -156,6 +219,8 @@
 	<dict>
 		<key>Device</key>
 		<integer>358</integer>
+		<key>Model</key>
+		<string>Laptop</string>
 		<key>Name</key>
 		<string>Intel HD4000 HDMI (ig-platform-id 0x01660003)</string>
 		<key>Patches</key>
@@ -164,37 +229,19 @@
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Find</key>
-				<data>AgUAAAAEAAAHBAAA</data>
+				<data>
+				AgUAAAAEAAAHBAAAAwQAAAAEAACBAAAABAYAAAAEAACB
+				AAAA
+				</data>
 				<key>MinKernel</key>
 				<string>13</string>
 				<key>Name</key>
 				<string>AppleIntelFramebufferCapri</string>
 				<key>Replace</key>
-				<data>AgUAAAAIAAAHBAAA</data>
-			</dict>
-			<dict>
-				<key>Count</key>
-				<integer>1</integer>
-				<key>Find</key>
-				<data>AwQAAAAEAACBAAAA</data>
-				<key>MinKernel</key>
-				<string>13</string>
-				<key>Name</key>
-				<string>AppleIntelFramebufferCapri</string>
-				<key>Replace</key>
-				<data>AwQAAAAIAACBAAAA</data>
-			</dict>
-			<dict>
-				<key>Count</key>
-				<integer>1</integer>
-				<key>Find</key>
-				<data>BAYAAAAEAACBAAAA</data>
-				<key>MinKernel</key>
-				<string>13</string>
-				<key>Name</key>
-				<string>AppleIntelFramebufferCapri</string>
-				<key>Replace</key>
-				<data>BAYAAAAIAACBAAAA</data>
+				<data>
+				AgUAAAAIAAAHBAAAAwQAAAAIAACBAAAABAYAAAAIAACB
+				AAAA
+				</data>
 			</dict>
 		</array>
 		<key>Platform</key>
@@ -205,6 +252,8 @@
 	<dict>
 		<key>Device</key>
 		<integer>358</integer>
+		<key>Model</key>
+		<string>Laptop</string>
 		<key>Name</key>
 		<string>Intel HD4000 HDMI (ig-platform-id 0x01660009)</string>
 		<key>Patches</key>
@@ -213,29 +262,83 @@
 				<key>Count</key>
 				<integer>4</integer>
 				<key>Find</key>
-				<data>AgUAAAAEAAAHAQAA</data>
+				<data>
+				AgUAAAAEAAAHAQAAAwQAAAAEAAAHAQAA
+				</data>
 				<key>MinKernel</key>
 				<string>13</string>
 				<key>Name</key>
 				<string>AppleIntelFramebufferCapri</string>
 				<key>Replace</key>
-				<data>AgUAAAAIAAAHAQAA</data>
-			</dict>
-			<dict>
-				<key>Count</key>
-				<integer>6</integer>
-				<key>Find</key>
-				<data>AwQAAAAEAAAHAQAA</data>
-				<key>MinKernel</key>
-				<string>13</string>
-				<key>Name</key>
-				<string>AppleIntelFramebufferCapri</string>
-				<key>Replace</key>
-				<data>AwQAAAAIAAAHAQAA</data>
+				<data>
+				AgUAAAAIAAAHAQAAAwQAAAAIAAAHAQAA
+				</data>
 			</dict>
 		</array>
 		<key>Platform</key>
 		<integer>23461897</integer>
+		<key>Vendor</key>
+		<string>Intel</string>
+	</dict>
+	<dict>
+		<key>Device</key>
+		<integer>358</integer>
+		<key>Model</key>
+		<string>Laptop</string>
+		<key>Name</key>
+		<string>Intel HD4000 LVDS, HDMI (ig-platform-id 0x0166000A) Laptop only</string>
+		<key>Patches</key>
+		<array>
+			<dict>
+				<key>Count</key>
+				<integer>4</integer>
+				<key>Find</key>
+				<data>
+				AgUAAAAEAAAHAQAAAwQAAAAEAAAHAQAA
+				</data>
+				<key>MinKernel</key>
+				<string>13</string>
+				<key>Name</key>
+				<string>AppleIntelFramebufferCapri</string>
+				<key>Replace</key>
+				<data>
+				BQMAAAIAAAAwAgAAAwQAAAAIAAAHAQAA
+				</data>
+			</dict>
+		</array>
+		<key>Platform</key>
+		<integer>23461898</integer>
+		<key>Vendor</key>
+		<string>Intel</string>
+	</dict>
+	<dict>
+		<key>Device</key>
+		<integer>358</integer>
+		<key>Model</key>
+		<string>Desktop</string>
+		<key>Name</key>
+		<string>Intel HD4000 HDMI (ig-platform-id 0x0166000A) Desktop only</string>
+		<key>Patches</key>
+		<array>
+			<dict>
+				<key>Count</key>
+				<integer>4</integer>
+				<key>Find</key>
+				<data>
+				AgUAAAAEAAAHAQAAAwQAAAAEAAAHAQAA
+				</data>
+				<key>MinKernel</key>
+				<string>13</string>
+				<key>Name</key>
+				<string>AppleIntelFramebufferCapri</string>
+				<key>Replace</key>
+				<data>
+				AgUAAAAIAAAHAQAAAwQAAAAIAAAHAQAA
+				</data>
+			</dict>
+		</array>
+		<key>Platform</key>
+		<integer>23461898</integer>
 		<key>Vendor</key>
 		<string>Intel</string>
 	</dict>

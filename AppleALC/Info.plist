@@ -32,6 +32,8 @@
 			<string>$(PRODUCT_NAME:rfc1034identifier)</string>
 			<key>IOProviderClass</key>
 			<string>IOResources</string>
+			<key>IOResourceMatch</key>
+			<string>IOKit</string>
 		</dict>
 	</dict>
 	<key>NSHumanReadableCopyright</key>

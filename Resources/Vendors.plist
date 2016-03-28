@@ -14,5 +14,7 @@
 	<integer>4332</integer>
 	<key>Conexant</key>
 	<integer>5361</integer>
+	<key>VIA</key>
+	<integer>4358</integer>
 </dict>
 </plist>

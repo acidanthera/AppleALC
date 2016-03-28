@@ -5,7 +5,7 @@
 	<key>Vendor</key>
 	<string>Realtek</string>
 	<key>CodecID</key>
-	<integer>283902569</integer>
+	<integer>617</integer>
 	<key>CodecName</key>
 	<string>ALC269</string>
 	<key>Revisions</key>
@@ -21,9 +21,73 @@
 		<array>
 			<dict>
 				<key>Id</key>
+				<integer>1</integer>
+				<key>Comment</key>
+				<string>Miron Laptop patch ALC269 Asus N53J</string>
+				<key>Path</key>
+				<string>PlatformsM1.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Id</key>
+				<integer>2</integer>
+				<key>Comment</key>
+				<string>Miron Laptop patch ALC269-VB v1</string>
+				<key>Path</key>
+				<string>PlatformsM2.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Id</key>
+				<integer>3</integer>
+				<key>Comment</key>
+				<string>Miron Laptop patch ALC269 Asus K53SJ, Asus G73s</string>
+				<key>Path</key>
+				<string>PlatformsM3.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Id</key>
+				<integer>4</integer>
+				<key>Comment</key>
+				<string>Miron Laptop patch ALC269-VB v2</string>
+				<key>Path</key>
+				<string>PlatformsM4.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Id</key>
+				<integer>5</integer>
+				<key>Comment</key>
+				<string>Miron Laptop patch ALC269-VB v3</string>
+				<key>Path</key>
+				<string>PlatformsM5.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Id</key>
+				<integer>6</integer>
+				<key>Comment</key>
+				<string>Miron Laptop patch ALC269-VC v1</string>
+				<key>Path</key>
+				<string>PlatformsM6.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Id</key>
+				<integer>7</integer>
+				<key>Comment</key>
+				<string>Miron Laptop patch ALC269-VC v2</string>
+				<key>Path</key>
+				<string>PlatformsM7.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Id</key>
+				<integer>8</integer>
+				<key>Comment</key>
+				<string>Miron Laptop patch ALC269-VC v3</string>
+				<key>Path</key>
+				<string>PlatformsM8.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Id</key>
 				<integer>27</integer>
 				<key>Comment</key>
-				<string>ALC269 Acer Aspire, Andrey1970</string>
+				<string>Custom ALC269 Acer Aspire by Andrey1970</string>
 				<key>Path</key>
 				<string>Platforms27.xml.zlib</string>
 			</dict>
@@ -31,23 +95,15 @@
 				<key>Id</key>
 				<integer>28</integer>
 				<key>Comment</key>
-				<string>ALC269VC Lenovo Z580, John</string>
+				<string>Custom ALC269VC Lenovo Z580 by John</string>
 				<key>Path</key>
 				<string>Platforms28.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Id</key>
-				<integer>3</integer>
-				<key>Comment</key>
-				<string>ALC269 Asus K53SJ, alex1960</string>
-				<key>Path</key>
-				<string>Platforms3.xml.zlib</string>
-			</dict>
-			<dict>
-				<key>Id</key>
 				<integer>29</integer>
 				<key>Comment</key>
-				<string>ALC269VC Lenovo V580, ar4er</string>
+				<string>Custom ALC269VC Lenovo V580 by ar4er</string>
 				<key>Path</key>
 				<string>Platforms29.xml.zlib</string>
 			</dict>
@@ -56,9 +112,73 @@
 		<array>
 			<dict>
 				<key>Id</key>
+				<integer>1</integer>
+				<key>Comment</key>
+				<string>Miron Laptop patch ALC269 Asus N53J</string>
+				<key>Path</key>
+				<string>layout1.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Id</key>
+				<integer>2</integer>
+				<key>Comment</key>
+				<string>Miron Laptop patch ALC269-VB v1</string>
+				<key>Path</key>
+				<string>layout2.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Id</key>
+				<integer>3</integer>
+				<key>Comment</key>
+				<string>Miron Laptop patch ALC269 Asus K53SJ, Asus G73s</string>
+				<key>Path</key>
+				<string>layout3.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Id</key>
+				<integer>4</integer>
+				<key>Comment</key>
+				<string>Miron Laptop patch ALC269-VB v2</string>
+				<key>Path</key>
+				<string>layout4.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Id</key>
+				<integer>5</integer>
+				<key>Comment</key>
+				<string>Miron Laptop patch ALC269-VB v3</string>
+				<key>Path</key>
+				<string>layout5.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Id</key>
+				<integer>6</integer>
+				<key>Comment</key>
+				<string>Miron Laptop patch ALC269-VC v1</string>
+				<key>Path</key>
+				<string>layout6.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Id</key>
+				<integer>7</integer>
+				<key>Comment</key>
+				<string>Miron Laptop patch ALC269-VC v2</string>
+				<key>Path</key>
+				<string>layout7.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Id</key>
+				<integer>8</integer>
+				<key>Comment</key>
+				<string>Miron Laptop patch ALC269-VC v3</string>
+				<key>Path</key>
+				<string>layout8.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Id</key>
 				<integer>27</integer>
 				<key>Comment</key>
-				<string>ALC269 Acer Aspire</string>
+				<string>Custom ALC269 Acer Aspire by Andrey1970</string>
 				<key>Path</key>
 				<string>layout27.xml.zlib</string>
 			</dict>
@@ -66,23 +186,15 @@
 				<key>Id</key>
 				<integer>28</integer>
 				<key>Comment</key>
-				<string>ALC269VC Lenovo Z580</string>
+				<string>Custom ALC269VC Lenovo Z580 by John</string>
 				<key>Path</key>
 				<string>layout28.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Id</key>
-				<integer>3</integer>
-				<key>Comment</key>
-				<string>ALC269 Asus K53SJ</string>
-				<key>Path</key>
-				<string>layout3.xml.zlib</string>
-			</dict>
-			<dict>
-				<key>Id</key>
 				<integer>29</integer>
 				<key>Comment</key>
-				<string>ALC269VC Lenovo V580</string>
+				<string>Custom ALC269VC Lenovo V580 by ar4er</string>
 				<key>Path</key>
 				<string>layout29.xml.zlib</string>
 			</dict>

@@ -13,6 +13,32 @@
 		<key>Layouts</key>
 		<array>
 			<dict>
+				<key>Comment</key>
+				<string>Mirone Laptop Patch ALC270 v2</string>
+				<key>Id</key>
+				<integer>4</integer>
+				<key>Path</key>
+				<string>layout4.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Mirone Laptop Patch ALC270 v1</string>
+				<key>Id</key>
+				<integer>3</integer>
+				<key>Path</key>
+				<string>layout3.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom by m-dudarev</string>
+				<key>Id</key>
+				<integer>27</integer>
+				<key>Path</key>
+				<string>layout27.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom by m-dudarev</string>
 				<key>Id</key>
 				<integer>28</integer>
 				<key>Path</key>
@@ -22,6 +48,32 @@
 		<key>Platforms</key>
 		<array>
 			<dict>
+				<key>Comment</key>
+				<string>Mirone Laptop Patch ALC270 v2</string>
+				<key>Id</key>
+				<integer>4</integer>
+				<key>Path</key>
+				<string>PlatformsM4.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Mirone Laptop Patch ALC270 v1</string>
+				<key>Id</key>
+				<integer>3</integer>
+				<key>Path</key>
+				<string>PlatformsM3.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom by m-dudarev</string>
+				<key>Id</key>
+				<integer>27</integer>
+				<key>Path</key>
+				<string>Platforms27.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom by m-dudarev</string>
 				<key>Id</key>
 				<integer>28</integer>
 				<key>Path</key>
@@ -111,7 +163,7 @@
 			<key>Find</key>
 			<data>gxnUEQ==</data>
 			<key>MinKernel</key>
-			<integer>13</integer>
+			<integer>15</integer>
 			<key>Name</key>
 			<string>AppleHDA</string>
 			<key>Replace</key>

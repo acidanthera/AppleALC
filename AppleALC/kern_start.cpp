@@ -26,12 +26,17 @@ void AppleALC::policyInitBSD(mac_policy_conf *conf) {
 }
 
 int AppleALC::policyCheckRemount(kauth_cred_t cred, mount *mp, label *mlabel) {
-	static bool tried {false};
+	static bool initialised {false};
+	
+	DBGLOG("init @ policy hit");
 
-	if (!tried) {
+	if (!initialised) {
 		DBGLOG("init @ initialising enabler");
-		if (!enabler.init()) enabler.deinit();
-		tried = true;
+		initialised = enabler.init();
+		if (!initialised) {
+			DBGLOG("init @ initialisation failed");
+			enabler.deinit();
+		}
 	}
 	
 	return 0;

@@ -110,10 +110,15 @@ void AlcEnabler::processKext(size_t index, mach_vm_address_t address, size_t siz
 			grabControllers();
 			progressState |= ProcessingState::ControllersLoaded;
 		} else if (!(progressState & ProcessingState::CodecsLoaded)) {
-			if (grabCodecs()) {
-				progressState |= ProcessingState::CodecsLoaded;
-			} else {
-				DBGLOG("alc @ failed to find a suitable codec, we have nothing to do");
+			for (size_t i = 0; i < kextListSize; i++) {
+				if (kextList[i].loadIndex == index) {
+					if (kextList[i].detectCodecs && grabCodecs()) {
+						progressState |= ProcessingState::CodecsLoaded;
+						break;
+					}
+					DBGLOG("alc @ failed to find a suitable codec, we have nothing to do");
+					// Continue to patch controllers
+				}
 			}
 		}
 	
@@ -205,6 +210,8 @@ void AlcEnabler::grabControllers() {
 		return;
 	}
 	
+	computerModel = IOUtil::getComputerModel();
+	
 	bool found {false};
 	
 	for (size_t lookup = 0; lookup < codecLookupSize; lookup++) {
@@ -271,15 +278,16 @@ bool AlcEnabler::grabCodecs() {
 		auto sect = IOUtil::findEntryByPrefix("/AppleACPIPlatformExpert", "PCI", gIOServicePlane);
 
 		for (size_t i = 0; sect && i < ctlr->lookup->treeSize; i++) {
+			bool last = i+1 == ctlr->lookup->treeSize;
 			sect = IOUtil::findEntryByPrefix(sect, ctlr->lookup->tree[i], gIOServicePlane,
-											 i+1 == ctlr->lookup->treeSize ? [](IORegistryEntry *e) {
+											 last ? [](IORegistryEntry *e) {
 				
 				auto ven = e->getProperty("IOHDACodecVendorID");
 				auto rev = e->getProperty("IOHDACodecRevisionID");
 				
 				if (!ven || !rev) {
-					SYSLOG("alc @ codec entry misses properties, skipping");
-					return;
+					DBGLOG("alc @ codec entry misses properties, skipping");
+					return false;
 				}
 				
 				auto venNum = OSDynamicCast(OSNumber, ven);
@@ -287,7 +295,7 @@ bool AlcEnabler::grabCodecs() {
 				
 				if (!venNum || !revNum) {
 					SYSLOG("alc @ codec entry contains invalid properties, skipping");
-					return;
+					return true;
 				}
 				
 				auto ci = AlcEnabler::CodecInfo::create(that->currentController, venNum->unsigned64BitValue(),
@@ -300,8 +308,10 @@ bool AlcEnabler::grabCodecs() {
 				} else {
 					SYSLOG("alc @ failed to create codec info for %X %X:%X", ci->vendor, ci->codec, ci->revision);
 				}
-					
-			} : nullptr);
+				
+				return true;
+			
+			} : nullptr, last);
 		}
 	}
 
@@ -326,6 +336,12 @@ void AlcEnabler::validateControllers() {
 				if (controllerMod[mod].platform != ControllerModInfo::PlatformAny &&
 					controllerMod[mod].platform != controllers[i]->platform) {
 					DBGLOG("alc @ not matching platform was found %X vs %X", controllerMod[mod].platform, controllers[i]->platform);
+					continue;
+				}
+				
+				// Check if computer model is suitable
+				if (!(computerModel & controllerMod[mod].computerModel)) {
+					DBGLOG("alc @ unsuitable computer model was found %X vs %X", controllerMod[mod].computerModel, computerModel);
 					continue;
 				}
 			

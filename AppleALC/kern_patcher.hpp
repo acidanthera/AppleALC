@@ -64,10 +64,11 @@ public:
 	 */
 	struct KextInfo {
 		static constexpr size_t Unloaded {0};
-		const char *id {nullptr};
-		const char **paths {nullptr};
-		size_t pathNum {0};
-		size_t loadIndex {Unloaded}; // Updated after loading
+		const char *id;
+		const char **paths;
+		size_t pathNum;
+		bool detectCodecs;
+		size_t loadIndex; // Updated after loading
 	};
 
 	/**
@@ -169,11 +170,11 @@ public:
 	 *  Arbitrary kext find/replace patch
 	 */
 	struct LookupPatch {
-		KextInfo *kext {nullptr};
-		const uint8_t *find {nullptr};
-		const uint8_t *replace {nullptr};
-		size_t size {0};
-		size_t count {1};
+		KextInfo *kext;
+		const uint8_t *find;
+		const uint8_t *replace;
+		size_t size;
+		size_t count;
 	};
 	
 	/**

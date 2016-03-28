@@ -170,6 +170,11 @@ private:
 		};
 	};
 	int progressState;
+	
+	/**
+	 *  Detected ComputerModel
+	 */	int computerModel;
+
 };
 
 #endif /* kern_alc_hpp */

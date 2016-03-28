@@ -13,6 +13,8 @@
 		<key>Layouts</key>
 		<array>
 			<dict>
+				<key>Comment</key>
+				<string>Custom by alex1960</string>
 				<key>Id</key>
 				<integer>1</integer>
 				<key>Path</key>
@@ -22,6 +24,8 @@
 		<key>Platforms</key>
 		<array>
 			<dict>
+				<key>Comment</key>
+				<string>Custom by alex1960</string>
 				<key>Id</key>
 				<integer>1</integer>
 				<key>Path</key>
