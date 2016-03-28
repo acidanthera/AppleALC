@@ -663,7 +663,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/FastCompression",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				MODULE_NAME = as.vit9696.AppleALC;
 				MODULE_VERSION = 1.0.6;
 				PRODUCT_BUNDLE_IDENTIFIER = as.vit9696.AppleALC;
@@ -694,7 +694,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/FastCompression",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				MODULE_NAME = as.vit9696.AppleALC;
 				MODULE_VERSION = 1.0.6;
 				PRODUCT_BUNDLE_IDENTIFIER = as.vit9696.AppleALC;
@@ -708,7 +708,7 @@
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				GCC_C_LANGUAGE_STANDARD = c11;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -718,7 +718,7 @@
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				GCC_C_LANGUAGE_STANDARD = c11;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
