@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Author</key>
-	<string>FredWst, m-dudarev</string>
+	<string>FredWst, m-dudarev, cecekpawon</string>
 	<key>CodecID</key>
 	<integer>2194</integer>
 	<key>CodecName</key>
@@ -36,6 +36,22 @@
 				<key>Path</key>
 				<string>layout3.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Mirone Resources by cecekpawon</string>
+				<key>Id</key>
+				<integer>5</integer>
+				<key>Path</key>
+				<string>layout5.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Mirone Resources by cecekpawon</string>
+				<key>Id</key>
+				<integer>7</integer>
+				<key>Path</key>
+				<string>layout7.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -62,6 +78,22 @@
 				<integer>3</integer>
 				<key>Path</key>
 				<string>PlatformsT.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Mirone Resources by cecekpawon</string>
+				<key>Id</key>
+				<integer>5</integer>
+				<key>Path</key>
+				<string>PlatformsM.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Mirone Resources by cecekpawon</string>
+				<key>Id</key>
+				<integer>7</integer>
+				<key>Path</key>
+				<string>PlatformsM.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>

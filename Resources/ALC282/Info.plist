@@ -30,6 +30,22 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Skvo ALC282 Acer Aspire on IvyBridge by Andrey1970</string>
+				<key>Id</key>
+				<integer>27</integer>
+				<key>Path</key>
+				<string>layout27.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom ALC282 Acer Aspire E1-572G</string>
+				<key>Id</key>
+				<integer>28</integer>
+				<key>Path</key>
+				<string>layout28.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Custom ALC282 Asus x200LA by S.Mitrofanov</string>
 				<key>Id</key>
 				<integer>86</integer>
@@ -57,6 +73,22 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Skvo ALC282 Acer Aspire on IvyBridge by Andrey1970</string>
+				<key>Id</key>
+				<integer>27</integer>
+				<key>Path</key>
+				<string>Platforms27.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom ALC282 Acer Aspire E1-572G</string>
+				<key>Id</key>
+				<integer>28</integer>
+				<key>Path</key>
+				<string>Platforms28.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Custom ALC282 Asus x200LA by S.Mitrofanov</string>
 				<key>Id</key>
 				<integer>86</integer>
@@ -67,6 +99,44 @@
 	</dict>
 	<key>Patches</key>
 	<array>
+		<dict>
+			<key>Count</key>
+			<integer>1</integer>
+			<key>Find</key>
+			<data>QcYGAEmLvCQ=</data>
+			<key>MaxKernel</key>
+			<integer>13</integer>
+			<key>MinKernel</key>
+			<integer>13</integer>
+			<key>Name</key>
+			<string>AppleHDA</string>
+			<key>Replace</key>
+			<data>QcYGAUmLvCQ=</data>
+		</dict>
+		<dict>
+			<key>Count</key>
+			<integer>1</integer>
+			<key>Find</key>
+			<data>QcYGAEiLu2g=</data>
+			<key>MinKernel</key>
+			<integer>14</integer>
+			<key>Name</key>
+			<string>AppleHDA</string>
+			<key>Replace</key>
+			<data>QcYGAUiLu2g=</data>
+		</dict>
+		<dict>
+			<key>Count</key>
+			<integer>1</integer>
+			<key>Find</key>
+			<data>QcaGQwEAAAA=</data>
+			<key>MinKernel</key>
+			<integer>13</integer>
+			<key>Name</key>
+			<string>AppleHDA</string>
+			<key>Replace</key>
+			<data>QcaGQwEAAAE=</data>
+		</dict>
 		<dict>
 			<key>Count</key>
 			<integer>2</integer>
@@ -115,6 +185,10 @@
 			<key>Replace</key>
 			<data>AAAAAA==</data>
 		</dict>
+	</array>
+	<key>Revisions</key>
+	<array>
+		<integer>1048579</integer>
 	</array>
 	<key>Vendor</key>
 	<string>Realtek</string>

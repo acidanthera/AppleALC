@@ -10,6 +10,7 @@
 	<string>ALC269</string>
 	<key>Revisions</key>
 	<array>
+		<integer>1048580</integer>
 		<integer>1049090</integer>
 		<integer>1048832</integer>
 	</array>
@@ -82,6 +83,14 @@
 				<string>Miron Laptop patch ALC269-VC v3</string>
 				<key>Path</key>
 				<string>PlatformsM8.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Id</key>
+				<integer>20</integer>
+				<key>Comment</key>
+				<string>Custom ALC269 Sony Vaio VPCEB3M1R by Rodion</string>
+				<key>Path</key>
+				<string>Platforms20.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Id</key>
@@ -176,6 +185,14 @@
 			</dict>
 			<dict>
 				<key>Id</key>
+				<integer>20</integer>
+				<key>Comment</key>
+				<string>Custom ALC269 Sony Vaio VPCEB3M1R by Rodion</string>
+				<key>Path</key>
+				<string>layout20.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Id</key>
 				<integer>27</integer>
 				<key>Comment</key>
 				<string>Custom ALC269 Acer Aspire by Andrey1970</string>
@@ -202,6 +219,44 @@
 	</dict>
 	<key>Patches</key>
 	<array>
+		<dict>
+			<key>Count</key>
+			<integer>1</integer>
+			<key>Find</key>
+			<data>QcYGAEmLvCQ=</data>
+			<key>MaxKernel</key>
+			<integer>13</integer>
+			<key>MinKernel</key>
+			<integer>13</integer>
+			<key>Name</key>
+			<string>AppleHDA</string>
+			<key>Replace</key>
+			<data>QcYGAUmLvCQ=</data>
+		</dict>
+		<dict>
+			<key>Count</key>
+			<integer>1</integer>
+			<key>Find</key>
+			<data>QcYGAEiLu2g=</data>
+			<key>MinKernel</key>
+			<integer>14</integer>
+			<key>Name</key>
+			<string>AppleHDA</string>
+			<key>Replace</key>
+			<data>QcYGAUiLu2g=</data>
+		</dict>
+		<dict>
+			<key>Count</key>
+			<integer>1</integer>
+			<key>Find</key>
+			<data>QcaGQwEAAAA=</data>
+			<key>MinKernel</key>
+			<integer>13</integer>
+			<key>Name</key>
+			<string>AppleHDA</string>
+			<key>Replace</key>
+			<data>QcaGQwEAAAE=</data>
+		</dict>
 		<dict>
 			<key>Count</key>
 			<integer>2</integer>

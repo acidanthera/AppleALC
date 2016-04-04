@@ -38,7 +38,7 @@ void AlcEnabler::deinit() {
 
 void AlcEnabler::layoutLoadCallback(uint32_t requestTag, kern_return_t result, const void *resourceData, uint32_t resourceDataLength, void *context) {
 	if (that && that->orgLayoutLoadCallback) {
-		that->updateResource(Resource::Layout, resourceData, resourceDataLength);
+		that->updateResource(Resource::Layout, result, resourceData, resourceDataLength);
 		that->orgLayoutLoadCallback(requestTag, result, resourceData, resourceDataLength, context);
 	} else {
 		SYSLOG("alc @ layout callback arrived at nowhere");
@@ -47,7 +47,7 @@ void AlcEnabler::layoutLoadCallback(uint32_t requestTag, kern_return_t result, c
 
 void AlcEnabler::platformLoadCallback(uint32_t requestTag, kern_return_t result, const void *resourceData, uint32_t resourceDataLength, void *context) {
 	if (that && that->orgPlatformLoadCallback) {
-		that->updateResource(Resource::Platform, resourceData, resourceDataLength);
+		that->updateResource(Resource::Platform, result, resourceData, resourceDataLength);
 		that->orgPlatformLoadCallback(requestTag, result, resourceData, resourceDataLength, context);
 	} else {
 		SYSLOG("alc @ platform callback arrived at nowhere");
@@ -175,7 +175,7 @@ void AlcEnabler::processKext(size_t index, mach_vm_address_t address, size_t siz
 	patcher.clearError();
 }
 
-void AlcEnabler::updateResource(Resource type, const void * &resourceData, uint32_t &resourceDataLength) {
+void AlcEnabler::updateResource(Resource type, kern_return_t &result, const void * &resourceData, uint32_t &resourceDataLength) {
 	DBGLOG("alc @ resource-request arrived %s", type == Resource::Platform ? "paltform" : "layout");
 	
 	for (size_t i = 0, s = codecs.size(); i < s; i++) {
@@ -197,6 +197,7 @@ void AlcEnabler::updateResource(Resource type, const void * &resourceData, uint3
 					DBGLOG("Found %s at %zu index", type == Resource::Platform ? "platform" : "layout", f);
 					resourceData = fi.data;
 					resourceDataLength = fi.dataLength;
+					result = kOSReturnSuccess;
 					break;
 				}
 			}

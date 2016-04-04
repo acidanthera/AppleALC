@@ -99,10 +99,11 @@ private:
 	 *  Update resource request parameters with hooked data if necessary
 	 *
 	 *  @param type               resource type
+	 *  @param result             kOSReturnSuccess on resource update
 	 *  @param resourceData       resource data reference
 	 *  @param resourceDataLength resource data length reference
 	 */
-	void updateResource(Resource type, const void * &resourceData, uint32_t &resourceDataLength);
+	void updateResource(Resource type, kern_return_t &result, const void * &resourceData, uint32_t &resourceDataLength);
 
 	/**
 	 *  Controller identification and modification info

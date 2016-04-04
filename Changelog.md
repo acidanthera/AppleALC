@@ -1,6 +1,16 @@
 AppleALC Changelog
 ==================
 
+#### v1.0.7
+- Added 0x100004 revision to ALC269
+- Added custom ALC269 resources for SONY VAIO VPCEB3M1R layout-id 20
+- Added custom ALC282 resources for Acer Aspire E1-572G layout-id 28
+- Added into ALC269 info.plist no-sleep, no-click, headphone detect patches
+- Added ALC282 resources for Acer Aspire on IvyBridge by Andrey1970 layout-id 27
+- Added Mirone resources to ALC892 thanks to cecekpawon
+- Added ALC668 resources for DELL Precision M3800 by Syscl
+- Allowed providing non-existent layouts
+
 #### v1.0.6
 - Reduced kext size by optimising capstone build options
 - Added Model key with possible Laptop/Desktop/Any values to Controllers.plist (matches IODT/comptaible)
