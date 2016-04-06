@@ -20,6 +20,14 @@
 				<key>Path</key>
 				<string>layout7.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Mirone's 3 Ports Supported (Pink, Green, Blue)</string>
+				<key>Id</key>
+				<integer>5</integer>
+				<key>Path</key>
+				<string>layout5.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -28,6 +36,14 @@
 				<string>Mirone resources</string>
 				<key>Id</key>
 				<integer>7</integer>
+				<key>Path</key>
+				<string>PlatformsM.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Mirone resources</string>
+				<key>Id</key>
+				<integer>5</integer>
 				<key>Path</key>
 				<string>PlatformsM.xml.zlib</string>
 			</dict>
