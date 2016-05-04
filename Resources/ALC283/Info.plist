@@ -14,6 +14,14 @@
 		<array>
 			<dict>
 				<key>Comment</key>
+				<string>Slbomber Laptop Patch ALC283 (Aspire V3-371)</string>
+				<key>Id</key>
+				<integer>4</integer>
+				<key>Path</key>
+				<string>layout4.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Mirone Laptop patch ALC283</string>
 				<key>Id</key>
 				<integer>3</integer>
@@ -23,6 +31,14 @@
 		</array>
 		<key>Platforms</key>
 		<array>
+			<dict>
+				<key>Comment</key>
+				<string>Slbomber Resources (Aspire V3-371)</string>
+				<key>Id</key>
+				<integer>4</integer>
+				<key>Path</key>
+				<string>Platforms4.xml.zlib</string>
+			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>Mirone resources</string>
