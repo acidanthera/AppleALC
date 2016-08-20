@@ -1359,6 +1359,48 @@
 					<integer>7</integer>
 				</dict>
 				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>InsanelyDeepak - Realtek ALC888</string>
+					<key>CodecID</key>
+					<integer>283904136</integer>
+					<key>ConfigData</key>
+					<data>
+					AUccEAFHHUABRx4RAUcfkQFHDAIBtxwgAbcd
+					QAG3HiEBtx8CAbcMAgGHHDABhx2QAYceoQGH
+					H5EBlxxAAZcdkQGXHoEBlx+SAeccUAHnHQAB
+					5x5DAecfkAGnHGABpx0wAacegQGnHwE=
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>11</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>InsanelyDeepak - Realtek ALC888</string>
+					<key>CodecID</key>
+					<integer>283904136</integer>
+					<key>ConfigData</key>
+					<data>
+					AUccEAFHHUABRx4RAUcfkQFHDAIBtxwgAbcd
+					QAG3HiEBtx8CAbcMAgGHHDABhx2QAYceoQGH
+					H5EBlxxAAZcdkQGXHoEBlx+SAeccUAHnHQAB
+					5x5DAecfkAGnHGABpx0wAacegQGnHwE=
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>12</integer>
+				</dict>
+				<dict>
 					<key>CodecID</key>
 					<integer>283904137</integer>
 					<key>Comment</key>
