@@ -3,6 +3,8 @@ AppleALC Changelog
 #### v1.0.16
 - Fixed a rare lock acquisition issue on 10.12
 - Fixed a rare kernel panic on initialisation failure
+- Improved ALC887 layout-id 11, 13 by InsanelyDeepak
+- Added ALC269VC layout-id 33 for NP530U3C-A0F by BblDE3HAP
 
 #### v1.0.15
 - Added macOS 10.12 to the list of supported systems

@@ -783,6 +783,20 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>CodecID</key>
+					<integer>283902569</integer>
+					<key>Comment</key>
+					<string>Custom ALC269VC for Samsung NP530U3C-A0F by BblDE3HAP</string>
+					<key>ConfigData</key>
+					<data>AUccEAFHHQABRx6mAUcfkAFHDAIBVxwgAVcdAAFXHhcBVx+QAVcMAgGHHDABhx0QAYceIQGHHwABlxxAAZcdkAGXHoEBlx8C</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>33</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
 					<data>
 					AwAAAA==
 					</data>
