@@ -46,6 +46,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Custom - Realtek ALC898 (Autodetect disabled)</string>
+				<key>Id</key>
+				<integer>28</integer>
+				<key>Path</key>
+				<string>layout3.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>InsanelyDeepak - Realtek ALC898 for MSI GS40</string>
 				<key>Id</key>
 				<integer>13</integer>
@@ -86,6 +94,14 @@
 				<integer>11</integer>
 				<key>Path</key>
 				<string>Platforms11.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom - Realtek ALC898 (Autodetect disabled)</string>
+				<key>Id</key>
+				<integer>28</integer>
+				<key>Path</key>
+				<string>Platforms28.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>

@@ -148,7 +148,7 @@
 				<key>Comment</key>
 				<string>Custom ALC269VC for Samsung NP530U3C-A0F by BblDE3HAP</string>
 				<key>Path</key>
-				<string>Platforms33.xml.zlib</string>
+				<string>layout33.xml.zlib</string>
 			</dict>
 		</array>
 		<key>Platforms</key>
@@ -287,7 +287,7 @@
 				<key>Comment</key>
 				<string>Custom ALC269VC for Samsung NP530U3C-A0F by BblDE3HAP</string>
 				<key>Path</key>
-				<string>Platforms33.xml.zlib</string>
+				<string>Platforms28.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>

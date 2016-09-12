@@ -28,6 +28,14 @@
 				<key>Path</key>
 				<string>layout7.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>5 ports (Green, Pink, Green, Pink, Blue) - Irving23</string>
+				<key>Id</key>
+				<integer>11</integer>
+				<key>Path</key>
+				<string>layout11.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -46,6 +54,14 @@
 				<integer>7</integer>
 				<key>Path</key>
 				<string>PlatformsM.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Irving23 resources</string>
+				<key>Id</key>
+				<integer>11</integer>
+				<key>Path</key>
+				<string>Platforms11.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>
@@ -143,6 +159,7 @@
 	<key>Revisions</key>
 	<array>
 		<integer>1048833</integer>
+		<integer>1049344</integer>
 	</array>
 	<key>Vendor</key>
 	<string>Realtek</string>

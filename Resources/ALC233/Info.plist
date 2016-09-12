@@ -38,11 +38,11 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Custom ALC233 for Asus X550LC</string>
+				<string>InsanelyDeepak - Realtek ALC233 for Asus X550LC</string>
 				<key>Id</key>
-				<integer>12</integer>
+				<integer>13</integer>
 				<key>Path</key>
-				<string>layout12.xml.zlib</string>
+				<string>layout13.xml.zlib</string>
 			</dict>
 		</array>
 		<key>Platforms</key>
@@ -73,11 +73,11 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Custom ALC233 for Asus X550LC</string>
+				<string>InsanelyDeepak - Realtek ALC233 for Asus X550LC</string>
 				<key>Id</key>
-				<integer>12</integer>
+				<integer>13</integer>
 				<key>Path</key>
-				<string>Platforms12.xml.zlib</string>
+				<string>PlatformsID.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>
