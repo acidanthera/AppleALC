@@ -16,6 +16,14 @@
 		<array>
 			<dict>
 				<key>Id</key>
+				<integer>3</integer>
+				<key>Comment</key>
+				<string>Custom ALC269VC for Samsung NT550P7C-S65 with subwoofer 2.1ch by Rockjesus</string>
+				<key>Path</key>
+				<string>layout269.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Id</key>
 				<integer>1</integer>
 				<key>Comment</key>
 				<string>Miron Laptop patch ALC269 Asus N53J</string>
@@ -177,6 +185,14 @@
 		</array>
 		<key>Platforms</key>
 		<array>
+			<dict>
+				<key>Id</key>
+				<integer>3</integer>
+				<key>Comment</key>
+				<string>Custom ALC269VC for Samsung NT550P7C-S65 with subwoofer 2.1ch by Rockjesus</string>
+				<key>Path</key>
+				<string>Platforms269.xml.zlib</string>
+			</dict>
 			<dict>
 				<key>Id</key>
 				<integer>1</integer>

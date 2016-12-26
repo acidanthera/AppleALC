@@ -31,6 +31,20 @@
 				<dict>
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
+					<key>CodecID</key>
+					<integer>283902569</integer>
+					<key>Comment</key>
+					<string>Custom ALC269VC for Samsung NT550P7C-S65 with subwoofer 2.1ch by Rockjesus</string>
+					<key>ConfigData</key>
+					<data>AVccAAFXHRABVx4hAVcfAgF3HBABdx0BAXceBwF3H5kBhxwgAYcdEAGHHoEBhx8CAZccMAGXHQEBlx6nAZcfmQG3HEABtx0BAbceFwG3H5kBRwwC</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>3</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
 					<key>Codec</key>
 					<string>Creative CA0132 by Andres ZeroCross</string>
 					<key>CodecID</key>
