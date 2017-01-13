@@ -362,6 +362,33 @@
 	</dict>
 	<dict>
 		<key>Device</key>
+		<integer>6427</integer>
+		<key>Model</key>
+		<string>Laptop</string>
+		<key>Name</key>
+		<string>Laptop Intel HD530 HDMI (ig-platform-id 0x191b0000)</string>
+		<key>Patches</key>
+		<array>
+			<dict>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Find</key>
+				<data>AQUJAAAEAACHAQAAAgQKAAAEAACHAQAA</data>
+				<key>MinKernel</key>
+				<integer>15</integer>
+				<key>Name</key>
+				<string>AppleIntelSKLGraphicsFramebuffer</string>
+				<key>Replace</key>
+				<data>AQUJAAAIAACHAQAAAgQKAAAIAACHAQAA</data>
+			</dict>
+		</array>
+		<key>Platform</key>
+		<integer>421199872</integer>
+		<key>Vendor</key>
+		<string>Intel</string>
+	</dict>
+	<dict>
+		<key>Device</key>
 		<integer>6418</integer>
 		<key>Model</key>
 		<string>Desktop</string>

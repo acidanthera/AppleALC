@@ -308,9 +308,7 @@ mach_vm_address_t KernelPatcher::routeFunction(mach_vm_address_t from, mach_vm_a
 	return trampoline;
 }
 
-void KernelPatcher::tempExecutableMemory() {
-	asm (".rept " xStringify(TempExecutableMemorySize) "\nnop\n.endr");
-}
+uint8_t KernelPatcher::tempExecutableMemory[TempExecutableMemorySize] __attribute__((section("__TEXT,__text")));
 
 mach_vm_address_t KernelPatcher::createTrampoline(mach_vm_address_t func, size_t min) {
 	if (!disasm.init()) {
@@ -333,7 +331,7 @@ mach_vm_address_t KernelPatcher::createTrampoline(mach_vm_address_t func, size_t
 	tempExecutableMemoryOff += off + LongJump;
 	
 	if (tempExecutableMemoryOff >= TempExecutableMemorySize) {
-		SYSLOG("patcher @ not enough executable memory requested %lld have %d", tempExecutableMemoryOff+1, TempExecutableMemorySize);
+		SYSLOG("patcher @ not enough executable memory requested %lld have %zu", tempExecutableMemoryOff+1, TempExecutableMemorySize);
 		code = Error::DisasmFailure;
 	} else if (kinfos[KernelID]->setKernelWriting(true) == KERN_SUCCESS) {
 		// Copy the prologue, assuming it is PIC

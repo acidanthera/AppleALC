@@ -91,7 +91,13 @@ public:
 	 */
 	Policy policy;
 
-	Configuration() : policy(xStringify(PRODUCT_NAME), xStringify(PRODUCT_NAME) " Kernel Extension", &policyOps) {}
+#ifdef DEBUG
+	static constexpr const char *fullName {xStringify(PRODUCT_NAME) " Kernel Extension " xStringify(MODULE_VERSION) " DEBUG build"};
+#else
+	static constexpr const char *fullName {xStringify(PRODUCT_NAME) " Kernel Extension " xStringify(MODULE_VERSION)};
+#endif
+	
+	Configuration() : policy(xStringify(PRODUCT_NAME), fullName, &policyOps) {}
 };
 
 #endif /* kern_start_hpp */

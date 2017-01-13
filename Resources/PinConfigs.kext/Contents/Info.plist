@@ -314,6 +314,20 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>Jake Lo - Realtek ALC236</string>
+					<key>CodecID</key>
+					<integer>283902518</integer>
+					<key>ConfigData</key>
+					<data>ASccEAEnHQEBJx6gAScfkAE3HPABNx0AATceAAE3H0ABRxwwAUcdAQFHHhABRx+QAUcMAgGHHPABhx0AAYceAAGHH0ABlxwgAZcdMAGXHosBlx8BAacc8AGnHQABpx4AAacfQAG3HPABtx0AAbceAAG3H0AB1xzwAdcdAAHXHgAB1x9AAecc8AHnHQAB5x4AAecfQAIXHEACFx1AAhceKwIXHwECFwwCABcgAAAXIXIAFyJrABcjEA==</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>11</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>Mirone - Realtek ALC255</string>
 					<key>CodecID</key>
 					<integer>283902549</integer>
@@ -426,7 +440,7 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
-					<string>Miron Laptop patch ALC269 Asus N53J</string>
+					<string>Mirone Laptop patch ALC269 Asus N53J</string>
 					<key>CodecID</key>
 					<integer>283902569</integer>
 					<key>ConfigData</key>
@@ -577,6 +591,20 @@
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>13</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>CodecID</key>
+					<integer>283902569</integer>
+					<key>Comment</key>
+					<string>Custom ALC269VC for Samsung NT550P7C-S65 with subwoofer 2.1ch by Rockjesus</string>
+					<key>ConfigData</key>
+					<data>AVccEAFXHRABVx4hAVcfAQGHHCABhx0QAYcegQGHHwEBlxwwAZcdAQGXHqcBlx+QAbccQAG3HQEBtx4XAbcfkAF3HEEBdx0BAXceFwF3H5ABJxzwAScdAAEnHgABJx9AAUcc8AFHHQABRx4AAUcfQAGnHPABpx0AAaceAAGnH0AB1xzwAdcdAAHXHgAB1x9AAecc8AHnHQAB5x4AAecfQAG3DAI=</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>14</integer>
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>

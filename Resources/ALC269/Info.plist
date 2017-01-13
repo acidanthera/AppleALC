@@ -18,7 +18,7 @@
 				<key>Id</key>
 				<integer>1</integer>
 				<key>Comment</key>
-				<string>Miron Laptop patch ALC269 Asus N53J</string>
+				<string>Mirone Laptop patch ALC269 Asus N53J</string>
 				<key>Path</key>
 				<string>layout1.xml.zlib</string>
 			</dict>
@@ -26,7 +26,7 @@
 				<key>Id</key>
 				<integer>2</integer>
 				<key>Comment</key>
-				<string>Miron Laptop patch ALC269-VB v1</string>
+				<string>Mirone Laptop patch ALC269-VB v1</string>
 				<key>Path</key>
 				<string>layout2.xml.zlib</string>
 			</dict>
@@ -34,7 +34,7 @@
 				<key>Id</key>
 				<integer>3</integer>
 				<key>Comment</key>
-				<string>Miron Laptop patch ALC269 Asus K53SJ, Asus G73s</string>
+				<string>Mirone Laptop patch ALC269 Asus K53SJ, Asus G73s</string>
 				<key>Path</key>
 				<string>layout3.xml.zlib</string>
 			</dict>
@@ -42,7 +42,7 @@
 				<key>Id</key>
 				<integer>4</integer>
 				<key>Comment</key>
-				<string>Miron Laptop patch ALC269-VB v2</string>
+				<string>Mirone Laptop patch ALC269-VB v2</string>
 				<key>Path</key>
 				<string>layout4.xml.zlib</string>
 			</dict>
@@ -50,7 +50,7 @@
 				<key>Id</key>
 				<integer>5</integer>
 				<key>Comment</key>
-				<string>Miron Laptop patch ALC269-VB v3</string>
+				<string>Mirone Laptop patch ALC269-VB v3</string>
 				<key>Path</key>
 				<string>layout5.xml.zlib</string>
 			</dict>
@@ -58,7 +58,7 @@
 				<key>Id</key>
 				<integer>6</integer>
 				<key>Comment</key>
-				<string>Miron Laptop patch ALC269-VC v1</string>
+				<string>Mirone Laptop patch ALC269-VC v1</string>
 				<key>Path</key>
 				<string>layout6.xml.zlib</string>
 			</dict>
@@ -66,7 +66,7 @@
 				<key>Id</key>
 				<integer>7</integer>
 				<key>Comment</key>
-				<string>Miron Laptop patch ALC269-VC v2</string>
+				<string>Mirone Laptop patch ALC269-VC v2</string>
 				<key>Path</key>
 				<string>layout7.xml.zlib</string>
 			</dict>
@@ -74,7 +74,7 @@
 				<key>Id</key>
 				<integer>8</integer>
 				<key>Comment</key>
-				<string>Miron Laptop patch ALC269-VC v3</string>
+				<string>Mirone Laptop patch ALC269-VC v3</string>
 				<key>Path</key>
 				<string>layout8.xml.zlib</string>
 			</dict>
@@ -82,7 +82,7 @@
 				<key>Id</key>
 				<integer>9</integer>
 				<key>Comment</key>
-				<string>Miron Laptop patch ALC269-VB v4</string>
+				<string>Mirone Laptop patch ALC269-VB v4</string>
 				<key>Path</key>
 				<string>layout9.xml.zlib</string>
 			</dict>
@@ -101,6 +101,14 @@
 				<string>InsanelyDeepak - Realtek ALC269VC for Samsung NP350V5C-S08IT</string>
 				<key>Path</key>
 				<string>layout13.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Id</key>
+				<integer>14</integer>
+				<key>Comment</key>
+				<string>Custom ALC269VC for Samsung NT550P7C-S65 with subwoofer 2.1ch by Rockjesus</string>
+				<key>Path</key>
+				<string>layout14.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Id</key>
@@ -181,7 +189,7 @@
 				<key>Id</key>
 				<integer>1</integer>
 				<key>Comment</key>
-				<string>Miron Laptop patch ALC269 Asus N53J</string>
+				<string>Mirone Laptop patch ALC269 Asus N53J</string>
 				<key>Path</key>
 				<string>PlatformsM1.xml.zlib</string>
 			</dict>
@@ -189,7 +197,7 @@
 				<key>Id</key>
 				<integer>2</integer>
 				<key>Comment</key>
-				<string>Miron Laptop patch ALC269-VB v1</string>
+				<string>Mirone Laptop patch ALC269-VB v1</string>
 				<key>Path</key>
 				<string>PlatformsM2.xml.zlib</string>
 			</dict>
@@ -197,7 +205,7 @@
 				<key>Id</key>
 				<integer>3</integer>
 				<key>Comment</key>
-				<string>Miron Laptop patch ALC269 Asus K53SJ, Asus G73s</string>
+				<string>Mirone Laptop patch ALC269 Asus K53SJ, Asus G73s</string>
 				<key>Path</key>
 				<string>PlatformsM3.xml.zlib</string>
 			</dict>
@@ -205,7 +213,7 @@
 				<key>Id</key>
 				<integer>4</integer>
 				<key>Comment</key>
-				<string>Miron Laptop patch ALC269-VB v2</string>
+				<string>Mirone Laptop patch ALC269-VB v2</string>
 				<key>Path</key>
 				<string>PlatformsM4.xml.zlib</string>
 			</dict>
@@ -213,7 +221,7 @@
 				<key>Id</key>
 				<integer>5</integer>
 				<key>Comment</key>
-				<string>Miron Laptop patch ALC269-VB v3</string>
+				<string>Mirone Laptop patch ALC269-VB v3</string>
 				<key>Path</key>
 				<string>PlatformsM5.xml.zlib</string>
 			</dict>
@@ -221,7 +229,7 @@
 				<key>Id</key>
 				<integer>6</integer>
 				<key>Comment</key>
-				<string>Miron Laptop patch ALC269-VC v1</string>
+				<string>Mirone Laptop patch ALC269-VC v1</string>
 				<key>Path</key>
 				<string>PlatformsM6.xml.zlib</string>
 			</dict>
@@ -229,7 +237,7 @@
 				<key>Id</key>
 				<integer>7</integer>
 				<key>Comment</key>
-				<string>Miron Laptop patch ALC269-VC v2</string>
+				<string>Mirone Laptop patch ALC269-VC v2</string>
 				<key>Path</key>
 				<string>PlatformsM7.xml.zlib</string>
 			</dict>
@@ -237,7 +245,7 @@
 				<key>Id</key>
 				<integer>8</integer>
 				<key>Comment</key>
-				<string>Miron Laptop patch ALC269-VC v3</string>
+				<string>Mirone Laptop patch ALC269-VC v3</string>
 				<key>Path</key>
 				<string>PlatformsM8.xml.zlib</string>
 			</dict>
@@ -245,7 +253,7 @@
 				<key>Id</key>
 				<integer>9</integer>
 				<key>Comment</key>
-				<string>Miron Laptop patch ALC269-VB v4</string>
+				<string>Mirone Laptop patch ALC269-VB v4</string>
 				<key>Path</key>
 				<string>PlatformsM9.xml.zlib</string>
 			</dict>
@@ -264,6 +272,14 @@
 				<string>InsanelyDeepak - Realtek ALC269VC for Samsung NP350V5C-S08IT</string>
 				<key>Path</key>
 				<string>PlatformsID.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Id</key>
+				<integer>14</integer>
+				<key>Comment</key>
+				<string>Custom ALC269VC for Samsung NT550P7C-S65 with subwoofer 2.1ch by Rockjesus</string>
+				<key>Path</key>
+				<string>Platforms14.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Id</key>

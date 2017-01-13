@@ -207,15 +207,14 @@ public:
 private:
 
 	/**
-	 *  As of 10.12 we seem to be not allowed to call vm_ functions from several places including onKextSummariesUpdated.
-	 *  This "function" contains at least TempExecutableMemorySize bytes we can use for trampolines.
-	 */
-	static void tempExecutableMemory();
-	
-	/**
 	 *  The minimal reasonable memory requirement
 	 */
-	#define TempExecutableMemorySize 256
+	static constexpr size_t TempExecutableMemorySize {256};
+	
+	/**
+	 *  As of 10.12 we seem to be not allowed to call vm_ functions from several places including onKextSummariesUpdated.
+	 */
+	static uint8_t tempExecutableMemory[TempExecutableMemorySize];
 	
 	/**
 	 *  Offset to tempExecutableMemory that is safe to use
