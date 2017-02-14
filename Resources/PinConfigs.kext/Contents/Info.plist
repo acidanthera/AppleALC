@@ -32,6 +32,20 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>ASRock DeskMini 110(H110M-STX) ALC283</string>
+					<key>CodecID</key>
+					<integer>283902595</integer>
+					<key>ConfigData</key>
+					<data>ASccgAEnHQABJx4AAScfQAFHHEABRx0BAUceEwFHH5ABpxwgAacdkAGnHoEBpx8BAdccYAHXHZAB1x5VAdcfQAIXHFACFx0QAhceIQIXHwEBRwwCAhcMAg==</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>66</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>Creative CA0132 by Andres ZeroCross</string>
 					<key>CodecID</key>
 					<integer>285343761</integer>
