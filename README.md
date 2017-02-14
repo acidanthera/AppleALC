@@ -1,3 +1,19 @@
+修改增加支持 华擎 ASRock DeskMini 110(H110M-STX) 声卡（ALC283）。
+
+layout-id 是 **66**。
+
+必须安装[CodecCommander.kext](https://bitbucket.org/RehabMan/os-x-eapd-codec-commander/downloads)，否则无法正常发出声音。
+
+
+
+Added ALC283 layout-id **66** for ASRock DeskMini 110(H110M-STX).  
+
+[CodecCommander.kext](https://bitbucket.org/RehabMan/os-x-eapd-codec-commander/downloads) is nessesary, otherwise the audio may not work properly.  
+
+
+
+------------------原项目信息------------------
+
 AppleALC
 ========
 
