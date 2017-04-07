@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Author</key>
-	<string>ChalesYu</string>
+	<string>Vandroiy,vusun123,ChalesYu</string>
 	<key>CodecID</key>
 	<integer>549</integer>
 	<key>CodecName</key>
@@ -14,15 +14,7 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>ChalesYu - ALC 225 for Kabylake dell 7579</string>
-				<key>Id</key>
-				<integer>3</integer>
-				<key>Path</key>
-				<string>layout3.xml.zlib</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>ChalesYu - ALC 225 for Kabylake dell 7579</string>
+				<string>vusun123 - ALC 295 for Skylake HP Pavilion,ChalesYu changed for dell 7579</string>
 				<key>Id</key>
 				<integer>28</integer>
 				<key>Path</key>
@@ -33,19 +25,11 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>ChalesYu - ALC 225 for Kabylake dell 7579</string>
-				<key>Id</key>
-				<integer>3</integer>
-				<key>Path</key>
-				<string>PlatformsM.xml.zlib</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>ChalesYu - ALC 225 for Kabylake dell 7579</string>
+				<string>vusun123 - ALC 295 for Skylake HP Pavilion,ChalesYu changed for dell 7579</string>
 				<key>Id</key>
 				<integer>28</integer>
 				<key>Path</key>
-				<string>PlatformsM.xml.zlib</string>
+				<string>Platforms28.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>

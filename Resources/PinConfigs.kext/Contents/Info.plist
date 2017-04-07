@@ -54,32 +54,7 @@
 					AwAAAA==
 					</data>
 					<key>Codec</key>
-					<string>Dell ins 7579 Realtek ALC225 by ChalesYu Credits Mirone</string>
-					<key>CodecID</key>
-					<integer>283902501</integer>
-					<key>ConfigData</key>
-					<data>
-					ASccUAEnHQEBJx6mAScftwE3HAABNx0AATce
-					AAE3H0ABRxywAUcdAQFHHhcBRx+QAWcc8AFn
-					HREBZx4RAWcfQQF3HPABdx0RAXceEQF3H0EB
-					hxzwAYcdEQGHHhEBhx9BAZccQAGXHRABlx6B
-					AZcfAQGnHPABpx0RAaceEQGnH0EBtxzwAbcd
-					EQG3HhEBtx9BAdccAQHXHQAB1x5gAdcfQAHn
-					HPAB5x0RAeceEQHnH0ECFxwgAhcdEAIXHiEC
-					Fx8EAUcMAg==
-					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>3</integer>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>
-					AwAAAA==
-					</data>
-					<key>Codec</key>
-					<string>Dell ins 7579 Realtek ALC225 by ChalesYu</string>
+					<string>vusun123 - ALC 295 for Skylake HP Pavilion,ChalesYu changed for dell 7579</string>
 					<key>CodecID</key>
 					<integer>283902501</integer>
 					<key>ConfigData</key>
