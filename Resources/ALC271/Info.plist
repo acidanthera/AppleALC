@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Mirone</string>
+	<key>CodecID</key>
+	<integer>569</integer>
+	<key>CodecName</key>
+	<string>ALC271</string>
+	<key>Files</key>
+	<dict>
+		<key>Layouts</key>
+		<array>
+			<dict>
+				<key>Comment</key>
+				<string>Mirone - Realtek ALC271x</string>
+				<key>Id</key>
+				<integer>3</integer>
+				<key>Path</key>
+				<string>layout3.xml.zlib</string>
+			</dict>
+		</array>
+		<key>Platforms</key>
+		<array>
+			<dict>
+				<key>Comment</key>
+				<string>Mirone - Realtek ALC271x</string>
+				<key>Id</key>
+				<integer>3</integer>
+				<key>Path</key>
+				<string>Platforms.xml.zlib</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Patches</key>
+	<array>
+		<dict>
+			<key>Count</key>
+			<integer>0</integer>
+			<key>Find</key>
+			<data>EOwCaQ==</data>
+			<key>MinKernel</key>
+			<integer>13</integer>
+			<key>Name</key>
+			<string>AppleHDA</string>
+			<key>Replace</key>
+			<data>AAAAAA==</data>
+		</dict>
+	</array>
+	<key>Revisions</key>
+	<array>
+		<integer>1048577</integer>
+	</array>
+	<key>Vendor</key>
+	<string>Realtek</string>
+</dict>
+</plist>
