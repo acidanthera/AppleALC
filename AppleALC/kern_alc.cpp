@@ -123,9 +123,10 @@ void AlcEnabler::processKext(KernelPatcher &patcher, size_t index, mach_vm_addre
 		// patch AppleHDAController to remove redundant logs
 		if (!ADDPR(debugEnabled) && !strcmp(ADDPR(kextList)[kextIndex].id, "com.apple.driver.AppleHDAController")) {
 			KernelPatcher::LookupPatch hdaLogRMPatch {
-				&ADDPR(kextList)[kextIndex], logFind, logRepl, sizeof(logFind), 3   // 3 occurrences inside AppleHDAController
+				&ADDPR(kextList)[kextIndex], logFind, logRepl, sizeof(logFind), 3 // 3 occurrences inside AppleHDAController
 			};
 			patcher.applyLookupPatch(&hdaLogRMPatch);
+			patcher.clearError();
 		}
 	}
 	
@@ -172,9 +173,10 @@ void AlcEnabler::processKext(KernelPatcher &patcher, size_t index, mach_vm_addre
 		// patch AppleHDA to remove redundant logs
 		if (!ADDPR(debugEnabled)) {
 			KernelPatcher::LookupPatch hdaLogRMPatch {
-				&ADDPR(kextList)[kextIndex], logFind, logRepl, sizeof(logFind), 2   // 2 occurrences inside AppleHDA
+				&ADDPR(kextList)[kextIndex], logFind, logRepl, sizeof(logFind), 2 // 2 occurrences inside AppleHDA
 			};
 			patcher.applyLookupPatch(&hdaLogRMPatch);
+			patcher.clearError();
 		}
 	}
 	
