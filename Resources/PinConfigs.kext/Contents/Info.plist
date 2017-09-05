@@ -2407,6 +2407,20 @@
 					<integer>13</integer>
 				</dict>
 				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>Realtek ALC898 for MSI GP62-6QG Leopard Pro</string>
+					<key>CodecID</key>
+					<integer>283904153</integer>
+					<key>ConfigData</key>
+					<data>AaccEAGnHQABpx4XAacfkAHnHCAB5x0QAeceRgHnHwEBhxwwAYcdEAGHHoEBhx8BASccQAEnHQABJx6gAScfkA==</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>99</integer>
+				</dict>
+				<dict>
 					<key>CodecID</key>
 					<integer>283904153</integer>
 					<key>Comment</key>
