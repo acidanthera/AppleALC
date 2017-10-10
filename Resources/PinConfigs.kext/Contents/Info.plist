@@ -1570,20 +1570,6 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
-					<string>Rockjesus - Realtek ALC298 for Alienware 17 ALC3266</string>
-					<key>CodecID</key>
-					<integer>283902616</integer>
-					<key>ConfigData</key>
-					<data>ASccQAEnHQEBJx6mAScftwF3HBABdx0BAXceFwF3H5ABpxwwAacdEAGnHqEBpx8DAhccIAIXHRACFx4hAhcfAw==</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>9</integer>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
-					<key>Codec</key>
 					<string>InsanelyDeepak - Realtek ALC298</string>
 					<key>CodecID</key>
 					<integer>283902616</integer>
