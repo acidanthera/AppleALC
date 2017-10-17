@@ -127,6 +127,14 @@
 				<string>layout16.xml.zlib</string>
 			</dict>
 			<dict>
+				<key>Comment</key>
+				<string>Hypereitan - ALC269VC for Thinkpad X230 i7</string>
+				<key>Id</key>
+				<integer>18</integer>
+				<key>Path</key>
+				<string>layout18.xml.zlib</string>
+			</dict>
+			<dict>
 				<key>Id</key>
 				<integer>19</integer>
 				<key>Comment</key>
