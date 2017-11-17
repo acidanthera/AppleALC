@@ -222,6 +222,30 @@
 				<key>Path</key>
 				<string>layout76.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Id</key>
+				<integer>93</integer>
+				<key>Comment</key>
+				<string>ALC269 Asus K53SJ, Asus G73s Mod by Andrey1970 (No input boost - no noise in Siri)</string>
+				<key>Path</key>
+				<string>layout93.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Id</key>
+				<integer>99</integer>
+				<key>Comment</key>
+				<string>ALC269-VB v4 Mod by Andrey1970 (No input boost - no noise in Siri)</string>
+				<key>Path</key>
+				<string>layout99.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Id</key>
+				<integer>127</integer>
+				<key>Comment</key>
+				<string>Custom ALC269 Acer Aspire by Andrey1970 (No input boost - no noise in Siri)</string>
+				<key>Path</key>
+				<string>layout127.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -432,6 +456,30 @@
 				<string>Custom ALC269VB ENZ C16B by jimmy19990</string>
 				<key>Path</key>
 				<string>Platforms76.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Id</key>
+				<integer>93</integer>
+				<key>Comment</key>
+				<string>ALC269 Asus K53SJ, Asus G73s Mod by Andrey1970 (No input boost - no noise in Siri)</string>
+				<key>Path</key>
+				<string>Platforms93.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Id</key>
+				<integer>99</integer>
+				<key>Comment</key>
+				<string>ALC269-VB v4 Mod by Andrey1970 (No input boost - no noise in Siri)</string>
+				<key>Path</key>
+				<string>Platforms99.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Id</key>
+				<integer>127</integer>
+				<key>Comment</key>
+				<string>Custom ALC269 Acer Aspire by Andrey1970 (No input boost - no noise in Siri)</string>
+				<key>Path</key>
+				<string>Platforms127.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>

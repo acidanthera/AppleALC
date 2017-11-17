@@ -1,5 +1,12 @@
 AppleALC Changelog
 ==================
+#### v1.2.2
+- Added ALC256 layout-id 56 for Dell 7000 by DalianSky
+- Added ALC298 layout-id 47 for ThinkPad T470P by DalianSky
+- Update ALC269 layout27.xml.zlib by Andrey1970
+- Added ALC269 layout-id 93, 99 and 127 by Andrey1970 (No input boost - no noise in Siri)
+- Added ALC671 layout-id 12 for Fujitsu-Siemens D3433-S (Q170 chip) by MacPeet
+
 #### v1.2.1
 - Added ALC298 layout-id 11 for Alienware 17 (ALC3266) by Rockjesus
 - Added VIA VT2020/2021 layout-id 9 by SonicBSV
@@ -7,6 +14,8 @@ AppleALC Changelog
 - Added ALC235 layout-id 28 for Lenovo Legion Y520 by vusun123
 - Added ALC898 layout-id 65 for CLEVO P65xRS(-G) by datasone
 - Added ALC298 layout-id 29 for Lenovo X270 by vusun123
+- Added ALC292 layout-id 18 for Dell Precision M4800/M6800 by vanquybn
+- Added IDT92HD87B1/3 layout-id 13 by InsanelyDeepak
 
 #### v1.2.0
 - Requires Lilu 1.2.0 and higher

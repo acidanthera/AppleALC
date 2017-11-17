@@ -929,6 +929,27 @@
 					AwAAAA==
 					</data>
 					<key>Codec</key>
+					<string>DalianSky - Realtek ALC256 (3246) for Dell 7000 Series</string>
+					<key>CodecID</key>
+					<integer>283902550</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccEAEnHQABJx6mAScfkAFHHCABRx0AAUce
+					FwFHH5ABlxwwAZcdEAGXHosBlx8CAaccQAGn
+					HRABpx6BAacfAgHXHPAB1x0RAdceEQHXH0EC
+					FxxQAhcdEAIXHisCFx8CAUcMAgIXDAI=
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>56</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
 					<string>MacPeet ALC260 for Fujitsu Celsius M 450</string>
 					<key>CodecID</key>
 					<integer>283902560</integer>
@@ -1535,6 +1556,74 @@
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>76</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>ALC269</string>
+					<key>CodecID</key>
+					<integer>283902569</integer>
+					<key>Comment</key>
+					<string>ALC269 Asus K53SJ, Asus G73s Mod by Andrey1970 (No input boost - no noise in Siri)</string>
+					<key>ConfigData</key>
+					<data>
+					AScc8AEnHQABJx4AAScfQAFHHBABRx0BAUce
+					EwFHH5ABdxxQAXcdAQF3HhMBdx+QAYccIAGH
+					HZABhx6BAYcfAwGXHDABlx0BAZceoAGXH5AB
+					pxzwAacdAAGnHgABpx9AAbcc8AG3HQABtx4A
+					AbcfQAHXHPAB1x0AAdceAAHXH0AB5xzwAecd
+					AAHnHgAB5x9AAhccQAIXHRACFx4hAhcfAwFH
+					DAI=
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>93</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>ALC269-VB v4 Mod by Andrey1970 (No input boost - no noise in Siri)</string>
+					<key>CodecID</key>
+					<integer>283902569</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccEAEnHQABJx6gAScfkAFHHCABRx0AAUce
+					EwFHH5ABhxwwAYcdEAGHHoEBhx8AAhccUAIX
+					HRACFx4hAhcfAAFHDAI=
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>99</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>ALC269</string>
+					<key>CodecID</key>
+					<integer>283902569</integer>
+					<key>Comment</key>
+					<string>Custom ALC269 Acer Aspire by Andrey1970 (No input boost - no noise in Siri)</string>
+					<key>ConfigData</key>
+					<data>
+					AUccAAFHHUEBRx4XAUcfmQGHHBABhx2QAYce
+					gQGHHwEBtxwgAbcdkQG3HqcBtx+ZAhccMAIX
+					HUACFx4hAhcfAQ==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>127</integer>
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
@@ -2197,26 +2286,6 @@
 					<key>CodecID</key>
 					<integer>283902610</integer>
 					<key>Comment</key>
-					<string>vusun123 - ALC 292 for Lenovo T440</string>
-					<key>ConfigData</key>
-					<data>
-					ASccMAEnHQABJx6gAScfkAFHHEABRx0AAUce
-					FwFHH5ABRwwCAVccUAFXHRABVx4hAVcfAAGn
-					HCABpx0QAacegQGnHwA=
-					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>28</integer>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>
-					AwAAAA==
-					</data>
-					<key>CodecID</key>
-					<integer>283902610</integer>
-					<key>Comment</key>
 					<string>vanquybn - ALC 292 for Dell M4800</string>
 					<key>ConfigData</key>
 					<data>
@@ -2228,6 +2297,26 @@
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>18</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>CodecID</key>
+					<integer>283902610</integer>
+					<key>Comment</key>
+					<string>vusun123 - ALC 292 for Lenovo T440</string>
+					<key>ConfigData</key>
+					<data>
+					ASccMAEnHQABJx6gAScfkAFHHEABRx0AAUce
+					FwFHH5ABRwwCAVccUAFXHRABVx4hAVcfAAGn
+					HCABpx0QAacegQGnHwA=
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>28</integer>
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
@@ -2253,6 +2342,26 @@
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>11</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>vanquybn - ALC293 Dell Precision 7xxx</string>
+					<key>CodecID</key>
+					<integer>283902611</integer>
+					<key>ConfigData</key>
+					<data>
+					AZccEAGXHZABlx6BAZcfIQE3HCABNx0AATce
+					pgE3H5ABRxwwAUcdAAFHHhcBRx+QAVccQAFX
+					HUABVx4hAVcfAQ==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>18</integer>
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
@@ -2450,6 +2559,26 @@
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>29</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>Daliansky - Realtek ALC298 ThinkPad T470p</string>
+					<key>CodecID</key>
+					<integer>283902616</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccEAEnHQABJx6gAScfkAFHHCABRx0AAUce
+					FwFHH5ABhxwwAYcdEAGHHoEBhx8CAhccQAIX
+					HRACFx4hAhcfAgFHDAICFwwC
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>47</integer>
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
@@ -2812,6 +2941,25 @@
 					HPABdx0AAXceAAF3H0ABhxzwAYcdAAGHHgAB
 					hx9AAdcc8AHXHQAB1x4AAdcfQAIXHPACFx0A
 					AhceAAIXH0A=
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>12</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>CodecID</key>
+					<integer>283903601</integer>
+					<key>Comment</key>
+					<string>MacPeet - ALC671 for Fujitsu-Siemens D3433-S (Q170 chip)</string>
+					<key>ConfigData</key>
+					<data>
+					AYccIAGHHTABhx6BAYcfAQIXHDACFx1AAhce
+					AQIXHwECFwwC
 					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
@@ -4630,6 +4778,26 @@
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>12</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>InsanelyDeepak - IDT92HD87B1/3</string>
+					<key>CodecID</key>
+					<integer>287143633</integer>
+					<key>ConfigData</key>
+					<data>
+					ANccAADXHQAA1x4XANcfmQEXHCABFx0AARce
+					oAEXH5kAtxwwALcdQAC3HiEAtx8BAMccQADH
+					HRAAxx6AAMcfAQ==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>13</integer>
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
