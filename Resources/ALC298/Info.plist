@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Author</key>
-	<string>InsanelyDeepak</string>
+	<string>https://blog.daliansky.net</string>
 	<key>CodecID</key>
 	<integer>664</integer>
 	<key>CodecName</key>
@@ -14,23 +14,7 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>Mirone - Realtek ALC298</string>
-				<key>Id</key>
-				<integer>3</integer>
-				<key>Path</key>
-				<string>layout3.xml.zlib</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Rockjesus - Realtek ALC298 for Alienware 17 ALC3266</string>
-				<key>Id</key>
-				<integer>11</integer>
-				<key>Path</key>
-				<string>layout11.xml.zlib</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>InsanelyDeepak - Realtek ALC298</string>
+				<string>Realtek ALC298 XiaoMi Pro https://blog.daliansky.net</string>
 				<key>Id</key>
 				<integer>13</integer>
 				<key>Path</key>
@@ -38,58 +22,18 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>vusun123 - Realtek ALC298 for Dell XPS 9x50</string>
+				<string>Realtek ALC298 XiaoMi Pro https://blog.daliansky.net</string>
 				<key>Id</key>
 				<integer>28</integer>
 				<key>Path</key>
 				<string>layout28.xml.zlib</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>vusun123 - Realtek ALC298 for Lenovo X270</string>
-				<key>Id</key>
-				<integer>29</integer>
-				<key>Path</key>
-				<string>layout29.xml.zlib</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Daliansky - Realtek ALC298 ThinkPad T470p</string>
-				<key>Id</key>
-				<integer>47</integer>
-				<key>Path</key>
-				<string>layout47.xml.zlib</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Custom - Realtek ALC298 for Dell XPS 9560 by KNNSpeed</string>
-				<key>Id</key>
-				<integer>72</integer>
-				<key>Path</key>
-				<string>layout72.xml.zlib</string>
 			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>Mirone - Realtek ALC298</string>
-				<key>Id</key>
-				<integer>3</integer>
-				<key>Path</key>
-				<string>PlatformsM.xml.zlib</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Rockjesus - Realtek ALC298 for Alienware 17 ALC3266</string>
-				<key>Id</key>
-				<integer>11</integer>
-				<key>Path</key>
-				<string>Platforms11.xml.zlib</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>InsanelyDeepak - Realtek ALC298</string>
+				<string>Realtek ALC298 XiaoMi Pro https://blog.daliansky.net</string>
 				<key>Id</key>
 				<integer>13</integer>
 				<key>Path</key>
@@ -97,35 +41,11 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>vusun123 - Realtek ALC298 for Dell XPS 9x50</string>
+				<string>Realtek ALC298 XiaoMi Pro https://blog.daliansky.net</string>
 				<key>Id</key>
 				<integer>28</integer>
 				<key>Path</key>
 				<string>Platforms28.xml.zlib</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>vusun123 - Realtek ALC298 for Lenovo X270</string>
-				<key>Id</key>
-				<integer>29</integer>
-				<key>Path</key>
-				<string>Platforms29.xml.zlib</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Daliansky - Realtek ALC298 ThinkPad T470p</string>
-				<key>Id</key>
-				<integer>47</integer>
-				<key>Path</key>
-				<string>Platforms47.xml.zlib</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Custom - Realtek ALC298 for Dell XPS 9560 by KNNSpeed</string>
-				<key>Id</key>
-				<integer>72</integer>
-				<key>Path</key>
-				<string>Platforms72.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>
