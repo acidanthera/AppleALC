@@ -4872,6 +4872,27 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>macish - IDT 92HD91BXX for HP Elitebook G1</string>
+					<key>CodecID</key>
+					<integer>287143648</integer>
+					<key>ConfigData</key>
+					<data>
+					AKccAACnHRAApx6BAKcfAQC3HBAAtx0QALce
+					IQC3HwMAxxwgAMcdAADHHgAAxx9JARccMAEX
+					HQABFx6gARcfmQD3HEAA9x0BAPceFwD3H5kA
+					5xxQAOcdEADnHgEA5x8jAQccYAEHHQABBx4A
+					AQcfSQH3HHAB9x0AAfceAAH3H0kCBxyAAgcd
+					AAIHHgACBx9J
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>84</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>Custom - IDT 92HD93BXX Dell Latitude E6430</string>
 					<key>CodecID</key>
 					<integer>287143647</integer>
