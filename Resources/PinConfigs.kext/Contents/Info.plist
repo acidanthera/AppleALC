@@ -846,10 +846,13 @@
 					<integer>283902550</integer>
 					<key>ConfigData</key>
 					<data>
-					ASccEAEnHQABJx6mAScfkAFHHCABRx0AAUce
-					FwFHH5ABlxwwAZcdEAGXHosBlx8CAaccQAGn
-					HRABpx6BAacfAgHXHPAB1x0RAdceEQHXH0EC
-					FxxQAhcdEAIXHisCFx8CAUcMAgIXDAI=
+					ASccIAEnHQEBJx6mAScfkAE3HPABNx0AATce
+					AAE3H0ABRxxAAUcdAQFHHhcBRx+QAUcMAgGH
+					HPABhx0AAYceAAGHH0ABlxwQAZcdEAGXHosB
+					lx8CAacc8AGnHQABpx4AAacfQAG3HPABtx0A
+					AbceAAG3H0AB1xzwAdcdAAHXHgAB1x9AAecc
+					8AHnHQAB5x4AAecfQAIXHDACFx0QAhceKwIX
+					HwICFwwC
 					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
@@ -2265,6 +2268,29 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>DalianSky - Realtek ALC295/ALC3254 Dell7570</string>
+					<key>CodecID</key>
+					<integer>283902613</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccIAEnHQEBJx6mAScfkAE3HPABNx0AATce
+					AAE3H0ABRxxAAUcdAQFHHhcBRx+QAUcMAgFn
+					HPABZx0AAWceAAFnH0ABdxzwAXcdAAF3HgAB
+					dx9AAYcc8AGHHQABhx4AAYcfQAGXHBABlx0Q
+					AZcegQGXHwIBpxzwAacdAAGnHgABpx9AAbcc
+					8AG3HQABtx4AAbcfQAHXHPAB1x0AAdceAAHX
+					H0AB5xzwAecdAAHnHgAB5x9AAhccMAIXHRAC
+					Fx4hAhcfAgIXDAI=
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>13</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>vusun123 - ALC 295 for Skylake HP Pavilion</string>
 					<key>CodecID</key>
 					<integer>283902613</integer>
@@ -2414,6 +2440,28 @@
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>72</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>Daliansky - Realtek ALC298 XiaoMi Pro</string>
+					<key>CodecID</key>
+					<integer>283902616</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccIAEnHQABJx6gAScfkAE3HPABNx0AATce
+					AAE3H0ABRxzwAUcdAAFHHgABRx9AAXccQAF3
+					HQABdx4XAXcfkAGHHBABhx0QAYcegQGHHwIB
+					lxzwAZcdAAGXHgABlx9AAacc8AGnHQABpx4A
+					AacfQAHXHPAB1x0AAdceAAHXH0AB5xzwAecd
+					AAHnHgAB5x9AAfcc8AH3HQAB9x4AAfcfQAIX
+					HDACFx0QAhceIQIXHwIBdwwCAhcMAg==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>99</integer>
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
