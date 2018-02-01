@@ -5,6 +5,7 @@ AppleALC Changelog
 - Change Platforms18.xml.zlib for ALC255 by DuNe
 - Added ALC898 layout-id 101 by Andrey1970 (4 Line Out)
 - Added ALC262 layout-id 28 for HP Z800-Z600 series by MacPeet
+- Fix ALC225 layout 28's Headphone noise
 
 #### v1.2.2
 - Added ALC256 layout-id 56 for Dell 7000 by DalianSky
