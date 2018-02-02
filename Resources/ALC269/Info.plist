@@ -86,6 +86,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Toleda ALC269 by ttimasdf</string>
+				<key>Id</key>
+				<integer>10</integer>
+				<key>Path</key>
+				<string>layout10.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Custom ALC269VB for Dell Precision Workstation T1600 - Mosser</string>
 				<key>Id</key>
 				<integer>11</integer>
@@ -321,6 +329,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Toleda ALC269 by ttimasdf</string>
+				<key>Id</key>
+				<integer>10</integer>
+				<key>Path</key>
+				<string>PlatformsT.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Custom ALC269VB for Dell Precision Workstation T1600 - Mosser</string>
 				<key>Id</key>
 				<integer>11</integer>
@@ -531,7 +547,7 @@
 			<key>Name</key>
 			<string>AppleHDA</string>
 			<key>Replace</key>
-			<data>aQLsEA==</data>
+			<data>AAAAAA==</data>
 		</dict>
 		<dict>
 			<key>Count</key>
@@ -572,6 +588,18 @@
 			<string>AppleHDA</string>
 			<key>Replace</key>
 			<data>AAAAAA==</data>
+		</dict>
+		<dict>
+			<key>Count</key>
+			<integer>2</integer>
+			<key>Find</key>
+			<data>YgLsEA==</data>
+			<key>MinKernel</key>
+			<integer>12</integer>
+			<key>Name</key>
+			<string>AppleHDA</string>
+			<key>Replace</key>
+			<data>aQLsEA==</data>
 		</dict>
 	</array>
 	<key>Revisions</key>

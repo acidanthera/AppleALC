@@ -1592,6 +1592,25 @@
 					<integer>127</integer>
 				</dict>
 				<dict>
+					<key>CodecID</key>
+					<string>283902569</string>
+					<key>Comment</key>
+					<string>Toleda ALC269 patch for Brix</string>
+					<key>ConfigData</key>
+					<data>
+					IUcc8CFHHQAhRx4AIUcfQCFXHHAhVx1AIVce
+					ISFXHwIhZxzwIWcdACFnHgAhZx9AIXcc8CF3
+					HQAhdx4AIXcfQCGHHPAhhx0AIYceACGHH0Ah
+					lxzwIZcdACGXHgAhlx9AIacc8CGnHQAhpx4A
+					IacfQCG3HPAhtx0AIbceACG3H0Ah5xyQIecd
+					YSHnHksh5x8B
+					</data>
+					<key>FuncGroup</key>
+					<string>1</string>
+					<key>LayoutID</key>
+					<string>10</string>
+				</dict>
+				<dict>
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
