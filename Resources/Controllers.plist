@@ -279,6 +279,33 @@
 	</dict>
 	<dict>
 		<key>Device</key>
+		<integer>3362</integer>
+		<key>Model</key>
+		<string>Desktop</string>
+		<key>Name</key>
+		<string>Desktop Intel HD5200 HDMI (ig-platform-id 0x0d220003)</string>
+		<key>Patches</key>
+		<array>
+			<dict>
+				<key>Count</key>
+				<integer>6</integer>
+				<key>Find</key>
+				<data>AQUJAAAEAACHAAAA</data>
+				<key>MinKernel</key>
+				<integer>14</integer>
+				<key>Name</key>
+				<string>AppleIntelFramebufferAzul</string>
+				<key>Replace</key>
+				<data>AQUSAAAIAAAGAAAA</data>
+			</dict>
+		</array>
+		<key>Platform</key>
+		<integer>220332035</integer>
+		<key>Vendor</key>
+		<string>Intel</string>
+	</dict>
+	<dict>
+		<key>Device</key>
 		<integer>5654</integer>
 		<key>Model</key>
 		<string>Laptop</string>
