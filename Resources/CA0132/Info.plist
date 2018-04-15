@@ -265,7 +265,7 @@
 			<key>Find</key>
 			<data>a3Bzaes=</data>
 			<key>MinKernel</key>
-			<string>13</string>
+			<integer>13</integer>
 			<key>Name</key>
 			<string>AppleHDA</string>
 			<key>Provider</key>
