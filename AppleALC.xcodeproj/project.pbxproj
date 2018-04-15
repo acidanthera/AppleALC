@@ -204,6 +204,7 @@
 		D5DD44962082FB3100811EBD /* PrettyPrinter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrettyPrinter.swift; sourceTree = "<group>"; };
 		D5DD44972082FB3100811EBD /* ASTVisitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASTVisitor.swift; sourceTree = "<group>"; };
 		D5DD449C2082FDF700811EBD /* generate.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = generate.sh; sourceTree = "<group>"; };
+		D5DD44A12083235700811EBD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -355,6 +356,7 @@
 		D5DD417A2082F8E300811EBD /* ResourceGenerator */ = {
 			isa = PBXGroup;
 			children = (
+				D5DD44A12083235700811EBD /* README.md */,
 				D5DD417B2082F8E300811EBD /* main.swift */,
 				D5DD449C2082FDF700811EBD /* generate.sh */,
 				D5DD445B2082FA8A00811EBD /* AST */,
