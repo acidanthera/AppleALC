@@ -9,15 +9,7 @@
 MyPath=$(dirname "$BASH_SOURCE")
 pushd "$MyPath/../" &>/dev/null
 
-find ./Resources -name '*.xml' | while read file
-do
-	echo "Compressing" $file
-	perl Tools/zlib.pl deflate "$file" > "$file.zlib.tmp" || exit 1
-	mv "$file.zlib.tmp" "$file.zlib" || exit 1
-
-	if [ "$1" == "-d" ]; then
-		rm -f "$file"
-	fi
-done
+find ./Resources -name '*.xml' | xargs -P $(getconf _NPROCESSORS_ONLN) \
+  -I {} sh -c 'perl Tools/zlib.pl deflate "$1" > "$1".zlib' -- {}
 
 popd &>/dev/null

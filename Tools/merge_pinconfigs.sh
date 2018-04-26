@@ -4,7 +4,10 @@
 # By cecekpawon
 # https://github.com/cecekpawon/AppleALC/ - Extras
 
-cd "`dirname "$0"`"
+if [ "$1" == "" ]; then
+  cd "`dirname "$0"`"
+fi
+
 gPlistBuddyCmd="/usr/libexec/plistbuddy -c"
 AppleALC="AppleALC.kext"
 ALCContents="${AppleALC}/Contents"
@@ -22,12 +25,12 @@ fi
 
 zip -qr $ALCZipBkp $AppleALC
 
+$gPlistBuddyCmd "Delete ':Tmp'" $ALCPlist &>/dev/null || :
 $gPlistBuddyCmd "Add ':Tmp' dict" $ALCPlist
 $gPlistBuddyCmd "Merge ${ALCPinConfigsPlist} ':Tmp'" $ALCPlist
+$gPlistBuddyCmd "Delete ':IOKitPersonalities:HDA Hardware Config Resource'" $ALCPlist &>/dev/null || :
 $gPlistBuddyCmd "Copy ':Tmp:IOKitPersonalities:HDA Hardware Config Resource' ':IOKitPersonalities:HDA Hardware Config Resource'" $ALCPlist
-$gPlistBuddyCmd "Delete ':Tmp'" $ALCPlist
-$gPlistBuddyCmd "Delete ':OSBundleLibraries:as.vit9696.PinConfigs'" $ALCPlist
+$gPlistBuddyCmd "Delete ':Tmp'" $ALCPlist &>/dev/null || :
+$gPlistBuddyCmd "Delete ':OSBundleLibraries:as.vit9696.PinConfigs'" $ALCPlist &>/dev/null || :
 
 rm -rf $ALCPlugIns
-
-echo "Done!"

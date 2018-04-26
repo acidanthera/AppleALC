@@ -13,13 +13,25 @@
 				<key>Count</key>
 				<integer>6</integer>
 				<key>Find</key>
-				<data>cKE=</data>
+				<data>cKEAAA==</data>
 				<key>MinKernel</key>
 				<integer>16</integer>
 				<key>Name</key>
 				<string>AppleHDAController</string>
 				<key>Replace</key>
-				<data>8KI=</data>
+				<data>8KIAAA==</data>
+			</dict>
+			<dict>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Find</key>
+				<data>hoBwoQ==</data>
+				<key>MinKernel</key>
+				<integer>16</integer>
+				<key>Name</key>
+				<string>AppleHDAController</string>
+				<key>Replace</key>
+				<data>hoDwog==</data>
 			</dict>
 		</array>
 		<key>Vendor</key>
@@ -36,13 +48,25 @@
 				<key>Count</key>
 				<integer>6</integer>
 				<key>Find</key>
-				<data>cKE=</data>
+				<data>cKEAAA==</data>
 				<key>MinKernel</key>
 				<integer>16</integer>
 				<key>Name</key>
 				<string>AppleHDAController</string>
 				<key>Replace</key>
-				<data>caE=</data>
+				<data>caEAAA==</data>
+			</dict>
+			<dict>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Find</key>
+				<data>hoBwoQ==</data>
+				<key>MinKernel</key>
+				<integer>16</integer>
+				<key>Name</key>
+				<string>AppleHDAController</string>
+				<key>Replace</key>
+				<data>hoBxoQ==</data>
 			</dict>
 		</array>
 		<key>Vendor</key>
@@ -59,13 +83,25 @@
 				<key>Count</key>
 				<integer>4</integer>
 				<key>Find</key>
-				<data>oIw=</data>
+				<data>oIwAAA==</data>
 				<key>MinKernel</key>
 				<integer>13</integer>
 				<key>Name</key>
 				<string>AppleHDAController</string>
 				<key>Replace</key>
-				<data>IY0=</data>
+				<data>IY0AAA==</data>
+			</dict>
+			<dict>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Find</key>
+				<data>hoCgjA==</data>
+				<key>MinKernel</key>
+				<integer>13</integer>
+				<key>Name</key>
+				<string>AppleHDAController</string>
+				<key>Replace</key>
+				<data>hoAhjQ==</data>
 			</dict>
 		</array>
 		<key>Vendor</key>
@@ -82,13 +118,25 @@
 				<key>Count</key>
 				<integer>4</integer>
 				<key>Find</key>
-				<data>oIw=</data>
+				<data>oIwAAA==</data>
 				<key>MinKernel</key>
 				<integer>13</integer>
 				<key>Name</key>
 				<string>AppleHDAController</string>
 				<key>Replace</key>
-				<data>II0=</data>
+				<data>II0AAA==</data>
+			</dict>
+			<dict>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Find</key>
+				<data>hoCgjA==</data>
+				<key>MinKernel</key>
+				<integer>13</integer>
+				<key>Name</key>
+				<string>AppleHDAController</string>
+				<key>Replace</key>
+				<data>hoAgjQ==</data>
 			</dict>
 		</array>
 		<key>Vendor</key>
@@ -105,13 +153,25 @@
 				<key>Count</key>
 				<integer>4</integer>
 				<key>Find</key>
-				<data>DAw=</data>
+				<data>DAwAAA==</data>
 				<key>MinKernel</key>
 				<integer>13</integer>
 				<key>Name</key>
 				<string>AppleHDAController</string>
 				<key>Replace</key>
-				<data>BA8=</data>
+				<data>BA8AAA==</data>
+			</dict>
+			<dict>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Find</key>
+				<data>hoAMDA==</data>
+				<key>MinKernel</key>
+				<integer>13</integer>
+				<key>Name</key>
+				<string>AppleHDAController</string>
+				<key>Replace</key>
+				<data>hoAEDw==</data>
 			</dict>
 		</array>
 		<key>Vendor</key>
@@ -128,7 +188,7 @@
 				<key>Count</key>
 				<integer>4</integer>
 				<key>Find</key>
-				<data>IIw=</data>
+				<data>IIwAAA==</data>
 				<key>MaxKernel</key>
 				<integer>13</integer>
 				<key>MinKernel</key>
@@ -136,7 +196,21 @@
 				<key>Name</key>
 				<string>AppleHDAController</string>
 				<key>Replace</key>
-				<data>oIw=</data>
+				<data>oIwAAA==</data>
+			</dict>
+			<dict>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Find</key>
+				<data>hoAgjA==</data>
+				<key>MaxKernel</key>
+				<integer>13</integer>
+				<key>MinKernel</key>
+				<integer>13</integer>
+				<key>Name</key>
+				<string>AppleHDAController</string>
+				<key>Replace</key>
+				<data>hoCgjA==</data>
 			</dict>
 		</array>
 		<key>Vendor</key>
@@ -232,13 +306,25 @@
 				<key>Count</key>
 				<integer>4</integer>
 				<key>Find</key>
-				<data>IIw=</data>
+				<data>IIwAAA==</data>
 				<key>MinKernel</key>
 				<integer>13</integer>
 				<key>Name</key>
 				<string>AppleHDAController</string>
 				<key>Replace</key>
-				<data>II0=</data>
+				<data>II0AAA==</data>
+			</dict>
+			<dict>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Find</key>
+				<data>hoAgjA==</data>
+				<key>MinKernel</key>
+				<integer>13</integer>
+				<key>Name</key>
+				<string>AppleHDAController</string>
+				<key>Replace</key>
+				<data>hoAgjQ==</data>
 			</dict>
 		</array>
 		<key>Vendor</key>
@@ -250,7 +336,7 @@
 		<key>Model</key>
 		<string>Desktop</string>
 		<key>Name</key>
-		<string>Desktop Intel HD4600 HDMI (ig-platform-id 0x0d220003)</string>
+		<string>Desktop Intel HD4X00 HDMI (ig-platform-id 0x0d220003)</string>
 		<key>Patches</key>
 		<array>
 			<dict>
@@ -279,6 +365,39 @@
 	</dict>
 	<dict>
 		<key>Device</key>
+		<integer>1042</integer>
+		<key>Model</key>
+		<string>Laptop</string>
+		<key>Name</key>
+		<string>Laptop Intel HD4X00 HDMI (ig-platform-id 0x0a260005)</string>
+		<key>Patches</key>
+		<array>
+			<dict>
+				<key>Count</key>
+				<integer>2</integer>
+				<key>Find</key>
+				<data>
+				AAAIAAIAAAAwAAAAAQUJAAAEAACHAAAAAgQJAAAEAACH
+				AAAA
+				</data>
+				<key>MinKernel</key>
+				<integer>14</integer>
+				<key>Name</key>
+				<string>AppleIntelFramebufferAzul</string>
+				<key>Replace</key>
+				<data>
+				AAAIAAIAAAAwAAAAAQUJAAAIAACHAAAAAgQJAAAIAACH
+				AAAA
+				</data>
+			</dict>
+		</array>
+		<key>Platform</key>
+		<integer>170262533</integer>
+		<key>Vendor</key>
+		<string>Intel</string>
+	</dict>
+	<dict>
+		<key>Device</key>
 		<integer>5654</integer>
 		<key>Model</key>
 		<string>Laptop</string>
@@ -290,13 +409,19 @@
 				<key>Count</key>
 				<integer>3</integer>
 				<key>Find</key>
-				<data>AQULAAAEAAAHBQAAAgQLAAAEAAAHBQAA</data>
+				<data>
+				AAAIAAIAAAAwAgAAAQULAAAEAAAHBQAAAgQLAAAEAAAH
+				BQAA
+				</data>
 				<key>MinKernel</key>
 				<integer>15</integer>
 				<key>Name</key>
 				<string>AppleIntelBDWGraphicsFramebuffer</string>
 				<key>Replace</key>
-				<data>AQULAAAIAACCAAAAAgQLAAAIAACCAAAA</data>
+				<data>
+				AAAIAAIAAAAwAgAAAQULAAAIAAAHBQAAAgQLAAAIAAAH
+				BQAA
+				</data>
 			</dict>
 		</array>
 		<key>Platform</key>
@@ -317,13 +442,19 @@
 				<key>Count</key>
 				<integer>3</integer>
 				<key>Find</key>
-				<data>AQULAAAEAAAHBQAAAgQLAAAEAAAHBQAA</data>
+				<data>
+				AAAIAAIAAAAwAgAAAQULAAAEAAAHBQAAAgQLAAAEAAAH
+				BQAA
+				</data>
 				<key>MinKernel</key>
 				<integer>15</integer>
 				<key>Name</key>
 				<string>AppleIntelBDWGraphicsFramebuffer</string>
 				<key>Replace</key>
-				<data>AQULAAAIAACCAAAAAgQLAAAIAACCAAAA</data>
+				<data>
+				AAAIAAIAAAAwAgAAAQULAAAIAAAHBQAAAgQLAAAIAAAH
+				BQAA
+				</data>
 			</dict>
 		</array>
 		<key>Platform</key>
@@ -340,15 +471,21 @@
 		<array>
 			<dict>
 				<key>Count</key>
-				<integer>0</integer>
+				<integer>2</integer>
 				<key>Find</key>
-				<data>AQUJAAAEAAAHBQAAAgQKAAAEAAAHBQAA</data>
+				<data>
+				AAAIAAIAAAARAgAAAQUJAAAEAAAHBQAAAgQKAAAEAAAH
+				BQAA
+				</data>
 				<key>MinKernel</key>
 				<integer>15</integer>
 				<key>Name</key>
 				<string>AppleIntelBDWGraphicsFramebuffer</string>
 				<key>Replace</key>
-				<data>AQUJAAAIAACCAAAAAgQKAAAIAACCAAAA</data>
+				<data>
+				AAAIAAIAAAARAgAAAQUJAAAIAAAHBQAAAgQKAAAIAAAH
+				BQAA
+				</data>
 			</dict>
 		</array>
 		<key>Platform</key>
@@ -367,15 +504,21 @@
 		<array>
 			<dict>
 				<key>Count</key>
-				<integer>6</integer>
+				<integer>5</integer>
 				<key>Find</key>
-				<data>AQUJAAAEAACHAQAAAgQKAAAEAACHAQAA</data>
+				<data>
+				AAAIAAIAAACYAAAAAQUJAAAEAACHAQAAAgQKAAAEAACH
+				AQAA
+				</data>
 				<key>MinKernel</key>
 				<integer>15</integer>
 				<key>Name</key>
 				<string>AppleIntelSKLGraphicsFramebuffer</string>
 				<key>Replace</key>
-				<data>AQUJAAAIAACHAQAAAgQKAAAIAACHAQAA</data>
+				<data>
+				AAAIAAIAAACYAAAAAQUJAAAIAACHAQAAAgQKAAAIAACH
+				AQAA
+				</data>
 			</dict>
 		</array>
 		<key>Platform</key>
@@ -394,15 +537,21 @@
 		<array>
 			<dict>
 				<key>Count</key>
-				<integer>6</integer>
+				<integer>5</integer>
 				<key>Find</key>
-				<data>AQUJAAAEAACHAQAAAgQKAAAEAACHAQAA</data>
+				<data>
+				AAAIAAIAAACYAAAAAQUJAAAEAACHAQAAAgQKAAAEAACH
+				AQAA
+				</data>
 				<key>MinKernel</key>
 				<integer>15</integer>
 				<key>Name</key>
 				<string>AppleIntelSKLGraphicsFramebuffer</string>
 				<key>Replace</key>
-				<data>AQUJAAAIAACHAQAAAgQKAAAIAACHAQAA</data>
+				<data>
+				AAAIAAIAAACYAAAAAQUJAAAIAACHAQAAAgQKAAAIAACH
+				AQAA
+				</data>
 			</dict>
 		</array>
 		<key>Platform</key>
@@ -421,15 +570,21 @@
 		<array>
 			<dict>
 				<key>Count</key>
-				<integer>6</integer>
+				<integer>5</integer>
 				<key>Find</key>
-				<data>AQUJAAAEAACHAQAAAgQKAAAEAACHAQAA</data>
+				<data>
+				AAAIAAIAAACYAAAAAQUJAAAEAACHAQAAAgQKAAAEAACH
+				AQAA
+				</data>
 				<key>MinKernel</key>
 				<integer>15</integer>
 				<key>Name</key>
 				<string>AppleIntelSKLGraphicsFramebuffer</string>
 				<key>Replace</key>
-				<data>AQUJAAAIAACHAQAAAgQKAAAIAACHAQAA</data>
+				<data>
+				AAAIAAIAAACYAAAAAQUJAAAIAACHAQAAAgQKAAAIAACH
+				AQAA
+				</data>
 			</dict>
 		</array>
 		<key>Platform</key>
@@ -448,15 +603,21 @@
 		<array>
 			<dict>
 				<key>Count</key>
-				<integer>6</integer>
+				<integer>5</integer>
 				<key>Find</key>
-				<data>AQUJAAAEAACHAQAAAgQKAAAEAACHAQAA</data>
+				<data>
+				AAAIAAIAAACYAAAAAQUJAAAEAACHAQAAAgQKAAAEAACH
+				AQAA
+				</data>
 				<key>MinKernel</key>
 				<integer>15</integer>
 				<key>Name</key>
 				<string>AppleIntelSKLGraphicsFramebuffer</string>
 				<key>Replace</key>
-				<data>AQUJAAAIAACHAQAAAgQKAAAIAACHAQAA</data>
+				<data>
+				AAAIAAIAAACYAAAAAQUJAAAIAACHAQAAAgQKAAAIAACH
+				AQAA
+				</data>
 			</dict>
 		</array>
 		<key>Platform</key>
@@ -631,6 +792,72 @@
 	</dict>
 	<dict>
 		<key>Device</key>
+		<integer>294</integer>
+		<key>Model</key>
+		<string>Desktop</string>
+		<key>Name</key>
+		<string>Desktop Intel HD3000 HDMI (snb-platform-id 0x00030010)</string>
+		<key>Patches</key>
+		<array>
+			<dict>
+				<key>Count</key>
+				<integer>2</integer>
+				<key>Find</key>
+				<data>
+				AgUAAAAEAAAHAAAAAwQAAAAEAAAJAAAABAYAAAAIAAAG
+				AAAA
+				</data>
+				<key>MinKernel</key>
+				<integer>13</integer>
+				<key>Name</key>
+				<string>AppleIntelSNBGraphicsFB</string>
+				<key>Replace</key>
+				<data>
+				AgUAAAAIAAAHAAAAAwQAAAAIAAAJAAAABAYAAAAIAAAG
+				AAAA
+				</data>
+			</dict>
+		</array>
+		<key>Platform</key>
+		<integer>196624</integer>
+		<key>Vendor</key>
+		<string>Intel</string>
+	</dict>
+	<dict>
+		<key>Device</key>
+		<integer>278</integer>
+		<key>Model</key>
+		<string>Laptop</string>
+		<key>Name</key>
+		<string>Laptop Intel HD3000 HDMI (snb-platform-id 0x00010000)</string>
+		<key>Patches</key>
+		<array>
+			<dict>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Find</key>
+				<data>
+				AgUAAAAEAAAHAAAAAwQAAAAEAAAJAAAABAYAAAAEAAAJ
+				AAAA
+				</data>
+				<key>MinKernel</key>
+				<integer>13</integer>
+				<key>Name</key>
+				<string>AppleIntelSNBGraphicsFB</string>
+				<key>Replace</key>
+				<data>
+				AgUAAAAIAAAHAAAAAwQAAAAIAAAJAAAABAYAAAAIAAAJ
+				AAAA
+				</data>
+			</dict>
+		</array>
+		<key>Platform</key>
+		<integer>65536</integer>
+		<key>Vendor</key>
+		<string>Intel</string>
+	</dict>
+	<dict>
+		<key>Device</key>
 		<integer>43720</integer>
 		<key>Model</key>
 		<string>Desktop</string>
@@ -640,9 +867,9 @@
 		<array>
 			<dict>
 				<key>Count</key>
-				<integer>1</integer>
+				<integer>2</integer>
 				<key>Find</key>
-				<data>AhDgqg==</data>
+				<data>AhDYqg==</data>
 				<key>MinKernel</key>
 				<integer>15</integer>
 				<key>Name</key>
@@ -654,7 +881,7 @@
 				<key>Count</key>
 				<integer>2</integer>
 				<key>Find</key>
-				<data>4KoAAA==</data>
+				<data>2KoAAA==</data>
 				<key>MinKernel</key>
 				<integer>15</integer>
 				<key>Name</key>
@@ -664,7 +891,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Lowers the if condition to let the patch above work</string>
+				<string>Lowers the if condition to let the patch above work (older os)</string>
 				<key>Count</key>
 				<integer>2</integer>
 				<key>Find</key>
@@ -676,9 +903,248 @@
 				<key>Replace</key>
 				<data>x6oAAA==</data>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Lowers the if condition to let the patch above work (10.13.4 17E182a+)</string>
+				<key>Count</key>
+				<integer>2</integer>
+				<key>Find</key>
+				<data>eFX//w==</data>
+				<key>MinKernel</key>
+				<integer>16</integer>
+				<key>Name</key>
+				<string>AppleHDA</string>
+				<key>Replace</key>
+				<data>uFX//w==</data>
+			</dict>
 		</array>
 		<key>Vendor</key>
 		<string>AMD</string>
+	</dict>
+	<dict>
+		<key>Device</key>
+		<integer>3599</integer>
+		<key>Model</key>
+		<string>Desktop</string>
+		<key>Name</key>
+		<string>NVIDIA HDMI for GK208 in 10.13.4+</string>
+		<key>Patches</key>
+		<array>
+			<dict>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Find</key>
+				<data>3hALDg==</data>
+				<key>MinKernel</key>
+				<integer>17</integer>
+				<key>Name</key>
+				<string>AppleHDAController</string>
+				<key>Replace</key>
+				<data>3hAPDg==</data>
+			</dict>
+		</array>
+		<key>Vendor</key>
+		<string>NVIDIA</string>
+	</dict>
+	<dict>
+		<key>Device</key>
+		<integer>4335</integer>
+		<key>Model</key>
+		<string>Desktop</string>
+		<key>Name</key>
+		<string>NVIDIA HDMI for GP102 in 10.13.4+</string>
+		<key>Patches</key>
+		<array>
+			<dict>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Find</key>
+				<data>3hALDg==</data>
+				<key>MinKernel</key>
+				<integer>17</integer>
+				<key>Name</key>
+				<string>AppleHDAController</string>
+				<key>Replace</key>
+				<data>3hDvEA==</data>
+			</dict>
+		</array>
+		<key>Vendor</key>
+		<string>NVIDIA</string>
+	</dict>
+	<dict>
+		<key>Device</key>
+		<integer>4337</integer>
+		<key>Model</key>
+		<string>Desktop</string>
+		<key>Name</key>
+		<string>NVIDIA HDMI for GP106 in 10.13.4+</string>
+		<key>Patches</key>
+		<array>
+			<dict>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Find</key>
+				<data>3hALDg==</data>
+				<key>MinKernel</key>
+				<integer>17</integer>
+				<key>Name</key>
+				<string>AppleHDAController</string>
+				<key>Replace</key>
+				<data>3hDxEA==</data>
+			</dict>
+		</array>
+		<key>Vendor</key>
+		<string>NVIDIA</string>
+	</dict>
+	<dict>
+		<key>Device</key>
+		<integer>4026</integer>
+		<key>Model</key>
+		<string>Desktop</string>
+		<key>Name</key>
+		<string>NVIDIA HDMI for GM206 in 10.13.4+</string>
+		<key>Patches</key>
+		<array>
+			<dict>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Find</key>
+				<data>3hALDg==</data>
+				<key>MinKernel</key>
+				<integer>17</integer>
+				<key>Name</key>
+				<string>AppleHDAController</string>
+				<key>Replace</key>
+				<data>3hC6Dw==</data>
+			</dict>
+		</array>
+		<key>Vendor</key>
+		<string>NVIDIA</string>
+	</dict>
+	<dict>
+		<key>Device</key>
+		<integer>4016</integer>
+		<key>Model</key>
+		<string>Desktop</string>
+		<key>Name</key>
+		<string>NVIDIA HDMI for GM200 in 10.13.4+</string>
+		<key>Patches</key>
+		<array>
+			<dict>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Find</key>
+				<data>3hALDg==</data>
+				<key>MinKernel</key>
+				<integer>17</integer>
+				<key>Name</key>
+				<string>AppleHDAController</string>
+				<key>Replace</key>
+				<data>3hCwDw==</data>
+			</dict>
+		</array>
+		<key>Vendor</key>
+		<string>NVIDIA</string>
+	</dict>
+	<dict>
+		<key>Device</key>
+		<integer>4027</integer>
+		<key>Model</key>
+		<string>Desktop</string>
+		<key>Name</key>
+		<string>NVIDIA HDMI for GM204 in 10.13.4+</string>
+		<key>Patches</key>
+		<array>
+			<dict>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Find</key>
+				<data>3hALDg==</data>
+				<key>MinKernel</key>
+				<integer>17</integer>
+				<key>Name</key>
+				<string>AppleHDAController</string>
+				<key>Replace</key>
+				<data>3hC7Dw==</data>
+			</dict>
+		</array>
+		<key>Vendor</key>
+		<string>NVIDIA</string>
+	</dict>
+	<dict>
+		<key>Device</key>
+		<integer>4024</integer>
+		<key>Model</key>
+		<string>Desktop</string>
+		<key>Name</key>
+		<string>NVIDIA HDMI for GP108 in 10.13.4+</string>
+		<key>Patches</key>
+		<array>
+			<dict>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Find</key>
+				<data>3hALDg==</data>
+				<key>MinKernel</key>
+				<integer>17</integer>
+				<key>Name</key>
+				<string>AppleHDAController</string>
+				<key>Replace</key>
+				<data>3hC4Dw==</data>
+			</dict>
+		</array>
+		<key>Vendor</key>
+		<string>NVIDIA</string>
+	</dict>
+	<dict>
+		<key>Device</key>
+		<integer>4025</integer>
+		<key>Model</key>
+		<string>Desktop</string>
+		<key>Name</key>
+		<string>NVIDIA HDMI for GP107 in 10.13.4+</string>
+		<key>Patches</key>
+		<array>
+			<dict>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Find</key>
+				<data>3hALDg==</data>
+				<key>MinKernel</key>
+				<integer>17</integer>
+				<key>Name</key>
+				<string>AppleHDAController</string>
+				<key>Replace</key>
+				<data>3hC5Dw==</data>
+			</dict>
+		</array>
+		<key>Vendor</key>
+		<string>NVIDIA</string>
+	</dict>
+	<dict>
+		<key>Device</key>
+		<integer>4336</integer>
+		<key>Model</key>
+		<string>Desktop</string>
+		<key>Name</key>
+		<string>NVIDIA HDMI for GP104 in 10.13.4+</string>
+		<key>Patches</key>
+		<array>
+			<dict>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Find</key>
+				<data>3hALDg==</data>
+				<key>MinKernel</key>
+				<integer>17</integer>
+				<key>Name</key>
+				<string>AppleHDAController</string>
+				<key>Replace</key>
+				<data>3hDwEA==</data>
+			</dict>
+		</array>
+		<key>Vendor</key>
+		<string>NVIDIA</string>
 	</dict>
 </array>
 </plist>

@@ -9,8 +9,7 @@
 rm -f "${PROJECT_DIR}/AppleALC/kern_resources.cpp"
 
 # Optimise packed layouts and platforms
-. "${PROJECT_DIR}/Tools/zlib_unpack.command"
-. "${PROJECT_DIR}/Tools/zlib_pack.command" -d
+. "${PROJECT_DIR}/Tools/zlib_pack.command"
 
 # Reformat project plists (perl part is for Xcode styling)
 find "${PROJECT_DIR}/Resources/" -name "*.plist" \

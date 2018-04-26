@@ -37,6 +37,23 @@
 			<key>IOResourceMatch</key>
 			<string>IOKit</string>
 		</dict>
+		<key>as.vit9696.AppleALCAudio</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>IOClass</key>
+			<string>AppleALCAudio</string>
+			<key>IOMatchCategory</key>
+			<string>IOService</string>
+			<key>IOPCIClassMatch</key>
+			<string>0x04030000&amp;0xffff0000</string>
+			<key>IOPCIMatch</key>
+			<string>0x00008086&amp;0x0000ffff</string>
+			<key>IOProbeScore</key>
+			<integer>80000</integer>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+		</dict>
 	</dict>
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2017 vit9696. All rights reserved.</string>
@@ -54,6 +71,8 @@
 		<string>12.0.0</string>
 		<key>com.apple.kpi.unsupported</key>
 		<string>12.0.0</string>
+		<key>com.apple.iokit.IOPCIFamily</key>
+		<string>1.0.0b1</string>
 		<key>as.vit9696.Lilu</key>
 		<string>1.2.0</string>
 		<key>as.vit9696.PinConfigs</key>

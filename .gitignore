@@ -1,4 +1,8 @@
-DerivedData/
-*.xcodeproj/project.xcworkspace/
+.DS_Store
+DerivedData
+Lilu.kext
+xcuserdata
+project.xcworkspace
+*.zlib
 AppleALC/kern_resources.cpp
-*.xcodeproj/xcuserdata/
+

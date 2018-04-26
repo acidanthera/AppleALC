@@ -1,6 +1,40 @@
 AppleALC Changelog
 ==================
+#### v1.2.7
+- Added NVIDIA HDMI patch for GP107 and GP108 for 10.13.4+
+- Added NVIDIA HDMI patch for GP104 for 10.13.4+
+- Added ALC898 layout-id 98 for MSI GE62 7RE Apache Pro by spectra
+
+#### v1.2.6
+- Fixed a rare kernel panic due to use-after-free in verb code at waking from sleep
+
+#### v1.2.5
+- Implemented verb execution after wake (via `WakeVerbReinit` in PinConfigs), obsoletes CodecCommander in fixed resources
+- Implemented custom verbs for wake  (via `WakeConfigData` in PinConfigs), `ConfigData` is used by default
+- Merged PinConfigs into AppleALC main binary by default for compatibility reasons
+- Hardened solved symbol verification to avoid panics with broken kext cache
+- Added PinConfigurations injection, since they provide useful debugging info
+- Added NVIDIA HDMI patch for GM204 for 10.13.4+
+- Added ALC233 layout-id 33 for ASUS VIVOBOOK S451LA by MacPeet
+- Added HD3000 desktop and laptop HDMI patches
+- Added wake verbs for ALCS1220A layout-id 1, 2, 5, 7 to avoid the need of CodecCommander
+- Added EAPD wake verbs to all ALC 221, 225, 233, 235, 236, 255, 256, 270, 271, 272, 284, 286, 288, 290, 293, 295 by Vandroiy
+- Added EAPD wake verbs to some ALC 269, 275, 280, 282, 283, 292, 294, 298, 662, 663, 668, 887, 888, 889, 892, 898, 1150 by Vandroiy
+- Fixed broken AFGLowPowerState, LayouID and other fields in several PinConfigs info.plist
+- Fixed rare kernel panics due to short incompatible HDEF controller patches affecting other code
+
+#### v1.2.4
+- Added ALC269 layout-id 10 (toleda) for Brix by ttimasdf
+- Added ALC663 layout-id 99 for ASUS N71J by alex1960
+- Added CX20641 layout-id 11 and layout-id 13 for Dell OptiPlex 3010 or compatible by MacPeet
+- Added CX20642 layout-id 11 and layout-id 13 for Fujitsu ESPRIMO E910 E90+ or compatible by MacPeet
+- Added NVIDIA HDMI patches for GK208, GM206, GP102, GP106 for 10.13.4+ by FredWst
+- Added Intel HDMI patches for Haswell 0x0A260005  by Andrey1970
+- Added NVIDIA HDMI patch for GM200 by al3xtjames
+
 #### v1.2.3
+- Added `alcid=layout` boot argument for testing purposes
+- Added automatic rename for HDEF device
 - Added ALC255 layout-id 18 for Aorus X5V7 by DuNe
 - Change Platforms18.xml.zlib for ALC255 by DuNe
 - Added ALC898 layout-id 101 by Andrey1970 (4 Line Out)
@@ -8,6 +42,7 @@ AppleALC Changelog
 - Added ALC225 layout-id 33 by ChalesYu
 - Added ALC282 layout-id 127 No input boost Acer Aspire on IvyBridge by Andrey1970
 - Added ALC294 layout-id 13 by InsanelyDeepak
+- Added IDT92HD91BXX layout-id 13 for HP Envy 6 1171-SG by MacPeet
 
 #### v1.2.2
 - Added ALC256 layout-id 56 for Dell 7000 by DalianSky

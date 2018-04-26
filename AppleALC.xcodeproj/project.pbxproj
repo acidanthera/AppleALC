@@ -16,6 +16,8 @@
 		1CD5B2BF1C89CF2D00E45373 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1CD5B2BE1C89CF2D00E45373 /* main.mm */; };
 		CE405EC91E49DD9700AA0B3D /* libkmod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE405EC71E49DD7100AA0B3D /* libkmod.a */; };
 		CE405ED91E4A080700AA0B3D /* plugin_start.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE405ED81E4A080700AA0B3D /* plugin_start.cpp */; };
+		CE7B919E204843B700181F39 /* kern_audio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE7B919C204843B700181F39 /* kern_audio.cpp */; };
+		CE7B919F204843B700181F39 /* kern_audio.hpp in Headers */ = {isa = PBXBuildFile; fileRef = CE7B919D204843B700181F39 /* kern_audio.hpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +89,8 @@
 		CE4E88091E099CC8009AC98D /* zlib_optimize.command */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = zlib_optimize.command; sourceTree = "<group>"; };
 		CE4E880A1E099CC8009AC98D /* zlib_pack.command */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = zlib_pack.command; sourceTree = "<group>"; };
 		CE4E880B1E099CC8009AC98D /* zlib_unpack.command */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = zlib_unpack.command; sourceTree = "<group>"; };
+		CE7B919C204843B700181F39 /* kern_audio.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = kern_audio.cpp; sourceTree = "<group>"; };
+		CE7B919D204843B700181F39 /* kern_audio.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = kern_audio.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +150,8 @@
 				1C748C2C1C21952C0024EED2 /* kern_start.cpp */,
 				1C9CB7AE1C789FF500231E41 /* kern_alc.cpp */,
 				1C9CB7AF1C789FF500231E41 /* kern_alc.hpp */,
+				CE7B919C204843B700181F39 /* kern_audio.cpp */,
+				CE7B919D204843B700181F39 /* kern_audio.hpp */,
 				1C88DDEA1C89EE540003E1BF /* kern_resources.cpp */,
 				1C88DDEB1C89EE540003E1BF /* kern_resources.hpp */,
 				1C748C2E1C21952C0024EED2 /* Info.plist */,
@@ -232,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C9CB7B11C789FF500231E41 /* kern_alc.hpp in Headers */,
+				CE7B919F204843B700181F39 /* kern_audio.hpp in Headers */,
 				1C88DDED1C89EE540003E1BF /* kern_resources.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,6 +255,7 @@
 				1C748C241C21952C0024EED2 /* Headers */,
 				1C748C251C21952C0024EED2 /* Resources */,
 				1C642F521C8F157A006B4C51 /* CopyFiles */,
+				CEBAEC1E20764C0B00CE3744 /* Merge Pinconfigs */,
 				CE131D6B1FB72A9D0036C3A0 /* Archive */,
 			);
 			buildRules = (
@@ -284,7 +292,7 @@
 		1C748C1E1C21952C0024EED2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = vit9696;
 				TargetAttributes = {
 					1C748C261C21952C0024EED2 = {
@@ -350,7 +358,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/bash;
-			shellScript = "cd \"${TARGET_BUILD_DIR}\"\n\ndist=(\"$FULL_PRODUCT_NAME\")\nif [ -d \"$DWARF_DSYM_FILE_NAME\" ]; then dist+=(\"$DWARF_DSYM_FILE_NAME\"); fi\n\narchive=\"${MODULE_VERSION} ($(echo $CONFIGURATION | tr /a-z/ /A-Z/)).zip\"\nrm -rf *.zip\nzip -qry \"${archive}\" \"${dist[@]}\"";
+			shellScript = "cd \"${TARGET_BUILD_DIR}\"\n\ndist=(\"$FULL_PRODUCT_NAME\")\nif [ -d \"$DWARF_DSYM_FILE_NAME\" ]; then dist+=(\"$DWARF_DSYM_FILE_NAME\"); fi\n\narchive=\"${MODULE_VERSION} ($(echo $CONFIGURATION | tr /a-z/ /A-Z/)).zip\"\nrm -rf *.zip\nif [ \"$CONFIGURATION\" == \"Release\" ]; then\n  strip -x -T \"${EXECUTABLE_PATH}\" &>/dev/null || strip -x \"${EXECUTABLE_PATH}\"\nfi\nzip -qry \"${archive}\" \"${dist[@]}\"";
+		};
+		CEBAEC1E20764C0B00CE3744 /* Merge Pinconfigs */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Merge Pinconfigs";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd \"${TARGET_BUILD_DIR}\"\n\n/bin/bash -e \"${PROJECT_DIR}/Tools/merge_pinconfigs.sh\" 1";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -360,6 +382,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C9CB7B01C789FF500231E41 /* kern_alc.cpp in Sources */,
+				CE7B919E204843B700181F39 /* kern_audio.cpp in Sources */,
 				CE405ED91E4A080700AA0B3D /* plugin_start.cpp in Sources */,
 				1C748C2D1C21952C0024EED2 /* kern_start.cpp in Sources */,
 				1C88DDEC1C89EE540003E1BF /* kern_resources.cpp in Sources */,
@@ -390,18 +413,20 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++1y";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -434,18 +459,20 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++1y";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -473,6 +500,7 @@
 		1C748C321C21952C0024EED2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = "$(MODULE_VERSION)";
 				DEPLOYMENT_POSTPROCESSING = YES;
@@ -494,7 +522,7 @@
 				MODULE_NAME = as.vit9696.AppleALC;
 				MODULE_START = "$(PRODUCT_NAME)_kern_start";
 				MODULE_STOP = "$(PRODUCT_NAME)_kern_stop";
-				MODULE_VERSION = 1.2.3;
+				MODULE_VERSION = 1.2.7;
 				OTHER_CFLAGS = (
 					"-mmmx",
 					"-msse",
@@ -517,6 +545,7 @@
 		1C748C331C21952C0024EED2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CURRENT_PROJECT_VERSION = "$(MODULE_VERSION)";
 				DEAD_CODE_STRIPPING = YES;
 				DEPLOYMENT_POSTPROCESSING = YES;
@@ -538,7 +567,7 @@
 				MODULE_NAME = as.vit9696.AppleALC;
 				MODULE_START = "$(PRODUCT_NAME)_kern_start";
 				MODULE_STOP = "$(PRODUCT_NAME)_kern_stop";
-				MODULE_VERSION = 1.2.3;
+				MODULE_VERSION = 1.2.7;
 				OTHER_CFLAGS = (
 					"-mmmx",
 					"-msse",
@@ -563,6 +592,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				GCC_C_LANGUAGE_STANDARD = c11;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -573,6 +603,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				GCC_C_LANGUAGE_STANDARD = c11;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";

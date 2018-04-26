@@ -59,7 +59,56 @@ private:
 	 */
 	t_callback orgLayoutLoadCallback {nullptr};
 	t_callback orgPlatformLoadCallback {nullptr};
-	
+
+	/**
+	 * @enum IOAudioDevicePowerState
+	 * @abstract Identifies the power state of the audio device
+	 * @discussion A newly created IOAudioDevices defaults to the idle state.
+	 * @constant kIOAudioDeviceSleep State set when the system is going to sleep
+	 * @constant kIOAudioDeviceIdle State when the system is awake but none of the IOAudioEngines are in use
+	 * @constant kIOAudioDeviceActive State when one ore more IOAudioEngines are in use.  This state transition must complete before the system will begin playing audio.
+	 */
+	enum ALCAudioDevicePowerState {
+		ALCAudioDeviceSleep 	= 0,	// When sleeping
+		ALCAudioDeviceIdle		= 1,	// When no audio engines running
+		ALCAudioDeviceActive 	= 2		// audio engines running
+	};
+
+	/**
+	 *  Checks whether this driver is attached to HDEF
+	 */
+	static bool isAnalogAudio(IOService *hdaDriver);
+
+	/**
+	 *  Hooked performPowerChange method triggering a verb sequence on wake
+	 */
+	static IOReturn performPowerChange(IOService *hdaDriver, ALCAudioDevicePowerState from, ALCAudioDevicePowerState to, unsigned int *timer);
+
+	/**
+	 *  Hooked initializePinConfig method to preserve AppleHDACodecGeneric instance
+	 */
+	static IOReturn initializePinConfig(IOService *hdaCodec, IOService *configDevice);
+
+	/**
+	 *  AppleHDADriver::performPowerStateChange type
+	 */
+	using t_performPowerChange = IOReturn (*)(IOService *hdaDriver, ALCAudioDevicePowerState from, ALCAudioDevicePowerState to, unsigned int *timer);
+
+	/**
+	 *  AppleHDACodecGeneric::initializePinConfigDefaultFromOverride type
+	 */
+	using t_initializePinConfig = IOReturn (*)(IOService *hdaCodec, IOService *configDevice);
+
+	/**
+	 *  AppleHDADriver::performPowerStateChange original method
+	 */
+	t_performPowerChange orgPerformPowerChange {nullptr};
+
+	/**
+	 *  AppleHDACodecGeneric::initializePinConfigDefaultFromOverride original method
+	 */
+	t_initializePinConfig orgInitializePinConfig {nullptr};
+
 	/**
 	 *  Copy client entitlement type (see IOUserClient)
 	 */
@@ -161,13 +210,13 @@ private:
 	 *  Codec identification and modification info
 	 */
 	class CodecInfo {
-		CodecInfo(size_t ctrl, uint64_t ven, uint32_t rev) :
+		CodecInfo(size_t ctrl, uint32_t ven, uint32_t rev) :
 		controller(ctrl), revision(rev) {
 			vendor = (ven & 0xFFFF0000) >> 16;
 			codec = ven & 0xFFFF;
 		}
 	public:
-		static CodecInfo *create(size_t ctrl, uint64_t ven, uint32_t rev) {
+		static CodecInfo *create(size_t ctrl, uint32_t ven, uint32_t rev) {
 			return new CodecInfo(ctrl, ven, rev);
 		}
 		static void deleter(CodecInfo *info) { delete info; }
@@ -199,8 +248,26 @@ private:
 	/**
 	 *  Detected ComputerModel
 	 */
-	int computerModel;
+	int computerModel {WIOKit::ComputerModel::ComputerInvalid};
 
+	/**
+	 *  Set when we do not want to perform verb reinitialisation
+	 */
+	bool receivedSleepEvent {false};
+
+	/**
+	 *  HDAConfigDefault availability in AppleALC
+	 */
+	enum class WakeVerbMode {
+		Detect,
+		Enable,
+		Disable
+	};
+
+	/**
+	 *  Marks HDAConfigDefault availability in AppleALC
+	 */
+	WakeVerbMode hasHDAConfigDefault {WakeVerbMode::Detect};
 };
 
 #endif /* kern_alc_hpp */
