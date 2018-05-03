@@ -6,6 +6,7 @@ AppleALC Changelog
 - Added ALC898 layout-id 98 for MSI GE62 7RE Apache Pro by spectra
 - Added ALC1220 layout-id 13 for Clevo P950HR by MacPeet
 - Added ALC888 layout-id 27 for Acer Aspire 7738G by MacPeet
+- Added ALC285 layout-id 11 for ThinkPad X1 Carbon 2018 by Rover
 
 #### v1.2.6
 - Fixed a rare kernel panic due to use-after-free in verb code at waking from sleep
@@ -519,3 +520,5 @@ AppleALC Changelog
 
 #### v1.0.0
 - Initial release
+
+
