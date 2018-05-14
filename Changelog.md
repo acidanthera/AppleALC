@@ -4,6 +4,9 @@ AppleALC Changelog
 - Added NVIDIA HDMI patch for GP107 and GP108 for 10.13.4+
 - Added NVIDIA HDMI patch for GP104 for 10.13.4+
 - Added ALC898 layout-id 98 for MSI GE62 7RE Apache Pro by spectra
+- Added ALC1220 layout-id 13 for Clevo P950HR by MacPeet
+- Added ALC888 layout-id 27 for Acer Aspire 7738G by MacPeet
+- Added 300 Series PCH HD Audio Controller patch by chrome
 
 #### v1.2.6
 - Fixed a rare kernel panic due to use-after-free in verb code at waking from sleep

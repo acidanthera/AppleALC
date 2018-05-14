@@ -8,7 +8,7 @@ if [ "$1" == "" ]; then
   cd "`dirname "$0"`"
 fi
 
-gPlistBuddyCmd="/usr/libexec/plistbuddy -c"
+gPlistBuddyCmd="/usr/libexec/PlistBuddy -c"
 AppleALC="AppleALC.kext"
 ALCContents="${AppleALC}/Contents"
 ALCPlist="${ALCContents}/Info.plist"
