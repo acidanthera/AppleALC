@@ -178,15 +178,20 @@ IOReturn AlcEnabler::initializePinConfig(IOService *hdaCodec, IOService *configD
 									const OSObject *obj {OSDynamicCast(OSObject, newConfig)};
 									configDevice->setProperty("HDAConfigDefault", OSArray::withObjects(&obj, 1));
 									if (reinit && reinit->getValue()) {
-										if (wakeConfigData) {
-											if (configData)
-												newConfig->setObject("BootConfigData", configData);
-											newConfig->setObject("ConfigData", wakeConfigData);
-											newConfig->removeObject("WakeConfigData");
+										newConfig = OSDynamicCast(OSDictionary, newConfig->copyCollection());
+										if (newConfig) {
+											obj = OSDynamicCast(OSObject, newConfig);
+											if (wakeConfigData) {
+												if (configData)
+													newConfig->setObject("BootConfigData", configData);
+												newConfig->setObject("ConfigData", wakeConfigData);
+												newConfig->removeObject("WakeConfigData");
+											}
+											ADDPR(selfInstance)->setProperty("HDAConfigDefault", OSArray::withObjects(&obj, 1));
+											callbackAlc->hasHDAConfigDefault = WakeVerbMode::Enable;
+										} else {
+											SYSLOG("alc", "failed to copy new HDAConfigDefault collection");
 										}
-										obj = OSDynamicCast(OSObject, newConfig);
-										ADDPR(selfInstance)->setProperty("HDAConfigDefault", OSArray::withObjects(&obj, 1));
-										callbackAlc->hasHDAConfigDefault = WakeVerbMode::Enable;
 									}
 								} else {
 									SYSLOG("alc", "failed to copy HDAConfigDefault %d collection", i);
