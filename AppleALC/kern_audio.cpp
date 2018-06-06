@@ -68,7 +68,7 @@ IOService *AppleALCAudio::probe(IOService *hdaService, SInt32 *score) {
 			auto legacyId = OSDynamicCast(OSData, hdaService->getProperty("layout-id"));
 			if (legacyId && legacyId->getLength() == sizeof(uint32_t)) {
 				DBGLOG("audio", "found legacy alc-layout-id (from layout-id) %d",
-					   *static_cast<const uint32_t *>(alcId->getBytesNoCopy()));
+					   *static_cast<const uint32_t *>(legacyId->getBytesNoCopy()));
 				hdaService->setProperty("alc-layout-id", legacyId);
 			}
 		}
