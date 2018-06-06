@@ -61,12 +61,12 @@ private:
 	t_callback orgPlatformLoadCallback {nullptr};
 
 	/**
-	 * @enum IOAudioDevicePowerState
-	 * @abstract Identifies the power state of the audio device
-	 * @discussion A newly created IOAudioDevices defaults to the idle state.
-	 * @constant kIOAudioDeviceSleep State set when the system is going to sleep
-	 * @constant kIOAudioDeviceIdle State when the system is awake but none of the IOAudioEngines are in use
-	 * @constant kIOAudioDeviceActive State when one ore more IOAudioEngines are in use.  This state transition must complete before the system will begin playing audio.
+	 *  @enum IOAudioDevicePowerState
+	 *  @abstract Identifies the power state of the audio device
+	 *  @discussion A newly created IOAudioDevices defaults to the idle state.
+	 *  @constant kIOAudioDeviceSleep State set when the system is going to sleep
+	 *  @constant kIOAudioDeviceIdle State when the system is awake but none of the IOAudioEngines are in use
+	 *  @constant kIOAudioDeviceActive State when one ore more IOAudioEngines are in use.  This state transition must complete before the system will begin playing audio.
 	 */
 	enum ALCAudioDevicePowerState {
 		ALCAudioDeviceSleep 	= 0,	// When sleeping
@@ -76,13 +76,18 @@ private:
 
 	/**
 	 *  Checks whether this driver is attached to HDEF
+	 *
+	 *  @param hdaDriver  ioreg driver instance
+	 *  @param layout     layout-id value in HDEF parent
+	 *
+	 *  @return true on successful find
 	 */
-	static bool isAnalogAudio(IOService *hdaDriver);
+	static bool isAnalogAudio(IOService *hdaDriver, uint32_t *layout=nullptr);
 
 	/**
 	 *  Hooked performPowerChange method triggering a verb sequence on wake
 	 */
-	static IOReturn performPowerChange(IOService *hdaDriver, ALCAudioDevicePowerState from, ALCAudioDevicePowerState to, unsigned int *timer);
+	static IOReturn performPowerChange(IOService *hdaDriver, uint32_t from, uint32_t to, unsigned int *timer);
 
 	/**
 	 *  Hooked initializePinConfig method to preserve AppleHDACodecGeneric instance
@@ -92,7 +97,7 @@ private:
 	/**
 	 *  AppleHDADriver::performPowerStateChange type
 	 */
-	using t_performPowerChange = IOReturn (*)(IOService *hdaDriver, ALCAudioDevicePowerState from, ALCAudioDevicePowerState to, unsigned int *timer);
+	using t_performPowerChange = IOReturn (*)(IOService *hdaDriver, uint32_t from, uint32_t to, unsigned int *timer);
 
 	/**
 	 *  AppleHDACodecGeneric::initializePinConfigDefaultFromOverride type

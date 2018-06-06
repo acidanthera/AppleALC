@@ -77,13 +77,22 @@ void AlcEnabler::platformLoadCallback(uint32_t requestTag, kern_return_t result,
 	}
 }
 
-bool AlcEnabler::isAnalogAudio(IOService *hdaDriver) {
+bool AlcEnabler::isAnalogAudio(IOService *hdaDriver, uint32_t *layout) {
 	auto parent = hdaDriver->getParentEntry(gIOServicePlane);
 	bool valid = false;
 	while (parent) {
 		auto name = parent->getName();
 		if (name) {
 			valid = !strcmp(name, "HDEF");
+			if (valid && layout) {
+				auto p = OSDynamicCast(OSData, parent->getProperty("layout-id"));
+				if (p && p->getLength() == sizeof(uint32_t)) {
+					*layout = *static_cast<const uint32_t *>(p->getBytesNoCopy());
+					DBGLOG("alc", "isAnalogAudio found %d represented layout", *layout);
+				} else {
+					SYSLOG("alc", "isAnalogAudio found invalid represented layout in HDEF");
+				}
+			}
 			if (valid || !strcmp(name, "HDAU"))
 				break;
 		}
@@ -92,7 +101,7 @@ bool AlcEnabler::isAnalogAudio(IOService *hdaDriver) {
 	return valid;
 }
 
-IOReturn AlcEnabler::performPowerChange(IOService *hdaDriver, ALCAudioDevicePowerState from, ALCAudioDevicePowerState to, unsigned int *timer) {
+IOReturn AlcEnabler::performPowerChange(IOService *hdaDriver, uint32_t from, uint32_t to, unsigned int *timer) {
 	IOReturn ret = kIOReturnError;
 	if (callbackAlc && callbackAlc->orgPerformPowerChange && callbackAlc->orgInitializePinConfig) {
 		bool valid = isAnalogAudio(hdaDriver);
@@ -124,9 +133,11 @@ IOReturn AlcEnabler::performPowerChange(IOService *hdaDriver, ALCAudioDevicePowe
 IOReturn AlcEnabler::initializePinConfig(IOService *hdaCodec, IOService *configDevice) {
 	IOReturn ret = kIOReturnError;
 	if (callbackAlc && callbackAlc->orgInitializePinConfig && configDevice) {
-		bool valid = isAnalogAudio(hdaCodec);
-		DBGLOG("alc", "initializePinConfig %s received hda " PRIKADDR ", config " PRIKADDR " config name %s, detect %d valid %d", safeString(hdaCodec->getName()),
-			CASTKADDR(hdaCodec), CASTKADDR(configDevice), configDevice ? safeString(configDevice->getName()) : "(null config)", callbackAlc->hasHDAConfigDefault, valid);
+		uint32_t appleLayout = 0;
+		bool valid = isAnalogAudio(hdaCodec, &appleLayout);
+		DBGLOG("alc", "initializePinConfig %s received hda " PRIKADDR ", config " PRIKADDR " config name %s, detect %d valid %d apple layout %d",
+			   safeString(hdaCodec->getName()), CASTKADDR(hdaCodec), CASTKADDR(configDevice), configDevice ? safeString(configDevice->getName()) : "(null config)",
+			   callbackAlc->hasHDAConfigDefault, valid, appleLayout);
 
 		if (valid && callbackAlc->hasHDAConfigDefault == WakeVerbMode::Detect) {
 			uint32_t analogCodec = 0;
@@ -135,7 +146,7 @@ IOReturn AlcEnabler::initializePinConfig(IOService *hdaCodec, IOService *configD
 				if (callbackAlc->controllers[callbackAlc->codecs[i]->controller]->layout > 0) {
 					analogCodec = static_cast<uint32_t>(callbackAlc->codecs[i]->vendor) << 16 | callbackAlc->codecs[i]->codec;
 					analogLayout = callbackAlc->controllers[callbackAlc->codecs[i]->controller]->layout;
-					DBGLOG("alc", "discovered analog codec %08X", analogCodec);
+					DBGLOG("alc", "discovered analog codec %08X and layout %d", analogCodec, analogLayout);
 					break;
 				}
 			}
@@ -158,22 +169,27 @@ IOReturn AlcEnabler::initializePinConfig(IOService *hdaCodec, IOService *configD
 								auto reinit = OSDynamicCast(OSBoolean, config->getObject("WakeVerbReinit"));
 								DBGLOG("alc", "current config entry has boot %d, wake %d, reinit %d", configData != nullptr,
 									   wakeConfigData != nullptr, reinit ? reinit->getValue() : -1);
-								if (reinit && reinit->getValue()) {
-									auto newConfig = OSDynamicCast(OSDictionary, config->copyCollection());
-									if (newConfig) {
+
+								auto newConfig = OSDynamicCast(OSDictionary, config->copyCollection());
+								if (newConfig) {
+									// Replace the config list with a new list to avoid multiple iterations,
+									// and actually fix the LayoutID number we hook in.
+									newConfig->setObject("LayoutID", OSNumber::withNumber(appleLayout, 32));
+									const OSObject *obj {OSDynamicCast(OSObject, newConfig)};
+									configDevice->setProperty("HDAConfigDefault", OSArray::withObjects(&obj, 1));
+									if (reinit && reinit->getValue()) {
 										if (wakeConfigData) {
 											if (configData)
 												newConfig->setObject("BootConfigData", configData);
 											newConfig->setObject("ConfigData", wakeConfigData);
 											newConfig->removeObject("WakeConfigData");
 										}
-										const OSObject *objs[] {OSDynamicCast(OSObject, newConfig)};
-										ADDPR(selfInstance)->setProperty("HDAConfigDefault", OSArray::withObjects(
-											const_cast<const OSObject **>(&objs[0]), arrsize(objs)));
+										obj = OSDynamicCast(OSObject, newConfig);
+										ADDPR(selfInstance)->setProperty("HDAConfigDefault", OSArray::withObjects(&obj, 1));
 										callbackAlc->hasHDAConfigDefault = WakeVerbMode::Enable;
-									} else {
-										SYSLOG("alc", "failed to copy HDAConfigDefault %d collection", i);
 									}
+								} else {
+									SYSLOG("alc", "failed to copy HDAConfigDefault %d collection", i);
 								}
 
 								break;

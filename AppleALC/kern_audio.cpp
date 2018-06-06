@@ -46,7 +46,7 @@ IOService *AppleALCAudio::probe(IOService *hdaService, SInt32 *score) {
 	}
 
 	// AppleHDAController only recognises HDEF and HDAU.
-	if (!hdaPlaneName || strcmp(hdaPlaneName, "HDEF")) {
+	if (strcmp(hdaPlaneName, "HDEF")) {
 		DBGLOG("audio", "fixing audio plane name to HDEF");
 		WIOKit::renameDevice(hdaService, "HDEF");
 	}
