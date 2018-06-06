@@ -51,10 +51,48 @@ IOService *AppleALCAudio::probe(IOService *hdaService, SInt32 *score) {
 		WIOKit::renameDevice(hdaService, "HDEF");
 	}
 
+	// Firstly parse our own ID.
+	// alcid=X has highest priority and overrides any other value.
+	// alc-layout-id has normal priority and is expected to be used.
+	// layout-id will be used if both alcid and alc-layout-id are not set.
 	uint32_t layout = 0;
 	if (PE_parse_boot_argn("alcid", &layout, sizeof(layout))) {
-		DBGLOG("audio", "found layout-id override %d", layout);
+		DBGLOG("audio", "found alc-layout-id override %d", layout);
+		hdaService->setProperty("alc-layout-id", &layout, sizeof(layout));
+	} else {
+		auto alcId = OSDynamicCast(OSData, hdaService->getProperty("alc-layout-id"));
+		if (alcId && alcId->getLength() == sizeof(uint32_t)) {
+			DBGLOG("audio", "found normal alc-layout-id %d",
+				   *static_cast<const uint32_t *>(alcId->getBytesNoCopy()));
+		} else {
+			auto legacyId = OSDynamicCast(OSData, hdaService->getProperty("layout-id"));
+			if (legacyId && legacyId->getLength() == sizeof(uint32_t)) {
+				DBGLOG("audio", "found legacy alc-layout-id (from layout-id) %d",
+					   *static_cast<const uint32_t *>(alcId->getBytesNoCopy()));
+				hdaService->setProperty("alc-layout-id", legacyId);
+			}
+		}
+	}
+
+	// Next parse the ID we will return to AppleHDA.
+	// alcapplid has highest priority and overrides any other value.
+	// apple-layout-id has normal priority, you may use it if you need.
+	// default value (7) will be used if both of the above are not set.
+	if (PE_parse_boot_argn("alcaaplid", &layout, sizeof(layout))) {
+		DBGLOG("audio", "found apple-layout-id override %d", layout);
+		hdaService->setProperty("apple-layout-id", &layout, sizeof(layout));
+	}
+
+	auto appleId = OSDynamicCast(OSData, hdaService->getProperty("apple-layout-id"));
+	if (appleId && appleId->getLength() == sizeof(uint32_t)) {
+		DBGLOG("audio", "found apple-layout-id %d",
+			   *static_cast<const uint32_t *>(appleId->getBytesNoCopy()));
+		hdaService->setProperty("layout-id", appleId);
+	} else {
+		DBGLOG("audiop", "defaulting apple-layout-id to 7");
+		layout = 7;
 		hdaService->setProperty("layout-id", &layout, sizeof(layout));
+		hdaService->setProperty("apple-layout-id", &layout, sizeof(layout));
 	}
 
 	if (!hdaService->getProperty("built-in")) {

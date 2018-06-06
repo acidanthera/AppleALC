@@ -57,7 +57,9 @@ void AlcEnabler::deinit() {
 
 void AlcEnabler::layoutLoadCallback(uint32_t requestTag, kern_return_t result, const void *resourceData, uint32_t resourceDataLength, void *context) {
 	if (callbackAlc && callbackPatcher && callbackAlc->orgLayoutLoadCallback) {
+		DBGLOG("alc", "layoutLoadCallback %d %d %d %d %d", requestTag, result, resourceData != nullptr, resourceDataLength, context != nullptr);
 		callbackAlc->updateResource(*callbackPatcher, Resource::Layout, result, resourceData, resourceDataLength);
+		DBGLOG("alc", "layoutLoadCallback done %d %d %d %d %d", requestTag, result, resourceData != nullptr, resourceDataLength, context != nullptr);
 		callbackAlc->orgLayoutLoadCallback(requestTag, result, resourceData, resourceDataLength, context);
 	} else {
 		SYSLOG("alc", "layout callback arrived at nowhere");
@@ -66,7 +68,9 @@ void AlcEnabler::layoutLoadCallback(uint32_t requestTag, kern_return_t result, c
 
 void AlcEnabler::platformLoadCallback(uint32_t requestTag, kern_return_t result, const void *resourceData, uint32_t resourceDataLength, void *context) {
 	if (callbackAlc && callbackPatcher && callbackAlc->orgPlatformLoadCallback) {
+		DBGLOG("alc", "platformLoadCallback %d %d %d %d %d", requestTag, result, resourceData != nullptr, resourceDataLength, context != nullptr);
 		callbackAlc->updateResource(*callbackPatcher, Resource::Platform, result, resourceData, resourceDataLength);
+		DBGLOG("alc", "platformLoadCallback done %d %d %d %d %d", requestTag, result, resourceData != nullptr, resourceDataLength, context != nullptr);
 		callbackAlc->orgPlatformLoadCallback(requestTag, result, resourceData, resourceDataLength, context);
 	} else {
 		SYSLOG("alc", "platform callback arrived at nowhere");
@@ -392,8 +396,8 @@ void AlcEnabler::grabControllers() {
 					break;
 				}
 				
-				if (ADDPR(codecLookup)[lookup].detect && !WIOKit::getOSDataValue(sect, "layout-id", lid)) {
-					SYSLOG("alc", "layout-id was not provided by controller at %s", ADDPR(codecLookup)[lookup].tree[i]);
+				if (ADDPR(codecLookup)[lookup].detect && !WIOKit::getOSDataValue(sect, "alc-layout-id", lid)) {
+					SYSLOG("alc", "alc-layout-id was not provided by controller at %s", ADDPR(codecLookup)[lookup].tree[i]);
 					break;
 				}
 				
