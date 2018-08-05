@@ -2973,6 +2973,28 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>hieplpvip - Realtek ALC295 Asus UX430 KabyLake</string>
+					<key>CodecID</key>
+					<integer>283902613</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccEAEnHQEBJx6gAScfkAF3HCABdx0BAXce
+					FwF3H5AB1xwwAdcdEAHXHoEB1x8DAhccQAIX
+					HRACFx4hAhcfAwIXDAI=
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>12</integer>
+					<key>WakeConfigData</key>
+					<data>AScHIAGXByA=</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>DalianSky - Realtek ALC295/ALC3254 Dell7570</string>
 					<key>CodecID</key>
 					<integer>283902613</integer>
