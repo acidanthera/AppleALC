@@ -1,6 +1,7 @@
 AppleALC Changelog
 ==================
 #### v1.3.2
+- Added ALC295 layout-id 16 for ALC295, Asus UX430UA by gulios
 - Added ALC269 layout-id 45 for Asus A45A and K45 by maiconjs (Wolfield)
 - Added WakeConfigData for ALC892 layout-id 1 by FredWst
 - Added ALC295 layout-id 14 for Asus UX430UA by InsanelyDeepak
