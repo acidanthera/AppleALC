@@ -3124,6 +3124,24 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>gulios - Realtek ALC295, Asus UX430UA</string>
+					<key>CodecID</key>
+					<integer>283902613</integer>
+					<key>ConfigData</key>
+					<data>
+					AXccEAF3HQABdx4XAXcfkAEnHCABJx0AASce
+					oAEnH5ACFxwwAhcdEAIXHiECFx8AAZccQAGX
+					HRABlx6BAZcfAA==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>16</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>vusun123 - ALC 295 for Skylake HP Pavilion</string>
 					<key>CodecID</key>
 					<integer>283902613</integer>

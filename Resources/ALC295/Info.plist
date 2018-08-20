@@ -62,6 +62,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>gulios - Realtek ALC295, Asus UX430UA</string>
+				<key>Id</key>
+				<integer>16</integer>
+				<key>Path</key>
+				<string>layout16.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>vusun123 - ALC 295 for Skylake HP Pavilion</string>
 				<key>Id</key>
 				<integer>28</integer>
@@ -118,6 +126,14 @@
 				<integer>15</integer>
 				<key>Path</key>
 				<string>PlatformsID.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>gulios - Realtek ALC295, Asus UX430UA</string>
+				<key>Id</key>
+				<integer>16</integer>
+				<key>Path</key>
+				<string>Platforms16.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
