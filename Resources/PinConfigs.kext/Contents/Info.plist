@@ -34,6 +34,33 @@
 					AwAAAA==
 					</data>
 					<key>Codec</key>
+					<string>Realtek ALC887-VD for Asus B85-ME by maiconjs</string>
+					<key>CodecID</key>
+					<integer>283904135</integer>
+					<key>ConfigData</key>
+					<data>
+					AUccAAFHHUABRx4BAUcfAQG3HBABtx1AAbce
+					IQG3HwIBhxwgAYcdkAGHHqABhx+QAaccMAGn
+					HTABpx6BAacfAQGXHEABlx2QAZcegQGXHwIB
+					RwwC
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>40</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAg==
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
 					<string>Realtek 887-VD AD0 for Asus Z97M-PLUS/BR by maiconjs</string>
 					<key>CodecID</key>
 					<integer>283904135</integer>
