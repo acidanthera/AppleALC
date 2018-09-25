@@ -14,6 +14,14 @@
 		<array>
 			<dict>
 				<key>Comment</key>
+				<string>Realtek 887-VD AD0 for Asus Z97M-PLUS/BR by maiconjs</string>
+				<key>Id</key>
+				<integer>20</integer>
+				<key>Path</key>
+				<string>layout20.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Toleda ALC887</string>
 				<key>Id</key>
 				<integer>1</integer>
@@ -111,6 +119,14 @@
 		</array>
 		<key>Platforms</key>
 		<array>
+			<dict>
+				<key>Comment</key>
+				<string>Realtek 887-VD AD0 for Asus Z97M-PLUS/BR by maiconjs</string>
+				<key>Id</key>
+				<integer>20</integer>
+				<key>Path</key>
+				<string>Platforms20.xml.zlib</string>
+			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>Toleda</string>
@@ -215,7 +231,9 @@
 			<key>Count</key>
 			<integer>1</integer>
 			<key>Find</key>
-			<data>QcYGAEmLvCQ=</data>
+			<data>
+			QcYGAEmLvCQ=
+			</data>
 			<key>MaxKernel</key>
 			<integer>13</integer>
 			<key>MinKernel</key>
@@ -223,67 +241,89 @@
 			<key>Name</key>
 			<string>AppleHDA</string>
 			<key>Replace</key>
-			<data>QcYGAUmLvCQ=</data>
+			<data>
+			QcYGAUmLvCQ=
+			</data>
 		</dict>
 		<dict>
 			<key>Count</key>
 			<integer>1</integer>
 			<key>Find</key>
-			<data>QcYGAEiLu2g=</data>
+			<data>
+			QcYGAEiLu2g=
+			</data>
 			<key>MinKernel</key>
 			<integer>14</integer>
 			<key>Name</key>
 			<string>AppleHDA</string>
 			<key>Replace</key>
-			<data>QcYGAUiLu2g=</data>
+			<data>
+			QcYGAUiLu2g=
+			</data>
 		</dict>
 		<dict>
 			<key>Count</key>
 			<integer>1</integer>
 			<key>Find</key>
-			<data>QcaGQwEAAAA=</data>
+			<data>
+			QcaGQwEAAAA=
+			</data>
 			<key>MinKernel</key>
 			<integer>13</integer>
 			<key>Name</key>
 			<string>AppleHDA</string>
 			<key>Replace</key>
-			<data>QcaGQwEAAAE=</data>
+			<data>
+			QcaGQwEAAAE=
+			</data>
 		</dict>
 		<dict>
 			<key>Count</key>
 			<integer>2</integer>
 			<key>Find</key>
-			<data>ixnUEQ==</data>
+			<data>
+			ixnUEQ==
+			</data>
 			<key>MinKernel</key>
 			<integer>13</integer>
 			<key>Name</key>
 			<string>AppleHDA</string>
 			<key>Replace</key>
-			<data>hwjsEA==</data>
+			<data>
+			hwjsEA==
+			</data>
 		</dict>
 		<dict>
 			<key>Count</key>
 			<integer>2</integer>
 			<key>Find</key>
-			<data>gxnUEQ==</data>
+			<data>
+			gxnUEQ==
+			</data>
 			<key>MinKernel</key>
 			<integer>13</integer>
 			<key>Name</key>
 			<string>AppleHDA</string>
 			<key>Replace</key>
-			<data>AAAAAA==</data>
+			<data>
+			AAAAAA==
+			</data>
 		</dict>
 		<dict>
 			<key>Count</key>
 			<integer>2</integer>
 			<key>Find</key>
-			<data>ihnUEQ==</data>
+			<data>
+			ihnUEQ==
+			</data>
 			<key>MinKernel</key>
 			<integer>16</integer>
 			<key>Name</key>
 			<string>AppleHDA</string>
 			<key>Replace</key>
-			<data>AAAAAA==</data>
+			<data>
+			AAAAAA==
+			</data>
 		</dict>
 	</array>
 	<key>Revisions</key>

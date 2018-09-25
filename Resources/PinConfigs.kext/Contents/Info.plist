@@ -34,6 +34,35 @@
 					AwAAAA==
 					</data>
 					<key>Codec</key>
+					<string>Realtek 887-VD AD0 for Asus Z97M-PLUS/BR by maiconjs</string>
+					<key>CodecID</key>
+					<integer>283904135</integer>
+					<key>ConfigData</key>
+					<data>
+					AUccAAFHHUABRx4BAUcfAQFnHBABZx1gAWce
+					AQFnHwEBVxwgAVcdEAFXHgEBVx8BAXccMAF3
+					HSABdx4BAXcfAQG3HEABtx1AAbceIQG3HwIB
+					FxxQARcdAQEXHkYBFx+ZAYccYAGHHZABhx6g
+					AYcfkAGnHHABpx0wAacegQGnHwEBlxyAAZcd
+					kAGXHoEBlx8CAUcMAg==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>20</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAg==
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
 					<string>ALC 230 for Lenovo Ideapad 320 by maiconjs</string>
 					<key>CodecID</key>
 					<integer>283902512</integer>
