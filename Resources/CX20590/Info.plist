@@ -14,6 +14,22 @@
 		<array>
 			<dict>
 				<key>Comment</key>
+				<string>Custom for Lenovo T420 by tluck</string>
+				<key>Id</key>
+				<integer>14</integer>
+				<key>Path</key>
+				<string>layout14.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom for Lenovo T420 with dock by tluck</string>
+				<key>Id</key>
+				<integer>13</integer>
+				<key>Path</key>
+				<string>layout13.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Mirone Laptop Patch</string>
 				<key>Id</key>
 				<integer>3</integer>
@@ -39,6 +55,22 @@
 		</array>
 		<key>Platforms</key>
 		<array>
+			<dict>
+				<key>Comment</key>
+				<string>Custom for Lenovo T420 by tluck</string>
+				<key>Id</key>
+				<integer>14</integer>
+				<key>Path</key>
+				<string>Platforms14.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom for Lenovo T420 with dock by tluck</string>
+				<key>Id</key>
+				<integer>13</integer>
+				<key>Path</key>
+				<string>Platforms13.xml.zlib</string>
+			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>Mirone Laptop Patch</string>
@@ -110,8 +142,6 @@
 			<integer>2</integer>
 			<key>Find</key>
 			<data>gxnUEQ==</data>
-			<key>MaxKernel</key>
-			<integer>15</integer>
 			<key>MinKernel</key>
 			<integer>15</integer>
 			<key>Name</key>
@@ -124,8 +154,6 @@
 			<integer>2</integer>
 			<key>Find</key>
 			<data>hBnUEQ==</data>
-			<key>MaxKernel</key>
-			<integer>15</integer>
 			<key>MinKernel</key>
 			<integer>13</integer>
 			<key>Name</key>

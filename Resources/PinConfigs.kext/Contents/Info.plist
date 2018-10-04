@@ -5592,6 +5592,56 @@
 				<dict>
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
+					<key>CodecID</key>
+					<integer>351359086</integer>
+					<key>Comment</key>
+					<string>CX20590 for Lenovo T420 by tluck</string>
+					<key>ConfigData</key>
+					<data>
+					AFccAABXHQAAVx5WAFcfGABnHBAAZx0AAGce
+					VgBnHxgAdxwgAHcdAAB3HlYAdx8YAZccMAGX
+					HRABlx4hAZcfBAGnHEABpx2QAaceoQGnH2EB
+					txxQAbcdEAG3HoEBtx8BAcccYAHHHUABxx4h
+					AccfYQH3HHAB9x0BAfceFwH3H5kCNxyAAjcd
+					AQI3HqYCNx+ZAbcMAg==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>14</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>CodecID</key>
+					<integer>351359086</integer>
+					<key>Comment</key>
+					<string>CX20590 for Lenovo T420 by tluck</string>
+					<key>ConfigData</key>
+					<data>
+					AFccAABXHQAAVx5WAFcfGABnHBAAZx0AAGce
+					VgBnHxgAdxwgAHcdAAB3HlYAdx8YAZccMAGX
+					HRABlx4hAZcfBAGnHEABpx2QAaceoQGnH2EB
+					txxQAbcdEAG3HoEBtx8BAcccYAHHHUABxx4h
+					AccfYQH3HHAB9x0BAfceFwH3H5kCNxyAAjcd
+					AQI3HqYCNx+ZAbcMAg==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>13</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
 					<key>Codec</key>
 					<string>Mirone - Conexant CX20590</string>
 					<key>CodecID</key>
