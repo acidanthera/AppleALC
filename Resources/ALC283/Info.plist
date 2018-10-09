@@ -14,6 +14,14 @@
 		<array>
 			<dict>
 				<key>Comment</key>
+				<string>Realtek ALC283 for ThinkCentre M93z 10AF ALC283 by giesteira</string>
+				<key>Id</key>
+				<integer>44</integer>
+				<key>Path</key>
+				<string>layout44.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Toleda NUC/BRIX patch ALC283</string>
 				<key>Id</key>
 				<integer>1</integer>
@@ -47,6 +55,14 @@
 		</array>
 		<key>Platforms</key>
 		<array>
+			<dict>
+				<key>Comment</key>
+				<string>Realtek ALC283 for ThinkCentre M93z 10AF ALC283 by giesteira </string>
+				<key>Id</key>
+				<integer>44</integer>
+				<key>Path</key>
+				<string>Platforms44.xml.zlib</string>
+			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>Toleda NUC/BRIX patch ALC283</string>

@@ -32,6 +32,29 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>Realtek ALC283 for ThinkCentre M93z 10AF ALC283 by giesteira </string>
+					<key>CodecID</key>
+					<integer>283902595</integer>
+					<key>ConfigData</key>
+					<data>
+					AbccQAG3HQABtx4XAbcfmQEnHBABJx0AASce
+					pgEnH5kBlxwgAZcdkAGXHoEBlx8BAaccMAGn
+					HZABpx6BAacfAQIXHAACFx1AAhceIQIXHwEB
+					RwwC
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>44</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>Realtek ALC887-VD for Asus B85-ME by maiconjs</string>
 					<key>CodecID</key>
 					<integer>283904135</integer>
