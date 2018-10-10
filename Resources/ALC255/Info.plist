@@ -14,6 +14,14 @@
 		<array>
 			<dict>
 				<key>Comment</key>
+				<string>HongyuS - Realtek ALC255 for XiaoMiAir 13.3</string>
+				<key>Id</key>
+				<integer>30</integer>
+				<key>Path</key>
+				<string>layout30.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Mirone Laptop Patch ALC255</string>
 				<key>Id</key>
 				<integer>3</integer>
@@ -71,6 +79,14 @@
 		</array>
 		<key>Platforms</key>
 		<array>
+			<dict>
+				<key>Comment</key>
+				<string>HongyuS - Realtek ALC255 for XiaoMiAir 13.3</string>
+				<key>Id</key>
+				<integer>30</integer>
+				<key>Path</key>
+				<string>Platforms30.xml.zlib</string>
+			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>Mirone Laptop Patch ALC255</string>
