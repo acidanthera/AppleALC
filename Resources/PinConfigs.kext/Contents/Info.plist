@@ -1097,6 +1097,24 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>HongyuS - Realtek ALC255 for XiaoMiAir 13.3</string>
+					<key>CodecID</key>
+					<integer>283902549</integer>
+					<key>ConfigData</key>
+					<data>ASccMAEnHQEBJx6mAScfkAFHHBABRx0BAUceFwFHH5ABRwwCAXccAAF3HQABdx4AAXcfQAGHHPABhx0AAYceAAGHH0ABlxwgAZcdEAGXHoEBlx8EAacc8AGnHQABpx4AAacfQAG3HPABtx0AAbceAAG3H0AB1xwtAdcdmgHXHvcB1x9AAecc8AHnHQAB5x4AAecfQAIXHCACFx0QAhceIQIXHwQCFwwC</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>30</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>DalianSky - Realtek ALC255 (3246) for XiaoMi Air</string>
 					<key>CodecID</key>
 					<integer>283902549</integer>
