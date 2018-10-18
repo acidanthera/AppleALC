@@ -532,9 +532,10 @@ void AlcEnabler::updateResource(Resource type, kern_return_t &result, const void
 
 void AlcEnabler::grabControllers() {
 	computerModel = WIOKit::getComputerModel();
+	auto sectPCI = WIOKit::findEntryByPrefix("/AppleACPIPlatformExpert", "PCI", gIOServicePlane);
 
 	for (size_t lookup = 0; lookup < ADDPR(codecLookupSize); lookup++) {
-		auto sect = WIOKit::findEntryByPrefix("/AppleACPIPlatformExpert", "PCI", gIOServicePlane);
+		auto sect = sectPCI;
 		
 		for (size_t i = 0; sect && i <= ADDPR(codecLookup)[lookup].controllerNum; i++) {
 			sect = WIOKit::findEntryByPrefix(sect, ADDPR(codecLookup)[lookup].tree[i], gIOServicePlane);
@@ -565,6 +566,7 @@ void AlcEnabler::grabControllers() {
 				uint32_t nopatch = 0;
 				WIOKit::getOSDataValue(sect, "alc-controller-patch-disable", nopatch);
 				insertController(ven, dev, rev, platform, nopatch, lid, ADDPR(codecLookup)[lookup].detect, &ADDPR(codecLookup)[lookup]);
+				break;
 			}
 		}
 	}
