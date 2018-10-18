@@ -130,6 +130,7 @@
 				1C748C281C21952C0024EED2 /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 1;
 		};
 		1C748C281C21952C0024EED2 /* Products */ = {
 			isa = PBXGroup;
@@ -518,7 +519,7 @@
 				MODULE_NAME = as.vit9696.AppleALC;
 				MODULE_START = "$(PRODUCT_NAME)_kern_start";
 				MODULE_STOP = "$(PRODUCT_NAME)_kern_stop";
-				MODULE_VERSION = 1.3.3;
+				MODULE_VERSION = 1.3.3d4;
 				OTHER_CFLAGS = (
 					"-mmmx",
 					"-msse",
@@ -563,7 +564,7 @@
 				MODULE_NAME = as.vit9696.AppleALC;
 				MODULE_START = "$(PRODUCT_NAME)_kern_start";
 				MODULE_STOP = "$(PRODUCT_NAME)_kern_stop";
-				MODULE_VERSION = 1.3.3;
+				MODULE_VERSION = 1.3.3d4;
 				OTHER_CFLAGS = (
 					"-mmmx",
 					"-msse",

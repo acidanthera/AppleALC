@@ -54,10 +54,11 @@ void AlcEnabler::updateProperties() {
 			if (hasBuiltinDigitalAudio) {
 				// This is a normal HDAU device for an IGPU with connectors.
 				updateDeviceProperties(devInfo->audioBuiltinDigital, devInfo, "onboard-1", false);
-				uint32_t dev = 0, rev = 0;
+				uint32_t dev = 0, rev = 0, nopatch = 0;
+				WIOKit::getOSDataValue(devInfo->audioBuiltinDigital, "alc-controller-patch-disable", nopatch);
 				if (WIOKit::getOSDataValue(devInfo->audioBuiltinDigital, "device-id", dev) &&
 					WIOKit::getOSDataValue(devInfo->audioBuiltinDigital, "revision-id", rev))
-					insertController(WIOKit::VendorID::Intel, dev, rev, devInfo->reportedFramebufferId);
+					insertController(WIOKit::VendorID::Intel, dev, rev, nopatch, devInfo->reportedFramebufferId);
 			} else {
 				// Terminate built-in HDAU audio, as we are using no connectors!
 				auto hda = OSDynamicCast(IOService, devInfo->audioBuiltinDigital);
@@ -85,10 +86,11 @@ void AlcEnabler::updateProperties() {
 		if (hasBuiltinDigitalAudio) {
 			devInfo->videoBuiltin->setProperty("hda-gfx", OSData::withBytes("onboard-1", sizeof("onboard-1")));
 			if (!devInfo->audioBuiltinDigital) {
-				uint32_t dev = 0, rev = 0;
+				uint32_t dev = 0, rev = 0, nopatch = 0;
+				WIOKit::getOSDataValue(devInfo->videoBuiltin, "alc-controller-patch-disable", nopatch);
 				if (WIOKit::getOSDataValue(devInfo->videoBuiltin, "device-id", dev) &&
 					WIOKit::getOSDataValue(devInfo->videoBuiltin, "revision-id", rev))
-					insertController(WIOKit::VendorID::Intel, dev, rev, devInfo->reportedFramebufferId);
+					insertController(WIOKit::VendorID::Intel, dev, rev, nopatch, devInfo->reportedFramebufferId);
 			}
 		}
 
@@ -103,11 +105,12 @@ void AlcEnabler::updateProperties() {
 				continue;
 
 			uint32_t ven = devInfo->videoExternal[gpu].vendor;
-			uint32_t dev = 0, rev = 0;
+			uint32_t dev = 0, rev = 0, nopatch = 0;
+			WIOKit::getOSDataValue(hdaSevice, "alc-controller-patch-disable", nopatch);
 			if (WIOKit::getOSDataValue(hdaSevice, "device-id", dev) &&
 				WIOKit::getOSDataValue(hdaSevice, "revision-id", rev)) {
 				// Register the controller
-				insertController(ven, dev, rev);
+				insertController(ven, dev, rev, nopatch);
 				// Disable the id in the list if any
 				if (ven == WIOKit::VendorID::NVIDIA) {
 					uint32_t device = (dev << 16) | WIOKit::VendorID::NVIDIA;
@@ -446,7 +449,11 @@ void AlcEnabler::processKext(KernelPatcher &patcher, size_t index, mach_vm_addre
 					}
 				}
 			}
-			
+
+			if (controllers[i]->nopatch) {
+				SYSLOG("alc", "skipping %lu controller %X:%X:%X due to alc-controller-patch-disable", i, controllers[i]->vendor, controllers[i]->device, controllers[i]->revision);
+				continue;
+			}
 			applyPatches(patcher, index, info->patches, info->patchNum);
 		}
 
@@ -533,6 +540,7 @@ void AlcEnabler::grabControllers() {
 			sect = WIOKit::findEntryByPrefix(sect, ADDPR(codecLookup)[lookup].tree[i], gIOServicePlane);
 			
 			if (sect && i == ADDPR(codecLookup)[lookup].controllerNum) {
+
 				// Nice, we found some controller, add it
 				uint32_t ven {0}, dev {0}, rev {0}, platform {ControllerModInfo::PlatformAny}, lid {0};
 				
@@ -554,7 +562,9 @@ void AlcEnabler::grabControllers() {
 					DBGLOG("alc", "AAPL,snb-platform-id %X was found in controller at %s", platform, ADDPR(codecLookup)[lookup].tree[i]);
 				}
 
-				insertController(ven, dev, rev, platform, lid, ADDPR(codecLookup)[lookup].detect, &ADDPR(codecLookup)[lookup]);
+				uint32_t nopatch = 0;
+				WIOKit::getOSDataValue(sect, "alc-controller-patch-disable", nopatch);
+				insertController(ven, dev, rev, platform, nopatch, lid, ADDPR(codecLookup)[lookup].detect, &ADDPR(codecLookup)[lookup]);
 			}
 		}
 	}
