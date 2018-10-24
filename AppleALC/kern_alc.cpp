@@ -57,7 +57,7 @@ void AlcEnabler::updateProperties() {
 				uint32_t dev = 0, rev = 0;
 				if (WIOKit::getOSDataValue(devInfo->audioBuiltinDigital, "device-id", dev) &&
 					WIOKit::getOSDataValue(devInfo->audioBuiltinDigital, "revision-id", rev))
-					insertController(WIOKit::VendorID::Intel, dev, rev, devInfo->reportedFramebufferId);
+					insertController(WIOKit::VendorID::Intel, dev, rev, nullptr != devInfo->audioBuiltinDigital->getProperty("no-controller-patch"), devInfo->reportedFramebufferId);
 			} else {
 				// Terminate built-in HDAU audio, as we are using no connectors!
 				auto hda = OSDynamicCast(IOService, devInfo->audioBuiltinDigital);
@@ -88,7 +88,7 @@ void AlcEnabler::updateProperties() {
 				uint32_t dev = 0, rev = 0;
 				if (WIOKit::getOSDataValue(devInfo->videoBuiltin, "device-id", dev) &&
 					WIOKit::getOSDataValue(devInfo->videoBuiltin, "revision-id", rev))
-					insertController(WIOKit::VendorID::Intel, dev, rev, devInfo->reportedFramebufferId);
+					insertController(WIOKit::VendorID::Intel, dev, rev, nullptr != devInfo->videoBuiltin->getProperty("no-controller-patch"), devInfo->reportedFramebufferId);
 			}
 		}
 
@@ -107,7 +107,7 @@ void AlcEnabler::updateProperties() {
 			if (WIOKit::getOSDataValue(hdaSevice, "device-id", dev) &&
 				WIOKit::getOSDataValue(hdaSevice, "revision-id", rev)) {
 				// Register the controller
-				insertController(ven, dev, rev);
+				insertController(ven, dev, rev, nullptr != hdaSevice->getProperty("no-controller-patch"));
 				// Disable the id in the list if any
 				if (ven == WIOKit::VendorID::NVIDIA) {
 					uint32_t device = (dev << 16) | WIOKit::VendorID::NVIDIA;
@@ -446,7 +446,11 @@ void AlcEnabler::processKext(KernelPatcher &patcher, size_t index, mach_vm_addre
 					}
 				}
 			}
-			
+
+			if (controllers[i]->nopatch) {
+				DBGLOG("alc", "skipping %lu controller %X:%X:%X due to no-controller-patch", i, controllers[i]->vendor, controllers[i]->device, controllers[i]->revision);
+				continue;
+			}
 			applyPatches(patcher, index, info->patches, info->patchNum);
 		}
 
@@ -525,14 +529,16 @@ void AlcEnabler::updateResource(Resource type, kern_return_t &result, const void
 
 void AlcEnabler::grabControllers() {
 	computerModel = WIOKit::getComputerModel();
+	auto sectPCI = WIOKit::findEntryByPrefix("/AppleACPIPlatformExpert", "PCI", gIOServicePlane);
 
 	for (size_t lookup = 0; lookup < ADDPR(codecLookupSize); lookup++) {
-		auto sect = WIOKit::findEntryByPrefix("/AppleACPIPlatformExpert", "PCI", gIOServicePlane);
+		auto sect = sectPCI;
 		
 		for (size_t i = 0; sect && i <= ADDPR(codecLookup)[lookup].controllerNum; i++) {
 			sect = WIOKit::findEntryByPrefix(sect, ADDPR(codecLookup)[lookup].tree[i], gIOServicePlane);
 			
 			if (sect && i == ADDPR(codecLookup)[lookup].controllerNum) {
+
 				// Nice, we found some controller, add it
 				uint32_t ven {0}, dev {0}, rev {0}, platform {ControllerModInfo::PlatformAny}, lid {0};
 				
@@ -554,7 +560,8 @@ void AlcEnabler::grabControllers() {
 					DBGLOG("alc", "AAPL,snb-platform-id %X was found in controller at %s", platform, ADDPR(codecLookup)[lookup].tree[i]);
 				}
 
-				insertController(ven, dev, rev, platform, lid, ADDPR(codecLookup)[lookup].detect, &ADDPR(codecLookup)[lookup]);
+				insertController(ven, dev, rev, platform, nullptr != sect->getProperty("no-controller-patch"), lid, ADDPR(codecLookup)[lookup].detect, &ADDPR(codecLookup)[lookup]);
+				break;
 			}
 		}
 	}
