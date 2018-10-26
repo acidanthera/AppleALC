@@ -83,7 +83,7 @@ void AlcEnabler::updateProperties() {
 
 		// Thirdly, update IGPU device in case we have digital audio
 		if (hasBuiltinDigitalAudio) {
-			devInfo->videoBuiltin->setProperty("hda-gfx", OSData::withBytes("onboard-1", sizeof("onboard-1")));
+			devInfo->videoBuiltin->setProperty("hda-gfx", const_cast<char *>("onboard-1"), sizeof("onboard-1"));
 			if (!devInfo->audioBuiltinDigital) {
 				uint32_t dev = 0, rev = 0;
 				if (WIOKit::getOSDataValue(devInfo->videoBuiltin, "device-id", dev) &&
@@ -121,7 +121,7 @@ void AlcEnabler::updateProperties() {
 			char hdaGfx[16];
 			snprintf(hdaGfx, sizeof(hdaGfx), "onboard-%u", hdaGfxCounter++);
 			updateDeviceProperties(hdaSevice, devInfo, hdaGfx, false);
-			gpuService->setProperty("hda-gfx", OSData::withBytes(hdaGfx, static_cast<uint32_t>(strlen(hdaGfx)+1)));
+			gpuService->setProperty("hda-gfx", hdaGfx, static_cast<uint32_t>(strlen(hdaGfx)+1));
 
 			// Refresh connector types on NVIDIA, since they are required for HDMI audio to function.
 			// Abort if preexisting connector-types or no-audio-fixconn property is found.
@@ -132,7 +132,7 @@ void AlcEnabler::updateProperties() {
 					connector_type[1] = '0' + i;
 					if (!gpuService->getProperty(connector_type)) {
 						DBGLOG("alc", "fixing %s in gpu", connector_type);
-						gpuService->setProperty(connector_type, OSData::withBytes(builtBytes, sizeof(builtBytes)));
+						gpuService->setProperty(connector_type, builtBytes, sizeof(builtBytes));
 					} else {
 						DBGLOG("alc", "found existing %s in gpu", connector_type);
 						break;
@@ -204,7 +204,7 @@ void AlcEnabler::updateDeviceProperties(IORegistryEntry *hdaService, DeviceInfo 
 
 	// Pass onboard-X if requested.
 	if (hdaGfx)
-		hdaService->setProperty("hda-gfx", OSData::withBytes(hdaGfx, static_cast<uint32_t>(strlen(hdaGfx)+1)));
+		hdaService->setProperty("hda-gfx", const_cast<char *>(hdaGfx), static_cast<uint32_t>(strlen(hdaGfx)+1));
 
 	// Ensure built-in.
 	if (!hdaService->getProperty("built-in")) {
@@ -261,13 +261,13 @@ IOReturn AlcEnabler::performPowerChange(IOService *hdaDriver, uint32_t from, uin
 
 			if (pin) {
 				if (to == ALCAudioDeviceSleep) {
-					hdaCodec->setProperty("alc-sleep-status", OSBoolean::withBoolean(true));
+					hdaCodec->setProperty("alc-sleep-status", kOSBooleanTrue);
 				} else if (sleep && (to == ALCAudioDeviceIdle || to == ALCAudioDeviceActive)) {
 					DBGLOG("alc", "power change %s at %s forcing wake verbs", safeString(hdaDriver->getName()), safeString(hdaCodec->getName()));
 					auto forceRet = FunctionCast(initializePinConfig, callbackAlc->orgInitializePinConfig)(hdaCodec, hdaCodec);
 					SYSLOG_COND(forceRet != kIOReturnSuccess, "alc", "power change %s at %s forcing wake returned %08X",
 								safeString(hdaDriver->getName()), safeString(hdaCodec->getName()), forceRet);
-					hdaCodec->setProperty("alc-sleep-status", OSBoolean::withBoolean(false));
+					hdaCodec->setProperty("alc-sleep-status", kOSBooleanFalse);
 				}
 			}
 
@@ -299,8 +299,8 @@ IOReturn AlcEnabler::initializePinConfig(IOService *hdaCodec, IOService *configD
 			   safeString(hdaCodec->getName()), CASTKADDR(hdaCodec), CASTKADDR(configDevice),
 			   configDevice ? safeString(configDevice->getName()) : "(null config)", appleLayout, analogCodec, analogLayout);
 
-		hdaCodec->setProperty("alc-pinconfig-status", OSBoolean::withBoolean(false));
-		hdaCodec->setProperty("alc-sleep-status", OSBoolean::withBoolean(false));
+		hdaCodec->setProperty("alc-pinconfig-status", kOSBooleanFalse);
+		hdaCodec->setProperty("alc-sleep-status", kOSBooleanFalse);
 
 		if (appleLayout && analogCodec && analogLayout) {
 			auto configList = OSDynamicCast(OSArray, configDevice->getProperty("HDAConfigDefault"));
@@ -325,9 +325,17 @@ IOReturn AlcEnabler::initializePinConfig(IOService *hdaCodec, IOService *configD
 								if (newConfig) {
 									// Replace the config list with a new list to avoid multiple iterations,
 									// and actually fix the LayoutID number we hook in.
-									newConfig->setObject("LayoutID", OSNumber::withNumber(appleLayout, 32));
+									auto num = OSNumber::withNumber(appleLayout, 32);
+									if (num) {
+										newConfig->setObject("LayoutID", num);
+										num->release();
+									}
 									const OSObject *obj {OSDynamicCast(OSObject, newConfig)};
-									configDevice->setProperty("HDAConfigDefault", OSArray::withObjects(&obj, 1));
+									auto arr = OSArray::withObjects(&obj, 1);
+									if (arr) {
+										configDevice->setProperty("HDAConfigDefault", arr);
+										arr->release();
+									}
 									if (reinit && reinit->getValue()) {
 										newConfig = OSDynamicCast(OSDictionary, newConfig->copyCollection());
 										if (newConfig) {
@@ -339,8 +347,12 @@ IOReturn AlcEnabler::initializePinConfig(IOService *hdaCodec, IOService *configD
 												newConfig->removeObject("WakeConfigData");
 											}
 											// These will be same
-											hdaCodec->setProperty("HDAConfigDefault", OSArray::withObjects(&obj, 1));
-											hdaCodec->setProperty("alc-pinconfig-status", OSBoolean::withBoolean(true));
+											auto arr = OSArray::withObjects(&obj, 1);
+											if (arr) {
+												hdaCodec->setProperty("HDAConfigDefault", arr);
+												hdaCodec->setProperty("alc-pinconfig-status", kOSBooleanTrue);
+												arr->release();
+											}
 										} else {
 											SYSLOG("alc", "failed to copy new HDAConfigDefault collection");
 										}
