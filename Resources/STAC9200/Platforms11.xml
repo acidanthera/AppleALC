@@ -22,6 +22,8 @@
                                 <dict>
                                     <key>NodeID</key>
                                     <integer>3</integer>
+                                    <key>ProcessingState</key>
+                                    <true/>
                                 </dict>
                                 <dict>
                                     <key>NodeID</key>
@@ -46,22 +48,22 @@
                                             </dict>
                                         </array>
                                         <key>MuteInputAmp</key>
-                                        <true/>
+                                        <false/>
                                         <key>PublishMute</key>
                                         <true/>
                                         <key>PublishVolume</key>
                                         <true/>
                                         <key>VolumeInputAmp</key>
-                                        <true/>
+                                        <false/>
                                     </dict>
                                     <key>NodeID</key>
                                     <integer>12</integer>
                                 </dict>
                                 <dict>
                                     <key>Boost</key>
-                                    <integer>2</integer>
+                                    <integer>1</integer>
                                     <key>NodeID</key>
-                                    <integer>16</integer>
+                                    <integer>15</integer>
                                 </dict>
                             </array>
                         </array>
@@ -70,6 +72,8 @@
                                 <dict>
                                     <key>NodeID</key>
                                     <integer>3</integer>
+                                    <key>ProcessingState</key>
+                                    <true/>
                                 </dict>
                                 <dict>
                                     <key>NodeID</key>
@@ -94,20 +98,20 @@
                                             </dict>
                                         </array>
                                         <key>MuteInputAmp</key>
-                                        <true/>
+                                        <false/>
                                         <key>PublishMute</key>
                                         <true/>
                                         <key>PublishVolume</key>
                                         <true/>
                                         <key>VolumeInputAmp</key>
-                                        <true/>
+                                        <false/>
                                     </dict>
                                     <key>NodeID</key>
                                     <integer>12</integer>
                                 </dict>
                                 <dict>
                                     <key>NodeID</key>
-                                    <integer>15</integer>
+                                    <integer>16</integer>
                                 </dict>
                             </array>
                         </array>
