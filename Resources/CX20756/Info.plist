@@ -141,6 +141,20 @@
 			<key>Replace</key>
 			<data>AAAAAA==</data>
 		</dict>
+		<dict>
+			<key>Count</key>
+			<integer>1</integer>
+			<key>Find</key>
+			<data>a3Bzaes=</data>
+			<key>MinKernel</key>
+			<integer>14</integer>
+			<key>Name</key>
+			<string>AppleHDA</string>
+			<key>Provider</key>
+			<string>Wern Apfel</string>
+			<key>Replace</key>
+			<data>Y2ltaes=</data>
+		</dict>
 	</array>
 	<key>Vendor</key>
 	<string>Conexant</string>

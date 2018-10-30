@@ -88,7 +88,7 @@
 									<key>PublishMute</key>
 									<true/>
 									<key>PublishVolume</key>
-									<false/>
+									<true/>
 									<key>VolumeInputAmp</key>
 									<true/>
 								</dict>

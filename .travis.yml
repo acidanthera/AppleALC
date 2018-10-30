@@ -13,8 +13,6 @@ matrix:
       - src=$(/usr/bin/curl -Lfs https://raw.githubusercontent.com/acidanthera/Lilu/master/Lilu/Scripts/bootstrap.sh) && eval "$src" || exit 1
       - xcodebuild -configuration Debug
       - xcodebuild -configuration Release
-      - xcodebuild analyze -quiet -configuration Debug CLANG_ANALYZER_OUTPUT=plist-html CLANG_ANALYZER_OUTPUT_DIR="$(pwd)/clang-analyze" && [ "$(find clang-analyze -name "*.html")" = "" ]
-      - xcodebuild analyze -quiet -configuration Release CLANG_ANALYZER_OUTPUT=plist-html CLANG_ANALYZER_OUTPUT_DIR="$(pwd)/clang-analyze" && [ "$(find clang-analyze -name "*.html")" = "" ]
 
     deploy:
       provider: releases
@@ -25,9 +23,15 @@ matrix:
         secure: tFQgVI1RocYrMW4aaPrg3Pamsmbyb0XWb4YPUUYP/uTTVA3mM05bEHXpzUgo5Lg2UDsIrW6+eAJFLkx2IeB9Lw7RFoeRPBkAHVKzUDr5uXr7Fl98UlYHBV+vhCBQg3L/zmWnYGiEDROQ2SVtsA9wifZVFOFo4dIMP73G8ueSoKKS35s1GIIOs98c+T0S2fDIycoKgPRTUtI4XO/EuMON82ysxppmoN7XoO5lcgLfpHd7+3XQDwlwloGMNWbhARi4tLWrU1ANySPFs9aOzmb7DDKjMPgScdwcMY0X3si5I/IZ9NT8zBgHa6hwtcrob82p0Z3qomkmfJpju0hs6kXwOWRUJCR6BxMzx7L5QKBgzZ5fwoTaptkMjBeeaq9E7jEWP9kMdqJ39CU9YBLRo6l70OJVYT6KbSDbUJZhFzi7LP04hl+G6uXVUVRPxkNNef3lJ7kEzx/d0U+6TR6Lgw6R6iPLczOvvcu2ks8w606o2fxOcCW5wFMm6YJif2qRE3274amT88rb/CO+L0ePq8rVZmCrJnGXzsPWW0JGxXMYleP8KDd54296u3G2aEjvaq2a4G1aLiMkGsHGshmLmv9aVAavpVX3cIuxRepq58Bgul3tWLKb+UJ98q8IAjn5m9qgdBYmJBDL5Ep5XXQ6QwKEvaCWTG2k11pP8xD8SqilcNQ=
       on:
         tags: true
+  - os: osx
+    compiler: clang
+
+    script:
+      - src=$(/usr/bin/curl -Lfs https://raw.githubusercontent.com/acidanthera/Lilu/master/Lilu/Scripts/bootstrap.sh) && eval "$src" || exit 1
+      - xcodebuild analyze -quiet -scheme AppleALC -configuration Debug CLANG_ANALYZER_OUTPUT=plist-html CLANG_ANALYZER_OUTPUT_DIR="$(pwd)/clang-analyze" && [ "$(find clang-analyze -name "*.html")" = "" ]
+      - xcodebuild analyze -quiet -scheme AppleALC -configuration Release CLANG_ANALYZER_OUTPUT=plist-html CLANG_ANALYZER_OUTPUT_DIR="$(pwd)/clang-analyze" && [ "$(find clang-analyze -name "*.html")" = "" ]
 
   - os: osx
-    osx_image: xcode6.4
     compiler: clang
 
     script:
@@ -39,6 +43,6 @@ matrix:
           name: "acidanthera/AppleALC"
           description: "AppleALC"
         notification_email: $NOTIFICATION_EMAIL
-        build_command_prepend: "src=$(/usr/bin/curl -Lfs https://raw.githubusercontent.com/acidanthera/Lilu/master/Lilu/Scripts/bootstrap.sh) && eval \"$src\" || exit 1"
+        build_command_prepend: "src=$(/usr/bin/curl -Lfs https://raw.githubusercontent.com/acidanthera/Lilu/master/Lilu/Scripts/bootstrap.sh) && eval \"$src\" || exit 1 ; src=$(/usr/bin/curl -Lfs https://raw.githubusercontent.com/acidanthera/Lilu/master/Lilu/Scripts/covstrap.sh) && eval \"$src\" || exit 1"
         build_command: "xcodebuild -configuration Release"
         branch_pattern: master

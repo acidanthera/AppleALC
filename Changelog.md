@@ -1,5 +1,8 @@
 AppleALC Changelog
 ==================
+#### v1.3.4
+- Disabled AppleGFXHDA matching onto HDEF to force AppleHDA usage
+
 #### v1.3.3
 - Added ability to disable controller patching by injecting property 'no-controller-patch' (for use of FakePCIID_Intel_HDMI_Audio)
 - Fixed volume control for CX8200 with Wern Apfel patch from CX20724
@@ -18,6 +21,7 @@ AppleALC Changelog
 - Added ALC282 layout-id 22 for Lenovo Y430P  by lovert
 - Fixed CX20756 layout-id 13
 - Added ALC892 layout-id 15 for MSi Z97S SLI Krait Edition by MacPeet
+- Fix volume control for CX20756 layout-id 13 and external mic minor changes/fixes
 
 #### v1.3.2
 - Added ALC269 layout-id 45 for Asus A45A and K45 by maiconjs (Wolfield)
