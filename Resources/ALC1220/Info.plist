@@ -209,7 +209,10 @@
 		</dict>
 	</array>
 	<key>Revisions</key>
-	<array/>
+	<array>
+		<integer>1048576</integer>
+		<integer>1048579</integer>
+	</array>
 	<key>Vendor</key>
 	<string>Realtek</string>
 </dict>
