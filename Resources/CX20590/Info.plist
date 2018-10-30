@@ -30,6 +30,22 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Custom for Lenovo T420 with dock by tluck (Additional ports for use with a Docking Station)</string>
+				<key>Id</key>
+				<integer>13</integer>
+				<key>Path</key>
+				<string>layout13.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom for Lenovo T420 by tluck (Standard Laptop)</string>
+				<key>Id</key>
+				<integer>14</integer>
+				<key>Path</key>
+				<string>layout14.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Custom for Dell Vostro 3x60 by vusun123</string>
 				<key>Id</key>
 				<integer>28</integer>
@@ -54,6 +70,22 @@
 				<integer>12</integer>
 				<key>Path</key>
 				<string>Platforms12.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom for Lenovo T420 with dock by tluck (Additional ports for use with a Docking Station)</string>
+				<key>Id</key>
+				<integer>13</integer>
+				<key>Path</key>
+				<string>Platforms13.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom for Lenovo T420 by tluck (Standard Laptop)</string>
+				<key>Id</key>
+				<integer>14</integer>
+				<key>Path</key>
+				<string>Platforms14.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -110,8 +142,6 @@
 			<integer>2</integer>
 			<key>Find</key>
 			<data>gxnUEQ==</data>
-			<key>MaxKernel</key>
-			<integer>15</integer>
 			<key>MinKernel</key>
 			<integer>15</integer>
 			<key>Name</key>
@@ -124,8 +154,6 @@
 			<integer>2</integer>
 			<key>Find</key>
 			<data>hBnUEQ==</data>
-			<key>MaxKernel</key>
-			<integer>15</integer>
 			<key>MinKernel</key>
 			<integer>13</integer>
 			<key>Name</key>

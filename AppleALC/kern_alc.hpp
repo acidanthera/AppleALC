@@ -185,11 +185,11 @@ private:
 	 *  Controller identification and modification info
 	 */
 	class ControllerInfo {
-		ControllerInfo(uint32_t ven, uint32_t dev, uint32_t rev, uint32_t p, uint32_t lid, bool d) :
-		vendor(ven), device(dev), revision(rev), platform(p), layout(lid), detect(d) {}
+		ControllerInfo(uint32_t ven, uint32_t dev, uint32_t rev, uint32_t p, uint32_t lid, bool d, bool np) :
+		vendor(ven), device(dev), revision(rev), platform(p), layout(lid), detect(d), nopatch(np) {}
 	public:
-		static ControllerInfo *create(uint32_t ven, uint32_t dev, uint32_t rev, uint32_t p, uint32_t lid, bool d) {
-			return new ControllerInfo(ven, dev, rev, p, lid, d);
+		static ControllerInfo *create(uint32_t ven, uint32_t dev, uint32_t rev, uint32_t p, uint32_t lid, bool d, bool np) {
+			return new ControllerInfo(ven, dev, rev, p, lid, d, np);
 		}
 		static void deleter(ControllerInfo *info) { delete info; }
 		const ControllerModInfo *info {nullptr};
@@ -200,6 +200,7 @@ private:
 		uint32_t const platform {ControllerModInfo::PlatformAny};
 		uint32_t const layout;
 		bool const detect;
+		bool const nopatch;
 	};
 
 	/**
@@ -211,8 +212,8 @@ private:
 	/**
 	 *  Insert a controller with given parameters
 	 */
-	void insertController(uint32_t ven, uint32_t dev, uint32_t rev, uint32_t p=ControllerModInfo::PlatformAny, uint32_t lid=0, bool d=false, const CodecLookupInfo *lookup = nullptr) {
-		auto controller = ControllerInfo::create(ven, dev, rev, p, lid, d);
+	void insertController(uint32_t ven, uint32_t dev, uint32_t rev, bool np, uint32_t p=ControllerModInfo::PlatformAny, uint32_t lid=0, bool d=false, const CodecLookupInfo *lookup = nullptr) {
+		auto controller = ControllerInfo::create(ven, dev, rev, p, lid, d, np);
 		if (controller) {
 			if (controllers.push_back(controller)) {
 				controller->lookup = lookup;

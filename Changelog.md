@@ -1,5 +1,25 @@
 AppleALC Changelog
 ==================
+#### v1.3.3
+- Added ability to disable controller patching by injecting property 'no-controller-patch' (for use of FakePCIID_Intel_HDMI_Audio)
+- Fixed volume control for CX8200 with Wern Apfel patch from CX20724
+- Fixed patches for IDT92HD872_4 (IDT 76d9)
+- Added ALC235 layout-id 14 for Lenovo Y520/Y720 series by the-braveknight
+- Added ALC230 layout-id 20 for Lenovo Ideapad 320 by maiconjs
+- Added ALC887-VD AD0 layout-id 20 for Asus Z97M-PLUS/BR by maiconjs
+- Added ALC887-VD layout-id 40 for Asus B85-ME by maiconjs
+- Added ALC236 layout-id 16 for Lenovo Ideapad 320s 14ikb by RodionS
+- Added ALC885 layout-id 15 for GA-G33M-DS2R by MacPeet
+- Added ALC662 layout-id 15 for Acer Aspire A7600U All in One by MacPeet
+- Added ALC255 layout-id 30 for XiaoMi Notebook Air by HongyuS
+- Added CX20590 layout-id 13 and 14 for Lenovo T420 by tluck
+- Added ALC283 layout-id 44 for ThinkCentre M93z 10AF ALC283 by giesteira
+- Added ALC662v3 layout-id 16 for Lenovo ThinkCentre M92P SFF by phucnguyen.2411
+- Added ALC282 layout-id 22 for Lenovo Y430P  by lovert
+- Fixed CX20756 layout-id 13
+- Added ALC892 layout-id 15 for MSi Z97S SLI Krait Edition by MacPeet
+- Fix volume control for CX20756 layout-id 13 and external mic minor changes/fixes
+
 #### v1.3.2
 - Added ALC269 layout-id 45 for Asus A45A and K45 by maiconjs (Wolfield)
 - Added WakeConfigData for ALC892 layout-id 1 by FredWst
@@ -7,10 +27,6 @@ AppleALC Changelog
 - Added ALC295 layout-id 15 for ALC295/ALC3254 by InsanelyDeepak
 - Remove duplicate resources for ALC295 layout-id 12 on Asus UX430
 - Added ALC230 layout-id 13 for Lenovo 310-14ISK by Andres
-- Added ALC235 layout-id 14 for Lenovo Y520/Y720 series by the-braveknight
-- Added ALC230 layout-id 20 for Lenovo Ideapad 320 by maiconjs
-- Added ALC887-VD AD0 layout-id 20 for Asus Z97M-PLUS/BR by maiconjs
-- Added ALC887-VD layout-id 40 for Asus B85-ME by maiconjs
 
 #### v1.3.1
 - Fixed incorrect unused HDAU termination

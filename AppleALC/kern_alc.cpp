@@ -57,7 +57,7 @@ void AlcEnabler::updateProperties() {
 				uint32_t dev = 0, rev = 0;
 				if (WIOKit::getOSDataValue(devInfo->audioBuiltinDigital, "device-id", dev) &&
 					WIOKit::getOSDataValue(devInfo->audioBuiltinDigital, "revision-id", rev))
-					insertController(WIOKit::VendorID::Intel, dev, rev, devInfo->reportedFramebufferId);
+					insertController(WIOKit::VendorID::Intel, dev, rev, nullptr != devInfo->audioBuiltinDigital->getProperty("no-controller-patch"), devInfo->reportedFramebufferId);
 			} else {
 				// Terminate built-in HDAU audio, as we are using no connectors!
 				auto hda = OSDynamicCast(IOService, devInfo->audioBuiltinDigital);
@@ -83,12 +83,12 @@ void AlcEnabler::updateProperties() {
 
 		// Thirdly, update IGPU device in case we have digital audio
 		if (hasBuiltinDigitalAudio) {
-			devInfo->videoBuiltin->setProperty("hda-gfx", OSData::withBytes("onboard-1", sizeof("onboard-1")));
+			devInfo->videoBuiltin->setProperty("hda-gfx", const_cast<char *>("onboard-1"), sizeof("onboard-1"));
 			if (!devInfo->audioBuiltinDigital) {
 				uint32_t dev = 0, rev = 0;
 				if (WIOKit::getOSDataValue(devInfo->videoBuiltin, "device-id", dev) &&
 					WIOKit::getOSDataValue(devInfo->videoBuiltin, "revision-id", rev))
-					insertController(WIOKit::VendorID::Intel, dev, rev, devInfo->reportedFramebufferId);
+					insertController(WIOKit::VendorID::Intel, dev, rev, nullptr != devInfo->videoBuiltin->getProperty("no-controller-patch"), devInfo->reportedFramebufferId);
 			}
 		}
 
@@ -107,7 +107,7 @@ void AlcEnabler::updateProperties() {
 			if (WIOKit::getOSDataValue(hdaSevice, "device-id", dev) &&
 				WIOKit::getOSDataValue(hdaSevice, "revision-id", rev)) {
 				// Register the controller
-				insertController(ven, dev, rev);
+				insertController(ven, dev, rev, nullptr != hdaSevice->getProperty("no-controller-patch"));
 				// Disable the id in the list if any
 				if (ven == WIOKit::VendorID::NVIDIA) {
 					uint32_t device = (dev << 16) | WIOKit::VendorID::NVIDIA;
@@ -121,7 +121,7 @@ void AlcEnabler::updateProperties() {
 			char hdaGfx[16];
 			snprintf(hdaGfx, sizeof(hdaGfx), "onboard-%u", hdaGfxCounter++);
 			updateDeviceProperties(hdaSevice, devInfo, hdaGfx, false);
-			gpuService->setProperty("hda-gfx", OSData::withBytes(hdaGfx, static_cast<uint32_t>(strlen(hdaGfx)+1)));
+			gpuService->setProperty("hda-gfx", hdaGfx, static_cast<uint32_t>(strlen(hdaGfx)+1));
 
 			// Refresh connector types on NVIDIA, since they are required for HDMI audio to function.
 			// Abort if preexisting connector-types or no-audio-fixconn property is found.
@@ -132,7 +132,7 @@ void AlcEnabler::updateProperties() {
 					connector_type[1] = '0' + i;
 					if (!gpuService->getProperty(connector_type)) {
 						DBGLOG("alc", "fixing %s in gpu", connector_type);
-						gpuService->setProperty(connector_type, OSData::withBytes(builtBytes, sizeof(builtBytes)));
+						gpuService->setProperty(connector_type, builtBytes, sizeof(builtBytes));
 					} else {
 						DBGLOG("alc", "found existing %s in gpu", connector_type);
 						break;
@@ -204,7 +204,7 @@ void AlcEnabler::updateDeviceProperties(IORegistryEntry *hdaService, DeviceInfo 
 
 	// Pass onboard-X if requested.
 	if (hdaGfx)
-		hdaService->setProperty("hda-gfx", OSData::withBytes(hdaGfx, static_cast<uint32_t>(strlen(hdaGfx)+1)));
+		hdaService->setProperty("hda-gfx", const_cast<char *>(hdaGfx), static_cast<uint32_t>(strlen(hdaGfx)+1));
 
 	// Ensure built-in.
 	if (!hdaService->getProperty("built-in")) {
@@ -261,13 +261,13 @@ IOReturn AlcEnabler::performPowerChange(IOService *hdaDriver, uint32_t from, uin
 
 			if (pin) {
 				if (to == ALCAudioDeviceSleep) {
-					hdaCodec->setProperty("alc-sleep-status", OSBoolean::withBoolean(true));
+					hdaCodec->setProperty("alc-sleep-status", kOSBooleanTrue);
 				} else if (sleep && (to == ALCAudioDeviceIdle || to == ALCAudioDeviceActive)) {
 					DBGLOG("alc", "power change %s at %s forcing wake verbs", safeString(hdaDriver->getName()), safeString(hdaCodec->getName()));
 					auto forceRet = FunctionCast(initializePinConfig, callbackAlc->orgInitializePinConfig)(hdaCodec, hdaCodec);
 					SYSLOG_COND(forceRet != kIOReturnSuccess, "alc", "power change %s at %s forcing wake returned %08X",
 								safeString(hdaDriver->getName()), safeString(hdaCodec->getName()), forceRet);
-					hdaCodec->setProperty("alc-sleep-status", OSBoolean::withBoolean(false));
+					hdaCodec->setProperty("alc-sleep-status", kOSBooleanFalse);
 				}
 			}
 
@@ -299,8 +299,8 @@ IOReturn AlcEnabler::initializePinConfig(IOService *hdaCodec, IOService *configD
 			   safeString(hdaCodec->getName()), CASTKADDR(hdaCodec), CASTKADDR(configDevice),
 			   configDevice ? safeString(configDevice->getName()) : "(null config)", appleLayout, analogCodec, analogLayout);
 
-		hdaCodec->setProperty("alc-pinconfig-status", OSBoolean::withBoolean(false));
-		hdaCodec->setProperty("alc-sleep-status", OSBoolean::withBoolean(false));
+		hdaCodec->setProperty("alc-pinconfig-status", kOSBooleanFalse);
+		hdaCodec->setProperty("alc-sleep-status", kOSBooleanFalse);
 
 		if (appleLayout && analogCodec && analogLayout) {
 			auto configList = OSDynamicCast(OSArray, configDevice->getProperty("HDAConfigDefault"));
@@ -325,9 +325,17 @@ IOReturn AlcEnabler::initializePinConfig(IOService *hdaCodec, IOService *configD
 								if (newConfig) {
 									// Replace the config list with a new list to avoid multiple iterations,
 									// and actually fix the LayoutID number we hook in.
-									newConfig->setObject("LayoutID", OSNumber::withNumber(appleLayout, 32));
+									auto num = OSNumber::withNumber(appleLayout, 32);
+									if (num) {
+										newConfig->setObject("LayoutID", num);
+										num->release();
+									}
 									const OSObject *obj {OSDynamicCast(OSObject, newConfig)};
-									configDevice->setProperty("HDAConfigDefault", OSArray::withObjects(&obj, 1));
+									auto arr = OSArray::withObjects(&obj, 1);
+									if (arr) {
+										configDevice->setProperty("HDAConfigDefault", arr);
+										arr->release();
+									}
 									if (reinit && reinit->getValue()) {
 										newConfig = OSDynamicCast(OSDictionary, newConfig->copyCollection());
 										if (newConfig) {
@@ -339,8 +347,12 @@ IOReturn AlcEnabler::initializePinConfig(IOService *hdaCodec, IOService *configD
 												newConfig->removeObject("WakeConfigData");
 											}
 											// These will be same
-											hdaCodec->setProperty("HDAConfigDefault", OSArray::withObjects(&obj, 1));
-											hdaCodec->setProperty("alc-pinconfig-status", OSBoolean::withBoolean(true));
+											auto arr = OSArray::withObjects(&obj, 1);
+											if (arr) {
+												hdaCodec->setProperty("HDAConfigDefault", arr);
+												hdaCodec->setProperty("alc-pinconfig-status", kOSBooleanTrue);
+												arr->release();
+											}
 										} else {
 											SYSLOG("alc", "failed to copy new HDAConfigDefault collection");
 										}
@@ -446,7 +458,11 @@ void AlcEnabler::processKext(KernelPatcher &patcher, size_t index, mach_vm_addre
 					}
 				}
 			}
-			
+
+			if (controllers[i]->nopatch) {
+				DBGLOG("alc", "skipping %lu controller %X:%X:%X due to no-controller-patch", i, controllers[i]->vendor, controllers[i]->device, controllers[i]->revision);
+				continue;
+			}
 			applyPatches(patcher, index, info->patches, info->patchNum);
 		}
 
@@ -525,14 +541,16 @@ void AlcEnabler::updateResource(Resource type, kern_return_t &result, const void
 
 void AlcEnabler::grabControllers() {
 	computerModel = WIOKit::getComputerModel();
+	auto sectPCI = WIOKit::findEntryByPrefix("/AppleACPIPlatformExpert", "PCI", gIOServicePlane);
 
 	for (size_t lookup = 0; lookup < ADDPR(codecLookupSize); lookup++) {
-		auto sect = WIOKit::findEntryByPrefix("/AppleACPIPlatformExpert", "PCI", gIOServicePlane);
+		auto sect = sectPCI;
 		
 		for (size_t i = 0; sect && i <= ADDPR(codecLookup)[lookup].controllerNum; i++) {
 			sect = WIOKit::findEntryByPrefix(sect, ADDPR(codecLookup)[lookup].tree[i], gIOServicePlane);
 			
 			if (sect && i == ADDPR(codecLookup)[lookup].controllerNum) {
+
 				// Nice, we found some controller, add it
 				uint32_t ven {0}, dev {0}, rev {0}, platform {ControllerModInfo::PlatformAny}, lid {0};
 				
@@ -554,7 +572,8 @@ void AlcEnabler::grabControllers() {
 					DBGLOG("alc", "AAPL,snb-platform-id %X was found in controller at %s", platform, ADDPR(codecLookup)[lookup].tree[i]);
 				}
 
-				insertController(ven, dev, rev, platform, lid, ADDPR(codecLookup)[lookup].detect, &ADDPR(codecLookup)[lookup]);
+				insertController(ven, dev, rev, platform, nullptr != sect->getProperty("no-controller-patch"), lid, ADDPR(codecLookup)[lookup].detect, &ADDPR(codecLookup)[lookup]);
+				break;
 			}
 		}
 	}

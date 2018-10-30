@@ -5,4 +5,5 @@ xcuserdata
 project.xcworkspace
 *.zlib
 AppleALC/kern_resources.cpp
+build
 
