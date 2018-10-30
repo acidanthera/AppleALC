@@ -64,10 +64,16 @@ private:
 	static void platformLoadCallback(uint32_t requestTag, kern_return_t result, const void *resourceData, uint32_t resourceDataLength, void *context);
 
 	/**
+	 *  Hooked AppleGFXHDA probe
+	 */
+	static IOService *gfxProbe(IOService *ctrl, IOService *provider, SInt32 *score);
+
+	/**
 	 *  Trampolines for original method invocations
 	 */
 	mach_vm_address_t orgLayoutLoadCallback {0};
 	mach_vm_address_t orgPlatformLoadCallback {0};
+	mach_vm_address_t orgGfxProbe {0};
 
 	/**
 	 *  @enum IOAudioDevicePowerState

@@ -18,10 +18,15 @@
 static AlcEnabler *callbackAlc;
 
 void AlcEnabler::init() {
+	callbackAlc = this;
+
 	lilu.onPatcherLoadForce(
 	[](void *user, KernelPatcher &pathcer) {
 		static_cast<AlcEnabler *>(user)->updateProperties();
 	}, this);
+
+	if (getKernelVersion() < KernelVersion::Mojave)
+		ADDPR(kextList)[KextIdAppleGFXHDA].switchOff();
 
 	lilu.onKextLoadForce(ADDPR(kextList), ADDPR(kextListSize),
 	[](void *user, KernelPatcher &patcher, size_t index, mach_vm_address_t address, size_t size) {
@@ -230,6 +235,24 @@ void AlcEnabler::platformLoadCallback(uint32_t requestTag, kern_return_t result,
 	FunctionCast(platformLoadCallback, callbackAlc->orgPlatformLoadCallback)(requestTag, result, resourceData, resourceDataLength, context);
 }
 
+IOService *AlcEnabler::gfxProbe(IOService *ctrl, IOService *provider, SInt32 *score) {
+	auto name = ctrl->getName();
+	DBGLOG("alc", "AppleGFXHDA probe for %s", safeString(name));
+
+	if (name && !strcmp(name, "HDEF")) {
+		// Starting with iMacPro custom audio cards are used on Apple hardware.
+		// On MacBookPro15,x and newer devices these custom audio cards are controlled by T2, and
+		// internal HDEF device is only used for HDMI audio output implemented via AppleGFXHDA kext,
+		// which does not know about analog audio. AppleHDA still supports HDEF devices with analog
+		// audio output as well as HDMI support for legacy devices, so we avoid AppleGFXHDA by all
+		// means for HDEF.
+		DBGLOG("alc", "avoiding AppleGFXHDA for HDEF device");
+		return nullptr;
+	}
+
+	return FunctionCast(gfxProbe, callbackAlc->orgGfxProbe)(ctrl, provider, score);
+}
+
 uint32_t AlcEnabler::getAudioLayout(IOService *hdaDriver) {
 	auto parent = hdaDriver->getParentEntry(gIOServicePlane);
 	uint32_t layout = 0;
@@ -417,6 +440,12 @@ void AlcEnabler::processKext(KernelPatcher &patcher, size_t index, mach_vm_addre
 	
 	if (kextIndex == ADDPR(kextListSize))
 		return;
+
+	if (kextIndex == KextIdAppleGFXHDA) {
+		KernelPatcher::RouteRequest request("__ZN21AppleGFXHDAController5probeEP9IOServicePi", gfxProbe, orgGfxProbe);
+		patcher.routeMultiple(index, &request, 1, address, size);
+		return;
+	}
 	
 	if (!(progressState & ProcessingState::ControllersLoaded)) {
 		grabControllers();
@@ -489,8 +518,6 @@ void AlcEnabler::processKext(KernelPatcher &patcher, size_t index, mach_vm_addre
 	}
 	
 	if ((progressState & ProcessingState::CallbacksWantRouting) && kextIndex == KextIdAppleHDA) {
-		callbackAlc = this;
-
 		KernelPatcher::RouteRequest requests[] {
 			KernelPatcher::RouteRequest("__ZN14AppleHDADriver18layoutLoadCallbackEjiPKvjPv", layoutLoadCallback, orgLayoutLoadCallback),
 			KernelPatcher::RouteRequest("__ZN14AppleHDADriver20platformLoadCallbackEjiPKvjPv", platformLoadCallback, orgPlatformLoadCallback),
