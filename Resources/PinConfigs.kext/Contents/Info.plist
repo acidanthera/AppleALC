@@ -6700,6 +6700,26 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>Goldfish64 - STAC9200 for Dell Precision 390</string>
+					<key>CodecID</key>
+					<integer>2206496400</integer>
+					<key>ConfigData</key>
+					<data>
+					AIcc8ACHHQAAhx4AAIcfQACXHPAAlx0AAJce
+					AACXH0AA1xwQANcdEADXHiEA1x8CAOccIADn
+					HUEA5x4RAOcfAQD3HDAA9x0wAPcegQD3HwEB
+					BxxAAQcdEAEHHqEBBx8CARcc8AEXHQABFx4A
+					ARcfQAEnHPABJx0AASceAAEnH0A=
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>11</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>Mirone - VIA VT1802</string>
 					<key>CodecID</key>
 					<integer>285639750</integer>
