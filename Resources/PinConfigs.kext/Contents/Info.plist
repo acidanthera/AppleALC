@@ -5379,6 +5379,25 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>CodecID</key>
+					<integer>283906592</integer>
+					<key>CodecName</key>
+					<string>fleaplus - ALC1220 for MSI WT75</string>
+					<key>ConfigData</key>
+					<data>
+					AbccIAG3HQEBtx4XAbcfkAG3DAIBhxxAAYcd
+					EAGHHqEBhx8BAZccQQGXHRQBlx6BAZcfAQGn
+					HE8Bpx0QAacegQGnHwEBJxxQAScdAQEnHmAB
+					Jx+Q
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>15</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>CodecID</key>
 					<integer>283906408</integer>
 					<key>CodecName</key>
 					<string>Toleda -  Realtek ALC S1220A</string>
