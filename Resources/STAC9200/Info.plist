@@ -233,6 +233,22 @@
 		</dict>
 		<dict>
 			<key>Comment</key>
+			<string>0x15ad1974 to 0xFFFFFFFF</string>
+			<key>Count</key>
+			<integer>2</integer>
+			<key>Find</key>
+			<data>dBmtFQ==</data>
+			<key>MaxKernel</key>
+			<integer>13</integer>
+			<key>MinKernel</key>
+			<integer>13</integer>
+			<key>Name</key>
+			<string>AppleHDA</string>
+			<key>Replace</key>
+			<data>/////w==</data>
+		</dict>
+		<dict>
+			<key>Comment</key>
 			<string>0x8384767f to 0x80000000</string>
 			<key>Count</key>
 			<integer>2</integer>
