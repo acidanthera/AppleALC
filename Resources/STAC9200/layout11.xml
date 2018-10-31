@@ -30,7 +30,7 @@
                 <key>Mic</key>
                 <dict>
                     <key>MuteGPIO</key>
-                    <integer>1342242838</integer>
+                    <integer>0</integer>
                     <key>SignalProcessing</key>
                     <dict>
                         <key>SoftwareDSP</key>
