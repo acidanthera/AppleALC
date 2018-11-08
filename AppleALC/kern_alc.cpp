@@ -236,7 +236,7 @@ void AlcEnabler::platformLoadCallback(uint32_t requestTag, kern_return_t result,
 }
 
 IOService *AlcEnabler::gfxProbe(IOService *ctrl, IOService *provider, SInt32 *score) {
-	auto name = ctrl->getName();
+	auto name = provider->getName();
 	DBGLOG("alc", "AppleGFXHDA probe for %s", safeString(name));
 
 	if (name && !strcmp(name, "HDEF")) {
