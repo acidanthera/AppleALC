@@ -2,6 +2,7 @@ AppleALC Changelog
 ==================
 #### v1.3.4
 - Disabled AppleGFXHDA matching onto HDEF to force AppleHDA usage
+- Added Wern Apfel's menubar patch for CX20590
 
 #### v1.3.3
 - Added ability to disable controller patching by injecting property 'no-controller-patch' (for use of FakePCIID_Intel_HDMI_Audio)
