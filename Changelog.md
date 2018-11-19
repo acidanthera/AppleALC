@@ -5,6 +5,7 @@ AppleALC Changelog
 - Added Wern Apfel's menubar patch for CX20590
 - Added ALC255 layout-id 21 for Asus X441UA-WX096D by Andres ZeroCross
 - Added ALC255 layout-id 21 for Asus VivoBook Pro 15 CX8150 by Andres ZeroCross
+- Added ability to disable controller injection with property `no-controller-inject`
 
 #### v1.3.3
 - Added ability to disable controller patching by injecting property 'no-controller-patch' (for use of FakePCIID_Intel_HDMI_Audio)

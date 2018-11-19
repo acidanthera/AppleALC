@@ -55,7 +55,7 @@ void AlcEnabler::updateProperties() {
 		bool hasBuiltinDigitalAudio = !devInfo->reportedFramebufferIsConnectorLess && devInfo->videoBuiltin;
 
 		// Firstly, update Haswell or Broadwell HDAU device for built-in digital audio.
-		if (devInfo->audioBuiltinDigital) {
+		if (devInfo->audioBuiltinDigital && validateInjection(devInfo->audioBuiltinDigital)) {
 			if (hasBuiltinDigitalAudio) {
 				// This is a normal HDAU device for an IGPU with connectors.
 				updateDeviceProperties(devInfo->audioBuiltinDigital, devInfo, "onboard-1", false);
@@ -79,7 +79,7 @@ void AlcEnabler::updateProperties() {
 		}
 
 		// Secondly, update HDEF device and make it support digital audio
-		if (devInfo->audioBuiltinAnalog) {
+		if (devInfo->audioBuiltinAnalog && validateInjection(devInfo->audioBuiltinAnalog)) {
 			const char *hdaGfx = nullptr;
 			if (hasBuiltinDigitalAudio && !devInfo->audioBuiltinDigital)
 				hdaGfx = "onboard-1";
@@ -87,7 +87,7 @@ void AlcEnabler::updateProperties() {
 		}
 
 		// Thirdly, update IGPU device in case we have digital audio
-		if (hasBuiltinDigitalAudio) {
+		if (hasBuiltinDigitalAudio && validateInjection(devInfo->videoBuiltin)) {
 			devInfo->videoBuiltin->setProperty("hda-gfx", const_cast<char *>("onboard-1"), sizeof("onboard-1"));
 			if (!devInfo->audioBuiltinDigital) {
 				uint32_t dev = 0, rev = 0;
@@ -101,18 +101,18 @@ void AlcEnabler::updateProperties() {
 
 		// Fourthly, update all the GPU devices if any
 		for (size_t gpu = 0; gpu < devInfo->videoExternal.size(); gpu++) {
-			auto hdaSevice = devInfo->videoExternal[gpu].audio;
+			auto hdaService = devInfo->videoExternal[gpu].audio;
 			auto gpuService = devInfo->videoExternal[gpu].video;
 
-			if (!hdaSevice)
+			if (!hdaService || !validateInjection(hdaService))
 				continue;
 
 			uint32_t ven = devInfo->videoExternal[gpu].vendor;
 			uint32_t dev = 0, rev = 0;
-			if (WIOKit::getOSDataValue(hdaSevice, "device-id", dev) &&
-				WIOKit::getOSDataValue(hdaSevice, "revision-id", rev)) {
+			if (WIOKit::getOSDataValue(hdaService, "device-id", dev) &&
+				WIOKit::getOSDataValue(hdaService, "revision-id", rev)) {
 				// Register the controller
-				insertController(ven, dev, rev, nullptr != hdaSevice->getProperty("no-controller-patch"));
+				insertController(ven, dev, rev, nullptr != hdaService->getProperty("no-controller-patch"));
 				// Disable the id in the list if any
 				if (ven == WIOKit::VendorID::NVIDIA) {
 					uint32_t device = (dev << 16) | WIOKit::VendorID::NVIDIA;
@@ -125,7 +125,7 @@ void AlcEnabler::updateProperties() {
 			// Refresh the main properties including hda-gfx.
 			char hdaGfx[16];
 			snprintf(hdaGfx, sizeof(hdaGfx), "onboard-%u", hdaGfxCounter++);
-			updateDeviceProperties(hdaSevice, devInfo, hdaGfx, false);
+			updateDeviceProperties(hdaService, devInfo, hdaGfx, false);
 			gpuService->setProperty("hda-gfx", hdaGfx, static_cast<uint32_t>(strlen(hdaGfx)+1));
 
 			// Refresh connector types on NVIDIA, since they are required for HDMI audio to function.
@@ -750,6 +750,15 @@ bool AlcEnabler::validateCodecs() {
 	}
 
 	return codecs.size() > 0;
+}
+
+bool AlcEnabler::validateInjection(IORegistryEntry *hdaService) {
+	// Check for no-controller-inject. If set, ignore the controller.
+	bool noControllerInject = nullptr != hdaService->getProperty("no-controller-inject");
+	if (noControllerInject)
+		SYSLOG("alc", "not injecting %s", safeString(hdaService->getName()));
+	
+	return !noControllerInject;
 }
 
 void AlcEnabler::applyPatches(KernelPatcher &patcher, size_t index, const KextPatch *patches, size_t patchNum) {

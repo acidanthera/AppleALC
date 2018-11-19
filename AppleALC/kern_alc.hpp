@@ -158,6 +158,14 @@ private:
 	 *  @return true if anything suitable found
 	 */
 	bool validateCodecs();
+	
+	/**
+	 *  Checks for a set no-controller-injection property.
+	 *  @param hdaService  audio device
+	 *
+	 *  @return true if the controller should be injected
+	 */
+	bool validateInjection(IORegistryEntry *hdaService);
 
 	/**
 	 *  Apply kext patches for loaded kext index
