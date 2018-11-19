@@ -1052,23 +1052,27 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>ALC255 for Asus X441UA-WX096D by Andres ZeroCross</string>
 					<key>CodecID</key>
 					<integer>283902549</integer>
 					<key>ConfigData</key>
 					<data>
-					AZcc8AGXHRABlx6BAZcfQQGnHDABpx0BAace
+					AZcc8AGXHRABlx6BAZcfAgGnHDABpx0BAace
 					oAGnH5ABtxwQAbcdAQG3HhcBtx+QAhccIAIX
-					HRACFx4hAhcfAwG3DAICFwwC
+					HRACFx4hAhcfAgG3DAICFwwC
 					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>21</integer>
 					<key>WakeConfigData</key>
-					<data>AbcMAg==</data>
+					<data>
+					AbcMAg==
+					</data>
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
