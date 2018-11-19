@@ -121,6 +121,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>ALC255 for Asus X441UA-WX096D by Andres ZeroCross</string>
+				<key>Id</key>
+				<integer>21</integer>
+				<key>Path</key>
+				<string>Platforms21.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>ALC255 for Asus X556UA m-dudarev</string>
 				<key>Id</key>
 				<integer>27</integer>
