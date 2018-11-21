@@ -159,7 +159,7 @@
 								<key>Boost</key>
 								<integer>3</integer>
 								<key>NodeID</key>
-								<integer>19</integer>
+								<integer>26</integer>
 							</dict>
 						</array>
 					</array>
@@ -195,7 +195,7 @@
 									<false/>
 								</dict>
 								<key>NodeID</key>
-								<integer>12</integer>
+								<integer>13</integer>
 							</dict>
 							<dict>
 								<key>Amp</key>
@@ -225,7 +225,7 @@
 									<false/>
 								</dict>
 								<key>NodeID</key>
-								<integer>2</integer>
+								<integer>3</integer>
 							</dict>
 						</array>
 					</array>
