@@ -3286,6 +3286,31 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>Andres - ALC295 Acer Nitro 5 Spin (NP515-51)</string>
+					<key>CodecID</key>
+					<integer>283902613</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccIAEnHQEBJx6gAScfkAE3HPABNx0AATce
+					AAE3H0ABRxwQAUcdAQFHHhcBRx+QAWcc8AFn
+					HQABZx4AAWcfQAF3HPABdx0AAXceAAF3H0AB
+					hxzwAYcdAAGHHgABhx9AAZccMAGXHRABlx6B
+					AZcfAgGnHPABpx0AAaceAAGnH0ABtxzwAbcd
+					AAG3HgABtx9AAdcc8AHXHQAB1x4AAdcfQAHn
+					HPAB5x0AAeceAAHnH0ACFxxAAhcdEAIXHiEC
+					Fx8CAUcMAgIXDAI=
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>21</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
 					<string>vusun123 - ALC 295 for Skylake HP Pavilion</string>
