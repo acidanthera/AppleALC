@@ -3370,6 +3370,36 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>Lenovo 720S-15IKB ALC298 by Andres ZeroCross</string>
+					<key>CodecID</key>
+					<integer>283902616</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccMAEnHQEBJx6gAScfkAE3HPABNx0AATce
+					AAE3H0ABRxzwAUcdAAFHHgABRx9AAXcc8AF3
+					HQABdx4AAXcfQAGHHHABhx0QAYcegQGHHwAB
+					lxzwAZcdAAGXHgABlx9AAaccUAGnHQEBpx4X
+					AacfkAHXHPAB1x0AAdceAAHXH0AB5xzwAecd
+					AAHnHgAB5x9AAfcc8AH3HQAB9x4AAfcfQAIX
+					HCACFx0QAhceIQIXHwABpwwC
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>21</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AacMAg==
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
 					<string>vusun123 - Realtek ALC298 for Dell XPS 9x50</string>
