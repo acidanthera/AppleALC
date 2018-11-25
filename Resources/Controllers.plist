@@ -655,5 +655,30 @@
 		<key>Vendor</key>
 		<string>NVIDIA</string>
 	</dict>
+	<dict>
+		<key>Device</key>
+		<integer>4028</integer>
+		<key>Model</key>
+		<string>Desktop</string>
+		<key>Name</key>
+		<string>NVIDIA HDMI for Alienware Alpha GTX860M</string>
+		<key>Patches</key>
+		<array>
+			<dict>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Find</key>
+				<data>3hALDg==</data>
+				<key>MinKernel</key>
+				<integer>17</integer>
+				<key>Name</key>
+				<string>AppleHDAController</string>
+				<key>Replace</key>
+				<data>3hC8Dw==</data>
+			</dict>
+		</array>
+		<key>Vendor</key>
+		<string>NVIDIA</string>
+	</dict>
 </array>
 </plist>

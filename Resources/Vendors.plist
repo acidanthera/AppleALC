@@ -20,6 +20,8 @@
 	<integer>4318</integer>
 	<key>Realtek</key>
 	<integer>4332</integer>
+	<key>SigmaTel</key>
+	<integer>33668</integer>
 	<key>VIA</key>
 	<integer>4358</integer>
 </dict>
