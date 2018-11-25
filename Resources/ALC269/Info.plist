@@ -7,11 +7,19 @@
 	<key>CodecID</key>
 	<integer>617</integer>
 	<key>CodecName</key>
-	<string>ALC269</string>
+	<string>ALC269VC</string>
 	<key>Files</key>
 	<dict>
 		<key>Layouts</key>
 		<array>
+			<dict>
+				<key>Comment</key>
+				<string>Laptop patch ALC269VC Samsung _NP350V5C - Giesteira</string>
+				<key>Id</key>
+				<integer>44</integer>
+				<key>Path</key>
+				<string>layout44.xml.zlib</string>
+			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>Mirone Laptop patch ALC269 Asus N53J</string>
@@ -287,6 +295,14 @@
 		</array>
 		<key>Platforms</key>
 		<array>
+			<dict>
+				<key>Comment</key>
+				<string>Laptop patch ALC269VC Samsung _NP350V5C - Giesteira</string>
+				<key>Id</key>
+				<integer>44</integer>
+				<key>Path</key>
+				<string>Platforms44.xml.zlib</string>
+			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>Mirone Laptop patch ALC269 Asus N53J</string>

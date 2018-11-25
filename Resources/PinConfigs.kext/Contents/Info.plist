@@ -32,6 +32,30 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>ALC269VC</string>
+					<key>CodecID</key>
+					<integer>283902569</integer>
+					<key>Comment</key>
+					<string>Laptop patch ALC269VC Samsung _NP350V5C - Giesteira</string>
+					<key>ConfigData</key>
+					<data>
+					AUccAAFHHQABRx4XAUcfmQGHHBABhx0QAYce
+					gQGHHwEBVxwgAVcdEAFXHiEBVx8BAZccMAGX
+					HQABlx6nAZcfmQFHDAI=
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>44</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>Creative CA0132, default</string>
 					<key>CodecID</key>
 					<integer>285343761</integer>
