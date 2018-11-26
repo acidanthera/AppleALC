@@ -845,6 +845,31 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>ALC236 for Lenovo Air 13 IWL by DalianSky</string>
+					<key>CodecID</key>
+					<integer>283902518</integer>
+					<key>ConfigData</key>
+					<data>
+					ATcc8AE3HQABNx4AATcfQAFHHBABRx0BAUce
+					FwFHH5ABRwwCAYcc8AGHHQABhx4AAYcfQAGX
+					HDABlx0QAZcegQGXHwQBpxzwAacdAAGnHgAB
+					px9AAbcc8AG3HQABtx4AAbcfQAHXHEUB1x0b
+					AdceZgHXH0AB5xzwAecdAAHnHgAB5x9AAhcc
+					HwIXHRACFx4hAhcfBA==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>2</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>Mirone - Realtek ALC236</string>
 					<key>CodecID</key>
 					<integer>283902518</integer>
@@ -1197,13 +1222,9 @@
 					<integer>283902550</integer>
 					<key>ConfigData</key>
 					<data>
-					ASccEAEnHQABJx6gAScfkAFHHCABRx0AAUce
+					ASccEAEnHQABJx6mAScfkAFHHCABRx0AAUce
 					FwFHH5ABlxwwAZcdEAGXHosBlx8CAhccUAIX
-					HRACFx4rAhcfAgE3HPABNx0AATceAAE3H0AB
-					hxzwAYcdAAGHHgABhx9AAacc8AGnHQABpx4A
-					AacfQAG3HPABtx0AAbceAAG3H0AB1xzwAdcd
-					AAHXHgAB1x9AAecc8AHnHQAB5x4AAecfQAFH
-					DAI=
+					HRACFx4rAhcfAgFHDAI=
 					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
@@ -3365,32 +3386,6 @@
 					<integer>13</integer>
 					<key>WakeConfigData</key>
 					<data>AUcMAg==</data>
-					<key>WakeVerbReinit</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
-					<key>Codec</key>
-					<string>Lenovo 720S-15IKB ALC298 by Andres ZeroCross</string>
-					<key>CodecID</key>
-					<integer>283902616</integer>
-					<key>ConfigData</key>
-					<data>
-					ASccMAEnHQEBJx6gAScfkAE3HPABNx0AATce
-					AAE3H0ABRxzwAUcdAAFHHgABRx9AAXcc8AF3
-					HQABdx4AAXcfQAGHHHABhx0QAYcegQGHHwAB
-					lxzwAZcdAAGXHgABlx9AAaccUAGnHQEBpx4X
-					AacfkAHXHPAB1x0AAdceAAHXH0AB5xzwAecd
-					AAHnHgAB5x9AAfcc8AH3HQAB9x4AAfcfQAIX
-					HCACFx0QAhceIQIXHwABpwwC
-					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>21</integer>
-					<key>WakeConfigData</key>
-					<data>AacMAg==</data>
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
