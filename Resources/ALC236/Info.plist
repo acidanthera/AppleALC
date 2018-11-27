@@ -14,6 +14,14 @@
 		<array>
 			<dict>
 				<key>Comment</key>
+				<string>ALC236 for Lenovo Air 13 IWL by DalianSky</string>
+				<key>Id</key>
+				<integer>2</integer>
+				<key>Path</key>
+				<string>layout2.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Mirone - ALC236</string>
 				<key>Id</key>
 				<integer>3</integer>
@@ -55,6 +63,14 @@
 		</array>
 		<key>Platforms</key>
 		<array>
+			<dict>
+				<key>Comment</key>
+				<string>ALC236 for Lenovo Air 13 IWL by DalianSky</string>
+				<key>Id</key>
+				<integer>2</integer>
+				<key>Path</key>
+				<string>Platforms2.xml.zlib</string>
+			</dict>			
 			<dict>
 				<key>Comment</key>
 				<string>Mirone - ALC236</string>
