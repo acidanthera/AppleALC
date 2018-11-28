@@ -963,6 +963,31 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>ALC236 for Lenovo Air 13 IWL by DalianSky</string>
+					<key>CodecID</key>
+					<integer>283902518</integer>
+					<key>ConfigData</key>
+					<data>
+					ATcc8AE3HQABNx4AATcfQAFHHBABRx0BAUce
+					FwFHH5ABRwwCAYcc8AGHHQABhx4AAYcfQAGX
+					HDABlx0QAZcegQGXHwQBpxzwAacdAAGnHgAB
+					px9AAbcc8AG3HQABtx4AAbcfQAHXHEUB1x0b
+					AdceZgHXH0AB5xzwAecdAAHnHgAB5x9AAhcc
+					HwIXHRACFx4hAhcfBA==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>99</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>				
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>Mirone - Realtek ALC255</string>
 					<key>CodecID</key>
 					<integer>283902549</integer>
