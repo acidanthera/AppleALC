@@ -14,6 +14,14 @@
 		<array>
 			<dict>
 				<key>Comment</key>
+				<string>AD1984A - giesteira</string>
+				<key>Id</key>
+				<integer>44</integer>
+				<key>Path</key>
+				<string>layout44.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>MacPeet - AD1984A</string>
 				<key>Id</key>
 				<integer>11</integer>
@@ -31,6 +39,14 @@
 		</array>
 		<key>Platforms</key>
 		<array>
+			<dict>
+				<key>Comment</key>
+				<string>AD1984A - giesteira</string>
+				<key>Id</key>
+				<integer>44</integer>
+				<key>Path</key>
+				<string>Platforms44.xml.zlib</string>
+			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>MacPeet - AD1984A</string>
