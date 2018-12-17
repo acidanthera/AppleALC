@@ -30,6 +30,7 @@ AppleALC Changelog
 - Added CX20590 layout-id 13 and 14 for Lenovo T420 by tluck
 - Added ALC283 layout-id 44 for ThinkCentre M93z 10AF ALC283 by giesteira
 - Added ALC662v3 layout-id 16 for Lenovo ThinkCentre M92P SFF by phucnguyen.2411
+- Added ALC662 layout-id 17 for HP Compaq Elite 8000 SFF by aloha_cn
 - Added ALC282 layout-id 22 for Lenovo Y430P  by lovert
 - Fixed CX20756 layout-id 13
 - Added ALC892 layout-id 15 for MSi Z97S SLI Krait Edition by MacPeet
