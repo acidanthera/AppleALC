@@ -7192,6 +7192,32 @@
 					<key>LayoutID</key>
 					<integer>9</integer>
 				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>ALC269VC for Thinkpad X230 with Dock4338</string>
+					<key>CodecID</key>
+					<integer>283902569</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccEAEnHQEBJx6mAScfkAFHHEABRx0BAUce
+					FwFHH5ABRwwCAVccUAFXHRABVx4rAVcfAgFX
+					DAIBdxzwAXcdAAF3HgABdx9AAYccIAGHHRAB
+					hx6LAYcfAgGXHPABlx0AAZceAAGXH0ABpxzw
+					AacdAAGnHgABpx9AAbccYAG3HUABtx4BAbcf
+					AQHXHPAB1x0AAdceAAHXH0AB5xzwAecdAAHn
+					HgAB5x9A
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>55</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
 			</array>
 			<key>IOClass</key>
 			<string>AppleHDAHardwareConfigDriver</string>
