@@ -865,6 +865,31 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>qiuchenly - Realtek ALC235 for ASUS FX53VD</string>
+					<key>CodecID</key>
+					<integer>283902517</integer>
+					<key>ConfigData</key>
+					<data>
+					AbccAAG3HQEBtx6gAbcfmQIXHBACFx0QAhce
+					KwIXHwEBRxwgAUcdAQFHHhABRx+ZAZccMAGX
+					HRABlx6LAZcfAQEnHPABJx0AASceAAEnH0AB
+					dxzwAXcdAAF3HgABdx9AAYcc8AGHHQABhx4A
+					AYcfQAGnHPABpx0AAaceAAGnH0AB1xzwAdcd
+					AAHXHgAB1x9AAecc8AHnHQAB5x4AAecfQAHX
+					HPAB1x0AAdceAAHXH0AB1xzwAdcdAAHXHgAB
+					1x9A
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>15</integer>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>Mirone - Realtek ALC236</string>
 					<key>CodecID</key>
 					<integer>283902518</integer>
