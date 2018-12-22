@@ -44,14 +44,14 @@
 				<key>Path</key>
 				<string>layout14.xml.zlib</string>
 			</dict>
-            <dict>
-                <key>Comment</key>
-                <string>qiuchenly - Realtek ALC235 for ASUS FX53VD</string>
-                <key>Id</key>
-                <integer>15</integer>
-                <key>Path</key>
-                <string>layout15.xml.zlib</string>
-            </dict>
+			<dict>
+				<key>Comment</key>
+				<string>qiuchenly - Realtek ALC235 for ASUS FX53VD</string>
+				<key>Id</key>
+				<integer>15</integer>
+				<key>Path</key>
+				<string>layout15.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -87,14 +87,14 @@
 				<key>Path</key>
 				<string>Platforms14.xml.zlib</string>
 			</dict>
-            <dict>
-                <key>Comment</key>
-                <string>qiuchenly - Realtek ALC235 for ASUS FX53VD</string>
-                <key>Id</key>
-                <integer>15</integer>
-                <key>Path</key>
-                <string>Platforms15.xml.zlib</string>
-            </dict>
+			<dict>
+				<key>Comment</key>
+				<string>qiuchenly - Realtek ALC235 for ASUS FX53VD</string>
+				<key>Id</key>
+				<integer>15</integer>
+				<key>Path</key>
+				<string>Platforms15.xml.zlib</string>
+			</dict>
 		</array>
 	</dict>
 	<key>Patches</key>
