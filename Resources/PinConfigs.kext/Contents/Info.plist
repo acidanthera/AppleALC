@@ -7210,6 +7210,24 @@
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>Custom ALC282 Lenovo Y430P by yunsur</string>
+					<key>CodecID</key>
+					<integer>283902594</integer>
+					<key>ConfigData</key>
+					<data>ASccEAEnHQEBJx6mAScfkAFHHPABRx0AAUceAAFHH0ABdxzwAXcdAAF3HgABdx9AAYccIAGHHRABhx6BAYcfAQGXHPABlx0AAZceAAGXH0ABpxzwAacdAAGnHgABpx9AAbccQAG3HQEBtx4XAbcfkAHXHPAB1x0AAdceAAHXH0AB5xxwAecdEAHnHkQB5x8BAhccUAIXHRACFx4hAhcfAQFHDAI=</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>43</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
 			</array>
 			<key>IOClass</key>
 			<string>AppleHDAHardwareConfigDriver</string>
