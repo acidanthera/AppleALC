@@ -92,6 +92,30 @@
 				<key>Path</key>
 				<string>layout127.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom ALC282 Lenovo Y410P by Z39</string>
+				<key>Id</key>
+				<integer>41</integer>
+				<key>Path</key>
+				<string>layout41.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom ALC282 Lenovo Y510P by Z39</string>
+				<key>Id</key>
+				<integer>51</integer>
+				<key>Path</key>
+				<string>layout51.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom ALC282 Lenovo Y430P by Z39</string>
+				<key>Id</key>
+				<integer>43</integer>
+				<key>Path</key>
+				<string>layout43.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -175,6 +199,30 @@
 				<key>Path</key>
 				<string>Platforms127.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom ALC282 Lenovo Y410P by Z39</string>
+				<key>Id</key>
+				<integer>41</integer>
+				<key>Path</key>
+				<string>Platforms41.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom ALC282 Lenovo Y510P by Z39</string>
+				<key>Id</key>
+				<integer>51</integer>
+				<key>Path</key>
+				<string>Platforms51.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom ALC282 Lenovo Y430P by Z39</string>
+				<key>Id</key>
+				<integer>43</integer>
+				<key>Path</key>
+				<string>Platforms43.xml.zlib</string>
+			</dict>
 		</array>
 	</dict>
 	<key>Patches</key>
@@ -183,7 +231,9 @@
 			<key>Count</key>
 			<integer>1</integer>
 			<key>Find</key>
-			<data>QcYGAEmLvCQ=</data>
+			<data>
+			QcYGAEmLvCQ=
+			</data>
 			<key>MaxKernel</key>
 			<integer>13</integer>
 			<key>MinKernel</key>
@@ -191,73 +241,97 @@
 			<key>Name</key>
 			<string>AppleHDA</string>
 			<key>Replace</key>
-			<data>QcYGAUmLvCQ=</data>
+			<data>
+			QcYGAUmLvCQ=
+			</data>
 		</dict>
 		<dict>
 			<key>Count</key>
 			<integer>1</integer>
 			<key>Find</key>
-			<data>QcYGAEiLu2g=</data>
+			<data>
+			QcYGAEiLu2g=
+			</data>
 			<key>MinKernel</key>
 			<integer>14</integer>
 			<key>Name</key>
 			<string>AppleHDA</string>
 			<key>Replace</key>
-			<data>QcYGAUiLu2g=</data>
+			<data>
+			QcYGAUiLu2g=
+			</data>
 		</dict>
 		<dict>
 			<key>Count</key>
 			<integer>1</integer>
 			<key>Find</key>
-			<data>QcaGQwEAAAA=</data>
+			<data>
+			QcaGQwEAAAA=
+			</data>
 			<key>MinKernel</key>
 			<integer>12</integer>
 			<key>Name</key>
 			<string>AppleHDA</string>
 			<key>Replace</key>
-			<data>QcaGQwEAAAE=</data>
+			<data>
+			QcaGQwEAAAE=
+			</data>
 		</dict>
 		<dict>
 			<key>Count</key>
 			<integer>2</integer>
 			<key>Find</key>
-			<data>hBnUEQ==</data>
+			<data>
+			hBnUEQ==
+			</data>
 			<key>MinKernel</key>
 			<integer>12</integer>
 			<key>Name</key>
 			<string>AppleHDA</string>
 			<key>Replace</key>
-			<data>ggLsEA==</data>
+			<data>
+			ggLsEA==
+			</data>
 		</dict>
 		<dict>
 			<key>Count</key>
 			<integer>2</integer>
 			<key>Find</key>
-			<data>hQjsEA==</data>
+			<data>
+			hQjsEA==
+			</data>
 			<key>MinKernel</key>
 			<integer>12</integer>
 			<key>Name</key>
 			<string>AppleHDA</string>
 			<key>Replace</key>
-			<data>AAAAAA==</data>
+			<data>
+			AAAAAA==
+			</data>
 		</dict>
 		<dict>
 			<key>Count</key>
 			<integer>2</integer>
 			<key>Find</key>
-			<data>hAjsEA==</data>
+			<data>
+			hAjsEA==
+			</data>
 			<key>MinKernel</key>
 			<integer>12</integer>
 			<key>Name</key>
 			<string>AppleHDA</string>
 			<key>Replace</key>
-			<data>AAAAAA==</data>
+			<data>
+			AAAAAA==
+			</data>
 		</dict>
 		<dict>
 			<key>Count</key>
 			<integer>2</integer>
 			<key>Find</key>
-			<data>gxnUEQ==</data>
+			<data>
+			gxnUEQ==
+			</data>
 			<key>MaxKernel</key>
 			<integer>15</integer>
 			<key>MinKernel</key>
@@ -265,7 +339,9 @@
 			<key>Name</key>
 			<string>AppleHDA</string>
 			<key>Replace</key>
-			<data>AAAAAA==</data>
+			<data>
+			AAAAAA==
+			</data>
 		</dict>
 	</array>
 	<key>Revisions</key>
