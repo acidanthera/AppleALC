@@ -78,6 +78,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>MacPeet - alc892 for MSI GL73-8RD</string>
+				<key>Id</key>
+				<integer>16</integer>
+				<key>Path</key>
+				<string>layout16.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>ALC892 for Clevo P751DMG by Cryse Hillmes</string>
 				<key>Id</key>
 				<integer>28</integer>
@@ -182,6 +190,14 @@
 				<integer>15</integer>
 				<key>Path</key>
 				<string>Platforms15.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>MacPeet - alc892 for MSI GL73-8RD</string>
+				<key>Id</key>
+				<integer>16</integer>
+				<key>Path</key>
+				<string>Platforms16.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>

@@ -134,6 +134,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>MacPeet - Latte Panda</string>
+				<key>Id</key>
+				<integer>17</integer>
+				<key>Path</key>
+				<string>layout17.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Hypereitan - ALC269VC for Thinkpad X230 i7</string>
 				<key>Id</key>
 				<integer>18</integer>
@@ -230,6 +238,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Laptop patch ALC269VC Samsung _NP350V5C - Giesteira</string>
+				<key>Id</key>
+				<integer>44</integer>
+				<key>Path</key>
+				<string>layout44.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>maiconjs (Wolfield) - Asus A45A 269VB1</string>
 				<key>Id</key>
 				<integer>45</integer>
@@ -259,6 +275,14 @@
 				<integer>76</integer>
 				<key>Path</key>
 				<string>layout76.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>ALC269 for MECHREVO X8Ti Plus by DalianSky</string>
+				<key>Id</key>
+				<integer>88</integer>
+				<key>Path</key>
+				<string>layout88.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -409,6 +433,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>MacPeet - Latte Panda</string>
+				<key>Id</key>
+				<integer>17</integer>
+				<key>Path</key>
+				<string>Platforms17.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Hypereitan - ALC269VC for Thinkpad X230 i7</string>
 				<key>Id</key>
 				<integer>18</integer>
@@ -505,6 +537,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Laptop patch ALC269VC Samsung _NP350V5C - Giesteira</string>
+				<key>Id</key>
+				<integer>44</integer>
+				<key>Path</key>
+				<string>Platforms44.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>maiconjs (Wolfield) - Asus A45A 269VB1</string>
 				<key>Id</key>
 				<integer>45</integer>
@@ -534,6 +574,14 @@
 				<integer>76</integer>
 				<key>Path</key>
 				<string>Platforms76.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>ALC269 for MECHREVO X8Ti Plus by DalianSky</string>
+				<key>Id</key>
+				<integer>88</integer>
+				<key>Path</key>
+				<string>Platforms88.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>

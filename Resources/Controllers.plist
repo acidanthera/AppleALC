@@ -433,8 +433,6 @@
 	<dict>
 		<key>Device</key>
 		<integer>3599</integer>
-		<key>Model</key>
-		<string>Desktop</string>
 		<key>Name</key>
 		<string>NVIDIA HDMI for GK208 in 10.13.4+</string>
 		<key>Patches</key>
@@ -458,8 +456,6 @@
 	<dict>
 		<key>Device</key>
 		<integer>4335</integer>
-		<key>Model</key>
-		<string>Desktop</string>
 		<key>Name</key>
 		<string>NVIDIA HDMI for GP102 in 10.13.4+</string>
 		<key>Patches</key>
@@ -483,8 +479,6 @@
 	<dict>
 		<key>Device</key>
 		<integer>4337</integer>
-		<key>Model</key>
-		<string>Desktop</string>
 		<key>Name</key>
 		<string>NVIDIA HDMI for GP106 in 10.13.4+</string>
 		<key>Patches</key>
@@ -508,8 +502,6 @@
 	<dict>
 		<key>Device</key>
 		<integer>4026</integer>
-		<key>Model</key>
-		<string>Desktop</string>
 		<key>Name</key>
 		<string>NVIDIA HDMI for GM206 in 10.13.4+</string>
 		<key>Patches</key>
@@ -533,8 +525,6 @@
 	<dict>
 		<key>Device</key>
 		<integer>4016</integer>
-		<key>Model</key>
-		<string>Desktop</string>
 		<key>Name</key>
 		<string>NVIDIA HDMI for GM200 in 10.13.4+</string>
 		<key>Patches</key>
@@ -558,8 +548,6 @@
 	<dict>
 		<key>Device</key>
 		<integer>4027</integer>
-		<key>Model</key>
-		<string>Desktop</string>
 		<key>Name</key>
 		<string>NVIDIA HDMI for GM204 in 10.13.4+</string>
 		<key>Patches</key>
@@ -583,8 +571,6 @@
 	<dict>
 		<key>Device</key>
 		<integer>4024</integer>
-		<key>Model</key>
-		<string>Desktop</string>
 		<key>Name</key>
 		<string>NVIDIA HDMI for GP108 in 10.13.4+</string>
 		<key>Patches</key>
@@ -608,8 +594,6 @@
 	<dict>
 		<key>Device</key>
 		<integer>4025</integer>
-		<key>Model</key>
-		<string>Desktop</string>
 		<key>Name</key>
 		<string>NVIDIA HDMI for GP107 in 10.13.4+</string>
 		<key>Patches</key>
@@ -633,8 +617,6 @@
 	<dict>
 		<key>Device</key>
 		<integer>4336</integer>
-		<key>Model</key>
-		<string>Desktop</string>
 		<key>Name</key>
 		<string>NVIDIA HDMI for GP104 in 10.13.4+</string>
 		<key>Patches</key>
@@ -658,8 +640,6 @@
 	<dict>
 		<key>Device</key>
 		<integer>4028</integer>
-		<key>Model</key>
-		<string>Desktop</string>
 		<key>Name</key>
 		<string>NVIDIA HDMI for Alienware Alpha GTX860M</string>
 		<key>Patches</key>

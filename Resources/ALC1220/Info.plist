@@ -68,6 +68,14 @@
 				<key>Path</key>
 				<string>layout15.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>MacPeet - ALC1220 for Gigabyte Z390</string>
+				<key>Id</key>
+				<integer>16</integer>
+				<key>Path</key>
+				<string>layout16.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -126,6 +134,14 @@
 				<integer>15</integer>
 				<key>Path</key>
 				<string>Platforms15.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>MacPeet - ALC1220 for Gigabyte Z390</string>
+				<key>Id</key>
+				<integer>16</integer>
+				<key>Path</key>
+				<string>Platforms16.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>

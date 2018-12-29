@@ -118,6 +118,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>ctich ALC887 for Asus PRIME Z270-P</string>
+				<key>Id</key>
+				<integer>52</integer>
+				<key>Path</key>
+				<string>layout52.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Custom by Constanta</string>
 				<key>Id</key>
 				<integer>99</integer>
@@ -230,6 +238,14 @@
 				<integer>50</integer>
 				<key>Path</key>
 				<string>Platforms50.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>ctich ALC887 for Asus PRIME Z270-P</string>
+				<key>Id</key>
+				<integer>52</integer>
+				<key>Path</key>
+				<string>Platforms52.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>

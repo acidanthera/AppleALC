@@ -13,6 +13,20 @@ AppleALC Changelog
 - Added ALC298 layout-id 21 for Lenovo 720S-15IKB by Andres ZeroCross
 - Added ALC236 layout-id 99 for Lenovo Air 13 IWL by DalianSky
 - Fix speaker volume slider CX8050
+- Enable NVIDIA HDMI patches for laptop GPUs
+- Added ALC280 layout-id 21 for Dell Precision ﻿T7610 ﻿Workstation by Andres ZeroCross
+- Added ALC295 layout-id 21 for Acer Nitro 5 Spin (NP515-51) by Andres ZeroCross
+- Added VIA VT1705 layout-id 21 for ECS H81H3-M4 (1.0A) by Andres ZeroCross
+- Added ALC269 layoutid=88 for MECHREVO X8Ti Plus by DalianSky
+- Added ALC662 layout-id 17 for HP Compaq Elite 8000 SFF by aloha_cn
+- Added ALC288 layout-id 23 for Dell XPS 9343 by yyfn
+- Added ALC892 layout-id 16 for MSI GL73-8RD by MacPeet
+- Change CX20585 layout-id 13 resources
+- Added ALC887 layout-id 52 for Asus PRIME Z270-P by ctich
+- Added AD1984A layout-id 44 by Giesteira
+- Added ALC269 layout-id 44 for Samsung _NP350V5C by Giesteira
+- Added ALC269 layout-id 17 by MacPeet
+- Added ALC1220 layout-id 16 for Gigabyte Z390 by MacPeet
 
 #### v1.3.3
 - Added ability to disable controller patching by injecting property 'no-controller-patch' (for use of FakePCIID_Intel_HDMI_Audio)
