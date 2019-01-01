@@ -1121,6 +1121,28 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>cowpod - Realtek ALC255 for UX360CA</string>
+					<key>CodecID</key>
+					<integer>283902549</integer>
+					<key>ConfigData</key>
+					<data>
+					AUccEAFHHQABRx4XAUcfkAFHDAICFxwgAhcd
+					EAIXHiECFx8AAhcMAgEnHDABJx0AAScepgEn
+					H5ABlxxAAZcdAAGXHoEBlx8A
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>31</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>ALC255 for Asus X556UA m-dudarev</string>
 					<key>CodecID</key>
 					<integer>283902549</integer>

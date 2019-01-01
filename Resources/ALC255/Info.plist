@@ -78,6 +78,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>cowpod - Realtek ALC255 for UX360CA</string>
+				<key>Id</key>
+				<integer>31</integer>
+				<key>Path</key>
+				<string>layout31.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>DalianSky - Realtek ALC255 XiaoMi Air</string>
 				<key>Id</key>
 				<integer>99</integer>
@@ -150,6 +158,14 @@
 				<integer>30</integer>
 				<key>Path</key>
 				<string>Platforms30.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>cowpod - Realtek ALC255 for UX360CA</string>
+				<key>Id</key>
+				<integer>31</integer>
+				<key>Path</key>
+				<string>Platforms31.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
