@@ -24,8 +24,8 @@
 			</dict>
 			<key>Inputs</key>
 			<array>
-				<string>Internal Mic</string>
 				<string>Headset Mic</string>
+				<string>Internal Mic</string>
 			</array>
 			<key>IntSpeaker</key>
 			<dict>
@@ -1450,8 +1450,8 @@
 			</dict>
 			<key>Outputs</key>
 			<array>
-				<string>IntSpeaker</string>
 				<string>Headphone</string>
+				<string>IntSpeaker</string>
 			</array>
 			<key>PathMapID</key>
 			<integer>269</integer>

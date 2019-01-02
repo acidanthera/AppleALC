@@ -308,6 +308,14 @@
 				<key>Path</key>
 				<string>layout127.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>ALC269 for Lenovo Y500 by BaoStorm (No input boost - no noise in Siri)</string>
+				<key>Id</key>
+				<integer>188</integer>
+				<key>Path</key>
+				<string>layout188.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -606,6 +614,14 @@
 				<integer>127</integer>
 				<key>Path</key>
 				<string>Platforms127.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>ALC269 for Lenovo Y500 by BaoStorm (No input boost - no noise in Siri)</string>
+				<key>Id</key>
+				<integer>188</integer>
+				<key>Path</key>
+				<string>Platforms188.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>

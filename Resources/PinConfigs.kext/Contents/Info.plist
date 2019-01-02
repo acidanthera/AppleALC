@@ -2266,6 +2266,27 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>ALC269</string>
+					<key>CodecID</key>
+					<integer>283902569</integer>
+					<key>Comment</key>
+					<string>ALC269 for Lenovo Y500 by BaoStorm (No input boost - no noise in Siri)</string>
+					<key>ConfigData</key>
+					<data>
+					ASccQAEnHQkBJx6mAScfkAFHHBABRx0BAUce
+					FwFHH5ABRwwCAVccIAFXHSABVx4hAVcfBAFX
+					DAIBhxxQAYcdKAGHHqEBhx8EAeccMAHnHSEB
+					5x5FAecfBA==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>188</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>Mirone - Realtek ALC270 v1</string>
 					<key>CodecID</key>
 					<integer>283902576</integer>
