@@ -1,5 +1,8 @@
 AppleALC Changelog
 ==================
+#### v1.3.5
+- Added AD1988A layout-id 12 by chrome
+
 #### v1.3.4
 - Disabled AppleGFXHDA matching onto HDEF to force AppleHDA usage
 - Added Wern Apfel's menubar patch for CX20590

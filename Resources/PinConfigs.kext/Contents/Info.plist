@@ -345,6 +345,29 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>AD1988A by chrome</string>
+					<key>CodecID</key>
+					<integer>299112840</integer>
+					<key>ConfigData</key>
+					<data>
+					ARccQAEXHUABFx4hARcfAQEnHAABJx1AASce
+					EQEnHwEBNxzwATcdAAE3HgABNx9AAUccYAFH
+					HZABRx6gAUcfkAFXHIABVx0wAVcegQFXHwEB
+					ZxwgAWcdEAFnHgEBZx8BAXccUAF3HZABdx6B
+					AXcfAQGHHPABhx0AAYceAAGHH0ABtxygAbcd
+					8QG3HkUBtx8BAccc8AHHHQABxx4AAccfQAJH
+					HBACRx1gAkceAQJHHwECVxwwAlcdIAJXHgEC
+					Vx8B
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>12</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>Mirone - ADI-1988B</string>
 					<key>CodecID</key>
 					<integer>299112843</integer>
