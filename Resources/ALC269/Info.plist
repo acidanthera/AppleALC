@@ -310,7 +310,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>ALC269 for Lenovo Y500 by BaoStorm (No input boost - no noise in Siri)</string>
+				<string>ALC269VC for Lenovo Y500 by BaoStorm</string>
 				<key>Id</key>
 				<integer>188</integer>
 				<key>Path</key>
@@ -617,7 +617,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>ALC269 for Lenovo Y500 by BaoStorm (No input boost - no noise in Siri)</string>
+				<string>ALC269VC for Lenovo Y500 by BaoStorm</string>
 				<key>Id</key>
 				<integer>188</integer>
 				<key>Path</key>

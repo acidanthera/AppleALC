@@ -24,8 +24,8 @@
 			</dict>
 			<key>Inputs</key>
 			<array>
-				<string>Headset Mic</string>
-				<string>Internal Mic</string>
+				<string>Mic</string>
+				<string>LineIn</string>
 			</array>
 			<key>IntSpeaker</key>
 			<dict>
