@@ -4189,6 +4189,28 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>CodecID</key>
+					<integer>283903592</integer>
+					<key>Comment</key>
+					<string>ALC668 Laptop Patch (Alienware 14 2013)</string>
+					<key>ConfigData</key>
+					<data>
+					ASccAQEnHQEBJx6gAScfkAFHHAIBRx0BAUce
+					FwFHH5ABRwwCAVccAwFXHRABVx4rAVcfAwFX
+					DAIBZxzwAWcdAAFnHgABZx9AAYcc8AGHHQAB
+					hx4AAYcfQAGXHPABlx0AAZceAAGXH0ABpxzw
+					AacdAAGnHgABpx9AAbccBAG3HRABtx6LAbcf
+					AwHXHPAB1x0AAdceAAHXH0AB5xzwAecdAAHn
+					HgAB5x9AAfcc8AH3HQAB9x4AAfcfQA==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>30</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>CodecID</key>
 					<integer>283903600</integer>
 					<key>Comment</key>
 					<string>Custom ALC670 by Alex Auditore</string>
