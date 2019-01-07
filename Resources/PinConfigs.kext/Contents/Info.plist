@@ -33,6 +33,96 @@
 					<data>
 					AwAAAA==
 					</data>
+					<key>Codec</key>
+					<string>Custom ALC282 Lenovo Y410P by Z39</string>
+					<key>CodecID</key>
+					<integer>283902594</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccEAEnHQEBJx6mAScfkAFHHPABRx0AAUce
+					AAFHH0ABdxzwAXcdAAF3HgABdx9AAYccIAGH
+					HRABhx6BAYcfAQGXHPABlx0AAZceAAGXH0AB
+					pxzwAacdAAGnHgABpx9AAbccQAG3HQEBtx4X
+					AbcfkAHXHPAB1x0AAdceAAHXH0AB5xxwAecd
+					EAHnHkQB5x8BAhccUAIXHRACFx4hAhcfAQFH
+					DAI=
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>41</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAg==
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>Custom ALC282 Lenovo Y430P by Z39</string>
+					<key>CodecID</key>
+					<integer>283902594</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccEAEnHQEBJx6mAScfkAFHHPABRx0AAUce
+					AAFHH0ABdxzwAXcdAAF3HgABdx9AAYccIAGH
+					HRABhx6BAYcfAQGXHPABlx0AAZceAAGXH0AB
+					pxzwAacdAAGnHgABpx9AAbccQAG3HQEBtx4X
+					AbcfkAHXHPAB1x0AAdceAAHXH0AB5xxwAecd
+					EAHnHkQB5x8BAhccUAIXHRACFx4hAhcfAQFH
+					DAI=
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>43</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAg==
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>Custom ALC282 Lenovo Y510P by Z39</string>
+					<key>CodecID</key>
+					<integer>283902594</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccEAEnHQEBJx6mAScfkAFHHEABRx0BAUce
+					FwFHH5ABdxzwAXcdAAF3HgABdx9AAYccIAGH
+					HRABhx6BAYcfAQGXHPABlx0AAZceAAGXH0AB
+					pxzwAacdAAGnHgABpx9AAbcc8AG3HQABtx4A
+					AbcfQAHXHPAB1x0AAdceAAHXH0AB5xxwAecd
+					EAHnHkQB5x8BAhccUAIXHRACFx4hAhcfAQFH
+					DAI=
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>51</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAg==
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
 					<key>CodecID</key>
 					<integer>283906592</integer>
 					<key>CodecName</key>
@@ -8233,96 +8323,6 @@
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>9</integer>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>
-					AwAAAA==
-					</data>
-					<key>Codec</key>
-					<string>Custom ALC282 Lenovo Y410P by Z39</string>
-					<key>CodecID</key>
-					<integer>283902594</integer>
-					<key>ConfigData</key>
-					<data>
-					ASccEAEnHQEBJx6mAScfkAFHHPABRx0AAUce
-					AAFHH0ABdxzwAXcdAAF3HgABdx9AAYccIAGH
-					HRABhx6BAYcfAQGXHPABlx0AAZceAAGXH0AB
-					pxzwAacdAAGnHgABpx9AAbccQAG3HQEBtx4X
-					AbcfkAHXHPAB1x0AAdceAAHXH0AB5xxwAecd
-					EAHnHkQB5x8BAhccUAIXHRACFx4hAhcfAQFH
-					DAI=
-					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>41</integer>
-					<key>WakeConfigData</key>
-					<data>
-					AUcMAg==
-					</data>
-					<key>WakeVerbReinit</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>
-					AwAAAA==
-					</data>
-					<key>Codec</key>
-					<string>Custom ALC282 Lenovo Y430P by Z39</string>
-					<key>CodecID</key>
-					<integer>283902594</integer>
-					<key>ConfigData</key>
-					<data>
-					ASccEAEnHQEBJx6mAScfkAFHHPABRx0AAUce
-					AAFHH0ABdxzwAXcdAAF3HgABdx9AAYccIAGH
-					HRABhx6BAYcfAQGXHPABlx0AAZceAAGXH0AB
-					pxzwAacdAAGnHgABpx9AAbccQAG3HQEBtx4X
-					AbcfkAHXHPAB1x0AAdceAAHXH0AB5xxwAecd
-					EAHnHkQB5x8BAhccUAIXHRACFx4hAhcfAQFH
-					DAI=
-					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>43</integer>
-					<key>WakeConfigData</key>
-					<data>
-					AUcMAg==
-					</data>
-					<key>WakeVerbReinit</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>
-					AwAAAA==
-					</data>
-					<key>Codec</key>
-					<string>Custom ALC282 Lenovo Y510P by Z39</string>
-					<key>CodecID</key>
-					<integer>283902594</integer>
-					<key>ConfigData</key>
-					<data>
-					ASccEAEnHQEBJx6mAScfkAFHHEABRx0BAUce
-					FwFHH5ABdxzwAXcdAAF3HgABdx9AAYccIAGH
-					HRABhx6BAYcfAQGXHPABlx0AAZceAAGXH0AB
-					pxzwAacdAAGnHgABpx9AAbcc8AG3HQABtx4A
-					AbcfQAHXHPAB1x0AAdceAAHXH0AB5xxwAecd
-					EAHnHkQB5x8BAhccUAIXHRACFx4hAhcfAQFH
-					DAI=
-					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>51</integer>
-					<key>WakeConfigData</key>
-					<data>
-					AUcMAg==
-					</data>
-					<key>WakeVerbReinit</key>
-					<true/>
 				</dict>
 			</array>
 			<key>IOClass</key>
