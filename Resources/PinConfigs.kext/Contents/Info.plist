@@ -7240,6 +7240,28 @@
 					<key>LayoutID</key>
 					<integer>9</integer>
 				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>Conexant CX8400</string>
+					<key>CodecID</key>
+					<integer>351346896</integer>
+					<key>ConfigData</key>
+					<data>
+					AWccEAFnHRABZx4hAWcfBAF3HPABdx0AAXce
+					AAF3H0ABhxzwAYcdAAGHHgABhx9AAZccIAGX
+					HRABlx6BAZcfBAGnHDABpx0BAacepgGnH5AB
+					1xxAAdcdAQHXHhcB1x+ZAecc8AHnHQAB5x4A
+					AecfQAH3HPAB9x0AAfceAAH3H0ACFxzwAhcd
+					AAIXHgACFx9AAmcc8AJnHQACZx4AAmcfQAJ3
+					HPACdx0AAnceAAJ3H0ABZwwCAdcMAg==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>12</integer>
+				</dict>
 			</array>
 			<key>IOClass</key>
 			<string>AppleHDAHardwareConfigDriver</string>
