@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>LayoutID</key>
-	<integer>1</integer>
+	<integer>3</integer>
 	<key>PathMapRef</key>
 	<array>
 		<dict>
 			<key>CodecID</key>
 			<array>
-				<integer>283906408</integer>
+				<integer>283906592</integer>
 			</array>
 			<key>Headphone</key>
 			<dict/>
@@ -457,52 +457,6 @@
 								</dict>
 							</dict>
 						</dict>
-						<key>DspFunction2</key>
-						<dict>
-							<key>FunctionInfo</key>
-							<dict>
-								<key>DspFuncInstance</key>
-								<integer>2</integer>
-								<key>DspFuncName</key>
-								<string>DspGainStage</string>
-								<key>DspFuncProcessingIndex</key>
-								<integer>2</integer>
-							</dict>
-							<key>ParameterInfo</key>
-							<dict>
-								<key>1</key>
-								<integer>0</integer>
-								<key>2</key>
-								<integer>1065353216</integer>
-								<key>3</key>
-								<integer>1065353216</integer>
-							</dict>
-							<key>PatchbayInfo</key>
-							<dict>
-								<key>InputPort0</key>
-								<dict>
-									<key>PortInstance</key>
-									<integer>0</integer>
-									<key>PortWidth</key>
-									<integer>1</integer>
-									<key>SourceFuncInstance</key>
-									<integer>1</integer>
-									<key>SourcePortIndex</key>
-									<integer>0</integer>
-								</dict>
-								<key>InputPort1</key>
-								<dict>
-									<key>PortInstance</key>
-									<integer>1</integer>
-									<key>PortWidth</key>
-									<integer>1</integer>
-									<key>SourceFuncInstance</key>
-									<integer>1</integer>
-									<key>SourcePortIndex</key>
-									<integer>1</integer>
-								</dict>
-							</dict>
-						</dict>
 					</dict>
 				</dict>
 			</dict>
@@ -514,7 +468,7 @@
 				<string>SPDIFOut</string>
 			</array>
 			<key>PathMapID</key>
-			<integer>100</integer>
+			<integer>301</integer>
 			<key>SPDIFOut</key>
 			<dict/>
 		</dict>

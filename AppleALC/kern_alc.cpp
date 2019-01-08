@@ -467,7 +467,7 @@ void AlcEnabler::processKext(KernelPatcher &patcher, size_t index, mach_vm_addre
 				continue;
 			}
 
-			DBGLOG("alc", "handling %lu controller vendor %08X with %lu patches", i, info->vendor, info->patchNum);
+			DBGLOG("alc", "handling %lu controller %X:%X with %lu patches", i, info->vendor, info->device, info->patchNum);
 			// Choose a free device-id for NVIDIA HDAU to support multigpu setups
 			if (info->vendor == WIOKit::VendorID::NVIDIA) {
 				for (size_t j = 0; j < info->patchNum; j++) {
@@ -762,12 +762,12 @@ bool AlcEnabler::validateInjection(IORegistryEntry *hdaService) {
 }
 
 void AlcEnabler::applyPatches(KernelPatcher &patcher, size_t index, const KextPatch *patches, size_t patchNum) {
-	DBGLOG("alc", "applying patches for %lu kext", index);
 	for (size_t p = 0; p < patchNum; p++) {
 		auto &patch = patches[p];
 		if (patch.patch.kext->loadIndex == index) {
+			DBGLOG("alc", "checking patch %lu for %lu kext (%s)", p, index, patch.patch.kext->id);
 			if (patcher.compatibleKernel(patch.minKernel, patch.maxKernel)) {
-				DBGLOG("alc", "applying %lu patch for %lu kext", p, index);
+				DBGLOG("alc", "applying patch %lu  for %lu kext (%s)", p, index, patch.patch.kext->id);
 				patcher.applyLookupPatch(&patch.patch);
 				// Do not really care for the errors for now
 				patcher.clearError();

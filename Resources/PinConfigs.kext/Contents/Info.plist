@@ -31,6 +31,57 @@
 				<dict>
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
+					<key>CodecID</key>
+					<integer>283906408</integer>
+					<key>CodecName</key>
+					<string>Toleda -  Realtek ALC S1220A</string>
+					<key>ConfigData</key>
+					<data>
+					AUccEAFHHUABRx4RAUcfkAFHDAIBVxzwAVcd
+					AAFXHgABVx9AAWcc8AFnHQABZx4AAWcfQAF3
+					HPABdx0AAXceAAF3H0ABhxxAAYcdkAGHHqAB
+					hx+QAZccYAGXHZABlx6BAZcfAgGnHFABpx0w
+					AacegQGnHwEBtxxwAbcdQAG3HiEBtx8CAbcM
+					AgHnHJAB5x1hAeceSwHnHwEB9xzwAfcdAAH3
+					HgAB9x9AARcc8AEXHQABFx4AARcfQA==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>3</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>CodecID</key>
+					<integer>283906592</integer>
+					<key>CodecName</key>
+					<string>Toleda -  Realtek ALC1220</string>
+					<key>ConfigData</key>
+					<data>
+					AUccEAFHHUABRx4RAUcfkAFXHPABVx0AAVce
+					AAFXH0ABZxzwAWcdAAFnHgABZx9AAXcc8AF3
+					HQABdx4AAXcfQAGHHEABhx2QAYceoAGHH5AB
+					lxxgAZcdkAGXHoEBlx8CAaccUAGnHTABpx6B
+					AacfAQG3HHABtx1AAbceIQG3HwIB5xyQAecd
+					YQHnHksB5x8B
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>3</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgG3DAI=</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
 					<key>Codec</key>
 					<string>Creative CA0132, default</string>
 					<key>CodecID</key>

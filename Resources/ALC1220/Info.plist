@@ -14,7 +14,7 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>Toleda - Realtek ALC1220</string>
+				<string>Toleda - Realtek ALC1220, 5/6 audio ports, native: 2 inputs, 3/4 outputs+front panel+SPDIF/Optical</string>
 				<key>Id</key>
 				<integer>1</integer>
 				<key>Path</key>
@@ -22,11 +22,19 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Toleda - Realtek ALC1220</string>
+				<string>Toleda - Realtek ALC1220, 3 audio ports, repurposed to 5.1: 0 inputs, 3 outputs+front panel+SPDIF/Optical</string>
 				<key>Id</key>
 				<integer>2</integer>
 				<key>Path</key>
 				<string>layout2.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Toleda - Realtek ALC1220</string>
+				<key>Id</key>
+				<integer>3</integer>
+				<key>Path</key>
+				<string>layout3.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -92,6 +100,14 @@
 				<string>Toleda - Realtek ALC1220</string>
 				<key>Id</key>
 				<integer>2</integer>
+				<key>Path</key>
+				<string>PlatformsT.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Toleda - Realtek ALC1220</string>
+				<key>Id</key>
+				<integer>3</integer>
 				<key>Path</key>
 				<string>PlatformsT.xml.zlib</string>
 			</dict>
