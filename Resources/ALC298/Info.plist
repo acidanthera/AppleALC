@@ -46,6 +46,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Razer Blade 14 2017 ALC298 by Andres ZeroCross</string>
+				<key>Id</key>
+				<integer>22</integer>
+				<key>Path</key>
+				<string>layout22.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>vusun123 - Realtek ALC298 for Dell XPS 9x50</string>
 				<key>Id</key>
 				<integer>28</integer>
@@ -126,6 +134,15 @@
 				<integer>21</integer>
 				<key>Path</key>
 				<string>Platforms21.xml.zlib</string>
+			</dict>
+			
+			<dict>
+				<key>Comment</key>
+				<string>Razer Blade 14 2017 ALC298 by Andres ZeroCross</string>
+				<key>Id</key>
+				<integer>22</integer>
+				<key>Path</key>
+				<string>Platforms22.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
