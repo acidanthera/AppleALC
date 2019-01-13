@@ -1198,14 +1198,18 @@
 					AwAAAA==
 					</data>
 					<key>Codec</key>
-					<string>ALC236 for Lenovo LEGION Y7000/Y530 by xiaoM</string>
+					<string>ALC236 for Lenovo LEGION Y530 by xiaoM</string>
 					<key>CodecID</key>
 					<integer>283902518</integer>
 					<key>ConfigData</key>
 					<data>
-					ASccMAEnHQEBJx6mAScfkAFHHCABRx2QAUce
-					FwFHH5ABlxwgAZcdEAGXHosBlx8EAhccEAIX
-					HRACFx4rAhcfBAIXDAI=
+					ASccMAEnHQEBJx6mAScfkAE3HPABNx0AATce
+					AAE3H0ABRxwgAUcdkAFHHhcBRx+QAYcc8AGH
+					HQABhx4AAYcfQAGXHCABlx0QAZceiwGXHwQB
+					pxzwAacdAAGnHgABpx9AAbcc8AG3HQABtx4A
+					AbcfQAHXHPAB1x0AAdceAAHXH0AB5xzwAecd
+					AAHnHgAB5x9AAhccEAIXHRACFx4rAhcfBAIX
+					DAI=
 					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
