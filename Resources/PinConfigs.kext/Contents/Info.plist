@@ -6986,6 +6986,26 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>Andres ZeroCross - LG gram 15ZD960-GX5BK</string>
+					<key>CodecID</key>
+					<integer>351359249</integer>
+					<key>ConfigData</key>
+					<data>
+					AXccIAF3HQEBdx4XAXcfkAGXHDABlx0QAZce
+					gQGXHwMBpxxAAacdAQGnHqABpx+QAdccEAHX
+					HRAB1x4hAdcfAw==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>21</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
 					<string>Mirone - Conexant CX20755</string>
