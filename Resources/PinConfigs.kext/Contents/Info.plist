@@ -7227,6 +7227,26 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>Andres ZeroCross - IDT 92HD73C1X5 for Alienware M17X R2</string>
+					<key>CodecID</key>
+					<integer>287143541</integer>
+					<key>ConfigData</key>
+					<data>
+					AKccEACnHRAApx4hAKcfBADHHCAAxx0QAMce
+					gQDHHwQA5xwwAOcdAQDnHhcA5x+QATccQAE3
+					HQEBNx6gATcfkA==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>21</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
 					<string>Mirone - IDT 92HD81B1C5</string>
