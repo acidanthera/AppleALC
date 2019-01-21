@@ -7056,6 +7056,28 @@
 				</dict>
 				<dict>
 					<key>Codec</key>
+					<string>Andres ZeroCross - Asus A455LF - WX039D</string>
+					<key>CodecID</key>
+					<integer>351359247</integer>
+					<key>ConfigData</key>
+					<data>
+					AZcHJAGnByQBZxxAAWcdEAFnHiEBZx8EAXcc
+					EAF3HQEBdx4XAXcfkAGXHDABlx0QAZcegQGX
+					HwQBpxwgAacdAQGnHqABpx+Q
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>21</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AZcHJAGnByQ=
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>Codec</key>
 					<string>Conexant - CX20751/2 by RehabMan</string>
 					<key>CodecID</key>
 					<integer>351359247</integer>
