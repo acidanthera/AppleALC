@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>LayoutID</key>
-	<integer>13</integer>
+	<integer>30</integer>
 	<key>PathMapRef</key>
 	<array>
 		<dict>
@@ -1109,8 +1109,8 @@
 					</dict>
 				</dict>
 			</dict>
-			<key>Mic</key>
-			<dict>
+            <key>Mic</key>
+            <dict>
 				<key>MuteGPIO</key>
 				<integer>1342242843</integer>
 				<key>SignalProcessing</key>
