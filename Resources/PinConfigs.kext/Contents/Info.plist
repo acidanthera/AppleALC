@@ -3247,6 +3247,32 @@
 				<dict>
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
+					<key>CodecID</key>
+					<integer>283902598</integer>
+					<key>CodecName</key>
+					<string>Lenovo YOGA3 pro ALC286 - gdllzkusi</string>
+					<key>ConfigData</key>
+					<data>
+					ASccIAEnHQEBJx6mAScfkAE3HPABNx0AATce
+					AAE3H0ABRxxAAUcdAQFHHhcBRx+QAUcMAgF3
+					HPABdx0AAXceAAF3H0ABhxwQAYcdEAGHHoEB
+					hx8EAZcc8AGXHQABlx4AAZcfQAGnHPABpx0A
+					AaceAAGnH0AB1xzwAdcdAAHXHgAB1x9AAecc
+					8AHnHQAB5x4AAecfQAIXHDACFx0QAhceIQIX
+					HwQCFwwC
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>11</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
 					<key>Codec</key>
 					<string>Mirone - Realtek ALC288</string>
 					<key>CodecID</key>
@@ -4588,13 +4614,13 @@
 					<string>Toleda ALC887</string>
 					<key>ConfigData</key>
 					<data>
-                    IUccECFHHUAhRx4RIUcfkCFHDAIhVxwgIVcd
-                    ECFXHgEhVx8BIWccMCFnHWAhZx4BIWcfASF3
-                    HPAhdx0AIXceACF3H0AhhxxAIYcdkCGHHqAh
-                    hx+QIZccYCGXHZAhlx6BIZcfAiGnHFAhpx0w
-                    IacegSGnHwEhtxxwIbcdQCG3HiEhtx8CIbcM
-                    AiHnHJAh5x1hIeceSyHnHwEh9xzwIfcdACH3
-                    HgAh9x9AIRcc8CEXHQAhFx4AIRcfQA==
+					IUccECFHHUAhRx4RIUcfkCFHDAIhVxwgIVcd
+					ECFXHgEhVx8BIWccMCFnHWAhZx4BIWcfASF3
+					HPAhdx0AIXceACF3H0AhhxxAIYcdkCGHHqAh
+					hx+QIZccYCGXHZAhlx6BIZcfAiGnHFAhpx0w
+					IacegSGnHwEhtxxwIbcdQCG3HiEhtx8CIbcM
+					AiHnHJAh5x1hIeceSyHnHwEh9xzwIfcdACH3
+					HgAh9x9AIRcc8CEXHQAhFx4AIRcfQA==
 					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
