@@ -20,6 +20,14 @@
 				<key>Path</key>
 				<string>layout3.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom CX20757 Lenovo G510 by Z39</string>
+				<key>Id</key>
+				<integer>28</integer>
+				<key>Path</key>
+				<string>layout28.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -31,6 +39,14 @@
 				<key>Path</key>
 				<string>PlatformsM.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom CX20757 Lenovo G510 by Z39</string>
+				<key>Id</key>
+				<integer>28</integer>
+				<key>Path</key>
+				<string>Platforms28.xml.zlib</string>
+			</dict>
 		</array>
 	</dict>
 	<key>Patches</key>
@@ -39,55 +55,73 @@
 			<key>Count</key>
 			<integer>1</integer>
 			<key>Find</key>
-			<data>xgYASIu/aAE=</data>
+			<data>
+			xgYASIu/aAE=
+			</data>
 			<key>MinKernel</key>
 			<integer>18</integer>
 			<key>Name</key>
 			<string>AppleHDA</string>
 			<key>Replace</key>
-			<data>xgYBSIu/aAE=</data>
+			<data>
+			xgYBSIu/aAE=
+			</data>
 		</dict>
 		<dict>
 			<key>Count</key>
 			<integer>1</integer>
 			<key>Find</key>
-			<data>QcYGAEiLu2g=</data>
+			<data>
+			QcYGAEiLu2g=
+			</data>
 			<key>MinKernel</key>
 			<integer>15</integer>
 			<key>Name</key>
 			<string>AppleHDA</string>
 			<key>Replace</key>
-			<data>QcYGAUiLu2g=</data>
+			<data>
+			QcYGAUiLu2g=
+			</data>
 		</dict>
 		<dict>
 			<key>Count</key>
 			<integer>1</integer>
 			<key>Find</key>
-			<data>QcYGAEiLu2g=</data>
+			<data>
+			QcYGAEiLu2g=
+			</data>
 			<key>MinKernel</key>
 			<integer>14</integer>
 			<key>Name</key>
 			<string>AppleHDA</string>
 			<key>Replace</key>
-			<data>QcYGAUiLu2g=</data>
+			<data>
+			QcYGAUiLu2g=
+			</data>
 		</dict>
 		<dict>
 			<key>Count</key>
 			<integer>1</integer>
 			<key>Find</key>
-			<data>QcaGQwEAAAA=</data>
+			<data>
+			QcaGQwEAAAA=
+			</data>
 			<key>MinKernel</key>
 			<integer>13</integer>
 			<key>Name</key>
 			<string>AppleHDA</string>
 			<key>Replace</key>
-			<data>QcaGQwEAAAE=</data>
+			<data>
+			QcaGQwEAAAE=
+			</data>
 		</dict>
 		<dict>
 			<key>Count</key>
 			<integer>2</integer>
 			<key>Find</key>
-			<data>gxnUEQ==</data>
+			<data>
+			gxnUEQ==
+			</data>
 			<key>MaxKernel</key>
 			<integer>15</integer>
 			<key>MinKernel</key>
@@ -95,13 +129,17 @@
 			<key>Name</key>
 			<string>AppleHDA</string>
 			<key>Replace</key>
-			<data>AAAAAA==</data>
+			<data>
+			AAAAAA==
+			</data>
 		</dict>
 		<dict>
 			<key>Count</key>
 			<integer>2</integer>
 			<key>Find</key>
-			<data>hBnUEQ==</data>
+			<data>
+			hBnUEQ==
+			</data>
 			<key>MaxKernel</key>
 			<integer>15</integer>
 			<key>MinKernel</key>
@@ -109,31 +147,41 @@
 			<key>Name</key>
 			<string>AppleHDA</string>
 			<key>Replace</key>
-			<data>FVHxFA==</data>
+			<data>
+			FVHxFA==
+			</data>
 		</dict>
 		<dict>
 			<key>Count</key>
 			<integer>2</integer>
 			<key>Find</key>
-			<data>ixnUEQ==</data>
+			<data>
+			ixnUEQ==
+			</data>
 			<key>MinKernel</key>
 			<integer>16</integer>
 			<key>Name</key>
 			<string>AppleHDA</string>
 			<key>Replace</key>
-			<data>FVHxFA==</data>
+			<data>
+			FVHxFA==
+			</data>
 		</dict>
 		<dict>
 			<key>Count</key>
 			<integer>2</integer>
 			<key>Find</key>
-			<data>ihnUEQ==</data>
+			<data>
+			ihnUEQ==
+			</data>
 			<key>MinKernel</key>
 			<integer>16</integer>
 			<key>Name</key>
 			<string>AppleHDA</string>
 			<key>Replace</key>
-			<data>AAAAAA==</data>
+			<data>
+			AAAAAA==
+			</data>
 		</dict>
 	</array>
 	<key>Vendor</key>
