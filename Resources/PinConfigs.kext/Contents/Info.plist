@@ -31,6 +31,73 @@
 				<dict>
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
+					<key>CodecID</key>
+					<integer>283902550</integer>
+					<key>Comment</key>
+					<string>Realtek ALC256 - ASUS X541UA - G01986T by SmCbrl</string>
+					<key>ConfigData</key>
+					<data>
+					AhccAAIXHRACFx4hAhcfAQGnHBABpx0AAace
+					pwGnH5kBtxwgAbcdAAG3HhcBtx+ZAUcMAg==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>35</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>Realtek 887-VD for ASUS H61A/BR by SmCbrl</string>
+					<key>CodecID</key>
+					<integer>283904135</integer>
+					<key>ConfigData</key>
+					<data>
+					AbccEAG3HUABtx4hAbcfAgGHHCABhx2QAYce
+					oQGHH5EBlxwwAZcdkAGXHqEBlx+SAUccQAFH
+					HUABRx4RAUcfkQGnHFABpx0wAacegQGnHwEB
+					RwwC
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>25</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>Realtek ALC887-VD for GA-B75M-D3H rev 1.0 by maiconjs</string>
+					<key>CodecID</key>
+					<integer>283904135</integer>
+					<key>ConfigData</key>
+					<data>
+					IUccECFHHUEhRx4RIUcfkSG3HCAhtx1AIbce
+					ISG3HwIhhxwwIYcdkSGHHqAhhx+RIZccQCGX
+					HZAhlx6BIZcfAiGnHFAhpx0wIacegSGnHwEh
+					FxxgIRcdYSEXHkMhFx8BIUcMAg==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>15</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
 					<key>Codec</key>
 					<string>ALC269VC for Lenovo Y500 by BaoStorm</string>
 					<key>CodecID</key>

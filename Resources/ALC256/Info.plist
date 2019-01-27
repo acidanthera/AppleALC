@@ -14,6 +14,14 @@
 		<array>
 			<dict>
 				<key>Comment</key>
+				<string>Realtek ALC256 - ASUS X541UA - G01986T by SmCbrl</string>
+				<key>Id</key>
+				<integer>35</integer>
+				<key>Path</key>
+				<string>layout35.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Realtek ALC256</string>
 				<key>Id</key>
 				<integer>5</integer>
@@ -63,6 +71,14 @@
 		</array>
 		<key>Platforms</key>
 		<array>
+			<dict>
+				<key>Comment</key>
+				<string>Realtek ALC256 - ASUS X541UA - G01986T by SmCbrl</string>
+				<key>Id</key>
+				<integer>35</integer>
+				<key>Path</key>
+				<string>Platforms35.xml.zlib</string>
+			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>Realtek ALC256</string>

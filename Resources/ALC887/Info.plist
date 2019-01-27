@@ -14,6 +14,22 @@
 		<array>
 			<dict>
 				<key>Comment</key>
+				<string>Realtek 887-VD for ASUS H61A/BR by SmCbrl</string>
+				<key>Id</key>
+				<integer>25</integer>
+				<key>Path</key>
+				<string>layout25.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Realtek ALC887-VD for GA-B75M-D3H rev 1.0 by maiconjs</string>
+				<key>Id</key>
+				<integer>15</integer>
+				<key>Path</key>
+				<string>layout15.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Realtek 887-VD for Asus B85-ME by maiconjs</string>
 				<key>Id</key>
 				<integer>40</integer>
@@ -135,6 +151,22 @@
 		</array>
 		<key>Platforms</key>
 		<array>
+			<dict>
+				<key>Comment</key>
+				<string>Realtek 887-VD for ASUS H61A/BR by SmCbrl</string>
+				<key>Id</key>
+				<integer>25</integer>
+				<key>Path</key>
+				<string>Platforms25.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Realtek ALC887-VD for GA-B75M-D3H rev 1.0 by maiconjs</string>
+				<key>Id</key>
+				<integer>15</integer>
+				<key>Path</key>
+				<string>Platforms15.xml.zlib</string>
+			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>Realtek 887-VD for Asus B85-ME by maiconjs</string>
