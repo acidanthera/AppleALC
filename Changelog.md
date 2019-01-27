@@ -1,5 +1,35 @@
 AppleALC Changelog
 ==================
+#### v1.3.5
+- Added AD1988A layout-id 12 by chrome
+- Added ALC282 layout-id 41/43/51 for Lenovo Y410P/Y430P/Y510P by yunsur
+- Added CX8400 layout-id 12 for Elitebook 1050 G1 by tyufhl & kuque
+- Added ALC269VC layout-id 55 for Thinkpad X230 with Dock4338
+- Added ALC235 layout-id 15 for ASUS FX53VD by qiuchenly
+- Added Chinese readme
+- Added ALC255 layout-id 31 for ASUS UX360CA by cowpod
+- Added ALC269VC layout-id 188 for Lenovo Y500 by BaoStorm
+- Update audio layouts with fixes ALC887, ALC892, ALC1220, ALCS1220A and ALC1150 by toleda
+- Added ALC889 layout-id 2, 3 by toleda
+- Added ALCS1200A layout-id 1, 2, 3 by toleda
+- Added ALC256 layout-id 5  by chrome
+- Fix headphone input in ALC255 layout-id 99 for XiaoMI Air by ourfor
+- Added ALC285 layout-id 21 by andreszerocross
+- Added ALC298 layout-id 22 by andreszerocross
+- Added ALC299 layout-id 21 by andreszerocross
+- Added CX20753 layout-id 21 by andreszerocross
+- Added ALC233 layout-id 21 by andreszerocross
+- Added IDT 92HD73C1X5 layout-id 21 by andreszerocross
+- Added ALC294 layout-id 21 by andreszerocross
+- Added ALC256 layout-id 21 by andreszerocross
+- Added CX8200 layout-id 21 by andreszerocross
+- Added CX20751/2 layout-id 21 by andreszerocross
+- Added ALC286 layout-id 11 for Lenovo Yoga3 pro by gdllzkusi
+- Added ALC236 layout-id 18 for LEGION Y7000/Y530 by xiaoMGitHub
+- Fixed ALC256 layout-id 56 by daliansky
+- Added 10.14.4 compatible anticlick patch by chrome
+- Added CX20757 layout-id 28 for Lenovo G510 by Z39
+
 #### v1.3.4
 - Disabled AppleGFXHDA matching onto HDEF to force AppleHDA usage
 - Added Wern Apfel's menubar patch for CX20590
@@ -14,6 +44,19 @@ AppleALC Changelog
 - Added ALC236 layout-id 99 for Lenovo Air 13 IWL by DalianSky
 - Fix speaker volume slider CX8050
 - Enable NVIDIA HDMI patches for laptop GPUs
+- Added ALC280 layout-id 21 for Dell Precision ﻿T7610 ﻿Workstation by Andres ZeroCross
+- Added ALC295 layout-id 21 for Acer Nitro 5 Spin (NP515-51) by Andres ZeroCross
+- Added VIA VT1705 layout-id 21 for ECS H81H3-M4 (1.0A) by Andres ZeroCross
+- Added ALC269 layoutid=88 for MECHREVO X8Ti Plus by DalianSky
+- Added ALC662 layout-id 17 for HP Compaq Elite 8000 SFF by aloha_cn
+- Added ALC288 layout-id 23 for Dell XPS 9343 by yyfn
+- Added ALC892 layout-id 16 for MSI GL73-8RD by MacPeet
+- Change CX20585 layout-id 13 resources
+- Added ALC887 layout-id 52 for Asus PRIME Z270-P by ctich
+- Added AD1984A layout-id 44 by Giesteira
+- Added ALC269 layout-id 44 for Samsung _NP350V5C by Giesteira
+- Added ALC269 layout-id 17 by MacPeet
+- Added ALC1220 layout-id 16 for Gigabyte Z390 by MacPeet
 
 #### v1.3.3
 - Added ability to disable controller patching by injecting property 'no-controller-patch' (for use of FakePCIID_Intel_HDMI_Audio)

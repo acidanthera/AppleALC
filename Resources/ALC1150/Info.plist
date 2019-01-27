@@ -14,7 +14,7 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>Toleda - ALC1150</string>
+				<string>Toleda - ALC1150, 5/6 audio ports, native: 2 inputs, 3/4 outputs+front panel+SPDIF/Optical</string>
 				<key>Id</key>
 				<integer>1</integer>
 				<key>Path</key>
@@ -22,7 +22,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Toleda - ALC1150</string>
+				<string>Toleda - ALC1150, 3 audio ports, repurposed to 5.1: 0 inputs, 3 outputs+front panel+SPDIF/Optical</string>
 				<key>Id</key>
 				<integer>2</integer>
 				<key>Path</key>
@@ -30,7 +30,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Toleda - ALC1150</string>
+				<string>Toleda - ALC1150, 3 audio ports, native: 2 inputs, 1 output+front panel+SPDIF/Optical</string>
 				<key>Id</key>
 				<integer>3</integer>
 				<key>Path</key>

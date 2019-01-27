@@ -46,6 +46,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Andres ZeroCross - Realtek ALC233 for Asus A451LB-WX076D</string>
+				<key>Id</key>
+				<integer>21</integer>
+				<key>Path</key>
+				<string>layout21.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Custom for Realtek ALC233 for SONY VAIO Fit 14E(SVF14316SCW) by SquallATF</string>
 				<key>Id</key>
 				<integer>27</integer>
@@ -121,6 +129,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Andres ZeroCross - Realtek ALC233 for Asus A451LB-WX076D</string>
+				<key>Id</key>
+				<integer>21</integer>
+				<key>Path</key>
+				<string>Platforms21.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Custom for Realtek ALC233 for SONY VAIO Fit 14E(SVF14316SCW) by SquallATF</string>
 				<key>Id</key>
 				<integer>27</integer>
@@ -163,6 +179,18 @@
 	</dict>
 	<key>Patches</key>
 	<array>
+		<dict>
+			<key>Count</key>
+			<integer>1</integer>
+			<key>Find</key>
+			<data>xgYASIu/aAE=</data>
+			<key>MinKernel</key>
+			<integer>18</integer>
+			<key>Name</key>
+			<string>AppleHDA</string>
+			<key>Replace</key>
+			<data>xgYBSIu/aAE=</data>
+		</dict>
 		<dict>
 			<key>Count</key>
 			<integer>1</integer>

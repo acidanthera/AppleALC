@@ -22,6 +22,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>ALC236 for Lenovo LEGION Y7000/Y530 by xiaoM</string>
+				<key>Id</key>
+				<integer>18</integer>
+				<key>Path</key>
+				<string>layout18.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Jake Lo - ALC236</string>
 				<key>Id</key>
 				<integer>11</integer>
@@ -73,6 +81,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>ALC236 for Lenovo LEGION Y7000/Y530 by xiaoM</string>
+				<key>Id</key>
+				<integer>18</integer>
+				<key>Path</key>
+				<string>Platforms18.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Jake Lo - ALC236</string>
 				<key>Id</key>
 				<integer>11</integer>
@@ -115,6 +131,18 @@
 	</dict>
 	<key>Patches</key>
 	<array>
+		<dict>
+			<key>Count</key>
+			<integer>1</integer>
+			<key>Find</key>
+			<data>xgYASIu/aAE=</data>
+			<key>MinKernel</key>
+			<integer>18</integer>
+			<key>Name</key>
+			<string>AppleHDA</string>
+			<key>Replace</key>
+			<data>xgYBSIu/aAE=</data>
+		</dict>
 		<dict>
 			<key>Count</key>
 			<integer>1</integer>

@@ -46,9 +46,9 @@
 									<key>MuteInputAmp</key>
 									<true/>
 									<key>PublishMute</key>
-									<true/>
+									<false/>
 									<key>PublishVolume</key>
-									<true/>
+									<false/>
 									<key>VolumeInputAmp</key>
 									<true/>
 								</dict>
@@ -64,6 +64,8 @@
 							<dict>
 								<key>NodeID</key>
 								<integer>26</integer>
+								<key>VREF</key>
+								<integer>80</integer>
 							</dict>
 						</array>
 					</array>
@@ -92,9 +94,9 @@
 									<key>MuteInputAmp</key>
 									<true/>
 									<key>PublishMute</key>
-									<true/>
+									<false/>
 									<key>PublishVolume</key>
-									<true/>
+									<false/>
 									<key>VolumeInputAmp</key>
 									<true/>
 								</dict>
@@ -114,17 +116,6 @@
 					<array>
 						<array>
 							<dict>
-								<key>Amp</key>
-								<dict>
-									<key>MuteInputAmp</key>
-									<false/>
-									<key>PublishMute</key>
-									<true/>
-									<key>PublishVolume</key>
-									<true/>
-									<key>VolumeInputAmp</key>
-									<false/>
-								</dict>
 								<key>NodeID</key>
 								<integer>31</integer>
 							</dict>
@@ -147,7 +138,7 @@
 										</dict>
 									</array>
 									<key>MuteInputAmp</key>
-									<true/>
+									<false/>
 									<key>PublishMute</key>
 									<true/>
 									<key>PublishVolume</key>
@@ -157,25 +148,6 @@
 								</dict>
 								<key>NodeID</key>
 								<integer>16</integer>
-							</dict>
-						</array>
-					</array>
-					<array>
-						<array>
-							<dict>
-								<key>Amp</key>
-								<dict>
-									<key>MuteInputAmp</key>
-									<false/>
-									<key>PublishMute</key>
-									<true/>
-									<key>PublishVolume</key>
-									<true/>
-									<key>VolumeInputAmp</key>
-									<false/>
-								</dict>
-								<key>NodeID</key>
-								<integer>25</integer>
 							</dict>
 							<dict>
 								<key>Amp</key>
@@ -198,6 +170,44 @@
 									<key>MuteInputAmp</key>
 									<true/>
 									<key>PublishMute</key>
+									<false/>
+									<key>PublishVolume</key>
+									<false/>
+									<key>VolumeInputAmp</key>
+									<true/>
+								</dict>
+								<key>NodeID</key>
+								<integer>36</integer>
+							</dict>
+						</array>
+					</array>
+					<array>
+						<array>
+							<dict>
+								<key>NodeID</key>
+								<integer>25</integer>
+							</dict>
+							<dict>
+								<key>Amp</key>
+								<dict>
+									<key>Channels</key>
+									<array>
+										<dict>
+											<key>Bind</key>
+											<integer>1</integer>
+											<key>Channel</key>
+											<integer>1</integer>
+										</dict>
+										<dict>
+											<key>Bind</key>
+											<integer>2</integer>
+											<key>Channel</key>
+											<integer>2</integer>
+										</dict>
+									</array>
+									<key>MuteInputAmp</key>
+									<false/>
+									<key>PublishMute</key>
 									<true/>
 									<key>PublishVolume</key>
 									<true/>
@@ -207,12 +217,42 @@
 								<key>NodeID</key>
 								<integer>17</integer>
 							</dict>
+							<dict>
+								<key>Amp</key>
+								<dict>
+									<key>Channels</key>
+									<array>
+										<dict>
+											<key>Bind</key>
+											<integer>1</integer>
+											<key>Channel</key>
+											<integer>1</integer>
+										</dict>
+										<dict>
+											<key>Bind</key>
+											<integer>2</integer>
+											<key>Channel</key>
+											<integer>2</integer>
+										</dict>
+									</array>
+									<key>MuteInputAmp</key>
+									<true/>
+									<key>PublishMute</key>
+									<false/>
+									<key>PublishVolume</key>
+									<false/>
+									<key>VolumeInputAmp</key>
+									<true/>
+								</dict>
+								<key>NodeID</key>
+								<integer>36</integer>
+							</dict>
 						</array>
 					</array>
 				</array>
 			</array>
 			<key>PathMapID</key>
-			<integer>1</integer>
+			<integer>13</integer>
 		</dict>
 	</array>
 </dict>

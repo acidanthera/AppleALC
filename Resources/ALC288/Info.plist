@@ -28,6 +28,14 @@
 				<key>Path</key>
 				<string>layout13.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>yyfn - Realtek ALC288 for Dell XPS 9343</string>
+				<key>Id</key>
+				<integer>23</integer>
+				<key>Path</key>
+				<string>layout23.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -47,10 +55,30 @@
 				<key>Path</key>
 				<string>PlatformsID.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>yyfn - Realtek ALC288 for Dell XPS 9343</string>
+				<key>Id</key>
+				<integer>23</integer>
+				<key>Path</key>
+				<string>Platforms23.xml.zlib</string>
+			</dict>
 		</array>
 	</dict>
 	<key>Patches</key>
 	<array>
+		<dict>
+			<key>Count</key>
+			<integer>1</integer>
+			<key>Find</key>
+			<data>xgYASIu/aAE=</data>
+			<key>MinKernel</key>
+			<integer>18</integer>
+			<key>Name</key>
+			<string>AppleHDA</string>
+			<key>Replace</key>
+			<data>xgYBSIu/aAE=</data>
+		</dict>
 		<dict>
 			<key>Count</key>
 			<integer>1</integer>

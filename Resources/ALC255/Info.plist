@@ -78,6 +78,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>cowpod - Realtek ALC255 for UX360CA</string>
+				<key>Id</key>
+				<integer>31</integer>
+				<key>Path</key>
+				<string>layout31.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>DalianSky - Realtek ALC255 XiaoMi Air</string>
 				<key>Id</key>
 				<integer>99</integer>
@@ -153,6 +161,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>cowpod - Realtek ALC255 for UX360CA</string>
+				<key>Id</key>
+				<integer>31</integer>
+				<key>Path</key>
+				<string>Platforms31.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>DalianSky - Realtek ALC255 XiaoMi Air</string>
 				<key>Id</key>
 				<integer>99</integer>
@@ -163,6 +179,18 @@
 	</dict>
 	<key>Patches</key>
 	<array>
+		<dict>
+			<key>Count</key>
+			<integer>1</integer>
+			<key>Find</key>
+			<data>xgYASIu/aAE=</data>
+			<key>MinKernel</key>
+			<integer>18</integer>
+			<key>Name</key>
+			<string>AppleHDA</string>
+			<key>Replace</key>
+			<data>xgYBSIu/aAE=</data>
+		</dict>
 		<dict>
 			<key>Count</key>
 			<integer>1</integer>

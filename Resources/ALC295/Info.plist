@@ -54,6 +54,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Andres - ALC295 Acer Nitro 5 Spin (NP515-51)</string>
+				<key>Id</key>
+				<integer>21</integer>
+				<key>Path</key>
+				<string>layout21.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>vusun123 - ALC 295 for Skylake HP Pavilion</string>
 				<key>Id</key>
 				<integer>28</integer>
@@ -105,6 +113,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Andres - ALC295 Acer Nitro 5 Spin (NP515-51)</string>
+				<key>Id</key>
+				<integer>21</integer>
+				<key>Path</key>
+				<string>Platforms21.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>vusun123 - ALC 295 for Skylake HP Pavilion</string>
 				<key>Id</key>
 				<integer>28</integer>
@@ -115,6 +131,18 @@
 	</dict>
 	<key>Patches</key>
 	<array>
+		<dict>
+			<key>Count</key>
+			<integer>1</integer>
+			<key>Find</key>
+			<data>xgYASIu/aAE=</data>
+			<key>MinKernel</key>
+			<integer>18</integer>
+			<key>Name</key>
+			<string>AppleHDA</string>
+			<key>Replace</key>
+			<data>xgYBSIu/aAE=</data>
+		</dict>
 		<dict>
 			<key>Count</key>
 			<integer>1</integer>

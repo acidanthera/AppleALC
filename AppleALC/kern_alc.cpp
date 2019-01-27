@@ -35,7 +35,10 @@ void AlcEnabler::init() {
 
 	if (getKernelVersion() >= KernelVersion::Sierra) {
 		// Unlock custom audio engines by disabling Apple private entitlement verification
+		// Recent macOS versions (e.g. 10.13.6) support legacy_hda_tools_support=1 boot argument, which works similarly.
 		if (checkKernelArgument("-alcdhost")) {
+			if (getKernelVersion() >= KernelVersion::HighSierra)
+				SYSLOG("alc", "consider replacing -alcdhost with legacy_hda_tools_support=1 boot-arg!");
 			lilu.onEntitlementRequestForce([](void *user, task_t task, const char *entitlement, OSObject *&original) {
 				static_cast<AlcEnabler *>(user)->handleAudioClientEntitlement(task, entitlement, original);
 			}, this);
@@ -467,7 +470,7 @@ void AlcEnabler::processKext(KernelPatcher &patcher, size_t index, mach_vm_addre
 				continue;
 			}
 
-			DBGLOG("alc", "handling %lu controller vendor %08X with %lu patches", i, info->vendor, info->patchNum);
+			DBGLOG("alc", "handling %lu controller %X:%X with %lu patches", i, info->vendor, info->device, info->patchNum);
 			// Choose a free device-id for NVIDIA HDAU to support multigpu setups
 			if (info->vendor == WIOKit::VendorID::NVIDIA) {
 				for (size_t j = 0; j < info->patchNum; j++) {
@@ -762,12 +765,12 @@ bool AlcEnabler::validateInjection(IORegistryEntry *hdaService) {
 }
 
 void AlcEnabler::applyPatches(KernelPatcher &patcher, size_t index, const KextPatch *patches, size_t patchNum) {
-	DBGLOG("alc", "applying patches for %lu kext", index);
 	for (size_t p = 0; p < patchNum; p++) {
 		auto &patch = patches[p];
 		if (patch.patch.kext->loadIndex == index) {
+			DBGLOG("alc", "checking patch %lu for %lu kext (%s)", p, index, patch.patch.kext->id);
 			if (patcher.compatibleKernel(patch.minKernel, patch.maxKernel)) {
-				DBGLOG("alc", "applying %lu patch for %lu kext", p, index);
+				DBGLOG("alc", "applying patch %lu  for %lu kext (%s)", p, index, patch.patch.kext->id);
 				patcher.applyLookupPatch(&patch.patch);
 				// Do not really care for the errors for now
 				patcher.clearError();

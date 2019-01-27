@@ -20,6 +20,14 @@
 				<key>Path</key>
 				<string>layout3.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Andres ZeroCross - LG gram 15ZD960-GX5BK</string>
+				<key>Id</key>
+				<integer>21</integer>
+				<key>Path</key>
+				<string>layout21.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -31,10 +39,30 @@
 				<key>Path</key>
 				<string>PlatformsM.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Andres ZeroCross - LG gram 15ZD960-GX5BK</string>
+				<key>Id</key>
+				<integer>21</integer>
+				<key>Path</key>
+				<string>Platforms21.xml.zlib</string>
+			</dict>
 		</array>
 	</dict>
 	<key>Patches</key>
 	<array>
+		<dict>
+			<key>Count</key>
+			<integer>1</integer>
+			<key>Find</key>
+			<data>xgYASIu/aAE=</data>
+			<key>MinKernel</key>
+			<integer>18</integer>
+			<key>Name</key>
+			<string>AppleHDA</string>
+			<key>Replace</key>
+			<data>xgYBSIu/aAE=</data>
+		</dict>
 		<dict>
 			<key>Count</key>
 			<integer>1</integer>
@@ -89,6 +117,20 @@
 			<key>Count</key>
 			<integer>2</integer>
 			<key>Find</key>
+			<data>gxnUEQ==</data>
+			<key>MaxKernel</key>
+			<integer>15</integer>
+			<key>MinKernel</key>
+			<integer>15</integer>
+			<key>Name</key>
+			<string>AppleHDA</string>
+			<key>Replace</key>
+			<data>AAAAAA==</data>
+		</dict>
+		<dict>
+			<key>Count</key>
+			<integer>2</integer>
+			<key>Find</key>
 			<data>ihnUEQ==</data>
 			<key>MinKernel</key>
 			<integer>16</integer>
@@ -96,6 +138,20 @@
 			<string>AppleHDA</string>
 			<key>Replace</key>
 			<data>AAAAAA==</data>
+		</dict>
+		<dict>
+			<key>Count</key>
+			<integer>1</integer>
+			<key>Find</key>
+			<data>a3Bzaes=</data>
+			<key>MinKernel</key>
+			<integer>14</integer>
+			<key>Name</key>
+			<string>AppleHDA</string>
+			<key>Provider</key>
+			<string>Wern Apfel</string>
+			<key>Replace</key>
+			<data>Y2ltaes=</data>
 		</dict>
 	</array>
 	<key>Vendor</key>
