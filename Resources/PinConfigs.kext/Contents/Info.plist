@@ -2053,6 +2053,28 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>Goldfish64 - ALC269VB for Dell Optiplex 7010</string>
+					<key>CodecID</key>
+					<integer>283902569</integer>
+					<key>ConfigData</key>
+					<data>
+					AScc8AEnHQABJx4AAScfQAFHHBABRx0BAUce
+					EwFHH5ABRwwCAXcc8AF3HQABdx4AAXcfQAGH
+					HDABhx2QAYcegQGHHwIBlxxAAZcdkAGXHoEB
+					lx8BAacc8AGnHQABpx4AAacfQAG3HCABtx1A
+					AbceAQG3HwEB1xzwAdcdAAHXHgAB1x9AAecc
+					8AHnHQAB5x4AAecfQAIXHFACFx1AAhceIQIX
+					HwI=
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>21</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>ALC269</string>
 					<key>CodecID</key>
 					<integer>283902569</integer>
