@@ -32,6 +32,27 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>Realtek ALC255 Gigabyte Brix BRI5(H) by Najdanovic Ivan</string>
+					<key>CodecID</key>
+					<integer>283902549</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccMAEnHQEBJx6gAScfkAGXHCABlx0RAZce
+					gQGXHwICFxxAAhcdEQIXHiECFx8CAhcMAg==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>15</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>ALC269VC for Lenovo Y500 by BaoStorm</string>
 					<key>CodecID</key>
 					<integer>283902569</integer>
