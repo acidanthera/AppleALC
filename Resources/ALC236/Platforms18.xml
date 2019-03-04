@@ -53,7 +53,7 @@
 									<true/>
 								</dict>
 								<key>NodeID</key>
-								<integer>8</integer>
+								<integer>7</integer>
 							</dict>
 							<dict>
 								<key>Amp</key>
@@ -83,7 +83,7 @@
 									<true/>
 								</dict>
 								<key>NodeID</key>
-								<integer>35</integer>
+								<integer>36</integer>
 							</dict>
 							<dict>
 								<key>Boost</key>
@@ -123,7 +123,7 @@
 									<true/>
 								</dict>
 								<key>NodeID</key>
-								<integer>9</integer>
+								<integer>8</integer>
 							</dict>
 							<dict>
 								<key>Amp</key>
@@ -153,7 +153,7 @@
 									<true/>
 								</dict>
 								<key>NodeID</key>
-								<integer>34</integer>
+								<integer>35</integer>
 							</dict>
 							<dict>
 								<key>Boost</key>
