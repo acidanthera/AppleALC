@@ -5227,6 +5227,30 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>Realtek ALC887-VD GA-Z97 HD3 ver2.1 by varrtix</string>
+					<key>CodecID</key>
+					<integer>283904135</integer>
+					<key>ConfigData</key>
+					<data>
+					IRccYCEXHQEhFx5DIRcfmSEnHPAhJx0AISce
+					ACEnH0AhRxyAIUcdQCFHHgEhRx8BIUcMAiFX
+					HIIhVx0QIVceASFXHwEhZxyBIWcdYCFnHgEh
+					Zx8BIXccgiF3HSAhdx4BIXcfASGHHHAhhx2Q
+					IYceoSGHHwEhlxxwIZcdkCGXHqEhlx8CIacc
+					ICGnHTAhpx6BIacfASG3HFAhtx1AIbceISG3
+					HwIhtwwCIccc8CHHHQAhxx4AIccfQCHXHPAh
+					1x0AIdceACHXH0Ah5xzwIecdACHnHgAh5x9A
+					Ifcc8CH3HQAh9x4AIfcfQA==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>87</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>Custom Realtek ALC887-VD by Constanta</string>
 					<key>CodecID</key>
 					<integer>283904135</integer>

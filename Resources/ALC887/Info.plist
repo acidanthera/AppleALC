@@ -132,6 +132,14 @@
 				<key>Path</key>
 				<string>layout99.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Realtek ALC887-VD GA-Z97 HD3 ver2.1 by varrtix</string>
+				<key>Id</key>
+				<integer>87</integer>
+				<key>Path</key>
+				<string>layout87.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -254,6 +262,14 @@
 				<integer>99</integer>
 				<key>Path</key>
 				<string>Platforms99.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Realtek ALC887-VD GA-Z97 HD3 ver2.1 by varrtix</string>
+				<key>Id</key>
+				<string>87</string>
+				<key>Path</key>
+				<string>Platforms87.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>
