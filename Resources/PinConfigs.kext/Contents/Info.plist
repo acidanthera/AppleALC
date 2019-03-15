@@ -4284,6 +4284,26 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>Andres - ALC299 Dell XPS13</string>
+					<key>CodecID</key>
+					<integer>283902617</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccQAEnHQEBJx6gAScfkAF3HBABdx0BAXce
+					FwF3H5ABlxwwAZcdEAGXHoEBlx8EAhccIAIX
+					HRACFx4hAhcfBA==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>22</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
 					<string>Mirone - Realtek ALC662</string>
