@@ -6595,6 +6595,32 @@
 					<true/>
 				</dict>
 				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>CodecID</key>
+					<integer>283906592</integer>
+					<key>CodecName</key>
+					<string>lostwolf - ALC1220 for Gigabyte Z370-HD3P</string>
+					<key>ConfigData</key>
+					<data>
+					AScc8AEnHQABJx4AAScfQAFHHBABRx1AAUce
+					EQFHHwEBRwwCAVccIAFXHRABVx4BAVcfAQFn
+					HDABZx1gAWceAQFnHwEBdxxAAXcdIAF3HgEB
+					dx8BAYccUAGHHZABhx6gAYcfkQGXHGABlx2Q
+					AZcegAGXHwIBpxxwAacdMAGnHoEBpx8BAbcc
+					gAG3HUABtx4hAbcfAgG3DAIB1xzwAdcdAAHX
+					HgAB1x9AAecckAHnHQAB5x5DAecfmQ==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>27</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgG3DAI=</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
 					<key>CodecID</key>
 					<integer>283904768</integer>
 					<key>CodecName</key>

@@ -84,6 +84,14 @@
 				<key>Path</key>
 				<string>layout16.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>lostwolf - ALC1220 for Gigabyte Z370-HD3P</string>
+				<key>Id</key>
+				<integer>27</integer>
+				<key>Path</key>
+				<string>layout27.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -158,6 +166,14 @@
 				<integer>16</integer>
 				<key>Path</key>
 				<string>Platforms16.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>lostwolf - ALC1220 for Gigabyte Z370-HD3P</string>
+				<key>Id</key>
+				<integer>27</integer>
+				<key>Path</key>
+				<string>Platforms27.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>
