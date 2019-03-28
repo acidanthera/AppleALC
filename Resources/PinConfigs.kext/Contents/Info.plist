@@ -1456,9 +1456,13 @@
 					<integer>283902550</integer>
 					<key>ConfigData</key>
 					<data>
-					ASccEAEnHQEBJx6gAScfkAFHHCABRx0BAUce
-					FwFHH5ABlxwwAZcdEAGXHosBlx8CAhccUAIX
-					HRACFx4rAhcfAgFHDAICFwwCAZcHJQIXCIM=
+					AScccAEnHQEBJx6mAScfkAE3HPABNx0AATce
+					AAE3H0ABRxxwAUcdIAFHHqEBRx8CAUcMAgGH
+					HPABhx0AAYceAAGHH0ABlxxwAZcdEAGXHqsB
+					lx8CAaccQQGnHREBpx4RAacfkAG3HEABtx0B
+					AbceEQG3H5AB1xzwAdcdAAHXHgAB1x9AAecc
+					8AHnHQAB5x4AAecfQQIXHDACFx0QAhceKwIX
+					HwICFwwC
 					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
@@ -1513,6 +1517,32 @@
 					<integer>56</integer>
 					<key>WakeConfigData</key>
 					<data>AUcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>Kk for magicbook</string>
+					<key>CodecID</key>
+					<integer>283902550</integer>
+					<key>ConfigData</key>
+					<data>
+					AScccAEnHQEBJx6mAScfkAE3HPABNx0AATce
+					AAE3H0ABRxzwAUcdAAFHHgABRx9AAYcc8AGH
+					HQABhx4AAYcfQAGXHDABlx0QAZceiwGXHwIB
+					pxzwAacdAAGnHgABpx9AAbccQAG3HQEBtx4Q
+					AbcfkAG3DAIB1xzwAdcdAAHXHgAB1x9AAecc
+					8AHnHQAB5x4AAecfQAIXHFACFx0QAhceKwIX
+					HwICFwwC
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>57</integer>
+					<key>WakeConfigData</key>
+					<data>AbcMAgIXDAI=</data>
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
