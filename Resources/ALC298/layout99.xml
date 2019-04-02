@@ -19,13 +19,16 @@
 				<string>LineIn</string>
 			</array>
 			<key>IntSpeaker</key>
-			<dict/>
+            		<dict>
+                		<key>MaximumBootBeepValue</key>
+                		<integer>48</integer>
+                		<key>MuteGPIO</key>
+                		<integer>0</integer>
+            		</dict>
 			<key>LineIn</key>
 			<dict>
-				<key>HeadsetMic_dBV</key>
-				<integer>1088421888</integer>
 				<key>MuteGPIO</key>
-				<integer>1342242841</integer>
+				<integer>1342242840</integer>
 				<key>SignalProcessing</key>
 				<dict>
 					<key>SoftwareDSP</key>
