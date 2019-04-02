@@ -12,7 +12,16 @@
 				<integer>283902616</integer>
 			</array>
 			<key>Headphone</key>
-			<dict/>
+			<dict>
+				<key>AmpPostDelay</key>
+				<integer>50</integer>
+				<key>AmpPreDelay</key>
+				<integer>100</integer>
+				<key>DefaultVolume</key>
+				<integer>4292870144</integer>
+				<key>Headset_dBV</key>
+				<integer>-1055916032</integer>
+			</dict>
 			<key>Inputs</key>
 			<array>
 				<string>Mic</string>
