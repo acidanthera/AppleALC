@@ -980,7 +980,8 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
-					<string>Mirone - Realtek ALC236</string>
+					<string>Mirone - Realtek 
+					</string>
 					<key>CodecID</key>
 					<integer>283902518</integer>
 					<key>ConfigData</key>
@@ -1115,6 +1116,30 @@
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>16</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>ALC236 for DELL-5488 by Daggeryu</string>
+					<key>CodecID</key>
+					<integer>283902518</integer>
+					<key>ConfigData</key>
+					<data>ASccMAEnHQEBJx6mAScfkAE3HPABNx
+					0AATceAAE3H0ABRxwQAUcdAQFHHhcBRx+QAU
+					cMAgGHHPABhx0AAYceAAGHH0ABlxxAAZcdEA
+					GXHoEBlx8CAacc8AGnHQABpx4AAacfQAG3HP
+					ABtx0AAbceAAG3H0AB1xzwAdcdAAHXHgAB1x
+					9AAecc8AHnHQAB5x4AAecfQAIXHCACFx0QAh
+					ceIQIXHwICFwwC</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>54</integer>
 					<key>WakeConfigData</key>
 					<data>AUcMAg==</data>
 					<key>WakeVerbReinit</key>
