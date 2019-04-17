@@ -1128,13 +1128,15 @@
 					<key>CodecID</key>
 					<integer>283902518</integer>
 					<key>ConfigData</key>
-					<data>ASccMAEnHQEBJx6mAScfkAE3HPABNx
-					0AATceAAE3H0ABRxwQAUcdAQFHHhcBRx+QAU
-					cMAgGHHPABhx0AAYceAAGHH0ABlxxAAZcdEA
-					GXHoEBlx8CAacc8AGnHQABpx4AAacfQAG3HP
-					ABtx0AAbceAAG3H0AB1xzwAdcdAAHXHgAB1x
-					9AAecc8AHnHQAB5x4AAecfQAIXHCACFx0QAh
-					ceIQIXHwICFwwC</data>
+					<data>
+					ASccMAEnHQEBJx6mAScfkAE3HPABNx0AATce
+					AAE3H0ABRxwQAUcdAQFHHhcBRx+QAUcMAgGH
+					HPABhx0AAYceAAGHH0ABlxxAAZcdEAGXHoEB
+					lx8CAacc8AGnHQABpx4AAacfQAG3HPABtx0A
+					AbceAAG3H0AB1xzwAdcdAAHXHgAB1x9AAecc
+					8AHnHQAB5x4AAecfQAIXHCACFx0QAhceIQIX
+					HwICFwwC
+					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
