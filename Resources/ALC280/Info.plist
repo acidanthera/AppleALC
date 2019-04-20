@@ -54,6 +54,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>cowpod - Realtek ALC280 - Optiplex 9020SFF</string>
+				<key>Id</key>
+				<integer>16</integer>
+				<key>Path</key>
+				<string>layout16.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Dell Precision ﻿T7610 ﻿Workstation﻿ ALC280 by Andres ZeroCross</string>
 				<key>Id</key>
 				<integer>21</integer>
@@ -102,6 +110,14 @@
 				<integer>15</integer>
 				<key>Path</key>
 				<string>Platforms15.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>cowpod - Realtek ALC280 - Optiplex 9020SFF</string>
+				<key>Id</key>
+				<integer>16</integer>
+				<key>Path</key>
+				<string>Platforms16.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
