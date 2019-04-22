@@ -6720,6 +6720,20 @@
 					<true/>
 				</dict>
 				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>CodecID</key>
+					<integer>283906592</integer>
+					<key>CodecName</key>
+					<string>Custom ALC1220 for MSI P65 Creator by CleverCoder</string>
+					<key>ConfigData</key>
+					<data>AUccEAFHHRABRx4RAUcfAAFHDAIBtxwgAbcdAAG3HhcBtx+QAbcMAgGXHDABlx0QAZcegQGXHwABJxxAAScdAAEnHqYBJx+Q</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>34</integer>
+				</dict>
+				<dict>
 					<key>CodecID</key>
 					<integer>283904768</integer>
 					<key>CodecName</key>

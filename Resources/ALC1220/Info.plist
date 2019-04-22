@@ -92,6 +92,14 @@
 				<key>Path</key>
 				<string>layout27.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom ALC1220 for MSI P65 Creator by CleverCoder</string>
+				<key>Id</key>
+				<integer>34</integer>
+				<key>Path</key>
+				<string>layout34.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -174,6 +182,14 @@
 				<integer>27</integer>
 				<key>Path</key>
 				<string>Platforms27.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>ALC1220 for MSI P65 Creator</string>
+				<key>Id</key>
+				<integer>34</integer>
+				<key>Path</key>
+				<string>Platforms34.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>
