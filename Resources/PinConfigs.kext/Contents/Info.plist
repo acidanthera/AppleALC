@@ -5999,20 +5999,16 @@
 					<key>ConfigData</key>
 					<data>
 					ARcccAEXHdABFx4EARcfSQEnHFABJx0BASce
-					pgEnH5kBRxwQAUcdAQFHHhcBRx+ZAXccLwF3
-					HRABdx4BAXcfAQGHHGABhx0QAYcegQGHHwEB
-					pxxQAacdEAGnHoEBpx8BAbccMAG3HRABtx4h
-					AbcfAQHXHJAB1x0AAdceNQHXH0kB5xxAAecd
-					EQHnHkUB5x8BAUcMAg==
+					pgEnH5kBRxwQAUcdAQFHHhcBRx+ZAUcMAgF3
+					HC8Bdx0QAXceAQF3HwEBhxxgAYcdEAGHHoEB
+					hx8BAaccUAGnHRABpx6BAacfAQG3HDABtx0Q
+					AbceIQG3HwEBtwwCAdcckAHXHQAB1x41Adcf
+					SQHnHEAB5x0RAeceRQHnHwE=
 					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>97</integer>
-					<key>WakeConfigData</key>
-					<data>AUcMAg==</data>
-					<key>WakeVerbReinit</key>
-					<true/>
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
