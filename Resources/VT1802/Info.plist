@@ -32,9 +32,9 @@
 				<key>Comment</key>
 				<string>VT1802 for hasee K650D</string>
 				<key>Id</key>
-				<integer>5</integer>
+				<integer>65</integer>
 				<key>Path</key>
-				<string>layout5.xml.zlib</string>
+				<string>layout65.xml.zlib</string>
 			</dict>
 		</array>
 		<key>Platforms</key>
@@ -59,9 +59,9 @@
 				<key>Comment</key>
 				<string>VT1802 for hasee K650D</string>
 				<key>Id</key>
-				<integer>5</integer>
+				<integer>65</integer>
 				<key>Path</key>
-				<string>Platforms5.xml.zlib</string>
+				<string>Platforms65.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>
