@@ -8159,6 +8159,25 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>VIA VT1802 for hasee k650d</string>
+					<key>CodecID</key>
+					<integer>285639750</integer>
+					<key>ConfigData</key>
+					<data>
+					AkccEAJHHQACRx4TAkcfkAJXHCACVx1AAlce
+					IQJXHwEClxxAApcdAAKXHqAClx+QArccYAK3
+					HZACtx6BArcfAgLXHHAC1x0QAtceRALXHwAC
+					RwwCAlcMAw==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>5</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>ChalesYu - VIA VT1802</string>
 					<key>CodecID</key>
 					<integer>285639750</integer>
