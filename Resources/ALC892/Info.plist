@@ -86,6 +86,22 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>MacPeet - alc892 for MSI B150M MORTAR - SwitchMode</string>
+				<key>Id</key>
+				<integer>17</integer>
+				<key>Path</key>
+				<string>layout17.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>MacPeet - alc892 for MSI B150M MORTAR - ManualMode</string>
+				<key>Id</key>
+				<integer>18</integer>
+				<key>Path</key>
+				<string>layout18.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>ALC892 for Clevo P751DMG by Cryse Hillmes</string>
 				<key>Id</key>
 				<integer>28</integer>
@@ -206,6 +222,22 @@
 				<integer>16</integer>
 				<key>Path</key>
 				<string>Platforms16.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>MacPeet - alc892 for MSI B150M MORTAR - SwitchMode</string>
+				<key>Id</key>
+				<integer>17</integer>
+				<key>Path</key>
+				<string>Platforms17.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>MacPeet - alc892 for MSI B150M MORTAR - ManualMode</string>
+				<key>Id</key>
+				<integer>18</integer>
+				<key>Path</key>
+				<string>Platforms18.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>

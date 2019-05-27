@@ -1,5 +1,25 @@
 AppleALC Changelog
 ==================
+#### v1.3.9
+
+
+#### v1.3.8
+- Fixed rare random audio init failure on 10.14
+- Added ALC255 (3246) layout-id 100 for alienware alpha r2 by DalianSky
+- Added ALC262 layout-id 7 for MS-7480N1 by DalianSky
+- Added ALC236 layout-id 54 for DELL-5488 by Daggeryu
+- Added ALC280 layout-id 16 for Optiplex 9020SFF by cowpod
+- Added ALC1220 layout-id 34 for MSI P65 Creator Laptop by CleverCoder
+- Added ALC892 layout-id 97 for Hasee K770e i7 D1 (P170sm-a) by gitawake
+- Fix Typo/Update Pinconfig ALC294 layout21 by Andres and Add HDAController patch for WhiskeyLake Notebook
+- Update PathMap for ALC298 layout-id 99 for XiaoMi-Pro
+- Added ALC892 layout-id 17 for MSI B150M MORTAR - SwitchMode by MacPeet
+- Added ALC892 layout-id 18 for MSI B150M MORTAR - ManualMode by MacPeet
+- Added ALC1220 layout-id 28 for Z390 Aorus Ultra - Output SP/HP Manualmode by MacPeet
+- Added VT1802 layout-id 65 for hasee K650D by ivothgle
+- Added ALCS1220A layout-id 20 and 21 for Asus ROG STRIX Z370-F Gaming by RodionS & Nacho
+- Added ALC270 layout-id 21 for Asus A46CB-WX024D Laptop by Andres ZeroCross
+
 #### v.1.3.7
 - VT2020_2021 anticlick patches by chrome
 - VT1802 anticlick patches by chrome

@@ -14,6 +14,14 @@
 		<array>
 			<dict>
 				<key>Comment</key>
+				<string>DalianSky- ALC262 for MS-7480N1</string>
+				<key>Id</key>
+				<integer>7</integer>
+				<key>Path</key>
+				<string>layout7.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>MacPeet - ALC262</string>
 				<key>Id</key>
 				<integer>11</integer>
@@ -47,6 +55,14 @@
 		</array>
 		<key>Platforms</key>
 		<array>
+			<dict>
+				<key>Comment</key>
+				<string>DalianSky- ALC262 for MS-7480N1</string>
+				<key>Id</key>
+				<integer>7</integer>
+				<key>Path</key>
+				<string>Platforms7.xml.zlib</string>
+			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>MacPeet - ALC262</string>
@@ -189,6 +205,7 @@
 	<key>Revisions</key>
 	<array>
 		<integer>1048832</integer>
+		<integer>1049346</integer>
 		<integer>1049090</integer>
 	</array>
 	<key>Vendor</key>

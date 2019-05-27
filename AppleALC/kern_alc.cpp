@@ -648,8 +648,7 @@ bool AlcEnabler::grabCodecs() {
 				while ((codec = OSDynamicCast(IORegistryEntry, iterator->getNextObject())) != nullptr) {
 					if (codec->getProperty("IOHDACodecVendorID")) {
 						DBGLOG("alc", "found analog codec %s", safeString(codec->getName()));
-						appendCodec(this, codec);
-						found = true;
+						found = appendCodec(this, codec);
 						break;
 					}
 				}
