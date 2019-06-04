@@ -1525,6 +1525,32 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>Insanelydeepak - Realtek ALC256 (3246) for Dell Series with subwoofer</string>
+					<key>CodecID</key>
+					<integer>283902550</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccEAEnHQABJx6gAScfkAFHHCABRx0AAUce
+					FwFHH5ABRwwCAZccMAGXHRABlx6LAZcfAgG3
+					HEABtx0AAbceFwG3H5ABtwwCAhccUAIXHRAC
+					Fx4rAhcfAgE3HPABNx0AATceAAE3H0ABhxzw
+					AYcdAAGHHgABhx9AAacc8AGnHQABpx4AAacf
+					QAHXHPAB1x0AAdceAAHXH0AB5xzwAecdAAHn
+					HgAB5x9A
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>14</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgG3DAICFwfAAhcIgwGXByQBpwcg</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>Andres ZeroCross for Dell 5570</string>
 					<key>CodecID</key>
 					<integer>283902550</integer>
