@@ -14,6 +14,14 @@
 		<array>
 			<dict>
 				<key>Comment</key>
+				<string>Mirone Laptop Patch ALC270 v1</string>
+				<key>Id</key>
+				<integer>3</integer>
+				<key>Path</key>
+				<string>layout3.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Mirone Laptop Patch ALC270 v2</string>
 				<key>Id</key>
 				<integer>4</integer>
@@ -22,11 +30,19 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Mirone Laptop Patch ALC270 v1</string>
+				<string>Daniel Laptop Asus Patch ALC270 </string>
 				<key>Id</key>
-				<integer>3</integer>
+				<integer>14</integer>
 				<key>Path</key>
-				<string>layout3.xml.zlib</string>
+				<string>layout14.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Andres ALC270 Asus A46CB-WX024D by Andres ZeroCross</string>
+				<key>Id</key>
+				<integer>21</integer>
+				<key>Path</key>
+				<string>layout21.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -49,6 +65,14 @@
 		<array>
 			<dict>
 				<key>Comment</key>
+				<string>Mirone Laptop Patch ALC270 v1</string>
+				<key>Id</key>
+				<integer>3</integer>
+				<key>Path</key>
+				<string>PlatformsM3.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Mirone Laptop Patch ALC270 v2</string>
 				<key>Id</key>
 				<integer>4</integer>
@@ -57,11 +81,19 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Mirone Laptop Patch ALC270 v1</string>
+				<string>Daniel Laptop Patch ALC270 </string>
 				<key>Id</key>
-				<integer>3</integer>
+				<integer>14</integer>
 				<key>Path</key>
-				<string>PlatformsM3.xml.zlib</string>
+				<string>Platforms14.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Andres ALC270 Asus A46CB-WX024D by Andres ZeroCross</string>
+				<key>Id</key>
+				<integer>21</integer>
+				<key>Path</key>
+				<string>Platforms21.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
