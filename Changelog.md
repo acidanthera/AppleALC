@@ -1,9 +1,55 @@
 AppleALC Changelog
 ==================
+#### v1.3.9
+- Allow loading on 10.15 without `-lilubetaall`
+- Added ALC270 layout-id 14 for Asus X series Laptop by Daniel
+
+
+#### v1.3.8
+- Fixed rare random audio init failure on 10.14
+- Added ALC255 (3246) layout-id 100 for alienware alpha r2 by DalianSky
+- Added ALC262 layout-id 7 for MS-7480N1 by DalianSky
+- Added ALC236 layout-id 54 for DELL-5488 by Daggeryu
+- Added ALC280 layout-id 16 for Optiplex 9020SFF by cowpod
+- Added ALC1220 layout-id 34 for MSI P65 Creator Laptop by CleverCoder
+- Added ALC892 layout-id 97 for Hasee K770e i7 D1 (P170sm-a) by gitawake
+- Fix Typo/Update Pinconfig ALC294 layout21 by Andres and Add HDAController patch for WhiskeyLake Notebook
+- Update PathMap for ALC298 layout-id 99 for XiaoMi-Pro
+- Added ALC892 layout-id 17 for MSI B150M MORTAR - SwitchMode by MacPeet
+- Added ALC892 layout-id 18 for MSI B150M MORTAR - ManualMode by MacPeet
+- Added ALC1220 layout-id 28 for Z390 Aorus Ultra - Output SP/HP Manualmode by MacPeet
+- Added VT1802 layout-id 65 for hasee K650D by ivothgle
+- Added ALCS1220A layout-id 20 and 21 for Asus ROG STRIX Z370-F Gaming by RodionS & Nacho
+- Added ALC270 layout-id 21 for Asus A46CB-WX024D Laptop by Andres ZeroCross
+
+#### v.1.3.7
+- VT2020_2021 anticlick patches by chrome
+- VT1802 anticlick patches by chrome
+- VT1705 anticlick patches by chrome
+- AD2000B anticlick patches by chrome
+- AD1988B anticlick patches by chrome
+- CA0132 added sоme anticlick patches by chrome
+- STAC9200 10.14.4 compatible anticlick patch by chrome
+- ALCS1200A 10.14.4 compatible anticlick patch by chrome
+- ALC891 10.14.4 compatible anticlick patch by chrome
+- ALC1150 10.14.4 compatible anticlick patch by chrome
+- Update resources for ALC298 layout-id 99 for XiaoMi Pro by stevezhengshiqi
+- Added ALC235 layout-id 16 for ASUS GL553VD by MacPeet  
+- Added ALC256 layout-id 57 for huawei honor magic book by ROSstudy
+
 #### v1.3.6
 - Update Revision 0x100001 for CX20751/2 (Toshiba Kira 107)
-- Added ALC 255 layout-id 15 for Gigabyte Brix BRi5(H), BRi7(H)] by najdanovicivan
+- Added ALC255 layout-id 15 for Gigabyte Brix BRi5(H), BRi7(H)] by najdanovicivan
 - Added ALC295/ALC3254 for Dell Latitude 5290 by Unbelievable9
+- Fix ALC1220 audio after sleep
+- Added ALC1220 layout-id 27 for Gigabyte-Z370-HD3P by lostwolf
+- Added ALC299 layout-id 22 for Dell XPS 13 by andreszerocross
+- Added ALC887-VD layout-id 87 for GA-Z97-HD3 ver2.1 by varrtix
+- Update resources for ALC236 layout-id 18 by xiaoMGitHub
+- Added CX20753/4 layout-id 15 for Lenovo Thinkpad E580 by MacPeet
+- Added CX20753/4 layout-id 14 by InsanelyDeepak
+- Change ALC887 layout-id 52 for Asus PRIME Z270-P by ctich
+- Added ALC887 layout-id 53 for Asus PRIME Z270-P by ctich
 
 #### v1.3.5
 - Added AD1988A layout-id 12 by chrome
