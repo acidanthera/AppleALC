@@ -50,6 +50,24 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>Sniki - Realtek ALC 272 for Lenovo B570 and B570e</string>
+					<key>CodecID</key>
+					<integer>283902578</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccEAEnHQEBJx6gAScfkAFHHCABRx0BAUce
+					EwFHH5ABRwwCAYccMAGHHZABhx6BAYcfAQIX
+					HEACFx1AAhceIQIXHwE=
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>18</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>Creative CA0132, Alienware 15 R2</string>
 					<key>CodecID</key>
 					<integer>285343761</integer>
