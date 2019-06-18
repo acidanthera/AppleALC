@@ -22,6 +22,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Realtek ALC255(3234) for Dell Optiplex series by Heporis</string>
+				<key>Id</key>
+				<integer>11</integer>
+				<key>Path</key>
+				<string>layout11.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>InsanelyDeepak - Realtek ALC255_v1</string>
 				<key>Id</key>
 				<integer>13</integer>
@@ -118,6 +126,14 @@
 				<integer>3</integer>
 				<key>Path</key>
 				<string>PlatformsM.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Realtek ALC255(3234) for Dell Optiplex series by Heporis</string>
+				<key>Id</key>
+				<integer>11</integer>
+				<key>Path</key>
+				<string>Platforms11.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
