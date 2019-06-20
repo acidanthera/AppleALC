@@ -1545,6 +1545,31 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>CodecID</key>
+					<integer>283902550</integer>
+					<key>Comment</key>
+					<string>Andres ZeroCross for Asus VivoBook Pro 17  N705UDR</string>
+					<key>ConfigData</key>
+					<data>
+					AbccUAG3HQEBtx4XAbcfkAGnHDABpx0BAace
+					oAGnH5ACFxwgAhcdEAIXHiECFx8DAbcMAg==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>22</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAg==
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>CodecID</key>
 					<integer>283902550</integer>
