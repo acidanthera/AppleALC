@@ -889,6 +889,32 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>ALC235 for Lenovo Rescuer 15ISK by Z39</string>
+					<key>CodecID</key>
+					<integer>283902517</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccIAEnHQEBJx6mAScfkAFHHBABRx0BAUce
+					FwFHH5ABlxxAAZcdEAGXHosBlx8EAhccMAIX
+					HRACFx4rAhcfBAF3HPABdx0AAXceAAF3H0AB
+					hxzwAYcdAAGHHgABhx9AAacc8AGnHQABpx4A
+					AacfQAG3HPABtx0AAbceAAG3H0AB1xzwAdcd
+					AAHXHgAB1x9AAecc8AHnHQAB5x4AAecfQAFH
+					DAICFwwC
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>12</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>the-braveknight - Realtek ALC235 for Lenovo Legion Y520</string>
 					<key>CodecID</key>
 					<integer>283902517</integer>

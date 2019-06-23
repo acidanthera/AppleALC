@@ -30,6 +30,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>ALC235 for Lenovo Rescuer 15ISK by Z39</string>
+				<key>Id</key>
+				<integer>12</integer>
+				<key>Path</key>
+				<string>layout12.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>the-braveknight - Realtek ALC235 for Lenovo Legion Y520</string>
 				<key>Id</key>
 				<integer>14</integer>
@@ -78,6 +86,14 @@
 				<integer>11</integer>
 				<key>Path</key>
 				<string>Platforms11.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>ALC235 for Lenovo Rescuer 15ISK by Z39</string>
+				<key>Id</key>
+				<integer>12</integer>
+				<key>Path</key>
+				<string>Platforms12.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
