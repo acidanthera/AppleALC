@@ -20,6 +20,14 @@
 				<key>Path</key>
 				<string>layout11.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Realtek ALC257 for Lenovo Legion Y540 and Y7000-2019</string>
+				<key>Id</key>
+				<integer>18</integer>
+				<key>Path</key>
+				<string>layout18.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -30,6 +38,14 @@
 				<integer>11</integer>
 				<key>Path</key>
 				<string>Platforms11.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Realtek ALC257 for Lenovo Legion Y540 and Y7000-2019</string>
+				<key>Id</key>
+				<integer>18</integer>
+				<key>Path</key>
+				<string>Platforms18.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>
