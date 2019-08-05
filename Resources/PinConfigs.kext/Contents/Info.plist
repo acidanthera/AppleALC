@@ -30,6 +30,36 @@
 			<array>
 				<dict>
 					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>CodecID</key>
+					<integer>283904146</integer>
+					<key>Comment</key>
+					<string>ALC892, Gigabyte B360m d3h v1.0</string>
+					<key>ConfigData</key>
+					<data>
+					IUccECFHHUAhRx4RIUcfkCFHDAIhVxwgIVcd
+					ECFXHgEhVx8BIWccMCFnHWAhZx4BIWcfAQF3
+					HBQBdx0gAXceAQF3HwEhhxxAIYcdkCGHHqAh
+					hx+QIZccYCGXHZAhlx6BIZcfAiGnHFAhpx0w
+					IacegSGnHwEhtxxwIbcdQCG3HiEhtx8CIbcM
+					AiHnHJAh5x1hIeceSyHnHwEh9xzwIfcdACH3
+					HgAh9x9AIRcc8CEXHQAhFx4AIRcfQA==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>47</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAg==
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
 					<string>Creative CA0132, default</string>
