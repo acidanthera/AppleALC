@@ -22,11 +22,19 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Andres - Realtek ALC285 for  Lenovo X1 Carbon 6th ﻿</string>
+				<string>Andres - Realtek ALC285 for  Lenovo X1 Carbon 6th </string>
 				<key>Id</key>
 				<integer>21</integer>
 				<key>Path</key>
 				<string>layout21.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Flymin Realtek ALC285 for X1E</string>
+				<key>Id</key>
+				<integer>31</integer>
+				<key>Path</key>
+				<string>layout31.xml.zlib</string>
 			</dict>
 		</array>
 		<key>Platforms</key>
@@ -41,11 +49,19 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Andres - Realtek ALC285 for  Lenovo X1 Carbon 6th ﻿</string>
+				<string>Andres - Realtek ALC285 for  Lenovo X1 Carbon 6th </string>
 				<key>Id</key>
 				<integer>21</integer>
 				<key>Path</key>
 				<string>Platforms21.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Flymin Realtek ALC285 for X1E</string>
+				<key>Id</key>
+				<integer>31</integer>
+				<key>Path</key>
+				<string>Platforms31.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>
