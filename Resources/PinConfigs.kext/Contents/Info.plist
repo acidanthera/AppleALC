@@ -32,24 +32,6 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
-					<string>smallssnow xps 9570 - Realtek ALC298</string>
-					<key>CodecID</key>
-					<integer>283902616</integer>
-					<key>ConfigData</key>
-					<data>ASccEAEnHQEBJx6mAScfmQF3HEABdx0BAXceFwF3H5ABdwwCAYcc8AGHHQABhx4AAYcfQAGnHPABpx0AAaceAAGnH0ACFxxQAhcdEAIXHiECFx8JATcc8AE3HQABNx4AATcfQAFHHPABRx0AAUceAAFHH0ABlxzwAZcdAAGXHgABlx9AAdcc8AHXHQAB1x4AAdcfQAHnHPAB5x0AAeceAAHnH0AB9xzwAfcdAAH3HgAB9x9A</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>32</integer>
-					<key>WakeConfigData</key>
-					<data>AXcMAg==</data>
-					<key>WakeVerbReinit</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
-					<key>Codec</key>
 					<string>Creative CA0132, default</string>
 					<key>CodecID</key>
 					<integer>285343761</integer>
@@ -6621,6 +6603,24 @@
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>28</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data></data>
+					<key>Codec</key>
+					<string>smallssnow xps 9570 - Realtek ALC298</string>
+					<key>CodecID</key>
+					<integer>283902616</integer>
+					<key>ConfigData</key>
+					<data>ASccEAEnHQEBJx6mAScfmQF3HEABdx0BAXceFwF3H5ABdwwCAYcc8AGHHQABhx4AAYcfQAGnHPABpx0AAaceAAGnH0ACFxxQAhcdEAIXHiECFx8JATcc8AE3HQABNx4AATcfQAFHHPABRx0AAUceAAFHH0ABlxzwAZcdAAGXHgABlx9AAdcc8AHXHQAB1x4AAdcfQAHnHPAB5x0AAeceAAHnH0AB9xzwAfcdAAH3HgAB9x9A</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>32</integer>
+					<key>WakeConfigData</key>
+					<data>AXcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
 				</dict>
 			</array>
 			<key>IOClass</key>
