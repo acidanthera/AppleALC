@@ -6381,6 +6381,34 @@
 					<key>CodecID</key>
 					<integer>283904146</integer>
 					<key>Comment</key>
+					<string>Custom ALC892 for GIGABYTE B360 M AORUS PRO</string>
+					<key>ConfigData</key>
+					<data>
+					ARccMAEXHQEBFx5DARcfmQEnHPABJx0AASce
+					AAEnH0ABRxwwAUcdAQFHHhcBRx+QAUcMAgFX
+					HPABVx0AAVceAAFXH0ABZxzwAWcdAAFnHgAB
+					Zx9AAXccUAF3HUABdx4BAXcfAQGHHCABhx1g
+					AYcegQGHHwEBtwwCAZcccgGXHSYBlx4UAZcf
+					RAGnHPABpx0AAaceAAGnH0ABtxxAAbcdMAG3
+					HiEBtx8BAccc8AHHHQABxx4AAccfQAHXHPAB
+					1x0AAdceAAHXH0AB5xzwAecdAAHnHgAB5x9A
+					Afcc8AH3HQAB9x4AAfcfQA==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>90</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>CodecID</key>
+					<integer>283904146</integer>
+					<key>Comment</key>
 					<string>Custom ALC892 for GA-Z87-HD3 by BIM167</string>
 					<key>ConfigData</key>
 					<data>
