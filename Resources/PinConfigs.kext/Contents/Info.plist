@@ -988,6 +988,28 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>ALC235 for Asus ROG GL553VD-FY380 by Andres ZeroCross</string>
+					<key>CodecID</key>
+					<integer>283902517</integer>
+					<key>ConfigData</key>
+					<data>
+					AbccEAG3HQABtx6gAbcfkAFHHCABRx0AAUce
+					FwFHH5ABlxwwAZcdEAGXHoEBlx8AAhccQAIX
+					HRACFx4hAhcfAQFHDAICFwwC
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>22</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>vusun123 - Realtek ALC235 for Lenovo Legion Y520</string>
 					<key>CodecID</key>
 					<integer>283902517</integer>
