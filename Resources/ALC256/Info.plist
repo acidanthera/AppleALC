@@ -84,6 +84,14 @@
 				<key>Path</key>
 				<string>layout57.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>lgs3137 - Realtek ALC256 for ASUS Y5000U X507UBR</string>
+				<key>Id</key>
+				<integer>66</integer>
+				<key>Path</key>
+				<string>layout66.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -158,6 +166,14 @@
 				<integer>57</integer>
 				<key>Path</key>
 				<string>Platforms57.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>lgs3137 - Realtek ALC256 for ASUS Y5000U X507UBR</string>
+				<key>Id</key>
+				<integer>66</integer>
+				<key>Path</key>
+				<string>Platforms66.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>

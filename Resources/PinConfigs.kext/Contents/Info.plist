@@ -1723,6 +1723,32 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>lgs3137 - Realtek ALC256 for ASUS Y5000U X507UBR</string>
+					<key>CodecID</key>
+					<integer>283902550</integer>
+					<key>ConfigData</key>
+					<data>
+					AScc8AEnHQABJx4AAScfQAE3HPABNx0AATce
+					AAE3H0ABRxwgAUcdAQFHHhcBRx+QAUcMAgGH
+					HPABhx0AAYceAAGHH0ABlxwwAZcdEAGXHosB
+					lx8CAacc8AGnHQABpx4AAacfQAG3HDABtx0A
+					AbceoAG3H5ABtwwCAdcc8AHXHQAB1x4AAdcf
+					QAHnHPAB5x0AAeceAAHnH0ACFxxQAhcdEAIX
+					HisCFx8CAhcMAgGXByQBtwckAhcIgw==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>66</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgIXDAIBlwckAbcHJAIXCIM=</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>MacPeet - Realtek ALC257 for Lenovo T480</string>
 					<key>CodecID</key>
 					<integer>283902551</integer>
