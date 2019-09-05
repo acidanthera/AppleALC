@@ -3,6 +3,11 @@ AppleALC Changelog
 #### v1.4.1
 - Fixed memory leaks
 - Added AMD Radeon R9 Fury/R9 Fury X HDMI audio support
+- Added ALC256 layout-id 66 for ASUS Y5000U X507UBR by lgs3137
+- Added ALC235 layout-id 22 for Asus ROG GL553VD-FY380 by Andres ZeroCross
+- Added ALC892 layout-id 90 for GIGABYTE B360M M AORUS PRO by xunyard
+- Added ALC298 layout-id 32 for XPS 9570 8750H version by smallssnow
+- Added ALC292 layout-id 55 for Dell Latitude E6440/E6540 with docking station linein/lineout support by baesar0
 
 #### v1.4.0
 - Unified release archive names

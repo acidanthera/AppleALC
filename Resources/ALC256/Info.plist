@@ -86,12 +86,20 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>DalianSky - Realtek ALC256 (3246) for MateBook X Pro 2019</string>
+				<string>lgs3137 - Realtek ALC256 for ASUS Y5000U X507UBR</string>
+				<key>Id</key>
+				<integer>66</integer>
+				<key>Path</key>
+				<string>layout66.xml.zlib</string>
+			</dict>
+      <dict>
+        <key>Comment</key>
+        <string>DalianSky - Realtek ALC256 (3246) for MateBook X Pro 2019</string>
 				<key>Id</key>
 				<integer>97</integer>
 				<key>Path</key>
 				<string>layout97.xml.zlib</string>
-			</dict>
+      </dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -169,12 +177,20 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>DalianSky - Realtek ALC256 (3246) for MateBook X Pro 2019</string>
+				<string>lgs3137 - Realtek ALC256 for ASUS Y5000U X507UBR</string>
 				<key>Id</key>
-				<integer>97</integer>
+				<integer>66</integer>
 				<key>Path</key>
-				<string>Platforms97.xml.zlib</string>
+				<string>Platforms66.xml.zlib</string>
 			</dict>
+      <dict>
+ 				<key>Comment</key>
+ 				<string>DalianSky - Realtek ALC256 (3246) for MateBook X Pro 2019</string>
+ 				<key>Id</key>
+ 				<integer>97</integer>
+ 				<key>Path</key>
+ 				<string>layout97.xml.zlib</string>
+ 			</dict>
 		</array>
 	</dict>
 	<key>Patches</key>
