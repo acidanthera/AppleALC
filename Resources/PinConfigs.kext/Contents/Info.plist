@@ -7774,7 +7774,35 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>frankiezdh - Conexant CX8200 for HP Probook 440 G5</string>
+					<key>CodecID</key>
+					<integer>351346696</integer>
+					<key>ConfigData</key>
+					<data>
+					AWccUAFnHRABZx4hAWcfAAFnDAIBdxxAAXcd
+					AQF3HhcBdx+RAXcMAgGXHHABlx0QAZcegQGX
+					HwABpxwQAacdAQGnHqYBpx+Q
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>23</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AWcMAgF3DAI=
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Conexant CX8400</string>
 					<key>CodecID</key>
