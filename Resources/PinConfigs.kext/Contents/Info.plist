@@ -57,6 +57,32 @@
 				<dict>
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
+					<key>CodecID</key>
+					<integer>351359128</integer>
+					<key>Comment</key>
+					<string>CX20632 by Daniel</string>
+					<key>ConfigData</key>
+					<data>
+					AfccEAH3HQEB9x4XAfcfkgH3DAIBpxwgAacd
+					EAGnHosBpx8CAZccQAGXHRABlx4rAZcfAgHH
+					HNABxx1AAcceIQHHHwIBhxzwAYcdAAGHHgAB
+					hx9AAbcc8AG3HQABtx4AAbcfQAHXHPAB1x0A
+					AdceAAHXH0AB5xzwAecdAAHnHgAB5x9AAgcc
+					8AIHHQACBx4AAgcfQAIXHPACFx0AAhceAAIX
+					H0ACZxzwAmcdAAJnHgACZx9A
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>28</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
 					<key>Codec</key>
 					<string>Creative CA0132, default</string>
 					<key>CodecID</key>
