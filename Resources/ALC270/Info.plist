@@ -95,6 +95,14 @@
 				<key>Path</key>
 				<string>Platforms28.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>ALC270 Custom by Daniel</string>
+				<key>Id</key>
+				<integer>14</integer>
+				<key>Path</key>
+				<string>Platforms14.xml.zlib</string>
+			</dict>
 		</array>
 	</dict>
 	<key>Patches</key>
