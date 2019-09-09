@@ -9,3 +9,6 @@ AppleALC/kern_resources.cpp
 build
 .svace-dir
 cov-int
+Resources/ALC270/Platforms14.xml
+Resources/ALC270/.layout14.xml.zlib.icloud
+Resources/ALC270/layout14.xml
