@@ -20,6 +20,14 @@
 				<key>Path</key>
 				<string>layout28.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>frankiezdh - Conexant CX20632 for HP ProDesk 480 G4</string>
+				<key>Id</key>
+				<integer>23</integer>
+				<key>Path</key>
+				<string>layout23.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -30,6 +38,14 @@
 				<integer>28</integer>
 				<key>Path</key>
 				<string>Platforms28.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>frankiezdh - Conexant CX20632 for HP ProDesk 480 G4</string>
+				<key>Id</key>
+				<integer>23</integer>
+				<key>Path</key>
+				<string>Platforms23.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>

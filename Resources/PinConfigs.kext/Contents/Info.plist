@@ -83,6 +83,29 @@
 				<dict>
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
+					<key>CodecID</key>
+					<integer>351359128</integer>
+					<key>Comment</key>
+					<string>frankiezdh - Conexant CX20632 for HP ProDesk 480 G4</string>
+					<key>ConfigData</key>
+					<data>
+					AZccUAGXHRABlx4hAZcfAQGnHBABpx0QAace
+					oQGnHwEBxxyAAccdQQHHHgEBxx8BAdccIAHX
+					HTEB1x6BAdcfAQHXDAIB9xxAAfcdAQH3Hh8B
+					9x+R
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>23</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
 					<key>Codec</key>
 					<string>Creative CA0132, default</string>
 					<key>CodecID</key>
