@@ -24,25 +24,7 @@
 			<string>osy - NUC8i7HNK/NUC8i7HVK</string>
 			<key>PathMap</key>
 			<array>
-				<array> <!-- Inputs -->
-					<!--
-					<array>  Headphone Microphone (NOT WORKING)
-						<array>
-							<dict>
-								<key>NodeID</key>
-								<integer>10</integer>
-							</dict>
-							<dict>
-								<key>NodeID</key>
-								<integer>37</integer>
-							</dict>
-							<dict>
-								<key>NodeID</key>
-								<integer>24</integer>
-							</dict>
-						</array>
-					</array>
-					-->
+				<array> <!-- Internal Microphone -->
 					<array> <!-- Int Microphone 1 -->
 						<array>
 							<dict>
@@ -130,7 +112,7 @@
 						</array>
 					</array>
 				</array>
-				<array> <!-- Outputs -->
+				<array> <!-- Analog Output -->
 					<array> <!-- Rear Line Out -->
 						<array>
 							<dict>
@@ -172,7 +154,7 @@
 							</dict>
 						</array>
 					</array>
-					<array> <!-- Front Headphone Output (NOT WORKING!) -->
+					<array> <!-- Front Headphone Output -->
 						<array>
 							<dict>
 								<key>Amp</key>
@@ -209,16 +191,17 @@
 									<false/>
 								</dict>
 								<key>NodeID</key>
-								<integer>3</integer>
+								<integer>2</integer>
 							</dict>
 						</array>
 					</array>
-					<!--
-					<array>   Rear SPDIF Output (NOT WORKING) 
+				</array>
+				<array> <!-- Digital Output -->
+					<array> <!-- Rear SPDIF Output -->
 						<array>
 							<dict>
-		                        <key>DetectDelegate</key>
-								<integer>xx</integer>
+								<key>NoPinSense</key>
+								<true/>
 								<key>NodeID</key>
 								<integer>30</integer>
 							</dict>
@@ -228,7 +211,6 @@
 							</dict>
 						</array>
 					</array>
-					-->
 				</array>
 			</array>
 			<key>PathMapID</key>
