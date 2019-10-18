@@ -59,7 +59,7 @@ void AlcEnabler::updateProperties() {
 
 		// Respect desire to disable digital audio. This may be particularly useful for configurations
 		// with broken digital audio, resulting in kernel panics. Ref: https://github.com/acidanthera/bugtracker/issues/513
-		if (hasBuiltinDigitalAudio && devInfo->audioBuiltinAnalog && checkKernelArgument("-alc-disable-digital-audio"))
+		if (hasBuiltinDigitalAudio && devInfo->audioBuiltinAnalog && (devInfo->audioBuiltinAnalog->getProperty("No-hda-gfx") || checkKernelArgument("-alcnohdau")))
 			hasBuiltinDigitalAudio = false;
 
 		// Firstly, update Haswell or Broadwell HDAU device for built-in digital audio.
