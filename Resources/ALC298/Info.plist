@@ -78,6 +78,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>smallssnow xps 9570 - Realtek ALC298</string>
+				<key>Id</key>
+				<integer>32</integer>
+				<key>Path</key>
+				<string>layout32.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Daliansky - Realtek ALC298 ThinkPad T470p</string>
 				<key>Id</key>
 				<integer>47</integer>
@@ -174,6 +182,14 @@
 				<integer>30</integer>
 				<key>Path</key>
 				<string>Platforms30.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>smallssnow xps 9570 - Realtek ALC298</string>
+				<key>Id</key>
+				<integer>32</integer>
+				<key>Path</key>
+				<string>Platforms32.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>

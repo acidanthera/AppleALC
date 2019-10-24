@@ -57,6 +57,11 @@ void AlcEnabler::updateProperties() {
 		// Assume that IGPU with connections means built-in digital audio.
 		bool hasBuiltinDigitalAudio = !devInfo->reportedFramebufferIsConnectorLess && devInfo->videoBuiltin;
 
+		// Respect desire to disable digital audio. This may be particularly useful for configurations
+		// with broken digital audio, resulting in kernel panics. Ref: https://github.com/acidanthera/bugtracker/issues/513
+		if (hasBuiltinDigitalAudio && devInfo->audioBuiltinAnalog && devInfo->audioBuiltinAnalog->getProperty("No-hda-gfx"))
+			hasBuiltinDigitalAudio = false;
+
 		// Firstly, update Haswell or Broadwell HDAU device for built-in digital audio.
 		if (devInfo->audioBuiltinDigital && validateInjection(devInfo->audioBuiltinDigital)) {
 			if (hasBuiltinDigitalAudio) {

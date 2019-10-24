@@ -118,6 +118,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Custom ALC892 for GIGABYTE B360 M AORUS PRO</string>
+				<key>Id</key>
+				<integer>90</integer>
+				<key>Path</key>
+				<string>layout90.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Custom ALC892 for GA-Z87-HD3 by BIM167</string>
 				<key>Id</key>
 				<integer>92</integer>
@@ -254,6 +262,14 @@
 				<integer>31</integer>
 				<key>Path</key>
 				<string>Platforms31.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom ALC892 for GIGABYTE B360 M AORUS PRO</string>
+				<key>Id</key>
+				<integer>90</integer>
+				<key>Path</key>
+				<string>Platforms90.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>

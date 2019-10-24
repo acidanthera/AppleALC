@@ -21,7 +21,7 @@
 	<array>
 		<dict>
 			<key>Comment</key>
-			<string> DalianSky Realtek ALC256 (3246) for MateBook X Pro 2019 </string>
+			<string>lgs3137 - Realtek ALC256 for ASUS Y5000U X507UBR</string>
 			<key>PathMap</key>
 			<array>
 				<array>
@@ -48,9 +48,9 @@
 									<key>MuteInputAmp</key>
 									<true/>
 									<key>PublishMute</key>
-									<true/>
+									<false/>
 									<key>PublishVolume</key>
-									<true/>
+									<false/>
 									<key>VolumeInputAmp</key>
 									<true/>
 								</dict>
@@ -58,43 +58,19 @@
 								<integer>8</integer>
 							</dict>
 							<dict>
-								<key>Amp</key>
-								<dict>
-									<key>Channels</key>
-									<array>
-										<dict>
-											<key>Bind</key>
-											<integer>1</integer>
-											<key>Channel</key>
-											<integer>1</integer>
-										</dict>
-										<dict>
-											<key>Bind</key>
-											<integer>2</integer>
-											<key>Channel</key>
-											<integer>2</integer>
-										</dict>
-									</array>
-									<key>MuteInputAmp</key>
-									<true/>
-									<key>PublishMute</key>
-									<true/>
-									<key>PublishVolume</key>
-									<true/>
-									<key>VolumeInputAmp</key>
-									<true/>
-								</dict>
 								<key>NodeID</key>
 								<integer>35</integer>
 							</dict>
 							<dict>
 								<key>Boost</key>
-								<integer>1</integer>
+								<integer>3</integer>
 								<key>NodeID</key>
-								<integer>18</integer>
+								<integer>27</integer>
 							</dict>
 						</array>
 					</array>
+				</array>
+				<array>
 					<array>
 						<array>
 							<dict>
@@ -118,48 +94,22 @@
 									<key>MuteInputAmp</key>
 									<true/>
 									<key>PublishMute</key>
-									<true/>
+									<false/>
 									<key>PublishVolume</key>
-									<true/>
+									<false/>
 									<key>VolumeInputAmp</key>
 									<true/>
 								</dict>
 								<key>NodeID</key>
-								<integer>8</integer>
+								<integer>9</integer>
 							</dict>
 							<dict>
-								<key>Amp</key>
-								<dict>
-									<key>Channels</key>
-									<array>
-										<dict>
-											<key>Bind</key>
-											<integer>1</integer>
-											<key>Channel</key>
-											<integer>1</integer>
-										</dict>
-										<dict>
-											<key>Bind</key>
-											<integer>2</integer>
-											<key>Channel</key>
-											<integer>2</integer>
-										</dict>
-									</array>
-									<key>MuteInputAmp</key>
-									<true/>
-									<key>PublishMute</key>
-									<true/>
-									<key>PublishVolume</key>
-									<true/>
-									<key>VolumeInputAmp</key>
-									<true/>
-								</dict>
 								<key>NodeID</key>
-								<integer>35</integer>
+								<integer>34</integer>
 							</dict>
 							<dict>
 								<key>Boost</key>
-								<integer>1</integer>
+								<integer>3</integer>
 								<key>NodeID</key>
 								<integer>25</integer>
 							</dict>
@@ -177,7 +127,7 @@
 									<key>PublishMute</key>
 									<true/>
 									<key>PublishVolume</key>
-									<true/>
+									<false/>
 									<key>VolumeInputAmp</key>
 									<false/>
 								</dict>
@@ -203,9 +153,9 @@
 										</dict>
 									</array>
 									<key>MuteInputAmp</key>
-									<true/>
+									<false/>
 									<key>PublishMute</key>
-									<true/>
+									<false/>
 									<key>PublishVolume</key>
 									<true/>
 									<key>VolumeInputAmp</key>
@@ -226,7 +176,7 @@
 									<key>PublishMute</key>
 									<true/>
 									<key>PublishVolume</key>
-									<true/>
+									<false/>
 									<key>VolumeInputAmp</key>
 									<false/>
 								</dict>
@@ -252,9 +202,9 @@
 										</dict>
 									</array>
 									<key>MuteInputAmp</key>
-									<true/>
+									<false/>
 									<key>PublishMute</key>
-									<true/>
+									<false/>
 									<key>PublishVolume</key>
 									<true/>
 									<key>VolumeInputAmp</key>
