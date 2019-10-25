@@ -56,14 +56,11 @@ void AlcEnabler::updateProperties() {
 	if (devInfo) {
 		// Assume that IGPU with connections means built-in digital audio.
 		bool hasBuiltinDigitalAudio = !devInfo->reportedFramebufferIsConnectorLess && devInfo->videoBuiltin;
-		bool forceBuiltinDigitalAudio = false;
 
 		// Respect desire to disable digital audio. This may be particularly useful for configurations
 		// with broken digital audio, resulting in kernel panics. Ref: https://github.com/acidanthera/bugtracker/issues/513
-		if (hasBuiltinDigitalAudio && devInfo->audioBuiltinAnalog && devInfo->audioBuiltinAnalog->getProperty("No-hda-gfx")) {
+		if (hasBuiltinDigitalAudio && devInfo->audioBuiltinAnalog && devInfo->audioBuiltinAnalog->getProperty("No-hda-gfx"))
 			hasBuiltinDigitalAudio = false;
-			forceBuiltinDigitalAudio = true;
-		}
 
 		// Firstly, update Haswell or Broadwell HDAU device for built-in digital audio.
 		if (devInfo->audioBuiltinDigital && validateInjection(devInfo->audioBuiltinDigital)) {
@@ -92,7 +89,7 @@ void AlcEnabler::updateProperties() {
 		// Secondly, update HDEF device and make it support digital audio
 		if (devInfo->audioBuiltinAnalog && validateInjection(devInfo->audioBuiltinAnalog)) {
 			const char *hdaGfx = nullptr;
-			if ((hasBuiltinDigitalAudio && !devInfo->audioBuiltinDigital) || forceBuiltinDigitalAudio)
+			if (hasBuiltinDigitalAudio && !devInfo->audioBuiltinDigital)
 				hdaGfx = "onboard-1";
 			updateDeviceProperties(devInfo->audioBuiltinAnalog, devInfo, hdaGfx, true);
 		}
@@ -190,6 +187,8 @@ void AlcEnabler::updateDeviceProperties(IORegistryEntry *hdaService, DeviceInfo 
 					   WIOKit::getOSDataValue(hdaService, "layout-id", alcId)) {
 				DBGLOG("audio", "found legacy alc-layout-id (from layout-id) %u", alcId);
 				hdaService->setProperty("alc-layout-id", &alcId, sizeof(alcId));
+			} else {
+				SYSLOG("audio", "ERROR: Neither alc-layout-id nor layout-id is found in configuration");
 			}
 		}
 
