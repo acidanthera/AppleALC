@@ -57,6 +57,11 @@ void AlcEnabler::updateProperties() {
 		// Assume that IGPU with connections means built-in digital audio.
 		bool hasBuiltinDigitalAudio = !devInfo->reportedFramebufferIsConnectorLess && devInfo->videoBuiltin;
 
+		// Respect desire to disable digital audio. This may be particularly useful for configurations
+		// with broken digital audio, resulting in kernel panics. Ref: https://github.com/acidanthera/bugtracker/issues/513
+		if (hasBuiltinDigitalAudio && devInfo->audioBuiltinAnalog && devInfo->audioBuiltinAnalog->getProperty("No-hda-gfx"))
+			hasBuiltinDigitalAudio = false;
+
 		// Firstly, update Haswell or Broadwell HDAU device for built-in digital audio.
 		if (devInfo->audioBuiltinDigital && validateInjection(devInfo->audioBuiltinDigital)) {
 			if (hasBuiltinDigitalAudio) {
@@ -178,10 +183,13 @@ void AlcEnabler::updateDeviceProperties(IORegistryEntry *hdaService, DeviceInfo 
 			uint32_t alcId;
 			if (WIOKit::getOSDataValue(hdaService, "alc-layout-id", alcId)) {
 				DBGLOG("alc", "found normal alc-layout-id %u", alcId);
-			} else if (info->firmwareVendor != DeviceInfo::FirmwareVendor::Apple &&
-					   WIOKit::getOSDataValue(hdaService, "layout-id", alcId)) {
-				DBGLOG("audio", "found legacy alc-layout-id (from layout-id) %u", alcId);
-				hdaService->setProperty("alc-layout-id", &alcId, sizeof(alcId));
+			} else if (info->firmwareVendor != DeviceInfo::FirmwareVendor::Apple) {
+				if (WIOKit::getOSDataValue(hdaService, "layout-id", alcId)) {
+					DBGLOG("alc", "found legacy alc-layout-id (from layout-id) %u", alcId);
+					hdaService->setProperty("alc-layout-id", &alcId, sizeof(alcId));
+				} else {
+					SYSLOG("alc", "error: neither alc-layout-id nor layout-id is found in configuration");
+				}
 			}
 		}
 
@@ -336,71 +344,88 @@ IOReturn AlcEnabler::initializePinConfig(IOService *hdaCodec, IOService *configD
 
 				for (unsigned int i = 0; i < total; i++) {
 					auto config = OSDynamicCast(OSDictionary, configList->getObject(i));
-					if (config) {
-						auto currCodec = OSDynamicCast(OSNumber, config->getObject("CodecID"));
-						auto currLayout = OSDynamicCast(OSNumber, config->getObject("LayoutID"));
-						if (currCodec && currLayout) {
-							if (currCodec->unsigned32BitValue() == analogCodec && currLayout->unsigned32BitValue() == analogLayout) {
-								auto configData = OSDynamicCast(OSData, config->getObject("ConfigData"));
-								auto wakeConfigData = OSDynamicCast(OSData, config->getObject("WakeConfigData"));
-								auto reinit = OSDynamicCast(OSBoolean, config->getObject("WakeVerbReinit"));
-								DBGLOG("alc", "current config entry has boot %d, wake %d, reinit %d", configData != nullptr,
-									   wakeConfigData != nullptr, reinit ? reinit->getValue() : -1);
-
-								auto newConfig = OSDynamicCast(OSDictionary, config->copyCollection());
-								if (newConfig) {
-									// Replace the config list with a new list to avoid multiple iterations,
-									// and actually fix the LayoutID number we hook in.
-									auto num = OSNumber::withNumber(appleLayout, 32);
-									if (num) {
-										newConfig->setObject("LayoutID", num);
-										num->release();
-									}
-									const OSObject *obj {OSDynamicCast(OSObject, newConfig)};
-									auto arr = OSArray::withObjects(&obj, 1);
-									if (arr) {
-										configDevice->setProperty("HDAConfigDefault", arr);
-										arr->release();
-									}
-									if (reinit && reinit->getValue()) {
-										newConfig = OSDynamicCast(OSDictionary, newConfig->copyCollection());
-										if (newConfig) {
-											obj = OSDynamicCast(OSObject, newConfig);
-											if (wakeConfigData) {
-												if (configData)
-													newConfig->setObject("BootConfigData", configData);
-												newConfig->setObject("ConfigData", wakeConfigData);
-												newConfig->removeObject("WakeConfigData");
-											}
-											// These will be same
-											auto arr = OSArray::withObjects(&obj, 1);
-											if (arr) {
-												hdaCodec->setProperty("HDAConfigDefault", arr);
-												hdaCodec->setProperty("alc-pinconfig-status", kOSBooleanTrue);
-												arr->release();
-											}
-										} else {
-											SYSLOG("alc", "failed to copy new HDAConfigDefault collection");
-										}
-									}
-								} else {
-									SYSLOG("alc", "failed to copy HDAConfigDefault %u collection", i);
-								}
-
-								break;
-							}
-						} else {
-							SYSLOG("alc", "invalid CodecID %d or LayoutID %d at entry %u, pinconfigs are broken",
-								   currCodec != nullptr, currLayout != nullptr, i);
-						}
-					} else {
+					if (config == nullptr) {
 						SYSLOG("alc", "invalid HDAConfigDefault entry at %u, pinconfigs are broken", i);
+						continue;
 					}
+					auto currCodec = OSDynamicCast(OSNumber, config->getObject("CodecID"));
+					auto currLayout = OSDynamicCast(OSNumber, config->getObject("LayoutID"));
+					if (currCodec == nullptr || currLayout == nullptr ||
+					    currCodec->unsigned32BitValue() != analogCodec || currLayout->unsigned32BitValue() != analogLayout) {
+						// Not analog or wrong entry.
+						continue;
+					}
+
+					auto newConfigCollection = config->copyCollection();
+					auto newConfig = OSDynamicCast(OSDictionary, newConfigCollection);
+					const OSObject *newConfigObj  = OSDynamicCast(OSObject, newConfigCollection);
+					if (newConfig == nullptr || newConfigObj == nullptr) {
+						SYSLOG("alc", "failed to copy analog HDAConfigDefault %u collection", i);
+						OSSafeReleaseNULL(newConfigCollection);
+						break;
+					}
+
+					auto configData = OSDynamicCast(OSData, config->getObject("ConfigData"));
+					auto wakeConfigData = OSDynamicCast(OSData, config->getObject("WakeConfigData"));
+					auto reinitBool = OSDynamicCast(OSBoolean, config->getObject("WakeVerbReinit"));
+					auto reinit = reinitBool != nullptr ? reinitBool->getValue() : false;
+					DBGLOG("alc", "current config entry has boot %d, wake %d, reinit %d", configData != nullptr,
+						   wakeConfigData != nullptr, reinitBool ? reinit : -1);
+
+					// Replace the config list with a new list to avoid multiple iterations,
+					// and actually fix the LayoutID number we hook in.
+					auto num = OSNumber::withNumber(appleLayout, 32);
+					if (num != nullptr) {
+						newConfig->setObject("LayoutID", num);
+						num->release();
+					}
+
+					const OSObject *objForArr = newConfigObj;
+					auto arr = OSArray::withObjects(&objForArr, 1);
+					if (arr != nullptr) {
+						configDevice->setProperty("HDAConfigDefault", arr);
+						newConfig->retain();
+						arr->release();
+					}
+
+					if (!reinit) {
+						// We do not need to reinit, thus are done.
+						newConfig->release();
+						break;
+					}
+
+					newConfigCollection = newConfig->copyCollection();
+					newConfig->release();
+					newConfig = OSDynamicCast(OSDictionary, newConfigCollection);
+					newConfigObj  = OSDynamicCast(OSObject, newConfigCollection);
+					if (newConfig == nullptr || newConfigObj == nullptr) {
+						SYSLOG("alc", "failed to copy new HDAConfigDefault collection for reinit");
+						OSSafeReleaseNULL(newConfigCollection);
+						break;
+					}
+
+					if (wakeConfigData != nullptr) {
+						if (configData != nullptr) {
+							newConfig->setObject("BootConfigData", configData);
+						}
+						newConfig->setObject("ConfigData", wakeConfigData);
+						newConfig->removeObject("WakeConfigData");
+					}
+					objForArr = newConfigObj;
+					arr = OSArray::withObjects(&objForArr, 1);
+					if (arr != nullptr) {
+						hdaCodec->setProperty("HDAConfigDefault", arr);
+						hdaCodec->setProperty("alc-pinconfig-status", kOSBooleanTrue);
+						arr->release();
+					} else {
+						newConfig->release();
+					}
+
+					break;
 				}
 			} else {
 				SYSLOG("alc", "invalid HDAConfigDefault, pinconfigs are broken");
 			}
-
 		}
 	}
 

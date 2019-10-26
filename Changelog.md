@@ -1,11 +1,40 @@
 AppleALC Changelog
 ==================
+#### v1.4.3
+- Added support for `No-hda-gfx` HDEF property disabling IGPU digital audio
+- Added CX8050 layout-id 13 for ASUS S410U/X411U by cowpod
+- Fix layout 13 CX8050 microphone after sleep by cowpod
+
+#### v1.4.2
+- Added Conexant CX20632 layout-id 28 for HP EliteDesk by Halelluja12
+- Added wake verb for ALC1220 layout-id 34 for MSI P65 Creator / MSI GS65
+- Added Conexant CX20632 layout 23 for  HP ProDesk 480 G4 by frankiezdh
+- Fix headphone and speaker switch not working for CX8200 HP Probook 440 G5
+- Added ALC1220 layout-id 21 for MSI GE63 Raider RGB 8RF by Andres ZeroCross
+- Added ALC292 layout-id 32 for Lenovo T450s by EchoEsprit
+- Fixed string Platforms97.xml.zlib Realtek ALC256 layout-id 97 by DalianSky
+- Fix ALC700 HeadPhones and SPDIF outputs by osy86
+
+#### v1.4.1
+- Fixed memory leaks
+- Added AMD Radeon R9 Fury/R9 Fury X HDMI audio support
+- Added ALC256 layout-id 66 for ASUS Y5000U X507UBR by lgs3137
+- Added ALC235 layout-id 22 for Asus ROG GL553VD-FY380 by Andres ZeroCross
+- Added ALC892 layout-id 90 for GIGABYTE B360M M AORUS PRO by xunyard
+- Added ALC298 layout-id 32 for XPS 9570 8750H version by smallssnow
+- Added ALC292 layout-id 55 for Dell Latitude E6440/E6540 with docking station linein/lineout support by baesar0
+- Added ALC256 layout-id 97 for MateBook X Pro 2019 by DalianSky
+- Added ALC269 layout-id 100 for GPD P2 Max by DalianSky
+- Merged Lenovo Air13 IWL with WhiskeyLake Mobile PCH HD Audio
+- Added CX8200 layout-id 23 for HP Probook 440 G5 by frankiezdh
+
 #### v1.4.0
 - Unified release archive names
 - Added AMD Zen 2 controller patches by camielverdult
 - Added ALC274 layout-id 21 for Dell Inspiron 27-7777 AIO Series by Andres ZeroCross
 - Added ALC257 layout-id 18 for Lenovo Legion Y540 and Y7000-2019 by xiaoMGitHub
 - Added ALC289 layout-id 23 for Acer PT515-51 By Bugprogrammer and Rover
+- Added ALC285 layout 31 for Thinkpad X1E 8750H version by Flymin
 
 #### v1.3.9
 - Allow loading on 10.15 without `-lilubetaall`

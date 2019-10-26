@@ -36,6 +36,22 @@
 				<key>Path</key>
 				<string>layout28.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>ALC292 for Lenovo T450s By Echo</string>
+				<key>Id</key>
+				<integer>32</integer>
+				<key>Path</key>
+				<string>layout32.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>e6540 alc292 with dock</string>
+				<key>Id</key>
+				<integer>55</integer>
+				<key>Path</key>
+				<string>layout55.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -62,6 +78,22 @@
 				<integer>28</integer>
 				<key>Path</key>
 				<string>Platforms28.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>ALC292 for Lenovo T450s By Echo</string>
+				<key>Id</key>
+				<integer>32</integer>
+				<key>Path</key>
+				<string>Platforms32.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>e6540 alc 292 with dock</string>
+				<key>Id</key>
+				<integer>55</integer>
+				<key>Path</key>
+				<string>Platforms55.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>

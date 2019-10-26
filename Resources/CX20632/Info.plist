@@ -3,49 +3,49 @@
 <plist version="1.0">
 <dict>
 	<key>Author</key>
-	<string>Vandroiy</string>
+	<string>Daniel</string>
 	<key>CodecID</key>
-	<integer>8050</integer>
+	<integer>20632</integer>
 	<key>CodecName</key>
-	<string>CX8050</string>
+	<string>CX20632</string>
 	<key>Files</key>
 	<dict>
 		<key>Layouts</key>
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>Mirone Laptop Patch</string>
+				<string>frankiezdh - Conexant CX20632 for HP ProDesk 480 G4</string>
 				<key>Id</key>
-				<integer>3</integer>
+				<integer>23</integer>
 				<key>Path</key>
-				<string>layout3.xml.zlib</string>
+				<string>layout23.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Conexant CX8050 for ASUS X411UN by cowpod</string>
+				<string>Daniel</string>
 				<key>Id</key>
-				<integer>13</integer>
+				<integer>28</integer>
 				<key>Path</key>
-				<string>layout13.xml.zlib</string>
+				<string>layout28.xml.zlib</string>
 			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>Mirone Laptop Patch</string>
+				<string>frankiezdh - Conexant CX20632 for HP ProDesk 480 G4</string>
 				<key>Id</key>
-				<integer>3</integer>
+				<integer>23</integer>
 				<key>Path</key>
-				<string>PlatformsM.xml.zlib</string>
+				<string>Platforms23.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Conexant CX8050 for ASUS X411UN by cowpod</string>
+				<string>Daniel</string>
 				<key>Id</key>
-				<integer>13</integer>
+				<integer>28</integer>
 				<key>Path</key>
-				<string>Platforms13.xml.zlib</string>
+				<string>Platforms28.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>
@@ -105,13 +105,37 @@
 			<key>Count</key>
 			<integer>2</integer>
 			<key>Find</key>
+			<data>gxnUEQ==</data>
+			<key>MinKernel</key>
+			<integer>15</integer>
+			<key>Name</key>
+			<string>AppleHDA</string>
+			<key>Replace</key>
+			<data>AAAAAA==</data>
+		</dict>
+		<dict>
+			<key>Count</key>
+			<integer>2</integer>
+			<key>Find</key>
+			<data>hBnUEQ==</data>
+			<key>MinKernel</key>
+			<integer>13</integer>
+			<key>Name</key>
+			<string>AppleHDA</string>
+			<key>Replace</key>
+			<data>mFDxFA==</data>
+		</dict>
+		<dict>
+			<key>Count</key>
+			<integer>2</integer>
+			<key>Find</key>
 			<data>ixnUEQ==</data>
 			<key>MinKernel</key>
 			<integer>16</integer>
 			<key>Name</key>
 			<string>AppleHDA</string>
 			<key>Replace</key>
-			<data>ch/xFA==</data>
+			<data>mFDxFA==</data>
 		</dict>
 		<dict>
 			<key>Count</key>
@@ -139,6 +163,10 @@
 			<key>Replace</key>
 			<data>Y2ltaes=</data>
 		</dict>
+	</array>
+	<key>Revisions</key>
+	<array>
+		<integer>1048832</integer>
 	</array>
 	<key>Vendor</key>
 	<string>Conexant</string>
