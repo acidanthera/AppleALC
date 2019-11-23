@@ -1,5 +1,9 @@
 AppleALC Changelog
 ==================
+#### v1.4.4
+Added ALC269 layout-id 12 for Asus Vivobook S200CE by chunnann
+Update ALC269 layout-id 19 for Asus Vivobook S300CA by chunnann
+
 #### v1.4.3
 - Added support for `No-hda-gfx` HDEF property disabling IGPU digital audio
 - Added CX8050 layout-id 13 for ASUS S410U/X411U by cowpod
