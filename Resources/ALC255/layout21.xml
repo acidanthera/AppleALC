@@ -30,7 +30,7 @@
 			<key>LineIn</key>
 			<dict>
 				<key>MuteGPIO</key>
-				<integer>1342242840</integer>
+				<integer>1342242841</integer>
 				<key>SignalProcessing</key>
 				<dict>
 					<key>SoftwareDSP</key>
@@ -359,6 +359,8 @@
 			</dict>
 			<key>Mic</key>
 			<dict>
+				<key>MuteGPIO</key>
+				<integer>1342242842</integer>
 				<key>SignalProcessing</key>
 				<dict>
 					<key>SoftwareDSP</key>
@@ -959,7 +961,7 @@
 				<string>IntSpeaker</string>
 			</array>
 			<key>PathMapID</key>
-			<integer>255</integer>
+			<integer>212</integer>
 		</dict>
 	</array>
 </dict>
