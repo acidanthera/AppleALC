@@ -21,7 +21,7 @@
 	<array>
 		<dict>
 			<key>Comment</key>
-			<string>DalianSky - Realtek ALC256 (3246) for MateBook X Pro 2019</string>
+			<string>DalianSky - Realtek ALC256 (3246) for MateBook X Pro 2019 (modified by gnodipac886)</string>
 			<key>PathMap</key>
 			<array>
 				<array>
@@ -46,11 +46,11 @@
 										</dict>
 									</array>
 									<key>MuteInputAmp</key>
-									<true/>
+									<false/>
 									<key>PublishMute</key>
-									<true/>
+									<false/>
 									<key>PublishVolume</key>
-									<true/>
+									<false/>
 									<key>VolumeInputAmp</key>
 									<true/>
 								</dict>
@@ -93,9 +93,9 @@
 										<key>MuteInputAmp</key>
 										<true/>
 										<key>PublishMute</key>
-										<true/>
+										<false/>
 										<key>PublishVolume</key>
-										<true/>
+										<false/>
 										<key>VolumeInputAmp</key>
 										<true/>
 									</dict>
@@ -123,11 +123,11 @@
 								<key>Amp</key>
 								<dict>
 									<key>MuteInputAmp</key>
-									<true/>
+									<false/>
 									<key>PublishMute</key>
 									<true/>
 									<key>PublishVolume</key>
-									<true/>
+									<false/>
 									<key>VolumeInputAmp</key>
 									<false/>
 								</dict>
@@ -153,9 +153,9 @@
 										</dict>
 									</array>
 									<key>MuteInputAmp</key>
-									<true/>
+									<false/>
 									<key>PublishMute</key>
-									<true/>
+									<false/>
 									<key>PublishVolume</key>
 									<true/>
 									<key>VolumeInputAmp</key>
@@ -202,9 +202,9 @@
 										</dict>
 									</array>
 									<key>MuteInputAmp</key>
-									<true/>
+									<false/>
 									<key>PublishMute</key>
-									<true/>
+									<false/>
 									<key>PublishVolume</key>
 									<true/>
 									<key>VolumeInputAmp</key>
