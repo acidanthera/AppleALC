@@ -927,5 +927,40 @@
 		<key>Vendor</key>
 		<string>NVIDIA</string>
 	</dict>
+	<dict>
+		<key>Device</key>
+		<integer>712</integer>
+		<key>Name</key>
+		<string>400 Series PCH HD Audio</string>
+		<key>Patches</key>
+		<array>
+			<dict>
+				<key>Count</key>
+				<integer>6</integer>
+				<key>Find</key>
+				<data>cKEAAA==</data>
+				<key>MinKernel</key>
+				<integer>16</integer>
+				<key>Name</key>
+				<string>AppleHDAController</string>
+				<key>Replace</key>
+				<data>yAIAAA==</data>
+			</dict>
+			<dict>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Find</key>
+				<data>hoBwoQ==</data>
+				<key>MinKernel</key>
+				<integer>16</integer>
+				<key>Name</key>
+				<string>AppleHDAController</string>
+				<key>Replace</key>
+				<data>hoDIAg==</data>
+			</dict>
+		</array>
+		<key>Vendor</key>
+		<string>Intel</string>
+	</dict>
 </array>
 </plist>
