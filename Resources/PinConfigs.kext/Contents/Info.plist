@@ -2045,6 +2045,21 @@
 					<integer>28</integer>
 				</dict>
 				<dict>
+					<string>ALC262 for MS-7847</string>
+					<key>CodecID</key>
+					<integer>283902562</integer>
+					<key>ConfigData</key>
+					<data>
+					AUccEAFHHUABRx4hAUcfAgFXHB8BVx0QAVce
+					AQFXHwEBZxwgAWcdAQFnHhMBZx+ZAYccMAGH
+					HTABhx6BAYcfAQGnHD8Bpx2QAaceoQGnHwI=
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>66</integer>
+				</dict>
+				<dict>
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
