@@ -2045,6 +2045,9 @@
 					<integer>28</integer>
 				</dict>
 				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>ALC262 for MS-7847</string>
 					<key>CodecID</key>
 					<integer>283902562</integer>
