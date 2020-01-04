@@ -69,4 +69,4 @@ sub main() {
 }
 
 main();
-exit(0);
+break(0);
