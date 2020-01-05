@@ -2989,6 +2989,28 @@
 				<dict>
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
+                                        <key>Codec</key>
+	                                <string>ALC269VC for Hasee K790s</string>
+					<key>CodecID</key>
+					<integer>283902569</integer>
+					<key>ConfigData</key>
+					<data>
+					AScc8AEnHQABJx4AAScfQAFHHPABRx0AAUce
+					AAFHH0ABdxzwAXcdAAF3HgABdx9AAYccEAGH
+					HRABhx6AAYcfkAGXHBABlx0AAZceoAGXH5AB
+					pxyQAacdAQGnHhcBpx+QAbcc8AG3HQABtx4A
+					AbcfQAHXHPAB1x0AAdceAAHXH0AB5xxwAecd
+					EQHnHkQB5x8EAhccoAIXHRACFx4hAhcfBAFH
+					DAI=
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>28</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
 					<key>Codec</key>
 					<string>Mirone - Realtek ALC270 v1</string>
 					<key>CodecID</key>
