@@ -348,6 +348,14 @@
 				<key>Path</key>
 				<string>layout188.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>ALC269VC for Hasee K790s</string>
+				<key>Id</key>
+				<integer>47</integer>
+				<key>Path</key>
+				<string>layout47.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -686,6 +694,14 @@
 				<integer>188</integer>
 				<key>Path</key>
 				<string>Platforms188.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>ALC269VC for Hasee K790s</string>
+				<key>Id</key>
+				<integer>47</integer>
+				<key>Path</key>
+				<string>Platforms47.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>
