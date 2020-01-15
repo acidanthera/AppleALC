@@ -113,7 +113,7 @@
 					</array>
 				</array>
 				<array> <!-- Analog Output -->
-					<array> <!-- Rear Line Out -->
+					<array> <!-- Rear Speaker Out -->
 						<array>
 							<dict>
 								<key>Amp</key>
