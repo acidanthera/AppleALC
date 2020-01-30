@@ -34,7 +34,7 @@ The minimal instruction is available on the [wiki](https://github.com/vit9696/Ap
 The prebuilt binaries are available on [releases](https://github.com/vit9696/AppleALC/releases) page.
 
 #### Contribution
-To support more audio codecs in the binary packages you are asked to submit your configurations. Please read the [wiki](https://github.com/vit9696/AppleALC/wiki) for more details. For the contributors with programming skills the headers are filled with AppleDOC comments.
+To support more audio codecs in the binary packages you are asked to submit configurations. Please read the [wiki](https://github.com/vit9696/AppleALC/wiki) for more details. For the contributors with programming skills the headers are filled with AppleDOC comments.
 
 #### Support and discussion
 [InsanelyMac topic](http://www.insanelymac.com/forum/topic/311293-applealc-—-dynamic-applehda-patching/) in English  
