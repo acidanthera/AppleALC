@@ -1767,6 +1767,28 @@
 					<key>CodecID</key>
 					<integer>283902550</integer>
 					<key>Comment</key>
+					<string>Andres ZeroCross for Razer Blade 15 RZ09-02705E75</string>
+					<key>ConfigData</key>
+					<data>
+					AUccUAFHHQABRx4XAUcfkAFHDAIBJxwwAScd
+					AAEnHqABJx+QAhccIAIXHRACFx4hAhcfAAGX
+					HEABlx0QAZcegQGXHwQ=
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>23</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>CodecID</key>
+					<integer>283902550</integer>
+					<key>Comment</key>
 					<string>vusun123 - ALC256 for Asus X555UJ</string>
 					<key>ConfigData</key>
 					<data>
