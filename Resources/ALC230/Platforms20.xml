@@ -48,9 +48,9 @@
 									<key>MuteInputAmp</key>
 									<true/>
 									<key>PublishMute</key>
-									<false/>
+									<true/>
 									<key>PublishVolume</key>
-									<false/>
+									<true/>
 									<key>VolumeInputAmp</key>
 									<true/>
 								</dict>
@@ -94,9 +94,9 @@
 									<key>MuteInputAmp</key>
 									<true/>
 									<key>PublishMute</key>
-									<false/>
+									<true/>
 									<key>PublishVolume</key>
-									<false/>
+									<true/>
 									<key>VolumeInputAmp</key>
 									<true/>
 								</dict>
@@ -153,9 +153,9 @@
 										</dict>
 									</array>
 									<key>MuteInputAmp</key>
-									<false/>
+									<true/>
 									<key>PublishMute</key>
-									<false/>
+									<true/>
 									<key>PublishVolume</key>
 									<true/>
 									<key>VolumeInputAmp</key>
@@ -202,9 +202,9 @@
 										</dict>
 									</array>
 									<key>MuteInputAmp</key>
-									<false/>
+									<true/>
 									<key>PublishMute</key>
-									<false/>
+									<true/>
 									<key>PublishVolume</key>
 									<true/>
 									<key>VolumeInputAmp</key>
