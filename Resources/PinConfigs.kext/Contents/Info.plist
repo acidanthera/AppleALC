@@ -5176,9 +5176,9 @@
 					<integer>283902612</integer>
 					<key>ConfigData</key>
 					<data>
-					AhccIAIXHRACFx4hAhcfAAG3HBABtx0BAbce
-					pwG3H5ABlxxAAZcdEAGXHoEBlx8EAUccUAFH
-					HQABRx4XAUcfkAFHDAI=
+					AhccIAIXHRACFx4hAhcfAQG3HDABtx0BAbce
+					pwG3H5ABlxwwAZcdEAGXHoEBlx8BAUccEAFH
+					HQEBRx4XAUcfkAFHDAIBtwwCAhcMAg==
 					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
@@ -5186,7 +5186,7 @@
 					<integer>66</integer>
 					<key>WakeConfigData</key>
 					<data>
-					AUcMAg==
+					AUcMAgG3DAICFwwC
 					</data>
 					<key>WakeVerbReinit</key>
 					<true/>
