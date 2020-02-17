@@ -790,6 +790,8 @@
 			</dict>
 			<key>LineIn</key>
 			<dict>
+				<key>MuteGPIO</key>
+				<integer>1342242841</integer>
 				<key>SignalProcessing</key>
 				<dict>
 					<key>SoftwareDSP</key>
@@ -1119,7 +1121,7 @@
 			<key>Mic</key>
 			<dict>
 				<key>MuteGPIO</key>
-				<integer>1342242853</integer>
+				<integer>0</integer>
 				<key>SignalProcessing</key>
 				<dict>
 					<key>SoftwareDSP</key>
