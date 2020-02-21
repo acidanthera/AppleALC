@@ -4495,6 +4495,29 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>Ayat Kyo - Realtek ALC294 for Asus ROG G531GD</string>
+					<key>CodecID</key>
+					<integer>283902612</integer>
+					<key>ConfigData</key>
+					<data>
+					ATccAAE3HQABNx4QATcfQAFHHBABRx0BAUce
+					FwFHH5ABRwwCAZccIAGXHRABlx6BAZcfBAIX
+					HDACFx0QAhceIQIXHwQCFwwCAdccQAHXHZoB
+					1x5nAdcfQAEnHFABJx0BASceoAEnH5A=
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>28</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgIXDAI=</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>Damon - Realtek ALC 295 for HP Envy x360 15-bp107tx</string>
 					<key>CodecID</key>
 					<integer>283902613</integer>
