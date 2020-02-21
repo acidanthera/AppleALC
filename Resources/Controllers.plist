@@ -675,7 +675,7 @@
 				<key>Find</key>
 				<data>cKEAAA==</data>
 				<key>MinKernel</key>
-				<integer>16</integer>
+				<integer>19</integer>
 				<key>Name</key>
 				<string>AppleHDAController</string>
 				<key>Replace</key>
@@ -687,7 +687,7 @@
 				<key>Find</key>
 				<data>hoBwoQ==</data>
 				<key>MinKernel</key>
-				<integer>16</integer>
+				<integer>19</integer>
 				<key>Name</key>
 				<string>AppleHDAController</string>
 				<key>Replace</key>
