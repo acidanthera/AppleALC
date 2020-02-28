@@ -1173,6 +1173,26 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>ALC236 for Lenovo Xiaoxin Air 14IKBR by AlexanderLake</string>
+					<key>CodecID</key>
+					<integer>283902518</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccEAEnHQEBJx6gAScfkAFHHEABRx0BAUce
+					EAFHH5ABRwwCAZccIAGXHRABlx6LAZcfAQIX
+					HFACFx0QAhceKwIXHwECFwwC
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>12</integer>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>Custom - Realtek ALC236 for Lenovi Air 13 Pro by rexx0520</string>
 					<key>CodecID</key>
 					<integer>283902518</integer>
