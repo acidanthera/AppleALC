@@ -7654,6 +7654,31 @@
 					<key>CodecID</key>
 					<integer>283906592</integer>
 					<key>CodecName</key>
+					<string>MacPeet- ALC1220 for Z370 AORUS Gaming 7 - Output SP/HP SwitchMode</string>
+					<key>ConfigData</key>
+					<data>
+					AeccMAHnHSAB5x5FAecfAQGHHEABhx2QAYce
+					oQGHH5ABlxxQAZcdkAGXHoEBlx8CAUccYAFH
+					HUABRx4hAUcfAgFHDAIBVxxwAVcdEAFXHgEB
+					Vx8BAWccgAFnHWABZx4BAWcfAQGnHJABpx0w
+					AacegQGnHwEBtxygAbcdQAG3HhEBtx+QAbcM
+					Ag==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>30</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgG3DAI=</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>CodecID</key>
+					<integer>283906592</integer>
+					<key>CodecName</key>
 					<string>Custom ALC1220 for MSI P65 Creator by CleverCoder</string>
 					<key>ConfigData</key>
 					<data>
