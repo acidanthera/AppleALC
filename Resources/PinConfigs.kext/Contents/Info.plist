@@ -4253,6 +4253,28 @@
 				<dict>
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>MacPeet - alc292 for LENOVO THINKPAD T450_T450s_X240 - ManualMode</string>
+					<key>CodecID</key>
+					<integer>283902610</integer>
+					<key>ConfigData</key>
+					<data>
+					AaccIAGnHRABpx6BAacfAAEnHDABJx0AASce
+					pgEnH5ABRxxAAUcdAAFHHhcBRx+QAUcMAgFX
+					HFABVx0QAVceAQFXHwABVwwC
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>15</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgFXDAI=</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
 					<key>CodecID</key>
 					<integer>283902610</integer>
 					<key>Comment</key>
