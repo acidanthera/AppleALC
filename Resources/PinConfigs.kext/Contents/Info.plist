@@ -1053,6 +1053,32 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>Realtek ALC235 for Lenovo ThinkCentre Tiny M720q by marian</string>
+					<key>CodecID</key>
+					<integer>283902517</integer>
+					<key>ConfigData</key>
+					<data>
+					AUccEAFHHQEBRx4XAUcfkAFHDAICFxwfAhcd
+					EAIXHiECFx8CAhcMAgGXHCABlx0QAZceoAGX
+					H5IBpxwwAacdEAGnHoABpx8C
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>17</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAgIXDAIBlwwAAacMAA==
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
 					<string>ALC235 for Lenovo C530 Desktop PC by Andres ZeroCross</string>
