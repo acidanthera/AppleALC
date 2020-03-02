@@ -208,17 +208,17 @@ void AlcEnabler::updateDeviceProperties(IORegistryEntry *hdaService, DeviceInfo 
 			}
 		}
 
-		// These seem to fix AppleHDA warnings, perhaps research them later.
-		// They are probably related to the current volume of the boot bell sound.
+		// SystemAudioVolume variable used by boot chime sound will be capped by this value.
+		// Only lower 7 bits are valid bits for volume level, 8th bit is used for muted status.
 		if (!hdaService->getProperty("MaximumBootBeepVolume")) {
 			DBGLOG("alc", "fixing MaximumBootBeepVolume in hdef");
-			uint8_t bootBeepBytes[] { 0xEE };
+			uint8_t bootBeepBytes[] { 0x7F };
 			hdaService->setProperty("MaximumBootBeepVolume", bootBeepBytes, sizeof(bootBeepBytes));
 		}
 
 		if (!hdaService->getProperty("MaximumBootBeepVolumeAlt")) {
 			DBGLOG("alc", "fixing MaximumBootBeepVolumeAlt in hdef");
-			uint8_t bootBeepBytes[] { 0xEE };
+			uint8_t bootBeepBytes[] { 0x7F };
 			hdaService->setProperty("MaximumBootBeepVolumeAlt", bootBeepBytes, sizeof(bootBeepBytes));
 		}
 
