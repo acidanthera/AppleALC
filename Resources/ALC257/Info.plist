@@ -28,6 +28,22 @@
 				<key>Path</key>
 				<string>layout18.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Realtek ALC257 for Lenovo XiaoXin Pro 2019(81XB/81XD) by DalianSky</string>
+				<key>Id</key>
+				<integer>99</integer>
+				<key>Path</key>
+				<string>layout99.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Realtek ALC257 for Lenovo XiaoXin Pro 2019(81XB/81XD) by DalianSky</string>
+				<key>Id</key>
+				<integer>100</integer>
+				<key>Path</key>
+				<string>layout100.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -46,6 +62,22 @@
 				<integer>18</integer>
 				<key>Path</key>
 				<string>Platforms18.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Realtek ALC257 for Lenovo XiaoXin Pro 2019(81XB/81XD) by DalianSky</string>
+				<key>Id</key>
+				<integer>99</integer>
+				<key>Path</key>
+				<string>Platforms99.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Realtek ALC257 for Lenovo XiaoXin Pro 2019(81XB/81XD) by DalianSky</string>
+				<key>Id</key>
+				<integer>100</integer>
+				<key>Path</key>
+				<string>Platforms100.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>
@@ -100,6 +132,18 @@
 			<string>AppleHDA</string>
 			<key>Replace</key>
 			<data>QcaGQwEAAAE=</data>
+		</dict>
+		<dict>
+			<key>Count</key>
+			<integer>2</integer>
+			<key>Find</key>
+			<data>ixnUEQ==</data>
+			<key>MinKernel</key>
+			<integer>13</integer>
+			<key>Name</key>
+			<string>AppleHDA</string>
+			<key>Replace</key>
+			<data>VwLsEA==</data>
 		</dict>
 		<dict>
 			<key>Count</key>

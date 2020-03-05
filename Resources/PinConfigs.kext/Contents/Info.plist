@@ -2050,6 +2050,50 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>Realtek ALC257 for Lenovo XiaoXin Pro 2019(81XB/81XD) by DalianSky</string>
+					<key>CodecID</key>
+					<integer>283902551</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccMAEnHQEBJx6mAScfkAIXHCACFx0QAhce
+					IQIXHwQBlxxAAZcdEAGXHoEBlx8EAUccEAFH
+					HQEBRx4XAUcfkAFHDAI=
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>99</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>Realtek ALC257 for Lenovo XiaoXin Pro 2019(81XB/81XD) by DalianSky</string>
+					<key>CodecID</key>
+					<integer>283902551</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccMAEnHQEBJx6mAScfkAIXHCACFx0QAhce
+					IQIXHwQBlxxAAZcdEAGXHoEBlx8EAUccEAFH
+					HQEBRx4XAUcfkAFHDAI=
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>100</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>MacPeet ALC260 for Fujitsu Celsius M 450</string>
 					<key>CodecID</key>
 					<integer>283902560</integer>
