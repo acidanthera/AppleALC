@@ -10,6 +10,12 @@
 			<key>DeviceType</key>
 			<string>Headphone</string>
 		</dict>
+		<dict>
+			<key>DeviceID</key>
+			<integer>0</integer>
+			<key>DeviceType</key>
+			<string>Microphone</string>
+		</dict>
 	</array>
 	<key>PathMaps</key>
 	<array>
