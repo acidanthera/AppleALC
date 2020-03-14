@@ -1384,6 +1384,27 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>Armenio - Realtek ALC255 / ALC3234 for Dell 7348</string>
+					<key>CodecID</key>
+					<integer>283902549</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccYAEnHQEBJx6mAScfkAFHHCABRx0BAUce
+					FwFHH5ABRwwCAZcc8AGXHRABlx4RAZcfQQGn
+					HPABpx0QAaceEQGnH0ECFxwwAhcdEAIXHiEC
+					Fx8CAhcMAg==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>7</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>Codec</key>
 					<string>Realtek ALC255(3234) for Dell Optiplex series by Heporis</string>
 					<key>CodecID</key>
 					<integer>283902549</integer>
