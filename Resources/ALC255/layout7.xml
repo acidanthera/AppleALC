@@ -18,17 +18,9 @@
 				<string>Mic</string>
 			</array>
 			<key>IntSpeaker</key>
-			<dict>
-				<key>MaximumBootBeepValue</key>
-				<integer>48</integer>
-				<key>MuteGPIO</key>
-				<integer>0</integer>
-			</dict>
+			<dict/>
 			<key>Mic</key>
-			<dict>
-				<key>MuteGPIO</key>
-				<integer>0</integer>
-			</dict>
+			<dict/>
 			<key>Outputs</key>
 			<array>
 				<string>Headphone</string>
