@@ -15,9 +15,12 @@
 			<dict/>
 			<key>Inputs</key>
 			<array>
+				<string>LineIn</string>
 				<string>Mic</string>
 			</array>
 			<key>IntSpeaker</key>
+			<dict/>
+			<key>LineIn</key>
 			<dict/>
 			<key>Mic</key>
 			<dict/>
