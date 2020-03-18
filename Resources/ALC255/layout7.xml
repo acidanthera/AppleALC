@@ -12,22 +12,14 @@
 				<integer>283902549</integer>
 			</array>
 			<key>Headphone</key>
-			<dict>
-				<key>HeadsetMic_dBV</key>
-				<integer>1088421888</integer>
-				<key>MuteGPIO</key>
-				<integer>1</integer>
-			</dict>
+			<dict/>
 			<key>Inputs</key>
 			<array>
 				<string>LineIn</string>
 				<string>Mic</string>
 			</array>
 			<key>IntSpeaker</key>
-			<dict>
-				<key>MaximumBootBeepValue</key>
-				<string>48</string>
-			</dict>
+			<dict/>
 			<key>LineIn</key>
 			<dict/>
 			<key>Mic</key>
