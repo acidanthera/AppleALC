@@ -2674,6 +2674,26 @@
 					<key>CodecID</key>
 					<integer>283902569</integer>
 					<key>Comment</key>
+					<string>Andres ZeroCross - ALC269VC for Acer Veriton Z4640G</string>
+					<key>ConfigData</key>
+					<data>
+					AaccEAGnHQABpx4XAacfkAGXHDABlx0QAZce
+					gQGXHwABJxxAAScdAAEnHqABJx+QAVccUAFX
+					HRABVx4hAVcfAA==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>22</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>ALC269</string>
+					<key>CodecID</key>
+					<integer>283902569</integer>
+					<key>Comment</key>
 					<string>Custom ALC269 for Acer Aspire by Andrey1970</string>
 					<key>ConfigData</key>
 					<data>
