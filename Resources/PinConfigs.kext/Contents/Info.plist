@@ -9123,6 +9123,27 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>MacPeet - IDT92HD73E1X5 for HP Envy h8 1425eg</string>
+					<key>CodecID</key>
+					<integer>287143542</integer>
+					<key>ConfigData</key>
+					<data>
+					AMccEADHHUAAxx4RAMcfkQCnHCAApx1AAKce
+					IQCnHwIA5xwwAOcdkADnHqEA5x+RALccQAC3
+					HZAAtx6BALcfAgDXHFAA1x0wANcegQDXHwEA
+					9xxgAPcdEAD3HgEA9x8BAQcccAEHHWABBx4B
+					AQcfAQEXHIABFx0gARceAQEXHwECJxygAicd
+					EAInHkUCJx8B
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>15</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>Mirone - IDT 92HD81B1C5</string>
 					<key>CodecID</key>
 					<integer>287143637</integer>
