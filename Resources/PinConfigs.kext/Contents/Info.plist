@@ -2750,6 +2750,7 @@
 					<key>LayoutID</key>
 					<integer>22</integer>
 				</dict>
+				<dict>
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
