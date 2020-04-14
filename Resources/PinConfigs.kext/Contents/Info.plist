@@ -4867,12 +4867,17 @@
 					<data>
 					AXccEAF3HQABdx4XAXcfkAEnHCABJx0AASce
 					oAEnH5ACFxwwAhcdEAIXHiECFx8AAZccQAGX
-					HRABlx6BAZcfAAIXDAI=
+					HRABlx6BAZcfAAIXDAIBJwcgAXcHQAGXByAB
+					1wcgAecHQAIXB8A=
 					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>14</integer>
+					<key>WakeConfigData</key>
+					<data>AScHIAF3B0ABlwcgAdcHIAHnB0ACFwfA</data>
+					<key>WakeVerbReinit</key>
+					<true/>
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
