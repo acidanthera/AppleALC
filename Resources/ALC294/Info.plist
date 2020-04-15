@@ -46,6 +46,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>cowpod - Realtek ALC294 for ASUS ROG GL504GW</string>
+				<key>Id</key>
+				<integer>22</integer>
+				<key>Path</key>
+				<string>layout22.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Ayat Kyo - Realtek ALC294 for Asus ROG G531GD</string>
 				<key>Id</key>
 				<integer>28</integer>
@@ -94,6 +102,14 @@
 				<integer>21</integer>
 				<key>Path</key>
 				<string>Platforms21.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>cowpod - Realtek ALC294 for ASUS ROG GL504GW</string>
+				<key>Id</key>
+				<integer>22</integer>
+				<key>Path</key>
+				<string>Platforms22.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>

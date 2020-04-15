@@ -4739,6 +4739,28 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>cowpod - Realtek ALC294 for ASUS ROG GL504GW</string>
+					<key>CodecID</key>
+					<integer>283902612</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccIAEnHQEBJx6gAScfkAF3HBABdx0BAXce
+					FwF3H5ABlxxAAZcdEAGXHoEBlx8EAhccMAIX
+					HRACFx4hAhcfBAF3DAICFwwC
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>22</integer>
+					<key>WakeConfigData</key>
+					<data>AXcMAgIXDAI=</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>Ayat Kyo - Realtek ALC294 for Asus ROG G531GD</string>
 					<key>CodecID</key>
 					<integer>283902612</integer>
