@@ -62,6 +62,8 @@
 								<integer>36</integer>
 							</dict>
 							<dict>
+								<key>Boost</key>
+								<integer>1</integer>
 								<key>NodeID</key>
 								<integer>18</integer>
 							</dict>
