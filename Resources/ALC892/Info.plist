@@ -102,6 +102,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>ASRock Z390m-ITX/ac by imEgo</string>
+				<key>Id</key>
+				<integer>22</integer>
+				<key>Path</key>
+				<string>layout22.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>ALC892 for Clevo P751DMG by Cryse Hillmes</string>
 				<key>Id</key>
 				<integer>28</integer>
@@ -246,6 +254,14 @@
 				<integer>18</integer>
 				<key>Path</key>
 				<string>Platforms18.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>ASRock Z390m-ITX/ac by imEgo</string>
+				<key>Id</key>
+				<integer>22</integer>
+				<key>Path</key>
+				<string>Platforms22.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
