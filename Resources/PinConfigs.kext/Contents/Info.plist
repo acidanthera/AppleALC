@@ -691,6 +691,12 @@
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>20</integer>
+				<key>WakeConfigData</key>
+					<data>
+					AZcHJQ==
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
