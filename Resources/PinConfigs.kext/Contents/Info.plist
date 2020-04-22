@@ -1125,6 +1125,28 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>ALC235 for Asus TUF FX705GM by TheRealGudv1n</string>
+					<key>CodecID</key>
+					<integer>283902517</integer>
+					<key>ConfigData</key>
+					<data>
+					AhccIAIXHRACFx4rAhcfAAEnHDABJx0AASce
+					pwEnH5ABlxwwAZcdEAGXHosBlx8BAUccQAFH
+					HQABRx4XAUcfkAFHDAI=
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>24</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>vusun123 - Realtek ALC235 for Lenovo Legion Y520</string>
 					<key>CodecID</key>
 					<integer>283902517</integer>
