@@ -1176,7 +1176,7 @@
 				<string>SPDIFOut</string>
 			</array>
 			<key>PathMapID</key>
-			<integer>100</integer>
+			<integer>20</integer>
 			<key>SPDIFOut</key>
 			<dict/>
 		</dict>
