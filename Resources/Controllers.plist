@@ -986,7 +986,7 @@
 		<key>Device</key>
 		<integer>712</integer>
 		<key>Name</key>
-		<string>400 Series PCH HD Audio</string>
+		<string>400 Series PCH-LP HD Audio</string>
 		<key>Patches</key>
 		<array>
 			<dict>
@@ -1012,6 +1012,41 @@
 				<string>AppleHDAController</string>
 				<key>Replace</key>
 				<data>hoDIAg==</data>
+			</dict>
+		</array>
+		<key>Vendor</key>
+		<string>Intel</string>
+	</dict>
+	<dict>
+		<key>Device</key>
+		<integer>1736</integer>
+		<key>Name</key>
+		<string>400 Series PCH-H HD Audio</string>
+		<key>Patches</key>
+		<array>
+			<dict>
+				<key>Count</key>
+				<integer>6</integer>
+				<key>Find</key>
+				<data>cKEAAA==</data>
+				<key>MinKernel</key>
+				<integer>17</integer>
+				<key>Name</key>
+				<string>AppleHDAController</string>
+				<key>Replace</key>
+				<data>yAYAAA==</data>
+			</dict>
+			<dict>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Find</key>
+				<data>hoBwoQ==</data>
+				<key>MinKernel</key>
+				<integer>17</integer>
+				<key>Name</key>
+				<string>AppleHDAController</string>
+				<key>Replace</key>
+				<data>hoDIBg==</data>
 			</dict>
 		</array>
 		<key>Vendor</key>

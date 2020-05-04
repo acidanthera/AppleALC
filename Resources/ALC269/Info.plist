@@ -364,6 +364,14 @@
 				<key>Path</key>
 				<string>layout47.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>ALC269 for Thunderobot-G7000S-9300H by Phoenix-L</string>
+				<key>Id</key>
+				<integer>77</integer>
+				<key>Path</key>
+				<string>layout77.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -718,6 +726,14 @@
 				<integer>47</integer>
 				<key>Path</key>
 				<string>Platforms47.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>ALC269 for Thunderobot-G7000S-9300H by Phoenix-L</string>
+				<key>Id</key>
+				<integer>77</integer>
+				<key>Path</key>
+				<string>Platforms77.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>

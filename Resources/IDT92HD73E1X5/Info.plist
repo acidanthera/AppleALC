@@ -3,65 +3,33 @@
 <plist version="1.0">
 <dict>
 	<key>Author</key>
-	<string>MacPeet,Lcp</string>
+	<string>MacPeet</string>
 	<key>CodecID</key>
-	<integer>1649</integer>
+	<integer>30326</integer>
 	<key>CodecName</key>
-	<string>ALC671</string>
+	<string>IDT92HD73E1X5</string>
 	<key>Files</key>
 	<dict>
 		<key>Layouts</key>
 		<array>
 			<dict>
-				<key>Comment </key>
-				<string>MacPeet - ALC671 for Fujitsu-Siemens D3433-S (Q170 chip)</string>
-				<key>Id</key>
-				<integer>12</integer>
-				<key>Path</key>
-				<string>layout12.xml.zlib</string>
-			</dict>
-			<dict>
-				<key>Comment </key>
-				<string>MacPeet - ALC671 for Fujitsu  Esprimo C720</string>
+				<key>Comment</key>
+				<string>MacPeet - IDT92HD73E1X5 for HP Envy h8 1425eg</string>
 				<key>Id</key>
 				<integer>15</integer>
 				<key>Path</key>
 				<string>layout15.xml.zlib</string>
 			</dict>
-			<dict>
-				<key>Comment </key>
-				<string>ALC671 for HP 280 Pro G4 by Lcp</string>
-				<key>Id</key>
-				<integer>88</integer>
-				<key>Path</key>
-				<string>layout88.xml.zlib</string>
-			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
 			<dict>
-				<key>Comment </key>
-				<string>MacPeet - ALC671 for Fujitsu-Siemens D3433-S (Q170 chip)</string>
-				<key>Id</key>
-				<integer>12</integer>
-				<key>Path</key>
-				<string>Platforms12.xml.zlib</string>
-			</dict>
-			<dict>
-				<key>Comment </key>
-				<string>MacPeet - ALC671 for Fujitsu  Esprimo C720</string>
+				<key>Comment</key>
+				<string>MacPeet - IDT92HD73E1X5 for HP Envy h8 1425eg</string>
 				<key>Id</key>
 				<integer>15</integer>
 				<key>Path</key>
 				<string>Platforms15.xml.zlib</string>
-			</dict>
-			<dict>
-				<key>Comment </key>
-				<string>ALC671 for HP 280 Pro G4 by Lcp</string>
-				<key>Id</key>
-				<integer>88</integer>
-				<key>Path</key>
-				<string>Platforms88.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>
@@ -121,25 +89,13 @@
 			<key>Count</key>
 			<integer>2</integer>
 			<key>Find</key>
-			<data>hQjsEA==</data>
+			<data>ixnUEQ==</data>
 			<key>MinKernel</key>
 			<integer>13</integer>
 			<key>Name</key>
 			<string>AppleHDA</string>
 			<key>Replace</key>
-			<data>AAAAAA==</data>
-		</dict>
-		<dict>
-			<key>Count</key>
-			<integer>2</integer>
-			<key>Find</key>
-			<data>hAjsEA==</data>
-			<key>MinKernel</key>
-			<integer>13</integer>
-			<key>Name</key>
-			<string>AppleHDA</string>
-			<key>Replace</key>
-			<data>AAAAAA==</data>
+			<data>dnYdEQ==</data>
 		</dict>
 		<dict>
 			<key>Count</key>
@@ -151,7 +107,7 @@
 			<key>Name</key>
 			<string>AppleHDA</string>
 			<key>Replace</key>
-			<data>cQbsEA==</data>
+			<data>AAAAAA==</data>
 		</dict>
 		<dict>
 			<key>Count</key>
@@ -167,8 +123,20 @@
 			<key>Replace</key>
 			<data>AAAAAA==</data>
 		</dict>
+		<dict>
+			<key>Count</key>
+			<integer>2</integer>
+			<key>Find</key>
+			<data>ihnUEQ==</data>
+			<key>MinKernel</key>
+			<integer>16</integer>
+			<key>Name</key>
+			<string>AppleHDA</string>
+			<key>Replace</key>
+			<data>AAAAAA==</data>
+		</dict>
 	</array>
 	<key>Vendor</key>
-	<string>Realtek</string>
+	<string>IDT</string>
 </dict>
 </plist>

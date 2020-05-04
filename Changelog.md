@@ -1,5 +1,24 @@
 AppleALC Changelog
 ==================
+#### v1.5.0
+
+
+#### v1.4.9
+- Added IDT92HD73E1X5 layout-id 15 for HP Envy h8 1425eg by MacPeet
+- Fix Headphone NodeID ALC269VC layout-id 22 Veritron Z4640G by Andres ZeroCross
+- Added ALC255 layout-id 29 for Acer Predator G3-571 by dhinakg
+- Added ALC256 layout-id 17 for Magicbook with 4CH by hjmmc
+- Updated ConfigData & Added WakeConfigData for ALC295 layout-id 14 by hieplpvip
+- Added ALC671 layout-id 88 for HP 280 Pro G4 by lcp6668
+- Added ALC294 layout-id 22 for ASUS ROG GL504GW by cowpod
+- Added ALC892 layout-id 22 for ASRock Z390m-ITX/ac by imEgo
+- Added wakeconfigdata for ALC230 layout-id 20 by ameenjuz
+- Added ALC235 layout-id 24 for ASUS TUF FX705GM by therealgudv1n
+- Added ALC892 layout-id 20 for GIGABYTE Z390M GAMING by bokeylee
+- Added ALC298 layout-id 16 for Dell Precision 5520 by Pingren
+- Added ALC269 layout-id 77 for Thunderobot-G7000S by Phoenix-Liang
+- Rename 400 series LP controller, add 400 series PCH-H controller
+
 #### v1.4.8
 - MaxKernel HS for GM/GP
 - Support startup delay for AppleHDAController via `alc-delay` property or `alcdelay` boot-arg (in ms)
