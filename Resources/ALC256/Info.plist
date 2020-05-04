@@ -54,6 +54,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>hjmmc - Realtek ALC256 (3246) for Magicbook 2018 with 4CH</string>
+				<key>Id</key>
+				<integer>17</integer>
+				<key>Path</key>
+				<string>layout17.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Andres ZeroCross for Dell 5570</string>
 				<key>Id</key>
 				<integer>21</integer>
@@ -158,6 +166,14 @@
 				<integer>16</integer>
 				<key>Path</key>
 				<string>Platforms16.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>hjmmc - Realtek ALC256 (3246) for Magicbook 2018 with 4CH</string>
+				<key>Id</key>
+				<integer>17</integer>
+				<key>Path</key>
+				<string>Platforms17.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
