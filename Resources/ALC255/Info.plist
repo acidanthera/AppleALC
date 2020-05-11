@@ -24,9 +24,9 @@
 				<key>Comment</key>
 				<string>Armênio - Realtek ALC255/ALC3234 - Dell 7348</string>
 				<key>Id</key>
-				<integer>7</integer>
+				<integer>86</integer>
 				<key>Path</key>
-				<string>layout7.xml.zlib</string>
+				<string>layout86.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -155,9 +155,9 @@
 				<key>Comment</key>
 				<string>Armênio - Realtek ALC255/ALC3234 - Dell 7348</string>
 				<key>Id</key>
-				<integer>7</integer>
+				<integer>86</integer>
 				<key>Path</key>
-				<string>Platforms7.xml.zlib</string>
+				<string>Platforms86.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -353,6 +353,18 @@
 			<key>Count</key>
 			<integer>2</integer>
 			<key>Find</key>
+			<data>YgLsEA==</data>
+			<key>MinKernel</key>
+			<integer>13</integer>
+			<key>Name</key>
+			<string>AppleHDA</string>
+			<key>Replace</key>
+			<data>AAAAAA==</data>
+		</dict>
+		<dict>
+			<key>Count</key>
+			<integer>2</integer>
+			<key>Find</key>
 			<data>hQjsEA==</data>
 			<key>MinKernel</key>
 			<integer>13</integer>
@@ -377,35 +389,11 @@
 			<key>Count</key>
 			<integer>2</integer>
 			<key>Find</key>
-			<data>YgLsEA==</data>
-			<key>MinKernel</key>
-			<integer>13</integer>
-			<key>Name</key>
-			<string>AppleHDA</string>
-			<key>Replace</key>
-			<data>AAAAAA==</data>
-		</dict>
-		<dict>
-			<key>Count</key>
-			<integer>2</integer>
-			<key>Find</key>
 			<data>gxnUEQ==</data>
 			<key>MaxKernel</key>
 			<integer>15</integer>
 			<key>MinKernel</key>
 			<integer>15</integer>
-			<key>Name</key>
-			<string>AppleHDA</string>
-			<key>Replace</key>
-			<data>AAAAAA==</data>
-		</dict>
-		<dict>
-			<key>Count</key>
-			<integer>2</integer>
-			<key>Find</key>
-			<data>BkITEA==</data>
-			<key>MinKernel</key>
-			<integer>13</integer>
 			<key>Name</key>
 			<string>AppleHDA</string>
 			<key>Replace</key>
