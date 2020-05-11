@@ -2118,28 +2118,6 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
-					<string>Armênio - Realtek ALC257 - Lenovo T480</string>
-					<key>CodecID</key>
-					<integer>283902551</integer>
-					<key>ConfigData</key>
-					<data>
-					ASccEAEnHQEBJx6gAScfkAGXHCABlx0wAZce
-					gQGXHwEBRxwwAUcdYQFHHhABRx+QAUcMAgIX
-					HEACFx1wAhceIQIXHwECFwwC
-					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>86</integer>
-					<key>WakeConfigData</key>
-					<data>AUcMAg==</data>
-					<key>WakeVerbReinit</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
-					<key>Codec</key>
 					<string>Realtek ALC257 for Lenovo Legion Y540 and Y7000-2019</string>
 					<key>CodecID</key>
 					<integer>283902551</integer>
