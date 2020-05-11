@@ -30,6 +30,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Armênio - Realtek ALC257 - Lenovo T480</string>
+				<key>Id</key>
+				<integer>86</integer>
+				<key>Path</key>
+				<string>layout86.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Realtek ALC257 for Lenovo XiaoXin Pro 2019(81XB/81XD) by DalianSky</string>
 				<key>Id</key>
 				<integer>99</integer>
@@ -62,6 +70,14 @@
 				<integer>18</integer>
 				<key>Path</key>
 				<string>Platforms18.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Armênio - Realtek ALC257 - Lenovo T480</string>
+				<key>Id</key>
+				<integer>86</integer>
+				<key>Path</key>
+				<string>Platforms86.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -161,6 +177,18 @@
 			<key>Count</key>
 			<integer>2</integer>
 			<key>Find</key>
+			<data>hAjsEA==</data>
+			<key>MinKernel</key>
+			<integer>13</integer>
+			<key>Name</key>
+			<string>AppleHDA</string>
+			<key>Replace</key>
+			<data>AAAAAA==</data>
+		</dict>
+		<dict>
+			<key>Count</key>
+			<integer>2</integer>
+			<key>Find</key>
 			<data>YgLsEA==</data>
 			<key>MinKernel</key>
 			<integer>13</integer>
@@ -185,6 +213,18 @@
 			<key>Count</key>
 			<integer>2</integer>
 			<key>Find</key>
+			<data>hBnUEQ==</data>
+			<key>MinKernel</key>
+			<integer>13</integer>
+			<key>Name</key>
+			<string>AppleHDA</string>
+			<key>Replace</key>
+			<data>VwLsEA==</data>
+		</dict>
+		<dict>
+			<key>Count</key>
+			<integer>2</integer>
+			<key>Find</key>
 			<data>gxnUEQ==</data>
 			<key>MaxKernel</key>
 			<integer>15</integer>
@@ -194,18 +234,6 @@
 			<string>AppleHDA</string>
 			<key>Replace</key>
 			<data>AAAAAA==</data>
-		</dict>
-		<dict>
-			<key>Count</key>
-			<integer>2</integer>
-			<key>Find</key>
-			<data>hBnUEQ==</data>
-			<key>MinKernel</key>
-			<integer>13</integer>
-			<key>Name</key>
-			<string>AppleHDA</string>
-			<key>Replace</key>
-			<data>VwLsEA==</data>
 		</dict>
 	</array>
 	<key>Revisions</key>
