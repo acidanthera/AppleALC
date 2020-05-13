@@ -14,14 +14,6 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>Realtek ALC255 for Dell 7447 by was3912734</string>
-				<key>Id</key>
-				<integer>1</integer>
-				<key>Path</key>
-				<string>layout1.xml.zlib</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>Mirone Laptop Patch ALC255</string>
 				<key>Id</key>
 				<integer>3</integer>
@@ -75,6 +67,14 @@
 				<integer>18</integer>
 				<key>Path</key>
 				<string>layout18.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Realtek ALC255 for Dell 7447 by was3912734</string>
+				<key>Id</key>
+				<integer>1</integer>
+				<key>Path</key>
+				<string>layout20.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -153,14 +153,6 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>Realtek ALC255 for Dell 7447 by was3912734</string>
-				<key>Id</key>
-				<integer>1</integer>
-				<key>Path</key>
-				<string>Platforms1.xml.zlib</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>Mirone Laptop Patch ALC255</string>
 				<key>Id</key>
 				<integer>3</integer>
@@ -214,6 +206,14 @@
 				<integer>18</integer>
 				<key>Path</key>
 				<string>Platforms18.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Realtek ALC255 for Dell 7447 by was3912734</string>
+				<key>Id</key>
+				<integer>1</integer>
+				<key>Path</key>
+				<string>Platforms20.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
