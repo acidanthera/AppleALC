@@ -4417,6 +4417,28 @@
 				<dict>
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>Realtek ALC285 for Yoga C740 by fewtarius</string>
+					<key>CodecID</key>
+					<integer>283902597</integer>
+					<key>ConfigData</key>
+					<data>
+					AUccEAFHHQEBRx4TAUcfkAFHDAICFxwgAhcd
+					EAIXHiECFx8DAhcMAgGXHEABlx0QAZceoQGX
+					HwM=
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>61</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgIXDAIBlwwA</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
 					<key>CodecID</key>
 					<integer>283902598</integer>
 					<key>CodecName</key>
