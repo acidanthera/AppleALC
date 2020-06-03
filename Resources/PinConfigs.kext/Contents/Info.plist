@@ -10086,14 +10086,14 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
-					<string>Lancet-X—Realtek ALC295/ALC3254 for HP OMEN 15-AX000</string>
+					<string>Lancet-z - ALC295 for Skylake HP OMEN</string>
 					<key>CodecID</key>
 					<integer>283902613</integer>
 					<key>ConfigData</key>
 					<data>
 					ASccEAEnHQEBJx6mAScfmQFHHEABRx0BAUce
-					FwFHH5kBlxwgAZcdEAGXHoEBlx8AAhccUAIX
-					HRACFx4hAhcfAAFHDAICFwwC
+					FwFHH5kBRwwCAZccgAGXHRABlx6LAZcfAAIX
+					HMACFx0QAhceKwIXHwACFwwC
 					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>

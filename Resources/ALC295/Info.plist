@@ -78,7 +78,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Lancet-X—Realtek ALC295/ALC3254 for HP OMEN 15-AX000</string>
+				<string>Lancet-z - ALC295 for Skylake HP OMEN</string>
 				<key>Id</key>
 				<integer>23</integer>
 				<key>Path</key>
@@ -153,11 +153,11 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>kzyyf—Realtek ALC295/ALC3254 for HP OMEN 15-AX000</string>
+				<string>Lancet-z - ALC295 for Skylake HP OMEN</string>
 				<key>Id</key>
 				<integer>23</integer>
 				<key>Path</key>
-				<string>Platforms23.xml.zlib</string>
+				<string>PlatformsID.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>
