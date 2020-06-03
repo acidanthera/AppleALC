@@ -10125,6 +10125,28 @@
 					<key>LayoutID</key>
 					<integer>77</integer>
 				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>zty199 - ALC295 for HP Pavilion / OMEN-2</string>
+					<key>CodecID</key>
+					<integer>283902613</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccAAEnHQEBJx6mAScfmQFHHEABRx0BAUce
+					FwFHH5kBRwwCAZccgAGXHRABlx6LAZcfAAIX
+					HMACFx0QAhceKwIXHwACFwwC
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>24</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgIXDAI=</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
 			</array>
 			<key>IOClass</key>
 			<string>AppleHDAHardwareConfigDriver</string>
