@@ -3493,6 +3493,8 @@
 									<true/>
 									<key>PublishVolume</key>
 									<true/>
+									<key>SoftwareVolume</key>
+									<true/>
 									<key>VolumeInputAmp</key>
 									<true/>
 								</dict>

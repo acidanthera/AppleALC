@@ -153,15 +153,17 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
-					<string>Creative CA0132, 5.1 with C/Sub</string>
+					<string>Creative CA0132: R3Di default</string>
 					<key>CodecID</key>
 					<integer>285343761</integer>
 					<key>ConfigData</key>
 					<data>
-					ABcWHwAXFx4AFxUUAVcKAQEnCIEBZwiAAVcX
-					DQFXGCQA1xzwANcdAADXHgAA1x9AAOcc8ADn
-					HQAA5x4AAOcfQAEHHgEBJx+QATcc8AE3HQAB
-					Nx4AATcfQAGHHPABhx0AAYceAAGHH0A=
+					AVcKAQFXDwEAFxceABcWHwAXFRQBVxcNAVcY
+					JAC3HUEA1xzwANcdAADXHgAA1x9AAOcc8ADn
+					HQAA5x4AAOcfQAD3HCAA9x8BAQccMAEHHgEB
+					Bx8BARccQAEXHgEBFx8BASccAAEnH5ABNxzw
+					ATcdAAE3HgABNx9AAYcc8AGHHQABhx4AAYcf
+					QA==
 					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
