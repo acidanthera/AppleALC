@@ -117,14 +117,16 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
-					<string>Creative CA0132, 2.0 + front HP</string>
+					<string>Creative CA0132: Alienware 17, Desktop 2xIn 2xOut</string>
 					<key>CodecID</key>
 					<integer>285343761</integer>
 					<key>ConfigData</key>
 					<data>
-					ABcXHgAXFRABVwoBAScIgQFnCIABVxcNAVcY
-					JADXHPAA1x0AANceAADXH0ABBx4hAScfkAE3
-					HPABNx0AATceAAE3H0A=
+					AVcKAQFXDwEAFxceABcWHwAXFRABVxcNAVcY
+					JAC3HhAAtx+QANcc8ADXHQAA1x4AANcfQADn
+					HPAA5x0AAOceAADnH0AA9xwgAPcfAQEHHDAB
+					Bx4hAQcfAQEXHEABFx6BARcfAQEnHwABJx+Q
+					ATcc8AE3HQABNx4AATcfQA==
 					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
