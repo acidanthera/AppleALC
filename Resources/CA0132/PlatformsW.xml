@@ -2930,6 +2930,8 @@
 									<true/>
 									<key>PublishVolume</key>
 									<true/>
+									<key>SoftwareVolume</key>
+									<true/>
 									<key>VolumeInputAmp</key>
 									<true/>
 								</dict>
@@ -2994,7 +2996,7 @@
 						<array>
 							<dict>
 								<key>NodeID</key>
-								<integer>15</integer>
+								<integer>11</integer>
 							</dict>
 							<dict>
 								<key>Amp</key>
@@ -3034,7 +3036,7 @@
 						<array>
 							<dict>
 								<key>NodeID</key>
-								<integer>11</integer>
+								<integer>15</integer>
 							</dict>
 							<dict>
 								<key>Amp</key>
