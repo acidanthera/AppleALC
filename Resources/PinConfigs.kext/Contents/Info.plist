@@ -2076,9 +2076,9 @@
 					<key>ConfigData</key>
 					<data>
 					AbccEAG3HQEBtx4XAbcfkAG3DAIBRxwRAUcd
-					AQFHHhcBRx+QAUcMAgIXHCACFx0QAhceIQIX
-					HwICFwwCASccMAEnHQEBJx6mAScfkAGXHPAB
-					lx0AAZceAAGXH0AB1xzwAdcdAAHXHgAB1x9A
+					AQFHHhcBRx+QAUcMAgIXHCACFx0QAhceKwIX
+					HwQCFwwCASccMAEnHQEBJx6mAScfkAGXHEAB
+					lx0QAZceqwGXHwQB1xzwAdcdAAHXHgAB1x9A
 					AYcc8AGHHQABhx4AAYcfQAE3HPABNx0AATce
 					AAE3H0ABpxzwAacdAAGnHgABpx9AAecc8AHn
 					HQAB5x4AAecfQA==
@@ -2088,7 +2088,7 @@
 					<key>LayoutID</key>
 					<integer>76</integer>
 					<key>WakeConfigData</key>
-					<data>AbcMAgFHDAI=</data>
+					<data>AbcMAgFHDAICFwwC</data>
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
