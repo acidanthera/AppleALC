@@ -3190,7 +3190,7 @@
 									<key>PortWidth</key>
 									<integer>1</integer>
 									<key>SourceFuncInstance</key>
-									<integer>25</integer>
+									<integer>0</integer>
 									<key>SourcePortIndex</key>
 									<integer>0</integer>
 								</dict>
@@ -3201,7 +3201,7 @@
 									<key>PortWidth</key>
 									<integer>1</integer>
 									<key>SourceFuncInstance</key>
-									<integer>25</integer>
+									<integer>0</integer>
 									<key>SourcePortIndex</key>
 									<integer>1</integer>
 								</dict>
