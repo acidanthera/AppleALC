@@ -32,6 +32,26 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>CodecID</key>
+					<integer>287143573</integer>
+					<key>Comment</key>
+					<string>Toshiba Satellite Pro C50</string>
+					<key>ConfigData</key>
+					<data>
+					AKccQACnHRAApx4hAKcfAQC3HCAAtx0QALce
+					gQC3HwEAxxzwAMcdAADHHgAAxx9AANccMADX
+					HQEA1x4QANcfkADnHBAA5x0BAOceoADnH5AA
+					9xzwAPcdAAD3HgAA9x9AAYcc8AGHHQABhx4A
+					AYcfQA==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>11</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>CodecID</key>
 					<integer>351359128</integer>
 					<key>Comment</key>
 					<string>frankiezdh - Conexant CX20632 for HP ProDesk 480 G4</string>
