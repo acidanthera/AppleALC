@@ -140,21 +140,6 @@
 							<dict>
 								<key>Amp</key>
 								<dict>
-									<key>MuteInputAmp</key>
-									<true/>
-									<key>PublishMute</key>
-									<false/>
-									<key>PublishVolume</key>
-									<false/>
-									<key>VolumeInputAmp</key>
-									<true/>
-								</dict>
-								<key>NodeID</key>
-								<integer>12</integer>
-							</dict>
-							<dict>
-								<key>Amp</key>
-								<dict>
 									<key>Channels</key>
 									<array>
 										<dict>
@@ -204,21 +189,6 @@
 							<dict>
 								<key>Amp</key>
 								<dict>
-									<key>MuteInputAmp</key>
-									<true/>
-									<key>PublishMute</key>
-									<false/>
-									<key>PublishVolume</key>
-									<false/>
-									<key>VolumeInputAmp</key>
-									<true/>
-								</dict>
-								<key>NodeID</key>
-								<integer>13</integer>
-							</dict>
-							<dict>
-								<key>Amp</key>
-								<dict>
 									<key>Channels</key>
 									<array>
 										<dict>
@@ -251,7 +221,7 @@
 				</array>
 			</array>
 			<key>PathMapID</key>
-			<integer>255</integer>
+			<integer>86</integer>
 		</dict>
 	</array>
 	<key>CommonPeripheralDSP</key>

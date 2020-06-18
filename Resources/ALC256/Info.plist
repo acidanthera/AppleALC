@@ -62,6 +62,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Wanwu - Realtek ALC256 (3246) for MateBook X Pro 2019</string>
+				<key>Id</key>
+				<integer>19</integer>
+				<key>Path</key>
+				<string>layout19.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Andres ZeroCross for Dell 5570</string>
 				<key>Id</key>
 				<integer>21</integer>
@@ -115,6 +123,14 @@
 				<integer>66</integer>
 				<key>Path</key>
 				<string>layout66.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Durian - Realtek ALC256 (3246) for MateBook X Pro 2019（4CH）</string>
+				<key>Id</key>
+				<integer>76</integer>
+				<key>Path</key>
+				<string>layout76.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -177,6 +193,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Wanwu - Realtek ALC256 (3246) for MateBook X Pro 2019</string>
+				<key>Id</key>
+				<integer>19</integer>
+				<key>Path</key>
+				<string>Platforms19.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Andres ZeroCross for Dell 5570</string>
 				<key>Id</key>
 				<integer>21</integer>
@@ -230,6 +254,14 @@
 				<integer>66</integer>
 				<key>Path</key>
 				<string>Platforms66.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Durian - Realtek ALC256 (3246) for MateBook X Pro 2019（4CH）</string>
+				<key>Id</key>
+				<integer>76</integer>
+				<key>Path</key>
+				<string>Platforms76.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
