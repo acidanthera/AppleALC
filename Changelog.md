@@ -1,5 +1,8 @@
 AppleALC Changelog
 ==================
+#### v1.5.1
+- Set MinKernel Catalina for 400 Series
+
 #### v1.5.0
 - Update ALC283 layout-id 88 by xiaoleGun
 - Fixed accidental reading of `alc-layout-id` on non-Apple firmwares
