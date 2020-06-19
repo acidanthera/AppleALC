@@ -991,35 +991,10 @@
 		<array>
 			<dict>
 				<key>Count</key>
-				<integer>1</integer>
-				<key>Find</key>
-				<data>hoBwnQ==</data>
-				<key>MinKernel</key>
-				<integer>16</integer>
-				<key>Name</key>
-				<string>AppleHDAController</string>
-				<key>Replace</key>
-				<data>hoDIAg==</data>
-			</dict>
-			<dict>
-				<key>Count</key>
 				<integer>6</integer>
 				<key>Find</key>
-				<data>cJ0AAA==</data>
+				<data>cKEAAA==</data>
 				<key>MinKernel</key>
-				<integer>16</integer>
-				<key>Name</key>
-				<string>AppleHDAController</string>
-				<key>Replace</key>
-				<data>yAIAAA==</data>
-			</dict>
-			<dict>
-				<key>Count</key>
-				<integer>6</integer>
-				<key>Find</key>
-				<data>SKMAAA==</data>
-				<key>MinKernel</key>
-				<integer>16</integer>
 				<integer>19</integer>
 				<key>Name</key>
 				<string>AppleHDAController</string>
@@ -1030,7 +1005,7 @@
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Find</key>
-				<data>hoBIow==</data>
+				<data>hoBwoQ==</data>
 				<key>MinKernel</key>
 				<integer>19</integer>
 				<key>Name</key>

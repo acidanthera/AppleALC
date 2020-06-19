@@ -4423,16 +4423,16 @@
 					<integer>283902597</integer>
 					<key>ConfigData</key>
 					<data>
-					AUccEAFHHQEBRx4TAUcfkAFHDAICFxwgAhcd
-					EAIXHiECFx8DAhcMAgGXHEABlx0QAZceoQGX
-					HwM=
+					ASccAAEnHRABJx6hAScfAwFHHBABRx0BAUce
+					EwFHH5kBRwwCAhccIAIXHRACFx4hAhcfAwIX
+					DAIBlxxAAZcdAQGXHqMBlx+Z
 					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>61</integer>
 					<key>WakeConfigData</key>
-					<data>AUcMAgIXDAIBlwwA</data>
+					<data>AUcMAgIXDAI=</data>
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
