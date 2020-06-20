@@ -4605,6 +4605,28 @@
 					<key>CodecID</key>
 					<integer>283902608</integer>
 					<key>Comment</key>
+					<string>MacPeet - ALC290 for HP m6 n015dx</string>
+					<key>ConfigData</key>
+					<data>
+					AaccIAGnHRABpx6BAacfAAEnHDABJx0AASce
+					owEnH5ABVxxAAVcdEAFXHiEBVx8AAYccUAGH
+					HQEBhx4XAYcfkAGHDAI=
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>15</integer>
+					<key>WakeConfigData</key>
+					<data>AYcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>CodecID</key>
+					<integer>283902608</integer>
+					<key>Comment</key>
 					<string>vusun123 - ALC 290 for Dell Vostro 5480</string>
 					<key>ConfigData</key>
 					<data>
