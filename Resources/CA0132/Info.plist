@@ -30,7 +30,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Wern Apfel - 2.0 + front HP</string>
+				<string>Wern Apfel - Alienware 17</string>
 				<key>Id</key>
 				<integer>2</integer>
 				<key>Path</key>
@@ -67,6 +67,14 @@
 				<integer>6</integer>
 				<key>Path</key>
 				<string>layout6.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Wern Apfel - ZxRi</string>
+				<key>Id</key>
+				<integer>7</integer>
+				<key>Path</key>
+				<string>layout7.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -156,6 +164,14 @@
 				<string>Wern Apfel - generic</string>
 				<key>Id</key>
 				<integer>6</integer>
+				<key>Path</key>
+				<string>PlatformsW.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Wern Apfel - ZxRi</string>
+				<key>Id</key>
+				<integer>7</integer>
 				<key>Path</key>
 				<string>PlatformsW.xml.zlib</string>
 			</dict>

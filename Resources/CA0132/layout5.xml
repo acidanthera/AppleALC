@@ -491,7 +491,7 @@
 				<string>SPDIFOut</string>
 			</array>
 			<key>PathMapID</key>
-			<integer>6</integer>
+			<integer>5</integer>
 			<key>SPDIFOut</key>
 			<dict/>
 		</dict>

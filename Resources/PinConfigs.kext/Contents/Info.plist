@@ -233,6 +233,28 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>Creative CA0132: ZxRi</string>
+					<key>CodecID</key>
+					<integer>285343761</integer>
+					<key>ConfigData</key>
+					<data>
+					AVcKAQFXDwEAF5AzABcXDwAXFg8AFxUNAVcX
+					GAFXGBQBVxcaAVcYkQFQoCABUQAYAV8BAAFT
+					AIMBVAAAAVcXDQFXGCQAtx1BANcc8ADXHQAA
+					1x4AANcfQADnHPAA5x0AAOceAADnH0AA9xwg
+					APcfAQEHHDABBx4BAQcfAQEXHEABFx4BARcf
+					AQEnH5ABNxzwATcdAAE3HgABNx9AAYcc8AGH
+					HQABhx4AAYcfQA==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>7</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>Creative CA0132 by Andres ZeroCross</string>
 					<key>CodecID</key>
 					<integer>285343761</integer>

@@ -35,7 +35,7 @@ PluginConfiguration ADDPR(config) {
 	bootargBeta,
 	arrsize(bootargBeta),
 	KernelVersion::MountainLion,
-	KernelVersion::Catalina,
+	KernelVersion::BigSur,
 	[]() {
 		alc.init();
 	}
