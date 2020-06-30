@@ -100,6 +100,14 @@
 				<key>Path</key>
 				<string>layout12.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Creative CA0132 5.1 channel for Alienware-M17X-R4 by DalianSky</string>
+				<key>Id</key>
+				<integer>99</integer>
+				<key>Path</key>
+				<string>layout99.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -190,6 +198,14 @@
 				<integer>12</integer>
 				<key>Path</key>
 				<string>Platforms12.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Creative CA0132 5.1 channel for Alienware-M17X-R4 by DalianSky</string>
+				<key>Id</key>
+				<integer>99</integer>
+				<key>Path</key>
+				<string>Platforms99.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>

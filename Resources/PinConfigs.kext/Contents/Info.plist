@@ -283,6 +283,27 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>Creative CA0132 5.1 channel for Alienware-M17X-R4 by DalianSky</string>
+					<key>CodecID</key>
+					<integer>285343761</integer>
+					<key>ConfigData</key>
+					<data>
+					ALccEAC3HUEAtx4QALcfkADHHCAAxx0gAMce
+					RQDHHwEA1xzwANcdAADXHgAA1x9AAOcc8ADn
+					HQAA5x4AAOcfQAD3HFAA9x1AAPceIQD3HwEB
+					BxzwAQcdAAEHHgABBx9AARcccAEXHRABFx4B
+					ARcfAQEnHIABJx2RASceoAEnH5ABNxzwATcd
+					AAE3HgABNx9AAYcc8AGHHQABhx4AAYcfQA==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>99</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>InsanelyDeepak - Cirrus Logic CS4210</string>
 					<key>CodecID</key>
 					<integer>269697552</integer>
