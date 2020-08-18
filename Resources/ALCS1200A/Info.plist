@@ -38,11 +38,11 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Mirone - ALCS1200A, 5 audio ports, native: 2 inputs, 3 outputs+front panel+SPDIF/Optical</string>
+				<string>ALCS1200A for msi-MAG-Z490-TOMAHAWK by owen0o0</string>
 				<key>Id</key>
-				<integer>5</integer>
+				<integer>11</integer>
 				<key>Path</key>
-				<string>layout5.xml.zlib</string>
+				<string>layout11.xml.zlib</string>
 			</dict>
 		</array>
 		<key>Platforms</key>
@@ -73,11 +73,11 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Mirone resources</string>
+				<string>Custom ALCS1200A for msi-MAG-Z490-TOMAHAWK</string>
 				<key>Id</key>
-				<integer>5</integer>
+				<integer>11</integer>
 				<key>Path</key>
-				<string>PlatformsM.xml.zlib</string>
+				<string>Platforms11.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>
