@@ -10287,6 +10287,30 @@
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
+				<dict>
+					<key>CodecID</key>
+					<integer>283904768</integer>
+					<key>CodecName</key>
+					<string>iowen -  Realtek ALCS1200A</string>
+					<key>ConfigData</key>
+					<data>
+					AUccEAFHHVABRx4RAUcfkQFHDAIBZxwRAWcd
+					EAFnHgEBZx8BAVccEgFXHRABVx4BAVcfAQG3
+					HCABtx1AAbceIQG3HwIBtwwCAeccMAHnHREB
+					5x5FAecfAQGHHEABhx0QAYceoQGHH5EBpxxA
+					AacdEAGnHoEBpx8BAZccUAGXHZABlx6BAZcf
+					AgF3HPABdx0AAXceAAF3H0ABFxzwARcdAAEX
+					HgABFx9A
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>5</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgG3DAI=</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
 			</array>
 			<key>IOClass</key>
 			<string>AppleHDAHardwareConfigDriver</string>

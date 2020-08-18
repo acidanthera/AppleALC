@@ -36,6 +36,14 @@
 				<key>Path</key>
 				<string>layout3.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>toleda - ALCS1200A, 5 audio ports, native: 2 inputs, 3 outputs+front panel+SPDIF/Optical</string>
+				<key>Id</key>
+				<integer>5</integer>
+				<key>Path</key>
+				<string>layout5.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -62,6 +70,14 @@
 				<integer>3</integer>
 				<key>Path</key>
 				<string>PlatformsT.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>toleda resources</string>
+				<key>Id</key>
+				<integer>5</integer>
+				<key>Path</key>
+				<string>PlatformsM.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>
