@@ -372,6 +372,14 @@
 				<key>Path</key>
 				<string>layout77.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom ALC269 by ryahpalma for Laptop NS4SL01</string>
+				<key>Id</key>
+				<integer>128</integer>
+				<key>Path</key>
+				<string>layout128.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -734,6 +742,14 @@
 				<integer>77</integer>
 				<key>Path</key>
 				<string>Platforms77.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom ALC269 by ryahpalma for Laptop NS4SL01</string>
+				<key>Id</key>
+				<integer>128</integer>
+				<key>Path</key>
+				<string>Platforms128.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>
