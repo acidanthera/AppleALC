@@ -8508,6 +8508,29 @@
 					<true/>
 				</dict>
 				<dict>
+					<key>CodecID</key>
+					<integer>283904768</integer>
+					<key>CodecName</key>
+					<string>VictorXu -  Realtek ALCS1200A for Gigabyte B460M Aorus Pro</string>
+					<key>ConfigData</key>
+					<data>
+					AUccEAFHHUABRx4RAUcfkQFHDAIBZxwRAWcd
+					YAFnHgEBZx8BAVccEgFXHRABVx4BAVcfAQF3
+					HBQBdx0gAXceAQF3HwEBtxwgAbcdQAG3HiEB
+					tx8CAbcMAgGHHEABhx2QAYceoQGHH5EBpxxP
+					AacdMAGnHoEBpx8BAZccUAGXHZABlx6BAZcf
+					Ag==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>50</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgG3DAI=</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>CodecID</key>
