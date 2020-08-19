@@ -3902,6 +3902,29 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>Realtek ALC280 - Optiplex 9020SFF - ManualMode</string>
+					<key>CodecID</key>
+					<integer>283902592</integer>
+					<key>ConfigData</key>
+					<data>
+					AUccMAFHHQABRx4XAUcfkAFHDAIBtxwgAbcd
+					QAG3HgEBtx8BAVccEAFXHUABVx4hAVcfAgFX
+					DAIBhxxAAYcdMAGHHoEBhx8BAaccUAGnHZAB
+					px6BAacfAg==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>17</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgFXDAI=</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>Dell Precision T7610 Workstation ALC280 by Andres ZeroCross</string>
 					<key>CodecID</key>
 					<integer>283902592</integer>
