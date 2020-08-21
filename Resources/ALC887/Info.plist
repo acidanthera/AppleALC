@@ -148,6 +148,14 @@
 				<key>Path</key>
 				<string>layout87.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Realtek ALC887-VD for ASUS H81M-D by VictorXu</string>
+				<key>Id</key>
+				<integer>12</integer>
+				<key>Path</key>
+				<string>layout12.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -286,6 +294,14 @@
 				<string>87</string>
 				<key>Path</key>
 				<string>Platforms87.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Realtek ALC887-VD for ASUS H81M-D by VictorXu</string>
+				<key>Id</key>
+				<string>12</string>
+				<key>Path</key>
+				<string>Platforms12.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>
