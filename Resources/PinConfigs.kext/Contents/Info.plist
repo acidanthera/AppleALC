@@ -10287,6 +10287,27 @@
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
+				<dict>
+					<key>CodecID</key>
+					<integer>283904768</integer>
+					<key>CodecName</key>
+					<string>VictorXu -  Realtek ALCS1200A for Asrock Z490M-ITX</string>
+					<key>ConfigData</key>
+					<data>
+					AUccEAFHHUABRx4RAUcfkQFHDAIBtxwgAbcd
+					QAG3HiEBtx8CAbcMAgGHHDABhx2QAYceoQGH
+					H5EBpxw/AacdMAGnHoEBpx8BAZccQAGXHZAB
+					lx6BAZcfAg==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>49</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgG3DAI=</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
 			</array>
 			<key>IOClass</key>
 			<string>AppleHDAHardwareConfigDriver</string>
