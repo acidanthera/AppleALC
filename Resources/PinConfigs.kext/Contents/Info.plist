@@ -30,6 +30,36 @@
 			<array>
 				<dict>
 					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>CodecID</key>
+					<integer>283902569</integer>
+					<key>Comment</key>
+					<string>Custom ALC269VD for ThinkPad T430</string>
+					<key>ConfigData</key>
+					<data>
+					ASccEAEnHQEBJx6mAScfkAFHHEABRx0BAUce
+					FwFHH5ABVxxQAVcdEAFXHiEBVx8CAXcc8AF3
+					HQABdx4AAXcfQAGHHCABhx0QAYcegQGHHwIB
+					lxxwAZcdEAGXHqEBlx8CAacccAGnHRABpx6h
+					AacfAgG3HHABtx0QAbceoQG3HwIB1xxwAdcd
+					EAHXHqEB1x8CAecccAHnHRAB5x6hAecfAgFH
+					DAI=
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>23</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAg==
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>CodecID</key>
 					<integer>287143573</integer>
