@@ -20,6 +20,8 @@
 	<key>PathMaps</key>
 	<array>
 		<dict>
+			<key>Comment</key>
+			<string>ALCS1200A for msi-MAG-Z490-TOMAHAWK by owen0o0</string>
 			<key>PathMap</key>
 			<array>
 				<array>
@@ -95,11 +97,11 @@
 									<true/>
 								</dict>
 								<key>NodeID</key>
-								<integer>8</integer>
+								<integer>9</integer>
 							</dict>
 							<dict>
 								<key>NodeID</key>
-								<integer>38</integer>
+								<integer>34</integer>
 							</dict>
 							<dict>
 								<key>NodeID</key>

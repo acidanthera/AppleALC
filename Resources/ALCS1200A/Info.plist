@@ -52,6 +52,14 @@
 				<key>Path</key>
 				<string>layout50.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>ALCS1200A for msi-MAG-Z490-TOMAHAWK by owen0o0</string>
+				<key>Id</key>
+				<integer>11</integer>
+				<key>Path</key>
+				<string>layout11.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -94,6 +102,14 @@
 				<integer>50</integer>
 				<key>Path</key>
 				<string>Platforms50.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>ALCS1200A for msi-MAG-Z490-TOMAHAWK by owen0o0</string>
+				<key>Id</key>
+				<integer>11</integer>
+				<key>Path</key>
+				<string>Platforms11.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>
