@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Author</key>
-	<string>Andres</string>
+	<string>Andres, cowpod</string>
 	<key>CodecID</key>
 	<integer>665</integer>
 	<key>CodecName</key>
@@ -28,6 +28,14 @@
 				<key>Path</key>
 				<string>layout22.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>cowpod - Dell XPS13 9380</string>
+				<key>Id</key>
+				<integer>23</integer>
+				<key>Path</key>
+				<string>layout23.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -46,6 +54,14 @@
 				<integer>22</integer>
 				<key>Path</key>
 				<string>Platforms22.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>cowpod - Dell XPS13 9380</string>
+				<key>Id</key>
+				<integer>23</integer>
+				<key>Path</key>
+				<string>Platforms23.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>
