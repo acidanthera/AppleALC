@@ -3105,6 +3105,32 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>ALC269</string>
+					<key>CodecID</key>
+					<integer>283902569</integer>
+					<key>Comment</key>
+					<string>ALC269VC for Hasee by zero816</string>
+					<key>ConfigData</key>
+					<data>
+					AXccAAF3HQABdx4AAXcfQAHXHAUB1x2GAdce
+					9AHXH0ABRxwQAUcdAQFHHhcBRx+QAUcMAgFX
+					HCABVx0QAVceIQFXHwEBVwwCAYccMAGHHRAB
+					hx6hAYcfAQEnHEABJx0BAScepgEnH5ABlxzw
+					AZcdEQGXHhEBlx9BAbcc8AG3HREBtx4RAbcf
+					QQHnHPAB5x0RAeceEQHnH0EBpxzxAacdEQGn
+					HhEBpx9B
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>24</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
 					<string>ALC269</string>
