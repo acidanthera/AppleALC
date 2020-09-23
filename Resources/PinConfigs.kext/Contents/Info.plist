@@ -4504,6 +4504,28 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>Realtek ALC283 for NUC7 by mikes </string>
+					<key>CodecID</key>
+					<integer>283902595</integer>
+					<key>ConfigData</key>
+					<data>
+					AUccAAFHHQABRx4AAUcfQAEnHCABJx0AASce
+					pgEnH5AB1xwwAdcdEAHXHoEB1x8AAhccQAIX
+					HRACFx4hAhcfAg==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>45</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>ASRock DeskMini 110(H110M-STX) ALC283 by licheedev</string>
 					<key>CodecID</key>
 					<integer>283902595</integer>
