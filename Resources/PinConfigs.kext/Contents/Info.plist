@@ -1290,6 +1290,32 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>Realtek ALC235 for Lenovo Qitian M420 by Cryse Hillmes</string>
+					<key>CodecID</key>
+					<integer>283902517</integer>
+					<key>ConfigData</key>
+					<data>
+					AScc8AEnHQABJx4AAScfQAFHHBABRx0BAUce
+					FwFHH5ABdxzwAXcdAAF3HgABdx9AAYcc8AGH
+					HQABhx4AAYcfQAGXHHABlx0QAZceoQGXHwIB
+					pxwgAacdEAGnHoEBpx8CAbccgAG3HRABtx4B
+					AbcfAQHXHPAB1x0AAdceAAHXH0AB5xzwAecd
+					AAHnHgAB5x9AAhccUAIXHRACFx4hAhcfAgFH
+					DAIBtwwCAhcMAgIXB8ACFwiCAZcHJA==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>35</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgG3DAICFwwCAhcHwAIXCIIBlwck</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>ALC235 for Lenovo TianYi 510s Mini by DalianSky</string>
 					<key>CodecID</key>
 					<integer>283902517</integer>
