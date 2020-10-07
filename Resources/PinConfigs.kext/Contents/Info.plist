@@ -8896,6 +8896,30 @@
 					<true/>
 				</dict>
 				<dict>
+					<key>CodecID</key>
+					<integer>283904768</integer>
+					<key>CodecName</key>
+					<string>GeorgeWan - ALCS1200A for ASROCK Z490 Steel Legend</string>
+					<key>ConfigData</key>
+					<data>
+					ARcc8AEXHQABFx4AARcfQAFHHBABRx1AAUce
+					EQFHH5ABRwwCAVccIAFXHRABVx4BAVcfAQFn
+					HDABZx1gAWceAQFnHwEBdxzwAXcdAAF3HgAB
+					dx9AAYccQAGHHZABhx6gAYcfkAGXHGABlx2Q
+					AZcegQGXHwIBpxxQAacdMAGnHoEBpx8BAbcc
+					cAG3HUABtx4hAbcfAgG3DAIB5xyAAecdYQHn
+					HksB5x8B
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>51</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgG3DAI=</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>CodecID</key>
