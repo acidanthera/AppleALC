@@ -21,7 +21,10 @@
 			<key>IntSpeaker</key>
 			<dict/>
 			<key>LineIn</key>
-			<dict/>
+			<dict>
+				<key>MuteGPIO</key>
+				<integer>1342242833</integer>
+			</dict>
 			<key>LineOut</key>
 			<dict/>
 			<key>Mic</key>
@@ -129,7 +132,7 @@
 				<string>Headphone</string>
 			</array>
 			<key>PathMapID</key>
-			<integer>2</integer>
+			<integer>1</integer>
 			<key>SPDIFOut</key>
 			<dict/>
 		</dict>

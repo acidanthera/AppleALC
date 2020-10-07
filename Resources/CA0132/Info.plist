@@ -30,7 +30,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Wern Apfel - 2.0 + front HP</string>
+				<string>Wern Apfel - Alienware 17</string>
 				<key>Id</key>
 				<integer>2</integer>
 				<key>Path</key>
@@ -70,6 +70,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Wern Apfel - ZxRi</string>
+				<key>Id</key>
+				<integer>7</integer>
+				<key>Path</key>
+				<string>layout7.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Andres ZeroCross - No Volume Control</string>
 				<key>Id</key>
 				<integer>9</integer>
@@ -99,6 +107,14 @@
 				<integer>12</integer>
 				<key>Path</key>
 				<string>layout12.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Creative CA0132 5.1 channel for Alienware-M17X-R4 by DalianSky</string>
+				<key>Id</key>
+				<integer>99</integer>
+				<key>Path</key>
+				<string>layout99.xml.zlib</string>
 			</dict>
 		</array>
 		<key>Platforms</key>
@@ -161,6 +177,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Wern Apfel - ZxRi</string>
+				<key>Id</key>
+				<integer>7</integer>
+				<key>Path</key>
+				<string>PlatformsW.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Andres ZeroCross - No Volume Control</string>
 				<key>Id</key>
 				<integer>9</integer>
@@ -190,6 +214,14 @@
 				<integer>12</integer>
 				<key>Path</key>
 				<string>Platforms12.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Creative CA0132 5.1 channel for Alienware-M17X-R4 by DalianSky</string>
+				<key>Id</key>
+				<integer>99</integer>
+				<key>Path</key>
+				<string>Platforms99.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>

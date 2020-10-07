@@ -72,7 +72,7 @@
 				<key>Comment</key>
 				<string>Realtek ALC255 for Dell 7447 by was3912734</string>
 				<key>Id</key>
-				<integer>1</integer>
+				<integer>20</integer>
 				<key>Path</key>
 				<string>layout20.xml.zlib</string>
 			</dict>
@@ -211,7 +211,7 @@
 				<key>Comment</key>
 				<string>Realtek ALC255 for Dell 7447 by was3912734</string>
 				<key>Id</key>
-				<integer>1</integer>
+				<integer>20</integer>
 				<key>Path</key>
 				<string>Platforms20.xml.zlib</string>
 			</dict>

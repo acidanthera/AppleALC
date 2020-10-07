@@ -28,6 +28,14 @@
 				<key>Path</key>
 				<string>layout28.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>phucnguyen2411 - HP Elitedesk 800 G5 mini</string>
+				<key>Id</key>
+				<integer>20</integer>
+				<key>Path</key>
+				<string>layout20.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -46,6 +54,14 @@
 				<integer>28</integer>
 				<key>Path</key>
 				<string>Platforms28.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>phucnguyen2411 - HP Elitedesk 800 G5 mini</string>
+				<key>Id</key>
+				<integer>20</integer>
+				<key>Path</key>
+				<string>Platforms20.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>

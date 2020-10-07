@@ -14,6 +14,22 @@
 		<array>
 			<dict>
 				<key>Comment</key>
+				<string>Custom ALC269VD ThinkPad T430</string>
+				<key>Id</key>
+				<integer>23</integer>
+				<key>Path</key>
+				<string>layout23.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>ALC269VC for Hasee U45S1 by zero816</string>
+				<key>Id</key>
+				<integer>24</integer>
+				<key>Path</key>
+				<string>layout24.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Mirone Laptop patch ALC269 Asus N53J</string>
 				<key>Id</key>
 				<integer>1</integer>
@@ -372,9 +388,25 @@
 				<key>Path</key>
 				<string>layout77.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom ALC269 by ryahpalma for Laptop NS4SL01</string>
+				<key>Id</key>
+				<integer>128</integer>
+				<key>Path</key>
+				<string>layout128.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
+			<dict>
+				<key>Comment</key>
+				<string>Custom ALC269VD ThinkPad T430</string>
+				<key>Id</key>
+				<integer>23</integer>
+				<key>Path</key>
+				<string>Platforms23.xml.zlib</string>
+			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>Mirone Laptop patch ALC269 Asus N53J</string>
@@ -550,6 +582,14 @@
 				<integer>22</integer>
 				<key>Path</key>
 				<string>Platforms22.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>ALC269VC for Hasee U45S1 by zero816</string>
+				<key>Id</key>
+				<integer>24</integer>
+				<key>Path</key>
+				<string>Platforms24.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -734,6 +774,14 @@
 				<integer>77</integer>
 				<key>Path</key>
 				<string>Platforms77.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom ALC269 by ryahpalma for Laptop NS4SL01</string>
+				<key>Id</key>
+				<integer>128</integer>
+				<key>Path</key>
+				<string>Platforms128.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>

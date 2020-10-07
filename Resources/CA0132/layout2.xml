@@ -18,6 +18,8 @@
 				<string>Mic</string>
 				<string>LineIn</string>
 			</array>
+			<key>IntSpeaker</key>
+			<dict/>
 			<key>LineIn</key>
 			<dict>
 				<key>MuteGPIO</key>
@@ -489,12 +491,13 @@
 			</dict>
 			<key>Outputs</key>
 			<array>
+				<string>IntSpeaker</string>
 				<string>LineOut</string>
 				<string>Headphone</string>
 				<string>SPDIFOut</string>
 			</array>
 			<key>PathMapID</key>
-			<integer>3</integer>
+			<integer>2</integer>
 			<key>SPDIFOut</key>
 			<dict/>
 		</dict>

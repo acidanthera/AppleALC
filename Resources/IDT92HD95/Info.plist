@@ -14,6 +14,12 @@
 		<array>
 			<dict>
 				<key>Id</key>
+				<integer>11</integer>
+				<key>Path</key>
+				<string>layout11.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Id</key>
 				<integer>12</integer>
 				<key>Path</key>
 				<string>layout12.xml.zlib</string>
@@ -21,6 +27,12 @@
 		</array>
 		<key>Platforms</key>
 		<array>
+			<dict>
+				<key>Id</key>
+				<integer>11</integer>
+				<key>Path</key>
+				<string>Platforms11.xml.zlib</string>
+			</dict>
 			<dict>
 				<key>Id</key>
 				<integer>12</integer>

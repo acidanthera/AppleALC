@@ -4,6 +4,252 @@
 <array>
 	<dict>
 		<key>Device</key>
+		<integer>3599</integer>
+		<key>Name</key>
+		<string>NVIDIA HDMI for GK208 in 10.13.4+</string>
+		<key>Patches</key>
+		<array>
+			<dict>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Find</key>
+				<data>TlZEQQ==</data>
+				<key>MinKernel</key>
+				<integer>17</integer>
+				<key>Name</key>
+				<string>AppleHDAController</string>
+				<key>Replace</key>
+				<data>3hAPDg==</data>
+			</dict>
+		</array>
+		<key>Vendor</key>
+		<string>NVIDIA</string>
+	</dict>
+	<dict>
+		<key>Device</key>
+		<integer>4016</integer>
+		<key>Name</key>
+		<string>NVIDIA HDMI for GM200 in 10.13.4 - 10.13.6</string>
+		<key>Patches</key>
+		<array>
+			<dict>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Find</key>
+				<data>TlZEQQ==</data>
+				<key>MaxKernel</key>
+				<integer>17</integer>
+				<key>MinKernel</key>
+				<integer>17</integer>
+				<key>Name</key>
+				<string>AppleHDAController</string>
+				<key>Replace</key>
+				<data>3hCwDw==</data>
+			</dict>
+		</array>
+		<key>Vendor</key>
+		<string>NVIDIA</string>
+	</dict>
+	<dict>
+		<key>Device</key>
+		<integer>4024</integer>
+		<key>Name</key>
+		<string>NVIDIA HDMI for GP108 in 10.13.4 - 10.13.6</string>
+		<key>Patches</key>
+		<array>
+			<dict>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Find</key>
+				<data>TlZEQQ==</data>
+				<key>MaxKernel</key>
+				<integer>17</integer>
+				<key>MinKernel</key>
+				<integer>17</integer>
+				<key>Name</key>
+				<string>AppleHDAController</string>
+				<key>Replace</key>
+				<data>3hC4Dw==</data>
+			</dict>
+		</array>
+		<key>Vendor</key>
+		<string>NVIDIA</string>
+	</dict>
+	<dict>
+		<key>Device</key>
+		<integer>4025</integer>
+		<key>Name</key>
+		<string>NVIDIA HDMI for GP107 in 10.13.4 - 10.13.6</string>
+		<key>Patches</key>
+		<array>
+			<dict>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Find</key>
+				<data>TlZEQQ==</data>
+				<key>MaxKernel</key>
+				<integer>17</integer>
+				<key>MinKernel</key>
+				<integer>17</integer>
+				<key>Name</key>
+				<string>AppleHDAController</string>
+				<key>Replace</key>
+				<data>3hC5Dw==</data>
+			</dict>
+		</array>
+		<key>Vendor</key>
+		<string>NVIDIA</string>
+	</dict>
+	<dict>
+		<key>Device</key>
+		<integer>4026</integer>
+		<key>Name</key>
+		<string>NVIDIA HDMI for GM206 in 10.13.4 - 10.13.6</string>
+		<key>Patches</key>
+		<array>
+			<dict>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Find</key>
+				<data>TlZEQQ==</data>
+				<key>MaxKernel</key>
+				<integer>17</integer>
+				<key>MinKernel</key>
+				<integer>17</integer>
+				<key>Name</key>
+				<string>AppleHDAController</string>
+				<key>Replace</key>
+				<data>3hC6Dw==</data>
+			</dict>
+		</array>
+		<key>Vendor</key>
+		<string>NVIDIA</string>
+	</dict>
+	<dict>
+		<key>Device</key>
+		<integer>4027</integer>
+		<key>Name</key>
+		<string>NVIDIA HDMI for GM204 in 10.13.4 - 10.13.6</string>
+		<key>Patches</key>
+		<array>
+			<dict>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Find</key>
+				<data>TlZEQQ==</data>
+				<key>MaxKernel</key>
+				<integer>17</integer>
+				<key>MinKernel</key>
+				<integer>17</integer>
+				<key>Name</key>
+				<string>AppleHDAController</string>
+				<key>Replace</key>
+				<data>3hC7Dw==</data>
+			</dict>
+		</array>
+		<key>Vendor</key>
+		<string>NVIDIA</string>
+	</dict>
+	<dict>
+		<key>Device</key>
+		<integer>4028</integer>
+		<key>Name</key>
+		<string>NVIDIA HDMI for Alienware Alpha GTX860M</string>
+		<key>Patches</key>
+		<array>
+			<dict>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Find</key>
+				<data>3hALDg==</data>
+				<key>MinKernel</key>
+				<integer>17</integer>
+				<key>Name</key>
+				<string>AppleHDAController</string>
+				<key>Replace</key>
+				<data>3hC8Dw==</data>
+			</dict>
+		</array>
+		<key>Vendor</key>
+		<string>NVIDIA</string>
+	</dict>
+	<dict>
+		<key>Device</key>
+		<integer>4335</integer>
+		<key>Name</key>
+		<string>NVIDIA HDMI for GP102 in 10.13.4 - 10.13.6</string>
+		<key>Patches</key>
+		<array>
+			<dict>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Find</key>
+				<data>TlZEQQ==</data>
+				<key>MaxKernel</key>
+				<integer>17</integer>
+				<key>MinKernel</key>
+				<integer>17</integer>
+				<key>Name</key>
+				<string>AppleHDAController</string>
+				<key>Replace</key>
+				<data>3hDvEA==</data>
+			</dict>
+		</array>
+		<key>Vendor</key>
+		<string>NVIDIA</string>
+	</dict>
+	<dict>
+		<key>Device</key>
+		<integer>4336</integer>
+		<key>Name</key>
+		<string>NVIDIA HDMI for GP104 in 10.13.4 - 10.13.6</string>
+		<key>Patches</key>
+		<array>
+			<dict>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Find</key>
+				<data>TlZEQQ==</data>
+				<key>MaxKernel</key>
+				<integer>17</integer>
+				<key>MinKernel</key>
+				<integer>17</integer>
+				<key>Name</key>
+				<string>AppleHDAController</string>
+				<key>Replace</key>
+				<data>3hDwEA==</data>
+			</dict>
+		</array>
+		<key>Vendor</key>
+		<string>NVIDIA</string>
+	</dict>
+	<dict>
+		<key>Device</key>
+		<integer>4337</integer>
+		<key>Name</key>
+		<string>NVIDIA HDMI for GP106 in 10.13.4 - 10.13.6</string>
+		<key>Patches</key>
+		<array>
+			<dict>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Find</key>
+				<data>TlZEQQ==</data>
+				<key>MaxKernel</key>
+				<integer>17</integer>
+				<key>MinKernel</key>
+				<integer>17</integer>
+				<key>Name</key>
+				<string>AppleHDAController</string>
+				<key>Replace</key>
+				<data>3hDxEA==</data>
+			</dict>
+		</array>
+		<key>Vendor</key>
+		<string>NVIDIA</string>
+	</dict>
+	<dict>
+		<key>Device</key>
 		<integer>43720</integer>
 		<key>Name</key>
 		<string>AMD R9 290X HDMI</string>
@@ -664,41 +910,6 @@
 	</dict>
 	<dict>
 		<key>Device</key>
-		<integer>41456</integer>
-		<key>Name</key>
-		<string>C620 Series PCH HD Audio</string>
-		<key>Patches</key>
-		<array>
-			<dict>
-				<key>Count</key>
-				<integer>6</integer>
-				<key>Find</key>
-				<data>cKEAAA==</data>
-				<key>MinKernel</key>
-				<integer>19</integer>
-				<key>Name</key>
-				<string>AppleHDAController</string>
-				<key>Replace</key>
-				<data>8KEAAA==</data>
-			</dict>
-			<dict>
-				<key>Count</key>
-				<integer>1</integer>
-				<key>Find</key>
-				<data>hoBwoQ==</data>
-				<key>MinKernel</key>
-				<integer>19</integer>
-				<key>Name</key>
-				<string>AppleHDAController</string>
-				<key>Replace</key>
-				<data>hoDwoQ==</data>
-			</dict>
-		</array>
-		<key>Vendor</key>
-		<string>Intel</string>
-	</dict>
-	<dict>
-		<key>Device</key>
 		<integer>41800</integer>
 		<key>Name</key>
 		<string>300 Series PCH HD Audio</string>
@@ -738,249 +949,96 @@
 	</dict>
 	<dict>
 		<key>Device</key>
-		<integer>3599</integer>
+		<integer>41456</integer>
 		<key>Name</key>
-		<string>NVIDIA HDMI for GK208 in 10.13.4+</string>
+		<string>C620 Series PCH HD Audio</string>
 		<key>Patches</key>
 		<array>
 			<dict>
 				<key>Count</key>
-				<integer>1</integer>
+				<integer>6</integer>
 				<key>Find</key>
-				<data>TlZEQQ==</data>
+				<data>cKEAAA==</data>
 				<key>MinKernel</key>
-				<integer>17</integer>
+				<integer>19</integer>
 				<key>Name</key>
 				<string>AppleHDAController</string>
 				<key>Replace</key>
-				<data>3hAPDg==</data>
+				<data>8KEAAA==</data>
+			</dict>
+			<dict>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Find</key>
+				<data>hoBwoQ==</data>
+				<key>MinKernel</key>
+				<integer>19</integer>
+				<key>Name</key>
+				<string>AppleHDAController</string>
+				<key>Replace</key>
+				<data>hoDwoQ==</data>
 			</dict>
 		</array>
 		<key>Vendor</key>
-		<string>NVIDIA</string>
+		<string>Intel</string>
 	</dict>
 	<dict>
 		<key>Device</key>
-		<integer>4016</integer>
+		<integer>41968</integer>
 		<key>Name</key>
-		<string>NVIDIA HDMI for GM200 in 10.13.4 - 10.13.6</string>
+		<string>400 Series(0xA3F0) PCH HD Audio</string>
 		<key>Patches</key>
 		<array>
 			<dict>
 				<key>Count</key>
-				<integer>1</integer>
+				<integer>6</integer>
 				<key>Find</key>
-				<data>TlZEQQ==</data>
-				<key>MaxKernel</key>
-				<integer>17</integer>
+				<data>cKEAAA==</data>
 				<key>MinKernel</key>
-				<integer>17</integer>
+				<integer>19</integer>
 				<key>Name</key>
 				<string>AppleHDAController</string>
 				<key>Replace</key>
-				<data>3hCwDw==</data>
+				<data>8KMAAA==</data>
+			</dict>
+			<dict>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Find</key>
+				<data>hoBwoQ==</data>
+				<key>MinKernel</key>
+				<integer>19</integer>
+				<key>Name</key>
+				<string>AppleHDAController</string>
+				<key>Replace</key>
+				<data>hoDwow==</data>
 			</dict>
 		</array>
 		<key>Vendor</key>
-		<string>NVIDIA</string>
+		<string>Intel</string>
 	</dict>
 	<dict>
 		<key>Device</key>
-		<integer>4024</integer>
+		<integer>1736</integer>
 		<key>Name</key>
-		<string>NVIDIA HDMI for GP108 in 10.13.4 - 10.13.6</string>
+		<string>400 Series PCH HD Audio</string>
 		<key>Patches</key>
 		<array>
 			<dict>
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Find</key>
-				<data>TlZEQQ==</data>
-				<key>MaxKernel</key>
-				<integer>17</integer>
+				<data>DgAAvgIAAABIid8=</data>
 				<key>MinKernel</key>
-				<integer>17</integer>
+				<integer>19</integer>
 				<key>Name</key>
 				<string>AppleHDAController</string>
 				<key>Replace</key>
-				<data>3hC4Dw==</data>
+				<data>DgAAuHCdAADrBpA=</data>
 			</dict>
 		</array>
 		<key>Vendor</key>
-		<string>NVIDIA</string>
-	</dict>
-	<dict>
-		<key>Device</key>
-		<integer>4025</integer>
-		<key>Name</key>
-		<string>NVIDIA HDMI for GP107 in 10.13.4 - 10.13.6</string>
-		<key>Patches</key>
-		<array>
-			<dict>
-				<key>Count</key>
-				<integer>1</integer>
-				<key>Find</key>
-				<data>TlZEQQ==</data>
-				<key>MaxKernel</key>
-				<integer>17</integer>
-				<key>MinKernel</key>
-				<integer>17</integer>
-				<key>Name</key>
-				<string>AppleHDAController</string>
-				<key>Replace</key>
-				<data>3hC5Dw==</data>
-			</dict>
-		</array>
-		<key>Vendor</key>
-		<string>NVIDIA</string>
-	</dict>
-	<dict>
-		<key>Device</key>
-		<integer>4026</integer>
-		<key>Name</key>
-		<string>NVIDIA HDMI for GM206 in 10.13.4 - 10.13.6</string>
-		<key>Patches</key>
-		<array>
-			<dict>
-				<key>Count</key>
-				<integer>1</integer>
-				<key>Find</key>
-				<data>TlZEQQ==</data>
-				<key>MaxKernel</key>
-				<integer>17</integer>
-				<key>MinKernel</key>
-				<integer>17</integer>
-				<key>Name</key>
-				<string>AppleHDAController</string>
-				<key>Replace</key>
-				<data>3hC6Dw==</data>
-			</dict>
-		</array>
-		<key>Vendor</key>
-		<string>NVIDIA</string>
-	</dict>
-	<dict>
-		<key>Device</key>
-		<integer>4027</integer>
-		<key>Name</key>
-		<string>NVIDIA HDMI for GM204 in 10.13.4 - 10.13.6</string>
-		<key>Patches</key>
-		<array>
-			<dict>
-				<key>Count</key>
-				<integer>1</integer>
-				<key>Find</key>
-				<data>TlZEQQ==</data>
-				<key>MaxKernel</key>
-				<integer>17</integer>
-				<key>MinKernel</key>
-				<integer>17</integer>
-				<key>Name</key>
-				<string>AppleHDAController</string>
-				<key>Replace</key>
-				<data>3hC7Dw==</data>
-			</dict>
-		</array>
-		<key>Vendor</key>
-		<string>NVIDIA</string>
-	</dict>
-	<dict>
-		<key>Device</key>
-		<integer>4028</integer>
-		<key>Name</key>
-		<string>NVIDIA HDMI for Alienware Alpha GTX860M</string>
-		<key>Patches</key>
-		<array>
-			<dict>
-				<key>Count</key>
-				<integer>1</integer>
-				<key>Find</key>
-				<data>3hALDg==</data>
-				<key>MinKernel</key>
-				<integer>17</integer>
-				<key>Name</key>
-				<string>AppleHDAController</string>
-				<key>Replace</key>
-				<data>3hC8Dw==</data>
-			</dict>
-		</array>
-		<key>Vendor</key>
-		<string>NVIDIA</string>
-	</dict>
-	<dict>
-		<key>Device</key>
-		<integer>4335</integer>
-		<key>Name</key>
-		<string>NVIDIA HDMI for GP102 in 10.13.4 - 10.13.6</string>
-		<key>Patches</key>
-		<array>
-			<dict>
-				<key>Count</key>
-				<integer>1</integer>
-				<key>Find</key>
-				<data>TlZEQQ==</data>
-				<key>MaxKernel</key>
-				<integer>17</integer>
-				<key>MinKernel</key>
-				<integer>17</integer>
-				<key>Name</key>
-				<string>AppleHDAController</string>
-				<key>Replace</key>
-				<data>3hDvEA==</data>
-			</dict>
-		</array>
-		<key>Vendor</key>
-		<string>NVIDIA</string>
-	</dict>
-	<dict>
-		<key>Device</key>
-		<integer>4336</integer>
-		<key>Name</key>
-		<string>NVIDIA HDMI for GP104 in 10.13.4 - 10.13.6</string>
-		<key>Patches</key>
-		<array>
-			<dict>
-				<key>Count</key>
-				<integer>1</integer>
-				<key>Find</key>
-				<data>TlZEQQ==</data>
-				<key>MaxKernel</key>
-				<integer>17</integer>
-				<key>MinKernel</key>
-				<integer>17</integer>
-				<key>Name</key>
-				<string>AppleHDAController</string>
-				<key>Replace</key>
-				<data>3hDwEA==</data>
-			</dict>
-		</array>
-		<key>Vendor</key>
-		<string>NVIDIA</string>
-	</dict>
-	<dict>
-		<key>Device</key>
-		<integer>4337</integer>
-		<key>Name</key>
-		<string>NVIDIA HDMI for GP106 in 10.13.4 - 10.13.6</string>
-		<key>Patches</key>
-		<array>
-			<dict>
-				<key>Count</key>
-				<integer>1</integer>
-				<key>Find</key>
-				<data>TlZEQQ==</data>
-				<key>MaxKernel</key>
-				<integer>17</integer>
-				<key>MinKernel</key>
-				<integer>17</integer>
-				<key>Name</key>
-				<string>AppleHDAController</string>
-				<key>Replace</key>
-				<data>3hDxEA==</data>
-			</dict>
-		</array>
-		<key>Vendor</key>
-		<string>NVIDIA</string>
+		<string>Intel</string>
 	</dict>
 	<dict>
 		<key>Device</key>
@@ -991,27 +1049,15 @@
 		<array>
 			<dict>
 				<key>Count</key>
-				<integer>6</integer>
-				<key>Find</key>
-				<data>cKEAAA==</data>
-				<key>MinKernel</key>
-				<integer>19</integer>
-				<key>Name</key>
-				<string>AppleHDAController</string>
-				<key>Replace</key>
-				<data>yAIAAA==</data>
-			</dict>
-			<dict>
-				<key>Count</key>
 				<integer>1</integer>
 				<key>Find</key>
-				<data>hoBwoQ==</data>
+				<data>DgAAvgIAAABIid8=</data>
 				<key>MinKernel</key>
 				<integer>19</integer>
 				<key>Name</key>
 				<string>AppleHDAController</string>
 				<key>Replace</key>
-				<data>hoDIAg==</data>
+				<data>DgAAuHCdAADrBpA=</data>
 			</dict>
 		</array>
 		<key>Vendor</key>
@@ -1019,9 +1065,9 @@
 	</dict>
 	<dict>
 		<key>Device</key>
-		<integer>1736</integer>
+		<integer>13512</integer>
 		<key>Name</key>
-		<string>400 Series PCH-H HD Audio</string>
+		<string>Icelake Smart Sound Technology Audio Controller</string>
 		<key>Patches</key>
 		<array>
 			<dict>
@@ -1034,7 +1080,7 @@
 				<key>Name</key>
 				<string>AppleHDAController</string>
 				<key>Replace</key>
-				<data>yAYAAA==</data>
+				<data>yDQAAA==</data>
 			</dict>
 			<dict>
 				<key>Count</key>
@@ -1046,7 +1092,7 @@
 				<key>Name</key>
 				<string>AppleHDAController</string>
 				<key>Replace</key>
-				<data>hoDIBg==</data>
+				<data>hoDINA==</data>
 			</dict>
 		</array>
 		<key>Vendor</key>

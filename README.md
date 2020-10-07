@@ -17,7 +17,7 @@ An open source kernel extension enabling native macOS HD audio for not officiall
 - Arbitrary kext patching
 - Custom platform/layout injection
 - Works with SIP / El Capitan
-- Currently compatible with 10.8-10.15
+- Currently compatible with 10.8-11.0
 
 #### Credits
 - [Apple](https://www.apple.com) for macOS  

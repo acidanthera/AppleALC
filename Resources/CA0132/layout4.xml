@@ -21,7 +21,10 @@
 			<key>LineIn</key>
 			<dict/>
 			<key>LineOut</key>
-			<dict/>
+			<dict>
+				<key>MuteGPIO</key>
+				<integer>1342242833</integer>
+			</dict>
 			<key>Mic</key>
 			<dict>
 				<key>MuteGPIO</key>
@@ -491,7 +494,7 @@
 				<string>SPDIFOut</string>
 			</array>
 			<key>PathMapID</key>
-			<integer>5</integer>
+			<integer>4</integer>
 			<key>SPDIFOut</key>
 			<dict/>
 		</dict>

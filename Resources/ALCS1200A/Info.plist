@@ -36,6 +36,30 @@
 				<key>Path</key>
 				<string>layout3.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>ALCS1200A for Asrock Z490M-ITX by VictorXu</string>
+				<key>Id</key>
+				<integer>49</integer>
+				<key>Path</key>
+				<string>layout49.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>VictorXu - ALCS1200A for Gigabyte B460M Aorus Pro</string>
+				<key>Id</key>
+				<integer>50</integer>
+				<key>Path</key>
+				<string>layout50.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>ALCS1200A for msi-MAG-Z490-TOMAHAWK by owen0o0</string>
+				<key>Id</key>
+				<integer>11</integer>
+				<key>Path</key>
+				<string>layout11.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -62,6 +86,30 @@
 				<integer>3</integer>
 				<key>Path</key>
 				<string>PlatformsT.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>ALCS1200A for Asrock Z490M-ITX by VictorXu</string>
+				<key>Id</key>
+				<integer>49</integer>
+				<key>Path</key>
+				<string>Platforms49.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>VictorXu - ALCS1200A for Gigabyte B460M Aorus Pro</string>
+				<key>Id</key>
+				<integer>50</integer>
+				<key>Path</key>
+				<string>Platforms50.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>ALCS1200A for msi-MAG-Z490-TOMAHAWK by owen0o0</string>
+				<key>Id</key>
+				<integer>11</integer>
+				<key>Path</key>
+				<string>Platforms11.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>

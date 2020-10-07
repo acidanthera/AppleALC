@@ -62,6 +62,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Realtek ALC887-VD for ASUS H81M-D by VictorXu</string>
+				<key>Id</key>
+				<integer>12</integer>
+				<key>Path</key>
+				<string>layout12.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>InsanelyDeepak - Realtek ALC887VD</string>
 				<key>Id</key>
 				<integer>13</integer>
@@ -198,6 +206,14 @@
 				<integer>11</integer>
 				<key>Path</key>
 				<string>PlatformsID.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Realtek ALC887-VD for ASUS H81M-D by VictorXu</string>
+				<key>Id</key>
+				<string>12</string>
+				<key>Path</key>
+				<string>Platforms12.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>

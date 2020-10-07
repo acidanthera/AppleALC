@@ -14,8 +14,8 @@
 		1C9CB7B01C789FF500231E41 /* kern_alc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C9CB7AE1C789FF500231E41 /* kern_alc.cpp */; };
 		1C9CB7B11C789FF500231E41 /* kern_alc.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 1C9CB7AF1C789FF500231E41 /* kern_alc.hpp */; };
 		1CD5B2BF1C89CF2D00E45373 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1CD5B2BE1C89CF2D00E45373 /* main.mm */; };
-		CE405EC91E49DD9700AA0B3D /* libkmod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE405EC71E49DD7100AA0B3D /* libkmod.a */; };
 		CE405ED91E4A080700AA0B3D /* plugin_start.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE405ED81E4A080700AA0B3D /* plugin_start.cpp */; };
+		CE8DA08A2517C489008C44E8 /* libkmod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8DA0892517C489008C44E8 /* libkmod.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,8 +77,6 @@
 		CE405EC01E49DD7100AA0B3D /* kern_policy.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = kern_policy.hpp; sourceTree = "<group>"; };
 		CE405EC31E49DD7100AA0B3D /* kern_user.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = kern_user.hpp; sourceTree = "<group>"; };
 		CE405EC41E49DD7100AA0B3D /* kern_util.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = kern_util.hpp; sourceTree = "<group>"; };
-		CE405EC61E49DD7100AA0B3D /* LegacyIOService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LegacyIOService.h; sourceTree = "<group>"; };
-		CE405EC71E49DD7100AA0B3D /* libkmod.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libkmod.a; sourceTree = "<group>"; };
 		CE405ECF1E49EC9100AA0B3D /* kern_config.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = kern_config.hpp; sourceTree = "<group>"; };
 		CE405ED21E49F9FC00AA0B3D /* kern_api.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = kern_api.hpp; sourceTree = "<group>"; };
 		CE405ED81E4A080700AA0B3D /* plugin_start.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = plugin_start.cpp; sourceTree = "<group>"; };
@@ -88,6 +86,7 @@
 		CE4E88091E099CC8009AC98D /* zlib_optimize.command */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = zlib_optimize.command; sourceTree = "<group>"; };
 		CE4E880A1E099CC8009AC98D /* zlib_pack.command */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = zlib_pack.command; sourceTree = "<group>"; };
 		CE4E880B1E099CC8009AC98D /* zlib_unpack.command */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = zlib_unpack.command; sourceTree = "<group>"; };
+		CE8DA0892517C489008C44E8 /* libkmod.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libkmod.a; path = ../Lilu/MacKernelSDK/Library/x86_64/libkmod.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE405EC91E49DD9700AA0B3D /* libkmod.a in Frameworks */,
+				CE8DA08A2517C489008C44E8 /* libkmod.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +128,7 @@
 				CE405EC81E49DD7B00AA0B3D /* SDK */,
 				1CD5B2BD1C89CF2D00E45373 /* ResourceConverter */,
 				1C748C281C21952C0024EED2 /* Products */,
+				CE8DA0882517C489008C44E8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 			usesTabs = 1;
@@ -198,8 +198,6 @@
 		CE405EC51E49DD7100AA0B3D /* Library */ = {
 			isa = PBXGroup;
 			children = (
-				CE405EC61E49DD7100AA0B3D /* LegacyIOService.h */,
-				CE405EC71E49DD7100AA0B3D /* libkmod.a */,
 				CE405ED81E4A080700AA0B3D /* plugin_start.cpp */,
 			);
 			name = Library;
@@ -225,6 +223,14 @@
 				CE4E880B1E099CC8009AC98D /* zlib_unpack.command */,
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		CE8DA0882517C489008C44E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE8DA0892517C489008C44E8 /* libkmod.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,7 +294,7 @@
 		1C748C1E1C21952C0024EED2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1140;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = vit9696;
 				TargetAttributes = {
 					1C748C261C21952C0024EED2 = {
@@ -412,6 +418,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = x86_64;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++1y";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -451,6 +458,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				KERNEL_EXTENSION_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/MacKernelSDK/Headers";
+				KERNEL_FRAMEWORK_HEADERS = "$(PROJECT_DIR)/MacKernelSDK/Headers";
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
@@ -460,6 +469,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = x86_64;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++1y";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -495,6 +505,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				KERNEL_EXTENSION_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/MacKernelSDK/Headers";
+				KERNEL_FRAMEWORK_HEADERS = "$(PROJECT_DIR)/MacKernelSDK/Headers";
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -518,13 +530,13 @@
 				INFOPLIST_FILE = AppleALC/Info.plist;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Lilu.kext/Contents/Resources/Library",
+					"$(PROJECT_DIR)/MacKernelSDK/Library/x86_64",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				MODULE_NAME = as.vit9696.AppleALC;
 				MODULE_START = "$(PRODUCT_NAME)_kern_start";
 				MODULE_STOP = "$(PRODUCT_NAME)_kern_stop";
-				MODULE_VERSION = 1.5.1;
+				MODULE_VERSION = 1.5.4;
 				OTHER_CFLAGS = (
 					"-mmmx",
 					"-msse",
@@ -536,6 +548,9 @@
 					"-fno-non-call-exceptions",
 					"-fno-builtin",
 					"-fno-asynchronous-unwind-tables",
+					"-Wno-unknown-warning-option",
+					"-Wno-ossharedptr-misuse",
+					"-Wno-vla",
 				);
 				OTHER_LDFLAGS = "-static";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(MODULE_NAME)";
@@ -562,14 +577,14 @@
 				INFOPLIST_FILE = AppleALC/Info.plist;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Lilu.kext/Contents/Resources/Library",
+					"$(PROJECT_DIR)/MacKernelSDK/Library/x86_64",
 				);
 				LLVM_LTO = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				MODULE_NAME = as.vit9696.AppleALC;
 				MODULE_START = "$(PRODUCT_NAME)_kern_start";
 				MODULE_STOP = "$(PRODUCT_NAME)_kern_stop";
-				MODULE_VERSION = 1.5.1;
+				MODULE_VERSION = 1.5.4;
 				OTHER_CFLAGS = (
 					"-mmmx",
 					"-msse",
@@ -581,6 +596,9 @@
 					"-fno-non-call-exceptions",
 					"-fno-builtin",
 					"-fno-asynchronous-unwind-tables",
+					"-Wno-unknown-warning-option",
+					"-Wno-ossharedptr-misuse",
+					"-Wno-vla",
 				);
 				OTHER_LDFLAGS = "-static";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(MODULE_NAME)";
@@ -618,6 +636,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = x86_64;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++1y";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -657,6 +676,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				KERNEL_EXTENSION_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/MacKernelSDK/Headers";
+				KERNEL_FRAMEWORK_HEADERS = "$(PROJECT_DIR)/MacKernelSDK/Headers";
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
@@ -681,13 +702,13 @@
 				INFOPLIST_FILE = AppleALC/Info.plist;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Lilu.kext/Contents/Resources/Library",
+					"$(PROJECT_DIR)/MacKernelSDK/Library/x86_64",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				MODULE_NAME = as.vit9696.AppleALC;
 				MODULE_START = "$(PRODUCT_NAME)_kern_start";
 				MODULE_STOP = "$(PRODUCT_NAME)_kern_stop";
-				MODULE_VERSION = 1.5.1;
+				MODULE_VERSION = 1.5.4;
 				OTHER_CFLAGS = (
 					"-mmmx",
 					"-msse",
@@ -701,6 +722,9 @@
 					"-fno-asynchronous-unwind-tables",
 					"-fsanitize=undefined,nullability",
 					"-fno-sanitize=function",
+					"-Wno-unknown-warning-option",
+					"-Wno-ossharedptr-misuse",
+					"-Wno-vla",
 				);
 				OTHER_LDFLAGS = "-static";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(MODULE_NAME)";
