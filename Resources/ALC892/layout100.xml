@@ -3,23 +3,29 @@
 <plist version="1.0">
 <dict>
 	<key>LayoutID</key>
-	<integer>51</integer>
+	<integer>100</integer>
 	<key>PathMapRef</key>
 	<array>
 		<dict>
 			<key>CodecID</key>
 			<array>
-				<integer>283904768</integer>
+				<integer>283904146</integer>
 			</array>
 			<key>Headphone</key>
-			<dict/>
+			<dict>
+				<key>MuteGPIO</key>
+				<integer>0</integer>
+			</dict>
 			<key>Inputs</key>
 			<array>
 				<string>Mic</string>
 				<string>LineIn</string>
 			</array>
 			<key>IntSpeaker</key>
-			<dict/>
+			<dict>
+				<key>MuteGPIO</key>
+				<integer>0</integer>
+			</dict>
 			<key>LineIn</key>
 			<dict>
 				<key>MuteGPIO</key>
@@ -623,7 +629,7 @@
 			<key>Mic</key>
 			<dict>
 				<key>MuteGPIO</key>
-				<integer>1342242840</integer>
+				<integer>838926360</integer>
 				<key>SignalProcessing</key>
 				<dict>
 					<key>SoftwareDSP</key>
@@ -1223,12 +1229,9 @@
 				<string>Headphone</string>
 				<string>IntSpeaker</string>
 				<string>LineOut</string>
-				<string>SPDIFOut</string>
 			</array>
 			<key>PathMapID</key>
-			<integer>51</integer>
-			<key>SPDIFOut</key>
-			<dict/>
+			<integer>100</integer>
 		</dict>
 	</array>
 </dict>
