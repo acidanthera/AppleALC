@@ -4696,14 +4696,14 @@
 					<data>
 					ASccEAEnHQEBJx6mAScfkAFHHDABRx0BAUce
 					FwFHH5ABlxwAAZcdEAGXHosBlx8EAhccIAIX
-					HRACFx4rAhcfBAFHDAI=
+					HRACFx4rAhcfBAFHDAICFwwC
 					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>21</integer>
 					<key>WakeConfigData</key>
-					<data>AUcMAg==</data>
+					<data>AUcMAgIXDAIBlwcl</data>
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
