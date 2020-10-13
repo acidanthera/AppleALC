@@ -1094,6 +1094,18 @@
 				<key>Replace</key>
 				<data>hoDINA==</data>
 			</dict>
+			<dict>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Find</key>
+				<data>DgAAvgIAAABIid8=</data>
+				<key>MinKernel</key>
+				<integer>19</integer>
+				<key>Name</key>
+				<string>AppleHDAController</string>
+				<key>Replace</key>
+				<data>DgAAuHCdAADrBpA=</data>
+			</dict>
 		</array>
 		<key>Vendor</key>
 		<string>Intel</string>

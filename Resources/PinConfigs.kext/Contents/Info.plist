@@ -2155,6 +2155,32 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>Ardentwheel - Realtek ALC256 (3246) for Hasee X57S1 with 4CH</string>
+					<key>CodecID</key>
+					<integer>283902550</integer>
+					<key>ConfigData</key>
+					<data>
+					AUccEAFHHQEBRx4XAUcfkAFHDAIBtxwSAbcd
+					AQG3HhcBtx+QAbcMAgIXHCACFx1AAhceIQIX
+					HwICFwwCASccMAEnHAEBJxymAScckAGXHEAB
+					lx2QAZcegQGXHwIBNxzwATcdAAE3HgABNx9A
+					AYcc8AGHHQABhx4AAYcfQAGnHPABpx0AAace
+					AAGnH0AB1xzwAdcdAAHXHgAB1x9AAecc8AHn
+					HQAB5x4AAecfQA==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>18</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgG3DAICFwwC</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>Andres ZeroCross for Dell 5570</string>
 					<key>CodecID</key>
 					<integer>283902550</integer>
