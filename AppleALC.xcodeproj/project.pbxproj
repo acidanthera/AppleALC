@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0135B2EF2536401B005DDE7F /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0135B2EE2536401B005DDE7F /* main.c */; };
+		0135B2FE2536406E005DDE7F /* UserKernelShared.h in Headers */ = {isa = PBXBuildFile; fileRef = 01ACCCE325362AC2007704ED /* UserKernelShared.h */; };
+		01ACCCDF25362A8A007704ED /* ALCUserClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01ACCCDD25362A8A007704ED /* ALCUserClient.cpp */; };
+		01ACCCE025362A8A007704ED /* ALCUserClient.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 01ACCCDE25362A8A007704ED /* ALCUserClient.hpp */; };
+		01ACCCE425362AC2007704ED /* UserKernelShared.h in Headers */ = {isa = PBXBuildFile; fileRef = 01ACCCE325362AC2007704ED /* UserKernelShared.h */; };
+		01ACCCEA25362B00007704ED /* ALCUserClientProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01ACCCE825362B00007704ED /* ALCUserClientProvider.cpp */; };
+		01ACCCEB25362B00007704ED /* ALCUserClientProvider.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 01ACCCE925362B00007704ED /* ALCUserClientProvider.hpp */; };
 		1C642F561C8F1BD8006B4C51 /* PinConfigs.kext in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1C642F551C8F1BD8006B4C51 /* PinConfigs.kext */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1C748C2D1C21952C0024EED2 /* kern_start.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C748C2C1C21952C0024EED2 /* kern_start.cpp */; };
 		1C88DDEC1C89EE540003E1BF /* kern_resources.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C88DDEA1C89EE540003E1BF /* kern_resources.cpp */; };
@@ -19,6 +26,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		0135B2F72536402D005DDE7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C748C1E1C21952C0024EED2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0135B2EB2536401B005DDE7F;
+			remoteInfo = "alc-verb";
+		};
 		1CD5B2C31C89CF4E00E45373 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1C748C1E1C21952C0024EED2 /* Project object */;
@@ -29,6 +43,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		0135B2EA2536401B005DDE7F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		1C642F521C8F157A006B4C51 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -51,6 +74,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0135B2EC2536401B005DDE7F /* alc-verb */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "alc-verb"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0135B2EE2536401B005DDE7F /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		0135B2FC25364053005DDE7F /* hdaverb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hdaverb.h; sourceTree = "<group>"; };
+		01ACCCDD25362A8A007704ED /* ALCUserClient.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ALCUserClient.cpp; sourceTree = "<group>"; };
+		01ACCCDE25362A8A007704ED /* ALCUserClient.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ALCUserClient.hpp; sourceTree = "<group>"; };
+		01ACCCE325362AC2007704ED /* UserKernelShared.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserKernelShared.h; sourceTree = "<group>"; };
+		01ACCCE825362B00007704ED /* ALCUserClientProvider.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ALCUserClientProvider.cpp; sourceTree = "<group>"; };
+		01ACCCE925362B00007704ED /* ALCUserClientProvider.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ALCUserClientProvider.hpp; sourceTree = "<group>"; };
 		1C642F551C8F1BD8006B4C51 /* PinConfigs.kext */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.kernel-extension"; name = PinConfigs.kext; path = Resources/PinConfigs.kext; sourceTree = "<group>"; };
 		1C642F571C8F1BEE006B4C51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Resources/PinConfigs.kext/Contents/Info.plist; sourceTree = "<group>"; };
 		1C748C271C21952C0024EED2 /* AppleALC.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleALC.kext; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,6 +121,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0135B2E92536401B005DDE7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1C748C231C21952C0024EED2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -108,6 +146,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0135B2ED2536401B005DDE7F /* alc-verb */ = {
+			isa = PBXGroup;
+			children = (
+				0135B2EE2536401B005DDE7F /* main.c */,
+				0135B2FC25364053005DDE7F /* hdaverb.h */,
+			);
+			path = "alc-verb";
+			sourceTree = "<group>";
+		};
+		01ACCCDC25362A7B007704ED /* ALCUserClient */ = {
+			isa = PBXGroup;
+			children = (
+				01ACCCDD25362A8A007704ED /* ALCUserClient.cpp */,
+				01ACCCDE25362A8A007704ED /* ALCUserClient.hpp */,
+			);
+			path = ALCUserClient;
+			sourceTree = "<group>";
+		};
+		01ACCCE725362AEB007704ED /* ALCUserClientProvider */ = {
+			isa = PBXGroup;
+			children = (
+				01ACCCE825362B00007704ED /* ALCUserClientProvider.cpp */,
+				01ACCCE925362B00007704ED /* ALCUserClientProvider.hpp */,
+			);
+			path = ALCUserClientProvider;
+			sourceTree = "<group>";
+		};
 		1C642F581C8F1BF2006B4C51 /* PinConfigs */ = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +192,7 @@
 				1C748C291C21952C0024EED2 /* AppleALC */,
 				CE405EC81E49DD7B00AA0B3D /* SDK */,
 				1CD5B2BD1C89CF2D00E45373 /* ResourceConverter */,
+				0135B2ED2536401B005DDE7F /* alc-verb */,
 				1C748C281C21952C0024EED2 /* Products */,
 				CE8DA0882517C489008C44E8 /* Frameworks */,
 			);
@@ -138,6 +204,7 @@
 			children = (
 				1C748C271C21952C0024EED2 /* AppleALC.kext */,
 				1CD5B2BC1C89CF2D00E45373 /* ResourceConverter */,
+				0135B2EC2536401B005DDE7F /* alc-verb */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -145,12 +212,15 @@
 		1C748C291C21952C0024EED2 /* AppleALC */ = {
 			isa = PBXGroup;
 			children = (
+				01ACCCE725362AEB007704ED /* ALCUserClientProvider */,
+				01ACCCDC25362A7B007704ED /* ALCUserClient */,
 				1C748C2C1C21952C0024EED2 /* kern_start.cpp */,
 				1C9CB7AE1C789FF500231E41 /* kern_alc.cpp */,
 				1C9CB7AF1C789FF500231E41 /* kern_alc.hpp */,
 				1C88DDEA1C89EE540003E1BF /* kern_resources.cpp */,
 				1C88DDEB1C89EE540003E1BF /* kern_resources.hpp */,
 				1C748C2E1C21952C0024EED2 /* Info.plist */,
+				01ACCCE325362AC2007704ED /* UserKernelShared.h */,
 			);
 			path = AppleALC;
 			sourceTree = "<group>";
@@ -236,18 +306,47 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		0135B2FD25364062005DDE7F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0135B2FE2536406E005DDE7F /* UserKernelShared.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1C748C241C21952C0024EED2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1C9CB7B11C789FF500231E41 /* kern_alc.hpp in Headers */,
+				01ACCCEB25362B00007704ED /* ALCUserClientProvider.hpp in Headers */,
 				1C88DDED1C89EE540003E1BF /* kern_resources.hpp in Headers */,
+				01ACCCE025362A8A007704ED /* ALCUserClient.hpp in Headers */,
+				01ACCCE425362AC2007704ED /* UserKernelShared.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		0135B2EB2536401B005DDE7F /* alc-verb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0135B2F32536401B005DDE7F /* Build configuration list for PBXNativeTarget "alc-verb" */;
+			buildPhases = (
+				0135B2FD25364062005DDE7F /* Headers */,
+				0135B2E82536401B005DDE7F /* Sources */,
+				0135B2E92536401B005DDE7F /* Frameworks */,
+				0135B2EA2536401B005DDE7F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "alc-verb";
+			productName = "alc-verb";
+			productReference = 0135B2EC2536401B005DDE7F /* alc-verb */;
+			productType = "com.apple.product-type.tool";
+		};
 		1C748C261C21952C0024EED2 /* AppleALC */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1C748C311C21952C0024EED2 /* Build configuration list for PBXNativeTarget "AppleALC" */;
@@ -263,6 +362,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				0135B2F82536402D005DDE7F /* PBXTargetDependency */,
 				1CD5B2C41C89CF4E00E45373 /* PBXTargetDependency */,
 			);
 			name = AppleALC;
@@ -297,6 +397,10 @@
 				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = vit9696;
 				TargetAttributes = {
+					0135B2EB2536401B005DDE7F = {
+						CreatedOnToolsVersion = 12.0.1;
+						ProvisioningStyle = Manual;
+					};
 					1C748C261C21952C0024EED2 = {
 						CreatedOnToolsVersion = 7.2;
 					};
@@ -320,6 +424,7 @@
 			targets = (
 				1C748C261C21952C0024EED2 /* AppleALC */,
 				1CD5B2BB1C89CF2D00E45373 /* ResourceConverter */,
+				0135B2EB2536401B005DDE7F /* alc-verb */,
 			);
 		};
 /* End PBXProject section */
@@ -384,11 +489,21 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0135B2E82536401B005DDE7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0135B2EF2536401B005DDE7F /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1C748C221C21952C0024EED2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1C9CB7B01C789FF500231E41 /* kern_alc.cpp in Sources */,
+				01ACCCEA25362B00007704ED /* ALCUserClientProvider.cpp in Sources */,
+				01ACCCDF25362A8A007704ED /* ALCUserClient.cpp in Sources */,
 				CE405ED91E4A080700AA0B3D /* plugin_start.cpp in Sources */,
 				1C748C2D1C21952C0024EED2 /* kern_start.cpp in Sources */,
 				1C88DDEC1C89EE540003E1BF /* kern_resources.cpp in Sources */,
@@ -406,6 +521,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		0135B2F82536402D005DDE7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0135B2EB2536401B005DDE7F /* alc-verb */;
+			targetProxy = 0135B2F72536402D005DDE7F /* PBXContainerItemProxy */;
+		};
 		1CD5B2C41C89CF4E00E45373 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 1CD5B2BB1C89CF2D00E45373 /* ResourceConverter */;
@@ -414,6 +534,81 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0135B2F02536401B005DDE7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		0135B2F12536401B005DDE7F /* Sanitize */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Sanitize;
+		};
+		0135B2F22536401B005DDE7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
 		1C748C2F1C21952C0024EED2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -748,6 +943,16 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0135B2F32536401B005DDE7F /* Build configuration list for PBXNativeTarget "alc-verb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0135B2F02536401B005DDE7F /* Debug */,
+				0135B2F12536401B005DDE7F /* Sanitize */,
+				0135B2F22536401B005DDE7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		1C748C211C21952C0024EED2 /* Build configuration list for PBXProject "AppleALC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
