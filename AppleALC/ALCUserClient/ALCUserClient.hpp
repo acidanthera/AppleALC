@@ -20,12 +20,11 @@ class ALCUserClient : public IOUserClient {
 	OSDeclareDefaultStructors(ALCUserClient);
 	
 private:
-	ALCUserClientProvider* mProvider;
+	ALCUserClientProvider* mProvider { nullptr };
 	task_t mTask;
 	static const IOExternalMethodDispatch sMethods[kNumberOfMethods];
 	
 public:
-	virtual void stop(IOService* provider) override;
 	virtual bool start(IOService* provider) override;
 	
 	virtual bool initWithTask(task_t owningTask, void* securityToken,

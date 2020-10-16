@@ -9,7 +9,6 @@
 #ifndef ALCUserClientProvider_hpp
 #define ALCUserClientProvider_hpp
 
-#define kIOHDACodecAddress	"IOHDACodecAddress"
 #define kIOHDACodecDevice	"IOHDACodecDevice"
 
 #include<IOKit/IOService.h>
@@ -27,7 +26,6 @@ private:
 	
 public:
 	virtual bool init(OSDictionary* dictionary) override;
-	virtual void free() override;
 	
 	virtual bool start(IOService* provider) override;
 	virtual void stop(IOService* provider) override;

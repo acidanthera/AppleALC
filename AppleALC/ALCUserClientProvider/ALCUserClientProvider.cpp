@@ -18,28 +18,13 @@ bool ALCUserClientProvider::start(IOService* provider) {
 	
 	if (!mHDACodecDevice)
 	{
-		DBGLOG("client", "HDACodecDevice not found");
-		stop(provider);
-		return false;
-	}
-	
-	// Only attach to internal codec
-	auto codecAddress = OSDynamicCast(OSNumber, mHDACodecDevice->getProperty(kIOHDACodecAddress));
-	if (!codecAddress) {
-		DBGLOG("client", "IOHDACodec address is non-existent");
-		stop(provider);
-		return false;
-	}
-	
-	// Check if attached to correct IOHDACodecDevice
-	if (codecAddress->unsigned8BitValue() != 0) {
-		DBGLOG("client", "IOHDACodec address has a non zero value");
+		SYSLOG("client", "HDACodecDevice not found");
 		stop(provider);
 		return false;
 	}
 	
 	// We are ready for verbs
-	SYSLOG("client", "ALCUserClient is ready for hda-verbs");
+	DBGLOG("client", "ALCUserClient is ready for hda-verbs");
 	mHDACodecDevice->setProperty("ReadyForALCVerbs", kOSBooleanTrue);
 	readyForVerbs = true;
 	
@@ -63,11 +48,13 @@ bool ALCUserClientProvider::init(OSDictionary* dictionary) {
 	return true;
 }
 
-void ALCUserClientProvider::free() {
-	super::free();
-}
-
 IOReturn ALCUserClientProvider::sendHdaCommand(uint16_t nid, uint16_t verb, uint16_t param) {
+	if (!readyForVerbs)
+	{
+		DBGLOG("client", "Provider not ready to accept hda-verb commands");
+		return kIOReturnError;
+	}
+	
 	auto sharedAlc = AlcEnabler::getShared();
 	
 	if (!sharedAlc) {
@@ -77,5 +64,5 @@ IOReturn ALCUserClientProvider::sendHdaCommand(uint16_t nid, uint16_t verb, uint
 	
 	DBGLOG("client", "Send HDA command nid=0x%X, verb=0x%X, param=0x%X", nid, verb, param);
 	UInt* ret { nullptr };
-	return sharedAlc->IOHDACodecDevice_executeVerb((void*)mHDACodecDevice, nid, verb, param, ret, true);
+	return sharedAlc->IOHDACodecDevice_executeVerb(reinterpret_cast<void*>(mHDACodecDevice), nid, verb, param, ret, true);
 }

@@ -14,11 +14,11 @@ OSDefineMetaClassAndStructors(ALCUserClient, IOUserClient);
 
 const IOExternalMethodDispatch ALCUserClient::sMethods[kNumberOfMethods] = {
 	{ //kMethodExecuteVerb
-		(IOExternalMethodAction) &ALCUserClient::methodExecuteVerb,			// Method pointer
-		3,                                                          		// Num of scalar input values
-		0,                                                          		// Num of struct input values
-		0,                                                          		// Num of scalar output values
-		0                                                           		// Num of struct output values
+		reinterpret_cast<IOExternalMethodAction>(&ALCUserClient::methodExecuteVerb),	// Method pointer
+		3,																				// Num of scalar input values
+		0,																				// Num of struct input values
+		0,																				// Num of scalar output values
+		0																				// Num of struct output values
 	}
 };
 
@@ -26,14 +26,9 @@ IOReturn ALCUserClient::externalMethod(uint32_t selector, IOExternalMethodArgume
 	if (selector >= kNumberOfMethods)
 		return kIOReturnUnsupported;
 	
-	dispatch = (IOExternalMethodDispatch*) &sMethods[selector];
+	dispatch = const_cast<IOExternalMethodDispatch*>(&sMethods[selector]);
 	
-	if (selector == kMethodExecuteVerb) {
-		target = mProvider;
-	} else {
-		target = this;	// Will always fail
-	}
-	
+	target = mProvider;
 	reference = NULL;
 	
 	return super::externalMethod(selector, arguments, dispatch, target, reference);
@@ -64,10 +59,6 @@ bool ALCUserClient::start(IOService* provider) {
 	return success;
 }
 
-void ALCUserClient::stop(IOService* provider) {
-	super::stop(provider);
-}
-
 IOReturn ALCUserClient::clientClose() {
 	if (!isInactive())
 		terminate();
@@ -78,9 +69,9 @@ IOReturn ALCUserClient::clientClose() {
 IOReturn ALCUserClient::methodExecuteVerb(ALCUserClientProvider* target, void* ref, IOExternalMethodArguments* args) {
 	uint16_t nid, verb, params;
 	
-	nid 	= (uint16_t)args->scalarInput[0];
-	verb 	= (uint16_t)args->scalarInput[1];
-	params 	= (uint16_t)args->scalarInput[2];
+	nid 	= static_cast<uint16_t>(args->scalarInput[0]);
+	verb 	= static_cast<uint16_t>(args->scalarInput[1]);
+	params 	= static_cast<uint16_t>(args->scalarInput[2]);
 	
 	return target->sendHdaCommand(nid, verb, params);
 }
