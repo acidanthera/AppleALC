@@ -29,7 +29,7 @@
 #include "UserKernelShared.h"
 #include "hdaverb.h"
 
-static kern_return_t execute_command(uint16_t nid, uint16_t verb, uint16_t param)
+static uint32_t execute_command(uint16_t nid, uint16_t verb, uint16_t param)
 {
 	io_connect_t dataPort;
 	
@@ -59,7 +59,15 @@ static kern_return_t execute_command(uint16_t nid, uint16_t verb, uint16_t param
 	input[1]	= verb;
 	input[2]	= param;
 	
-	return IOConnectCallScalarMethod(dataPort, kMethodExecuteVerb, input, inputCount, NULL, NULL);
+	uint64_t output;
+	uint32_t outputCount = 1;
+	
+	kr = IOConnectCallScalarMethod(dataPort, kMethodExecuteVerb, input, inputCount, &output, &outputCount);
+	
+	if (kr != kIOReturnSuccess)
+		return -1;
+	
+	return (uint32_t)output;
 }
 
 static void list_keys(struct strtbl *tbl, int one_per_line)
@@ -226,13 +234,10 @@ int main(int argc, char **argv)
 		printf("nid = 0x%lx, verb = 0x%lx, param = 0x%lx\n", nid, verb, params);
 	
 	// Execute command
-	kern_return_t result = execute_command(nid, verb, params);
+	uint32_t result = execute_command(nid, verb, params);
 
 	// Print result
-	if (result == kIOReturnSuccess)
-		printf("Verbs sent successfully\n");
-	else
-		printf("Error in sending the codec verbs\n");
+	printf("0x%08x\n", result);
 
 	return 0;
 }

@@ -14,12 +14,18 @@ bool ALCUserClientProvider::start(IOService* provider) {
 	if (!super::start(provider))
 		return false;
 	
-	mHDACodecDevice = IOService::waitForMatchingService(IOService::nameMatching(kIOHDACodecDevice), 3000);	// Wait for 3s
+	auto matchingDict = IOService::nameMatching(kIOHDACodecDevice);
+	if (!matchingDict) {
+		DBGLOG("client", "Failed to allocate matching dictionary");
+		return false;
+	}
+	
+	mHDACodecDevice = IOService::waitForMatchingService(matchingDict, 3000);
+	matchingDict->release();
 	
 	if (!mHDACodecDevice)
 	{
-		SYSLOG("client", "HDACodecDevice not found");
-		stop(provider);
+		SYSLOG("client", "HDACodecDevice not found, alc-verb will not work.");
 		return false;
 	}
 	
@@ -40,15 +46,7 @@ void ALCUserClientProvider::stop(IOService* provider) {
 	OSSafeReleaseNULL(mHDACodecDevice);
 }
 
-bool ALCUserClientProvider::init(OSDictionary* dictionary) {
-	if (!super::init(dictionary)) {
-		return false;
-	}
-
-	return true;
-}
-
-IOReturn ALCUserClientProvider::sendHdaCommand(uint16_t nid, uint16_t verb, uint16_t param) {
+uint64_t ALCUserClientProvider::sendHdaCommand(uint16_t nid, uint16_t verb, uint16_t param) {
 	if (!readyForVerbs)
 	{
 		DBGLOG("client", "Provider not ready to accept hda-verb commands");
@@ -62,7 +60,9 @@ IOReturn ALCUserClientProvider::sendHdaCommand(uint16_t nid, uint16_t verb, uint
 		return kIOReturnError;
 	}
 	
-	DBGLOG("client", "Send HDA command nid=0x%X, verb=0x%X, param=0x%X", nid, verb, param);
-	UInt* ret { nullptr };
-	return sharedAlc->IOHDACodecDevice_executeVerb(reinterpret_cast<void*>(mHDACodecDevice), nid, verb, param, ret, true);
+	UInt ret = 0;
+	sharedAlc->IOHDACodecDevice_executeVerb(reinterpret_cast<void*>(mHDACodecDevice), nid, verb, param, &ret, true);
+	DBGLOG("client", "Send HDA command nid=0x%X, verb=0x%X, param=0x%X, result=0x%08x", nid, verb, param, ret);
+	
+	return ret;
 }

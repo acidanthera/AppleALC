@@ -25,8 +25,6 @@ private:
 	bool		readyForVerbs	{ false	};
 	
 public:
-	virtual bool init(OSDictionary* dictionary) override;
-	
 	virtual bool start(IOService* provider) override;
 	virtual void stop(IOService* provider) override;
 	
@@ -39,7 +37,7 @@ public:
 	 *
 	 *  @return kIOReturnSuccess on successful execution
 	 */
-	virtual IOReturn sendHdaCommand(uint16_t nid, uint16_t verb, uint16_t param);
+	virtual uint64_t sendHdaCommand(uint16_t nid, uint16_t verb, uint16_t param);
 };
 
 #endif /* ALCUserClientProvider_hpp */

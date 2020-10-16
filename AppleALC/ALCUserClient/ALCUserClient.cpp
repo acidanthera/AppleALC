@@ -17,7 +17,7 @@ const IOExternalMethodDispatch ALCUserClient::sMethods[kNumberOfMethods] = {
 		reinterpret_cast<IOExternalMethodAction>(&ALCUserClient::methodExecuteVerb),	// Method pointer
 		3,																				// Num of scalar input values
 		0,																				// Num of struct input values
-		0,																				// Num of scalar output values
+		1,																				// Num of scalar output values
 		0																				// Num of struct output values
 	}
 };
@@ -73,5 +73,6 @@ IOReturn ALCUserClient::methodExecuteVerb(ALCUserClientProvider* target, void* r
 	verb 	= static_cast<uint16_t>(args->scalarInput[1]);
 	params 	= static_cast<uint16_t>(args->scalarInput[2]);
 	
-	return target->sendHdaCommand(nid, verb, params);
+	args->scalarOutput[0] = target->sendHdaCommand(nid, verb, params);
+	return kIOReturnSuccess;
 }
