@@ -20,18 +20,18 @@ bool ALCUserClientProvider::start(IOService* provider) {
 		return false;
 	}
 	
-	mHDACodecDevice = IOService::waitForMatchingService(matchingDict, 3000);
+	mHDACodecDevice = IOService::waitForMatchingService(matchingDict, 100000000); // Wait for 0.1s
 	matchingDict->release();
 	
 	if (!mHDACodecDevice)
 	{
-		SYSLOG("client", "HDACodecDevice not found, alc-verb will not work.");
+		DBGLOG("client", "Timeout in waiting for IOHDACodecDevice, will retry");
 		return false;
 	}
 	
 	// We are ready for verbs
 	DBGLOG("client", "ALCUserClient is ready for hda-verbs");
-	mHDACodecDevice->setProperty("ReadyForALCVerbs", kOSBooleanTrue);
+	setProperty("ReadyForALCVerbs", kOSBooleanTrue);
 	readyForVerbs = true;
 	
 	// Publish the service

@@ -28,8 +28,6 @@
 			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 			<key>IOClass</key>
 			<string>ALCUserClientProvider</string>
-			<key>IOKitDebug</key>
-			<integer>65535</integer>
 			<key>IOMatchCategory</key>
 			<string>ALCUserClientProvider</string>
 			<key>IOProbeScore</key>
