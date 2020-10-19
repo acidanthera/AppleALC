@@ -1072,30 +1072,6 @@
 		<array>
 			<dict>
 				<key>Count</key>
-				<integer>6</integer>
-				<key>Find</key>
-				<data>cKEAAA==</data>
-				<key>MinKernel</key>
-				<integer>19</integer>
-				<key>Name</key>
-				<string>AppleHDAController</string>
-				<key>Replace</key>
-				<data>yDQAAA==</data>
-			</dict>
-			<dict>
-				<key>Count</key>
-				<integer>1</integer>
-				<key>Find</key>
-				<data>hoBwoQ==</data>
-				<key>MinKernel</key>
-				<integer>19</integer>
-				<key>Name</key>
-				<string>AppleHDAController</string>
-				<key>Replace</key>
-				<data>hoDINA==</data>
-			</dict>
-			<dict>
-				<key>Count</key>
 				<integer>1</integer>
 				<key>Find</key>
 				<data>DgAAvgIAAABIid8=</data>
