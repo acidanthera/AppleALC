@@ -39,10 +39,12 @@ public:
 	 *  @param nid Node ID
 	 *  @param verb The hda-verb command to send (as defined in hdaverb.h)
 	 *  @param param The parameters for the verb
+	 *  @param output Pointer to write the output of the command to
+	 *  @param waitForSuccess Wait for SET_STREAM_FORMAT to succeed up-to 100 times, sleeping for 1s in-between
 	 *
 	 *  @return kIOReturnSuccess on successful execution
 	 */
-	static IOReturn IOHDACodecDevice_executeVerb(void *hdaCodecDevice, uint16_t nid, uint16_t verb, uint16_t param, unsigned int *a4, bool a5);
+	static IOReturn IOHDACodecDevice_executeVerb(void *hdaCodecDevice, uint16_t nid, uint16_t verb, uint16_t param, unsigned int *output, bool waitForSuccess);
 	
 	/**
 	 *	Trampolines for original method invocation

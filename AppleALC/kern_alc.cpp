@@ -15,17 +15,19 @@
 #include "kern_alc.hpp"
 #include "kern_resources.hpp"
 
+static AlcEnabler alcEnabler;
+
 // Only used in apple-driven callbacks
 AlcEnabler* AlcEnabler::callbackAlc = nullptr;
 
 void AlcEnabler::createShared() {
 	if (callbackAlc)
-		PANIC("alc", "Attempted to allocated AlcEnabler again");
+		PANIC("alc", "Attempted to assign alc callback again");
 	
-	callbackAlc = new AlcEnabler;
+	callbackAlc = &alcEnabler;
 	
 	if (!callbackAlc)
-		PANIC("alc", "Failed to allocated AlcEnabler");
+		PANIC("alc", "Failed to assign alc callback");
 }
 
 void AlcEnabler::init() {
@@ -326,10 +328,10 @@ bool AlcEnabler::AppleHDAController_start(IOService* service, IOService* provide
 	return FunctionCast(AppleHDAController_start, callbackAlc->orgAppleHDAController_start)(service, provider);
 }
 
-IOReturn AlcEnabler::IOHDACodecDevice_executeVerb(void *hdaCodecDevice, uint16_t nid, uint16_t verb, uint16_t param, unsigned int *a4, bool a5)
+IOReturn AlcEnabler::IOHDACodecDevice_executeVerb(void *hdaCodecDevice, uint16_t nid, uint16_t verb, uint16_t param, unsigned int *output, bool waitForSuccess)
 {
 	DBGLOG("alc", "IOHDACodecDevice::executeVerb with parameters nid = %u, verb = %u, param = %u", nid, verb, param);
-	return FunctionCast(IOHDACodecDevice_executeVerb, callbackAlc->orgIOHDACodecDevice_executeVerb)(hdaCodecDevice, nid, verb, param, a4, a5);
+	return FunctionCast(IOHDACodecDevice_executeVerb, callbackAlc->orgIOHDACodecDevice_executeVerb)(hdaCodecDevice, nid, verb, param, output, waitForSuccess);
 }
 
 uint32_t AlcEnabler::getAudioLayout(IOService *hdaDriver) {

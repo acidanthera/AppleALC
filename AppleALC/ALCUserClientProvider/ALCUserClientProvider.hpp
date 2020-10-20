@@ -29,9 +29,9 @@ public:
 	virtual void stop(IOService* provider) override;
 	
 	/**
-	 *	Called by user-client to set the codec verbs
+	 *  Called by user-client to set the codec verbs
 	 *
-	 *	@param nid Node ID
+	 *  @param nid Node ID
 	 *  @param verb The hda-verb command to send (as defined in hdaverb.h)
 	 *  @param param The parameters for the verb
 	 *

@@ -29,7 +29,7 @@
 #include "UserKernelShared.h"
 #include "hdaverb.h"
 
-static uint32_t execute_command(uint16_t nid, uint16_t verb, uint16_t param)
+static unsigned execute_command(uint16_t nid, uint16_t verb, uint16_t param)
 {
 	io_connect_t dataPort;
 	
@@ -67,7 +67,7 @@ static uint32_t execute_command(uint16_t nid, uint16_t verb, uint16_t param)
 	if (kr != kIOReturnSuccess)
 		return -1;
 	
-	return (uint32_t)output;
+	return (unsigned)output;
 }
 
 static void list_keys(struct strtbl *tbl, int one_per_line)
