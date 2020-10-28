@@ -782,14 +782,18 @@
 					<key>ConfigData</key>
 					<data>
 					ASccEAEnHQABJx6gAScfkAFHHCABRx0AAUce
-					FwFHH5ABlxwwAZcdEAGXHosBlx8EAhccQAIX
-					HRACFx4rAhcfBAE3HFABNx0AATceAAE3H0AB
-					1xxgAdcdsAHXHmYB1x9AAUcMAgGXDAI=
+					FwFHH5ABRwwCAZccMAGXHRABlx6BAZcfBAGX
+					DAICFxxAAhcdEAIXHisCFx8EATccUAE3HQAB
+					Nx4AATcfQAHXHGAB1x2wAdceZgHXH0A=
 					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>13</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgIXDAIBlwcl</data>
+					<key>WakeVerbReinit</key>
+					<true/>
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
@@ -800,16 +804,16 @@
 					<integer>283902512</integer>
 					<key>ConfigData</key>
 					<data>
-					AhccEAIXHRACFx4rAhcfBAFHHCABRx0BAUce
-					FwFHH5ABJxwwAScdAQEnHqABJx+QAZccQAGX
-					HRABlx6LAZcfBAFHDAI=
+					AUccEAFHHQEBRx4XAUcfkAFHDAICFxwgAhcd
+					EAIXHiECFx8TAhcMAgEnHDABJx0BASceoAEn
+					H5ABlxxAAZcdEQGXHoEBlx+T
 					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>20</integer>
 					<key>WakeConfigData</key>
-					<data>AZcHJQ==</data>
+					<data>AUcMAgIXDAIBlwcl</data>
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
