@@ -8,21 +8,29 @@
 #include <Headers/kern_api.hpp>
 #include <Headers/kern_devinfo.hpp>
 #include <Headers/plugin_start.hpp>
-#include <Library/LegacyIOService.h>
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winconsistent-missing-override"
+#include <IOKit/IOService.h>
 #include <IOKit/pci/IOPCIDevice.h>
-#pragma clang diagnostic pop
 #include <mach/vm_map.h>
 
 #include "kern_alc.hpp"
 #include "kern_resources.hpp"
 
+static AlcEnabler alcEnabler;
+
 // Only used in apple-driven callbacks
-static AlcEnabler *callbackAlc;
+AlcEnabler* AlcEnabler::callbackAlc = nullptr;
+
+void AlcEnabler::createShared() {
+	if (callbackAlc)
+		PANIC("alc", "Attempted to assign alc callback again");
+	
+	callbackAlc = &alcEnabler;
+	
+	if (!callbackAlc)
+		PANIC("alc", "Failed to assign alc callback");
+}
 
 void AlcEnabler::init() {
-	callbackAlc = this;
 
 	lilu.onPatcherLoadForce(
 	[](void *user, KernelPatcher &pathcer) {
@@ -320,15 +328,11 @@ bool AlcEnabler::AppleHDAController_start(IOService* service, IOService* provide
 	return FunctionCast(AppleHDAController_start, callbackAlc->orgAppleHDAController_start)(service, provider);
 }
 
-#ifdef DEBUG
-IOReturn AlcEnabler::IOHDACodecDevice_executeVerb(void *that, uint16_t a1, uint16_t a2, uint16_t a3, unsigned int *a4, bool a5)
+IOReturn AlcEnabler::IOHDACodecDevice_executeVerb(void *hdaCodecDevice, uint16_t nid, uint16_t verb, uint16_t param, unsigned int *output, bool waitForSuccess)
 {
-	IOReturn result = FunctionCast(IOHDACodecDevice_executeVerb, callbackAlc->orgIOHDACodecDevice_executeVerb)(that, a1, a2, a3, a4, a5);
-	if (result != KERN_SUCCESS)
-		DBGLOG("alc", "IOHDACodecDevice::executeVerb with parameters a1 = %u, a2 = %u, a3 = %u failed with result = %x", a1, a2, a3, result);
-	return result;
+	DBGLOG("alc", "IOHDACodecDevice::executeVerb with parameters nid = %u, verb = %u, param = %u", nid, verb, param);
+	return FunctionCast(IOHDACodecDevice_executeVerb, callbackAlc->orgIOHDACodecDevice_executeVerb)(hdaCodecDevice, nid, verb, param, output, waitForSuccess);
 }
-#endif
 
 uint32_t AlcEnabler::getAudioLayout(IOService *hdaDriver) {
 	auto parent = hdaDriver->getParentEntry(gIOServicePlane);
@@ -626,13 +630,11 @@ void AlcEnabler::processKext(KernelPatcher &patcher, size_t index, mach_vm_addre
 			eraseRedundantLogs(patcher, kextIndex);
 	}
 	
-#ifdef DEBUG
-	if (ADDPR(debugEnabled) && !(progressState & ProcessingState::PatchHDAFamily) && kextIndex == KextIdIOHDAFamily) {
+	if (!(progressState & ProcessingState::PatchHDAFamily) && kextIndex == KextIdIOHDAFamily) {
 		progressState |= ProcessingState::PatchHDAFamily;
 		KernelPatcher::RouteRequest request("__ZN16IOHDACodecDevice11executeVerbEtttPjb", IOHDACodecDevice_executeVerb, orgIOHDACodecDevice_executeVerb);
 		patcher.routeMultiple(index, &request, 1, address, size);
 	}
-#endif
 	
 	if (!(progressState & ProcessingState::PatchHDAController) && kextIndex == KextIdAppleHDAController) {
 		progressState |= ProcessingState::PatchHDAController;

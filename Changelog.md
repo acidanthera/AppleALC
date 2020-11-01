@@ -1,7 +1,33 @@
 AppleALC Changelog
 ==================
+#### v1.5.4
+- Improved Ice Lake controller patches by fewtarius
+- Added verb sending functionality from userspace by black-dragon74
+
+#### v1.5.3
+- Fix ALCS1200A lost ID 11 by owen0o0
+- Added MacKernelSDK with Xcode 12 compatibility
+- Added CX20632 layout-id 20 for HP Elitedesk 800 G5 Mini by phucnguyen2411
+- Added ALC269VC layout-id 24 for Hasee U45S1 by zero816
+- Added ALC283 layout-id 45 for NUC7 by micsell
+- Added ALC235 layout-id 99 for Lenovo TianYi 510s Mini by DalianSky
+- Added ALC1150 layout-id 99 for Gigabyte GA-Z97X-UD5H by DalianSky
+- Correct layout 13 for IDT92HD87B2/4
+
 #### v1.5.2
 - Added missing layout7.xml for CA0132
+- Added 400 series 0xA3F0 controller patch by goomadao
+- Added ALCS1200A layout-id 11 for MAG-Z490-TOMAHAWK by owen0o0
+- Added ALC269 layout-id 128 for Laptop NS4SL01 by ryahpalma
+- Added ALCS1200A layout-id 50 for Gigabyte B460M Aorus Pro by VanXNF
+- Added ALC280 layout-id 17 for Dell Optiplex 9020 SFF by pkendall64
+- Added ALC236 layout-id 14 for Lenovo 330S by erinviegas
+- Added ALC887 layout-id 12 for ASUS H81M-D by VanXNF
+- Added ALCS1200A layout-id 49 for Asrock Z490M-ITX by VanXNF
+- Added ALC269 layout-id 23 for Thinkpad T430 with fixed micophone inputlevel by haotiangood
+- Added ALC245 layout-is 11 and 12 for Lenovo by soto2080
+- Added ALC245 layout-id 13 for HP Omen 15 2020 by lunjielee
+- Added ALC287 layout-id 11 for HP Omen 15 2020 by lunjielee
 
 #### v1.5.1
 - Set MinKernel Catalina for 400 Series

@@ -17,8 +17,46 @@ class AlcEnabler {
 public:
 	void init();
 	void deinit();
+	
+	/**
+	 *	Alocate single instance for shared usage and callbacks
+	 */
+	static void createShared();
+	
+	/**
+	 *	Obtain the allocated shared instance
+	 *
+	 *	@return Allocated AlcEnabler instance
+	 */
+	static AlcEnabler* getShared() {
+		return callbackAlc;
+	}
+	
+	/**
+	 *  Hooked IOHDACodecDevice executeVerb
+	 *
+	 *  @param hdaCodecDevice IOHDACodecDevice instance
+	 *  @param nid Node ID
+	 *  @param verb The hda-verb command to send (as defined in hdaverb.h)
+	 *  @param param The parameters for the verb
+	 *  @param output Pointer to write the output of the command to
+	 *  @param waitForSuccess Wait for SET_STREAM_FORMAT to succeed up-to 100 times, sleeping for 1s in-between
+	 *
+	 *  @return kIOReturnSuccess on successful execution
+	 */
+	static IOReturn IOHDACodecDevice_executeVerb(void *hdaCodecDevice, uint16_t nid, uint16_t verb, uint16_t param, unsigned int *output, bool waitForSuccess);
+	
+	/**
+	 *	Trampolines for original method invocation
+	 */
+	mach_vm_address_t orgIOHDACodecDevice_executeVerb {0};
 
 private:
+	/**
+	 *	The only allowed instance of this class
+	 */
+	static AlcEnabler* callbackAlc;
+	
 	/**
 	 *  Update device properties for digital and analog audio support
 	 */
@@ -72,13 +110,6 @@ private:
 	 *  Hooked AppleHDAController start
 	 */
 	static bool AppleHDAController_start(IOService* service, IOService* provider);
-	
-	/**
-	 *  Hooked IOHDACodecDevice executeVerb
-	 */
-#ifdef DEBUG
-	static IOReturn IOHDACodecDevice_executeVerb(void *that, uint16_t a1, uint16_t a2, uint16_t a3, unsigned int *a4, bool a5);
-#endif
 		
 	/**
 	 *  Trampolines for original method invocations
@@ -87,9 +118,6 @@ private:
 	mach_vm_address_t orgPlatformLoadCallback {0};
 	mach_vm_address_t orgGfxProbe {0};
 	mach_vm_address_t orgAppleHDAController_start {0};
-#ifdef DEBUG
-	mach_vm_address_t orgIOHDACodecDevice_executeVerb {0};
-#endif
 
 	/**
 	 *  @enum IOAudioDevicePowerState
