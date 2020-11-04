@@ -21,7 +21,7 @@
 	<array>
 		<dict>
 			<key>Comment</key>
-			<string>Realtek ALC230 for Lenovo Ideapad 320</string>
+			<string>Realtek ALC230</string>
 			<key>PathMap</key>
 			<array>
 				<array>

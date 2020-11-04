@@ -3,6 +3,15 @@ AppleALC Changelog
 #### v1.5.4
 - Improved Ice Lake controller patches by fewtarius
 - Added verb sending functionality from userspace by black-dragon74
+- Added ALC235 (display as ALC233) layout-id 35 for Lenovo Qitian M420-D046(C) by crysehillmes
+- Added ALC892 layout-id 100 for MSI Z370-A PRO by GeorgeWan
+- Added ALCS1200A layout-id 51 for for ASROCK Z490 Steel Legend by GeorgeWan
+- Added ALC662 layout-id 66 for Lenovo Qitian M415-D339 by static-host
+- Fixed ALC285 layout-Id 21 for X1C6 (by @fewtarius)
+- Added ALC272 layout-id 12 for Lenovo Y470 by amu_1680c
+- Added patch CX20751/2 by vasishath to fix internal mic gain adjustment (this fix microphone volume slider in system preferences)
+- Added ALC230 layout 13 & 20 Jack Sense and EAPD support and add WakeConfigData to layout 13
+- Added ALC290 layout-id 10 for HP Envy 15t-k200 w/ Beats Audio 2.1 by temp1122-sys
 
 #### v1.5.3
 - Fix ALCS1200A lost ID 11 by owen0o0
