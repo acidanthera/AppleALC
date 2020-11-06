@@ -10701,6 +10701,30 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>Enrico - VIA VT2020/2021</string>
+					<key>CodecID</key>
+					<integer>285606977</integer>
+					<key>ConfigData</key>
+					<data>
+						???
+					Ihcc8CIXHQAiFx4AIhcfQCJHHBAiRx1AIkce
+					ESJHHwEiRwwCIlcc8CJXHQAiVx4AIlcfQCJn
+					HPAiZx0AImceACJnH0AidxzwIncdACJ3HgAi
+					dx9AIoccICKHHUAihx4hIocfASKXHEAilx2Q
+					IpceoCKXH5AilwchIqccgCKnHTAipx6BIqcf
+					ASK3HPAitx0AIrceACK3H0AixxzwIscdACLH
+					HgAixx9AItcc8CLXHQAi1x4AItcfQCLnHJAi
+					5x1hIuceSyLnHwEi9xzwIvcdACL3HgAi9x9A
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>13</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
 					<data>AQAAAA==</data>
 					<key>Codec</key>
 					<string>Custom CX20757 Lenovo G510 by Z39</string>
