@@ -38,7 +38,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>VIA VT2020/2021 Mirone</string>
+				<string>Enrico - GA-Z77X-D3Hrev1.0 - VIA VT2020/2021</string>
 				<key>Id</key>
 				<integer>13</integer>
 				<key>Path</key>
@@ -73,9 +73,9 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Enrico - VIA VT2020/2021</string>
+				<string>Enrico - GA-Z77X-D3Hrev1.0 - VIA VT2020/2021</string>
 				<key>Id</key>
-				<integer>9</integer>
+				<integer>13</integer>
 				<key>Path</key>
 				<string>Platforms13.xml.zlib</string>
 			</dict>
