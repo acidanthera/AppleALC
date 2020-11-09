@@ -38,6 +38,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>ALC283 for AlldoCube/Cube Mix Plus by Aldo97</string>
+				<key>Id</key>
+				<integer>13</integer>
+				<key>Path</key>
+				<string>layout13.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>MacPeet - alc283 for LENOVO IDEAPAD 14</string>
 				<key>Id</key>
 				<integer>15</integer>
@@ -102,6 +110,14 @@
 				<integer>11</integer>
 				<key>Path</key>
 				<string>Platforms11.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>ALC283 for AlldoCube/Cube Mix Plus by Aldo97</string>
+				<key>Id</key>
+				<integer>13</integer>
+				<key>Path</key>
+				<string>Platforms13.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
