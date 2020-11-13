@@ -5603,6 +5603,36 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>Realtek ALC295 by aleix</string>
+					<key>CodecID</key>
+					<integer>283902613</integer>
+					<key>ConfigData</key>
+					<data>
+					ATccAAE3HQABNx4AATcfQAHXHAEB1x0AAdce
+					YAHXH0ABRxwQAUcdAQFHHhcBRx+RAUcMAgIX
+					HCACFx0QAhceIQIXHwMCFwwCASccMAEnHQEB
+					Jx6mAScftwGXHEABlx0QAZcegQGXHwMBZxzw
+					AWcdEQFnHhEBZx9BAXcc8AF3HREBdx4RAXcf
+					QQGHHPABhx0RAYceEQGHH0EBpxzwAacdEQGn
+					HhEBpx9BAbcc8AG3HREBtx4RAbcfQQG3DAIB
+					5xzwAecdEQHnHhEB5x9B
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>22</integer>
+					<key>WakeConfigData</key>
+					<data>
+					ATcMAAHXDAABRwwCAhcMAgEnDAABlwwAAWcM
+					AAF3DAABhwwAAacMAAG3DAIB5wwA
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>vusun123 - ALC 295 for Skylake HP Pavilion</string>
 					<key>CodecID</key>
 					<integer>283902613</integer>

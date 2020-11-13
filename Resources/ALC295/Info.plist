@@ -92,6 +92,14 @@
 				<key>Path</key>
 				<string>layout24.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>aleixjf — Realtek ALC295 for HP Spectre x360 13-ac0XX and 13-w0XX models</string>
+				<key>Id</key>
+				<integer>22</integer>
+				<key>Path</key>
+				<string>layout22.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -174,6 +182,14 @@
 				<integer>24</integer>
 				<key>Path</key>
 				<string>PlatformsID.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>aleixjf — Realtek ALC295 for HP Spectre x360 13-ac0XX and 13-w0XX models</string>
+				<key>Id</key>
+				<integer>22</integer>
+				<key>Path</key>
+				<string>Platforms22.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>
