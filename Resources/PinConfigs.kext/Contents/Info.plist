@@ -9395,6 +9395,28 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>rdmitry0911 - Conexant CX8200 for LG Gram 17 17z990</string>
+					<key>CodecID</key>
+					<integer>351346696</integer>
+					<key>ConfigData</key>
+					<data>
+					AXccEAF3HQEBdx4XAXcfkQF3DAIBpxwgAacd
+					AQGnHqcBpx+VAZccMAGXHRABlx6BAZcfBAFn
+					HEABZx0QAWceIQFnHwQBZwwC
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>80</integer>
+					<key>WakeConfigData</key>
+					<data>AWcMAgF3DAI=</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>Conexant CX8400</string>
 					<key>CodecID</key>
 					<integer>351346896</integer>
