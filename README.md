@@ -1,7 +1,7 @@
 AppleALC
 ========
 
-[![Build Status](https://travis-ci.com/acidanthera/AppleALC.svg?branch=master)](https://travis-ci.com/acidanthera/AppleALC) [![Scan Status](https://scan.coverity.com/projects/16166/badge.svg?flat=1)](https://scan.coverity.com/projects/16166)
+[![Build Status](https://github.com/acidanthera/AppleALC/workflows/CI/badge.svg?branch=master)](https://github.com/acidanthera/AppleALC/actions) [![Scan Status](https://scan.coverity.com/projects/16166/badge.svg?flat=1)](https://scan.coverity.com/projects/16166)
 
 An open source kernel extension enabling native macOS HD audio for not officially supported codecs without any filesystem modifications.
 

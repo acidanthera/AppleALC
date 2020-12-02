@@ -1,7 +1,7 @@
 AppleALC
 ========
 
-[![Build Status](https://travis-ci.com/acidanthera/AppleALC.svg?branch=master)](https://travis-ci.com/acidanthera/AppleALC) [![Scan Status](https://scan.coverity.com/projects/16166/badge.svg?flat=1)](https://scan.coverity.com/projects/16166)
+[![Build Status](https://github.com/acidanthera/AppleALC/workflows/CI/badge.svg?branch=master)](https://github.com/acidanthera/AppleALC/actions) [![Scan Status](https://scan.coverity.com/projects/16166/badge.svg?flat=1)](https://scan.coverity.com/projects/16166)
 
 一个开源的内核扩展,为非官方的声卡提供支持的Codec,无需修改任何系统文件,来启用原生macOS高清音频.
 
