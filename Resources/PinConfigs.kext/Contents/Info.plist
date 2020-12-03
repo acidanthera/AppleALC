@@ -3544,6 +3544,27 @@
 					<key>CodecID</key>
 					<integer>283902569</integer>
 					<key>Comment</key>
+					<string>Custom ALC269 for Chuwi CoreBox by Luca91</string>
+					<key>ConfigData</key>
+					<data>
+					AVccHwFXHRABVx4hAVcfBAFXDAIBhxwgAYcd
+					EAGHHoEBhx8E
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>91</integer>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>ALC269</string>
+					<key>CodecID</key>
+					<integer>283902569</integer>
+					<key>Comment</key>
 					<string>ALC269 Asus K53SJ, Asus G73s Mod by Andrey1970 (No input boost - no noise in Siri)</string>
 					<key>ConfigData</key>
 					<data>
