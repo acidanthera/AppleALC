@@ -32,6 +32,24 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>CodecID</key>
+					<integer>283903601</integer>
+					<key>Comment</key>
+					<string>Sisumara - ALC671 for Fujitsu Q558</string>
+					<key>ConfigData</key>
+					<data>AXccEAF3HQEBdx4TAXcfmQF3DAIBRxwgAUcdEAFHHiEBRx8CAUcMAgIXHDACFx0QAhceAQIXHwECFwwCAZccUAGXHRABlx6BAZcfAg==</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>16</integer>
+					<key>WakeConfigData</key>
+					<data>IhcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>CodecID</key>
 					<integer>283902569</integer>
 					<key>Comment</key>
 					<string>Custom ALC269VD for ThinkPad T430</string>
