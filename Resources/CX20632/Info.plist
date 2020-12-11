@@ -22,6 +22,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>geoleonsh - HP ProDesk 400 G3</string>
+				<key>Id</key>
+				<integer>39</integer>
+				<key>Path</key>
+				<string>layout39.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Daniel</string>
 				<key>Id</key>
 				<integer>28</integer>
@@ -46,6 +54,14 @@
 				<integer>23</integer>
 				<key>Path</key>
 				<string>Platforms23.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Geoleonsh</string>
+				<key>Id</key>
+				<integer>39</integer>
+				<key>Path</key>
+				<string>Platforms39.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
