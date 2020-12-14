@@ -126,6 +126,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Realtek ALC256 for Dell OptiPlex 7080</string>
+				<key>Id</key>
+				<integer>67</integer>
+				<key>Path</key>
+				<string>layout67.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Durian - Realtek ALC256 (3246) for MateBook X Pro 2019（4CH）</string>
 				<key>Id</key>
 				<integer>76</integer>
@@ -254,6 +262,14 @@
 				<integer>66</integer>
 				<key>Path</key>
 				<string>Platforms66.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Realtek ALC256 for Dell OptiPlex 7080</string>
+				<key>Id</key>
+				<integer>67</integer>
+				<key>Path</key>
+				<string>Platforms67.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
