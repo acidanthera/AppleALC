@@ -19,14 +19,16 @@
 			<dict/>
 			<key>Inputs</key>
 			<array>
-				<string>Mic</string>
 				<string>LineIn</string>
+				<string>Mic</string>
 			</array>
 			<key>IntSpeaker</key>
 			<dict>
 				<key>MaximumBootBeepValue</key>
 				<integer>110</integer>
 			</dict>
+			<key>LineIn</key>
+			<dict/>
 			<key>Mic</key>
 			<dict>
 				<key>SignalProcessing</key>
