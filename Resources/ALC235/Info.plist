@@ -110,6 +110,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Realtek ALC235(Display as ALC233) for Lenovo IdeaCentre Mini 5</string>
+				<key>Id</key>
+				<integer>37</integer>
+				<key>Path</key>
+				<string>layout37.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>ALC235 for Lenovo TianYi 510s Mini by DalianSky</string>
 				<key>Id</key>
 				<integer>99</integer>
@@ -214,6 +222,14 @@
 				<integer>35</integer>
 				<key>Path</key>
 				<string>Platforms35.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Realtek ALC235(Display as ALC233) for Lenovo IdeaCentre Mini 5</string>
+				<key>Id</key>
+				<integer>37</integer>
+				<key>Path</key>
+				<string>Platforms37.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
