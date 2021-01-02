@@ -197,6 +197,34 @@
 			<key>Replace</key>
 			<data>D7fwg/oB</data>
 		</dict>
+		<dict>
+			<key>Count</key>
+			<integer>1</integer>
+			<key>Find</key>
+			<data>D7bqg/gD</data>
+			<key>MinKernel</key>
+			<string>20</string>
+			<key>Name</key>
+			<string>AppleHDA</string>
+			<key>Provider</key>
+			<string>Vasishath Kaushal - Ported to Big Sur by Luca91</string>
+			<key>Replace</key>
+			<data>D7bqg/gB</data>
+		</dict>
+		<dict>
+			<key>Count</key>
+			<integer>1</integer>
+			<key>Find</key>
+			<data>weEIRTHkg/gC</data>
+			<key>MinKernel</key>
+			<string>20</string>
+			<key>Name</key>
+			<string>AppleHDA</string>
+			<key>Provider</key>
+			<string>Vasishath Kaushal - Ported to Big Sur by Luca91</string>
+			<key>Replace</key>
+			<data>weEIRTHkg/gB</data>
+		</dict>
 	</array>
 	<key>Revisions</key>
 	<array>
