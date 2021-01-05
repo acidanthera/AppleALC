@@ -5200,6 +5200,28 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>Realtek ALC289 for Dell XPS 13 9300 by DalianSky</string>
+					<key>CodecID</key>
+					<integer>283902601</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccEAEnHQEBJx6mAScfmQF3HDABdx0BAXce
+					FwF3H5kBlxwAAZcdEAGXHosBlx4CAhccIAIX
+					HRACFx4rAhcfAQIXDAI=
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>99</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgG3DAICFwwC</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>Mirone - Realtek ALC290</string>
 					<key>CodecID</key>
 					<integer>283902608</integer>

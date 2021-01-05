@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Author</key>
-	<string>Bugprogrammer，Rover</string>
+	<string>Bugprogrammer, Rover, DalianSky</string>
 	<key>CodecID</key>
 	<integer>649</integer>
 	<key>CodecName</key>
@@ -28,6 +28,14 @@
 				<key>Path</key>
 				<string>layout23.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Realtek ALC289 for Dell XPS 13 9300 by DalianSky</string>
+				<key>Id</key>
+				<integer>99</integer>
+				<key>Path</key>
+				<string>layout99.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -46,6 +54,14 @@
 				<integer>23</integer>
 				<key>Path</key>
 				<string>Platforms23.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Realtek ALC289 for Dell XPS 13 9300 by DalianSky</string>
+				<key>Id</key>
+				<integer>99</integer>
+				<key>Path</key>
+				<string>Platforms99.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>
