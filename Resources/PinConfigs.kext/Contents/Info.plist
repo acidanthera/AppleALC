@@ -846,6 +846,28 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>Custom ALC225/ALC3253 for Dell Inspiron 15-5379 by fast900</string>
+					<key>CodecID</key>
+					<integer>283902501</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccUAEnHQABJx6gAScfkAFHHCABRx0AAUce
+					FwFHH5ABlxxwAZcdEAGXHoEBlx8AAhccIAIX
+					HRACFx4hAhcfAAFHDAI=
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>90</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgIXDAIBlwcl</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>Andres Laptop Patch ALC230 Lenovo 310-14ISK</string>
 					<key>CodecID</key>
 					<integer>283902512</integer>
@@ -1383,32 +1405,6 @@
 					<integer>35</integer>
 					<key>WakeConfigData</key>
 					<data>AUcMAgG3DAICFwwCAhcHwAIXCIIBlwck</data>
-					<key>WakeVerbReinit</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
-					<key>Codec</key>
-					<string>Realtek ALC235 for Lenovo Ideacentre Mini 5</string>
-					<key>CodecID</key>
-					<integer>283902517</integer>
-					<key>ConfigData</key>
-					<data>
-					AScc8AEnHQABJx4AAScfQAFHHPABRx0AAUce
-					AAFHH0ABdxzwAXcdAAF3HgABdx9AAYcc8AGH
-					HQABhx4AAYcfQAGXHDABlx0RAZcegQGXHwIB
-					pxzwAacdAAGnHgABpx9AAbcc8AG3HQABtx4A
-					AbcfQAHXHPAB1x0AAdceAAHXH0AB5xzwAecd
-					AAHnHgAB5x9AAhccEAIXHRACFx4hAhcfAgGX
-					ByQBlwiBAhcMAgIXB8ACFwiC
-					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>37</integer>
-					<key>WakeConfigData</key>
-					<data>AZcHJAGXCIECFwwCAhcHwAIXCII=</data>
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
