@@ -4133,6 +4133,24 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>Andres ZeroCross - Realtek ALC274 for Dell Inspiron 27-7777 AIO Series</string>
+					<key>CodecID</key>
+					<integer>283902580</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccEAEnHQEBJx6gAScfkAF3HCABdx0BAXce
+					FwF3H5ABdwwCAaccMAGnHRABpx6BAacfAgIX
+					HEACFx0QAhceIQIXHwICFwwC
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>28</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>Mirone - Realtek ALC275</string>
 					<key>CodecID</key>
 					<integer>283902581</integer>
