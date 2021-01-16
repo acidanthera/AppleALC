@@ -20,8 +20,8 @@
 			</dict>
 			<key>Inputs</key>
 			<array>
-				<string>Mic</string>
 				<string>LineIn</string>
+				<string>Mic</string>
 			</array>
 			<key>IntSpeaker</key>
 			<dict>
