@@ -20,12 +20,15 @@
 			<key>IntSpeaker</key>
 			<dict>
 				<key>MaximumBootBeepValue</key>
-				<integer>64</integer>
+				<integer>48</integer>
 				<key>MuteGPIO</key>
 				<integer>0</integer>
 			</dict>
 			<key>LineIn</key>
-			<dict/>
+			<dict>
+				<key>MuteGPIO</key>
+				<integer>1342242842</integer>
+			</dict>
 			<key>Outputs</key>
 			<array>
 				<string>IntSpeaker</string>
