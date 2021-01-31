@@ -851,7 +851,7 @@
 					<integer>283902501</integer>
 					<key>ConfigData</key>
 					<data>
-					ASccUAEnHQABJx6gAScfkAFHHCABRx0AAUce
+					ASccUAEnHQABJx6gAScfkAFHHEABRx0AAUce
 					FwFHH5ABlxxwAZcdEAGXHoEBlx8AAhccIAIX
 					HRACFx4hAhcfAAFHDAI=
 					</data>
@@ -860,7 +860,7 @@
 					<key>LayoutID</key>
 					<integer>90</integer>
 					<key>WakeConfigData</key>
-					<data>AUcMAgIXDAIBlwcl</data>
+					<data>AUcMAgIXDAI=</data>
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
