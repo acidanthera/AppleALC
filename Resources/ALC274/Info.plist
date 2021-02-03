@@ -28,6 +28,14 @@
 				<key>Path</key>
 				<string>layout28.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Jack Liu - Realtek ALC274 for Microsoft Surface Pro 7</string>
+				<key>Id</key>
+				<integer>35</integer>
+				<key>Path</key>
+				<string>layout35.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -46,6 +54,14 @@
 				<integer>28</integer>
 				<key>Path</key>
 				<string>Platforms28.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Jack Liu - Realtek ALC274 for Microsoft Surface Pro 7</string>
+				<key>Id</key>
+				<integer>35</integer>
+				<key>Path</key>
+				<string>Platforms35.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>
