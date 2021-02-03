@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AppleGFXHDA</key>
+	<dict>
+		<key>Id</key>
+		<string>com.apple.driver.AppleGFXHDA</string>
+		<key>Paths</key>
+		<array>
+			<string>/System/Library/Extensions/AppleGFXHDA.kext/Contents/MacOS/AppleGFXHDA</string>
+		</array>
+	</dict>
+	<key>AppleHDA</key>
+	<dict>
+		<key>Detect</key>
+		<true/>
+		<key>Id</key>
+		<string>com.apple.driver.AppleHDA</string>
+		<key>Paths</key>
+		<array>
+			<string>/System/Library/Extensions/AppleHDA.kext/Contents/MacOS/AppleHDA</string>
+		</array>
+		<key>Reloadable</key>
+		<true/>
+	</dict>
+	<key>AppleHDAController</key>
+	<dict>
+		<key>Id</key>
+		<string>com.apple.driver.AppleHDAController</string>
+		<key>Paths</key>
+		<array>
+			<string>/System/Library/Extensions/AppleHDA.kext/Contents/PlugIns/AppleHDAController.kext/Contents/MacOS/AppleHDAController</string>
+		</array>
+	</dict>
+	<key>IOHDAFamily</key>
+	<dict>
+		<key>Id</key>
+		<string>com.apple.iokit.IOHDAFamily</string>
+		<key>Paths</key>
+		<array>
+			<string>/System/Library/Extensions/AppleHDA.kext/Contents/PlugIns/IOHDAFamily.kext/Contents/MacOS/IOHDAFamily</string>
+		</array>
+	</dict>
+</dict>
+</plist>
