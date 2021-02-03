@@ -3166,24 +3166,6 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
-					<string>Andres ZeroCross - Realtek ALC274 for Dell Inspiron 27-7777 AIO Series</string>
-					<key>CodecID</key>
-					<integer>283902580</integer>
-					<key>ConfigData</key>
-					<data>ASccMAEnHQEBJx6gAScfkAFnHBABZx0BAWceFwFnH5ABlxxAAZcdAAGXHoEBlx8EAhccIAIXHRACFx4hAhcfBAFHDAICFwwC</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>21</integer>
-					<key>WakeConfigData</key>
-					<data>AWcMAgIXDAI=</data>
-					<key>WakeVerbReinit</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
-					<key>Codec</key>
 					<string>Jack Liu - Realtek ALC274 for Microsoft SUrface Pro 7</string>
 					<key>CodecID</key>
 					<integer>283902580</integer>
@@ -3193,6 +3175,24 @@
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>35</integer>
+					<key>WakeConfigData</key>
+					<data>AWcMAgIXDAI=</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>Andres ZeroCross - Realtek ALC274 for Dell Inspiron 27-7777 AIO Series</string>
+					<key>CodecID</key>
+					<integer>283902580</integer>
+					<key>ConfigData</key>
+					<data>ASccMAEnHQEBJx6gAScfkAFnHBABZx0BAWceFwFnH5ABlxxAAZcdAAGXHoEBlx8EAhccIAIXHRACFx4hAhcfBAFHDAICFwwC</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>21</integer>
 					<key>WakeConfigData</key>
 					<data>AWcMAgIXDAI=</data>
 					<key>WakeVerbReinit</key>
