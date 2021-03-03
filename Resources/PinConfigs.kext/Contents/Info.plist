@@ -32,6 +32,32 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>Dell5559 ALC255</string>
+					<key>CodecID</key>
+					<integer>283902549</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccEAEnHREBJx6hAScfkgGnHCABpx0QAace
+					gQGnHwIBRxwwAUcdEQFHHhcBRx+SAUcMAgIX
+					HEACFx0QAhceIQIXHwICFwwCAXcc8AF3HQAB
+					dx4AAXcfQAHXHPAB1x0AAdceAAHXH0ABhxzw
+					AYcdAAGHHgABhx9AAZcc8AGXHQABlx4AAZcf
+					QAG3HPABtx0AAbceAAG3H0AB5xzwAecdAAHn
+					HgAB5x9A
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>5559</integer>
+					<key>WakeConfigData</key>
+					<data>AScfkgGnHwIBRwwCAhcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>agasecond - Realtek ALC256 (3246) for Xiaomi Pro Enhanced 2019</string>
 					<key>CodecID</key>
 					<integer>283902550</integer>
