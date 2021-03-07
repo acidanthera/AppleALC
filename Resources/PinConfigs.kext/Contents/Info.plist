@@ -5289,6 +5289,24 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>naufalkharits - Realtek ALC289 for Alienware m15</string>
+					<key>CodecID</key>
+					<integer>283902601</integer>
+					<key>ConfigData</key>
+					<data>ASccEAEnHQEBJx6gAScfsAE3HPABNx0AATceAAE3H0ABRxwgAUcdAQFHHhcBRx+QAUcMAgFnHPABZx0AAWceAAFnH0ABdxzwAXcdAAF3HgABdx9AAYcc8AGHHQABhx4AAYcfQAGXHDABlx0QAZcegQGXH0EBpxzwAacdAAGnHgABpx9AAbccQAG3HRABtx6BAbcfQQG3DAIB1xzwAdcdAAHXHgAB1x9AAecc8AHnHQAB5x4AAecfQAIXHFACFx0QAhceIQIXHwQCFwwC</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>87</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgG3DAICFwwC</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>Mirone - Realtek ALC290</string>
 					<key>CodecID</key>
 					<integer>283902608</integer>
