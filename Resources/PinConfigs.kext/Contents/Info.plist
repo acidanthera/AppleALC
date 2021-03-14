@@ -5245,6 +5245,28 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>MacPeet - ALC289 for Dell 7730 Precision CM240 </string>
+					<key>CodecID</key>
+					<integer>283902601</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccEAEnHQABJx6mAScfkAFHHCABRx0AAUce
+					FwFHH5ABRwwCAZccMAGXHRABlx6BAZcfAAIX
+					HEACFx0QAhceIQIXHwACFwwC
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>15</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgIXDAI=</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>Realtek ALC289 for Acer PT515-51 By Bugprogrammer and Rover</string>
 					<key>CodecID</key>
 					<integer>283902601</integer>
