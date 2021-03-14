@@ -11277,6 +11277,26 @@
 					<data>AUcMAg==</data>
 					<key>WakeVerbReinit</key>
 					<true/>
+                </dict>
+                <dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>Custom IDT92HD95 - LenovoG710 by Svilen Ivanov layout14</string>
+					<key>CodecID</key>
+					<integer>287143573</integer>
+					<key>ConfigData</key>
+					<data>
+					AKccEACnHRAApx4hAKcfAQCnDAIAtxwgALcd
+					EAC3HoEAtx8BALcMAgDHHDAAxx0BAMceoADH
+					H5AAxwwCANccQADXHQEA1x4QANcfkADXDAIA
+					5xzwAOcdAADnHgAA5x9AAPcc8AD3HQAA9x4A
+					APcfQAGHHPABhx0AAYceAAGHH0A=
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>14</integer>
 				</dict>
 			</array>
 			<key>IOClass</key>
