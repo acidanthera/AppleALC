@@ -11278,6 +11278,35 @@
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>ALC297 for MSI Z490-A Pro by MathCampbell</string>
+					<key>CodecID</key>
+					<integer>283904151</integer>
+					<key>ConfigData</key>
+					<data>
+					AUccEAFHHUABRx4RAUcfAQFHDAIBZxwRAWcd
+					YAFnHhEBZx8BAVccEgFXHRABVx4RAVcfAQF3
+					HBQBdx0gAXceEQF3HwEBtxwgAbcdQAG3HiEB
+					tx8CAbcMAgGHHDABhx2QAYceoAGHH5EBpxw/
+					AacdMAGnHoEBpx8BARccQAEXHdUBFx43ARcf
+					QAGXHEABlx2QAZcegAGXHwIB1xxrAdcd9gHX
+					HioB1x9A
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>69</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAgFnDAABVwwAAXcMAAG3DAIBhwwAAacM
+					AAEXDAABlwwAAdcMAA==
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
 			</array>
 			<key>IOClass</key>
 			<string>AppleHDAHardwareConfigDriver</string>
