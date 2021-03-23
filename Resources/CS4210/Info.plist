@@ -13,23 +13,23 @@
 		<key>Layouts</key>
 		<array>
 			<dict>
+				<key>Comment</key>
+				<string>InsanelyDeepak - Cirrus Logic CS4210</string>
 				<key>Id</key>
 				<integer>13</integer>
 				<key>Path</key>
 				<string>layout13.xml.zlib</string>
-				<key>Comment</key>
-				<string>InsanelyDeepak - Cirrus Logic CS4210</string>
 			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
 			<dict>
+				<key>Comment</key>
+				<string>InsanelyDeepak - Cirrus Logic CS4210</string>
 				<key>Id</key>
 				<integer>13</integer>
 				<key>Path</key>
 				<string>PlatformsID.xml.zlib</string>
-				<key>Comment</key>
-				<string>InsanelyDeepak - Cirrus Logic CS4210</string>
 			</dict>
 		</array>
 	</dict>

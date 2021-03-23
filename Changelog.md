@@ -2,6 +2,7 @@ AppleALC Changelog
 ==================
 #### v1.5.9
 - Added CS4206 layout-id 24 and 60
+- Added 500 Series (0xF0C8) PCH HD Audio Controller
 
 #### v1.5.8
 - Improved resource packaging by stripping optional tags
