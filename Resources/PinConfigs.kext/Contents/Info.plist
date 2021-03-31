@@ -5294,21 +5294,16 @@
 					<integer>283902601</integer>
 					<key>ConfigData</key>
 					<data>
-					ASccEAEnHQEBJx6gAScfsAE3HPABNx0AATce
-					AAE3H0ABRxwgAUcdAQFHHhcBRx+QAUcMAgFn
-					HPABZx0AAWceAAFnH0ABdxzwAXcdAAF3HgAB
-					dx9AAYcc8AGHHQABhx4AAYcfQAGXHDABlx0Q
-					AZcegQGXH0EBpxzwAacdAAGnHgABpx9AAbcc
-					QAG3HRABtx6BAbcfQQG3DAIB1xzwAdcdAAHX
-					HgAB1x9AAecc8AHnHQAB5x4AAecfQAIXHFAC
-					Fx0QAhceIQIXHwQCFwwC
+					AUccEAFHHQEBRx4XAUcfkAFHDAICFxwwAhcd
+					EAIXHiECFx8EAhcMAgGXHEABlx0RAZceoQGX
+					H5E=
 					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>87</integer>
 					<key>WakeConfigData</key>
-					<data>AUcMAgG3DAICFwwC</data>
+					<data>AUcMAgIXDAIBlwcl</data>
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
