@@ -1132,7 +1132,7 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>Patches AppleHDAController PCI ID check to always return 9D70 to enable HDMI audio</string>
+				<string>Patches out AppleHDAController PCI ID check and replaces internal variable content with 9D70 to enable HDMI audio</string>
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Find</key>
