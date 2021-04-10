@@ -1,4 +1,4 @@
-<dict>    <!--    <rdar://6449439> layout77.xml    -->
+<dict>    
     <key>LayoutID</key>
     <integer>77</integer>
     <key>PathMapRef</key>
@@ -6,29 +6,29 @@
 		<dict>
 			<key>CodecID</key>
 			<array>
-				<integer>269697542</integer>	<!--	0x10134206 CS4206	-->
+				<integer>269697542</integer>	
 			</array>
 			<key>ExtMic</key>
 			<dict>
-				<key>HeadsetMic_dBV</key> 		<!--	<rdar://6741509>	-->
-                <integer>1088421888</integer>   <!--	<rdar://6741509>	equivalent to +7.0dB -->
+				<key>HeadsetMic_dBV</key> 		
+                <integer>1088421888</integer>   
                 <key>MuteGPIO</key>
                 <integer>262144</integer>
 			</dict>
 			<key>Headphone</key>
 			<dict>
 				<key>DefaultVolume</key>
-				<integer>4292870144</integer>		<!-- = 32.0 dB  -->
+				<integer>4292870144</integer>		
 				<key>AmpPostDelay</key>
 				<integer>50</integer>
 				<key>AmpPreDelay</key>
 				<integer>100</integer>
-				<key>Headset_dBV</key> 			<!--	<rdar://6738474>	-->
-                <integer>3239051264</integer>   <!--	<rdar://6738474>	equivalent to -9.0dB -->
-				<key>IOMux</key>				<!--	<rdar://6576237>	-->
+				<key>Headset_dBV</key> 			
+                <integer>3239051264</integer>   
+				<key>IOMux</key>				
 				<integer>0</integer>
                 <key>MuteGPIO</key>
-                <integer>16777217</integer>		<!--	<rdar://6576237>	-->
+                <integer>16777217</integer>		
 			</dict>
 			<key>Inputs</key>
 			<array>
@@ -39,7 +39,7 @@
 			<key>IntSpeaker</key>
 			<dict>
 				<key>DefaultVolume</key>
-				<integer>4294049792</integer>		<!-- = 14.0 dB  -->
+				<integer>4294049792</integer>		
 				<key>AmpPostDelay</key>
                 <integer>100</integer>
                 <key>AmpPreDelay</key>
@@ -1890,12 +1890,12 @@
 					</dict>
 				</dict>
 			</dict>
-			<key>LineIn</key>						<!--	<rdar://6861776>	-->
+			<key>LineIn</key>						
 			<dict/>
 			<key>Mic</key>
 			<dict>
                 <key>MuteGPIO</key>
-                <integer>1342242829</integer>		<!-- 0x5001000D	-->
+                <integer>1342242829</integer>		
 				<key>SignalProcessing</key>
 				<dict>
 					<key>SoftwareDSP</key>

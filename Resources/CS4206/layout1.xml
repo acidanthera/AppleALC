@@ -11,20 +11,20 @@
             <key>ExtMic</key>
             <dict>
                 <key>HeadsetMic_dBV</key>
-                <integer>1088421888</integer>		<!--	<rdar://6741509>	equivalent to +7.0dB -->
+                <integer>1088421888</integer>		
                 <key>MuteGPIO</key>
                 <integer>262144</integer>
             </dict>
             <key>Headphone</key>
             <dict>
             	<key>DefaultVolume</key>
-            	<integer>4292870144</integer>		<!-- = 32.0 dB  -->
+            	<integer>4292870144</integer>		
                 <key>AmpPostDelay</key>
                 <integer>50</integer>
                 <key>AmpPreDelay</key>
                 <integer>50</integer>
                 <key>Headset_dBV</key>
-                <integer>-1055916032</integer>		<!--	<rdar://6738474>	equivalent to -9.0dB  -->
+                <integer>-1055916032</integer>		
                 <key>IOMux</key>
                 <integer>0</integer>
                 <key>MuteGPIO</key>
@@ -39,7 +39,7 @@
             <key>IntSpeaker</key>
             <dict>
             	<key>DefaultVolume</key>
-            	<integer>4293722112</integer>		<!-- = 19.0 dB  -->
+            	<integer>4293722112</integer>		
                 <key>AmpPostDelay</key>
                 <integer>100</integer>
                 <key>AmpPreDelay</key>
@@ -1613,9 +1613,7 @@
             <key>Mic</key>
             <dict>
                 <key>MuteGPIO</key>
-                <integer>1342242829</integer>		<!-- 0x5001000D	-->
-				<!-- Created with DGB version: 1.9.3 by Mike Mckenna On: 05/09/2012 12:35PM -->
-				<!-- <rdar://problem/11219269> -->
+                <integer>1342242829</integer>		
 				<key>SignalProcessing</key>
 				<dict>
 					<key>SoftwareDSP</key>

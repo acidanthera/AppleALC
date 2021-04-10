@@ -18,7 +18,7 @@
             <key>Headphone</key>
             <dict>
             	<key>DefaultVolume</key>
-            	<integer>4292870144</integer>		<!-- = 32.0 dB  -->
+            	<integer>4292870144</integer>		
                 <key>AmpPostDelay</key>
                 <integer>50</integer>
                 <key>AmpPreDelay</key>
@@ -39,7 +39,7 @@
             <key>IntSpeaker</key>
             <dict>
             	<key>DefaultVolume</key>
-            	<integer>4293754880</integer>		<!-- = 18.5 dB  -->
+            	<integer>4293754880</integer>		
                 <key>AmpPostDelay</key>
                 <integer>100</integer>
                 <key>AmpPreDelay</key>
@@ -2063,7 +2063,7 @@
             <key>Mic</key>
             <dict>
                 <key>MuteGPIO</key>
-                <integer>1342242829</integer>		<!-- 0x5001000D	-->
+                <integer>1342242829</integer>		
 				<key>SignalProcessing</key>
 				<dict>
 					<key>SoftwareDSP</key>

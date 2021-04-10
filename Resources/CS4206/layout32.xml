@@ -18,7 +18,7 @@
             <key>Headphone</key>
             <dict>
             	<key>DefaultVolume</key>
-            	<integer>4293001216</integer>		<!-- = 30.0 dB  -->
+            	<integer>4293001216</integer>		
                 <key>Headset_dBV</key>
                 <integer>-1055916032</integer>
                 <key>MuteGPIO</key>
@@ -34,7 +34,7 @@
             <key>IntSpeaker</key>
             <dict>
             	<key>DefaultVolume</key>
-            	<integer>4294115328</integer>		<!-- = 13.0 dB  -->
+            	<integer>4294115328</integer>		
                 <key>MaximumBootBeepValue</key>
                 <integer>77</integer>
                 <key>MuteGPIO</key>

@@ -6,19 +6,19 @@
         <dict>
             <key>CodecID</key>
             <array>
-                <integer>269697542</integer>	<!--	0x10134206 CS4206	-->
+                <integer>269697542</integer>	
             </array>
             <key>ExtMic</key>
             <dict>
                 <key>HeadsetMic_dBV</key>
-                <integer>1088421888</integer>	<!--	<rdar://6741509>	equivalent to +7.0dB -->
+                <integer>1088421888</integer>	
                 <key>MuteGPIO</key>
                 <integer>262144</integer>
             </dict>
             <key>Headphone</key>
             <dict>
             	<key>DefaultVolume</key>
-            	<integer>4292870144</integer>		<!-- = 32.0 dB  -->
+            	<integer>4292870144</integer>		
                 <key>AmpPostDelay</key>
                 <integer>100</integer>
                 <key>AmpPreDelay</key>
@@ -38,7 +38,7 @@
             <key>IntSpeaker</key>
             <dict>
             	<key>DefaultVolume</key>
-            	<integer>4294311936</integer>		<!-- = 10.0 dB  -->
+            	<integer>4294311936</integer>		
                 <key>MaximumBootBeepValue</key>
                 <integer>91</integer>
                 <key>MuteGPIO</key>

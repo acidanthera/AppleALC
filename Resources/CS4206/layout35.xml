@@ -18,7 +18,7 @@
 			<key>Headphone</key>
 			<dict>
             	<key>DefaultVolume</key>
-            	<integer>4292870144</integer>		<!-- = 32.0 dB  -->
+            	<integer>4292870144</integer>		
 				<key>AmpPostDelay</key>
 				<integer>150</integer>
 				<key>AmpPreDelay</key>
@@ -37,7 +37,7 @@
 			<key>IntSpeaker</key>
 			<dict>
             	<key>DefaultVolume</key>
-            	<integer>4294311936</integer>		<!-- = 10.0 dB  -->
+            	<integer>4294311936</integer>		
 				<key>AmpPostDelay</key>
 				<integer>150</integer>
 				<key>AmpPreDelay</key>
