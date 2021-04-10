@@ -3417,7 +3417,6 @@
 		<dict>
 			<key>PathMap</key>
 			<array>
-                <!-- Mic in: 18 7  (0x12 0x07) (identical)-->
 				<array>
 					<array>
 						<array>
@@ -3460,7 +3459,6 @@
 						</array>
 					</array>
 				</array>
-				<!-- Line in: 9 34 27 (0x09 0x22 0x1b) New -->
 				<array>
 					<array>
 						<array>
@@ -3507,7 +3505,6 @@
 						</array>
 					</array>
 				</array>
-				<!-- Speakers: 20 12 2 (0x14 0x0c 0x02) (were 20 13 3)-->
 				<array>
 					<array>
 						<array>
@@ -3573,7 +3570,6 @@
 							</dict>
 						</array>
 					</array>
-                   <!-- HP 21 14 4 (0x15 0x0e 0x04) (were 21 12 2)-->
 					<array>
 						<array>
 							<dict>

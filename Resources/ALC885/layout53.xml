@@ -1,4 +1,4 @@
-<dict>    <!--    <rdar://5780986> layout53.xml    -->
+<dict>    
     <key>LayoutID</key>
     <integer>53</integer>
     <key>PathMapRef</key>
@@ -22,7 +22,7 @@
             <key>IntSpeaker</key>
             <dict>
             	<key>DefaultVolume</key>
-            	<integer>4294377472</integer>		<!-- = 9.0 dB  -->
+            	<integer>4294377472</integer>
                 <key>AmpPostDelay</key>
                 <integer>100</integer>
                 <key>AmpPreDelay</key>

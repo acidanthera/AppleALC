@@ -21,8 +21,8 @@
 			<string>osy - NUC8i7HNK/NUC8i7HVK</string>
 			<key>PathMap</key>
 			<array>
-				<array> <!-- Internal Microphone -->
-					<array> <!-- Int Microphone 1 -->
+				<array> 
+					<array> 
 						<array>
 							<dict>
 								<key>Amp</key>
@@ -65,7 +65,7 @@
 						</array>
 					</array>
 				</array>
-				<array> <!-- Int Microphone 2 -->
+				<array> 
 					<array>
 						<array>
 							<dict>
@@ -109,8 +109,8 @@
 						</array>
 					</array>
 				</array>
-				<array> <!-- Analog Output -->
-					<array> <!-- Rear Speaker Out -->
+				<array> 
+					<array> 
 						<array>
 							<dict>
 								<key>Amp</key>
@@ -151,7 +151,7 @@
 							</dict>
 						</array>
 					</array>
-					<array> <!-- Front Headphone Output -->
+					<array> 
 						<array>
 							<dict>
 								<key>Amp</key>
@@ -193,8 +193,8 @@
 						</array>
 					</array>
 				</array>
-				<array> <!-- Digital Output -->
-					<array> <!-- Rear SPDIF Output -->
+				<array> 
+					<array> 
 						<array>
 							<dict>
 								<key>NoPinSense</key>

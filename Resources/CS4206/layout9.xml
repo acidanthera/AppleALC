@@ -2127,8 +2127,6 @@
             <dict>
                 <key>MuteGPIO</key>
                 <integer>1342242829</integer>
-				<!-- Created with DGB version: 1.9.3 by tester On: 04/10/2012 03:05PM -->
-				<!-- <rdar://problem/11024892> -->
 				<key>SignalProcessing</key>
 				<dict>
 					<key>SoftwareDSP</key>

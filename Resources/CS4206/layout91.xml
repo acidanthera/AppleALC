@@ -2220,7 +2220,7 @@
 								<key>DspFuncProcessingIndex</key>
 								<integer>3</integer>
 							</dict>
-							<key>ParameterInfo</key>				<!-- <rdar://problem/11025997> -->
+							<key>ParameterInfo</key>				
 							<dict>
                                 <key>3</key>
                                 <integer>1088421888</integer>
@@ -2233,7 +2233,7 @@
 								<key>5</key>
 								<integer>1</integer>
 								<key>6</key>
-								<integer>1090519040</integer>		<!-- <rdar://problem/11269949> -->
+								<integer>1090519040</integer>		
 								<key>7</key>
 								<integer>3</integer>
 								<key>8</key>

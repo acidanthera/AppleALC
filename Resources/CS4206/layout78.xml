@@ -1,4 +1,4 @@
-<dict>    <!--    layout78.xml    -->
+<dict>    
     <key>LayoutID</key>
     <integer>78</integer>
     <key>PathMapRef</key>
@@ -1279,7 +1279,7 @@
 			<dict>
                 <key>MuteGPIO</key>
                 <integer>1342242829</integer>		
-				<key>SignalProcessing</key>			<!-- <rdar://6476733> -->
+				<key>SignalProcessing</key>			
 				<dict>
 					<key>SoftwareDSP</key>
 					<dict>

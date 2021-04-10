@@ -30,7 +30,7 @@
             <key>IntSpeaker</key>
             <dict>
             	<key>DefaultVolume</key>
-            	<integer>4294639616</integer>		<!-- = 5.0 dB  -->
+            	<integer>4294639616</integer>		
                 <key>AmpPostDelay</key>
                 <integer>100</integer>
                 <key>AmpPreDelay</key>
@@ -2057,7 +2057,7 @@
 								<key>5</key>
 								<integer>1</integer>
 								<key>6</key>
-								<integer>1090519040</integer>		<!-- <rdar://problem/11269949> -->
+								<integer>1090519040</integer>		
 								<key>7</key>
 								<integer>3</integer>
 								<key>8</key>

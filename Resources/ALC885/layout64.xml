@@ -1,4 +1,4 @@
-<dict>    <!--    <rdar://5676376> layout64.xml    -->
+<dict>
     <key>LayoutID</key>
     <integer>64</integer>
     <key>PathMapRef</key>
@@ -8,9 +8,9 @@
             <array>
                 <integer>283904133</integer>
             </array>
-			<key>ExtMic</key>					<!--	<rdar://5852925>	-->
+			<key>ExtMic</key>
 			<dict>
-                <key>HeadsetMic_dBV</key>		<!-- <rdar://10303979> -->
+                <key>HeadsetMic_dBV</key>
                 <integer>3214514586</integer>
                 <key>MuteGPIO</key>
                 <integer>262144</integer>
@@ -18,17 +18,17 @@
             <key>Headphone</key>
             <dict>
             	<key>DefaultVolume</key>
-            	<integer>4292870144</integer>		<!-- = 32.0 dB  -->
+            	<integer>4292870144</integer>
                 <key>AmpPreDelay</key>
                 <integer>50</integer>
-                <key>Headset_dBV</key> 			<!--	<rdar://5872008>	-->
-                <integer>3239051264</integer>   <!--	<rdar://5872008>	equivalent to -9.0dB -->
+                <key>Headset_dBV</key>
+                <integer>3239051264</integer>
 				<key>MuteGPIO</key>
                 <integer>0</integer>
             </dict>
             <key>Inputs</key>
             <array>
-                <string>ExtMic</string>			<!--	<rdar://5852925>	-->
+                <string>ExtMic</string>
                 <string>LineIn</string>
                 <string>Mic</string>
                 <string>SPDIFIn</string>
@@ -36,7 +36,7 @@
             <key>IntSpeaker</key>
             <dict>
             	<key>DefaultVolume</key>
-            	<integer>4293722112</integer>		<!-- = 19.0 dB  -->
+            	<integer>4293722112</integer>		
                 <key>AmpPostDelay</key>
                 <integer>100</integer>
                 <key>AmpPreDelay</key>
