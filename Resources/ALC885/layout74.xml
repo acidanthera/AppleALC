@@ -1,4 +1,4 @@
-<dict>    <!--    <rdar://5350780> layout54.xml    -->
+<dict>    
     <key>LayoutID</key>
     <integer>74</integer>
     <key>PathMapRef</key>
@@ -11,7 +11,7 @@
             <key>Headphone</key>
             <dict>
             	<key>DefaultVolume</key>
-            	<integer>4292870144</integer>		<!-- = 32.0 dB  -->
+            	<integer>4292870144</integer>		
                 <key>AmpPostDelay</key>
                 <integer>200</integer>
                 <key>AmpPreDelay</key>
@@ -28,7 +28,7 @@
             <key>IntSpeaker</key>
             <dict>
             	<key>DefaultVolume</key>
-            	<integer>4294115328</integer>		<!-- = 13.0 dB  -->
+            	<integer>4294115328</integer>		
                 <key>AmpPostDelay</key>
                 <integer>100</integer>
                 <key>AmpPreDelay</key>
@@ -904,7 +904,6 @@
 						</dict>
 					</dict>
 				</dict>
-
             </dict>
             <key>LineIn</key>
             <dict>

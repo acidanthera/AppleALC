@@ -1,4 +1,4 @@
-<dict>    <!--    <rdar://5367167> layout58.xml    -->
+<dict>    
     <key>LayoutID</key>
     <integer>58</integer>
     <key>PathMapRef</key>
@@ -11,7 +11,7 @@
             <key>Headphone</key>
             <dict>
             	<key>DefaultVolume</key>
-            	<integer>4292870144</integer>		<!-- = 32.0 dB  -->
+            	<integer>4292870144</integer>		
                 <key>MuteGPIO</key>
                 <integer>1677787157</integer>
             </dict>
@@ -24,7 +24,7 @@
             <key>IntSpeaker</key>
             <dict>
             	<key>DefaultVolume</key>
-            	<integer>4293525504</integer>		<!-- = 22.0 dB  -->
+            	<integer>4293525504</integer>		
                 <key>AmpPostDelay</key>
                 <integer>100</integer>
                 <key>MuteGPIO</key>
@@ -634,8 +634,6 @@
             <dict>
                 <key>MuteGPIO</key>
                 <integer>1677787160</integer>
-				<!-- Created with DGB version: 1.9.3 by tester On: 05/09/2012 12:39PM -->
-				<!-- <rdar://problem/11219269> -->
 				<key>SignalProcessing</key>
 				<dict>
 					<key>SoftwareDSP</key>

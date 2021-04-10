@@ -1,4 +1,4 @@
-<dict>    <!--    <rdar://6195322> layout73.xml    -->
+<dict>    
     <key>LayoutID</key>
     <integer>73</integer>
     <key>PathMapRef</key>
@@ -8,7 +8,7 @@
             <array>
                 <integer>283904133</integer>
             </array>
-			<key>ExtMic</key>					<!--	<rdar://5852925>	-->
+			<key>ExtMic</key>					
 			<dict>
                 <key>MuteGPIO</key>
                 <integer>262144</integer>
@@ -16,17 +16,17 @@
             <key>Headphone</key>
             <dict>
             	<key>DefaultVolume</key>
-            	<integer>4293591040</integer>		<!-- = 21.0 dB  -->
+            	<integer>4293591040</integer>		
                 <key>AmpPreDelay</key>
-                <integer>300</integer>			<!--	<rdar://6660097>	-->
-				<key>Headset_dBV</key> 			<!--	<rdar://5872008>	-->
-                <integer>3239051264</integer>   <!--	<rdar://5872008>	equivalent to -9.0dB -->
+                <integer>300</integer>			
+				<key>Headset_dBV</key> 			
+                <integer>3239051264</integer>   
                 <key>MuteGPIO</key>
                 <integer>0</integer>
             </dict>
             <key>Inputs</key>
             <array>
-                <string>ExtMic</string>			<!--	<rdar://5852925>	-->
+                <string>ExtMic</string>			
                 <string>LineIn</string>
                 <string>Mic</string>
                 <string>SPDIFIn</string>
@@ -34,7 +34,7 @@
             <key>IntSpeaker</key>
             <dict>
             	<key>DefaultVolume</key>
-            	<integer>4293787648</integer>		<!-- = 18.0 dB  -->
+            	<integer>4293787648</integer>		
                 <key>MaximumBootBeepValue</key>
                 <integer>44</integer>
                 <key>MuteGPIO</key>
@@ -1591,7 +1591,7 @@
 		<dict>
 			<key>CodecID</key>
 			<array>
-				<integer>269697542</integer>	<!--	0x10134206 CS4206	-->
+				<integer>269697542</integer>	
 			</array>
 			<key>ExtMic</key>
 			<dict>
@@ -1610,7 +1610,7 @@
 			<key>IntSpeaker</key>
 			<dict>
 				<key>DefaultVolume</key>
-				<integer>4293787648</integer>		<!-- = 18.0 dB  -->
+				<integer>4293787648</integer>		
 				<key>MaximumBootBeepValue</key>
 				<integer>127</integer>
 				<key>MuteGPIO</key>

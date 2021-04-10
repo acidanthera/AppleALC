@@ -1,4 +1,4 @@
-<dict>    <!--    layout13.xml (layout12.xml in macOS 10.13)   -->
+<dict>    
 	<key>LayoutID</key>
 	<integer>13</integer>
 	<key>PathMapRef</key>
@@ -21,7 +21,7 @@
 			<key>IntSpeaker</key>
 			<dict>
 				<key>DefaultVolume</key>
-				<integer>4294443008</integer>		<!-- = 8.0 dB  -->
+				<integer>4294443008</integer>		
 				<key>MaximumBootBeepValue</key>
 				<integer>64</integer>
 				<key>MuteGPIO</key>

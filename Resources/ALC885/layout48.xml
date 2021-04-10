@@ -1,4 +1,4 @@
-<dict>    <!--    <rdar://4826008> layout48.xml    -->
+<dict>    
     <key>LayoutID</key>
     <integer>48</integer>
     <key>PathMapRef</key>
@@ -22,7 +22,7 @@
             <key>IntSpeaker</key>
             <dict>
             	<key>DefaultVolume</key>
-            	<integer>4293984256</integer>		<!-- = 15.0 dB  -->
+            	<integer>4293984256</integer>		
                 <key>MaximumBootBeepValue</key>
                 <integer>42</integer>
                 <key>MuteGPIO</key>
@@ -810,8 +810,6 @@
             <dict>
                 <key>MuteGPIO</key>
                 <integer>1342242840</integer>
-				<!-- Created with DGB version: 1.9.3 by tester On: 05/09/2012 12:38PM -->
-				<!-- <rdar://problem/11219269> -->
 				<key>SignalProcessing</key>
 				<dict>
 					<key>SoftwareDSP</key>
