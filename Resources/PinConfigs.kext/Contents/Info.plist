@@ -5339,15 +5339,15 @@
 					<key>ConfigData</key>
 					<data>
 					AUccEAFHHQEBRx4XAUcfkAFHDAICFxwwAhcd
-					EAIXHiECFx8EAhcMAgGXHEABlx0RAZceoQGX
-					H5E=
+					EAIXHiECFx8EAhcMAgEnHEABJx0BAScepgEn
+					H7cBlxxQAZcdEQGXHoEBlx+R
 					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>87</integer>
 					<key>WakeConfigData</key>
-					<data>AUcMAgIXDAIBlwcl</data>
+					<data>AUcMAgIXDAIBlwck</data>
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
