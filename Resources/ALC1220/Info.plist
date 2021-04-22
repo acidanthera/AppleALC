@@ -134,6 +134,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Custom ALC1220 for Mi Gaming Notebook Creator by Xsixu</string>
+				<key>Id</key>
+				<integer>98</integer>
+				<key>Path</key>
+				<string>layout98.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>ALC1220 for MiBook 2019 by Dynamix1997</string>
 				<key>Id</key>
 				<integer>99</integer>
@@ -262,6 +270,14 @@
 				<integer>34</integer>
 				<key>Path</key>
 				<string>Platforms34.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom ALC1220 for Mi Gaming Notebook Creator by Xsixu</string>
+				<key>Id</key>
+				<integer>98</integer>
+				<key>Path</key>
+				<string>Platforms98.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>

@@ -9275,6 +9275,28 @@
 					<key>CodecID</key>
 					<integer>283906592</integer>
 					<key>CodecName</key>
+					<string>Custom ALC1220 for Mi Gaming Notebook Creator by Xsixu</string>
+					<key>ConfigData</key>
+					<data>
+					AaccEAGnHQEBpx4XAacfkAFHHCABRx0QAUce
+					IQFHHwABRwwCASccMAEnHREBJx6mAScfkAGX
+					HGABlx0AAZcegQGXHwABlwwC
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>98</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgGXDAI=</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>CodecID</key>
+					<integer>283906592</integer>
+					<key>CodecName</key>
 					<string>MiBook 2019 by Dynamix1997</string>
 					<key>ConfigData</key>
 					<data>
