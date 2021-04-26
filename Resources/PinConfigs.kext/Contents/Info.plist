@@ -9292,6 +9292,29 @@
 					<true/>
 				</dict>
 				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>CodecID</key>
+					<integer>283906592</integer>
+					<key>CodecName</key>
+					<string>Hasee_G8-CU7PK</string>
+					<key>ConfigData</key>
+					<data>
+					AbccEAG3HQEBtx4XAbcfkAG3DAIBRxwfAUcd
+					EAFHHiEBRx8EAUcMAgEnHDABJx0BAScepgEn
+					H5ABhxxAAYcdEAGHHoEBhx8EAeccUAHnHREB
+					5x5FAecfBA==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>100</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgG3DAI=</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
 					<key>CodecID</key>
 					<integer>283904768</integer>
 					<key>CodecName</key>
