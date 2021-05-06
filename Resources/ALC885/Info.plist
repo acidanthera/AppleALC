@@ -62,7 +62,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Khronokernel - ALC885 - MacBookPro4,1 15"</string>
+				<string>Khronokernel - ALC885 - MacBookPro4,1 15&quot;</string>
 				<key>Id</key>
 				<integer>56</integer>
 				<key>Path</key>
@@ -70,7 +70,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Khronokernel - ALC885 - MacBookPro4,1 17"</string>
+				<string>Khronokernel - ALC885 - MacBookPro4,1 17&quot;</string>
 				<key>Id</key>
 				<integer>58</integer>
 				<key>Path</key>
@@ -102,7 +102,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Khronokernel - ALC885 - iMac7,1 20"</string>
+				<string>Khronokernel - ALC885 - iMac7,1 20&quot;</string>
 				<key>Id</key>
 				<integer>48</integer>
 				<key>Path</key>
@@ -110,7 +110,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Khronokernel - ALC885 - iMac7,1 24"</string>
+				<string>Khronokernel - ALC885 - iMac7,1 24&quot;</string>
 				<key>Id</key>
 				<integer>50</integer>
 				<key>Path</key>
@@ -118,7 +118,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Khronokernel - ALC885 - iMac8,1 20"</string>
+				<string>Khronokernel - ALC885 - iMac8,1 20&quot;</string>
 				<key>Id</key>
 				<integer>60</integer>
 				<key>Path</key>
@@ -126,7 +126,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Khronokernel - ALC885 - iMac8,1 24"</string>
+				<string>Khronokernel - ALC885 - iMac8,1 24&quot;</string>
 				<key>Id</key>
 				<integer>62</integer>
 				<key>Path</key>
@@ -209,7 +209,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Khronokernel - ALC885 - MacBookPro4,1 15"</string>
+				<string>Khronokernel - ALC885 - MacBookPro4,1 15&quot;</string>
 				<key>Id</key>
 				<integer>56</integer>
 				<key>Path</key>
@@ -217,7 +217,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Khronokernel - ALC885 - MacBookPro4,1 17"</string>
+				<string>Khronokernel - ALC885 - MacBookPro4,1 17&quot;</string>
 				<key>Id</key>
 				<integer>58</integer>
 				<key>Path</key>
@@ -249,7 +249,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Khronokernel - ALC885 - iMac7,1 20"</string>
+				<string>Khronokernel - ALC885 - iMac7,1 20&quot;</string>
 				<key>Id</key>
 				<integer>48</integer>
 				<key>Path</key>
@@ -257,7 +257,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Khronokernel - ALC885 - iMac7,1 24"</string>
+				<string>Khronokernel - ALC885 - iMac7,1 24&quot;</string>
 				<key>Id</key>
 				<integer>50</integer>
 				<key>Path</key>
@@ -265,7 +265,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Khronokernel - ALC885 - iMac8,1 20"</string>
+				<string>Khronokernel - ALC885 - iMac8,1 20&quot;</string>
 				<key>Id</key>
 				<integer>60</integer>
 				<key>Path</key>
@@ -273,7 +273,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Khronokernel - ALC885 - iMac8,1 24"</string>
+				<string>Khronokernel - ALC885 - iMac8,1 24&quot;</string>
 				<key>Id</key>
 				<integer>62</integer>
 				<key>Path</key>
@@ -285,7 +285,7 @@
 				<key>Id</key>
 				<integer>67</integer>
 				<key>Path</key>
-				<string>PlatformApple.xml.zlib</string>
+				<string>PlatformsApple.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -293,7 +293,7 @@
 				<key>Id</key>
 				<integer>73</integer>
 				<key>Path</key>
-				<string>PlatformApple.xml.zlib</string>
+				<string>PlatformsApple.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
