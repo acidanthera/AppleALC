@@ -3,6 +3,8 @@ AppleALC Changelog
 #### v1.6.1
 - Fixed broken formatting in CS4206's layout76.xml
 - Added PathMapID 8800 for ALC885's Layout 67 and 73
+- Fixed CS4206 and ALC885's PlatformApple.xml formatting
+- Fixed PlatformsApple.xml for ALC885's Layout 67 and 73
 
 #### v1.6.0
 - Added `use-layout-id` property to use `layout-id` as is on Macs
