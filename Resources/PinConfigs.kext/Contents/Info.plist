@@ -1646,6 +1646,24 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>Realtek ALC255 for minisforum U820 by DalianSky</string>
+					<key>CodecID</key>
+					<integer>283902549</integer>
+					<key>ConfigData</key>
+					<data>AbccMAG3HQEBtx6gAbcfkAGXHCABlx0RAZcegQGXHwICFxxAAhcdEQIXHiECFx8CAhcMAg==</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>82</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>DalianSky - Realtek ALC255 (3246) for XiaoMi Air</string>
 					<key>CodecID</key>
 					<integer>283902549</integer>
