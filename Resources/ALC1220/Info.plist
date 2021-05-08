@@ -134,6 +134,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Custom ALC1220 for MSI GP75 9SD by Win7GM</string>
+				<key>Id</key>
+				<integer>35</integer>
+				<key>Path</key>
+				<string>layout35.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Custom ALC1220 for Mi Gaming Notebook Creator by Xsixu</string>
 				<key>Id</key>
 				<integer>98</integer>
@@ -278,6 +286,14 @@
 				<integer>34</integer>
 				<key>Path</key>
 				<string>Platforms34.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>ALC1220 for MSI GP75 9SD</string>
+				<key>Id</key>
+				<integer>35</integer>
+				<key>Path</key>
+				<string>Platforms35.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>

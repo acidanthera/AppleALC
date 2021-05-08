@@ -6932,6 +6932,24 @@
 					<key>CodecID</key>
 					<integer>283906592</integer>
 					<key>CodecName</key>
+					<string>Custom ALC1220 for MSI GP75 9SD by Win7GM</string>
+					<key>ConfigData</key>
+					<data>AUccEAFHHRABRx4hAUcfAQFHDAIBtxwgAbcdAQG3HhcBtx+QAbcMAgGXHDABlx0QAZcegQGXHwEBJxxAAScdAQEnHqYBJx+Q</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>35</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>CodecID</key>
+					<integer>283906592</integer>
+					<key>CodecName</key>
 					<string>Custom ALC1220 for Mi Gaming Notebook Creator by Xsixu</string>
 					<key>ConfigData</key>
 					<data>AaccEAGnHQEBpx4XAacfkAFHHCABRx0QAUceIQFHHwABRwwCASccMAEnHREBJx6mAScfkAGXHGABlx0AAZcegQGXHwABlwwC</data>
