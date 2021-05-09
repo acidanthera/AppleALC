@@ -7102,12 +7102,7 @@
 					<key>CodecName</key>
 					<string>Lorys89 and Vorshim92 - ALCS1200A for ASROCK Z490M ITX AC</string>
 					<key>ConfigData</key>
-					<data>
-					AUccEAFHHUABRx4RAUcfkAFHDAIBhxwgAYcd
-					kAGHHqABhx+QAZccMAGXHZABlx6BAZcfAgGn
-					HEABpx0wAacegQGnHwEBtxxQAbcdQAG3HiEB
-					tx8CAbcMAg==
-					</data>
+					<data>AUccEAFHHUABRx4RAUcfkAFHDAIBhxwgAYcdkAGHHqABhx+QAZccMAGXHZABlx6BAZcfAgGnHEABpx0wAacegQGnHwEBtxxQAbcdQAG3HiEBtx8CAbcMAg==</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
