@@ -784,6 +784,8 @@
 	<dict>
 		<key>Device</key>
 		<integer>41328</integer>
+		<key>Model</key>
+		<string>Laptop</string>
 		<key>Name</key>
 		<string>100 Series (0xA170) Mobile PCH HD Audio</string>
 		<key>Patches</key>
