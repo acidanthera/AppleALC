@@ -3223,7 +3223,7 @@
 										</dict>
 									</array>
 									<key>MuteInputAmp</key>
-									<true/>
+									<false/>
 									<key>PublishMute</key>
 									<true/>
 									<key>PublishVolume</key>
@@ -3263,7 +3263,7 @@
 										</dict>
 									</array>
 									<key>MuteInputAmp</key>
-									<true/>
+									<false/>
 									<key>PublishMute</key>
 									<true/>
 									<key>PublishVolume</key>
@@ -3309,7 +3309,7 @@
 										</dict>
 									</array>
 									<key>MuteInputAmp</key>
-									<true/>
+									<false/>
 									<key>PublishMute</key>
 									<true/>
 									<key>PublishVolume</key>
@@ -3347,7 +3347,7 @@
 										</dict>
 									</array>
 									<key>MuteInputAmp</key>
-									<true/>
+									<false/>
 									<key>PublishMute</key>
 									<true/>
 									<key>PublishVolume</key>
@@ -3365,7 +3365,7 @@
 			<key>PathMapID</key>
 			<integer>20724</integer>
 			<key>comment</key>
-			<string>InsanelyDeepak - Conexant CX20724</string>
+			<string>InsanelyDeepak - Conexant CX20724. Mute fixed by Human7900</string>
 		</dict>
 	</array>
 </dict>
