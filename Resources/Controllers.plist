@@ -811,6 +811,8 @@
 	<dict>
 		<key>Device</key>
 		<integer>40392</integer>
+		<key>Model</key>
+		<string>Laptop</string>
 		<key>Name</key>
 		<string>WhiskeyLake Mobile PCH HD Audio</string>
 		<key>Patches</key>
@@ -839,6 +841,19 @@
 				<key>Replace</key>
 				<data>yJ0AAA==</data>
 			</dict>
+		</array>
+		<key>Vendor</key>
+		<string>Intel</string>
+	</dict>
+	<dict>
+		<key>Device</key>
+		<integer>40392</integer>
+		<key>Model</key>
+		<string>Desktop</string>
+		<key>Name</key>
+		<string>Intel NUC8 PCH HD Audio</string>
+		<key>Patches</key>
+		<array>
 			<dict>
 				<key>Count</key>
 				<integer>6</integer>
