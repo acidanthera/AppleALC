@@ -23,6 +23,18 @@
 		1CD5B2BF1C89CF2D00E45373 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1CD5B2BE1C89CF2D00E45373 /* main.mm */; };
 		CE405ED91E4A080700AA0B3D /* plugin_start.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE405ED81E4A080700AA0B3D /* plugin_start.cpp */; };
 		CE8DA08A2517C489008C44E8 /* libkmod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8DA0892517C489008C44E8 /* libkmod.a */; };
+		CED6C8CD266BC9AF006BA0A9 /* kern_alc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C9CB7AE1C789FF500231E41 /* kern_alc.cpp */; };
+		CED6C8CE266BC9AF006BA0A9 /* ALCUserClientProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01ACCCE825362B00007704ED /* ALCUserClientProvider.cpp */; };
+		CED6C8CF266BC9AF006BA0A9 /* ALCUserClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01ACCCDD25362A8A007704ED /* ALCUserClient.cpp */; };
+		CED6C8D0266BC9AF006BA0A9 /* plugin_start.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE405ED81E4A080700AA0B3D /* plugin_start.cpp */; };
+		CED6C8D1266BC9AF006BA0A9 /* kern_start.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C748C2C1C21952C0024EED2 /* kern_start.cpp */; };
+		CED6C8D2266BC9AF006BA0A9 /* kern_resources.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C88DDEA1C89EE540003E1BF /* kern_resources.cpp */; };
+		CED6C8D4266BC9AF006BA0A9 /* libkmod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8DA0892517C489008C44E8 /* libkmod.a */; };
+		CED6C8D6266BC9AF006BA0A9 /* kern_alc.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 1C9CB7AF1C789FF500231E41 /* kern_alc.hpp */; };
+		CED6C8D7266BC9AF006BA0A9 /* ALCUserClientProvider.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 01ACCCE925362B00007704ED /* ALCUserClientProvider.hpp */; };
+		CED6C8D8266BC9AF006BA0A9 /* kern_resources.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 1C88DDEB1C89EE540003E1BF /* kern_resources.hpp */; };
+		CED6C8D9266BC9AF006BA0A9 /* ALCUserClient.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 01ACCCDE25362A8A007704ED /* ALCUserClient.hpp */; };
+		CED6C8DA266BC9AF006BA0A9 /* UserKernelShared.h in Headers */ = {isa = PBXBuildFile; fileRef = 01ACCCE325362AC2007704ED /* UserKernelShared.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +51,27 @@
 			proxyType = 1;
 			remoteGlobalIDString = 1CD5B2BB1C89CF2D00E45373;
 			remoteInfo = ResourceConverter;
+		};
+		CED6C8C9266BC9AF006BA0A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C748C1E1C21952C0024EED2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0135B2EB2536401B005DDE7F;
+			remoteInfo = "alc-verb";
+		};
+		CED6C8CB266BC9AF006BA0A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C748C1E1C21952C0024EED2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CD5B2BB1C89CF2D00E45373;
+			remoteInfo = ResourceConverter;
+		};
+		CED6C8E6266BCA36006BA0A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C748C1E1C21952C0024EED2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CED6C8C7266BC9AF006BA0A9;
+			remoteInfo = AppleALCU;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -71,6 +104,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		CED6C8DC266BC9AF006BA0A9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -86,7 +128,7 @@
 		1C642F571C8F1BEE006B4C51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Resources/PinConfigs.kext/Contents/Info.plist; sourceTree = "<group>"; };
 		1C748C271C21952C0024EED2 /* AppleALC.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleALC.kext; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C748C2C1C21952C0024EED2 /* kern_start.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = kern_start.cpp; sourceTree = "<group>"; };
-		1C748C2E1C21952C0024EED2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C748C2E1C21952C0024EED2 /* AppleALC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppleALC-Info.plist"; sourceTree = "<group>"; };
 		1C88DDEA1C89EE540003E1BF /* kern_resources.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = kern_resources.cpp; sourceTree = "<group>"; };
 		1C88DDEB1C89EE540003E1BF /* kern_resources.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = kern_resources.hpp; sourceTree = "<group>"; };
 		1C88DDEF1C8A00C60003E1BF /* generate.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = generate.sh; sourceTree = "<group>"; };
@@ -118,6 +160,8 @@
 		CE4E880A1E099CC8009AC98D /* zlib_pack.command */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = zlib_pack.command; sourceTree = "<group>"; };
 		CE4E880B1E099CC8009AC98D /* zlib_unpack.command */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = zlib_unpack.command; sourceTree = "<group>"; };
 		CE8DA0892517C489008C44E8 /* libkmod.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libkmod.a; path = ../Lilu/MacKernelSDK/Library/x86_64/libkmod.a; sourceTree = "<group>"; };
+		CED6C8E4266BC9AF006BA0A9 /* AppleALCU.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleALCU.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED6C8E8266BCAE5006BA0A9 /* AppleALCU-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppleALCU-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +184,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED6C8D3266BC9AF006BA0A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED6C8D4266BC9AF006BA0A9 /* libkmod.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +257,7 @@
 				1C748C271C21952C0024EED2 /* AppleALC.kext */,
 				1CD5B2BC1C89CF2D00E45373 /* ResourceConverter */,
 				0135B2EC2536401B005DDE7F /* alc-verb */,
+				CED6C8E4266BC9AF006BA0A9 /* AppleALCU.kext */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -219,7 +272,8 @@
 				1C9CB7AF1C789FF500231E41 /* kern_alc.hpp */,
 				1C88DDEA1C89EE540003E1BF /* kern_resources.cpp */,
 				1C88DDEB1C89EE540003E1BF /* kern_resources.hpp */,
-				1C748C2E1C21952C0024EED2 /* Info.plist */,
+				1C748C2E1C21952C0024EED2 /* AppleALC-Info.plist */,
+				CED6C8E8266BCAE5006BA0A9 /* AppleALCU-Info.plist */,
 				01ACCCE325362AC2007704ED /* UserKernelShared.h */,
 			);
 			path = AppleALC;
@@ -326,6 +380,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CED6C8D5266BC9AF006BA0A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED6C8D6266BC9AF006BA0A9 /* kern_alc.hpp in Headers */,
+				CED6C8D7266BC9AF006BA0A9 /* ALCUserClientProvider.hpp in Headers */,
+				CED6C8D8266BC9AF006BA0A9 /* kern_resources.hpp in Headers */,
+				CED6C8D9266BC9AF006BA0A9 /* ALCUserClient.hpp in Headers */,
+				CED6C8DA266BC9AF006BA0A9 /* UserKernelShared.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -362,6 +428,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				CED6C8E7266BCA36006BA0A9 /* PBXTargetDependency */,
 				0135B2F82536402D005DDE7F /* PBXTargetDependency */,
 				1CD5B2C41C89CF4E00E45373 /* PBXTargetDependency */,
 			);
@@ -387,6 +454,27 @@
 			productName = ResourceConverter;
 			productReference = 1CD5B2BC1C89CF2D00E45373 /* ResourceConverter */;
 			productType = "com.apple.product-type.tool";
+		};
+		CED6C8C7266BC9AF006BA0A9 /* AppleALCU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED6C8E0266BC9AF006BA0A9 /* Build configuration list for PBXNativeTarget "AppleALCU" */;
+			buildPhases = (
+				CED6C8CC266BC9AF006BA0A9 /* Sources */,
+				CED6C8D3266BC9AF006BA0A9 /* Frameworks */,
+				CED6C8D5266BC9AF006BA0A9 /* Headers */,
+				CED6C8DB266BC9AF006BA0A9 /* Resources */,
+				CED6C8DC266BC9AF006BA0A9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CED6C8C8266BC9AF006BA0A9 /* PBXTargetDependency */,
+				CED6C8CA266BC9AF006BA0A9 /* PBXTargetDependency */,
+			);
+			name = AppleALCU;
+			productName = AppleALC;
+			productReference = CED6C8E4266BC9AF006BA0A9 /* AppleALCU.kext */;
+			productType = "com.apple.product-type.kernel-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -423,6 +511,7 @@
 			projectRoot = "";
 			targets = (
 				1C748C261C21952C0024EED2 /* AppleALC */,
+				CED6C8C7266BC9AF006BA0A9 /* AppleALCU */,
 				1CD5B2BB1C89CF2D00E45373 /* ResourceConverter */,
 				0135B2EB2536401B005DDE7F /* alc-verb */,
 			);
@@ -431,6 +520,13 @@
 
 /* Begin PBXResourcesBuildPhase section */
 		1C748C251C21952C0024EED2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED6C8DB266BC9AF006BA0A9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -471,7 +567,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/bash;
-			shellScript = "cd \"${TARGET_BUILD_DIR}\"\n\ndist=(\"$FULL_PRODUCT_NAME\")\ndist+=(\"alc-verb\")\nif [ -d \"$DWARF_DSYM_FILE_NAME\" ]; then dist+=(\"$DWARF_DSYM_FILE_NAME\"); fi\n\narchive=\"${PRODUCT_NAME}-${MODULE_VERSION}-$(echo $CONFIGURATION | tr /a-z/ /A-Z/).zip\"\nrm -rf *.zip\nif [ \"$CONFIGURATION\" == \"Release\" ]; then\n  strip -x -T \"${EXECUTABLE_PATH}\" &>/dev/null || strip -x \"${EXECUTABLE_PATH}\"\nfi\nzip -qry -FS \"${archive}\" \"${dist[@]}\"\n";
+			shellScript = "cd \"${TARGET_BUILD_DIR}\"\n\ndist=(\"$FULL_PRODUCT_NAME\")\ndist+=(\"alc-verb\" \"AppleALCU.kext\")\nif [ -d \"$DWARF_DSYM_FILE_NAME\" ]; then dist+=(\"$DWARF_DSYM_FILE_NAME\" \"AppleALCU.kext.dSYM\"); fi\n\narchive=\"${PRODUCT_NAME}-${MODULE_VERSION}-$(echo $CONFIGURATION | tr /a-z/ /A-Z/).zip\"\nrm -rf *.zip\nif [ \"$CONFIGURATION\" == \"Release\" ]; then\n  strip -x -T \"${EXECUTABLE_PATH}\" &>/dev/null || strip -x \"${EXECUTABLE_PATH}\"\nfi\nzip -qry -FS \"${archive}\" \"${dist[@]}\"\n";
 		};
 		CEBAEC1E20764C0B00CE3744 /* Merge Pinconfigs */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -519,6 +615,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CED6C8CC266BC9AF006BA0A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED6C8CD266BC9AF006BA0A9 /* kern_alc.cpp in Sources */,
+				CED6C8CE266BC9AF006BA0A9 /* ALCUserClientProvider.cpp in Sources */,
+				CED6C8CF266BC9AF006BA0A9 /* ALCUserClient.cpp in Sources */,
+				CED6C8D0266BC9AF006BA0A9 /* plugin_start.cpp in Sources */,
+				CED6C8D1266BC9AF006BA0A9 /* kern_start.cpp in Sources */,
+				CED6C8D2266BC9AF006BA0A9 /* kern_resources.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -531,6 +640,21 @@
 			isa = PBXTargetDependency;
 			target = 1CD5B2BB1C89CF2D00E45373 /* ResourceConverter */;
 			targetProxy = 1CD5B2C31C89CF4E00E45373 /* PBXContainerItemProxy */;
+		};
+		CED6C8C8266BC9AF006BA0A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0135B2EB2536401B005DDE7F /* alc-verb */;
+			targetProxy = CED6C8C9266BC9AF006BA0A9 /* PBXContainerItemProxy */;
+		};
+		CED6C8CA266BC9AF006BA0A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CD5B2BB1C89CF2D00E45373 /* ResourceConverter */;
+			targetProxy = CED6C8CB266BC9AF006BA0A9 /* PBXContainerItemProxy */;
+		};
+		CED6C8E7266BCA36006BA0A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CED6C8C7266BC9AF006BA0A9 /* AppleALCU */;
+			targetProxy = CED6C8E6266BCA36006BA0A9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -721,10 +845,11 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"MODULE_VERSION=$(MODULE_VERSION)",
 					"PRODUCT_NAME=$(PRODUCT_NAME)",
+					"HAVE_ANALOG_AUDIO=1",
 					"$(inherited)",
 				);
 				HEADER_SEARCH_PATHS = "${PROJECT_DIR}/Lilu.kext/Contents/Resources";
-				INFOPLIST_FILE = AppleALC/Info.plist;
+				INFOPLIST_FILE = "AppleALC/AppleALC-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/MacKernelSDK/Library/x86_64",
@@ -770,9 +895,10 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"MODULE_VERSION=$(MODULE_VERSION)",
 					"PRODUCT_NAME=$(PRODUCT_NAME)",
+					"HAVE_ANALOG_AUDIO=1",
 				);
 				HEADER_SEARCH_PATHS = "${PROJECT_DIR}/Lilu.kext/Contents/Resources";
-				INFOPLIST_FILE = AppleALC/Info.plist;
+				INFOPLIST_FILE = "AppleALC/AppleALC-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/MacKernelSDK/Library/x86_64",
@@ -895,10 +1021,11 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"MODULE_VERSION=$(MODULE_VERSION)",
 					"PRODUCT_NAME=$(PRODUCT_NAME)",
+					"HAVE_ANALOG_AUDIO=1",
 					"$(inherited)",
 				);
 				HEADER_SEARCH_PATHS = "${PROJECT_DIR}/Lilu.kext/Contents/Resources";
-				INFOPLIST_FILE = AppleALC/Info.plist;
+				INFOPLIST_FILE = "AppleALC/AppleALC-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/MacKernelSDK/Library/x86_64",
@@ -944,6 +1071,156 @@
 			};
 			name = Sanitize;
 		};
+		CED6C8E1266BC9AF006BA0A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = "$(MODULE_VERSION)";
+				DEPLOYMENT_POSTPROCESSING = YES;
+				GCC_ENABLE_FLOATING_POINT_LIBRARY_CALLS = NO;
+				GCC_ENABLE_KERNEL_DEVELOPMENT = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"MODULE_VERSION=$(MODULE_VERSION)",
+					"PRODUCT_NAME=$(PRODUCT_NAME)",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = "${PROJECT_DIR}/Lilu.kext/Contents/Resources";
+				INFOPLIST_FILE = "AppleALC/AppleALCU-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MacKernelSDK/Library/x86_64",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MODULE_NAME = as.vit9696.AppleALCU;
+				MODULE_START = "$(PRODUCT_NAME)_kern_start";
+				MODULE_STOP = "$(PRODUCT_NAME)_kern_stop";
+				MODULE_VERSION = 1.6.1;
+				OTHER_CFLAGS = (
+					"-mmmx",
+					"-msse",
+					"-msse2",
+					"-msse3",
+					"-mfpmath=sse",
+					"-mssse3",
+					"-ftree-vectorize",
+					"-fno-non-call-exceptions",
+					"-fno-builtin",
+					"-fno-asynchronous-unwind-tables",
+					"-Wno-unknown-warning-option",
+					"-Wno-ossharedptr-misuse",
+					"-Wno-vla",
+				);
+				OTHER_LDFLAGS = "-static";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(MODULE_NAME)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		CED6C8E2266BC9AF006BA0A9 /* Sanitize */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = "$(MODULE_VERSION)";
+				DEPLOYMENT_POSTPROCESSING = YES;
+				GCC_ENABLE_FLOATING_POINT_LIBRARY_CALLS = NO;
+				GCC_ENABLE_KERNEL_DEVELOPMENT = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"MODULE_VERSION=$(MODULE_VERSION)",
+					"PRODUCT_NAME=$(PRODUCT_NAME)",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = "${PROJECT_DIR}/Lilu.kext/Contents/Resources";
+				INFOPLIST_FILE = "AppleALC/AppleALCU-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MacKernelSDK/Library/x86_64",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MODULE_NAME = as.vit9696.AppleALCU;
+				MODULE_START = "$(PRODUCT_NAME)_kern_start";
+				MODULE_STOP = "$(PRODUCT_NAME)_kern_stop";
+				MODULE_VERSION = 1.6.1;
+				OTHER_CFLAGS = (
+					"-mmmx",
+					"-msse",
+					"-msse2",
+					"-msse3",
+					"-mfpmath=sse",
+					"-mssse3",
+					"-ftree-vectorize",
+					"-fno-non-call-exceptions",
+					"-fno-builtin",
+					"-fno-asynchronous-unwind-tables",
+					"-fsanitize=undefined,nullability",
+					"-fno-sanitize=function",
+					"-Wno-unknown-warning-option",
+					"-Wno-ossharedptr-misuse",
+					"-Wno-vla",
+				);
+				OTHER_LDFLAGS = "-static";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(MODULE_NAME)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Sanitize;
+		};
+		CED6C8E3266BC9AF006BA0A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = "$(MODULE_VERSION)";
+				DEAD_CODE_STRIPPING = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				GCC_ENABLE_FLOATING_POINT_LIBRARY_CALLS = NO;
+				GCC_ENABLE_KERNEL_DEVELOPMENT = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"MODULE_VERSION=$(MODULE_VERSION)",
+					"PRODUCT_NAME=$(PRODUCT_NAME)",
+				);
+				HEADER_SEARCH_PATHS = "${PROJECT_DIR}/Lilu.kext/Contents/Resources";
+				INFOPLIST_FILE = "AppleALC/AppleALCU-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MacKernelSDK/Library/x86_64",
+				);
+				LLVM_LTO = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MODULE_NAME = as.vit9696.AppleALCU;
+				MODULE_START = "$(PRODUCT_NAME)_kern_start";
+				MODULE_STOP = "$(PRODUCT_NAME)_kern_stop";
+				MODULE_VERSION = 1.6.1;
+				OTHER_CFLAGS = (
+					"-mmmx",
+					"-msse",
+					"-msse2",
+					"-msse3",
+					"-mfpmath=sse",
+					"-mssse3",
+					"-ftree-vectorize",
+					"-fno-non-call-exceptions",
+					"-fno-builtin",
+					"-fno-asynchronous-unwind-tables",
+					"-Wno-unknown-warning-option",
+					"-Wno-ossharedptr-misuse",
+					"-Wno-vla",
+				);
+				OTHER_LDFLAGS = "-static";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(MODULE_NAME)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_STYLE = "non-global";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -983,6 +1260,16 @@
 				1CD5B2C11C89CF2D00E45373 /* Debug */,
 				CE147CCE2185E50200536AE6 /* Sanitize */,
 				1CD5B2C21C89CF2D00E45373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CED6C8E0266BC9AF006BA0A9 /* Build configuration list for PBXNativeTarget "AppleALCU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED6C8E1266BC9AF006BA0A9 /* Debug */,
+				CED6C8E2266BC9AF006BA0A9 /* Sanitize */,
+				CED6C8E3266BC9AF006BA0A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

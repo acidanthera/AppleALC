@@ -831,7 +831,7 @@
 			</dict>
 			<dict>
 				<key>Count</key>
-				<integer>6</integer>
+				<integer>8</integer>
 				<key>Find</key>
 				<data>cJ0AAA==</data>
 				<key>MinKernel</key>
@@ -848,8 +848,6 @@
 	<dict>
 		<key>Device</key>
 		<integer>40392</integer>
-		<key>Model</key>
-		<string>Desktop</string>
 		<key>Name</key>
 		<string>Intel NUC8 PCH HD Audio</string>
 		<key>Patches</key>

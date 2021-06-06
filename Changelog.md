@@ -7,6 +7,12 @@ AppleALC Changelog
 - Fixed automatic resource formatting on build
 - Fixed ALC885's Info.plist Platforms entry
 - Added 400 Series (0xF1C8 Z490 + Intel 11 Gen) PCH HD Audio Controller
+- Fixed `alc-verb` device indexing giving varying results over reboots
+- Added device listing with indices via `-L`/`-l` in `alc-verb`
+- Added AppleALCU kext variant for digital-only audio setup
+- Disabled kext patching for verb support and delays when not requested
+- FIxed replace count in `WhiskeyLake` HDA patches
+- Separated Intel `WhiskeyLake` laptop patches from common ones
 
 #### v1.6.0
 - Added `use-layout-id` property to use `layout-id` as is on Macs

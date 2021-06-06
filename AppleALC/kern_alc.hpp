@@ -96,12 +96,6 @@ private:
 	void processKext(KernelPatcher &patcher, size_t index, mach_vm_address_t address, size_t size);
 
 	/**
-	 *  Hooked ResourceLoad callbacks returning correct layout/platform
-	 */
-	static void layoutLoadCallback(uint32_t requestTag, kern_return_t result, const void *resourceData, uint32_t resourceDataLength, void *context);
-	static void platformLoadCallback(uint32_t requestTag, kern_return_t result, const void *resourceData, uint32_t resourceDataLength, void *context);
-
-	/**
 	 *  Hooked AppleGFXHDA probe
 	 */
 	static IOService *gfxProbe(IOService *ctrl, IOService *provider, SInt32 *score);
@@ -114,8 +108,6 @@ private:
 	/**
 	 *  Trampolines for original method invocations
 	 */
-	mach_vm_address_t orgLayoutLoadCallback {0};
-	mach_vm_address_t orgPlatformLoadCallback {0};
 	mach_vm_address_t orgGfxProbe {0};
 	mach_vm_address_t orgAppleHDAController_start {0};
 
@@ -143,6 +135,48 @@ private:
 	static uint32_t getAudioLayout(IOService *hdaDriver);
 
 	/**
+	 *  Hooked entitlement copying method
+	 */
+	static void handleAudioClientEntitlement(task_t task, const char *entitlement, OSObject *&original);
+
+	/**
+	 *  Detects audio controllers
+	 */
+	void grabControllers();
+
+	/**
+	 *  Compare found controllers with built-in mod lists
+	 *  Unlike validateCodecs() does not remove anything from
+	 *  controllers but only sets their infos.
+	 */
+	void validateControllers();
+
+#ifdef HAVE_ANALOG_AUDIO
+	/**
+	 *  Appends registered codec
+	 *
+	 *  @param user  AlcEnabler instance
+	 *  @param e     found codec
+	 *
+	 *  @return true on success and false to continue bruting
+	 */
+	static bool appendCodec(void *user, IORegistryEntry *e);
+
+	/**
+	 *  Detects audio codecs
+	 *
+	 *  @return see validateCodecs
+	 */
+	bool grabCodecs();
+
+	/**
+	 *  Compare found codecs with built-in mod lists
+	 *
+	 *  @return true if anything suitable found
+	 */
+	bool validateCodecs();
+
+	/**
 	 *  Hooked performPowerChange method triggering a verb sequence on wake
 	 */
 	static IOReturn performPowerChange(IOService *hdaDriver, uint32_t from, uint32_t to, unsigned int *timer);
@@ -163,63 +197,16 @@ private:
 	mach_vm_address_t orgInitializePinConfig {0};
 
 	/**
-	 *  Hooked entitlement copying method
+	 *  Hooked ResourceLoad callbacks returning correct layout/platform
 	 */
-	static void handleAudioClientEntitlement(task_t task, const char *entitlement, OSObject *&original);
+	static void layoutLoadCallback(uint32_t requestTag, kern_return_t result, const void *resourceData, uint32_t resourceDataLength, void *context);
+	static void platformLoadCallback(uint32_t requestTag, kern_return_t result, const void *resourceData, uint32_t resourceDataLength, void *context);
 
 	/**
-	 *  Detects audio controllers
+	 *  Trampolines to original ResourceLoad invocations
 	 */
-	void grabControllers();
-
-	/**
-	 *  Appends registered codec
-	 *
-	 *  @param user  AlcEnabler instance
-	 *  @param e     found codec
-	 *
-	 *  @return true on success and false to continue bruting
-	 */
-	static bool appendCodec(void *user, IORegistryEntry *e);
-
-	/**
-	 *  Detects audio codecs
-	 *
-	 *  @return see validateCodecs
-	 */
-	bool grabCodecs();
-	
-	/**
-	 *  Compare found controllers with built-in mod lists
-	 *  Unlike validateCodecs() does not remove anything from
-	 *  controllers but only sets their infos.
-	 */
-	void validateControllers();
-	
-	/**
-	 *  Compare found codecs with built-in mod lists
-	 *
-	 *  @return true if anything suitable found
-	 */
-	bool validateCodecs();
-	
-	/**
-	 *  Checks for a set no-controller-injection property.
-	 *  @param hdaService  audio device
-	 *
-	 *  @return true if the controller should be injected
-	 */
-	bool validateInjection(IORegistryEntry *hdaService);
-
-	/**
-	 *  Apply kext patches for loaded kext index
-	 *
-	 *  @param patcher    KernelPatcher instance
-	 *  @param index      kinfo index
-	 *  @param patches    patch list
-	 *  @param patchesNum patch number
-	 */
-	void applyPatches(KernelPatcher &patcher, size_t index, const KextPatch *patches, size_t patchesNum);
+	mach_vm_address_t orgLayoutLoadCallback {0};
+	mach_vm_address_t orgPlatformLoadCallback {0};
 
 	/**
 	 *  Supported resource types
@@ -238,6 +225,25 @@ private:
 	 *  @param resourceDataLength resource data length reference
 	 */
 	void updateResource(Resource type, kern_return_t &result, const void * &resourceData, uint32_t &resourceDataLength);
+#endif
+	
+	/**
+	 *  Checks for a set no-controller-injection property.
+	 *  @param hdaService  audio device
+	 *
+	 *  @return true if the controller should be injected
+	 */
+	bool validateInjection(IORegistryEntry *hdaService);
+
+	/**
+	 *  Apply kext patches for loaded kext index
+	 *
+	 *  @param patcher    KernelPatcher instance
+	 *  @param index      kinfo index
+	 *  @param patches    patch list
+	 *  @param patchesNum patch number
+	 */
+	void applyPatches(KernelPatcher &patcher, size_t index, const KextPatch *patches, size_t patchesNum);
 
 	/**
 	 *  Controller identification and modification info
@@ -281,6 +287,7 @@ private:
 		}
 	}
 
+#ifdef HAVE_ANALOG_AUDIO
 	/**
 	 *  Codec identification and modification info
 	 */
@@ -306,7 +313,8 @@ private:
 	 *  Detected and validated codec infos
 	 */
 	evector<CodecInfo *, CodecInfo::deleter> codecs;
-	
+#endif
+
 	/**
 	 *  Current progress mask
 	 */

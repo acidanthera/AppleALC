@@ -68,6 +68,11 @@ uint64_t ALCUserClientProvider::sendHdaCommand(uint16_t nid, uint16_t verb, uint
 		DBGLOG("client", "unable to get shared AlcEnabler instance");
 		return kIOReturnError;
 	}
+
+	if (!sharedAlc->orgIOHDACodecDevice_executeVerb) {
+		DBGLOG("client", "unable to get verb support");
+		return kIOReturnError;
+	}
 	
 	unsigned ret = 0;
 	sharedAlc->IOHDACodecDevice_executeVerb(reinterpret_cast<void*>(hdaCodecDevice), nid, verb, param, &ret, true);
