@@ -8676,6 +8676,24 @@
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>b0ltun/agasecond - Realtek ALC256 (3246) for Hasee KingBook X57S1</string>
+					<key>CodecID</key>
+					<integer>283902550</integer>
+					<key>ConfigData</key>
+					<data>AbccEAG3HQABtx4XAbcfkAG3DAICFwwCAUcMAgGXByUCBQBFAgTQiQIFABsCBAxLAgUAEAIEACA=</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>70</integer>
+					<key>WakeConfigData</key>
+					<data>AbcMAgFHDAICFwwC</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
 			</array>
 			<key>IOClass</key>
 			<string>AppleHDAHardwareConfigDriver</string>

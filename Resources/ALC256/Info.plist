@@ -172,6 +172,14 @@
 				<key>Path</key>
 				<string>layout69.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>b0ltun/agasecond - Realtek ALC256 (3246) for Hasee KingBook X57S1</string>
+				<key>Id</key>
+				<integer>70</integer>
+				<key>Path</key>
+				<string>layout70.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -334,6 +342,14 @@
 				<integer>69</integer>
 				<key>Path</key>
 				<string>Platforms69.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>b0ltun/agasecond - Realtek ALC256 (3246) for Hasee KingBook X57S1</string>
+				<key>Id</key>
+				<integer>70</integer>
+				<key>Path</key>
+				<string>Platforms70.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>
