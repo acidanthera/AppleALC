@@ -990,13 +990,13 @@
 					<key>CodecID</key>
 					<integer>283902517</integer>
 					<key>ConfigData</key>
-					<data>AZccUAGXHQABlx6gAZcfkAGnHEABpx0QAacegAGnHwIBtxyAAbcdEAG3HhEBtx8BAbcMAgIXHFACFx0QAhceIQIXHwICFwwC</data>
+					<data>AZccMAGXHQEBlx6gAZcfkAGnHEABpx0QAacegQGnHwIBtxwgAbcdQAG3HgEBtx8BAbcMAgIXHBACFx0QAhceIQIXHwICFwwC</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>18</integer>
 					<key>WakeConfigData</key>
-					<data>AZcHJQGnByUBtwwCAhcMAg==</data>
+					<data>AZcHIAGnByQBtwwCAhcMAg==</data>
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
