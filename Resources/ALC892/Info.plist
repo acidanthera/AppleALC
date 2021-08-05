@@ -184,9 +184,9 @@
 				<key>Comment</key>
 				<string>Custom ALC892 for G4/G5mod by ATL</string>
 				<key>Id</key>
-				<integer>111</integer>
+				<integer>32</integer>
 				<key>Path</key>
-				<string>layout111.xml.zlib</string>
+				<string>layout32.xml.zlib</string>
 			</dict>
 		</array>
 		<key>Platforms</key>
@@ -363,9 +363,9 @@
 				<key>Comment</key>
 				<string>Custom ALC892 for G4/G5mod by ATL</string>
 				<key>Id</key>
-				<integer>111</integer>
+				<integer>32</integer>
 				<key>Path</key>
-				<string>Platforms111.xml.zlib</string>
+				<string>Platforms32.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>
