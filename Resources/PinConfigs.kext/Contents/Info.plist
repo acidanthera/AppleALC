@@ -6390,7 +6390,7 @@
 					<key>Comment</key>
 					<string>Custom ALC892 for G4/G5mod by ATL</string>
 					<key>ConfigData</key>
-					<data>AUccEAFHHUABRx4RAUcfkQFHDAIBtxwgAbcdQAG3HiEBtx8CAbcMAgGHHDABhx2QAYceoQGHH5EBVxxQAVcdEAFXHgEBVx8BAWccYAFnHWABZx4BAWcfAQF3HHABdx0gAXceAQF3HwEBlxyAAZcdkAGXHoEBlx8CAacckAGnHTABpx6BAacfAQ==</data>
+					<data>AUccEAFHHUABRx4BAUcfAQFHDAIBtxwgAbcdEAG3HhABtx+QAbcMAgGHHDABhx2QAYceoQGHHwEBVxxQAVcdEAFXHgEBVx8BAWccYAFnHQEBZx7wAWcfcAF3HHABdx0gAXceAQF3HwEBlxyAAZcdkAGXHiEBlx8CAZcMAgGnHJABpx0wAacegQGnHwEB5xygAecdYQHnHkUB5x8B</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
@@ -7334,7 +7334,7 @@
 					<key>CodecID</key>
 					<integer>283906408</integer>
 					<key>CodecName</key>
-					<string>Realtek ALC S1220A Kushamot for Asus Z270G mb (based on Mirone&apos;s layout 7)</string>
+					<string>Realtek ALC S1220A Kushamot for Asus Z270G mb (based on Mirone's layout 7)</string>
 					<key>ConfigData</key>
 					<data>AUccEAFHHUABRx4RAUcfAQFXHFABVx0QAVceAQFXHwEBZxwwAWcdYAFnHgEBZx8BAYccYAGHHZABhx6gAYcfkAGXHHABlx2QAZcegQGXHwEBtxwgAbcdQAG3HiEBtx8BAUcMAg==</data>
 					<key>FuncGroup</key>
