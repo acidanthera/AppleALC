@@ -2846,6 +2846,24 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>Vorshim92 - Realtek ALC269 - GF63 Thin 9SEXR</string>
+					<key>CodecID</key>
+					<integer>283902569</integer>
+					<key>ConfigData</key>
+					<data>ASccQAEnHQABJx6gAScfkAFHHBABRx0AAUceFwFHH5ABRwwCAVccUAFXHRABVx4hAVcfAAFXDAIBhxwwAYcdEAGHHoEBhx8A</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>69</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgFXDAI=</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>Custom ALC269VB for ENZ C16B by jimmy19990</string>
 					<key>CodecID</key>
 					<integer>283902569</integer>
