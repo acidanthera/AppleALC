@@ -22,10 +22,10 @@
 	<string>1.0.0</string>
 	<key>IOKitPersonalities</key>
 	<dict>
-		<key>HDA Hardware Config Resource</key>
+		<key>as.vit9696.AppleALC</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleHDAHardwareConfigDriver</string>
+			<string>as.vit9696.AppleALC</string>
 			<key>HDAConfigDefault</key>
 			<array>
 				<dict>
@@ -8404,11 +8404,25 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
-					<string>Goldfish64 - STAC9200 for Dell Precision 390</string>
+					<string>Goldfish64 - STAC9200 for Dell Precision 390, Latitude D520</string>
 					<key>CodecID</key>
 					<integer>2206496400</integer>
 					<key>ConfigData</key>
 					<data>AIcc8ACHHQAAhx4AAIcfQACXHPAAlx0AAJceAACXH0AA1xwQANcdEADXHiEA1x8CAOccIADnHQEA5x4QAOcfkAD3HDAA9x0BAPceoAD3H5ABBxxAAQcdEAEHHoEBBx8CARcc8AEXHQABFx4AARcfQAEnHPABJx0AASceAAEnH0A=</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>11</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>Goldfish64 - STAC9205 for Dell Inspiron 1520, Latitude D630</string>
+					<key>CodecID</key>
+					<integer>2206496416</integer>
+					<key>ConfigData</key>
+					<data>AKccIACnHRAApx4hAKcfAwC3HEAAtx0QALcegQC3HwMAxxzwAMcdAADHHgAAxx9AANccEADXHQEA1x4QANcfkADnHPAA5x0AAOceAADnH0AA9xzwAPcdAAD3HgAA9x9AAUcc8AFHHQABRx4AAUcfQAFnHPABZx0AAWceAAFnH0ABdxwwAXcdAQF3HqABdx+QAYcc8AGHHQABhx4AAYcfQAIXHPACFx0AAhceAAIXH0ACJxzwAicdAAInHgACJx9A</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
@@ -8730,11 +8744,13 @@
 				</dict>
 			</array>
 			<key>IOClass</key>
-			<string>AppleHDAHardwareConfigDriver</string>
+			<string>AppleALC</string>
 			<key>IOMatchCategory</key>
-			<string>AppleHDAHardwareConfigDriver</string>
+			<string>AppleALC</string>
 			<key>IOProviderClass</key>
-			<string>AppleHDAHardwareConfigDriverLoader</string>
+			<string>IOResources</string>
+			<key>IOResourceMatch</key>
+			<string>IOKit</string>
 		</dict>
 	</dict>
 	<key>OSBundleCompatibleVersion</key>
@@ -8742,7 +8758,7 @@
 	<key>OSBundleLibraries</key>
 	<dict>
 		<key>com.apple.kpi.libkern</key>
-		<string>10.0.0</string>
+		<string>8.0.0</string>
 	</dict>
 	<key>OSBundleRequired</key>
 	<string>Root</string>

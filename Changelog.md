@@ -1,5 +1,10 @@
 AppleALC Changelog
 ==================
+#### v1.6.4
+- Added 10.4 and 10.5 support, and 10.6 and 10.7 support in 32-bit mode
+- Update STAC9200 layout-id 11 to support 10.4 to 10.6
+- Added STAC9205 layout-id 11 for Dell Inspiron 1520 and Latitude D630
+
 #### v1.6.3
 - Update ALC289 layout-id 87 by GitNaufal
 - Update ALC235 layout-id 18 for AsRock 310 BB by viorel78

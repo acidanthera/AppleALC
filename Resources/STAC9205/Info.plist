@@ -5,16 +5,16 @@
 	<key>Author</key>
 	<string>Goldfish64</string>
 	<key>CodecID</key>
-	<integer>30352</integer>
+	<integer>30368</integer>
 	<key>CodecName</key>
-	<string>STAC9200</string>
+	<string>STAC9205</string>
 	<key>Files</key>
 	<dict>
 		<key>Layouts</key>
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>Goldfish64 - STAC9200 for Dell Precision 390, Latitude D520</string>
+				<string>Goldfish64 - STAC9205 for Dell Inspiron 1520, Latitude D630</string>
 				<key>Id</key>
 				<integer>11</integer>
 				<key>Path</key>
@@ -25,7 +25,7 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>Goldfish64 - STAC9200 for Dell Precision 390, Latitude D520</string>
+				<string>Goldfish64 - STAC9205 for Dell Inspiron 1520, Latitude D630</string>
 				<key>Id</key>
 				<integer>11</integer>
 				<key>Path</key>
@@ -183,7 +183,7 @@
 		</dict>
 		<dict>
 			<key>Comment</key>
-			<string>0x11d41984 to 0x83847690</string>
+			<string>0x11d41984 to 0x838476A0</string>
 			<key>Count</key>
 			<integer>2</integer>
 			<key>Find</key>
@@ -193,11 +193,11 @@
 			<key>Name</key>
 			<string>AppleHDA</string>
 			<key>Replace</key>
-			<data>kHaEgw==</data>
+			<data>oHaEgw==</data>
 		</dict>
 		<dict>
 			<key>Comment</key>
-			<string>0x83847680 to 0x83847690</string>
+			<string>0x83847680 to 0x838476A0</string>
 			<key>Count</key>
 			<integer>2</integer>
 			<key>Find</key>
@@ -209,7 +209,7 @@
 			<key>Name</key>
 			<string>AppleHDA</string>
 			<key>Replace</key>
-			<data>kHaEgw==</data>
+			<data>oHaEgw==</data>
 		</dict>
 		<dict>
 			<key>Comment</key>
@@ -356,7 +356,7 @@
 	</array>
 	<key>Revisions</key>
 	<array>
-		<integer>1057281</integer>
+		<integer>1049092</integer>
 	</array>
 	<key>Vendor</key>
 	<string>SigmaTel</string>

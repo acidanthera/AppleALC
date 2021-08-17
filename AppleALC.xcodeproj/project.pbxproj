@@ -22,14 +22,12 @@
 		1C9CB7B11C789FF500231E41 /* kern_alc.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 1C9CB7AF1C789FF500231E41 /* kern_alc.hpp */; };
 		1CD5B2BF1C89CF2D00E45373 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1CD5B2BE1C89CF2D00E45373 /* main.mm */; };
 		CE405ED91E4A080700AA0B3D /* plugin_start.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE405ED81E4A080700AA0B3D /* plugin_start.cpp */; };
-		CE8DA08A2517C489008C44E8 /* libkmod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8DA0892517C489008C44E8 /* libkmod.a */; };
 		CED6C8CD266BC9AF006BA0A9 /* kern_alc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C9CB7AE1C789FF500231E41 /* kern_alc.cpp */; };
 		CED6C8CE266BC9AF006BA0A9 /* ALCUserClientProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01ACCCE825362B00007704ED /* ALCUserClientProvider.cpp */; };
 		CED6C8CF266BC9AF006BA0A9 /* ALCUserClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01ACCCDD25362A8A007704ED /* ALCUserClient.cpp */; };
 		CED6C8D0266BC9AF006BA0A9 /* plugin_start.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE405ED81E4A080700AA0B3D /* plugin_start.cpp */; };
 		CED6C8D1266BC9AF006BA0A9 /* kern_start.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C748C2C1C21952C0024EED2 /* kern_start.cpp */; };
 		CED6C8D2266BC9AF006BA0A9 /* kern_resources.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C88DDEA1C89EE540003E1BF /* kern_resources.cpp */; };
-		CED6C8D4266BC9AF006BA0A9 /* libkmod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8DA0892517C489008C44E8 /* libkmod.a */; };
 		CED6C8D6266BC9AF006BA0A9 /* kern_alc.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 1C9CB7AF1C789FF500231E41 /* kern_alc.hpp */; };
 		CED6C8D7266BC9AF006BA0A9 /* ALCUserClientProvider.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 01ACCCE925362B00007704ED /* ALCUserClientProvider.hpp */; };
 		CED6C8D8266BC9AF006BA0A9 /* kern_resources.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 1C88DDEB1C89EE540003E1BF /* kern_resources.hpp */; };
@@ -176,7 +174,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE8DA08A2517C489008C44E8 /* libkmod.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,7 +188,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CED6C8D4266BC9AF006BA0A9 /* libkmod.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,6 +460,7 @@
 				CED6C8D5266BC9AF006BA0A9 /* Headers */,
 				CED6C8DB266BC9AF006BA0A9 /* Resources */,
 				CED6C8DC266BC9AF006BA0A9 /* CopyFiles */,
+				4197C7D826B618D600421D19 /* Post-process Binary */,
 			);
 			buildRules = (
 			);
@@ -536,6 +533,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		4197C7D826B618D600421D19 /* Post-process Binary */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Post-process Binary";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd \"${TARGET_BUILD_DIR}\"\n\nstrip -S \"${EXECUTABLE_PATH}\"\nif [ \"$CONFIGURATION\" == \"Release\" ]; then\n  strip -x -T \"${EXECUTABLE_PATH}\" &>/dev/null || strip -x \"${EXECUTABLE_PATH}\"\nfi\n\nif [ -z \"${OVERRIDE_PYTHON3}\" ]; then\n  # Use whatever is in PATH\n  OVERRIDE_PYTHON3=python3\nfi\n\nif [[ \"$ARCHS\" == *\"ACID32\"* ]]; then\n  \"${OVERRIDE_PYTHON3}\" ${SRCROOT}/clang32/fix-macho32 \"${EXECUTABLE_PATH}\" || exit 1\nfi\n";
+		};
 		CE0C09F3201DBE6600926B8E /* Convert Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
@@ -567,7 +582,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/bash;
-			shellScript = "cd \"${TARGET_BUILD_DIR}\"\n\ndist=(\"$FULL_PRODUCT_NAME\")\ndist+=(\"alc-verb\" \"AppleALCU.kext\")\nif [ -d \"$DWARF_DSYM_FILE_NAME\" ]; then dist+=(\"$DWARF_DSYM_FILE_NAME\" \"AppleALCU.kext.dSYM\"); fi\n\narchive=\"${PRODUCT_NAME}-${MODULE_VERSION}-$(echo $CONFIGURATION | tr /a-z/ /A-Z/).zip\"\nrm -rf *.zip\nif [ \"$CONFIGURATION\" == \"Release\" ]; then\n  strip -x -T \"${EXECUTABLE_PATH}\" &>/dev/null || strip -x \"${EXECUTABLE_PATH}\"\nfi\nzip -qry -FS \"${archive}\" \"${dist[@]}\"\n";
+			shellScript = "cd \"${TARGET_BUILD_DIR}\"\n\ndist=(\"$FULL_PRODUCT_NAME\")\ndist+=(\"alc-verb\" \"AppleALCU.kext\")\nif [ -d \"$DWARF_DSYM_FILE_NAME\" ]; then dist+=(\"$DWARF_DSYM_FILE_NAME\" \"AppleALCU.kext.dSYM\"); fi\n\narchive=\"${PRODUCT_NAME}-${MODULE_VERSION}-$(echo $CONFIGURATION | tr /a-z/ /A-Z/).zip\"\nrm -rf *.zip\n\nstrip -S \"${EXECUTABLE_PATH}\"\nif [ \"$CONFIGURATION\" == \"Release\" ]; then\n  strip -x -T \"${EXECUTABLE_PATH}\" &>/dev/null || strip -x \"${EXECUTABLE_PATH}\"\nfi\n\nif [ -z \"${OVERRIDE_PYTHON3}\" ]; then\n  # Use whatever is in PATH\n  OVERRIDE_PYTHON3=python3\nfi\n\nif [[ \"$ARCHS\" == *\"ACID32\"* ]]; then\n  \"${OVERRIDE_PYTHON3}\" ${SRCROOT}/clang32/fix-macho32 \"${EXECUTABLE_PATH}\" || exit 1\nfi\n\nzip -qry -FS \"${archive}\" \"${dist[@]}\"\n";
 		};
 		CEBAEC1E20764C0B00CE3744 /* Merge Pinconfigs */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -676,7 +691,7 @@
 				DEVELOPMENT_TEAM = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -701,7 +716,7 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -726,7 +741,7 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -739,6 +754,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = x86_64;
+				CC = "$(inherited)";
+				"CC[arch=ACID32]" = "$(PROJECT_DIR)/clang32/clang-12";
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++1y";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -761,6 +778,9 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"COMPILER_INDEX_STORE_ENABLE[arch=ACID32]" = NO;
+				CXX = "$(inherited)";
+				"CXX[arch=ACID32]" = "$(PROJECT_DIR)/clang32/clang-12";
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -780,8 +800,11 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				KERNEL_EXTENSION_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/MacKernelSDK/Headers";
 				KERNEL_FRAMEWORK_HEADERS = "$(PROJECT_DIR)/MacKernelSDK/Headers";
-				ONLY_ACTIVE_ARCH = YES;
+				LDPLUSPLUS = "$(inherited)";
+				"LDPLUSPLUS[arch=ACID32]" = "$(PROJECT_DIR)/clang32/clang-12";
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
 			};
 			name = Debug;
 		};
@@ -790,6 +813,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = x86_64;
+				CC = "$(inherited)";
+				"CC[arch=ACID32]" = "$(PROJECT_DIR)/clang32/clang-12";
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++1y";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -812,6 +837,10 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMPILER_INDEX_STORE_ENABLE = YES;
+				"COMPILER_INDEX_STORE_ENABLE[arch=ACID32]" = NO;
+				CXX = "$(inherited)";
+				"CXX[arch=ACID32]" = "$(PROJECT_DIR)/clang32/clang-12";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = c11;
@@ -827,7 +856,10 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				KERNEL_EXTENSION_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/MacKernelSDK/Headers";
 				KERNEL_FRAMEWORK_HEADERS = "$(PROJECT_DIR)/MacKernelSDK/Headers";
+				LDPLUSPLUS = "$(inherited)";
+				"LDPLUSPLUS[arch=ACID32]" = "$(PROJECT_DIR)/clang32/clang-12";
 				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
 			};
 			name = Release;
 		};
@@ -839,7 +871,7 @@
 				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = "$(MODULE_VERSION)";
-				DEPLOYMENT_POSTPROCESSING = YES;
+				DEPLOYMENT_POSTPROCESSING = NO;
 				GCC_ENABLE_FLOATING_POINT_LIBRARY_CALLS = NO;
 				GCC_ENABLE_KERNEL_DEVELOPMENT = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
@@ -853,9 +885,10 @@
 				INFOPLIST_FILE = "AppleALC/AppleALC-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/MacKernelSDK/Library/x86_64",
+					"$(PROJECT_DIR)/MacKernelSDK/Library/universal",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				"MACOSX_DEPLOYMENT_TARGET[arch=ACID32]" = 10.4;
 				MODULE_NAME = as.vit9696.AppleALC;
 				MODULE_START = "$(PRODUCT_NAME)_kern_start";
 				MODULE_STOP = "$(PRODUCT_NAME)_kern_stop";
@@ -874,10 +907,37 @@
 					"-Wno-unknown-warning-option",
 					"-Wno-ossharedptr-misuse",
 					"-Wno-vla",
+					"-Wno-stdlibcxx-not-found",
+				);
+				"OTHER_CFLAGS[arch=ACID32]" = (
+					"-mmmx",
+					"-msse",
+					"-msse2",
+					"-mfpmath=sse",
+					"-ftree-vectorize",
+					"-fno-non-call-exceptions",
+					"-fno-builtin",
+					"-fno-asynchronous-unwind-tables",
+					"-Wno-unknown-warning-option",
+					"-Wno-ossharedptr-misuse",
+					"-Wno-vla",
+					"-Wno-stdlibcxx-not-found",
+					"-static",
+					"-fallow-unsupported",
+					"-fno-jump-tables",
+					"-fno-stack-protector",
+					"-target",
+					"i386-apple-macos10.4",
 				);
 				OTHER_LDFLAGS = "-static";
+				"OTHER_LDFLAGS[arch=ACID32]" = (
+					"-static",
+					"-target",
+					"i386-apple-macos10.4",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "$(MODULE_NAME)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "x86_64 ACID32";
 				WRAPPER_EXTENSION = kext;
 			};
 			name = Debug;
@@ -890,7 +950,8 @@
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = "$(MODULE_VERSION)";
 				DEAD_CODE_STRIPPING = YES;
-				DEPLOYMENT_POSTPROCESSING = YES;
+				"DEAD_CODE_STRIPPING[arch=ACID32]" = NO;
+				DEPLOYMENT_POSTPROCESSING = NO;
 				GCC_ENABLE_FLOATING_POINT_LIBRARY_CALLS = NO;
 				GCC_ENABLE_KERNEL_DEVELOPMENT = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
@@ -903,10 +964,12 @@
 				INFOPLIST_FILE = "AppleALC/AppleALC-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/MacKernelSDK/Library/x86_64",
+					"$(PROJECT_DIR)/MacKernelSDK/Library/universal",
 				);
 				LLVM_LTO = YES;
+				"LLVM_LTO[arch=ACID32]" = NO;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				"MACOSX_DEPLOYMENT_TARGET[arch=ACID32]" = 10.4;
 				MODULE_NAME = as.vit9696.AppleALC;
 				MODULE_START = "$(PRODUCT_NAME)_kern_start";
 				MODULE_STOP = "$(PRODUCT_NAME)_kern_stop";
@@ -925,11 +988,38 @@
 					"-Wno-unknown-warning-option",
 					"-Wno-ossharedptr-misuse",
 					"-Wno-vla",
+					"-Wno-stdlibcxx-not-found",
+				);
+				"OTHER_CFLAGS[arch=ACID32]" = (
+					"-mmmx",
+					"-msse",
+					"-msse2",
+					"-mfpmath=sse",
+					"-ftree-vectorize",
+					"-fno-non-call-exceptions",
+					"-fno-builtin",
+					"-fno-asynchronous-unwind-tables",
+					"-Wno-unknown-warning-option",
+					"-Wno-ossharedptr-misuse",
+					"-Wno-vla",
+					"-Wno-stdlibcxx-not-found",
+					"-static",
+					"-fallow-unsupported",
+					"-fno-jump-tables",
+					"-fno-stack-protector",
+					"-target",
+					"i386-apple-macos10.4",
 				);
 				OTHER_LDFLAGS = "-static";
+				"OTHER_LDFLAGS[arch=ACID32]" = (
+					"-static",
+					"-target",
+					"i386-apple-macos10.4",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "$(MODULE_NAME)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_STYLE = "non-global";
+				VALID_ARCHS = "x86_64 ACID32";
 				WRAPPER_EXTENSION = kext;
 			};
 			name = Release;
@@ -963,6 +1053,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = x86_64;
+				CC = "$(inherited)";
+				"CC[arch=ACID32]" = "$(PROJECT_DIR)/clang32/clang-12";
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++1y";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -985,6 +1077,10 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMPILER_INDEX_STORE_ENABLE = YES;
+				"COMPILER_INDEX_STORE_ENABLE[arch=ACID32]" = NO;
+				CXX = "$(inherited)";
+				"CXX[arch=ACID32]" = "$(PROJECT_DIR)/clang32/clang-12";
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -1004,8 +1100,11 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				KERNEL_EXTENSION_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/MacKernelSDK/Headers";
 				KERNEL_FRAMEWORK_HEADERS = "$(PROJECT_DIR)/MacKernelSDK/Headers";
+				LDPLUSPLUS = "$(inherited)";
+				"LDPLUSPLUS[arch=ACID32]" = "$(PROJECT_DIR)/clang32/clang-12";
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
 			};
 			name = Sanitize;
 		};
@@ -1017,7 +1116,7 @@
 				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = "$(MODULE_VERSION)";
-				DEPLOYMENT_POSTPROCESSING = YES;
+				DEPLOYMENT_POSTPROCESSING = NO;
 				GCC_ENABLE_FLOATING_POINT_LIBRARY_CALLS = NO;
 				GCC_ENABLE_KERNEL_DEVELOPMENT = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
@@ -1031,9 +1130,10 @@
 				INFOPLIST_FILE = "AppleALC/AppleALC-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/MacKernelSDK/Library/x86_64",
+					"$(PROJECT_DIR)/MacKernelSDK/Library/universal",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				"MACOSX_DEPLOYMENT_TARGET[arch=ACID32]" = 10.4;
 				MODULE_NAME = as.vit9696.AppleALC;
 				MODULE_START = "$(PRODUCT_NAME)_kern_start";
 				MODULE_STOP = "$(PRODUCT_NAME)_kern_stop";
@@ -1054,10 +1154,39 @@
 					"-Wno-unknown-warning-option",
 					"-Wno-ossharedptr-misuse",
 					"-Wno-vla",
+					"-Wno-stdlibcxx-not-found",
+				);
+				"OTHER_CFLAGS[arch=ACID32]" = (
+					"-mmmx",
+					"-msse",
+					"-msse2",
+					"-mfpmath=sse",
+					"-ftree-vectorize",
+					"-fno-non-call-exceptions",
+					"-fno-builtin",
+					"-fno-asynchronous-unwind-tables",
+					"-fsanitize=undefined,nullability",
+					"-fno-sanitize=function",
+					"-Wno-unknown-warning-option",
+					"-Wno-ossharedptr-misuse",
+					"-Wno-vla",
+					"-Wno-stdlibcxx-not-found",
+					"-static",
+					"-fallow-unsupported",
+					"-fno-jump-tables",
+					"-fno-stack-protector",
+					"-target",
+					"i386-apple-macos10.4",
 				);
 				OTHER_LDFLAGS = "-static";
+				"OTHER_LDFLAGS[arch=ACID32]" = (
+					"-static",
+					"-target",
+					"i386-apple-macos10.4",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "$(MODULE_NAME)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "x86_64 ACID32";
 				WRAPPER_EXTENSION = kext;
 			};
 			name = Sanitize;
@@ -1082,7 +1211,7 @@
 				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = "$(MODULE_VERSION)";
-				DEPLOYMENT_POSTPROCESSING = YES;
+				DEPLOYMENT_POSTPROCESSING = NO;
 				GCC_ENABLE_FLOATING_POINT_LIBRARY_CALLS = NO;
 				GCC_ENABLE_KERNEL_DEVELOPMENT = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
@@ -1095,9 +1224,10 @@
 				INFOPLIST_FILE = "AppleALC/AppleALCU-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/MacKernelSDK/Library/x86_64",
+					"$(PROJECT_DIR)/MacKernelSDK/Library/universal",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				"MACOSX_DEPLOYMENT_TARGET[arch=ACID32]" = 10.4;
 				MODULE_NAME = as.vit9696.AppleALCU;
 				MODULE_START = "$(PRODUCT_NAME)_kern_start";
 				MODULE_STOP = "$(PRODUCT_NAME)_kern_stop";
@@ -1116,10 +1246,37 @@
 					"-Wno-unknown-warning-option",
 					"-Wno-ossharedptr-misuse",
 					"-Wno-vla",
+					"-Wno-stdlibcxx-not-found",
+				);
+				"OTHER_CFLAGS[arch=ACID32]" = (
+					"-mmmx",
+					"-msse",
+					"-msse2",
+					"-mfpmath=sse",
+					"-ftree-vectorize",
+					"-fno-non-call-exceptions",
+					"-fno-builtin",
+					"-fno-asynchronous-unwind-tables",
+					"-Wno-unknown-warning-option",
+					"-Wno-ossharedptr-misuse",
+					"-Wno-vla",
+					"-Wno-stdlibcxx-not-found",
+					"-static",
+					"-fallow-unsupported",
+					"-fno-jump-tables",
+					"-fno-stack-protector",
+					"-target",
+					"i386-apple-macos10.4",
 				);
 				OTHER_LDFLAGS = "-static";
+				"OTHER_LDFLAGS[arch=ACID32]" = (
+					"-static",
+					"-target",
+					"i386-apple-macos10.4",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "$(MODULE_NAME)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "x86_64 ACID32";
 				WRAPPER_EXTENSION = kext;
 			};
 			name = Debug;
@@ -1132,7 +1289,7 @@
 				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = "$(MODULE_VERSION)";
-				DEPLOYMENT_POSTPROCESSING = YES;
+				DEPLOYMENT_POSTPROCESSING = NO;
 				GCC_ENABLE_FLOATING_POINT_LIBRARY_CALLS = NO;
 				GCC_ENABLE_KERNEL_DEVELOPMENT = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
@@ -1145,9 +1302,10 @@
 				INFOPLIST_FILE = "AppleALC/AppleALCU-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/MacKernelSDK/Library/x86_64",
+					"$(PROJECT_DIR)/MacKernelSDK/Library/universal",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				"MACOSX_DEPLOYMENT_TARGET[arch=ACID32]" = 10.4;
 				MODULE_NAME = as.vit9696.AppleALCU;
 				MODULE_START = "$(PRODUCT_NAME)_kern_start";
 				MODULE_STOP = "$(PRODUCT_NAME)_kern_stop";
@@ -1168,10 +1326,39 @@
 					"-Wno-unknown-warning-option",
 					"-Wno-ossharedptr-misuse",
 					"-Wno-vla",
+					"-Wno-stdlibcxx-not-found",
+				);
+				"OTHER_CFLAGS[arch=ACID32]" = (
+					"-mmmx",
+					"-msse",
+					"-msse2",
+					"-mfpmath=sse",
+					"-ftree-vectorize",
+					"-fno-non-call-exceptions",
+					"-fno-builtin",
+					"-fno-asynchronous-unwind-tables",
+					"-fsanitize=undefined,nullability",
+					"-fno-sanitize=function",
+					"-Wno-unknown-warning-option",
+					"-Wno-ossharedptr-misuse",
+					"-Wno-vla",
+					"-Wno-stdlibcxx-not-found",
+					"-static",
+					"-fallow-unsupported",
+					"-fno-jump-tables",
+					"-fno-stack-protector",
+					"-target",
+					"i386-apple-macos10.4",
 				);
 				OTHER_LDFLAGS = "-static";
+				"OTHER_LDFLAGS[arch=ACID32]" = (
+					"-static",
+					"-target",
+					"i386-apple-macos10.4",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "$(MODULE_NAME)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "x86_64 ACID32";
 				WRAPPER_EXTENSION = kext;
 			};
 			name = Sanitize;
@@ -1184,7 +1371,8 @@
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = "$(MODULE_VERSION)";
 				DEAD_CODE_STRIPPING = YES;
-				DEPLOYMENT_POSTPROCESSING = YES;
+				"DEAD_CODE_STRIPPING[arch=ACID32]" = NO;
+				DEPLOYMENT_POSTPROCESSING = NO;
 				GCC_ENABLE_FLOATING_POINT_LIBRARY_CALLS = NO;
 				GCC_ENABLE_KERNEL_DEVELOPMENT = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
@@ -1196,10 +1384,12 @@
 				INFOPLIST_FILE = "AppleALC/AppleALCU-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/MacKernelSDK/Library/x86_64",
+					"$(PROJECT_DIR)/MacKernelSDK/Library/universal",
 				);
 				LLVM_LTO = YES;
+				"LLVM_LTO[arch=ACID32]" = NO;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				"MACOSX_DEPLOYMENT_TARGET[arch=ACID32]" = 10.4;
 				MODULE_NAME = as.vit9696.AppleALCU;
 				MODULE_START = "$(PRODUCT_NAME)_kern_start";
 				MODULE_STOP = "$(PRODUCT_NAME)_kern_stop";
@@ -1218,11 +1408,38 @@
 					"-Wno-unknown-warning-option",
 					"-Wno-ossharedptr-misuse",
 					"-Wno-vla",
+					"-Wno-stdlibcxx-not-found",
+				);
+				"OTHER_CFLAGS[arch=ACID32]" = (
+					"-mmmx",
+					"-msse",
+					"-msse2",
+					"-mfpmath=sse",
+					"-ftree-vectorize",
+					"-fno-non-call-exceptions",
+					"-fno-builtin",
+					"-fno-asynchronous-unwind-tables",
+					"-Wno-unknown-warning-option",
+					"-Wno-ossharedptr-misuse",
+					"-Wno-vla",
+					"-Wno-stdlibcxx-not-found",
+					"-static",
+					"-fallow-unsupported",
+					"-fno-jump-tables",
+					"-fno-stack-protector",
+					"-target",
+					"i386-apple-macos10.4",
 				);
 				OTHER_LDFLAGS = "-static";
+				"OTHER_LDFLAGS[arch=ACID32]" = (
+					"-static",
+					"-target",
+					"i386-apple-macos10.4",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "$(MODULE_NAME)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_STYLE = "non-global";
+				VALID_ARCHS = "x86_64 ACID32";
 				WRAPPER_EXTENSION = kext;
 			};
 			name = Release;

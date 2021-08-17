@@ -32,7 +32,7 @@ PluginConfiguration ADDPR(config) {
 	arrsize(bootargDebug),
 	bootargBeta,
 	arrsize(bootargBeta),
-	KernelVersion::SnowLeopard,
+	KernelVersion::Tiger,
 	KernelVersion::Monterey,
 	[]() {
 		AlcEnabler::createShared();
