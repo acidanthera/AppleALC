@@ -78,6 +78,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>volcbs - ALC236 for Lenovo Ideapad 510s 14isk (modified from Macpeet)</string>
+				<key>Id</key>
+				<integer>36</integer>
+				<key>Path</key>
+				<string>layout36.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>ALC236 for DELL-5488 by Daggeryu</string>
 				<key>Id</key>
 				<integer>54</integer>
@@ -158,6 +166,14 @@
 				<integer>18</integer>
 				<key>Path</key>
 				<string>Platforms18.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>volcbs - ALC236 for Lenovo Ideapad 510s 14isk (modified from Macpeet)</string>
+				<key>Id</key>
+				<integer>36</integer>
+				<key>Path</key>
+				<string>Platforms36.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>

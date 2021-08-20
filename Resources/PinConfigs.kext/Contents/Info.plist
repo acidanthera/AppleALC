@@ -1272,6 +1272,24 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>volcbs - ALC236 for Lenovo Ideapad 510s 14isk (modified from Macpeet)</string>
+					<key>CodecID</key>
+					<integer>283902518</integer>
+					<key>ConfigData</key>
+					<data>ASccIAEnHQEBJx6gAScfkAFHHBABRx0BAUceFwFHH5ABRwwCAZccMAGXHRABlx6AAZcfBAIXHB8CFx0QAhceIQIXHwQCFwwC</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>36</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgIXDAI=</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>ALC236 for DELL-5488 by Daggeryu</string>
 					<key>CodecID</key>
 					<integer>283902518</integer>
@@ -7316,7 +7334,7 @@
 					<key>CodecID</key>
 					<integer>283906408</integer>
 					<key>CodecName</key>
-					<string>Realtek ALC S1220A Kushamot for Asus Z270G mb (based on Mirone's layout 7)</string>
+					<string>Realtek ALC S1220A Kushamot for Asus Z270G mb (based on Mirone&apos;s layout 7)</string>
 					<key>ConfigData</key>
 					<data>AUccEAFHHUABRx4RAUcfAQFXHFABVx0QAVceAQFXHwEBZxwwAWcdYAFnHgEBZx8BAYccYAGHHZABhx6gAYcfkAGXHHABlx2QAZcegQGXHwEBtxwgAbcdQAG3HiEBtx8BAUcMAg==</data>
 					<key>FuncGroup</key>
