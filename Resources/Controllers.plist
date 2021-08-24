@@ -909,6 +909,8 @@
 	<dict>
 		<key>Device</key>
 		<integer>41329</integer>
+		<key>Model</key>
+		<string>Laptop</string>
 		<key>Name</key>
 		<string>200 Series Mobile PCH HD Audio</string>
 		<key>Patches</key>
@@ -948,6 +950,43 @@
 				<string>AppleHDAController</string>
 				<key>Replace</key>
 				<data>DgAAuHCdAADrBpA=</data>
+			</dict>
+		</array>
+		<key>Vendor</key>
+		<string>Intel</string>
+	</dict>
+	<dict>
+		<key>Device</key>
+		<integer>41329</integer>
+		<key>Model</key>
+		<string>Desktop</string>
+		<key>Name</key>
+		<string>Intel NUC8i7HVK 200 Series PCH HD Audio</string>
+		<key>Patches</key>
+		<array>
+			<dict>
+				<key>Count</key>
+				<integer>6</integer>
+				<key>Find</key>
+				<data>cKEAAA==</data>
+				<key>MinKernel</key>
+				<integer>16</integer>
+				<key>Name</key>
+				<string>AppleHDAController</string>
+				<key>Replace</key>
+				<data>caEAAA==</data>
+			</dict>
+			<dict>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Find</key>
+				<data>hoBwoQ==</data>
+				<key>MinKernel</key>
+				<integer>16</integer>
+				<key>Name</key>
+				<string>AppleHDAController</string>
+				<key>Replace</key>
+				<data>hoBxoQ==</data>
 			</dict>
 		</array>
 		<key>Vendor</key>
