@@ -70,6 +70,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>ALC236 for Lenovo IdeaPad 330S-14IKB by Ab2774</string>
+				<key>Id</key>
+				<integer>17</integer>
+				<key>Path</key>
+				<string>layout17.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>ALC236 for Lenovo LEGION Y7000/Y530 by xiaoM</string>
 				<key>Id</key>
 				<integer>18</integer>
@@ -158,6 +166,14 @@
 				<integer>16</integer>
 				<key>Path</key>
 				<string>Platforms16.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>ALC236 for Lenovo IdeaPad 330S-14IKB by Ab2774</string>
+				<key>Id</key>
+				<integer>17</integer>
+				<key>Path</key>
+				<string>Platforms17.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
