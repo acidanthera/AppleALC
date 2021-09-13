@@ -22,6 +22,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Intel NUC8</string>
+				<key>Id</key>
+				<integer>8</integer>
+				<key>Path</key>
+				<string>layout8.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>ALC235 for Lenovo by soto2080</string>
 				<key>Id</key>
 				<integer>11</integer>
@@ -142,6 +150,14 @@
 				<integer>3</integer>
 				<key>Path</key>
 				<string>PlatformsM.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Intel NUC8</string>
+				<key>Id</key>
+				<integer>8</integer>
+				<key>Path</key>
+				<string>Platforms8.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>

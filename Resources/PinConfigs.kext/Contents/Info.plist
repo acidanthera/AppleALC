@@ -862,6 +862,24 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>Realtek ALC235 Intel NUC 8</string>
+					<key>CodecID</key>
+					<integer>283902517</integer>
+					<key>ConfigData</key>
+					<data>ASccIAEnHQEBJx6mAScfkAGXHDABlx6nAZcfAA==</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>8</integer>
+					<key>WakeConfigData</key>
+					<data></data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>Mirone - Realtek ALC235</string>
 					<key>CodecID</key>
 					<integer>283902517</integer>
@@ -1407,6 +1425,22 @@
 					<integer>66</integer>
 					<key>WakeConfigData</key>
 					<data>AUcMAgG3DAICFwwC</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>Codec</key>
+					<string>ALC255, Dell Optiplex 7040 MT</string>
+					<key>CodecID</key>
+					<integer>283902549</integer>
+					<key>ConfigData</key>
+					<data>AgUARQIE1IkBJxzwAZccQAGXHRABlx6nAZcfkA==</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>12</integer>
+					<key>WakeConfigData</key>
+					<data></data>
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
@@ -2857,6 +2891,24 @@
 					<integer>66</integer>
 					<key>WakeConfigData</key>
 					<data>AUcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>Vorshim92 - Realtek ALC269 - GF63 Thin 9SEXR</string>
+					<key>CodecID</key>
+					<integer>283902569</integer>
+					<key>ConfigData</key>
+					<data>ASccQAEnHQABJx6gAScfkAFHHBABRx0AAUceFwFHH5ABRwwCAVccUAFXHRABVx4hAVcfAAFXDAIBhxwwAYcdEAGHHoEBhx8A</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>69</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgFXDAI=</data>
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
@@ -4972,6 +5024,20 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>Andres ZeroCross - ALC623 Lenovo M70T</string>
+					<key>CodecID</key>
+					<integer>283903523</integer>
+					<key>ConfigData</key>
+					<data>AUccEAFHHUABRx4RAUcfkAGHHCABhx2QAYceoAGHH5ABlxxgAZcdkAGXHoEBlx8CAhccUAIXHUACFx4hAhcfAQ==</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>21</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>Mirone - Realtek ALC662</string>
 					<key>CodecID</key>
 					<integer>283903586</integer>
@@ -6395,6 +6461,24 @@
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>100</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgG3DAI=</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>CodecID</key>
+					<integer>283904146</integer>
+					<key>Comment</key>
+					<string>Custom ALC892 for G4/G5mod by ATL</string>
+					<key>ConfigData</key>
+					<data>AUccEAFHHUABRx4BAUcfAQFHDAIBtxwgAbcdEAG3HhABtx+QAbcMAgGHHDABhx2QAYceoQGHHwEBVxxQAVcdEAFXHgEBVx8BAWccYAFnHQEBZx7wAWcfcAF3HHABdx0gAXceAQF3HwEBlxyAAZcdkAGXHiEBlx8CAZcMAgGnHJABpx0wAacegQGnHwEB5xygAecdYQHnHkUB5x8B</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>32</integer>
 					<key>WakeConfigData</key>
 					<data>AUcMAgG3DAI=</data>
 					<key>WakeVerbReinit</key>
@@ -8723,6 +8807,24 @@
 					<integer>70</integer>
 					<key>WakeConfigData</key>
 					<data>AbcMAgFHDAICFwwC</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>sweet3c - ALC289 for XPS 9500 4k </string>
+					<key>CodecID</key>
+					<integer>283902601</integer>
+					<key>ConfigData</key>
+					<data>ASccIAEnHQEBJx6mAScfkAE3HPABNx0AATceAAE3H0ABRxxAAUcdAQFHHhcBRx+QAUcMAgFnHPABZx0AAWceAAFnH0ABdxxgAXcdIQF3HhEBdx+QAXcMAgGHHPABhx0AAYceAAGHH0ABlxxwAZcdEAGXHosBlx8CAacc8AGnHQABpx4AAacfQAG3HPABtx0AAbceAAG3H0AB1xzwAdcdAAHXHgAB1x9AAecc8AHnHQAB5x4AAecfQAIXHDACFx0QAhceKwIXHwICFwwC</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>93</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgIXDAI=</data>
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
