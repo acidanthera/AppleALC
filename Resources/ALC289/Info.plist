@@ -52,6 +52,14 @@
 				<key>Path</key>
 				<string>layout87.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>sweet3c - Realtek ALC289 for XPS 9500 4K</string>
+				<key>Id</key>
+				<integer>93</integer>
+				<key>Path</key>
+				<string>layout93.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -94,6 +102,14 @@
 				<integer>87</integer>
 				<key>Path</key>
 				<string>Platforms87.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>sweet3c - Realtek ALC289 for XPS 9500 4K</string>
+				<key>Id</key>
+				<integer>93</integer>
+				<key>Path</key>
+				<string>Platforms93.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>

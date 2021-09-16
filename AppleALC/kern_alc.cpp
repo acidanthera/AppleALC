@@ -227,6 +227,7 @@ void AlcEnabler::updateProperties() {
 
 				for (size_t gpu = 0; gpu < devInfo->videoExternal.size(); gpu++) {
 					auto hdaService = devInfo->videoExternal[gpu].audio;
+					if (!hdaService) continue;
 					if (checkVerbs && hdaService->getProperty("alc-verbs")) {
 						enableHdaVerbs = 1;
 						checkVerbs = false;
