@@ -1,6 +1,6 @@
 <dict>
 	<key>LayoutID</key>
-	<integer>15</integer>
+	<integer>36</integer>
 	<key>PathMapRef</key>
 	<array>
 		<dict>
@@ -27,7 +27,7 @@
 				<key>HeadsetMic_dBV</key>
 				<integer>1088421888</integer>
 				<key>MuteGPIO</key>
-				<integer>1342242841</integer>
+				<integer>1342242840</integer>
 				<key>SignalProcessing</key>
 				<dict>
 					<key>SoftwareDSP</key>
@@ -218,7 +218,7 @@
 			<key>Mic</key>
 			<dict>
 				<key>MuteGPIO</key>
-				<integer>0</integer>
+				<integer>1342242841</integer>
 				<key>SignalProcessing</key>
 				<dict>
 					<key>SoftwareDSP</key>
@@ -760,7 +760,7 @@
 				<string>Headphone</string>
 			</array>
 			<key>PathMapID</key>
-			<integer>15</integer>
+			<integer>36</integer>
 		</dict>
 	</array>
 </dict>
