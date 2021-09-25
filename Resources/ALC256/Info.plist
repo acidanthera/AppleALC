@@ -70,6 +70,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Andres ZeroCross for Asus AIO PC V222UAK-WA541T</string>
+				<key>Id</key>
+				<integer>20</integer>
+				<key>Path</key>
+				<string>layout20.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Andres ZeroCross for Dell 5570</string>
 				<key>Id</key>
 				<integer>21</integer>
@@ -238,6 +246,14 @@
 				<integer>19</integer>
 				<key>Path</key>
 				<string>Platforms19.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Andres ZeroCross for Asus AIO PC V222UAK-WA541T</string>
+				<key>Id</key>
+				<integer>20</integer>
+				<key>Path</key>
+				<string>Platforms20.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
