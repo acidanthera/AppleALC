@@ -8954,6 +8954,24 @@
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>Conexant CX11970 (CX8400) for Acer Swift 3 SF313 (Ice Lake) by b0ltun</string>
+					<key>CodecID</key>
+					<integer>351346896</integer>
+					<key>ConfigData</key>
+					<data>AXccEAF3HQEBdx4XAXcfkQF3DAIBlxwgAZcdkAGXHoEBlx8EAWccEAFnHUABZx4hAWcfBAFnDAIBlwckAaccIAGnHQEBpx6gAacfkAGnByQ=</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>13</integer>
+					<key>WakeConfigData</key>
+					<data>AXcMAgFnDAIBlwckAacHJA==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
 			</array>
 			<key>IOClass</key>
 			<string>AppleALC</string>
