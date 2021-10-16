@@ -7350,6 +7350,22 @@
 					<key>CodecID</key>
 					<integer>283904768</integer>
 					<key>CodecName</key>
+					<string>ALCS1200A for B550M Gaming Carbon WIFI by Kila2</string>
+					<key>ConfigData</key>
+					<data>AUccEAFHHVABRx4RAUcfkQFHDAIBZxwgAWcdEAFnHgEBZx8BAVccMAFXHRABVx4BAVcfAQGHHEABhx0QAYceoQGHH5EBpxxQAacdEAGnHoEBpx8BAZccYAGXHZABlx6BAZcfAgG3HHABtx1AAbceIQG3HwIBtwwCAecckAHnHREB5x5FAecfAQEXHPABFx0AARceAAEXH0ABdxzwAXcdAAF3HgABdx9A</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>7</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgG3DAI=</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>CodecID</key>
+					<integer>283904768</integer>
+					<key>CodecName</key>
 					<string>owen0o0 -  Realtek ALCS1200A</string>
 					<key>ConfigData</key>
 					<data>AUccQAFHHVABRx4RAUcfkAFHDAIBZxxhAWcdEAFnHgEBZx8BAVccYgFXHRABVx4BAVcfAQG3HFABtx1AAbceIQG3HwIBtwwCAecccAHnHREB5x5FAecfAQGHHBABhx0QAYceoQGHH5ABpxwgAacdEAGnHoEBpx8BAZccgAGXHZABlx6hAZcfAgF3HPABdx0AAXceAAF3H0ABFxzwARcdAAEXHgABFx9A</data>
