@@ -110,6 +110,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>ALC892 for ASRock B365 Pro4 By TheHackGuy</string>
+				<key>Id</key>
+				<integer>23</integer>
+				<key>Path</key>
+				<string>layout23.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>ALC892 for Clevo P751DMG by Cryse Hillmes</string>
 				<key>Id</key>
 				<integer>28</integer>
@@ -286,6 +294,14 @@
 				<integer>22</integer>
 				<key>Path</key>
 				<string>Platforms22.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>ALC892 for ASRock B365 Pro4 By TheHackGuy</string>
+				<key>Id</key>
+				<integer>23</integer>
+				<key>Path</key>
+				<string>Platforms23.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>

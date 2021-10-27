@@ -6434,6 +6434,24 @@
 					<key>CodecID</key>
 					<integer>283904146</integer>
 					<key>Comment</key>
+					<string>ALC892 for ASRock B365 Pro4 By TheHackGuy</string>
+					<key>ConfigData</key>
+					<data>AUccEAFHHUABRx4BAUcfAQFHDAIBhxwgAYcdkAGHHqABhx+BAaccMAGnHTABpx6BAacfAQ==</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>23</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>		
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>CodecID</key>
+					<integer>283904146</integer>
+					<key>Comment</key>
 					<string>ALC892 for Clevo P751DMG by Cryse Hillmes</string>
 					<key>ConfigData</key>
 					<data>ASccEAEnHQEBJx6mAScfkAFHHEABRx0BAUceFwFHH5ABdxxgAXcdEAF3HgEBdx8BAYccgAGHHRABhx6BAYcfAQGnHCABpx0QAacegQGnHwEBtxxQAbcdEAG3HiEBtx8BAecccAHnHRAB5x5FAecfAQFHDAI=</data>
