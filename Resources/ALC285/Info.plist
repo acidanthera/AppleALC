@@ -54,6 +54,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Realtek ALC285 for Lenovo Legion S740 15-IRH (Y9000X 2020) by R-a-s-c-a-l</string>
+				<key>Id</key>
+				<integer>66</integer>
+				<key>Path</key>
+				<string>layout66.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>jpuxdev - Realtek ALC285 for Spectre x360 13-ap0xxx</string>
 				<key>Id</key>
 				<integer>71</integer>
@@ -102,6 +110,14 @@
 				<integer>61</integer>
 				<key>Path</key>
 				<string>Platforms61.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Realtek ALC285 for Lenovo Legion S740 15-IRH (Y9000X 2020) by R-a-s-c-a-l</string>
+				<key>Id</key>
+				<integer>66</integer>
+				<key>Path</key>
+				<string>Platforms66.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
