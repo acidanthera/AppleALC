@@ -2786,6 +2786,22 @@
 					<key>CodecID</key>
 					<integer>283902569</integer>
 					<key>Comment</key>
+					<string>hua0512 - Realtek ALC269 for Medium Akoya P6653</string>
+					<key>ConfigData</key>
+					<data>AUccEAFHHQEBRx4XAUcfmQFXHCABVx0QAVceIQFXHwEBVwwCAYccQAGHHRABhx6BAYcfAQEnHDABJx0BAScepgEnH5kBRwwC</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>25</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>ALC269</string>
+					<key>CodecID</key>
+					<integer>283902569</integer>
+					<key>Comment</key>
 					<string>Custom ALC269 for Acer Aspire by Andrey1970</string>
 					<key>ConfigData</key>
 					<data>AUccAAFHHUEBRx4XAUcfmQGHHBABhx2QAYcegQGHHwEBtxwgAbcdkQG3HqcBtx+ZAhccMAIXHUACFx4hAhcfAQ==</data>
