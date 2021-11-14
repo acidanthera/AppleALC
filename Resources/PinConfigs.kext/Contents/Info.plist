@@ -898,6 +898,24 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>Deskmini H470 ALC235 by dumk1217</string>
+					<key>CodecID</key>
+					<integer>283902517</integer>
+					<key>ConfigData</key>
+					<data>AScc8AEnHQABJx4AAScfQAHXHPAB1x0AAdceAAHXH0ACFxwQAhcdQAIXHiECFx8CAhcMAgG3HCABtx0AAbceEwG3H5kBtwwCAZccMAGXHQABlx6jAZcfmQGnHEABpx1QAacegQGnHwIBRxzwAUcdAAFHHgABRx9AAUcMAgF3HPABdx0AAXceAAF3H0ABhxzwAYcdAAGHHgABhx9AAecc8AHnHQAB5x4AAecfQA==</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>13</integer>
+					<key>WakeConfigData</key>
+					<data>AhcMAgG3DAIBRwwC</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>Mirone - Realtek ALC235</string>
 					<key>CodecID</key>
 					<integer>283902517</integer>
@@ -4013,6 +4031,24 @@
 					<integer>88</integer>
 					<key>WakeConfigData</key>
 					<data>AUcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>ThinkCentre M73(10AX) ALC283 by dumk1217</string>
+					<key>CodecID</key>
+					<integer>283902595</integer>
+					<key>ConfigData</key>
+					<data>ISccACEnHQAhJx4AIScfQCHXHAEh1x0AIdceQCHXH0AiFxwQIhcdQCIXHiEiFx8CIhcMAiFHHCAhRx0BIUceFyFHH5AhRwwCIZccMCGXHZAhlx6jIZcfmSGnHEAhpx2QIacegSGnHwEhdxzwIXcdACF3HgAhdx9AIYcc8CGHHQAhhx4AIYcfQCG3HPAhtx0AIbceACG3H0AhtwwCIecc8CHnHQAh5x4AIecfQA==</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>12</integer>
+					<key>WakeConfigData</key>
+					<data>IhcMAiFHDAIhtwwC</data>
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
