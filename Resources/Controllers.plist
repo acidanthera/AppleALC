@@ -27,6 +27,29 @@
 	</dict>
 	<dict>
 		<key>Device</key>
+		<integer>31440</integer>
+		<key>Name</key>
+		<string>Z690 PCH cAVs</string>
+		<key>Patches</key>
+		<array>
+			<dict>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Find</key>
+				<data>DgAAvgIAAABIid8=</data>
+				<key>MinKernel</key>
+				<integer>19</integer>
+				<key>Name</key>
+				<string>AppleHDAController</string>
+				<key>Replace</key>
+				<data>DgAAuEijAADrBpA=</data>
+			</dict>
+		</array>
+		<key>Vendor</key>
+		<string>Intel</string>
+	</dict>
+	<dict>
+		<key>Device</key>
 		<integer>4016</integer>
 		<key>Name</key>
 		<string>NVIDIA HDMI for GM200 in 10.13.4 - 10.13.6</string>
