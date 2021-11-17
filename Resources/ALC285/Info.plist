@@ -60,6 +60,14 @@
 				<key>Path</key>
 				<string>layout71.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Realtek ALC285 for Yoga S740 by frozenzero123</string>
+				<key>Id</key>
+				<integer>88</integer>
+				<key>Path</key>
+				<string>layout88.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -110,6 +118,14 @@
 				<integer>71</integer>
 				<key>Path</key>
 				<string>Platforms71.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Realtek ALC285 for Yoga S740 by frozenzero123</string>
+				<key>Id</key>
+				<integer>88</integer>
+				<key>Path</key>
+				<string>Platforms88.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>
