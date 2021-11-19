@@ -94,7 +94,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string> [MSI] (0x1462)Realtek ALC662 rev3</string>
+				<string>Custom ALC662 for MSI X79A-GD65</string>
 				<key>Id</key>
 				<integer>19</integer>
 				<key>Path</key>
@@ -185,7 +185,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string> [MSI] (0x1462)Realtek ALC662 rev3</string>
+				<string>Custom ALC662 for MSI X79A-GD65</string>
 				<key>Id</key>
 				<integer>19</integer>
 				<key>Path</key>
