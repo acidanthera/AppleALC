@@ -9042,6 +9042,24 @@
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>[MSI] (0x1462)Realtek ALC662 rev3</string>
+					<key>CodecID</key>
+					<integer>283903586</integer>
+					<key>ConfigData</key>
+					<data>AUccEAFHHUABRx4RAUcfkQGHHCABhx2QAYceoAGHH5EBpxwwAacdMAGnHoEBpx+RAbccUAG3HUABtx4hAbcfAgGXHEABlx2QAZceoQGXHwI=</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>19</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgG3DAI=</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
 			</array>
 			<key>IOClass</key>
 			<string>AppleALC</string>

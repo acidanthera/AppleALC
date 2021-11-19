@@ -92,6 +92,14 @@
 				<key>Path</key>
 				<string>layout66.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string> [MSI] (0x1462)Realtek ALC662 rev3</string>
+				<key>Id</key>
+				<integer>19</integer>
+				<key>Path</key>
+				<string>layout19.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -174,6 +182,14 @@
 				<integer>66</integer>
 				<key>Path</key>
 				<string>Platforms66.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string> [MSI] (0x1462)Realtek ALC662 rev3</string>
+				<key>Id</key>
+				<integer>19</integer>
+				<key>Path</key>
+				<string>Platforms19.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>
