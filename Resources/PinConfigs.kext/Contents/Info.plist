@@ -3761,6 +3761,24 @@
 				<dict>
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
+					<key>CodecID</key>
+					<integer>283902594</integer>
+					<key>Comment</key>
+					<string>Custom ALC282 Soarsea S210H by Jokerman1991</string>
+					<key>ConfigData</key>
+					<data>ASccAAEnHQABJx4AAScfQAHXHAUB1x2bAdceRgHXH0ABRxwQAUcdAQFHHhcBRx+QAhccIAIXHRACFx4hAhcfBAGXHDABlx0BAZcepwGXH5ABdxzwAXcdEQF3HhEBdx9BAYcc8AGHHREBhx4RAYcfQQGnHPABpx0RAaceEQGnH0EBtxzwAbcdEQG3HhEBtx9BAecc8AHnHREB5x4RAecfQQFHDAI=</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>30</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
 					<key>Codec</key>
 					<string>Custom ALC282 Lenovo Y410P by yunsur</string>
 					<key>CodecID</key>
