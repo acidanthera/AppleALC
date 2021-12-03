@@ -102,11 +102,27 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Andres ZeroCross - Intel NUC NUC10i5FNH</string>
+				<key>Id</key>
+				<integer>24</integer>
+				<key>Path</key>
+				<string>layout24.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>vusun123 - ALC256 for Asus X555UJ</string>
 				<key>Id</key>
 				<integer>28</integer>
 				<key>Path</key>
 				<string>layout28.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>insanelyme - ALC256 for Huawei Matebook D15 2018 (MRC-W10)</string>
+				<key>Id</key>
+				<integer>33</integer>
+				<key>Path</key>
+				<string>layout33.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -289,11 +305,27 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Andres ZeroCross - Intel NUC NUC10i5FNH</string>
+				<key>Id</key>
+				<integer>24</integer>
+				<key>Path</key>
+				<string>Platforms24.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>vusun123 - ALC256 for Asus X555UJ</string>
 				<key>Id</key>
 				<integer>28</integer>
 				<key>Path</key>
 				<string>Platforms28.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>insanelyme - ALC256 for Huawei Matebook D15 2018 (MRC-W10)</string>
+				<key>Id</key>
+				<integer>33</integer>
+				<key>Path</key>
+				<string>Platforms33.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
