@@ -1310,5 +1310,28 @@
 		<key>Vendor</key>
 		<string>Intel</string>
 	</dict>
+	<dict>
+		<key>Device</key>
+		<integer>31440</integer>
+		<key>Name</key>
+		<string>600 Series(0x7AD0) PCH HD Audio</string>
+		<key>Patches</key>
+		<array>
+			<dict>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Find</key>
+				<data>DgAAvgIAAABIid8=</data>
+				<key>MinKernel</key>
+				<integer>19</integer>
+				<key>Name</key>
+				<string>AppleHDAController</string>
+				<key>Replace</key>
+				<data>DgAAuEijAADrBpA=</data>
+			</dict>
+		</array>
+		<key>Vendor</key>
+		<string>Intel</string>
+	</dict>
 </array>
 </plist>
