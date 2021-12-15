@@ -51,12 +51,14 @@
 								</dict>
 								<key>NodeID</key>
 								<integer>19</integer>
+								<key>ProcessingState</key>
+								<true/>
 							</dict>
 							<dict>
 								<key>Boost</key>
 								<integer>1</integer>
 								<key>NodeID</key>
-								<integer>26</integer>
+								<integer>25</integer>
 							</dict>
 						</array>
 					</array>
@@ -96,7 +98,7 @@
 									<false/>
 								</dict>
 								<key>NodeID</key>
-								<integer>16</integer>
+								<integer>17</integer>
 							</dict>
 						</array>
 					</array>
@@ -134,7 +136,7 @@
 									<false/>
 								</dict>
 								<key>NodeID</key>
-								<integer>17</integer>
+								<integer>16</integer>
 							</dict>
 						</array>
 					</array>
