@@ -86,8 +86,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-<<<<<<< HEAD
-=======
 				<string>JudySL - ALC236 for Lenovo Air 13 IML(S530-13IML)</string>
 				<key>Id</key>
 				<integer>23</integer>
@@ -96,7 +94,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
->>>>>>> 2ed6af4505a81c8c8f5a6b18c249eb478266739c
 				<string>volcbs - ALC236 for Lenovo Ideapad 510s 14isk (modified from MacPeet's)</string>
 				<key>Id</key>
 				<integer>36</integer>
@@ -196,8 +193,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-<<<<<<< HEAD
-=======
 				<string>JudySL - ALC236 for Lenovo Air 13 IML(S530-13IML)</string>
 				<key>Id</key>
 				<integer>23</integer>
@@ -206,7 +201,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
->>>>>>> 2ed6af4505a81c8c8f5a6b18c249eb478266739c
 				<string>volcbs - ALC236 for Lenovo Ideapad 510s 14isk (modified from MacPeet's)</string>
 				<key>Id</key>
 				<integer>36</integer>
