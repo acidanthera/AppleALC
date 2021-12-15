@@ -7922,11 +7922,11 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
-					<string>rdmitry0911 - Conexant CX8200 for LG Gram 17 17z990</string>
+					<string>Conexant CX8200 for LG Gram Z990/Z90N</string>
 					<key>CodecID</key>
 					<integer>351346696</integer>
 					<key>ConfigData</key>
-					<data>AXccEAF3HQEBdx4XAXcfkQF3DAIBpxwgAacdAQGnHqcBpx+VAZccMAGXHRABlx6BAZcfBAFnHEABZx0QAWceIQFnHwQBZwwC</data>
+					<data>AXccEAF3HQEBdx4XAXcfkQF3DAIBpxwgAacdAQGnHqABpx+VAZccMAGXHRABlx6AAZcfBAFnHEABZx0QAWceIQFnHwQBZwwC</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
