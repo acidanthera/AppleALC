@@ -1,27 +1,32 @@
 <dict>
 	<key>LayoutID</key>
-	<integer>11</integer>
+	<integer>30</integer>
 	<key>PathMapRef</key>
 	<array>
 		<dict>
 			<key>CodecID</key>
 			<array>
-				<integer>283902497</integer>
+				<integer>283902594</integer>
 			</array>
 			<key>Headphone</key>
-			<dict/>
+			<dict>
+				<key>AmpPreDelay</key>
+				<integer>50</integer>
+				<key>Headset_dBV</key>
+				<integer>3239051264</integer>
+			</dict>
 			<key>Inputs</key>
 			<array>
-				<string>LineIn</string>
+				<string>Mic</string>
 			</array>
 			<key>IntSpeaker</key>
 			<dict>
 				<key>MaximumBootBeepValue</key>
 				<integer>64</integer>
-				<key>MuteGPIO</key>
-				<integer>0</integer>
 			</dict>
 			<key>LineIn</key>
+			<dict/>
+			<key>Mic</key>
 			<dict>
 				<key>MuteGPIO</key>
 				<integer>1342242841</integer>
@@ -292,16 +297,13 @@
 					</dict>
 				</dict>
 			</dict>
-			<key>LineOut</key>
-			<dict/>
 			<key>Outputs</key>
 			<array>
-				<string>IntSpeaker</string>
 				<string>Headphone</string>
-				<string>LineOut</string>
+				<string>IntSpeaker</string>
 			</array>
 			<key>PathMapID</key>
-			<integer>11</integer>
+			<integer>282</integer>
 		</dict>
 	</array>
 </dict>

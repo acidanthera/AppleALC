@@ -1,5 +1,38 @@
 AppleALC Changelog
 ==================
+#### v1.6.7
+- Added 600-series controller patch by @R-a-s-c-a-l
+- Added ALC282 layout-id 69 for Lenovo IdeaPad Z510 by hoseinrez
+- Added ALC285 layout-id 66 for for Lenovo Legion S740 15-IRH by @R-a-s-c-a-l
+- Fix PinConfigs Device and Port in ALC662v3 by static-host
+- Added ALC269 layout-id 25 for Medium Akoya p6653 by hua0512
+- Added ALC235 layout-id 13 for Deskmini H470 by dumk1217
+- Added ALC283 layout-id 12 for ThinkCentre M73(10AX) ALC283 by dumk1217
+- Added ALC285 layout-id 88 for Yoga S740 by frozenzero123
+- Fix ALC256 layout-id 67 unable to change the built-in Speaker Volume through the hotkey after unplugging the headphone by @R-a-s-c-a-l
+- Fix ALC298 layout-id 11 wake data for Alienware 17 R4 by RockJesus
+- Added ALC282 layout-id 30 for Soarsea S210H by Jokerman1991
+- Added ALC662 layout-id 19 for MSI X79A-GD65 by @wy414012
+
+#### v1.6.6
+- Added ALC256 layout-id 24 for Intel NUC NUC10i5FNH by Andres ZeroCross
+- Added Conexant CX11970 (CX8400) layout-id 13 for Acer Swift 3 SF31* (Ice Lake) by m0d16l14n1
+- Added ALCS1200A layout-id 7 for B550M Gaming Carbon WIFI by Kila2
+- Try to solve wake up mute for GP75 9SD by Win7GM
+- Added ALC256 layout-id 33 for Huawei Matebook D15 MRC-W10 by im1ke
+- Added ALC892 layout-id 23 for ASRock B365 Pro4 by TheHackGuy
+- Fixed ALC221 layout-id 11 for HP6300/8300 rear line-in jack by adding DSP functions by aloha-cn
+
+#### v1.6.5
+- Added ALC236 for Lenovo IdeaPad 330S-14IKB by Ab2774
+- Some updates and revisions for ALC236 LayoutID 36 by volcbs
+- Added ALC897 for GIGABYTE Z590 Gaming X by Sergey_Galan 
+- Added ALC294 layout-id 99 for ASUS ROG GU502LV by htmambo
+- Added ALC256 layout-id 99 for XiaoMiPro 2020 by htmambo
+- Added ALC897 layout-id 23 for Chuwi-CoreBookX14 by weachy
+- Added ALC256 layout-id 20 for Asus AIO PC V222UAK-WA541T by andreszerocross
+- Added ALC236 layout-id 23 for Lenovo Air 13 IML(S530-13IML) by JudySL
+
 #### v1.6.4
 - Added 10.4 and 10.5 support, and 10.6 and 10.7 support in 32-bit mode
 - Update STAC9200 layout-id 11 to support 10.4 to 10.6

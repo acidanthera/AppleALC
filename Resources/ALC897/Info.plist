@@ -14,6 +14,14 @@
 		<array>
 			<dict>
 				<key>Comment</key>
+				<string>ALC897 for Chuwi-CoreBookX14 by weachy</string>
+				<key>Id</key>
+				<integer>23</integer>
+				<key>Path</key>
+				<string>layout23.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Asus_PRIME_B460M-K_ALC897</string>
 				<key>Id</key>
 				<integer>66</integer>
@@ -28,9 +36,25 @@
 				<key>Path</key>
 				<string>layout69.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom ALC897 by Sergey_Galan  for GIGABYTE Z590 Gaming X</string>
+				<key>Id</key>
+				<integer>12</integer>
+				<key>Path</key>
+				<string>layout12.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
+			<dict>
+				<key>Comment</key>
+				<string>ALC897 for Chuwi-CoreBookX14 by weachy</string>
+				<key>Id</key>
+				<integer>23</integer>
+				<key>Path</key>
+				<string>Platforms23.xml.zlib</string>
+			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>Asus_PRIME_B460M-K_ALC897</string>
@@ -46,6 +70,14 @@
 				<integer>69</integer>
 				<key>Path</key>
 				<string>Platforms69.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom ALC897 by Sergey_Galan  for GIGABYTE Z590 Gaming X</string>
+				<key>Id</key>
+				<integer>12</integer>
+				<key>Path</key>
+				<string>Platforms12.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>

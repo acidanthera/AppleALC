@@ -70,6 +70,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>ALC236 for Lenovo IdeaPad 330S-14IKB by Ab2774</string>
+				<key>Id</key>
+				<integer>17</integer>
+				<key>Path</key>
+				<string>layout17.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>ALC236 for Lenovo LEGION Y7000/Y530 by xiaoM</string>
 				<key>Id</key>
 				<integer>18</integer>
@@ -78,6 +86,17 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+<<<<<<< HEAD
+=======
+				<string>JudySL - ALC236 for Lenovo Air 13 IML(S530-13IML)</string>
+				<key>Id</key>
+				<integer>23</integer>
+				<key>Path</key>
+				<string>layout23.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+>>>>>>> 2ed6af4505a81c8c8f5a6b18c249eb478266739c
 				<string>volcbs - ALC236 for Lenovo Ideapad 510s 14isk (modified from MacPeet's)</string>
 				<key>Id</key>
 				<integer>36</integer>
@@ -161,6 +180,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>ALC236 for Lenovo IdeaPad 330S-14IKB by Ab2774</string>
+				<key>Id</key>
+				<integer>17</integer>
+				<key>Path</key>
+				<string>Platforms17.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>ALC236 for Lenovo LEGION Y7000/Y530 by xiaoM</string>
 				<key>Id</key>
 				<integer>18</integer>
@@ -169,6 +196,17 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+<<<<<<< HEAD
+=======
+				<string>JudySL - ALC236 for Lenovo Air 13 IML(S530-13IML)</string>
+				<key>Id</key>
+				<integer>23</integer>
+				<key>Path</key>
+				<string>Platforms23.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+>>>>>>> 2ed6af4505a81c8c8f5a6b18c249eb478266739c
 				<string>volcbs - ALC236 for Lenovo Ideapad 510s 14isk (modified from MacPeet's)</string>
 				<key>Id</key>
 				<integer>36</integer>
