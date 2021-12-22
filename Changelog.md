@@ -1,5 +1,8 @@
 AppleALC Changelog
 ==================
+#### v1.6.8
+- Replace patch for 500 Series(0x43C8) PCH HD Audio
+
 #### v1.6.7
 - Added 600-series controller patch by @R-a-s-c-a-l
 - Added ALC282 layout-id 69 for Lenovo IdeaPad Z510 by hoseinrez
