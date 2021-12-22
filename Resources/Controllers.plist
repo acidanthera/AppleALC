@@ -912,40 +912,16 @@
 		<key>Model</key>
 		<string>Laptop</string>
 		<key>Name</key>
-		<string>200 Series Mobile PCH HD Audio</string>
+		<string>200 Series (0xA171) Mobile PCH HD Audio</string>
 		<key>Patches</key>
 		<array>
-			<dict>
-				<key>Count</key>
-				<integer>6</integer>
-				<key>Find</key>
-				<data>cKEAAA==</data>
-				<key>MinKernel</key>
-				<integer>16</integer>
-				<key>Name</key>
-				<string>AppleHDAController</string>
-				<key>Replace</key>
-				<data>caEAAA==</data>
-			</dict>
-			<dict>
-				<key>Count</key>
-				<integer>1</integer>
-				<key>Find</key>
-				<data>hoBwoQ==</data>
-				<key>MinKernel</key>
-				<integer>16</integer>
-				<key>Name</key>
-				<string>AppleHDAController</string>
-				<key>Replace</key>
-				<data>hoBxoQ==</data>
-			</dict>
 			<dict>
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Find</key>
 				<data>DgAAvgIAAABIid8=</data>
 				<key>MinKernel</key>
-				<integer>19</integer>
+				<integer>15</integer>
 				<key>Name</key>
 				<string>AppleHDAController</string>
 				<key>Replace</key>
