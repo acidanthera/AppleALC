@@ -1,4 +1,6 @@
 <dict>
+    <key>Comment</key>
+    <string>ALC892 for ASRock B365 Pro4 By TheHackGuy</string>
 	<key>LayoutID</key>
 	<integer>23</integer>
 	<key>PathMapRef</key>
@@ -8,6 +10,8 @@
 			<array>
 				<integer>283904146</integer>
 			</array>
+			<key>Headphone</key>
+			<dict/>
 			<key>Inputs</key>
 			<array>
 				<string>Mic</string>
@@ -596,6 +600,7 @@
 			<key>Outputs</key>
 			<array>
 				<string>LineOut</string>
+				<string>Headphone</string>
 			</array>
 			<key>PathMapID</key>
 			<integer>23</integer>
