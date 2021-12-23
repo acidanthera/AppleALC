@@ -14,6 +14,14 @@
 		<array>
 			<dict>
 				<key>Comment</key>
+				<string>hua0512 - Realtek ALC269 for Medium Akoya P6653</string>
+				<key>Id</key>
+				<integer>25</integer>
+				<key>Path</key>
+				<string>layout25.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Custom ALC269VD ThinkPad T430</string>
 				<key>Id</key>
 				<integer>23</integer>
@@ -415,6 +423,14 @@
 		</array>
 		<key>Platforms</key>
 		<array>
+			<dict>
+				<key>Comment</key>
+				<string>hua0512 - Realtek ALC269 for Medium Akoya P6653</string>
+				<key>Id</key>
+				<integer>25</integer>
+				<key>Path</key>
+				<string>Platforms25.xml.zlib</string>
+			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>Custom ALC269VD ThinkPad T430</string>

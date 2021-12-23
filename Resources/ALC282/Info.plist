@@ -14,6 +14,14 @@
 		<array>
 			<dict>
 				<key>Comment</key>
+				<string>Custom ALC282 Lenovo-IdeaPad-Z510 by hoseinrez</string>
+				<key>Id</key>
+				<integer>69</integer>
+				<key>Path</key>
+				<string>layout69.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Mirone Laptop patch ALC282 v1</string>
 				<key>Id</key>
 				<integer>3</integer>
@@ -78,6 +86,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Custom ALC282 Soarsea S210H by Jokerman1991</string>
+				<key>Id</key>
+				<integer>30</integer>
+				<key>Path</key>
+				<string>layout30.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Custom ALC282 Lenovo Y410P by yunsur</string>
 				<key>Id</key>
 				<integer>41</integer>
@@ -127,6 +143,14 @@
 		</array>
 		<key>Platforms</key>
 		<array>
+			<dict>
+				<key>Comment</key>
+				<string>Custom ALC282 Lenovo-IdeaPad-Z510 by hoseinrez</string>
+				<key>Id</key>
+				<integer>69</integer>
+				<key>Path</key>
+				<string>Platforms69.xml.zlib</string>
+			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>Mirone resources</string>
@@ -190,6 +214,14 @@
 				<integer>29</integer>
 				<key>Path</key>
 				<string>Platforms29.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom ALC282 Soarsea S210H by Jokerman1991</string>
+				<key>Id</key>
+				<integer>30</integer>
+				<key>Path</key>
+				<string>Platforms30.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>

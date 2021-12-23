@@ -38,6 +38,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>ALCS1200A for B550M Gaming Carbon WIFI by Kila2</string>
+				<key>Id</key>
+				<integer>7</integer>
+				<key>Path</key>
+				<string>layout7.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>ALCS1200A for Asrock Z490M-ITX by VictorXu</string>
 				<key>Id</key>
 				<integer>49</integer>
@@ -100,6 +108,14 @@
 				<string>toleda resources</string>
 				<key>Id</key>
 				<integer>3</integer>
+				<key>Path</key>
+				<string>PlatformsT.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>toleda resources</string>
+				<key>Id</key>
+				<integer>7</integer>
 				<key>Path</key>
 				<string>PlatformsT.xml.zlib</string>
 			</dict>

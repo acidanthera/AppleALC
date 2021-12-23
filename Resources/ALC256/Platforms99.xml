@@ -9,14 +9,16 @@
 		</dict>
 		<dict>
 			<key>DeviceID</key>
-			<integer>1</integer>
+			<integer>0</integer>
 			<key>DeviceType</key>
-			<string>Headphone</string>
+			<string>Microphone</string>
 		</dict>
 	</array>
 	<key>PathMaps</key>
 	<array>
 		<dict>
+			<key>Comment</key>
+			<string>Hoping - Realtek ALC256 (3246) for XiaoMiPro 2020</string>
 			<key>PathMap</key>
 			<array>
 				<array>
@@ -49,47 +51,23 @@
 									<key>VolumeInputAmp</key>
 									<true/>
 								</dict>
+								<key>MinimumSampleRate</key>
+								<integer>48000</integer>
 								<key>NodeID</key>
-								<integer>8</integer>
+								<integer>7</integer>
 							</dict>
 							<dict>
-								<key>Amp</key>
-								<dict>
-									<key>Channels</key>
-									<array>
-										<dict>
-											<key>Bind</key>
-											<integer>1</integer>
-											<key>Channel</key>
-											<integer>1</integer>
-										</dict>
-										<dict>
-											<key>Bind</key>
-											<integer>2</integer>
-											<key>Channel</key>
-											<integer>2</integer>
-										</dict>
-									</array>
-									<key>MuteInputAmp</key>
-									<true/>
-									<key>PublishMute</key>
-									<true/>
-									<key>PublishVolume</key>
-									<true/>
-									<key>VolumeInputAmp</key>
-									<true/>
-								</dict>
 								<key>NodeID</key>
-								<integer>35</integer>
+								<integer>36</integer>
 							</dict>
 							<dict>
+								<key>Boost</key>
+								<integer>3</integer>
 								<key>NodeID</key>
 								<integer>18</integer>
 							</dict>
 						</array>
 					</array>
-				</array>
-				<array>
 					<array>
 						<array>
 							<dict>
@@ -119,40 +97,18 @@
 									<key>VolumeInputAmp</key>
 									<true/>
 								</dict>
+								<key>MinimumSampleRate</key>
+								<integer>48000</integer>
 								<key>NodeID</key>
-								<integer>9</integer>
+								<integer>8</integer>
 							</dict>
 							<dict>
-								<key>Amp</key>
-								<dict>
-									<key>Channels</key>
-									<array>
-										<dict>
-											<key>Bind</key>
-											<integer>1</integer>
-											<key>Channel</key>
-											<integer>1</integer>
-										</dict>
-										<dict>
-											<key>Bind</key>
-											<integer>2</integer>
-											<key>Channel</key>
-											<integer>2</integer>
-										</dict>
-									</array>
-									<key>MuteInputAmp</key>
-									<true/>
-									<key>PublishMute</key>
-									<true/>
-									<key>PublishVolume</key>
-									<true/>
-									<key>VolumeInputAmp</key>
-									<true/>
-								</dict>
 								<key>NodeID</key>
-								<integer>34</integer>
+								<integer>35</integer>
 							</dict>
 							<dict>
+								<key>Boost</key>
+								<integer>2</integer>
 								<key>NodeID</key>
 								<integer>25</integer>
 							</dict>
@@ -175,7 +131,7 @@
 									<false/>
 								</dict>
 								<key>NodeID</key>
-								<integer>20</integer>
+								<integer>27</integer>
 							</dict>
 							<dict>
 								<key>Amp</key>
@@ -204,6 +160,8 @@
 									<key>VolumeInputAmp</key>
 									<false/>
 								</dict>
+								<key>MinimumSampleRate</key>
+								<integer>48000</integer>
 								<key>NodeID</key>
 								<integer>2</integer>
 							</dict>
@@ -215,7 +173,7 @@
 								<key>Amp</key>
 								<dict>
 									<key>MuteInputAmp</key>
-									<false/>
+									<true/>
 									<key>PublishMute</key>
 									<true/>
 									<key>PublishVolume</key>
@@ -253,6 +211,8 @@
 									<key>VolumeInputAmp</key>
 									<false/>
 								</dict>
+								<key>MinimumSampleRate</key>
+								<integer>48000</integer>
 								<key>NodeID</key>
 								<integer>3</integer>
 							</dict>
@@ -261,7 +221,7 @@
 				</array>
 			</array>
 			<key>PathMapID</key>
-			<integer>36</integer>
+			<integer>256</integer>
 		</dict>
 	</array>
 </dict>
