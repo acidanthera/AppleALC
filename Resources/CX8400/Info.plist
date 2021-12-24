@@ -20,6 +20,14 @@
 				<key>Path</key>
 				<string>layout12.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Conexant CX11970 (CX8400) for Acer Swift 3 SF313 (Ice Lake) by b0ltun</string>
+				<key>Id</key>
+				<integer>13</integer>
+				<key>Path</key>
+				<string>layout13.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -30,6 +38,14 @@
 				<integer>12</integer>
 				<key>Path</key>
 				<string>Platforms12.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Conexant CX11970 (CX8400) for Acer Swift 3 SF313 (Ice Lake) by b0ltun</string>
+				<key>Id</key>
+				<integer>13</integer>
+				<key>Path</key>
+				<string>Platforms13.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>

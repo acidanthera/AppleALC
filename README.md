@@ -16,7 +16,7 @@ English (Current)
 - Arbitrary kext patching
 - Custom platform/layout injection
 - Works with SIP / El Capitan+
-- Currently compatible with 64-bit 10.6-12
+- Currently compatible with 10.4-12
 
 #### Credits
 - [Apple](https://www.apple.com) for macOS  

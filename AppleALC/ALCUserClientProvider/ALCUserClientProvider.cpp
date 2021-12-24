@@ -28,7 +28,7 @@ IOService *ALCUserClientProvider::probe(IOService *provider, SInt32 *score) {
 
 	uint32_t enableHdaVerbs = 0;
 	WIOKit::getOSDataValue(hdefDevice, "alc-verbs", enableHdaVerbs);
-	PE_parse_boot_argn("alcverbs", &enableHdaVerbs, sizeof(enableHdaVerbs));
+	lilu_get_boot_args("alcverbs", &enableHdaVerbs, sizeof(enableHdaVerbs));
 	DBGLOG("client", "device %s to send custom verbs", enableHdaVerbs != 0 ? "allows" : "disallows");
 	if (enableHdaVerbs == 0) {
 		return nullptr;

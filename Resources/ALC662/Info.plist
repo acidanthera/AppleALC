@@ -86,6 +86,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Custom ALC662 for MSI X79A-GD65</string>
+				<key>Id</key>
+				<integer>19</integer>
+				<key>Path</key>
+				<string>layout19.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>ALC662v3 for Lenovo M415-D339 by Eric</string>
 				<key>Id</key>
 				<integer>66</integer>
@@ -166,6 +174,14 @@
 				<integer>18</integer>
 				<key>Path</key>
 				<string>Platforms18.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom ALC662 for MSI X79A-GD65</string>
+				<key>Id</key>
+				<integer>19</integer>
+				<key>Path</key>
+				<string>Platforms19.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>

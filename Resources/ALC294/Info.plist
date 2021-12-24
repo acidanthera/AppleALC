@@ -68,6 +68,14 @@
 				<key>Path</key>
 				<string>layout66.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>hoping - Realtek ALC294 for ASUS ROG GU502LV</string>
+				<key>Id</key>
+				<integer>99</integer>
+				<key>Path</key>
+				<string>layout99.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -126,6 +134,14 @@
 				<integer>66</integer>
 				<key>Path</key>
 				<string>Platforms66.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>hoping - Realtek ALC294 for ASUS ROG GU502LV</string>
+				<key>Id</key>
+				<integer>99</integer>
+				<key>Path</key>
+				<string>Platforms99.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>

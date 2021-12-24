@@ -18,10 +18,7 @@
 			<key>LineIn</key>
 			<dict/>
 			<key>LineOut</key>
-			<dict>
-				<key>MuteGPIO</key>
-				<integer>1342242833</integer>
-			</dict>
+			<dict/>
 			<key>Mic</key>
 			<dict>
 				<key>MuteGPIO</key>

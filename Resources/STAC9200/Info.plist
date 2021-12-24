@@ -14,7 +14,7 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>Goldfish64 - STAC9200 for Dell Precision 390</string>
+				<string>Goldfish64 - STAC9200 for Dell Precision 390, Latitude D520</string>
 				<key>Id</key>
 				<integer>11</integer>
 				<key>Path</key>
@@ -25,7 +25,7 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>Goldfish64 - STAC9200 for Dell Precision 390</string>
+				<string>Goldfish64 - STAC9200 for Dell Precision 390, Latitude D520</string>
 				<key>Id</key>
 				<integer>11</integer>
 				<key>Path</key>
@@ -189,7 +189,23 @@
 			<key>Find</key>
 			<data>hBnUEQ==</data>
 			<key>MinKernel</key>
-			<integer>12</integer>
+			<integer>9</integer>
+			<key>Name</key>
+			<string>AppleHDA</string>
+			<key>Replace</key>
+			<data>kHaEgw==</data>
+		</dict>
+		<dict>
+			<key>Comment</key>
+			<string>0x83847680 to 0x83847690</string>
+			<key>Count</key>
+			<integer>2</integer>
+			<key>Find</key>
+			<data>gHaEgw==</data>
+			<key>MaxKernel</key>
+			<integer>8</integer>
+			<key>MinKernel</key>
+			<integer>8</integer>
 			<key>Name</key>
 			<string>AppleHDA</string>
 			<key>Replace</key>
@@ -320,6 +336,22 @@
 			<string>AppleHDA</string>
 			<key>Replace</key>
 			<data>AAAAgA==</data>
+		</dict>
+		<dict>
+			<key>Comment</key>
+			<string>0x11d4198b to 0xFFFFFFFF - 10.6.3</string>
+			<key>Count</key>
+			<integer>2</integer>
+			<key>Find</key>
+			<data>ixnUEQ==</data>
+			<key>MaxKernel</key>
+			<integer>10</integer>
+			<key>MinKernel</key>
+			<integer>10</integer>
+			<key>Name</key>
+			<string>AppleHDA</string>
+			<key>Replace</key>
+			<data>/////w==</data>
 		</dict>
 	</array>
 	<key>Revisions</key>

@@ -42,7 +42,7 @@ void AlcEnabler::init() {
 #ifdef HAVE_ANALOG_AUDIO
 	if (getKernelVersion() < KernelVersion::Mojave)
 		ADDPR(kextList)[KextIdAppleGFXHDA].switchOff();
-	if (getKernelVersion() >= KernelVersion::Lion)
+	if (getKernelVersion() == KernelVersion::Tiger || getKernelVersion() >= KernelVersion::Lion)
 		ADDPR(kextList)[KextIdAppleHDAPlatformDriver].switchOff();
 #else
 	ADDPR(kextList)[KextIdAppleGFXHDA].switchOff();
@@ -117,7 +117,7 @@ void AlcEnabler::updateProperties() {
 			uint32_t ven = 0;
 			if (WIOKit::getOSDataValue(devInfo->audioBuiltinAnalog, "vendor-id", ven) && ven == WIOKit::VendorID::Intel) {
 				uint32_t updateTcsel = 0;
-				if (!PE_parse_boot_argn("alctcsel", &updateTcsel, sizeof(updateTcsel)) &&
+				if (!lilu_get_boot_args("alctcsel", &updateTcsel, sizeof(updateTcsel)) &&
 					!WIOKit::getOSDataValue(devInfo->audioBuiltinAnalog, "alctcsel", updateTcsel)) {
 					updateTcsel = 0;
 				}
@@ -210,8 +210,8 @@ void AlcEnabler::updateProperties() {
 			// Check that we allow sending verbs.
 			uint32_t enableHdaVerbs = 0;
 			uint32_t enableAlcDelay = 0;
-			bool checkVerbs = !PE_parse_boot_argn("alcverbs", &enableHdaVerbs, sizeof(enableHdaVerbs));
-			bool checkDelay = !PE_parse_boot_argn("alcdelay", &enableAlcDelay, sizeof(enableAlcDelay));
+			bool checkVerbs = !lilu_get_boot_args("alcverbs", &enableHdaVerbs, sizeof(enableHdaVerbs));
+			bool checkDelay = !lilu_get_boot_args("alcdelay", &enableAlcDelay, sizeof(enableAlcDelay));
 
 			if (checkVerbs || checkDelay) {
 				if (devInfo->audioBuiltinAnalog) {
@@ -227,6 +227,7 @@ void AlcEnabler::updateProperties() {
 
 				for (size_t gpu = 0; gpu < devInfo->videoExternal.size(); gpu++) {
 					auto hdaService = devInfo->videoExternal[gpu].audio;
+					if (!hdaService) continue;
 					if (checkVerbs && hdaService->getProperty("alc-verbs")) {
 						enableHdaVerbs = 1;
 						checkVerbs = false;
@@ -274,7 +275,7 @@ void AlcEnabler::updateDeviceProperties(IORegistryEntry *hdaService, DeviceInfo 
 		// alc-layout-id has normal priority and is expected to be used.
 		// layout-id will be used if both alcid and alc-layout-id are not set on non-Apple platforms.
 		uint32_t layout = 0;
-		if (PE_parse_boot_argn("alcid", &layout, sizeof(layout))) {
+		if (lilu_get_boot_args("alcid", &layout, sizeof(layout))) {
 			DBGLOG("alc", "found alc-layout-id override %u", layout);
 			hdaService->setProperty("alc-layout-id", &layout, sizeof(layout));
 		} else {
@@ -361,7 +362,7 @@ IOService *AlcEnabler::gfxProbe(IOService *ctrl, IOService *provider, SInt32 *sc
 bool AlcEnabler::AppleHDAController_start(IOService* service, IOService* provider)
 {
 	uint32_t delay = 0;
-	if (PE_parse_boot_argn("alcdelay", &delay, sizeof(delay))) {
+	if (lilu_get_boot_args("alcdelay", &delay, sizeof(delay))) {
 		DBGLOG("alc", "found alc-delay override %u", delay);
 		provider->setProperty("alc-delay", &delay, sizeof(delay));
 	} else {
@@ -525,13 +526,20 @@ void AlcEnabler::processKext(KernelPatcher &patcher, size_t index, mach_vm_addre
 	}
 	
 	if ((progressState & ProcessingState::CallbacksWantRouting) && kextIndex == KextIdAppleHDA) {
-		// functions that exist in all versions
-		KernelPatcher::RouteRequest requests[] {
-			KernelPatcher::RouteRequest("__ZN14AppleHDADriver23performPowerStateChangeE24_IOAudioDevicePowerStateS0_Pj", performPowerChange, orgPerformPowerChange),
-			KernelPatcher::RouteRequest("__ZN20AppleHDACodecGeneric38initializePinConfigDefaultFromOverrideEP9IOService", initializePinConfig, orgInitializePinConfig)
-		};
-		patcher.routeMultiple(index, requests, address, size);
+		// AppleHDADriver::performPowerStateChange
+		KernelPatcher::RouteRequest requestPowerChange(symPerformPowerChange, performPowerChange, orgPerformPowerChange);
+		patcher.routeMultiple(index, &requestPowerChange, 1, address, size);
 		
+		// AppleHDACodecGeneric::initializePinConfigDefaultFromOverride does not take an IOService parameter in most versions of 10.5 and under.
+		if (getKernelVersion() >= KernelVersion::SnowLeopard
+				|| patcher.solveSymbol(index, "__ZN20AppleHDACodecGeneric38initializePinConfigDefaultFromOverrideEP9IOService")) {
+			KernelPatcher::RouteRequest requestPinConfig("__ZN20AppleHDACodecGeneric38initializePinConfigDefaultFromOverrideEP9IOService", initializePinConfig, orgInitializePinConfig);
+			patcher.routeMultiple(index, &requestPinConfig, 1, address, size);
+		} else {
+			patcher.clearError();
+			KernelPatcher::RouteRequest requestPinConfig("__ZN20AppleHDACodecGeneric38initializePinConfigDefaultFromOverrideEv", initializePinConfigLegacy, orgInitializePinConfigLegacy);
+			patcher.routeMultiple(index, &requestPinConfig, 1, address, size);
+		}
 		
 		// layout and platform load callbacks only exist in 10.6.8 and later
 		if (patcher.solveSymbol(index, "__ZN14AppleHDADriver18layoutLoadCallbackEjiPKvjPv")) {
@@ -549,6 +557,12 @@ void AlcEnabler::processKext(KernelPatcher &patcher, size_t index, mach_vm_addre
 		if (!isAppleHDAZlib)
 			patcher.clearError();
 
+		// 10.4 contains the platforms and layouts in AppleHDA directly
+		if (getKernelVersion() == KernelVersion::Tiger) {
+			KernelPatcher::RouteRequest request("__ZN14AppleHDADriver5startEP9IOService", AppleHDADriver_start, orgAppleHDADriver_start);
+			patcher.routeMultiple(index, &request, 1, address, size);
+		}
+
 		// patch AppleHDA to remove redundant logs
 		if (!ADDPR(debugEnabled))
 			eraseRedundantLogs(patcher, kextIndex);
@@ -557,7 +571,7 @@ void AlcEnabler::processKext(KernelPatcher &patcher, size_t index, mach_vm_addre
 
 	if (!(progressState & ProcessingState::PatchHDAFamily) && kextIndex == KextIdIOHDAFamily) {
 		progressState |= ProcessingState::PatchHDAFamily;
-		KernelPatcher::RouteRequest request("__ZN16IOHDACodecDevice11executeVerbEtttPjb", IOHDACodecDevice_executeVerb, orgIOHDACodecDevice_executeVerb);
+		KernelPatcher::RouteRequest request(symIOHDACodecDevice_executeVerb, IOHDACodecDevice_executeVerb, orgIOHDACodecDevice_executeVerb);
 		patcher.routeMultiple(index, &request, 1, address, size);
 	}
 	
@@ -568,7 +582,7 @@ void AlcEnabler::processKext(KernelPatcher &patcher, size_t index, mach_vm_addre
 	}
 	
 #ifdef HAVE_ANALOG_AUDIO
-	// Layout/platform info is in AppleHDAPlatformDriver on versions prior to 10.6.8
+	// Layout/platform info is in AppleHDAPlatformDriver on versions 10.5.x to 10.6.7
 	if (!(progressState & ProcessingState::PatchHDAPlatformDriver) && kextIndex == KextIdAppleHDAPlatformDriver) {
 		progressState |= ProcessingState::PatchHDAPlatformDriver;
 		KernelPatcher::RouteRequest request("__ZN22AppleHDAPlatformDriver5startEP9IOService", AppleHDAPlatformDriver_start, orgAppleHDAPlatformDriver_start);
@@ -686,28 +700,34 @@ IOReturn AlcEnabler::performPowerChange(IOService *hdaDriver, uint32_t from, uin
 	return ret;
 }
 
-IOReturn AlcEnabler::initializePinConfig(IOService *hdaCodec, IOService *configDevice) {
+void AlcEnabler::patchPinConfig(IOService *hdaCodec, IORegistryEntry *configDevice) {
 	if (hdaCodec && configDevice && !hdaCodec->getProperty("alc-pinconfig-status")) {
 		uint32_t appleLayout = getAudioLayout(hdaCodec);
 		uint32_t analogCodec = 0;
 		uint32_t analogLayout = 0;
-		for (size_t i = 0, s = callbackAlc->codecs.size(); i < s; i++) {
-			if (callbackAlc->controllers[callbackAlc->codecs[i]->controller]->layout > 0) {
-				analogCodec = static_cast<uint32_t>(callbackAlc->codecs[i]->vendor) << 16 | callbackAlc->codecs[i]->codec;
-				analogLayout = callbackAlc->controllers[callbackAlc->codecs[i]->controller]->layout;
+		for (size_t i = 0, s = codecs.size(); i < s; i++) {
+			if (controllers[codecs[i]->controller]->layout > 0) {
+				analogCodec = static_cast<uint32_t>(codecs[i]->vendor) << 16 | codecs[i]->codec;
+				analogLayout = controllers[codecs[i]->controller]->layout;
 				break;
 			}
 		}
 
 		DBGLOG("alc", "initializePinConfig %s received hda " PRIKADDR ", config " PRIKADDR " config name %s apple layout %u codec %08X layout %u",
-			   safeString(hdaCodec->getName()), CASTKADDR(hdaCodec), CASTKADDR(configDevice),
-			   configDevice ? safeString(configDevice->getName()) : "(null config)", appleLayout, analogCodec, analogLayout);
+			safeString(hdaCodec->getName()), CASTKADDR(hdaCodec), CASTKADDR(configDevice),
+			configDevice ? safeString(configDevice->getName()) : "(null config)", appleLayout, analogCodec, analogLayout);
 
 		hdaCodec->setProperty("alc-pinconfig-status", kOSBooleanFalse);
 		hdaCodec->setProperty("alc-sleep-status", kOSBooleanFalse);
 
+		auto alcSelf = ADDPR(selfInstance);
+		if (!alcSelf) {
+			SYSLOG("alc", "invalid self reference");
+			return;
+		}
+
 		if (appleLayout && analogCodec && analogLayout) {
-			auto configList = OSDynamicCast(OSArray, configDevice->getProperty("HDAConfigDefault"));
+			auto configList = OSDynamicCast(OSArray, alcSelf->getProperty("HDAConfigDefault"));
 			if (configList) {
 				unsigned int total = configList->getCount();
 				DBGLOG("alc", "discovered HDAConfigDefault with %u entries", total);
@@ -721,7 +741,7 @@ IOReturn AlcEnabler::initializePinConfig(IOService *hdaCodec, IOService *configD
 					auto currCodec = OSDynamicCast(OSNumber, config->getObject("CodecID"));
 					auto currLayout = OSDynamicCast(OSNumber, config->getObject("LayoutID"));
 					if (currCodec == nullptr || currLayout == nullptr ||
-					    currCodec->unsigned32BitValue() != analogCodec || currLayout->unsigned32BitValue() != analogLayout) {
+						currCodec->unsigned32BitValue() != analogCodec || currLayout->unsigned32BitValue() != analogLayout) {
 						// Not analog or wrong entry.
 						continue;
 					}
@@ -740,7 +760,7 @@ IOReturn AlcEnabler::initializePinConfig(IOService *hdaCodec, IOService *configD
 					auto reinitBool = OSDynamicCast(OSBoolean, config->getObject("WakeVerbReinit"));
 					auto reinit = reinitBool != nullptr ? reinitBool->getValue() : false;
 					DBGLOG("alc", "current config entry has boot %d, wake %d, reinit %d", configData != nullptr,
-						   wakeConfigData != nullptr, reinitBool ? reinit : -1);
+						wakeConfigData != nullptr, reinitBool ? reinit : -1);
 
 					// Replace the config list with a new list to avoid multiple iterations,
 					// and actually fix the LayoutID number we hook in.
@@ -798,7 +818,28 @@ IOReturn AlcEnabler::initializePinConfig(IOService *hdaCodec, IOService *configD
 			}
 		}
 	}
+}
 
+IOReturn AlcEnabler::initializePinConfigLegacy(IOService *hdaCodec) {
+	auto parentDevice = hdaCodec->getParentEntry(gIOServicePlane);
+	while (parentDevice) {
+		auto name = parentDevice->getName();
+		if (name && (!strcmp(name, "AppleHDAController"))) {
+			break;
+		}
+
+		parentDevice = parentDevice->getParentEntry(gIOServicePlane);
+	}
+
+	if (parentDevice)
+		callbackAlc->patchPinConfig(hdaCodec, parentDevice);
+	else
+		SYSLOG("alc", "failed to get parent AppleHDAController instance");
+	return FunctionCast(initializePinConfigLegacy, callbackAlc->orgInitializePinConfigLegacy)(hdaCodec);
+}
+
+IOReturn AlcEnabler::initializePinConfig(IOService *hdaCodec, IOService *configDevice) {
+	callbackAlc->patchPinConfig(hdaCodec, configDevice);
 	return FunctionCast(initializePinConfig, callbackAlc->orgInitializePinConfig)(hdaCodec, configDevice);
 }
 
@@ -975,25 +1016,39 @@ bool AlcEnabler::validateCodecs() {
 	return codecs.size() > 0;
 }
 
+bool AlcEnabler::AppleHDADriver_start(IOService *service, IOService *provider) {
+	callbackAlc->replaceAppleHDADriverResources(service);
+	
+	return FunctionCast(AppleHDADriver_start, callbackAlc->orgAppleHDADriver_start)(service, provider);
+}
+
 bool AlcEnabler::AppleHDAPlatformDriver_start(IOService* service, IOService* provider) {
-	callbackAlc->replaceAppleHDAPlatformDriverResources(service);
+	callbackAlc->replaceAppleHDADriverResources(service);
 	
 	return FunctionCast(AppleHDAPlatformDriver_start, callbackAlc->orgAppleHDAPlatformDriver_start)(service, provider);
 }
 
-void AlcEnabler::replaceAppleHDAPlatformDriverResources(IOService *service) {
-	DBGLOG("alc", "replacing AppleHDAPlatformDriver resources");
+void AlcEnabler::replaceAppleHDADriverResources(IOService *service) {
+	DBGLOG("alc", "replacing AppleHDA legacy resources");
 	
 	auto pathMapsDriverArray = OSArray::withCapacity((uint32_t) codecs.size());
-	if (pathMapsDriverArray == nullptr) {
-		SYSLOG("alc", "failed to create pathmaps dictionary");
+	auto layoutsDriverArray = OSArray::withCapacity((uint32_t) codecs.size());
+	if (!pathMapsDriverArray || !layoutsDriverArray) {
+		SYSLOG("alc", "failed to create property array");
+		OSSafeReleaseNULL(pathMapsDriverArray);
+		OSSafeReleaseNULL(layoutsDriverArray);
 		return;
 	}
-	auto layoutsDriverArray = OSArray::withCapacity((uint32_t) codecs.size());
-	if (layoutsDriverArray == nullptr) {
-		SYSLOG("alc", "failed to create layouts dictionary");
-		pathMapsDriverArray->release();
-		return;
+	
+	OSArray *codecInfoArray = nullptr;
+	if (getKernelVersion() == KernelVersion::Tiger) {
+		codecInfoArray = OSArray::withCapacity((uint32_t) codecs.size());
+		if (!codecInfoArray) {
+			SYSLOG("alc", "failed to create CodecInfo array");
+			OSSafeReleaseNULL(pathMapsDriverArray);
+			OSSafeReleaseNULL(layoutsDriverArray);
+			return;
+		}
 	}
 
 	for (size_t i = 0, s = codecs.size(); i < s; i++) {
@@ -1066,12 +1121,51 @@ void AlcEnabler::replaceAppleHDAPlatformDriverResources(IOService *service) {
 				break;
 			}
 		}
+		
+		// 10.4 requires a CodecInfo dictionary.
+		if (getKernelVersion() == KernelVersion::Tiger) {
+			auto codecInfo = OSDictionary::withCapacity(3);
+			if (!codecInfo) {
+				SYSLOG("alc", "failed to create codecinfo data");
+				break;
+			}
+			
+			auto softVolumeDict = OSDictionary::withCapacity(1);
+			auto volumeDict = OSDictionary::withCapacity(1);
+			auto signalProcessingDict = OSDictionary::withCapacity(1);
+			auto analogOutDict = OSDictionary::withCapacity(1);
+			auto codecId = OSNumber::withNumber(codecs[i]->codec | (codecs[i]->vendor << 16), 32);
+			
+			if (softVolumeDict && volumeDict && signalProcessingDict && analogOutDict && codecId) {
+				volumeDict->setObject("SoftwareVolume", softVolumeDict);
+				signalProcessingDict->setObject("Volume", volumeDict);
+				analogOutDict->setObject("SignalProcessing", signalProcessingDict);
+				codecInfo->setObject("AnalogOut", analogOutDict);
+				codecInfo->setObject("CodecID", codecId);
+				
+				codecInfoArray->setObject(codecInfo);
+			} else {
+				SYSLOG("alc", "failed to create one or more codecinfo dictionaries");
+			}
+
+			OSSafeReleaseNULL(softVolumeDict);
+			OSSafeReleaseNULL(volumeDict);
+			OSSafeReleaseNULL(signalProcessingDict);
+			OSSafeReleaseNULL(analogOutDict);
+			OSSafeReleaseNULL(codecId);
+			OSSafeReleaseNULL(codecInfo);
+		}
 	}
 	
 	// Replace existing layouts and pathmaps.
 	service->setProperty("Layouts", layoutsDriverArray);
 	service->setProperty("PathMaps", pathMapsDriverArray);
 	
+	if (getKernelVersion() == KernelVersion::Tiger) {
+		service->setProperty("CodecInfo", codecInfoArray);
+		codecInfoArray->release();
+	}
+
 	layoutsDriverArray->release();
 	pathMapsDriverArray->release();
 }
