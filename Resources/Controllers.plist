@@ -996,32 +996,20 @@
 		<key>Device</key>
 		<integer>41712</integer>
 		<key>Name</key>
-		<string>200 Series PCH HD Audio</string>
+		<string>200 Series (0xA2F0) PCH HD Audio</string>
 		<key>Patches</key>
 		<array>
 			<dict>
 				<key>Count</key>
-				<integer>6</integer>
-				<key>Find</key>
-				<data>cKEAAA==</data>
-				<key>MinKernel</key>
-				<integer>16</integer>
-				<key>Name</key>
-				<string>AppleHDAController</string>
-				<key>Replace</key>
-				<data>8KIAAA==</data>
-			</dict>
-			<dict>
-				<key>Count</key>
 				<integer>1</integer>
 				<key>Find</key>
-				<data>hoBwoQ==</data>
+				<data>DgAAvgIAAABIid8=</data>
 				<key>MinKernel</key>
-				<integer>16</integer>
+				<integer>19</integer>
 				<key>Name</key>
 				<string>AppleHDAController</string>
 				<key>Replace</key>
-				<data>hoDwog==</data>
+				<data>DgAAuHCdAADrBpA=</data>
 			</dict>
 		</array>
 		<key>Vendor</key>

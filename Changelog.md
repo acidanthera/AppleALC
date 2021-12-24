@@ -2,6 +2,7 @@ AppleALC Changelog
 ==================
 #### v1.6.8
 - Replace patch for 500 Series(0x43C8) PCH HD Audio
+- Replace patch for 200 Series(0xA2F0) PCH HD Audio
 
 #### v1.6.7
 - Added 600-series controller patch by @R-a-s-c-a-l
