@@ -7778,6 +7778,24 @@
 					<key>CodecID</key>
 					<integer>283906408</integer>
 					<key>CodecName</key>
+					<string>Realtek ALC S1220A for Asus ProArt Z690-Creator WiFi (CaseySJ)</string>
+					<key>ConfigData</key>
+					<data>AUccEAFHHUABRx4BAUcfAAFHDAIBVxwgAVcdEAFXHgEBVx8BAWccMAFnHWABZx4BAWcfAQGHHEABhx2QAYceoAGHH5ABlxxQAZcdkAGXHoEBhx8CAaccYAGnHTABpx6BAacfAQG3HHABtx1AAbceIQG3HwIBtwwC</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>13</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>CodecID</key>
+					<integer>283906408</integer>
+					<key>CodecName</key>
 					<string>Realtek ALC S1220A RodionS, Nacho 2.0 outputs(green), 2 inputs (blue)+front panel (mic fr.panel), mic (pink), headphones(lime), SPDIF/Optical </string>
 					<key>ConfigData</key>
 					<data>AUceEAGHHqABhx+RAZcegQFHDAI=</data>

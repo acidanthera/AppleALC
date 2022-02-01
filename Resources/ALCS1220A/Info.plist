@@ -84,6 +84,14 @@
 				<key>Path</key>
 				<string>layout8.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Realtek ALC S1220A for Asus ProArt Z690-Creator WiFi (CaseySJ)</string>
+				<key>Id</key>
+				<integer>13</integer>
+				<key>Path</key>
+				<string>layout13.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -158,6 +166,14 @@
 				<string>8</string>
 				<key>Path</key>
 				<string>Platforms8.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Realtek ALC S1220A for Asus ProArt Z690-Creator WiFi (CaseySJ)</string>
+				<key>Id</key>
+				<integer>13</integer>
+				<key>Path</key>
+				<string>Platforms13.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>
