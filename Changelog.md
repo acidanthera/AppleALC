@@ -2,6 +2,7 @@ AppleALC Changelog
 ==================
 #### v1.7.0
 - Fixed MuteGPIO and noise in headphones for layout 20 ALC230 by @samcabral
+
 #### v1.6.9
 - Added 0x100003 revision for ALCS1220A
 - Updated pinconfig ALC897 layout-id 12 by @Sergey-Galan
