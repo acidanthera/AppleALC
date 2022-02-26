@@ -118,6 +118,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>hla63 - Realtek ALC235 for Msi Moder 15 A10M</string>
+				<key>Id</key>
+				<integer>29</integer>
+				<key>Path</key>
+				<string>layout29.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Realtek ALC235(Display as ALC233) for Lenovo Qitian M420-D046(C) by Cryse Hillmes</string>
 				<key>Id</key>
 				<integer>35</integer>
@@ -254,6 +262,14 @@
 				<integer>28</integer>
 				<key>Path</key>
 				<string>Platforms28.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>hla63 - Realtek ALC235 for Msi Moder 15 A10M</string>
+				<key>Id</key>
+				<integer>29</integer>
+				<key>Path</key>
+				<string>Platforms29.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
