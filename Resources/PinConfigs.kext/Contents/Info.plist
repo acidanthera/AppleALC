@@ -1148,6 +1148,24 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>hla63 - Realtek ALC235 for Msi Modern 15 A10M</string>
+					<key>CodecID</key>
+					<integer>283902517</integer>
+					<key>ConfigData</key>
+					<data>ASccMAEnHQABJx6gAScfkAFHHBABRx0AAUceFwFHH5ABRwwCAZccQAGXHZABlx6BAZcfAwGXByUCFxwgAhcdEAIXHiECFx8AAhcMAgIFABACBAAgAgUAGgIEgAs=</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>29</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgIXDAIBlwcl</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>Realtek ALC235 for Lenovo Qitian M420 by Cryse Hillmes</string>
 					<key>CodecID</key>
 					<integer>283902517</integer>
