@@ -618,13 +618,13 @@
 					<key>CodecID</key>
 					<integer>283902501</integer>
 					<key>ConfigData</key>
-					<data>ASccMAEnHQABJx6gAScfkAFHHEABRx0AAUceFwFHH5ABlxxwAZcdEAGXHoEBlx8AAhccIAIXHRACFx4hAhcfAAFHDAI=</data>
+					<data>ASccMAEnHQABJx6gAScfkAFHHEABRx0AAUceFwFHH5ABlxxwAZcdEAGXHoEBlx8AAhccIAIXHRACFx4hAhcfAAFHDAICFwwCAZcHJQ==</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>30</integer>
 					<key>WakeConfigData</key>
-					<data>AUcMAg==</data>
+					<data>AUcMAgIXDAIBlwcl</data>
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>

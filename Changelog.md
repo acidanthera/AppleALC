@@ -1,5 +1,8 @@
 AppleALC Changelog
 ==================
+#### v1.7.0
+- Fix headphones after sleep on Latitude 7390 2-in-1 (ALC225 layout 30)
+
 #### v1.6.9
 - Added 0x100003 revision for ALCS1220A
 - Updated pinconfig ALC897 layout-id 12 by @Sergey-Galan
