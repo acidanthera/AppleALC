@@ -1,8 +1,13 @@
 AppleALC Changelog
 ==================
 #### v1.7.0
-- Fixed MuteGPIO and noise in headphones for layout 20 ALC230 by @samcabral
-- Added ALC883 layout 20 for Atermiter X79G by @samcabral
+- Fix headphones after sleep on Latitude 7390 2-in-1 (ALC225 layout 30)
+- Added `dump_coeff.sh` script in `Tools` to dump processing caps under macOS, plus docs in Wiki
+- Added MSI Modern 15 A10M ALC235 layout 29 by @hla63
+- Added ALC269 layout-id 26 for Infinix INBook X1 XL11 by @andreszerocross
+- Added layout-id 39 for Realtek ALC274 - Mechrevo UmiPro3 (Tongfang GM5MG0Y) by @harahi
+- Added layout-id 96 for Realtek ALC257 - Lenovo Thinkpad L390 by @antoniomcr96
+- Added ALC883 with fixed MuteGPIO and noise in headphones layout 20 for Atermiter X79G by @samcabral
 
 #### v1.6.9
 - Added 0x100003 revision for ALCS1220A
