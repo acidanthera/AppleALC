@@ -1,5 +1,8 @@
 AppleALC Changelog
 ==================
+#### v1.7.1
+- Fixed EAPD for layout 28 ALC269 by @samcabral
+
 #### v1.7.0
 - Fix headphones after sleep on Latitude 7390 2-in-1 (ALC225 layout 30)
 - Added `dump_coeff.sh` script in `Tools` to dump processing caps under macOS, plus docs in Wiki

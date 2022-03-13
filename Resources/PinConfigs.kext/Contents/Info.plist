@@ -2892,11 +2892,15 @@
 					<key>Comment</key>
 					<string>ALC269VC for Lenovo Z580, John</string>
 					<key>ConfigData</key>
-					<data>AVccQAFXHRABVx4hAVcfAwGHHCABhx0QAYcegQGHHwMBlxwwAZcdAQGXHqABlx+QAbccEAG3HQEBtx4XAbcfkAFXDAI=</data>
+					<data>AbccEAG3HQEBtx4XAbcfkAG3DAIBhxwgAYcdEAGHHoEBhx8DAZccMAGXHQEBlx6gAZcfkAFXHEABVx0QAVceIQFXHwMBVwwC</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>28</integer>
+					<key>WakeConfigData</key>
+					<data>AVcMAgG3DAI=</data>
+					<key>WakeVerbReinit</key>
+					<true/>
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
