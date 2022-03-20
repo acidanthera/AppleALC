@@ -9408,7 +9408,7 @@
 					<key>Codec</key>
 					<string>ALC 292 for Dell M4800 with Dock</string>
 					<key>CodecID</key>
-					<real>283902610</real>
+					<integer>283902610</integer>
 					<key>Comment</key>
 					<string>ALC 292 for Dell M4800 with Dock</string>
 					<key>ConfigData</key>
