@@ -35,7 +35,7 @@ void AlcEnabler::createShared() {
 void AlcEnabler::init() {
 
 	lilu.onPatcherLoadForce(
-	[](void *user, KernelPatcher &pathcer) {
+	[](void *user, KernelPatcher &patcher) {
 		static_cast<AlcEnabler *>(user)->updateProperties();
 	}, this);
 
