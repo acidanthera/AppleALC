@@ -2,6 +2,7 @@ AppleALC Changelog
 ==================
 #### v1.7.2
 - Added layout-id 97 ALC257 for Lenovo Thinkpad T490 by @savvamitrofanov
+- Update controller patch for 400 series 0x06C8 to fix HDMI audio by @Core-i99
 
 #### v1.7.1
 - Fixed EAPD for layout 28 ALC269 by @samcabral
