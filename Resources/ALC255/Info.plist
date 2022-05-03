@@ -180,6 +180,14 @@
 				<key>Path</key>
 				<string>layout96.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Realtek ALC255(3234) for Dell Inspiron 5548 by CynCYX</string>
+				<key>Id</key>
+				<integer>255</integer>
+				<key>Path</key>
+				<string>layout255.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -350,6 +358,14 @@
 				<integer>96</integer>
 				<key>Path</key>
 				<string>Platforms96.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Realtek ALC255(3234) for Dell Inspiron 5548 by CynCYX</string>
+				<key>Id</key>
+				<integer>255</integer>
+				<key>Path</key>
+				<string>Platforms255.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>
