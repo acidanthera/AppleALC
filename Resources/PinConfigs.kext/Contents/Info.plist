@@ -1380,7 +1380,7 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
-					<string>volcbs - ALC236 for Lenovo Ideapad 510s 14isk (modified from MacPeet's)</string>
+					<string>volcbs - ALC236 for Lenovo Ideapad 510s 14isk (modified from MacPeet&apos;s)</string>
 					<key>CodecID</key>
 					<integer>283902518</integer>
 					<key>ConfigData</key>
@@ -7676,7 +7676,7 @@
 					<key>CodecName</key>
 					<string>ALCS1200A for B550M Gaming Carbon WIFI by Kila2</string>
 					<key>ConfigData</key>
-					<data>AUccEAFHHVABRx4RAUcfkQFHDAIBZxwgAWcdEAFnHgEBZx8BAVccMAFXHRABVx4BAVcfAQGHHEABhx0QAYceoQGHH5EBpxxQAacdEAGnHoEBpx8BAZccYAGXHZABlx6BAZcfAgG3HHABtx1AAbceIQG3HwIBtwwCAecckAHnHREB5x5FAecfAQEXHPABFx0AARceAAEXH0ABdxzwAXcdAAF3HgABdx9AAgUABw==AgR8ow==</data>
+					<data>AUccEAFHHVABRx4RAUcfkQFHDAIBZxwgAWcdEAFnHgEBZx8BAVccMAFXHRABVx4BAVcfAQGHHEABhx0QAYceoQGHH5EBpxxQAacdEAGnHoEBpx8BAZccYAGXHZABlx6BAZcfAgG3HHABtx1AAbceIQG3HwIBtwwCAecckAHnHREB5x5FAecfAQEXHPABFx0AARceAAEXH0ABdxzwAXcdAAF3HgABdx9AAgUABwAgR8ow</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
@@ -7692,7 +7692,7 @@
 					<key>CodecName</key>
 					<string>owen0o0 -  Realtek ALCS1200A</string>
 					<key>ConfigData</key>
-					<data>AUccQAFHHVABRx4RAUcfkAFHDAIBZxxhAWcdEAFnHgEBZx8BAVccYgFXHRABVx4BAVcfAQG3HFABtx1AAbceIQG3HwIBtwwCAecccAHnHREB5x5FAecfAQGHHBABhx0QAYceoQGHH5ABpxwgAacdEAGnHoEBpx8BAZccgAGXHZABlx6hAZcfAgF3HPABdx0AAXceAAF3H0ABFxzwARcdAAEXHgABFx9AAgUABw==AgR8ow==</data>
+					<data>AUccQAFHHVABRx4RAUcfkAFHDAIBZxxhAWcdEAFnHgEBZx8BAVccYgFXHRABVx4BAVcfAQG3HFABtx1AAbceIQG3HwIBtwwCAecccAHnHREB5x5FAecfAQGHHBABhx0QAYceoQGHH5ABpxwgAacdEAGnHoEBpx8BAZccgAGXHZABlx6hAZcfAgF3HPABdx0AAXceAAF3H0ABFxzwARcdAAEXHgABFx9AAgUABwAgR8ow</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
@@ -7884,7 +7884,7 @@
 					<key>CodecID</key>
 					<integer>283906408</integer>
 					<key>CodecName</key>
-					<string>Realtek ALC S1220A Kushamot for Asus Z270G mb (based on Mirone's layout 7)</string>
+					<string>Realtek ALC S1220A Kushamot for Asus Z270G mb (based on Mirone&apos;s layout 7)</string>
 					<key>ConfigData</key>
 					<data>AUccEAFHHUABRx4RAUcfAQFXHFABVx0QAVceAQFXHwEBZxwwAWcdYAFnHgEBZx8BAYccYAGHHZABhx6gAYcfkAGXHHABlx2QAZcegQGXHwEBtxwgAbcdQAG3HiEBtx8BAUcMAg==</data>
 					<key>FuncGroup</key>
@@ -9437,6 +9437,24 @@
 					<integer>59</integer>
 					<key>WakeConfigData</key>
 					<data>AUcMAgFXDAIBZwwCAacHJA==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>ONDA H510D4 IPC ALC897</string>
+					<key>CodecID</key>
+					<integer>283904151</integer>
+					<key>ConfigData</key>
+					<data>AUccQAFHHUABRx4RAUcfAQFHDAIBhxwgAYcdUAGHHoEBhx8BAZcccAGXHSABlx6hAZcfAgG3HFABtx0wAbceIQG3HwIBtwwC</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>77</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgG3DAI=</data>
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
