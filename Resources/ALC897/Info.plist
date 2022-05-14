@@ -22,11 +22,11 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Asus_PRIME_B460M-K_ALC897</string>
+				<string>ONDA H510D4 IPC ALC897</string>
 				<key>Id</key>
-				<integer>66</integer>
+				<integer>77</integer>
 				<key>Path</key>
-				<string>layout66.xml.zlib</string>
+				<string>layout77.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -65,11 +65,11 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Asus_PRIME_B460M-K_ALC897</string>
+				<string>ONDA H510D4 IPC ALC897</string>
 				<key>Id</key>
-				<integer>66</integer>
+				<integer>77</integer>
 				<key>Path</key>
-				<string>Platforms66.xml.zlib</string>
+				<string>Platforms77.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
