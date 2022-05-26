@@ -4998,7 +4998,7 @@
 					<key>LayoutID</key>
 					<integer>13</integer>
 					<key>WakeConfigData</key>
-					<data>AUcMAg==</data>
+					<data>AUcMAgIXDAIBlwcl</data>
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
@@ -7676,7 +7676,7 @@
 					<key>CodecName</key>
 					<string>ALCS1200A for B550M Gaming Carbon WIFI by Kila2</string>
 					<key>ConfigData</key>
-					<data>AUccEAFHHVABRx4RAUcfkQFHDAIBZxwgAWcdEAFnHgEBZx8BAVccMAFXHRABVx4BAVcfAQGHHEABhx0QAYceoQGHH5EBpxxQAacdEAGnHoEBpx8BAZccYAGXHZABlx6BAZcfAgG3HHABtx1AAbceIQG3HwIBtwwCAecckAHnHREB5x5FAecfAQEXHPABFx0AARceAAEXH0ABdxzwAXcdAAF3HgABdx9AAgUABw==AgR8ow==</data>
+					<data>AUccEAFHHVABRx4RAUcfkQFHDAIBZxwgAWcdEAFnHgEBZx8BAVccMAFXHRABVx4BAVcfAQGHHEABhx0QAYceoQGHH5EBpxxQAacdEAGnHoEBpx8BAZccYAGXHZABlx6BAZcfAgG3HHABtx1AAbceIQG3HwIBtwwCAecckAHnHREB5x5FAecfAQEXHPABFx0AARceAAEXH0ABdxzwAXcdAAF3HgABdx9AAgUABw==</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
@@ -7692,7 +7692,7 @@
 					<key>CodecName</key>
 					<string>owen0o0 -  Realtek ALCS1200A</string>
 					<key>ConfigData</key>
-					<data>AUccQAFHHVABRx4RAUcfkAFHDAIBZxxhAWcdEAFnHgEBZx8BAVccYgFXHRABVx4BAVcfAQG3HFABtx1AAbceIQG3HwIBtwwCAecccAHnHREB5x5FAecfAQGHHBABhx0QAYceoQGHH5ABpxwgAacdEAGnHoEBpx8BAZccgAGXHZABlx6hAZcfAgF3HPABdx0AAXceAAF3H0ABFxzwARcdAAEXHgABFx9AAgUABw==AgR8ow==</data>
+					<data>AUccQAFHHVABRx4RAUcfkAFHDAIBZxxhAWcdEAFnHgEBZx8BAVccYgFXHRABVx4BAVcfAQG3HFABtx1AAbceIQG3HwIBtwwCAecccAHnHREB5x5FAecfAQGHHBABhx0QAYceoQGHH5ABpxwgAacdEAGnHoEBpx8BAZccgAGXHZABlx6hAZcfAgF3HPABdx0AAXceAAF3H0ABFxzwARcdAAEXHgABFx9AAgUABw==</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
