@@ -14,14 +14,6 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>5T33Z0 - Lenovo T530 with Dock 4337/4338</string>
-				<key>Id</key>
-				<integer>39</integer>
-				<key>Path</key>
-				<string>layout39.xml.zlib</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>hua0512 - Realtek ALC269 for Medium Akoya P6653</string>
 				<key>Id</key>
 				<integer>25</integer>
@@ -444,6 +436,14 @@
 				<key>Path</key>
 				<string>layout91.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>5T33Z0 - Lenovo T530 with Dock 4337/4338</string>
+				<key>Id</key>
+				<integer>39</integer>
+				<key>Path</key>
+				<string>layout39.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -454,14 +454,6 @@
 				<integer>25</integer>
 				<key>Path</key>
 				<string>Platforms25.xml.zlib</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>5T33Z0 - Lenovo T530 with Dock 4337/4338</string>
-				<key>Id</key>
-				<integer>39</integer>
-				<key>Path</key>
-				<string>Platforms39.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -878,6 +870,14 @@
 				<integer>91</integer>
 				<key>Path</key>
 				<string>Platforms91.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>5T33Z0 - Lenovo T530 with Dock 4337/4338</string>
+				<key>Id</key>
+				<integer>39</integer>
+				<key>Path</key>
+				<string>Platforms39.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>
