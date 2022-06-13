@@ -9476,6 +9476,32 @@
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>5T33Z0 - Lenoco T530 with Dock 4337/4338</string>
+					<key>CodecID</key>
+					<integer>283902569</integer>
+					<key>ConfigData</key>
+					<data>
+					AUccEAFHHQEBRx4XAUcfkAFHDAIBVxwgAVcdEAFXHiEBVx8DAVcMAgEnHDAB
+					Jx0BASceoAEnH5ABhxxAAYcdEAGHHoEBhx8DAZccYAGXHZABlx6BAZcfJAG3
+					HHABtx1AAbceAQG3HyQ=
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>39</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAg==
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
 			</array>
 			<key>IOClass</key>
 			<string>AppleALC</string>
