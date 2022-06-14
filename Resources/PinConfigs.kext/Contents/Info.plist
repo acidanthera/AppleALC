@@ -1166,6 +1166,24 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>Custom by fuzzyrock for ALC235 Lenovo A340-22IWL</string>
+					<key>CodecID</key>
+					<real>283902517</real>
+					<key>ConfigData</key>
+					<data>ASccMAEnHQEBJx6mAScfkAGXHEABlx0QAZceoQGXHwIBtxwQAbcdAQG3HhcBtx+QAbcMAgIXHCACFx0QAhceIQIXHwICFwwC</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>33</integer>
+					<key>WakeConfigData</key>
+					<data>AbcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>Realtek ALC235 for Lenovo Qitian M420 by Cryse Hillmes</string>
 					<key>CodecID</key>
 					<integer>283902517</integer>
