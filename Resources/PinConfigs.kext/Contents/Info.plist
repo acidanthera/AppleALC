@@ -9476,6 +9476,24 @@
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>james090500 - Realtek ALC280 - Optiplex 9020AIO</string>
+					<key>CodecID</key>
+					<real>283902592</real>
+					<key>ConfigData</key>
+					<data>AbccEAG3HQEBtx4XAbcfkAFXHC8BVx0QAVceIQFXHwIBVwwCASccMAEnHQEBJx6jAScfmQ==</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>18</integer>
+					<key>WakeConfigData</key>
+					<data>AVcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
 			</array>
 			<key>IOClass</key>
 			<string>AppleALC</string>
