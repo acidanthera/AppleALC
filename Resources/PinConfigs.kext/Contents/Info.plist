@@ -4862,6 +4862,24 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>Realtek ALC294, ZenBook UX434</string>
+					<key>CodecID</key>
+					<integer>283902612</integer>
+					<key>ConfigData</key>
+					<data>AgUAGwIETksCBQBFAgRSiQGXCIMBJxwwAScdAQEnHqYBJx+QAXccEAF3HQEBdx4QAXcfkAGXHEABlx0QAZcegQGXHwECFxwgAhcdEAIXHiECFx8B</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>15</integer>
+					<key>WakeConfigData</key>
+					<data>AXcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>Andres ZeroCross - ALC294 ASUS ZenBook Flip 14 UX461UA</string>
 					<key>CodecID</key>
 					<integer>283902612</integer>
