@@ -9482,7 +9482,7 @@
 					<key>Codec</key>
 					<string>james090500 - Dell OptiPlex 9020 AIO</string>
 					<key>CodecID</key>
-					<real>283902592</real>
+					<integer>283902592</integer>
 					<key>ConfigData</key>
 					<data>ATccAAE3HcABNx4EATcfQAHXHAEB1x0AAdceYAHXH0ABtxwQAbcdAQG3HhcBtx+QAaccIAGnHRABpx4BAacfAQFXHC8BVx0QAVceIQFXHwIBVwwCASccMAEnHQEBJx6jAScfmQGHHEABhx0QAYceoQGHHwI=</data>
 					<key>FuncGroup</key>
