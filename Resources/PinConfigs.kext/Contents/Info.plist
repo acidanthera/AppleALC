@@ -9480,7 +9480,7 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
-					<string>james090500 - Realtek ALC280 - Optiplex 9020AIO</string>
+					<string>james090500 - Dell OptiPlex 9020 AIO</string>
 					<key>CodecID</key>
 					<real>283902592</real>
 					<key>ConfigData</key>
@@ -9489,10 +9489,6 @@
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>18</integer>
-					<key>WakeConfigData</key>
-					<data>AVcMAg==</data>
-					<key>WakeVerbReinit</key>
-					<true/>
 				</dict>
 			</array>
 			<key>IOClass</key>
