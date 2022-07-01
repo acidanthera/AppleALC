@@ -4412,9 +4412,7 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>
-					AwAAAA==
-					</data>
+					<data>AwAAAA==</data>
 					<key>Codec</key>
 					<string>ALC287 for Lenovo Yoga Slim 7-14IIL05 by Andres ZeroCross</string>
 					<key>CodecID</key>
