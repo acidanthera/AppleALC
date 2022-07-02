@@ -50,6 +50,26 @@
 									<true/>
 								</dict>
 								<key>NodeID</key>
+								<integer>7</integer>
+							</dict>
+							<dict>
+								<key>NodeID</key>
+								<integer>36</integer>
+							</dict>
+							<dict>
+								<key>Boost</key>
+								<integer>1</integer>
+								<key>NodeID</key>
+								<integer>18</integer>
+							</dict>
+						</array>
+					</array>
+				</array>
+				<array>
+					<array>
+						<array>
+							<dict>
+								<key>NodeID</key>
 								<integer>9</integer>
 							</dict>
 							<dict>
@@ -57,12 +77,8 @@
 								<integer>34</integer>
 							</dict>
 							<dict>
-								<key>Boost</key>
-								<integer>3</integer>
-								<key>DetectDelegate</key>
-								<integer>33</integer>
 								<key>NodeID</key>
-								<integer>25</integer>
+								<integer>19</integer>
 							</dict>
 						</array>
 					</array>
@@ -96,17 +112,17 @@
 									<true/>
 								</dict>
 								<key>NodeID</key>
-								<integer>7</integer>
+								<integer>9</integer>
 							</dict>
 							<dict>
 								<key>NodeID</key>
-								<integer>36</integer>
+								<integer>34</integer>
 							</dict>
 							<dict>
 								<key>Boost</key>
-								<integer>1</integer>
+								<integer>3</integer>
 								<key>NodeID</key>
-								<integer>18</integer>
+								<integer>25</integer>
 							</dict>
 						</array>
 					</array>
