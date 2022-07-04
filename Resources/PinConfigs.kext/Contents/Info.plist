@@ -1166,6 +1166,24 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>Custom by fuzzyrock for ALC235 Lenovo A340-22IWL</string>
+					<key>CodecID</key>
+					<real>283902517</real>
+					<key>ConfigData</key>
+					<data>ASccMAEnHQEBJx6mAScfkAGXHEABlx0QAZceoQGXHwIBtxwQAbcdAQG3HhcBtx+QAbcMAgIXHCACFx0QAhceIQIXHwICFwwC</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>33</integer>
+					<key>WakeConfigData</key>
+					<data>AbcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>Realtek ALC235 for Lenovo Qitian M420 by Cryse Hillmes</string>
 					<key>CodecID</key>
 					<integer>283902517</integer>
@@ -4414,6 +4432,24 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>ALC287 for Lenovo Yoga Slim 7-14IIL05 by Andres ZeroCross</string>
+					<key>CodecID</key>
+					<integer>283902599</integer>
+					<key>ConfigData</key>
+					<data>AUccEAFHHQEBRx4XAUcfkAFHDAICFxwgAhcdEAIXHiECFx8DAhcMAgGXHDABlx0QAZcegQGXHwMBpxxAAacdAQGnHqABpx+QAZcHJAGnByACFwiD</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>21</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgIXDAIBlwckAacHIAIXCIM=</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>Mirone - Realtek ALC288</string>
 					<key>CodecID</key>
 					<integer>283902600</integer>
@@ -4857,6 +4893,24 @@
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>13</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>Realtek ALC294, ZenBook UX434</string>
+					<key>CodecID</key>
+					<integer>283902612</integer>
+					<key>ConfigData</key>
+					<data>AgUAGwIETksCBQBFAgRSiQGXHEABlx0QAZcegQGXHwE=</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>15</integer>
+					<key>WakeConfigData</key>
+					<data>AXcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
@@ -9493,7 +9547,24 @@
 					<data>AUcMAg==</data>
 					<key>WakeVerbReinit</key>
 					<true/>
-				</dict>				
+				</dict>
+          <key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>5T33Z0 - Lenoco T530 with Dock 4337/4338</string>
+					<key>CodecID</key>
+					<integer>283902569</integer>
+					<key>ConfigData</key>
+					<data>AUccEAFHHQEBRx4XAUcfkAFHDAIBVxwgAVcdEAFXHiEBVx8DAVcMAgEnHDABJx0BASceoAEnH5ABhxxAAYcdEAGHHoEBhx8DAZccYAGXHZABlx6BAZcfJAG3HHABtx1AAbceAQG3HyQ=</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>39</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgFXDAI=</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
 			</array>
 			<key>IOClass</key>
 			<string>AppleALC</string>

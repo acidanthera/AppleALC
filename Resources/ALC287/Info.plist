@@ -18,6 +18,14 @@
 				<key>Path</key>
 				<string>layout11.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom ALC287 for Lenovo Yoga Slim 7-14IIL05 by Andres ZeroCross</string>
+				<key>Id</key>
+				<integer>21</integer>
+				<key>Path</key>
+				<string>layout21.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -26,6 +34,14 @@
 				<integer>11</integer>
 				<key>Path</key>
 				<string>Platforms11.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom ALC287 for Lenovo Yoga Slim 7-14IIL05 by Andres ZeroCross</string>
+				<key>Id</key>
+				<integer>21</integer>
+				<key>Path</key>
+				<string>Platforms21.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>

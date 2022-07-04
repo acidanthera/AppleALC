@@ -4,6 +4,11 @@ AppleALC Changelog
 - Added constants for macOS 13 support
 - Fix sleep breaking earphone support on ALC295 layout-id 13 by Mahas1
 - Fixed NUC8I5BEH JUST MIC ALC235 layout-id 88 by @frozenzero123
+- Added ALC269 VC layout-id 39 with support for LineIn and LineOut of Docking Stations 4337 and 4338 for Lenovo T530 with Docking Stations 4437 and 4338 by 5T33Z0
+- Added ALC235 layout-id 33 for Lenovo A340-22IWL with support for Internal Speakers, Headphone, and LineIn (External Mic).
+- Added new codec revision-id 0x100500 for ALC897 by R-a-s-c-a-l
+- Added ALC294 layout-id 15 for Zenbook UX434 by wern-apfel
+- Added ALC287 layout-id 21 for Lenovo Yoga Slim 7-14IIL05 by Andres ZeroCross
 
 #### v1.7.2
 - Added layout-id 97 ALC257 for Lenovo Thinkpad T490 by @savvamitrofanov

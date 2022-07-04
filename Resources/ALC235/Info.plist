@@ -134,6 +134,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Custom by fuzzyrock for ALC235 Lenovo A340-22IWL</string>
+				<key>Id</key>
+				<integer>33</integer>
+				<key>Path</key>
+				<string>layout33.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Realtek ALC235(Display as ALC233) for Lenovo Qitian M420-D046(C) by Cryse Hillmes</string>
 				<key>Id</key>
 				<integer>35</integer>
@@ -294,6 +302,14 @@
 				<integer>29</integer>
 				<key>Path</key>
 				<string>Platforms29.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom by fuzzyrock for ALC235 Lenovo A340-22IWL</string>
+				<key>Id</key>
+				<integer>33</integer>
+				<key>Path</key>
+				<string>Platforms33.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
