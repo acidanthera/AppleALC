@@ -26,6 +26,13 @@ jobs:
       - name: CI Bootstrap
         run: |
           src=$(/usr/bin/curl -Lfs https://raw.githubusercontent.com/acidanthera/ocbuild/real-int-plist-check/ci-bootstrap.sh) && eval "$src" || exit 1
+      - name: Upload to Artifacts (Plist Integer Type Fix)
+        uses: actions/upload-artifact@v3
+        if: failure()
+        with:
+          name: Plist Integer Type Fix Artifacts
+          path: ./plist-int.diff
+
       - name: Lilu Bootstrap
         run: |
           src=$(/usr/bin/curl -Lfs https://raw.githubusercontent.com/acidanthera/Lilu/master/Lilu/Scripts/bootstrap.sh) && eval "$src" || exit 1
