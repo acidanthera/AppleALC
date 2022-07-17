@@ -1275,7 +1275,7 @@
 				<key>Find</key>
 				<data>DgAAvgIAAABIid8=</data>
 				<key>MinKernel</key>
-				<integer>19</integer>
+				<integer>17</integer>
 				<key>Name</key>
 				<string>AppleHDAController</string>
 				<key>Replace</key>
