@@ -110,6 +110,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>ALC236 for HP-240-G8 by 8DireZ3</string>
+				<key>Id</key>
+				<integer>77</integer>
+				<key>Path</key>
+				<string>layout77.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>ALC236 for Lenovo Air 13 IWL by DalianSky</string>
 				<key>Id</key>
 				<integer>99</integer>
@@ -214,6 +222,14 @@
 				<integer>54</integer>
 				<key>Path</key>
 				<string>Platforms54.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>ALC236 for HP-240-G8 by 8DireZ3</string>
+				<key>Id</key>
+				<integer>77</integer>
+				<key>Path</key>
+				<string>Platforms77.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
