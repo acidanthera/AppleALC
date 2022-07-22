@@ -9566,6 +9566,24 @@
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>Realtek ALC1220 for MSI GE73 Raider RGB 8RF by Ardhi96</string>
+					<key>CodecID</key>
+					<integer>283906592</integer>
+					<key>ConfigData</key>
+					<data>ASccEAEnHQABJx6gAScfkAFHHCABRx0AAUceFwFHH5ABRwwCAVcc8AFXHQABVx4AAVcfQAFnHPABZx0AAWceAAFnH0ABdxzwAXcdAAF3HgABdx9AAYcc8AGHHQABhx4AAYcfQAGXHDABlx0QAZcegQGXHwEBpxzwAacdAAGnHgABpx9AAbccQAG3HRABtx4hAbcfAQG3DAIB1xzwAdcdAAHXHgAB1x9AAecc8AHnHQAB5x4AAecfQA==</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>25</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgG3DAI=</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
 			</array>
 			<key>IOClass</key>
 			<string>AppleALC</string>
