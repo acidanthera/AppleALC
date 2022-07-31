@@ -13,6 +13,14 @@
 		<key>Layouts</key>
 		<array>
 			<dict>
+				<key>comment</key>
+				<string>ALC255 for dell inspiron 15 3558</string>
+				<key>id</key>
+				<integer>254</integer>
+				<key>patch</key>
+				<string>layout254.xml.zlib</string>
+			</dict>
+			<dict>
 				<key>Comment</key>
 				<string>Mirone Laptop Patch ALC255</string>
 				<key>Id</key>
@@ -191,6 +199,14 @@
 		</array>
 		<key>Platforms</key>
 		<array>
+			<dict>
+				<key>Comment</key>
+				<string>ALC255 for dell inspiron 15 3558</string>
+				<key>Id</key>
+				<string>254</string>
+				<key>patch</key>
+				<string>Platforms254.xml.zlib</string>
+			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>Mirone Laptop Patch ALC255</string>
