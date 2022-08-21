@@ -1590,6 +1590,22 @@
 				</dict>
 				<dict>
 					<key>Codec</key>
+					<string>Realtek ALC255(3234) for Asus N752VX by Feartech</string>
+					<key>CodecID</key>
+					<integer>283902549</integer>
+					<key>ConfigData</key>
+					<data>AScc8AEnHQABJx4AAScfQAFHHBABRx0BAUceFwFHH5ABdxzwAXcdAAF3HgABdx9AAYcc8AGHHQABhx4AAYcfQAIXDAIBlxxAAZcdEAGXHosBlx8CAacc8AGnHQABpx4AAacfQAG3HCABtx0QAbceAQG3HwEB1xzwAdcdAAHXHgAB1x9AAecc8AHnHQAB5x4AAecfQAIXHDACFx0QAhceKwIXHwIBRwwC</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>22</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgIXDAIBlwcl</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>Codec</key>
 					<string>Realtek ALC255(3234) for Dell Optiplex series by Heporis</string>
 					<key>CodecID</key>
 					<integer>283902549</integer>
