@@ -102,6 +102,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Realtek ALC255(3234) for Asus N752VX by Feartech</string>
+				<key>Id</key>
+				<integer>22</integer>
+				<key>Path</key>
+				<string>layout22.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>ALC255 for Asus X556UA m-dudarev</string>
 				<key>Id</key>
 				<integer>27</integer>
@@ -278,6 +286,14 @@
 				<integer>21</integer>
 				<key>Path</key>
 				<string>Platforms21.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Realtek ALC255(3234) for Asus N752VX by Feartech</string>
+				<key>Id</key>
+				<integer>22</integer>
+				<key>Path</key>
+				<string>Platforms22.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
