@@ -5354,6 +5354,24 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>RockJesus.cn - Realtek ALC298 for surface laptop 1gen</string>
+					<key>CodecID</key>
+					<integer>283902616</integer>
+					<key>ConfigData</key>
+					<data>ASccQAEnHQEBJx6mAScfkAGHHDABhx0QAYceoQGHHwMBpxwQAacdAQGnHhcBpx+QAhccIAIXHRACFx4hAhcfAw==</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>33</integer>
+					<key>WakeConfigData</key>
+					<data>AXcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>Daliansky - Realtek ALC298 ThinkPad T470p</string>
 					<key>CodecID</key>
 					<integer>283902616</integer>
