@@ -110,6 +110,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Realtek ALC255 for Acer Aspire A515-54G</string>
+				<key>Id</key>
+				<integer>23</integer>
+				<key>Path</key>
+				<string>layout23.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>ALC255 for Asus X556UA m-dudarev</string>
 				<key>Id</key>
 				<integer>27</integer>
@@ -294,6 +302,14 @@
 				<integer>22</integer>
 				<key>Path</key>
 				<string>Platforms22.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Realtek ALC255 for Acer Aspire A515-54G</string>
+				<key>Id</key>
+				<integer>23</integer>
+				<key>Path</key>
+				<string>Platforms23.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>

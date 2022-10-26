@@ -1716,6 +1716,24 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>Realtek ALC255 for Acer Aspire A515-54G</string>
+					<key>CodecID</key>
+					<integer>283902549</integer>
+					<key>ConfigData</key>
+					<data>ASccEAEnHQEBJx6mAScfkAFHHCABRx0RAUceFwFHH5AB1xwxAdcdAAHXHoAB1x8AAhccQAIXHRACFx4hAhcfAg==</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>23</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>ALC255 for Asus X556UA m-dudarev</string>
 					<key>CodecID</key>
 					<integer>283902549</integer>
