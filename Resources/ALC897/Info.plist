@@ -22,6 +22,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>OPS Computer ALC897 by Andres ZeroCross</string>
+				<key>Id</key>
+				<integer>21</integer>
+				<key>Path</key>
+				<string>layout21.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Asus_PRIME_B460M-K_ALC897</string>
 				<key>Id</key>
 				<integer>66</integer>
