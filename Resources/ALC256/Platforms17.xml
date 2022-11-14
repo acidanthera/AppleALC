@@ -120,7 +120,7 @@
 								<key>Amp</key>
 								<dict>
 									<key>MuteInputAmp</key>
-									<true/>
+									<false/>
 									<key>PublishMute</key>
 									<true/>
 									<key>PublishVolume</key>
@@ -167,7 +167,7 @@
 								<key>Amp</key>
 								<dict>
 									<key>MuteInputAmp</key>
-									<true/>
+									<false/>
 									<key>PublishMute</key>
 									<true/>
 									<key>PublishVolume</key>
