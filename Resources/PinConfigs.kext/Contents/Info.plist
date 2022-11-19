@@ -9700,13 +9700,13 @@
 					<key>CodecID</key>
 					<integer>283902550</integer>
 					<key>ConfigData</key>
-					<data>AhccEAIXHRACFx4hAhcfAgIXDAIB5xwgAecdEQHnHkUB5x8BAZccMAGXHRABlx6gAZcfkg==</data>
+					<data>AhccEAIXHRACFx4hAhcfAgIXDAIB5xwgAecdEQHnHkUB5x8BAZccMAGXHRABlx6gAZcfkgG3HEABtx0QAbceEQG3HwEBtwwC</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>68</integer>
 					<key>WakeConfigData</key>
-					<data>AhcMAg==</data>
+					<data>AhcMAgG3DAI=</data>
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
