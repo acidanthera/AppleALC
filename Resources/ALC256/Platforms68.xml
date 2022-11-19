@@ -178,6 +178,32 @@
 								<integer>30</integer>
 							</dict>
 							<dict>
+								<key>Amp</key>
+								<dict>
+									<key>Channels</key>
+									<array>
+										<dict>
+											<key>Bind</key>
+											<integer>1</integer>
+											<key>Channel</key>
+											<integer>1</integer>
+										</dict>
+										<dict>
+											<key>Bind</key>
+											<integer>2</integer>
+											<key>Channel</key>
+											<integer>2</integer>
+										</dict>
+									</array>
+									<key>MuteInputAmp</key>
+									<true/>
+									<key>PublishMute</key>
+									<false/>
+									<key>PublishVolume</key>
+									<false/>
+									<key>VolumeInputAmp</key>
+									<false/>
+								</dict>
 								<key>NodeID</key>
 								<integer>6</integer>
 							</dict>
