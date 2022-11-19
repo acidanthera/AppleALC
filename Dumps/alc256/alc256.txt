@@ -1,3 +1,6 @@
+# edit by littlesum 2022-11-20
+# this is just a nuc9 codec dump txt
+
 Codec: Realtek ALC256
 Address: 0
 AFG Function Id: 0x1 (unsol 1)
