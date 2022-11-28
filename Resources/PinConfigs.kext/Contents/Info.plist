@@ -9696,7 +9696,7 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
-					<string>littlesum - Intel NUC9</string>
+					<string>Littlesum - Realtek ALC256 (3246)  for Intel NUC9 </string>
 					<key>CodecID</key>
 					<integer>283902550</integer>
 					<key>ConfigData</key>
