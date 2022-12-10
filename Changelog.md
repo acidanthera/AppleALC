@@ -1,5 +1,8 @@
 AppleALC Changelog
 ==================
+#### v1.7.7
+- Added ALC256 layout-id 68 for nuc9 by littlesum
+
 #### v1.7.6
 - Added ALC298 layout-id 33 for surface laptop 1gen by Rockjesus.cn
 - Added ALC255 layout-id 23for Acer Aspire A515-54G by anderson-suga

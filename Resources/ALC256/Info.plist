@@ -212,6 +212,14 @@
 				<key>Path</key>
 				<string>layout99.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Littlesum - Realtek ALC256 (3246) for Nuc9</string>
+				<key>Id</key>
+				<integer>68</integer>
+				<key>Path</key>
+				<string>layout68.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -414,6 +422,14 @@
 				<integer>99</integer>
 				<key>Path</key>
 				<string>Platforms99.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Littlesum - Realtek ALC256 (3246) for Nuc9</string>
+				<key>Id</key>
+				<integer>68</integer>
+				<key>Path</key>
+				<string>Platforms68.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>
