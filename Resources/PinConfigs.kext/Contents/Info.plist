@@ -8064,6 +8064,24 @@
 					<key>CodecID</key>
 					<integer>283906408</integer>
 					<key>CodecName</key>
+					<string>Realtek ALC S1220A for Asus ROG Strix X570-F Gaming (based on Mirone's layout 7)</string>
+					<key>ConfigData</key>
+					<data>AUccEAFHHUABRx4RAUcfAQFXHFABVx0QAVceAQFXHwEBZxwwAWcdYAFnHgEBZx8BAYccYAGHHZABhx6gAYcfkAGXHHABlx2QAZcegQGXHwEBtxwgAbcdQAG3HiEBtx8BAUcMAg==</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>15</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>CodecID</key>
+					<integer>283906408</integer>
+					<key>CodecName</key>
 					<string>Realtek ALC S1220A RodionS, Nacho 2.0 outputs(green), 2 inputs (blue)+front panel (mic fr.panel), mic (pink), headphones(lime), SPDIF/Optical </string>
 					<key>ConfigData</key>
 					<data>AUceEAGHHqABhx+RAZcegQFHDAI=</data>
