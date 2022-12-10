@@ -94,6 +94,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>CaseySJ - ALC1220 for Gigabyte B550 Vision D</string>
+				<key>Id</key>
+				<integer>20</integer>
+				<key>Path</key>
+				<string>layout20.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>ALC1220 for MSI GE63 Raider RGB 8RF</string>
 				<key>Id</key>
 				<integer>21</integer>
@@ -262,6 +270,14 @@
 				<integer>17</integer>
 				<key>Path</key>
 				<string>Platforms17.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>CaseySJ - ALC1220 for Gigabyte B550 Vision D</string>
+				<key>Id</key>
+				<integer>20</integer>
+				<key>Path</key>
+				<string>Platforms20.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
