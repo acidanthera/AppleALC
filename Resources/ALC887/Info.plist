@@ -78,14 +78,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>CaseySJ - Realtek ALC887VD</string>
-				<key>Id</key>
-				<integer>15</integer>
-				<key>Path</key>
-				<string>layout15.xml.zlib</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>InsanelyDeepak - Realtek ALC887VD</string>
 				<key>Id</key>
 				<integer>17</integer>
@@ -230,14 +222,6 @@
 				<integer>13</integer>
 				<key>Path</key>
 				<string>PlatformsID.xml.zlib</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>CaseySJ - Realtek ALC887VD</string>
-				<key>Id</key>
-				<integer>15</integer>
-				<key>Path</key>
-				<string>Platforms15.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
