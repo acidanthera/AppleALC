@@ -9718,13 +9718,13 @@
 					<key>CodecID</key>
 					<integer>283902549</integer>
 					<key>ConfigData</key>
-					<data>AZccEAGXHZABlx6AAZcfAQFHHCABRx0QAUceFwFHH5ABRwwCAhccMAIXHRACFx4hAhcfAQIXDAIBJxzAAScdAAEnHqABJx+Q</data>
+					<data>AZccEAGXHZABlx6AAZcfAQGXByQBRxwgAUcdEAFHHhcBRx+QAUcMAgIXHDACFx0QAhceIQIXHwECFwwCAhcIgwEnHMABJx0AASceoAEnH5A=</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>69</integer>
 					<key>WakeConfigData</key>
-					<data>AUcMAgIXDAIBlwck</data>
+					<data>AUcMAgIXDAICFwiDAZcHJA==</data>
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
