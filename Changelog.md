@@ -1,5 +1,11 @@
 AppleALC Changelog
 ==================
+#### v1.7.8
+- Added ALC255 layout-id 69 for Acer Aspire 3 A315-56-327T by juniorcaesar
+- Added ALC1220 layout-id 20 for Gigabyte B550 Vision D by CaseySJ
+- Added ALCS1220A layout-id 15 for Asus ROG Strix X570-F Gaming by CaseySJ
+- Added 700 series PCH HD Audio by dreamwhite
+
 #### v1.7.7
 - Added ALC256 layout-id 68 for nuc9 by littlesum
 

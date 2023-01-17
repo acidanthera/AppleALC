@@ -92,6 +92,14 @@
 				<key>Path</key>
 				<string>layout13.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Realtek ALC S1220A for Asus ROG Strix X570-F Gaming (CaseySJ)</string>
+				<key>Id</key>
+				<integer>15</integer>
+				<key>Path</key>
+				<string>layout15.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -174,6 +182,14 @@
 				<integer>13</integer>
 				<key>Path</key>
 				<string>Platforms13.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Realtek ALC S1220A for Asus ROG Strix X570-F Gaming (CaseySJ)</string>
+				<key>Id</key>
+				<integer>15</integer>
+				<key>Path</key>
+				<string>Platforms15.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>
