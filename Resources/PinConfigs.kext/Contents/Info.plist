@@ -9754,13 +9754,13 @@
 					<key>CodecID</key>
 					<integer>283902549</integer>
 					<key>ConfigData</key>
-					<data>AZccEAGXHZABlx6AAZcfAQGXByQBRxwgAUcdEAFHHhcBRx+QAUcMAgIXHDACFx0QAhceIQIXHwECFwwCAhcIgwEnHMABJx0AASceoAEnH5A=</data>
+					<data>AZccEAGXHRABlx6LAZcfAQFHHCABRx0QAUceFwFHH5ABRwwCAhccMAIXHRACFx4rAhcfAQIXDAICFwiDASccQAEnHQABJx6gAScfkAGXByI=</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>69</integer>
 					<key>WakeConfigData</key>
-					<data>AUcMAgIXDAICFwiDAZcHJA==</data>
+					<data>AUcMAgIXDAICFwiDAZcHIg==</data>
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
