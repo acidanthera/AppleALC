@@ -9258,6 +9258,24 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>HafidzRadhival - DELL Vostro 5468 ALC256 (3246)</string>
+					<key>CodecID</key>
+					<integer>283902550</integer>
+					<key>ConfigData</key>
+					<data>ASccQAEnHQEBJx6mAScfkAFHHDABRx0BAUceFwFHH5ABRwwCAZccIAGXHRABlx6BAZcfAgIXHBACFx0QAhceIQIXHwICFwwC</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>12</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>Enrico - GA-Z77X-D3Hrev1.0 - VIA VT2020/2021</string>
 					<key>CodecID</key>
 					<integer>285606977</integer>
