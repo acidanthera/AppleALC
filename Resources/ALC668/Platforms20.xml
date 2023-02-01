@@ -1,6 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
 <dict>
 	<key>CommonPeripheralDSP</key>
 	<array>
@@ -1398,43 +1395,7 @@
 							<key>4</key>
 							<integer>-1073900105</integer>
 							<key>5</key>
-							<data>
-							BK9/wipbZMKih27CXHt7
-							wkZLgsIgtIXCqhGJwjXJ
-							i8JzGI7CYeiPwr6jkcIA
-							NpPCjKKUwpCGlMIcWZbC
-							/P2WwtRjmMIK5JnCO52a
-							wiB5msITyJrCo7Gbwu3F
-							m8IZjZ7CQ3+dwmg1n8Id
-							eaHCIlijwvguo8KwU6PC
-							WASgwmt+oMLibqPC21yj
-							whjOpsLhQqfCEH+nwojD
-							psLqEabCkoihwrZko8KY
-							FqTCnWWmwhj/qcLplqrC
-							AhyrwvEgq8JwjKjCurCk
-							ws+Kp8IKTqXCl7GowrAV
-							q8JmKazCPrGrwiDzqsLZ
-							5KfCCqanwvLDqcKKwqfC
-							qqOqwoKnqsIPAa7CgWGv
-							wlT3rsKl5anCU3yrwpV0
-							qsLimKrCzBGuwm3zrcJG
-							RbDCR5KwwvSxrsKpr6rC
-							2xetwniVqsJNUK3C3lqu
-							wtH0rcJ6mazC6zOtwowY
-							rsJUNa3CXBKvwkl9rML3
-							/K/CanKvwuoKssIX37PC
-							wXWzwm3Dr8KxErDC5Xuv
-							wqnfrsLBy7HCXnKwwjTm
-							s8LUT7XCkrmzwmBWsMIQ
-							qrHC1kmwwloussKnybLC
-							+kWywsxLtcIY27fCO3u4
-							wuPgt8I7JbrCClK4wmkw
-							vMJ3vbzCQVHAwjSfxcJ4
-							18fCCZ7JwixDzMJm5c/C
-							1FrRwgVZ2MIqAN3CI4rl
-							wpaa78KO4vfCiywAw3HF
-							A8OL1wvD
-							</data>
+							<data>BK9/wipbZMKih27CXHt7wkZLgsIgtIXCqhGJwjXJi8JzGI7CYeiPwr6jkcIANpPCjKKUwpCGlMIcWZbC/P2WwtRjmMIK5JnCO52awiB5msITyJrCo7Gbwu3Fm8IZjZ7CQ3+dwmg1n8IdeaHCIlijwvguo8KwU6PCWASgwmt+oMLibqPC21yjwhjOpsLhQqfCEH+nwojDpsLqEabCkoihwrZko8KYFqTCnWWmwhj/qcLplqrCAhyrwvEgq8JwjKjCurCkws+Kp8IKTqXCl7GowrAVq8JmKazCPrGrwiDzqsLZ5KfCCqanwvLDqcKKwqfCqqOqwoKnqsIPAa7CgWGvwlT3rsKl5anCU3yrwpV0qsLimKrCzBGuwm3zrcJGRbDCR5KwwvSxrsKpr6rC2xetwniVqsJNUK3C3lquwtH0rcJ6mazC6zOtwowYrsJUNa3CXBKvwkl9rML3/K/CanKvwuoKssIX37PCwXWzwm3Dr8KxErDC5XuvwqnfrsLBy7HCXnKwwjTms8LUT7XCkrmzwmBWsMIQqrHC1kmwwloussKnybLC+kWywsxLtcIY27fCO3u4wuPgt8I7JbrCClK4wmkwvMJ3vbzCQVHAwjSfxcJ418fCCZ7JwixDzMJm5c/C1FrRwgVZ2MIqAN3CI4rlwpaa78KO4vfCiywAw3HFA8OL1wvD</data>
 						</dict>
 						<key>PatchbayInfo</key>
 						<dict>
@@ -1806,43 +1767,7 @@
 							<key>4</key>
 							<integer>-1073900105</integer>
 							<key>5</key>
-							<data>
-							aouLwiBHdMIsbXTClNV6
-							wpl0gMLLGoPCsqCFwk+S
-							h8KXQYnCNLGKwpoejMIu
-							CY3C1uyNwvU6jcJ6No/C
-							s5GPwiu4kMJ8cpLCBiCT
-							wlZdk8JhopPC/SKTwgBA
-							ksK6fJTCD++Twge/lcLr
-							+JbCHo2XwkInl8IALJfC
-							qjmVwqfDlcIeSpfCxgyX
-							wgqNmcJ0SJrCs3Cawt0I
-							msI6AprCfUeXwr4wmcJo
-							WpnCiCGawtXzm8JHcZzC
-							Gs6cws2TnMKUeJvCgWaZ
-							wrB2m8Ib+pnC2iKcwmde
-							ncL0y53CZCSewqEjnsIG
-							8ZvC7WebwgTGnMID3JvC
-							aTmewppcnsL8r5/CaCqg
-							wnjtn8Ina53C9hmewuKu
-							ncJgS57CYg+gwp7nn8Ji
-							C6HCJhKhwr4eoMK3FJ7C
-							wNyfwqCwnsL0JKDCMb+g
-							wrpUocL1WqLCTomiwvc6
-							ocIifaDC/iOhwsmon8Kl
-							w6HC2k2hwiEKo8Ju4KPC
-							vbGjwr45osJuoaLCUwqi
-							wlGLocJ2+6LC3pWiwpqe
-							pMLkvKXCfDalwidzo8LG
-							WaTC5u2jwpxIpcLNJabC
-							OFOmwo6OqMLD7qnCqkGq
-							wihiqsI+UazCPeerwsda
-							r8K2nLDCi3qzwkoht8Ka
-							hLnC/PO7whIgv8Ky6sLC
-							6unFwtOazMJnjtHCq2nZ
-							wrI94sKiEuvCohP1wtjb
-							/cJ5LwfD
-							</data>
+							<data>aouLwiBHdMIsbXTClNV6wpl0gMLLGoPCsqCFwk+Sh8KXQYnCNLGKwpoejMIuCY3C1uyNwvU6jcJ6No/Cs5GPwiu4kMJ8cpLCBiCTwlZdk8JhopPC/SKTwgBAksK6fJTCD++Twge/lcLr+JbCHo2XwkInl8IALJfCqjmVwqfDlcIeSpfCxgyXwgqNmcJ0SJrCs3Cawt0ImsI6AprCfUeXwr4wmcJoWpnCiCGawtXzm8JHcZzCGs6cws2TnMKUeJvCgWaZwrB2m8Ib+pnC2iKcwmdencL0y53CZCSewqEjnsIG8ZvC7WebwgTGnMID3JvCaTmewppcnsL8r5/CaCqgwnjtn8Ina53C9hmewuKuncJgS57CYg+gwp7nn8JiC6HCJhKhwr4eoMK3FJ7CwNyfwqCwnsL0JKDCMb+gwrpUocL1WqLCTomiwvc6ocIifaDC/iOhwsmon8Klw6HC2k2hwiEKo8Ju4KPCvbGjwr45osJuoaLCUwqiwlGLocJ2+6LC3pWiwpqepMLkvKXCfDalwidzo8LGWaTC5u2jwpxIpcLNJabCOFOmwo6OqMLD7qnCqkGqwihiqsI+UazCPeerwsdar8K2nLDCi3qzwkoht8KahLnC/PO7whIgv8Ky6sLC6unFwtOazMJnjtHCq2nZwrI94sKiEuvCohP1wtjb/cJ5LwfD</data>
 						</dict>
 						<key>PatchbayInfo</key>
 						<dict>
@@ -2144,43 +2069,7 @@
 							<key>4</key>
 							<integer>-1073900105</integer>
 							<key>5</key>
-							<data>
-							aouLwiBHdMIsbXTClNV6
-							wpl0gMLLGoPCsqCFwk+S
-							h8KXQYnCNLGKwpoejMIu
-							CY3C1uyNwvU6jcJ6No/C
-							s5GPwiu4kMJ8cpLCBiCT
-							wlZdk8JhopPC/SKTwgBA
-							ksK6fJTCD++Twge/lcLr
-							+JbCHo2XwkInl8IALJfC
-							qjmVwqfDlcIeSpfCxgyX
-							wgqNmcJ0SJrCs3Cawt0I
-							msI6AprCfUeXwr4wmcJo
-							WpnCiCGawtXzm8JHcZzC
-							Gs6cws2TnMKUeJvCgWaZ
-							wrB2m8Ib+pnC2iKcwmde
-							ncL0y53CZCSewqEjnsIG
-							8ZvC7WebwgTGnMID3JvC
-							aTmewppcnsL8r5/CaCqg
-							wnjtn8Ina53C9hmewuKu
-							ncJgS57CYg+gwp7nn8Ji
-							C6HCJhKhwr4eoMK3FJ7C
-							wNyfwqCwnsL0JKDCMb+g
-							wrpUocL1WqLCTomiwvc6
-							ocIifaDC/iOhwsmon8Kl
-							w6HC2k2hwiEKo8Ju4KPC
-							vbGjwr45osJuoaLCUwqi
-							wlGLocJ2+6LC3pWiwpqe
-							pMLkvKXCfDalwidzo8LG
-							WaTC5u2jwpxIpcLNJabC
-							OFOmwo6OqMLD7qnCqkGq
-							wihiqsI+UazCPeerwsda
-							r8K2nLDCi3qzwkoht8Ka
-							hLnC/PO7whIgv8Ky6sLC
-							6unFwtOazMJnjtHCq2nZ
-							wrI94sKiEuvCohP1wtjb
-							/cJ5LwfD
-							</data>
+							<data>aouLwiBHdMIsbXTClNV6wpl0gMLLGoPCsqCFwk+Sh8KXQYnCNLGKwpoejMIuCY3C1uyNwvU6jcJ6No/Cs5GPwiu4kMJ8cpLCBiCTwlZdk8JhopPC/SKTwgBAksK6fJTCD++Twge/lcLr+JbCHo2XwkInl8IALJfCqjmVwqfDlcIeSpfCxgyXwgqNmcJ0SJrCs3Cawt0ImsI6AprCfUeXwr4wmcJoWpnCiCGawtXzm8JHcZzCGs6cws2TnMKUeJvCgWaZwrB2m8Ib+pnC2iKcwmdencL0y53CZCSewqEjnsIG8ZvC7WebwgTGnMID3JvCaTmewppcnsL8r5/CaCqgwnjtn8Ina53C9hmewuKuncJgS57CYg+gwp7nn8JiC6HCJhKhwr4eoMK3FJ7CwNyfwqCwnsL0JKDCMb+gwrpUocL1WqLCTomiwvc6ocIifaDC/iOhwsmon8Klw6HC2k2hwiEKo8Ju4KPCvbGjwr45osJuoaLCUwqiwlGLocJ2+6LC3pWiwpqepMLkvKXCfDalwidzo8LGWaTC5u2jwpxIpcLNJabCOFOmwo6OqMLD7qnCqkGqwihiqsI+UazCPeerwsdar8K2nLDCi3qzwkoht8KahLnC/PO7whIgv8Ky6sLC6unFwtOazMJnjtHCq2nZwrI94sKiEuvCohP1wtjb/cJ5LwfD</data>
 						</dict>
 						<key>PatchbayInfo</key>
 						<dict>
@@ -2587,43 +2476,7 @@
 							<key>4</key>
 							<integer>-1073900105</integer>
 							<key>5</key>
-							<data>
-							BK9/wipbZMKih27CXHt7
-							wkZLgsIgtIXCqhGJwjXJ
-							i8JzGI7CYeiPwr6jkcIA
-							NpPCjKKUwpCGlMIcWZbC
-							/P2WwtRjmMIK5JnCO52a
-							wiB5msITyJrCo7Gbwu3F
-							m8IZjZ7CQ3+dwmg1n8Id
-							eaHCIlijwvguo8KwU6PC
-							WASgwmt+oMLibqPC21yj
-							whjOpsLhQqfCEH+nwojD
-							psLqEabCkoihwrZko8KY
-							FqTCnWWmwhj/qcLplqrC
-							AhyrwvEgq8JwjKjCurCk
-							ws+Kp8IKTqXCl7GowrAV
-							q8JmKazCPrGrwiDzqsLZ
-							5KfCCqanwvLDqcKKwqfC
-							qqOqwoKnqsIPAa7CgWGv
-							wlT3rsKl5anCU3yrwpV0
-							qsLimKrCzBGuwm3zrcJG
-							RbDCR5KwwvSxrsKpr6rC
-							2xetwniVqsJNUK3C3lqu
-							wtH0rcJ6mazC6zOtwowY
-							rsJUNa3CXBKvwkl9rML3
-							/K/CanKvwuoKssIX37PC
-							wXWzwm3Dr8KxErDC5Xuv
-							wqnfrsLBy7HCXnKwwjTm
-							s8LUT7XCkrmzwmBWsMIQ
-							qrHC1kmwwloussKnybLC
-							+kWywsxLtcIY27fCO3u4
-							wuPgt8I7JbrCClK4wmkw
-							vMJ3vbzCQVHAwjSfxcJ4
-							18fCCZ7JwixDzMJm5c/C
-							1FrRwgVZ2MIqAN3CI4rl
-							wpaa78KO4vfCiywAw3HF
-							A8OL1wvD
-							</data>
+							<data>BK9/wipbZMKih27CXHt7wkZLgsIgtIXCqhGJwjXJi8JzGI7CYeiPwr6jkcIANpPCjKKUwpCGlMIcWZbC/P2WwtRjmMIK5JnCO52awiB5msITyJrCo7Gbwu3Fm8IZjZ7CQ3+dwmg1n8IdeaHCIlijwvguo8KwU6PCWASgwmt+oMLibqPC21yjwhjOpsLhQqfCEH+nwojDpsLqEabCkoihwrZko8KYFqTCnWWmwhj/qcLplqrCAhyrwvEgq8JwjKjCurCkws+Kp8IKTqXCl7GowrAVq8JmKazCPrGrwiDzqsLZ5KfCCqanwvLDqcKKwqfCqqOqwoKnqsIPAa7CgWGvwlT3rsKl5anCU3yrwpV0qsLimKrCzBGuwm3zrcJGRbDCR5KwwvSxrsKpr6rC2xetwniVqsJNUK3C3lquwtH0rcJ6mazC6zOtwowYrsJUNa3CXBKvwkl9rML3/K/CanKvwuoKssIX37PCwXWzwm3Dr8KxErDC5XuvwqnfrsLBy7HCXnKwwjTms8LUT7XCkrmzwmBWsMIQqrHC1kmwwloussKnybLC+kWywsxLtcIY27fCO3u4wuPgt8I7JbrCClK4wmkwvMJ3vbzCQVHAwjSfxcJ418fCCZ7JwixDzMJm5c/C1FrRwgVZ2MIqAN3CI4rlwpaa78KO4vfCiywAw3HFA8OL1wvD</data>
 						</dict>
 						<key>PatchbayInfo</key>
 						<dict>
@@ -2814,43 +2667,7 @@
 							<key>4</key>
 							<integer>-1073900105</integer>
 							<key>5</key>
-							<data>
-							BK9/wipbZMKih27CXHt7
-							wkZLgsIgtIXCqhGJwjXJ
-							i8JzGI7CYeiPwr6jkcIA
-							NpPCjKKUwpCGlMIcWZbC
-							/P2WwtRjmMIK5JnCO52a
-							wiB5msITyJrCo7Gbwu3F
-							m8IZjZ7CQ3+dwmg1n8Id
-							eaHCIlijwvguo8KwU6PC
-							WASgwmt+oMLibqPC21yj
-							whjOpsLhQqfCEH+nwojD
-							psLqEabCkoihwrZko8KY
-							FqTCnWWmwhj/qcLplqrC
-							AhyrwvEgq8JwjKjCurCk
-							ws+Kp8IKTqXCl7GowrAV
-							q8JmKazCPrGrwiDzqsLZ
-							5KfCCqanwvLDqcKKwqfC
-							qqOqwoKnqsIPAa7CgWGv
-							wlT3rsKl5anCU3yrwpV0
-							qsLimKrCzBGuwm3zrcJG
-							RbDCR5KwwvSxrsKpr6rC
-							2xetwniVqsJNUK3C3lqu
-							wtH0rcJ6mazC6zOtwowY
-							rsJUNa3CXBKvwkl9rML3
-							/K/CanKvwuoKssIX37PC
-							wXWzwm3Dr8KxErDC5Xuv
-							wqnfrsLBy7HCXnKwwjTm
-							s8LUT7XCkrmzwmBWsMIQ
-							qrHC1kmwwloussKnybLC
-							+kWywsxLtcIY27fCO3u4
-							wuPgt8I7JbrCClK4wmkw
-							vMJ3vbzCQVHAwjSfxcJ4
-							18fCCZ7JwixDzMJm5c/C
-							1FrRwgVZ2MIqAN3CI4rl
-							wpaa78KO4vfCiywAw3HF
-							A8OL1wvD
-							</data>
+							<data>BK9/wipbZMKih27CXHt7wkZLgsIgtIXCqhGJwjXJi8JzGI7CYeiPwr6jkcIANpPCjKKUwpCGlMIcWZbC/P2WwtRjmMIK5JnCO52awiB5msITyJrCo7Gbwu3Fm8IZjZ7CQ3+dwmg1n8IdeaHCIlijwvguo8KwU6PCWASgwmt+oMLibqPC21yjwhjOpsLhQqfCEH+nwojDpsLqEabCkoihwrZko8KYFqTCnWWmwhj/qcLplqrCAhyrwvEgq8JwjKjCurCkws+Kp8IKTqXCl7GowrAVq8JmKazCPrGrwiDzqsLZ5KfCCqanwvLDqcKKwqfCqqOqwoKnqsIPAa7CgWGvwlT3rsKl5anCU3yrwpV0qsLimKrCzBGuwm3zrcJGRbDCR5KwwvSxrsKpr6rC2xetwniVqsJNUK3C3lquwtH0rcJ6mazC6zOtwowYrsJUNa3CXBKvwkl9rML3/K/CanKvwuoKssIX37PCwXWzwm3Dr8KxErDC5XuvwqnfrsLBy7HCXnKwwjTms8LUT7XCkrmzwmBWsMIQqrHC1kmwwloussKnybLC+kWywsxLtcIY27fCO3u4wuPgt8I7JbrCClK4wmkwvMJ3vbzCQVHAwjSfxcJ418fCCZ7JwixDzMJm5c/C1FrRwgVZ2MIqAN3CI4rlwpaa78KO4vfCiywAw3HFA8OL1wvD</data>
 						</dict>
 						<key>PatchbayInfo</key>
 						<dict>
@@ -15408,4 +15225,3 @@
 		</dict>
 	</array>
 </dict>
-</plist>

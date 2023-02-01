@@ -10,8 +10,6 @@
 
 #include "kern_alc.hpp"
 
-static AlcEnabler alc;
-
 static const char *bootargOff[] {
 	"-alcoff"
 };
@@ -34,9 +32,10 @@ PluginConfiguration ADDPR(config) {
 	arrsize(bootargDebug),
 	bootargBeta,
 	arrsize(bootargBeta),
-	KernelVersion::MountainLion,
-	KernelVersion::BigSur,
+	KernelVersion::Tiger,
+	KernelVersion::Monterey,
 	[]() {
-		alc.init();
+		AlcEnabler::createShared();
+		AlcEnabler::getShared()->init();
 	}
 };

@@ -1,6 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
 <dict>
 	<key>LayoutID</key>
 	<integer>0</integer>
@@ -449,66 +446,7 @@
 								<key>4</key>
 								<integer>1040701824</integer>
 								<key>5</key>
-								<data>
-								SL59wsjebcKd
-								goHCSSCIwhsG
-								jMJE5I7CJfqQ
-								wlNeksI4h5PC
-								aXCUwvVylcL3
-								NZbCC7SWwlkl
-								l8Jrc5fCObaX
-								wqsCmMJfPpjC
-								qu6WwmdrkcKd
-								CJLCCHKXwr99
-								mMJ7gJjCdVmY
-								wjRmmMJCSJjC
-								lwaYwm68l8Kc
-								fZfC96+XwuHM
-								l8LgcpfCVEOX
-								wj36lsKFd5bC
-								uziWwhnalcLz
-								V5XClw2Vws+d
-								lMJJ95PC1j2T
-								wmEhkMIVQY/C
-								rbaRwh3ukcJG
-								rZHCYVGRwgQg
-								kcIBoZDCHC6Q
-								wgVKkML6T5DC
-								xU2QwmJTkMJe
-								JZDCmPqPwpo+
-								kMJBu5DC+/CQ
-								wrW3kcIqPJLC
-								AXuSwpElk8JC
-								l5PC6ySUwiXF
-								lMI3n5XCKZ6W
-								wsFxl8JMj5fC
-								uRiYwhfJmML4
-								W5nCIvyZwqp0
-								msJ20ZrCXxyb
-								wkWom8KhJZzC
-								LVOcwgzHnMKz
-								bJ3CleGdws8n
-								nsI/fp7C8aqe
-								wqXwnsKPFJ/C
-								J1Kfwt6Rn8Ib
-								2Z/CNiCgwrNE
-								oMJdTqDCNYWg
-								wkXqoMIwN6HC
-								3AKhwo5PocLj
-								wKHCUqmhwrm6
-								ocKMz6HCO7Wh
-								wra6ocLDCaLC
-								O2SiwgwyosLj
-								FqLC1QOiwqPo
-								ocLp6KHCrwui
-								wqcEosKVIaLC
-								g1OiwuJhosLF
-								UKLCbTeiwnkq
-								osJBQKLCERii
-								whwXosKpMaLC
-								ZROiwok3osKI
-								C7DC
-								</data>
+								<data>SL59wsjebcKdgoHCSSCIwhsGjMJE5I7CJfqQwlNeksI4h5PCaXCUwvVylcL3NZbCC7SWwlkll8Jrc5fCObaXwqsCmMJfPpjCqu6WwmdrkcKdCJLCCHKXwr99mMJ7gJjCdVmYwjRmmMJCSJjClwaYwm68l8KcfZfC96+XwuHMl8LgcpfCVEOXwj36lsKFd5bCuziWwhnalcLzV5XClw2Vws+dlMJJ95PC1j2TwmEhkMIVQY/CrbaRwh3ukcJGrZHCYVGRwgQgkcIBoZDCHC6QwgVKkML6T5DCxU2QwmJTkMJeJZDCmPqPwpo+kMJBu5DC+/CQwrW3kcIqPJLCAXuSwpElk8JCl5PC6ySUwiXFlMI3n5XCKZ6WwsFxl8JMj5fCuRiYwhfJmML4W5nCIvyZwqp0msJ20ZrCXxybwkWom8KhJZzCLVOcwgzHnMKzbJ3CleGdws8nnsI/fp7C8aqewqXwnsKPFJ/CJ1Kfwt6Rn8Ib2Z/CNiCgwrNEoMJdTqDCNYWgwkXqoMIwN6HC3AKhwo5PocLjwKHCUqmhwrm6ocKMz6HCO7Whwra6ocLDCaLCO2SiwgwyosLjFqLC1QOiwqPoocLp6KHCrwuiwqcEosKVIaLCg1OiwuJhosLFUKLCbTeiwnkqosJBQKLCERiiwhwXosKpMaLCZROiwok3osKIC7DC</data>
 								<key>6</key>
 								<integer>1</integer>
 							</dict>
@@ -610,4 +548,3 @@
 		</dict>
 	</array>
 </dict>
-</plist>

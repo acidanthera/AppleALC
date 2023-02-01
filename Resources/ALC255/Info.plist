@@ -22,6 +22,22 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>ALC255 Optiplex</string>
+				<key>Id</key>
+				<integer>12</integer>
+				<key>Path</key>
+				<string>layout12.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Id</key>
+				<integer>66</integer>
+				<key>Path</key>
+				<string>layout66.xml.zlib</string>
+				<key>comment</key>
+				<string>ALC255 for Dell Optiplex7060/7070MT(Separate LineOut)</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Armênio - Realtek ALC255/ALC3234 - Dell 7348</string>
 				<key>Id</key>
 				<integer>86</integer>
@@ -134,6 +150,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Realtek ALC255 for minisforum U820 by DalianSky</string>
+				<key>Id</key>
+				<integer>82</integer>
+				<key>Path</key>
+				<string>layout82.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>DalianSky - Realtek ALC255 XiaoMi Air</string>
 				<key>Id</key>
 				<integer>99</integer>
@@ -148,6 +172,14 @@
 				<key>Path</key>
 				<string>layout100.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Bhavin dell 5559 alc255</string>
+				<key>Id</key>
+				<string>96</string>
+				<key>Path</key>
+				<string>layout96.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -158,6 +190,22 @@
 				<integer>3</integer>
 				<key>Path</key>
 				<string>PlatformsM.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>ALC255 Optilpex</string>
+				<key>Id</key>
+				<integer>12</integer>
+				<key>Path</key>
+				<string>Platforms12.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Id</key>
+				<integer>66</integer>
+				<key>Path</key>
+				<string>Platforms66.xml.zlib</string>
+				<key>comment</key>
+				<string>ALC255 for Dell Optiplex7060/7070MT(Separate LineOut)</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -273,6 +321,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Realtek ALC255 for minisforum U820 by DalianSky</string>
+				<key>Id</key>
+				<integer>82</integer>
+				<key>Path</key>
+				<string>Platforms82.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>DalianSky - Realtek ALC255 XiaoMi Air</string>
 				<key>Id</key>
 				<integer>99</integer>
@@ -286,6 +342,14 @@
 				<integer>100</integer>
 				<key>Path</key>
 				<string>Platforms100.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Bhavin dell 5559 alc255</string>
+				<key>Id</key>
+				<integer>96</integer>
+				<key>Path</key>
+				<string>Platforms96.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>

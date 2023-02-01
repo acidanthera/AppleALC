@@ -28,8 +28,8 @@ zip -qr $ALCZipBkp $AppleALC
 $gPlistBuddyCmd "Delete ':Tmp'" $ALCPlist &>/dev/null || :
 $gPlistBuddyCmd "Add ':Tmp' dict" $ALCPlist
 $gPlistBuddyCmd "Merge ${ALCPinConfigsPlist} ':Tmp'" $ALCPlist
-$gPlistBuddyCmd "Delete ':IOKitPersonalities:HDA Hardware Config Resource'" $ALCPlist &>/dev/null || :
-$gPlistBuddyCmd "Copy ':Tmp:IOKitPersonalities:HDA Hardware Config Resource' ':IOKitPersonalities:HDA Hardware Config Resource'" $ALCPlist
+$gPlistBuddyCmd "Delete ':IOKitPersonalities:as.vit9696.AppleALC'" $ALCPlist &>/dev/null || :
+$gPlistBuddyCmd "Copy ':Tmp:IOKitPersonalities:as.vit9696.AppleALC' ':IOKitPersonalities:as.vit9696.AppleALC'" $ALCPlist
 $gPlistBuddyCmd "Delete ':Tmp'" $ALCPlist &>/dev/null || :
 $gPlistBuddyCmd "Delete ':OSBundleLibraries:as.vit9696.PinConfigs'" $ALCPlist &>/dev/null || :
 

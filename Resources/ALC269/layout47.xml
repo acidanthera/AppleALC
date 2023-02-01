@@ -1,6 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
 <dict>
 	<key>LayoutID</key>
 	<integer>28</integer>
@@ -13,14 +10,14 @@
 			</array>
 			<key>Headphone</key>
 			<dict>
-                <key>DefaultVolume</key>
-            	<integer>4292870144</integer>		<!-- = 32.0 dB  -->
-                <key>AmpPostDelay</key>
-                <integer>50</integer>
-                <key>AmpPreDelay</key>
-                <integer>100</integer>
-                <key>Headset_dBV</key>
-                <integer>-1055916032</integer>
+				<key>AmpPostDelay</key>
+				<integer>50</integer>
+				<key>AmpPreDelay</key>
+				<integer>100</integer>
+				<key>DefaultVolume</key>
+				<integer>4292870144</integer>
+				<key>Headset_dBV</key>
+				<integer>-1055916032</integer>
 			</dict>
 			<key>Inputs</key>
 			<array>
@@ -29,13 +26,13 @@
 			</array>
 			<key>IntSpeaker</key>
 			<dict>
-                <key>DefaultVolume</key>
-            	<integer>4293722112</integer>		<!-- = 19.0 dB  -->
-                <key>MaximumBootBeepValue</key>
-                <integer>48</integer>
-                <key>MuteGPIO</key>
-                <integer>0</integer>
-                <key>SignalProcessing</key>
+				<key>DefaultVolume</key>
+				<integer>4293722112</integer>
+				<key>MaximumBootBeepValue</key>
+				<integer>48</integer>
+				<key>MuteGPIO</key>
+				<integer>0</integer>
+				<key>SignalProcessing</key>
 				<dict>
 					<key>SoftwareDSP</key>
 					<dict>
@@ -43,10 +40,10 @@
 						<dict>
 							<key>FunctionInfo</key>
 							<dict>
-								<key>DspFuncName</key>
-								<string>DspEqualization</string>
 								<key>DspFuncInstance</key>
 								<integer>0</integer>
+								<key>DspFuncName</key>
+								<string>DspEqualization</string>
 								<key>DspFuncProcessingIndex</key>
 								<integer>0</integer>
 							</dict>
@@ -379,162 +376,107 @@
 								</array>
 							</dict>
 							<key>PatchbayInfo</key>
-							<dict>
-							</dict>
+							<dict/>
 						</dict>
-                        <key>DspFunction1</key>
+						<key>DspFunction1</key>
 						<dict>
 							<key>FunctionInfo</key>
 							<dict>
-								<key>DspFuncName</key>
-								<string>DspVirtualization</string>
 								<key>DspFuncInstance</key>
 								<integer>1</integer>
+								<key>DspFuncName</key>
+								<string>DspVirtualization</string>
 								<key>DspFuncProcessingIndex</key>
 								<integer>1</integer>
 							</dict>
 							<key>ParameterInfo</key>
 							<dict>
-								<key>3</key>
-								<integer>-1085584568</integer>
+								<key>1</key>
+								<integer>0</integer>
+								<key>10</key>
+								<integer>0</integer>
+								<key>11</key>
+								<integer>1</integer>
 								<key>12</key>
 								<integer>-1060850508</integer>
-								<key>21</key>
-								<integer>3</integer>
-								<key>4</key>
-								<integer>-1094466626</integer>
-								<key>30</key>
-								<integer>-1048128813</integer>
 								<key>13</key>
 								<integer>-1038329254</integer>
-								<key>5</key>
-								<integer>-1056748724</integer>
-								<key>22</key>
-								<integer>1633</integer>
-								<key>6</key>
-								<integer>0</integer>
-								<key>31</key>
-								<integer>982552730</integer>
 								<key>14</key>
 								<integer>10</integer>
-								<key>40</key>
-								<integer>-1047912930</integer>
-								<key>23</key>
-								<integer>4033</integer>
-								<key>7</key>
-								<integer>0</integer>
-								<key>32</key>
-								<integer>16</integer>
 								<key>15</key>
 								<integer>210</integer>
-								<key>41</key>
-								<integer>1022423360</integer>
-								<key>8</key>
-								<integer>0</integer>
-								<key>24</key>
-								<integer>-1046401747</integer>
-								<key>33</key>
-								<integer>-1063441106</integer>
 								<key>16</key>
 								<integer>-1049408692</integer>
-								<key>42</key>
-								<integer>0</integer>
-								<key>25</key>
-								<integer>4003</integer>
-								<key>9</key>
-								<integer>0</integer>
-								<key>34</key>
-								<integer>1008902816</integer>
 								<key>17</key>
 								<integer>5</integer>
-								<key>43</key>
-								<data>RSWWvHa0y7xk1B68zLkYvBRE+Tvd8kM6
-                                    usKsPEA8jDwkap48utYFvM8p7LyLF867
-                                    Tg/ku9UhFD3lKnO8yFQIPc/PoLzKPoE9
-                                    VliZvVAiGD1DUa692FG0PaD8kb1s7dW8
-                                    Cvd1P4AH1rx9+ZG9hGC0PYMirr06lRg9
-                                    rRuZvShfgT0Kz6C8SkAIPbC7c7yNMxQ9
-                                    0sniu9BQy7uMIeu8wK0EvN4bnzwcZ4o8
-                                    XuerPN1Lhzk6gfk7OnQgvG5lGrzURc+8
-                                    ogiRvJL8ELwRvBg8qQGUPM4QWzzNMaQ7
-                                    QlzSu3iKYbsKSbK7kk/tuhTxlruJRKu6
-                                    DVSwORAuiLrWfoA6Hp+ZOAAAAAAAAAAA
-                                    AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-                                    AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-                                    AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-                                    AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-                                    AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-                                    AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-                                    AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-                                    AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-                                    AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-                                    AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-                                    AAAAAAAAAACasrC7Y0/Tu/+3lLv0l7I5
-                                    r0STO4dM6DtPRRM8zbj/O+Y2ijtWlU67
-                                    mDwmvK2+GLyKIpu7Sp34um8TZDkTvp+7
-                                    UZuaOWcGRTrf22i7D3MfPOY9aTyK8oA9
-                                    4CaQPc3Y2z0d9Ik+N3BQPv60hz28u6M9
-                                    75E8PZYjDT2eVgk9Xp1GPfiKqz3S4U49
-                                    E7QoPZLzJj3+XNg8D5bCPMiRlTyuLAM9
-                                    dBEcPTXIDT0m1xE9o7/NPE+Cazye/qw7
-                                    Xhdjuyen1LtqMOG7/Eo9uxlBXDt1St07
-                                    kpvdO/gnTjt2Fp+6TB9fu5zaebsv4Eq7
-                                    A5TZuitNbDdKjzU6P09zOCMxIrptVnS6
-                                    N9iquxzNuLtj5XC7lxMiOe/WVDsBH407
-                                    KMBOO9ILWDn1ciO7L+CmuyDt3bue4My7
-                                    DhNpu0im9jqJ+8E7SMSkOz/fcTuD/q46
-                                    618ZO3WrlDvWWeQ6c5P0O7L/zjvkHyw8
-                                    jTzBO4rc27wJi9C8CA22vV/0Mb4d7eO9
-                                    Z36AvVu0gr1iViO9JtsOvYwn8rw1AkS9
-                                    UTJzvQ2WKb22Niu9aQQTvU2n3rzvEbC8
-                                    mcWGvHkexLz8tKu86dpLvOicNbzF2eK7
-                                    zCAvu2TPYTpu+pw7oyjHO5aduDv60iA7
-                                    afr8uq46j7sjqZK7q6Aeuxms8bjz6Ks6
-                                    MH/gOstk3jra8q86emMsOkUllrx2tMu8
-                                    ZNQevMy5GLwURPk73fJDOrrCrDxAPIw8
-                                    JGqePLrWBbzPKey8ixfOu04P5LvVIRQ9
-                                    5SpzvMhUCD3Pz6C8yj6BPVZYmb1QIhg9
-                                    Q1GuvdhRtD2g/JG9bO3VvAr3dT+AB9a8
-                                    ffmRvYRgtD2DIq69OpUYPa0bmb0oX4E9
-                                    Cs+gvEpACD2wu3O8jTMUPdLJ4rvQUMu7
-                                    jCHrvMCtBLzeG588HGeKPF7nqzzdS4c5
-                                    OoH5Ozp0ILxuZRq81EXPvKIIkbyS/BC8
-                                    EbwYPKkBlDzOEFs8zTGkO0Jc0rt4imG7
-                                    Ckmyu5JP7boU8Za7iUSrug1UsDkQLoi6
-                                    1n6AOh6fmTg=
-								</data>
-								<key>26</key>
-								<integer>9246</integer>
-								<key>35</key>
-								<integer>4</integer>
 								<key>18</key>
 								<integer>182</integer>
-								<key>27</key>
-								<integer>168</integer>
-								<key>36</key>
-								<integer>-1059986974</integer>
 								<key>19</key>
 								<integer>418</integer>
+								<key>2</key>
+								<integer>-1082130432</integer>
+								<key>20</key>
+								<integer>-1038976903</integer>
+								<key>21</key>
+								<integer>3</integer>
+								<key>22</key>
+								<integer>1633</integer>
+								<key>23</key>
+								<integer>4033</integer>
+								<key>24</key>
+								<integer>-1046401747</integer>
+								<key>25</key>
+								<integer>4003</integer>
+								<key>26</key>
+								<integer>9246</integer>
+								<key>27</key>
+								<integer>168</integer>
 								<key>28</key>
 								<integer>1060875180</integer>
-								<key>37</key>
-								<integer>0</integer>
 								<key>29</key>
+								<integer>0</integer>
+								<key>3</key>
+								<integer>-1085584568</integer>
+								<key>30</key>
+								<integer>-1048128813</integer>
+								<key>31</key>
+								<integer>982552730</integer>
+								<key>32</key>
+								<integer>16</integer>
+								<key>33</key>
+								<integer>-1063441106</integer>
+								<key>34</key>
+								<integer>1008902816</integer>
+								<key>35</key>
+								<integer>4</integer>
+								<key>36</key>
+								<integer>-1059986974</integer>
+								<key>37</key>
 								<integer>0</integer>
 								<key>38</key>
 								<integer>234</integer>
 								<key>39</key>
 								<integer>1</integer>
-								<key>10</key>
+								<key>4</key>
+								<integer>-1094466626</integer>
+								<key>40</key>
+								<integer>-1047912930</integer>
+								<key>41</key>
+								<integer>1022423360</integer>
+								<key>42</key>
 								<integer>0</integer>
-								<key>1</key>
+								<key>43</key>
+								<data>RSWWvHa0y7xk1B68zLkYvBRE+Tvd8kM6usKsPEA8jDwkap48utYFvM8p7LyLF867Tg/ku9UhFD3lKnO8yFQIPc/PoLzKPoE9VliZvVAiGD1DUa692FG0PaD8kb1s7dW8Cvd1P4AH1rx9+ZG9hGC0PYMirr06lRg9rRuZvShfgT0Kz6C8SkAIPbC7c7yNMxQ90sniu9BQy7uMIeu8wK0EvN4bnzwcZ4o8XuerPN1Lhzk6gfk7OnQgvG5lGrzURc+8ogiRvJL8ELwRvBg8qQGUPM4QWzzNMaQ7QlzSu3iKYbsKSbK7kk/tuhTxlruJRKu6DVSwORAuiLrWfoA6Hp+ZOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACasrC7Y0/Tu/+3lLv0l7I5r0STO4dM6DtPRRM8zbj/O+Y2ijtWlU67mDwmvK2+GLyKIpu7Sp34um8TZDkTvp+7UZuaOWcGRTrf22i7D3MfPOY9aTyK8oA94CaQPc3Y2z0d9Ik+N3BQPv60hz28u6M975E8PZYjDT2eVgk9Xp1GPfiKqz3S4U49E7QoPZLzJj3+XNg8D5bCPMiRlTyuLAM9dBEcPTXIDT0m1xE9o7/NPE+Cazye/qw7Xhdjuyen1LtqMOG7/Eo9uxlBXDt1St07kpvdO/gnTjt2Fp+6TB9fu5zaebsv4Eq7A5TZuitNbDdKjzU6P09zOCMxIrptVnS6N9iquxzNuLtj5XC7lxMiOe/WVDsBH407KMBOO9ILWDn1ciO7L+CmuyDt3bue4My7DhNpu0im9jqJ+8E7SMSkOz/fcTuD/q46618ZO3WrlDvWWeQ6c5P0O7L/zjvkHyw8jTzBO4rc27wJi9C8CA22vV/0Mb4d7eO9Z36AvVu0gr1iViO9JtsOvYwn8rw1AkS9UTJzvQ2WKb22Niu9aQQTvU2n3rzvEbC8mcWGvHkexLz8tKu86dpLvOicNbzF2eK7zCAvu2TPYTpu+pw7oyjHO5aduDv60iA7afr8uq46j7sjqZK7q6Aeuxms8bjz6Ks6MH/gOstk3jra8q86emMsOkUllrx2tMu8ZNQevMy5GLwURPk73fJDOrrCrDxAPIw8JGqePLrWBbzPKey8ixfOu04P5LvVIRQ95SpzvMhUCD3Pz6C8yj6BPVZYmb1QIhg9Q1GuvdhRtD2g/JG9bO3VvAr3dT+AB9a8ffmRvYRgtD2DIq69OpUYPa0bmb0oX4E9Cs+gvEpACD2wu3O8jTMUPdLJ4rvQUMu7jCHrvMCtBLzeG588HGeKPF7nqzzdS4c5OoH5Ozp0ILxuZRq81EXPvKIIkbyS/BC8EbwYPKkBlDzOEFs8zTGkO0Jc0rt4imG7Ckmyu5JP7boU8Za7iUSrug1UsDkQLoi61n6AOh6fmTg=</data>
+								<key>5</key>
+								<integer>-1056748724</integer>
+								<key>6</key>
 								<integer>0</integer>
-								<key>11</key>
-								<integer>1</integer>
-								<key>2</key>
-								<integer>-1082130432</integer>
-								<key>20</key>
-								<integer>-1038976903</integer>
+								<key>7</key>
+								<integer>0</integer>
+								<key>8</key>
+								<integer>0</integer>
+								<key>9</key>
+								<integer>0</integer>
 							</dict>
 							<key>PatchbayInfo</key>
 							<dict>
@@ -566,10 +508,10 @@
 						<dict>
 							<key>FunctionInfo</key>
 							<dict>
-								<key>DspFuncName</key>
-								<string>DspMultibandDRC</string>
 								<key>DspFuncInstance</key>
 								<integer>2</integer>
+								<key>DspFuncName</key>
+								<string>DspMultibandDRC</string>
 								<key>DspFuncProcessingIndex</key>
 								<integer>2</integer>
 							</dict>
@@ -589,16 +531,6 @@
 								<key>Limiter</key>
 								<array>
 									<dict>
-										<key>2</key>
-										<integer>1</integer>
-										<key>3</key>
-										<integer>0</integer>
-										<key>7</key>
-										<integer>0</integer>
-										<key>8</key>
-										<integer>0</integer>
-										<key>9</key>
-										<integer>-1096637784</integer>
 										<key>10</key>
 										<integer>-1058198226</integer>
 										<key>11</key>
@@ -619,6 +551,8 @@
 										<integer>1103811283</integer>
 										<key>19</key>
 										<integer>1086830520</integer>
+										<key>2</key>
+										<integer>1</integer>
 										<key>20</key>
 										<integer>1137180672</integer>
 										<key>21</key>
@@ -627,10 +561,6 @@
 										<integer>0</integer>
 										<key>23</key>
 										<integer>1</integer>
-									</dict>
-									<dict>
-										<key>2</key>
-										<integer>2</integer>
 										<key>3</key>
 										<integer>0</integer>
 										<key>7</key>
@@ -638,7 +568,9 @@
 										<key>8</key>
 										<integer>0</integer>
 										<key>9</key>
-										<integer>-1099105016</integer>
+										<integer>-1096637784</integer>
+									</dict>
+									<dict>
 										<key>10</key>
 										<integer>-1060418742</integer>
 										<key>11</key>
@@ -659,6 +591,8 @@
 										<integer>1111814385</integer>
 										<key>19</key>
 										<integer>1101004800</integer>
+										<key>2</key>
+										<integer>2</integer>
 										<key>20</key>
 										<integer>1137180672</integer>
 										<key>21</key>
@@ -667,6 +601,14 @@
 										<integer>0</integer>
 										<key>23</key>
 										<integer>1</integer>
+										<key>3</key>
+										<integer>0</integer>
+										<key>7</key>
+										<integer>0</integer>
+										<key>8</key>
+										<integer>0</integer>
+										<key>9</key>
+										<integer>-1099105016</integer>
 									</dict>
 								</array>
 							</dict>
@@ -696,14 +638,14 @@
 								</dict>
 							</dict>
 						</dict>
-                        <key>DspFunction3</key>
+						<key>DspFunction3</key>
 						<dict>
 							<key>FunctionInfo</key>
 							<dict>
-								<key>DspFuncName</key>
-								<string>DspMultiBandCompressor</string>
 								<key>DspFuncInstance</key>
 								<integer>3</integer>
+								<key>DspFuncName</key>
+								<string>DspMultiBandCompressor</string>
 								<key>DspFuncProcessingIndex</key>
 								<integer>3</integer>
 							</dict>
@@ -713,35 +655,23 @@
 								<integer>0</integer>
 								<key>2</key>
 								<integer>0</integer>
-								<key>3</key>
-								<integer>1</integer>
+								<key>21</key>
+								<integer>0</integer>
 								<key>26</key>
 								<integer>1142292480</integer>
 								<key>27</key>
 								<integer>1184645120</integer>
 								<key>28</key>
 								<integer>1184645120</integer>
-								<key>21</key>
-								<integer>0</integer>
 								<key>29</key>
+								<integer>1</integer>
+								<key>3</key>
 								<integer>1</integer>
 								<key>30</key>
 								<integer>0</integer>
 								<key>Compressor</key>
 								<array>
 									<dict>
-										<key>4</key>
-										<integer>0</integer>
-										<key>5</key>
-										<integer>0</integer>
-										<key>6</key>
-										<integer>0</integer>
-										<key>7</key>
-										<integer>0</integer>
-										<key>8</key>
-										<integer>1</integer>
-										<key>9</key>
-										<integer>1073741824</integer>
 										<key>10</key>
 										<integer>1114112000</integer>
 										<key>11</key>
@@ -762,20 +692,20 @@
 										<integer>0</integer>
 										<key>19</key>
 										<integer>0</integer>
+										<key>4</key>
+										<integer>0</integer>
+										<key>5</key>
+										<integer>0</integer>
+										<key>6</key>
+										<integer>0</integer>
+										<key>7</key>
+										<integer>0</integer>
+										<key>8</key>
+										<integer>1</integer>
+										<key>9</key>
+										<integer>1073741824</integer>
 									</dict>
 									<dict>
-										<key>4</key>
-										<integer>1</integer>
-										<key>5</key>
-										<integer>0</integer>
-										<key>6</key>
-										<integer>0</integer>
-										<key>7</key>
-										<integer>0</integer>
-										<key>8</key>
-										<integer>1</integer>
-										<key>9</key>
-										<integer>1073741824</integer>
 										<key>10</key>
 										<integer>1114112000</integer>
 										<key>11</key>
@@ -796,6 +726,18 @@
 										<integer>0</integer>
 										<key>19</key>
 										<integer>0</integer>
+										<key>4</key>
+										<integer>1</integer>
+										<key>5</key>
+										<integer>0</integer>
+										<key>6</key>
+										<integer>0</integer>
+										<key>7</key>
+										<integer>0</integer>
+										<key>8</key>
+										<integer>1</integer>
+										<key>9</key>
+										<integer>1073741824</integer>
 									</dict>
 								</array>
 							</dict>
@@ -829,40 +771,40 @@
 						<dict>
 							<key>FunctionInfo</key>
 							<dict>
-								<key>DspFuncName</key>
-								<string>DspLoudness</string>
 								<key>DspFuncInstance</key>
 								<integer>4</integer>
+								<key>DspFuncName</key>
+								<string>DspLoudness</string>
 								<key>DspFuncProcessingIndex</key>
 								<integer>4</integer>
 							</dict>
 							<key>ParameterInfo</key>
 							<dict>
+								<key>1</key>
+								<integer>0</integer>
 								<key>10</key>
 								<integer>1143930880</integer>
-								<key>2</key>
-								<integer>0</integer>
-								<key>15</key>
-								<integer>-1038191064</integer>
-								<key>3</key>
-								<integer>0</integer>
 								<key>11</key>
 								<integer>1152445519</integer>
-								<key>16</key>
-								<integer>-1053647882</integer>
-								<key>4</key>
-								<integer>0</integer>
-								<key>5</key>
-								<integer>0</integer>
 								<key>12</key>
 								<integer>1053609165</integer>
-								<key>17</key>
-								<integer>-1052645281</integer>
 								<key>13</key>
 								<integer>1054280253</integer>
 								<key>14</key>
 								<integer>-1059061760</integer>
-								<key>1</key>
+								<key>15</key>
+								<integer>-1038191064</integer>
+								<key>16</key>
+								<integer>-1053647882</integer>
+								<key>17</key>
+								<integer>-1052645281</integer>
+								<key>2</key>
+								<integer>0</integer>
+								<key>3</key>
+								<integer>0</integer>
+								<key>4</key>
+								<integer>0</integer>
+								<key>5</key>
 								<integer>0</integer>
 							</dict>
 							<key>PatchbayInfo</key>
@@ -891,15 +833,13 @@
 								</dict>
 							</dict>
 						</dict>
-                    </dict>
-                </dict>
-            </dict>
+					</dict>
+				</dict>
+			</dict>
 			<key>LineIn</key>
-            <dict>
-                <key>MuteGPIO</key>
-                <integer>1342242840</integer>
-				<!-- Created with DGB version: 1.9.3 by Mike Mckenna On: 05/09/2012 12:36PM -->
-				<!-- <rdar://problem/11219269> -->
+			<dict>
+				<key>MuteGPIO</key>
+				<integer>1342242840</integer>
 				<key>SignalProcessing</key>
 				<dict>
 					<key>SoftwareDSP</key>
@@ -908,60 +848,37 @@
 						<dict>
 							<key>FunctionInfo</key>
 							<dict>
-								<key>DspFuncName</key>
-								<string>DspNoiseReduction</string>
 								<key>DspFuncInstance</key>
 								<integer>0</integer>
+								<key>DspFuncName</key>
+								<string>DspNoiseReduction</string>
 								<key>DspFuncProcessingIndex</key>
 								<integer>0</integer>
 							</dict>
 							<key>ParameterInfo</key>
 							<dict>
-								<key>3</key>
-								<integer>0</integer>
 								<key>1</key>
+								<integer>0</integer>
+								<key>2</key>
+								<integer>1</integer>
+								<key>3</key>
 								<integer>0</integer>
 								<key>4</key>
 								<integer>-1063256063</integer>
-								<key>2</key>
-								<integer>1</integer>
 								<key>5</key>
-								<data>O7qJwvAsd8IxFYLCNC+Iwgh8h8JYT3zC
-                                    TGxtwjCQbMLsb3/C58KIwmIAjcKqEZTC
-                                    M22Xwr5/k8L6Q5DCUXiPwhlqksKOQ5TC
-                                    QS2XwkCYnMLSmqPCbK+owlyQq8I0AazC
-                                    bnGnwkmOosLZX6HCVuujwsbgqMLF76vC
-                                    mNaswvjzqsKJLarC9luqwvxyqcLWr6XC
-                                    dkajwulQpMJs1afCbmCqwqbpqcIaSKrC
-                                    Srmpwjv+p8KjIqjCVkOowh9WqMLun6nC
-                                    udimwvISp8K686rC+KqowpS1psL0aqnC
-                                    rv6rwti3qcJ6XqfC0Hemws04psKaw6fC
-                                    JrOqwoMorMLbHq3CF8GswgJLr8Ku2a/C
-                                    01aswjRirMLYuq3C2TSwwuZ1ssLUerPC
-                                    3H60wrzAtMJG97HCSAuxwu5wscKSarPC
-                                    QGK1woYFtcIw7LHCOMuxwiKZs8K8YrXC
-                                    6nO4ws5cu8KCa73CJjG+wqekvMK9RLnC
-                                    4/a2wuKBt8Jy/LfCLty7wk/ovsICsr7C
-                                    hC7Awtobw8LCI8PCqfnDwuBGxcK65MTC
-                                    f1jFwr65x8KDesrC7cHKwkXiysI+5c3C
-                                    qh/Rwhmf0cImvtPClErXwmrF18JUfdvC
-                                    Ni7fwty43cL+WdvCuqrawiIL3cKCR+HC
-                                    YPDnwqQ67MLYserCshHowl7L6MK2guzC
-                                    svrvwu4o8cJyfv7C
-								</data>
+								<data>O7qJwvAsd8IxFYLCNC+Iwgh8h8JYT3zCTGxtwjCQbMLsb3/C58KIwmIAjcKqEZTCM22Xwr5/k8L6Q5DCUXiPwhlqksKOQ5TCQS2XwkCYnMLSmqPCbK+owlyQq8I0AazCbnGnwkmOosLZX6HCVuujwsbgqMLF76vCmNaswvjzqsKJLarC9luqwvxyqcLWr6XCdkajwulQpMJs1afCbmCqwqbpqcIaSKrCSrmpwjv+p8KjIqjCVkOowh9WqMLun6nCudimwvISp8K686rC+KqowpS1psL0aqnCrv6rwti3qcJ6XqfC0Hemws04psKaw6fCJrOqwoMorMLbHq3CF8GswgJLr8Ku2a/C01aswjRirMLYuq3C2TSwwuZ1ssLUerPC3H60wrzAtMJG97HCSAuxwu5wscKSarPCQGK1woYFtcIw7LHCOMuxwiKZs8K8YrXC6nO4ws5cu8KCa73CJjG+wqekvMK9RLnC4/a2wuKBt8Jy/LfCLty7wk/ovsICsr7ChC7Awtobw8LCI8PCqfnDwuBGxcK65MTCf1jFwr65x8KDesrC7cHKwkXiysI+5c3Cqh/Rwhmf0cImvtPClErXwmrF18JUfdvCNi7fwty43cL+WdvCuqrawiIL3cKCR+HCYPDnwqQ67MLYserCshHowl7L6MK2guzCsvrvwu4o8cJyfv7C</data>
 							</dict>
 							<key>PatchbayInfo</key>
-							<dict>
-							</dict>
+							<dict/>
 						</dict>
 						<key>DspFunction1</key>
 						<dict>
 							<key>FunctionInfo</key>
 							<dict>
-								<key>DspFuncName</key>
-								<string>DspEqualization32</string>
 								<key>DspFuncInstance</key>
 								<integer>1</integer>
+								<key>DspFuncName</key>
+								<string>DspEqualization32</string>
 								<key>DspFuncProcessingIndex</key>
 								<integer>1</integer>
 							</dict>
@@ -1357,10 +1274,10 @@
 						<dict>
 							<key>FunctionInfo</key>
 							<dict>
-								<key>DspFuncName</key>
-								<string>DspGainStage</string>
 								<key>DspFuncInstance</key>
 								<integer>2</integer>
+								<key>DspFuncName</key>
+								<string>DspGainStage</string>
 								<key>DspFuncProcessingIndex</key>
 								<integer>2</integer>
 							</dict>
@@ -1403,30 +1320,30 @@
 						<dict>
 							<key>FunctionInfo</key>
 							<dict>
-								<key>DspFuncName</key>
-								<string>DspClientGainAdjustStage</string>
 								<key>DspFuncInstance</key>
 								<integer>3</integer>
+								<key>DspFuncName</key>
+								<string>DspClientGainAdjustStage</string>
 								<key>DspFuncProcessingIndex</key>
 								<integer>3</integer>
 							</dict>
 							<key>ParameterInfo</key>
 							<dict>
-								<key>7</key>
-								<integer>3</integer>
+								<key>1</key>
+								<integer>1</integer>
+								<key>2</key>
+								<integer>0</integer>
 								<key>3</key>
 								<integer>1082130432</integer>
-								<key>8</key>
-								<integer>0</integer>
 								<key>4</key>
 								<integer>1103626240</integer>
 								<key>5</key>
 								<integer>1</integer>
-								<key>1</key>
-								<integer>1</integer>
 								<key>6</key>
 								<integer>1082130432</integer>
-								<key>2</key>
+								<key>7</key>
+								<integer>3</integer>
+								<key>8</key>
 								<integer>0</integer>
 							</dict>
 							<key>PatchbayInfo</key>
@@ -1457,13 +1374,11 @@
 						</dict>
 					</dict>
 				</dict>
-            </dict>
+			</dict>
 			<key>Mic</key>
 			<dict>
-                <key>MuteGPIO</key>
-                <integer>1342242841</integer>
-				<!-- Created with DGB version: 1.9.3 by Mike Mckenna On: 05/09/2012 12:36PM -->
-				<!-- <rdar://problem/11219269> -->
+				<key>MuteGPIO</key>
+				<integer>1342242841</integer>
 				<key>SignalProcessing</key>
 				<dict>
 					<key>SoftwareDSP</key>
@@ -1472,60 +1387,37 @@
 						<dict>
 							<key>FunctionInfo</key>
 							<dict>
-								<key>DspFuncName</key>
-								<string>DspNoiseReduction</string>
 								<key>DspFuncInstance</key>
 								<integer>0</integer>
+								<key>DspFuncName</key>
+								<string>DspNoiseReduction</string>
 								<key>DspFuncProcessingIndex</key>
 								<integer>0</integer>
 							</dict>
 							<key>ParameterInfo</key>
 							<dict>
-								<key>3</key>
-								<integer>0</integer>
 								<key>1</key>
+								<integer>0</integer>
+								<key>2</key>
+								<integer>1</integer>
+								<key>3</key>
 								<integer>0</integer>
 								<key>4</key>
 								<integer>-1063256063</integer>
-								<key>2</key>
-								<integer>1</integer>
 								<key>5</key>
-								<data>O7qJwvAsd8IxFYLCNC+Iwgh8h8JYT3zC
-                                    TGxtwjCQbMLsb3/C58KIwmIAjcKqEZTC
-                                    M22Xwr5/k8L6Q5DCUXiPwhlqksKOQ5TC
-                                    QS2XwkCYnMLSmqPCbK+owlyQq8I0AazC
-                                    bnGnwkmOosLZX6HCVuujwsbgqMLF76vC
-                                    mNaswvjzqsKJLarC9luqwvxyqcLWr6XC
-                                    dkajwulQpMJs1afCbmCqwqbpqcIaSKrC
-                                    Srmpwjv+p8KjIqjCVkOowh9WqMLun6nC
-                                    udimwvISp8K686rC+KqowpS1psL0aqnC
-                                    rv6rwti3qcJ6XqfC0Hemws04psKaw6fC
-                                    JrOqwoMorMLbHq3CF8GswgJLr8Ku2a/C
-                                    01aswjRirMLYuq3C2TSwwuZ1ssLUerPC
-                                    3H60wrzAtMJG97HCSAuxwu5wscKSarPC
-                                    QGK1woYFtcIw7LHCOMuxwiKZs8K8YrXC
-                                    6nO4ws5cu8KCa73CJjG+wqekvMK9RLnC
-                                    4/a2wuKBt8Jy/LfCLty7wk/ovsICsr7C
-                                    hC7Awtobw8LCI8PCqfnDwuBGxcK65MTC
-                                    f1jFwr65x8KDesrC7cHKwkXiysI+5c3C
-                                    qh/Rwhmf0cImvtPClErXwmrF18JUfdvC
-                                    Ni7fwty43cL+WdvCuqrawiIL3cKCR+HC
-                                    YPDnwqQ67MLYserCshHowl7L6MK2guzC
-                                    svrvwu4o8cJyfv7C
-								</data>
+								<data>O7qJwvAsd8IxFYLCNC+Iwgh8h8JYT3zCTGxtwjCQbMLsb3/C58KIwmIAjcKqEZTCM22Xwr5/k8L6Q5DCUXiPwhlqksKOQ5TCQS2XwkCYnMLSmqPCbK+owlyQq8I0AazCbnGnwkmOosLZX6HCVuujwsbgqMLF76vCmNaswvjzqsKJLarC9luqwvxyqcLWr6XCdkajwulQpMJs1afCbmCqwqbpqcIaSKrCSrmpwjv+p8KjIqjCVkOowh9WqMLun6nCudimwvISp8K686rC+KqowpS1psL0aqnCrv6rwti3qcJ6XqfC0Hemws04psKaw6fCJrOqwoMorMLbHq3CF8GswgJLr8Ku2a/C01aswjRirMLYuq3C2TSwwuZ1ssLUerPC3H60wrzAtMJG97HCSAuxwu5wscKSarPCQGK1woYFtcIw7LHCOMuxwiKZs8K8YrXC6nO4ws5cu8KCa73CJjG+wqekvMK9RLnC4/a2wuKBt8Jy/LfCLty7wk/ovsICsr7ChC7Awtobw8LCI8PCqfnDwuBGxcK65MTCf1jFwr65x8KDesrC7cHKwkXiysI+5c3Cqh/Rwhmf0cImvtPClErXwmrF18JUfdvCNi7fwty43cL+WdvCuqrawiIL3cKCR+HCYPDnwqQ67MLYserCshHowl7L6MK2guzCsvrvwu4o8cJyfv7C</data>
 							</dict>
 							<key>PatchbayInfo</key>
-							<dict>
-							</dict>
+							<dict/>
 						</dict>
 						<key>DspFunction1</key>
 						<dict>
 							<key>FunctionInfo</key>
 							<dict>
-								<key>DspFuncName</key>
-								<string>DspEqualization32</string>
 								<key>DspFuncInstance</key>
 								<integer>1</integer>
+								<key>DspFuncName</key>
+								<string>DspEqualization32</string>
 								<key>DspFuncProcessingIndex</key>
 								<integer>1</integer>
 							</dict>
@@ -1921,10 +1813,10 @@
 						<dict>
 							<key>FunctionInfo</key>
 							<dict>
-								<key>DspFuncName</key>
-								<string>DspGainStage</string>
 								<key>DspFuncInstance</key>
 								<integer>2</integer>
+								<key>DspFuncName</key>
+								<string>DspGainStage</string>
 								<key>DspFuncProcessingIndex</key>
 								<integer>2</integer>
 							</dict>
@@ -1967,30 +1859,30 @@
 						<dict>
 							<key>FunctionInfo</key>
 							<dict>
-								<key>DspFuncName</key>
-								<string>DspClientGainAdjustStage</string>
 								<key>DspFuncInstance</key>
 								<integer>3</integer>
+								<key>DspFuncName</key>
+								<string>DspClientGainAdjustStage</string>
 								<key>DspFuncProcessingIndex</key>
 								<integer>3</integer>
 							</dict>
 							<key>ParameterInfo</key>
 							<dict>
-								<key>7</key>
-								<integer>3</integer>
+								<key>1</key>
+								<integer>1</integer>
+								<key>2</key>
+								<integer>0</integer>
 								<key>3</key>
 								<integer>1082130432</integer>
-								<key>8</key>
-								<integer>0</integer>
 								<key>4</key>
 								<integer>1103626240</integer>
 								<key>5</key>
 								<integer>1</integer>
-								<key>1</key>
-								<integer>1</integer>
 								<key>6</key>
 								<integer>1082130432</integer>
-								<key>2</key>
+								<key>7</key>
+								<integer>3</integer>
+								<key>8</key>
 								<integer>0</integer>
 							</dict>
 							<key>PatchbayInfo</key>
@@ -2021,7 +1913,7 @@
 						</dict>
 					</dict>
 				</dict>
-            </dict>
+			</dict>
 			<key>Outputs</key>
 			<array>
 				<string>Headphone</string>
@@ -2032,4 +1924,3 @@
 		</dict>
 	</array>
 </dict>
-</plist>

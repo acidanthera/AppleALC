@@ -17,8 +17,57 @@ class AlcEnabler {
 public:
 	void init();
 	void deinit();
+	
+	/**
+	 *	Alocate single instance for shared usage and callbacks
+	 */
+	static void createShared();
+	
+	/**
+	 *	Obtain the allocated shared instance
+	 *
+	 *	@return Allocated AlcEnabler instance
+	 */
+	static AlcEnabler* getShared() {
+		return callbackAlc;
+	}
+	
+	/**
+	 *  executeVerb method symbol
+	 */
+#if defined(__i386__)
+	static constexpr const char *symIOHDACodecDevice_executeVerb = "__ZN16IOHDACodecDevice11executeVerbEtttPmb";
+#elif defined(__x86_64__)
+	static constexpr const char *symIOHDACodecDevice_executeVerb = "__ZN16IOHDACodecDevice11executeVerbEtttPjb";
+#else
+#error Unsupported arch
+#endif
+	
+	/**
+	 *  Hooked IOHDACodecDevice executeVerb
+	 *
+	 *  @param hdaCodecDevice IOHDACodecDevice instance
+	 *  @param nid Node ID
+	 *  @param verb The hda-verb command to send (as defined in hdaverb.h)
+	 *  @param param The parameters for the verb
+	 *  @param output Pointer to write the output of the command to
+	 *  @param waitForSuccess Wait for SET_STREAM_FORMAT to succeed up-to 100 times, sleeping for 1s in-between
+	 *
+	 *  @return kIOReturnSuccess on successful execution
+	 */
+	static IOReturn IOHDACodecDevice_executeVerb(void *hdaCodecDevice, uint16_t nid, uint16_t verb, uint16_t param, unsigned int *output, bool waitForSuccess);
+	
+	/**
+	 *	Trampolines for original method invocation
+	 */
+	mach_vm_address_t orgIOHDACodecDevice_executeVerb {0};
 
 private:
+	/**
+	 *	The only allowed instance of this class
+	 */
+	static AlcEnabler* callbackAlc;
+	
 	/**
 	 *  Update device properties for digital and analog audio support
 	 */
@@ -58,12 +107,6 @@ private:
 	void processKext(KernelPatcher &patcher, size_t index, mach_vm_address_t address, size_t size);
 
 	/**
-	 *  Hooked ResourceLoad callbacks returning correct layout/platform
-	 */
-	static void layoutLoadCallback(uint32_t requestTag, kern_return_t result, const void *resourceData, uint32_t resourceDataLength, void *context);
-	static void platformLoadCallback(uint32_t requestTag, kern_return_t result, const void *resourceData, uint32_t resourceDataLength, void *context);
-
-	/**
 	 *  Hooked AppleGFXHDA probe
 	 */
 	static IOService *gfxProbe(IOService *ctrl, IOService *provider, SInt32 *score);
@@ -72,24 +115,12 @@ private:
 	 *  Hooked AppleHDAController start
 	 */
 	static bool AppleHDAController_start(IOService* service, IOService* provider);
-	
-	/**
-	 *  Hooked IOHDACodecDevice executeVerb
-	 */
-#ifdef DEBUG
-	static IOReturn IOHDACodecDevice_executeVerb(void *that, uint16_t a1, uint16_t a2, uint16_t a3, unsigned int *a4, bool a5);
-#endif
 		
 	/**
 	 *  Trampolines for original method invocations
 	 */
-	mach_vm_address_t orgLayoutLoadCallback {0};
-	mach_vm_address_t orgPlatformLoadCallback {0};
 	mach_vm_address_t orgGfxProbe {0};
 	mach_vm_address_t orgAppleHDAController_start {0};
-#ifdef DEBUG
-	mach_vm_address_t orgIOHDACodecDevice_executeVerb {0};
-#endif
 
 	/**
 	 *  @enum IOAudioDevicePowerState
@@ -115,26 +146,6 @@ private:
 	static uint32_t getAudioLayout(IOService *hdaDriver);
 
 	/**
-	 *  Hooked performPowerChange method triggering a verb sequence on wake
-	 */
-	static IOReturn performPowerChange(IOService *hdaDriver, uint32_t from, uint32_t to, unsigned int *timer);
-
-	/**
-	 *  Hooked initializePinConfig method to preserve AppleHDACodecGeneric instance
-	 */
-	static IOReturn initializePinConfig(IOService *hdaCodec, IOService *configDevice);
-
-	/**
-	 *  AppleHDADriver::performPowerStateChange original method
-	 */
-	mach_vm_address_t orgPerformPowerChange {0};
-
-	/**
-	 *  AppleHDACodecGeneric::initializePinConfigDefaultFromOverride original method
-	 */
-	mach_vm_address_t orgInitializePinConfig {0};
-
-	/**
 	 *  Hooked entitlement copying method
 	 */
 	static void handleAudioClientEntitlement(task_t task, const char *entitlement, OSObject *&original);
@@ -144,6 +155,14 @@ private:
 	 */
 	void grabControllers();
 
+	/**
+	 *  Compare found controllers with built-in mod lists
+	 *  Unlike validateCodecs() does not remove anything from
+	 *  controllers but only sets their infos.
+	 */
+	void validateControllers();
+
+#ifdef HAVE_ANALOG_AUDIO
 	/**
 	 *  Appends registered codec
 	 *
@@ -160,14 +179,7 @@ private:
 	 *  @return see validateCodecs
 	 */
 	bool grabCodecs();
-	
-	/**
-	 *  Compare found controllers with built-in mod lists
-	 *  Unlike validateCodecs() does not remove anything from
-	 *  controllers but only sets their infos.
-	 */
-	void validateControllers();
-	
+
 	/**
 	 *  Compare found codecs with built-in mod lists
 	 *
@@ -176,22 +188,62 @@ private:
 	bool validateCodecs();
 	
 	/**
-	 *  Checks for a set no-controller-injection property.
-	 *  @param hdaService  audio device
-	 *
-	 *  @return true if the controller should be injected
+	 *  performPowerChange method symbol
 	 */
-	bool validateInjection(IORegistryEntry *hdaService);
+#if defined(__i386__)
+	static constexpr const char *symPerformPowerChange = "__ZN14AppleHDADriver23performPowerStateChangeE24_IOAudioDevicePowerStateS0_Pm";
+#elif defined(__x86_64__)
+	static constexpr const char *symPerformPowerChange = "__ZN14AppleHDADriver23performPowerStateChangeE24_IOAudioDevicePowerStateS0_Pj";
+#else
+#error Unsupported arch
+#endif
 
 	/**
-	 *  Apply kext patches for loaded kext index
-	 *
-	 *  @param patcher    KernelPatcher instance
-	 *  @param index      kinfo index
-	 *  @param patches    patch list
-	 *  @param patchesNum patch number
+	 *  Hooked performPowerChange method triggering a verb sequence on wake
 	 */
-	void applyPatches(KernelPatcher &patcher, size_t index, const KextPatch *patches, size_t patchesNum);
+	static IOReturn performPowerChange(IOService *hdaDriver, uint32_t from, uint32_t to, unsigned int *timer);
+
+	/**
+	 *  Patches HDAConfigDefault property with desired pinconfig entry.
+	 */
+	void patchPinConfig(IOService *hdaCodec, IORegistryEntry *configDevice);
+	
+	/**
+	 *  Hooked initializePinConfig method to preserve AppleHDACodecGeneric instance on 10.4 and most versions of 10.5
+	 */
+	static IOReturn initializePinConfigLegacy(IOService *hdaCodec);
+	
+	/**
+	 *  Hooked initializePinConfig method to preserve AppleHDACodecGeneric instance
+	 */
+	static IOReturn initializePinConfig(IOService *hdaCodec, IOService *configDevice);
+
+	/**
+	 *  AppleHDADriver::performPowerStateChange original method
+	 */
+	mach_vm_address_t orgPerformPowerChange {0};
+	
+	/**
+	 *  AppleHDACodecGeneric::initializePinConfigDefaultFromOverride original method on 10.4 and most versions of 10.5
+	 */
+	mach_vm_address_t orgInitializePinConfigLegacy {0};
+
+	/**
+	 *  AppleHDACodecGeneric::initializePinConfigDefaultFromOverride original method
+	 */
+	mach_vm_address_t orgInitializePinConfig {0};
+
+	/**
+	 *  Hooked ResourceLoad callbacks returning correct layout/platform
+	 */
+	static void layoutLoadCallback(uint32_t requestTag, kern_return_t result, const void *resourceData, uint32_t resourceDataLength, void *context);
+	static void platformLoadCallback(uint32_t requestTag, kern_return_t result, const void *resourceData, uint32_t resourceDataLength, void *context);
+
+	/**
+	 *  Trampolines to original ResourceLoad invocations
+	 */
+	mach_vm_address_t orgLayoutLoadCallback {0};
+	mach_vm_address_t orgPlatformLoadCallback {0};
 
 	/**
 	 *  Supported resource types
@@ -210,6 +262,72 @@ private:
 	 *  @param resourceDataLength resource data length reference
 	 */
 	void updateResource(Resource type, kern_return_t &result, const void * &resourceData, uint32_t &resourceDataLength);
+	
+	/**
+	 *  Hooked AppleHDADriver start method
+	 */
+	static bool AppleHDADriver_start(IOService* service, IOService* provider);
+	
+	/**
+	 *  AppleHDADriver::start original method
+	 */
+	mach_vm_address_t orgAppleHDADriver_start {0};
+	
+	/**
+	 *  Hooked AppleHDAPlatformDriver start method
+	 */
+	static bool AppleHDAPlatformDriver_start(IOService* service, IOService* provider);
+	
+	/**
+	 *  AppleHDAPlatformDriver::start original method
+	 */
+	mach_vm_address_t orgAppleHDAPlatformDriver_start {0};
+	
+	/**
+	 *	Replace layout resources in AppleHDAPlatformDriver (AppleHDA on 10.4)
+	 *
+	 *	@param service 			IOService instance
+	 */
+	void replaceAppleHDADriverResources(IOService *service);
+	
+	/**
+	 *	Unserialize codec XML dictionary.
+	 *
+	 *	@param data				resource data
+	 *	@param dataLength	resource data length
+	 */
+	OSDictionary *unserializeCodecDictionary(const uint8_t *data, uint32_t dataLength);
+	
+	/**
+	 * Layout ID override
+	 */
+	bool layoutIdIsOverridden {false};
+	uint32_t layoutIdOverride {0};
+	
+	/**
+	 * AppleHDA uses zlib
+	 */
+	bool isAppleHDAZlib {false};
+
+#endif
+	
+	/**
+	 *  Checks for a set no-controller-injection property.
+	 *  @param hdaService  audio device
+	 *
+	 *  @return true if the controller should be injected
+	 */
+	bool validateInjection(IORegistryEntry *hdaService);
+
+	/**
+	 *  Apply kext patches for loaded kext index
+	 *
+	 *  @param patcher    KernelPatcher instance
+	 *  @param index      kinfo index
+	 *  @param patches    patch list
+	 *  @param patchesNum patch number
+	 */
+	void applyPatches(KernelPatcher &patcher, size_t index, const KextPatch *patches, size_t patchesNum);
 
 	/**
 	 *  Controller identification and modification info
@@ -253,6 +371,7 @@ private:
 		}
 	}
 
+#ifdef HAVE_ANALOG_AUDIO
 	/**
 	 *  Codec identification and modification info
 	 */
@@ -278,7 +397,8 @@ private:
 	 *  Detected and validated codec infos
 	 */
 	evector<CodecInfo *, CodecInfo::deleter> codecs;
-	
+#endif
+
 	/**
 	 *  Current progress mask
 	 */
@@ -289,7 +409,8 @@ private:
 			CodecsLoaded = 2,
 			CallbacksWantRouting = 4,
 			PatchHDAFamily = 8,
-			PatchHDAController = 16
+			PatchHDAController = 16,
+			PatchHDAPlatformDriver = 32
 		};
 	};
 	int progressState {ProcessingState::NotReady};

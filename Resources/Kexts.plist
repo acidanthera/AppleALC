@@ -33,6 +33,15 @@
 			<string>/System/Library/Extensions/AppleHDA.kext/Contents/PlugIns/AppleHDAController.kext/Contents/MacOS/AppleHDAController</string>
 		</array>
 	</dict>
+	<key>AppleHDAPlatformDriver</key>
+	<dict>
+		<key>Id</key>
+		<string>com.apple.driver.AppleHDAPlatformDriver</string>
+		<key>Paths</key>
+		<array>
+			<string>/System/Library/Extensions/AppleHDA.kext/Contents/PlugIns/AppleHDAPlatformDriver.kext/Contents/MacOS/AppleHDAPlatformDriver</string>
+		</array>
+	</dict>
 	<key>IOHDAFamily</key>
 	<dict>
 		<key>Id</key>

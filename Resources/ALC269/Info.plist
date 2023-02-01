@@ -14,6 +14,14 @@
 		<array>
 			<dict>
 				<key>Comment</key>
+				<string>hua0512 - Realtek ALC269 for Medium Akoya P6653</string>
+				<key>Id</key>
+				<integer>25</integer>
+				<key>Path</key>
+				<string>layout25.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Custom ALC269VD ThinkPad T430</string>
 				<key>Id</key>
 				<integer>23</integer>
@@ -318,6 +326,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Vorshim92 - Realtek ALC269 - GF63 Thin 9SEXR</string>
+				<key>Id</key>
+				<integer>69</integer>
+				<key>Path</key>
+				<string>layout69.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Custom ALC269VB ENZ C16B by jimmy19990</string>
 				<key>Id</key>
 				<integer>76</integer>
@@ -396,9 +412,25 @@
 				<key>Path</key>
 				<string>layout128.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom ALC269 for Chuwi CoreBox by Luca91</string>
+				<key>Id</key>
+				<integer>91</integer>
+				<key>Path</key>
+				<string>layout91.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
+			<dict>
+				<key>Comment</key>
+				<string>hua0512 - Realtek ALC269 for Medium Akoya P6653</string>
+				<key>Id</key>
+				<integer>25</integer>
+				<key>Path</key>
+				<string>Platforms25.xml.zlib</string>
+			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>Custom ALC269VD ThinkPad T430</string>
@@ -705,6 +737,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Vorshim92 - Realtek ALC269 - GF63 Thin 9SEXR</string>
+				<key>Id</key>
+				<integer>69</integer>
+				<key>Path</key>
+				<string>Platforms69.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Custom ALC269VB ENZ C16B by jimmy19990</string>
 				<key>Id</key>
 				<integer>76</integer>
@@ -782,6 +822,14 @@
 				<integer>128</integer>
 				<key>Path</key>
 				<string>Platforms128.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom ALC269 for Chuwi CoreBox by Luca91</string>
+				<key>Id</key>
+				<integer>91</integer>
+				<key>Path</key>
+				<string>Platforms91.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>

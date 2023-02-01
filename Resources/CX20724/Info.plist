@@ -14,7 +14,7 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>Mirone Laptop Patch</string>
+				<string>Mirone Laptop Patch. Mute fixed by Human7900 </string>
 				<key>Id</key>
 				<integer>3</integer>
 				<key>Path</key>
@@ -22,7 +22,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>InsanelyDeepak Patch</string>
+				<string>InsanelyDeepak Patch. Mute fixed by Human7900</string>
 				<key>Id</key>
 				<integer>13</integer>
 				<key>Path</key>

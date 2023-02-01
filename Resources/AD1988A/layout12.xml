@@ -1,6 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
 <dict>
 	<key>LayoutID</key>
 	<integer>12</integer>
@@ -57,66 +54,7 @@
 								<key>4</key>
 								<integer>-1096810476</integer>
 								<key>5</key>
-								<data>
-								koaBwmK4Z8IY
-								AHDC0j97wodG
-								gsLBwYbCJ4GJ
-								wsgbjMJIP47C
-								um6PwpCjkMK4
-								BpLChtOSwvZc
-								k8L/p5PCjn+U
-								whBalcJuQJbC
-								QiyXwgifl8LR
-								FJjCG0aYwuZw
-								mMKRlZjCFyGZ
-								wrTtmcKKf5rC
-								MOGawtIpm8KQ
-								TpvCNOCbwmJD
-								nMIHr5zCv7qc
-								wvxFncLfvp3C
-								ZiqewiX8ncKX
-								J5zCwoybwsfW
-								ncLgC5/CPEae
-								wt5unMKaEp3C
-								4qefwsamoMKM
-								8qDCSv+gwjU5
-								ocIjw6HCCkCi
-								wmJVosLHX6LC
-								566iwvoHo8Ji
-								6KLC+DOjwjp8
-								o8KggqPCspSj
-								wjTBo8I4xaPC
-								zxGkwsAWpMIp
-								VKTCJoikwo6g
-								pMIjvKTCwqGk
-								wu4bpcKdHaXC
-								hNCkwjf/pMLV
-								OKXCakelwrR5
-								pcKLuaXCGd2l
-								wuL9pcIMjaXC
-								HMWlwoD9pcKe
-								IKbCFBOmwvAm
-								psJWn6bCIMWm
-								wuaCpsLAiqbC
-								YoamwjChpsJa
-								76bC+uWmwrgD
-								p8JvNafCOQyn
-								wkRcp8LUwKfC
-								riWowr4+qMKm
-								96fCglSowiLW
-								qMLU/ajCDHCp
-								wprrqcIzUKrC
-								S2qrwuZorMI8
-								5qzCE+CtwoHr
-								rsLYRrDCfuyx
-								wlHes8LiJ7bC
-								OXW4wnbuusLc
-								z73CAhzBwvjz
-								xMIeAMnCZNDM
-								wqo10MLUtdLC
-								urXTwig21MJM
-								IOLC
-								</data>
+								<data>koaBwmK4Z8IYAHDC0j97wodGgsLBwYbCJ4GJwsgbjMJIP47Cum6PwpCjkMK4BpLChtOSwvZck8L/p5PCjn+UwhBalcJuQJbCQiyXwgifl8LRFJjCG0aYwuZwmMKRlZjCFyGZwrTtmcKKf5rCMOGawtIpm8KQTpvCNOCbwmJDnMIHr5zCv7qcwvxFncLfvp3CZiqewiX8ncKXJ5zCwoybwsfWncLgC5/CPEaewt5unMKaEp3C4qefwsamoMKM8qDCSv+gwjU5ocIjw6HCCkCiwmJVosLHX6LC566iwvoHo8Ji6KLC+DOjwjp8o8KggqPCspSjwjTBo8I4xaPCzxGkwsAWpMIpVKTCJoikwo6gpMIjvKTCwqGkwu4bpcKdHaXChNCkwjf/pMLVOKXCakelwrR5pcKLuaXCGd2lwuL9pcIMjaXCHMWlwoD9pcKeIKbCFBOmwvAmpsJWn6bCIMWmwuaCpsLAiqbCYoamwjChpsJa76bC+uWmwrgDp8JvNafCOQynwkRcp8LUwKfCriWowr4+qMKm96fCglSowiLWqMLU/ajCDHCpwprrqcIzUKrCS2qrwuZorMI85qzCE+CtwoHrrsLYRrDCfuyxwlHes8LiJ7bCOXW4wnbuusLcz73CAhzBwvjzxMIeAMnCZNDMwqo10MLUtdLCurXTwig21MJMIOLC</data>
 							</dict>
 							<key>PatchbayInfo</key>
 							<dict/>
@@ -138,4 +76,3 @@
 		</dict>
 	</array>
 </dict>
-</plist>

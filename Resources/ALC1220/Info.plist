@@ -86,6 +86,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>NIBLIZE - ALC1220 for Gigabyte Z490 Vision G manual SP/HP</string>
+				<key>Id</key>
+				<integer>17</integer>
+				<key>Path</key>
+				<string>layout17.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>ALC1220 for MSI GE63 Raider RGB 8RF</string>
 				<key>Id</key>
 				<integer>21</integer>
@@ -134,11 +142,35 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Custom ALC1220 for MSI GP75 9SD by Win7GM</string>
+				<key>Id</key>
+				<integer>35</integer>
+				<key>Path</key>
+				<string>layout35.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom ALC1220 for Mi Gaming Notebook Creator by Xsixu</string>
+				<key>Id</key>
+				<integer>98</integer>
+				<key>Path</key>
+				<string>layout98.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>ALC1220 for MiBook 2019 by Dynamix1997</string>
 				<key>Id</key>
 				<integer>99</integer>
 				<key>Path</key>
 				<string>layout99.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Hasee_G8-CU7PK</string>
+				<key>Id</key>
+				<integer>100</integer>
+				<key>Path</key>
+				<string>layout100.xml.zlib</string>
 			</dict>
 		</array>
 		<key>Platforms</key>
@@ -217,6 +249,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>NIBLIZE - ALC1220 for Gigabyte Z490 Vision G manual SP/HP</string>
+				<key>Id</key>
+				<integer>17</integer>
+				<key>Path</key>
+				<string>Platforms17.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>ALC1220 for MSI GE63 Raider RGB 8RF</string>
 				<key>Id</key>
 				<integer>21</integer>
@@ -265,11 +305,35 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>ALC1220 for MSI GP75 9SD</string>
+				<key>Id</key>
+				<integer>35</integer>
+				<key>Path</key>
+				<string>Platforms35.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom ALC1220 for Mi Gaming Notebook Creator by Xsixu</string>
+				<key>Id</key>
+				<integer>98</integer>
+				<key>Path</key>
+				<string>Platforms98.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>ALC1220 for MiBook 2019</string>
 				<key>Id</key>
 				<integer>99</integer>
 				<key>Path</key>
 				<string>Platforms99.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Hasee_G8-CU7PK</string>
+				<key>Id</key>
+				<integer>100</integer>
+				<key>Path</key>
+				<string>Platforms100.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>

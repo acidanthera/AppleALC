@@ -1,13 +1,12 @@
 AppleALC
 ========
 
-[![Build Status](https://travis-ci.com/acidanthera/AppleALC.svg?branch=master)](https://travis-ci.com/acidanthera/AppleALC) [![Scan Status](https://scan.coverity.com/projects/16166/badge.svg?flat=1)](https://scan.coverity.com/projects/16166)
+[![Build Status](https://github.com/acidanthera/AppleALC/workflows/CI/badge.svg?branch=master)](https://github.com/acidanthera/AppleALC/actions) [![Scan Status](https://scan.coverity.com/projects/16166/badge.svg?flat=1)](https://scan.coverity.com/projects/16166)
 
-An open source kernel extension enabling native macOS HD audio for not officially supported codecs without any filesystem modifications.
+An open source kernel extension enabling native macOS HD audio for not officially supported codecs without any filesystem modifications. AppleALCU can be used for systems with digital-only audio.
 
-#### Translate Language
-- [简体中文](https://github.com/acidanthera/AppleALC/blob/master/README_CN.md)
-- English ( Current )
+English (Current)  
+[简体中文](https://github.com/acidanthera/AppleALC/blob/master/README_CN.md)  
 
 #### Features
 - Digital and analog audio support starting from the OS installation
@@ -16,18 +15,19 @@ An open source kernel extension enabling native macOS HD audio for not officiall
 - Unsupported audio controller enabling (internal and external)
 - Arbitrary kext patching
 - Custom platform/layout injection
-- Works with SIP / El Capitan
-- Currently compatible with 10.8-11.0
+- Works with SIP / El Capitan+
+- Currently compatible with 10.4-12
 
 #### Credits
 - [Apple](https://www.apple.com) for macOS  
-- [Onyx The Black Cat](https://github.com/gdbinit/onyx-the-black-cat) by [fG!](https://reverse.put.as) for the base of the kernel patcher  
-- [capstone](https://github.com/aquynh/capstone) by [Nguyen Anh Quynh](https://github.com/aquynh) for the disassembler module  
+- [Onyx The Black Cat](https://github.com/gdbinit/onyx-the-black-cat) by [fG!](https://reverse.put.as) for the base of the kernel patcher
+- [capstone](https://github.com/aquynh/capstone) by [Nguyen Anh Quynh](https://github.com/aquynh) for the disassembler module
 - [toleda](https://github.com/toleda), [Mirone](https://github.com/Mirone) and certain others for audio patches and layouts
-- [Pike R. Alpha](https://github.com/Piker-Alpha) for [lzvn](https://github.com/Piker-Alpha/LZVN) decompression and certain HDMI patches  
-- [07151129](https://github.com/07151129) for some code parts and suggestions  
+- [Pike R. Alpha](https://github.com/Piker-Alpha) for [lzvn](https://github.com/Piker-Alpha/LZVN) decompression and certain HDMI patches
+- [07151129](https://github.com/07151129) for some code parts and suggestions
+- [roddy20](https://github.com/roddy20) for training and research dumps to a patching of codecs
 - [vit9696](https://github.com/vit9696) for writing the software and maintaining it
-- [vandroiy2013](https://github.com/vandroiy2013) for maintaining the codec database
+- [Andrey1970AppleLife](https://github.com/Andrey1970AppleLife), [vandroiy2013](https://github.com/vandroiy2013) for maintaining the codec database
 
 #### Installation
 The minimal instruction is available on the [wiki](https://github.com/vit9696/AppleALC/wiki).  

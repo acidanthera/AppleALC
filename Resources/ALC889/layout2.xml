@@ -1,6 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
 <dict>
 	<key>LayoutID</key>
 	<integer>2</integer>
@@ -37,14 +34,12 @@
 					<dict>
 						<key>DspFunction0</key>
 						<dict>
-							<key>PatchbayInfo</key>
-							<dict/>
 							<key>FunctionInfo</key>
 							<dict>
-								<key>DspFuncName</key>
-								<string>DspNoiseReduction</string>
 								<key>DspFuncInstance</key>
 								<integer>0</integer>
+								<key>DspFuncName</key>
+								<string>DspNoiseReduction</string>
 								<key>DspFuncProcessingIndex</key>
 								<integer>0</integer>
 							</dict>
@@ -59,45 +54,24 @@
 								<key>4</key>
 								<integer>-1111411312</integer>
 							</dict>
+							<key>PatchbayInfo</key>
+							<dict/>
 						</dict>
 						<key>DspFunction1</key>
 						<dict>
-							<key>PatchbayInfo</key>
-							<dict>
-								<key>InputPort0</key>
-								<dict>
-									<key>SourcePortIndex</key>
-									<integer>0</integer>
-									<key>SourceFuncInstance</key>
-									<integer>0</integer>
-									<key>PortWidth</key>
-									<integer>1</integer>
-									<key>PortInstance</key>
-									<integer>0</integer>
-								</dict>
-								<key>InputPort1</key>
-								<dict>
-									<key>SourcePortIndex</key>
-									<integer>1</integer>
-									<key>SourceFuncInstance</key>
-									<integer>0</integer>
-									<key>PortWidth</key>
-									<integer>1</integer>
-									<key>PortInstance</key>
-									<integer>1</integer>
-								</dict>
-							</dict>
 							<key>FunctionInfo</key>
 							<dict>
-								<key>DspFuncName</key>
-								<string>DspEqualization32</string>
 								<key>DspFuncInstance</key>
 								<integer>1</integer>
+								<key>DspFuncName</key>
+								<string>DspEqualization32</string>
 								<key>DspFuncProcessingIndex</key>
 								<integer>1</integer>
 							</dict>
 							<key>ParameterInfo</key>
 							<dict>
+								<key>1</key>
+								<integer>0</integer>
 								<key>Filter</key>
 								<array>
 									<dict>
@@ -453,8 +427,31 @@
 										<integer>-1079797505</integer>
 									</dict>
 								</array>
-								<key>1</key>
-								<integer>0</integer>
+							</dict>
+							<key>PatchbayInfo</key>
+							<dict>
+								<key>InputPort0</key>
+								<dict>
+									<key>PortInstance</key>
+									<integer>0</integer>
+									<key>PortWidth</key>
+									<integer>1</integer>
+									<key>SourceFuncInstance</key>
+									<integer>0</integer>
+									<key>SourcePortIndex</key>
+									<integer>0</integer>
+								</dict>
+								<key>InputPort1</key>
+								<dict>
+									<key>PortInstance</key>
+									<integer>1</integer>
+									<key>PortWidth</key>
+									<integer>1</integer>
+									<key>SourceFuncInstance</key>
+									<integer>0</integer>
+									<key>SourcePortIndex</key>
+									<integer>1</integer>
+								</dict>
 							</dict>
 						</dict>
 					</dict>
@@ -474,4 +471,3 @@
 		</dict>
 	</array>
 </dict>
-</plist>

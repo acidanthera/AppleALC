@@ -302,7 +302,7 @@ static size_t generateCodecs(NSString *file, NSString *vendor, NSString *path, N
 				auto layouts = generateLayouts(file, codecDict, baseDirStr);
 				auto patches = generatePatches(file, [codecDict objectForKey:@"Patches"], kextIndexes);
 			
-				[codecModSection appendFormat:@"\t{ \"%@\", 0x%X, %@, %@, %@, %@ },\n",
+				[codecModSection appendFormat:@"\t{ DEBUG_STRING(\"%@\"), 0x%X, %@, %@, %@, %@ },\n",
 				 [codecDict objectForKey:@"CodecName"],
 				 [[codecDict objectForKey:@"CodecID"] unsignedShortValue],
 				 revs, platforms, layouts, patches
@@ -336,7 +336,7 @@ static void generateControllers(NSString *file, NSArray *ctrls, NSDictionary *ve
 			}
 		}
 				
-		[ctrlModSection appendFormat:@"\t{ \"%@\", 0x%X, 0x%X, %@, %@, %@, %@ },\n",
+		[ctrlModSection appendFormat:@"\t{ DEBUG_STRING(\"%@\"), 0x%X, 0x%X, %@, %@, %@, %@ },\n",
 		 [entry objectForKey:@"Name"],
 		 [[vendors objectForKey:[entry objectForKey:@"Vendor"]] unsignedShortValue],
 		 [[entry objectForKey:@"Device"] unsignedShortValue],
@@ -352,19 +352,22 @@ static void generateControllers(NSString *file, NSArray *ctrls, NSDictionary *ve
 
 static void generateVendors(NSString *file, NSDictionary *vendors, NSString *path, NSDictionary *kextIndexes) {
 	auto vendorSection = [[NSMutableString alloc] initWithUTF8String:"\n// Vendor section\n\n"];
-	
+
+	appendFile(file, @"#ifdef HAVE_ANALOG_AUDIO\n");
+
 	[vendorSection appendString:@"VendorModInfo ADDPR(vendorMod)[] {\n"];
 	
 	for (NSString *dictKey in vendors) {
 		NSNumber *vendorID = [vendors objectForKey:dictKey];
 		size_t num = generateCodecs(file, dictKey, path, kextIndexes);
-		[vendorSection appendFormat:@"\t{ \"%@\", 0x%X, codecMod%@, %zu },\n",
+		[vendorSection appendFormat:@"\t{ DEBUG_STRING(\"%@\"), 0x%X, codecMod%@, %zu },\n",
 			dictKey, [vendorID unsignedShortValue], dictKey, num];
 	}
 	
 	[vendorSection appendString:@"};\n"];
 	[vendorSection appendFormat:@"\nconst size_t ADDPR(vendorModSize) {%lu};\n", [vendors count]];
 	appendFile(file, vendorSection);
+	appendFile(file, @"#endif\n");
 }
 
 int main(int argc, const char * argv[]) {

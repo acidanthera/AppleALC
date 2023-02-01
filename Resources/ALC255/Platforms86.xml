@@ -1,7 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
 <dict>
+	<key>CommonPeripheralDSP</key>
+	<array>
+		<dict>
+			<key>DeviceID</key>
+			<integer>0</integer>
+			<key>DeviceType</key>
+			<string>Headphone</string>
+		</dict>
+		<dict>
+			<key>DeviceID</key>
+			<integer>0</integer>
+			<key>DeviceType</key>
+			<string>Microphone</string>
+		</dict>
+	</array>
 	<key>PathMaps</key>
 	<array>
 		<dict>
@@ -16,15 +28,15 @@
 									<key>Channels</key>
 									<array>
 										<dict>
-											<key>Channel</key>
-											<integer>1</integer>
 											<key>Bind</key>
+											<integer>1</integer>
+											<key>Channel</key>
 											<integer>1</integer>
 										</dict>
 										<dict>
-											<key>Channel</key>
-											<integer>2</integer>
 											<key>Bind</key>
+											<integer>2</integer>
+											<key>Channel</key>
 											<integer>2</integer>
 										</dict>
 									</array>
@@ -71,15 +83,15 @@
 									<key>Channels</key>
 									<array>
 										<dict>
-											<key>Channel</key>
-											<integer>1</integer>
 											<key>Bind</key>
+											<integer>1</integer>
+											<key>Channel</key>
 											<integer>1</integer>
 										</dict>
 										<dict>
-											<key>Channel</key>
-											<integer>2</integer>
 											<key>Bind</key>
+											<integer>2</integer>
+											<key>Channel</key>
 											<integer>2</integer>
 										</dict>
 									</array>
@@ -158,15 +170,15 @@
 									<key>Channels</key>
 									<array>
 										<dict>
-											<key>Channel</key>
-											<integer>1</integer>
 											<key>Bind</key>
+											<integer>1</integer>
+											<key>Channel</key>
 											<integer>1</integer>
 										</dict>
 										<dict>
-											<key>Channel</key>
-											<integer>2</integer>
 											<key>Bind</key>
+											<integer>2</integer>
+											<key>Channel</key>
 											<integer>2</integer>
 										</dict>
 									</array>
@@ -222,15 +234,15 @@
 									<key>Channels</key>
 									<array>
 										<dict>
-											<key>Channel</key>
-											<integer>1</integer>
 											<key>Bind</key>
+											<integer>1</integer>
+											<key>Channel</key>
 											<integer>1</integer>
 										</dict>
 										<dict>
-											<key>Channel</key>
-											<integer>2</integer>
 											<key>Bind</key>
+											<integer>2</integer>
+											<key>Channel</key>
 											<integer>2</integer>
 										</dict>
 									</array>
@@ -254,20 +266,4 @@
 			<integer>86</integer>
 		</dict>
 	</array>
-	<key>CommonPeripheralDSP</key>
-	<array>
-		<dict>
-			<key>DeviceID</key>
-			<integer>0</integer>
-			<key>DeviceType</key>
-			<string>Headphone</string>
-		</dict>
-		<dict>
-			<key>DeviceID</key>
-			<integer>0</integer>
-			<key>DeviceType</key>
-			<string>Microphone</string>
-		</dict>
-	</array>
 </dict>
-</plist>

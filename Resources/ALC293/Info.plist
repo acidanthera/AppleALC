@@ -36,6 +36,14 @@
 				<key>Path</key>
 				<string>layout29.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>ALC 293 for Hasee ZX8-CT5DA/Clevo N9x0TD_TF by RushiaBoingBoing</string>
+				<key>Id</key>
+				<integer>30</integer>
+				<key>Path</key>
+				<string>layout30.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -62,6 +70,14 @@
 				<integer>29</integer>
 				<key>Path</key>
 				<string>Platforms29.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>ALC 293 for Hasee ZX8-CT5DA/Clevo N9x0TD_TF by RushiaBoingBoing</string>
+				<key>Id</key>
+				<integer>30</integer>
+				<key>Path</key>
+				<string>Platforms30.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>
