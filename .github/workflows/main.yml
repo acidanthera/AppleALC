@@ -18,8 +18,8 @@ jobs:
     env:
       JOB_TYPE: BUILD
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
+      - uses: actions/checkout@v3
         with:
           repository: acidanthera/MacKernelSDK
           path: MacKernelSDK
@@ -34,7 +34,7 @@ jobs:
       - run: xcodebuild -jobs 1 -configuration Release -arch ACID32 -arch x86_64
 
       - name: Upload to Artifacts
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: Artifacts
           path: build/*/*.zip
@@ -53,8 +53,8 @@ jobs:
     env:
       JOB_TYPE: ANALYZE
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
+      - uses: actions/checkout@v3
         with:
           repository: acidanthera/MacKernelSDK
           path: MacKernelSDK
@@ -75,8 +75,8 @@ jobs:
       JOB_TYPE: COVERITY
     if: github.repository_owner == 'acidanthera' && github.event_name != 'pull_request'
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
+      - uses: actions/checkout@v3
         with:
           repository: acidanthera/MacKernelSDK
           path: MacKernelSDK
