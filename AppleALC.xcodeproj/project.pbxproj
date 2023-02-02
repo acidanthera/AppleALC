@@ -14,7 +14,6 @@
 		01ACCCE425362AC2007704ED /* UserKernelShared.h in Headers */ = {isa = PBXBuildFile; fileRef = 01ACCCE325362AC2007704ED /* UserKernelShared.h */; };
 		01ACCCEA25362B00007704ED /* ALCUserClientProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01ACCCE825362B00007704ED /* ALCUserClientProvider.cpp */; };
 		01ACCCEB25362B00007704ED /* ALCUserClientProvider.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 01ACCCE925362B00007704ED /* ALCUserClientProvider.hpp */; };
-		0C88747B2986CEDD00448BAE /* libkmod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C88747A2986CEDD00448BAE /* libkmod.a */; };
 		1C642F561C8F1BD8006B4C51 /* PinConfigs.kext in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1C642F551C8F1BD8006B4C51 /* PinConfigs.kext */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1C748C2D1C21952C0024EED2 /* kern_start.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C748C2C1C21952C0024EED2 /* kern_start.cpp */; };
 		1C88DDEC1C89EE540003E1BF /* kern_resources.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C88DDEA1C89EE540003E1BF /* kern_resources.cpp */; };
@@ -123,7 +122,6 @@
 		01ACCCE325362AC2007704ED /* UserKernelShared.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserKernelShared.h; sourceTree = "<group>"; };
 		01ACCCE825362B00007704ED /* ALCUserClientProvider.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ALCUserClientProvider.cpp; sourceTree = "<group>"; };
 		01ACCCE925362B00007704ED /* ALCUserClientProvider.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ALCUserClientProvider.hpp; sourceTree = "<group>"; };
-		0C88747A2986CEDD00448BAE /* libkmod.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libkmod.a; path = usr/lib/libkmod.a; sourceTree = SDKROOT; };
 		1C642F551C8F1BD8006B4C51 /* PinConfigs.kext */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.kernel-extension"; name = PinConfigs.kext; path = Resources/PinConfigs.kext; sourceTree = "<group>"; };
 		1C642F571C8F1BEE006B4C51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Resources/PinConfigs.kext/Contents/Info.plist; sourceTree = "<group>"; };
 		1C748C271C21952C0024EED2 /* AppleALC.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleALC.kext; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -176,7 +174,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C88747B2986CEDD00448BAE /* libkmod.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,7 +348,6 @@
 		CE8DA0882517C489008C44E8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0C88747A2986CEDD00448BAE /* libkmod.a */,
 				CE8DA0892517C489008C44E8 /* libkmod.a */,
 			);
 			name = Frameworks;
@@ -891,7 +887,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/MacKernelSDK/Library/universal",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				"MACOSX_DEPLOYMENT_TARGET[arch=ACID32]" = 10.4;
 				MODULE_NAME = as.vit9696.AppleALC;
 				MODULE_START = "$(PRODUCT_NAME)_kern_start";
@@ -972,7 +968,7 @@
 				);
 				LLVM_LTO = YES;
 				"LLVM_LTO[arch=ACID32]" = NO;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				"MACOSX_DEPLOYMENT_TARGET[arch=ACID32]" = 10.4;
 				MODULE_NAME = as.vit9696.AppleALC;
 				MODULE_START = "$(PRODUCT_NAME)_kern_start";
@@ -1136,7 +1132,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/MacKernelSDK/Library/universal",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				"MACOSX_DEPLOYMENT_TARGET[arch=ACID32]" = 10.4;
 				MODULE_NAME = as.vit9696.AppleALC;
 				MODULE_START = "$(PRODUCT_NAME)_kern_start";
