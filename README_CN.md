@@ -13,7 +13,7 @@ AppleALC
 - 任意的kext修改补丁.
 - 自定义设备Layout ID号与支持平台.
 - 工作在 SIP 模式 / El Capitan 系统.
-- 当前版本兼容: 10.8-11.
+- 当前版本兼容: 10.4-13.
 
 #### 向以下代码贡献人员致谢
 - [Apple](https://www.apple.com) 设计的 macOS 操作系统 

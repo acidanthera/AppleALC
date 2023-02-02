@@ -35,7 +35,7 @@ void AlcEnabler::createShared() {
 void AlcEnabler::init() {
 
 	lilu.onPatcherLoadForce(
-	[](void *user, KernelPatcher &pathcer) {
+	[](void *user, KernelPatcher &patcher) {
 		static_cast<AlcEnabler *>(user)->updateProperties();
 	}, this);
 
@@ -384,7 +384,13 @@ bool AlcEnabler::AppleHDAController_start(IOService* service, IOService* provide
 
 IOReturn AlcEnabler::IOHDACodecDevice_executeVerb(void *hdaCodecDevice, uint16_t nid, uint16_t verb, uint16_t param, unsigned int *output, bool waitForSuccess)
 {
-	DBGLOG("alc", "IOHDACodecDevice::executeVerb with parameters nid = %u, verb = %u, param = %u", nid, verb, param);
+	if (verb & 0xff0) {
+		// 12 bit verb
+		DBGLOG("alc", "IOHDACodecDevice::executeVerb with parameters nid = 0x%02X, verb = 0x%03X, param = 0x%02X", nid, verb, param);
+	} else {
+		// 4 bit verb
+		DBGLOG("alc", "IOHDACodecDevice::executeVerb with parameters nid = 0x%02X, verb = 0x%X, param = 0x%04X", nid, verb, param);
+	}
 	return FunctionCast(IOHDACodecDevice_executeVerb, callbackAlc->orgIOHDACodecDevice_executeVerb)(hdaCodecDevice, nid, verb, param, output, waitForSuccess);
 }
 

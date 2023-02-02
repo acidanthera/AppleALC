@@ -7,7 +7,9 @@
 
 outfile=~/Desktop/SupportedСodecs.md
 printf '*Thеse tables are generated using [wiki_table.command](https://github.com/acidanthera/AppleALC/blob/master/Tools/wiki_table.command)* \n' > $outfile
-printf '#### Currently supported codecs '$(date '+%Y-%m-%d')'\n' >> $outfile
+cd "$(dirname "$0")/../Resources/"
+ver=$(grep "MODULE_VERSION =" ../AppleALC.xcodeproj/project.pbxproj | head -1 |  awk '{ print $3 }' | tr -d ";")
+printf '#### Currently supported codecs '$(date '+%Y-%m-%d')' v'${ver}'\n' >> $outfile
 printf '| Vendor | Codec | Revisions and layouts | MinKernel | MaxKernel |\n' >> $outfile
 printf '|--------|-------|-----------------------|-----------|-----------|\n' >> $outfile
 
@@ -109,7 +111,7 @@ esac
 
 
 printf '| '$vendor' ' >> $outfile
-printf '| ['${d1%/}'](https://github.com/acidanthera/AppleALC/tree/master/Resources/'${d%/}')' >> $outfile
+printf '| ['${d1%/}'](https://github.com/acidanthera/AppleALC/tree/master/Resources/'${d%/}'/Info.plist)' >> $outfile
 printf '| '"${rev}"' layout ' >> $outfile
 cd $d
 u=""

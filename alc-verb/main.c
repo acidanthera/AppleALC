@@ -156,7 +156,15 @@ static unsigned execute_command(unsigned dev, uint16_t nid, uint16_t verb, uint1
 	uint32_t inputCount = 3;	// Must match the declaration in ALCUserClient::sMethods
 	uint64_t input[inputCount];
 	input[0]	= nid;
-	input[1]	= verb;
+	// Convert Unix-style 4 bit verbs 0xn00 to Intel-style 4 bit verbs 0xn which Apple methods also
+	// use internally, to avoid IOHDACodecDevice_executeVerb discarding the top 8 bits of param.
+	if (verb & 0xff) {
+		// 12 bit verb
+		input[1]	= verb;
+	} else {
+		// 4 bit verb
+		input[1]	= verb >> 8;
+	}
 	input[2]	= param;
 	
 	uint64_t output;

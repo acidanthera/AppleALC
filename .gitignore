@@ -1,10 +1,6 @@
-.gitignore
-/MacKernelSDK
-/Lilu.kext
-/AppleALC.xcodeproj
-
 .DS_Store
 DerivedData
+Lilu.kext
 xcuserdata
 xcshareddata
 project.xcworkspace
@@ -14,4 +10,5 @@ AppleALC/kern_resources.cpp
 build
 .svace-dir
 cov-int
+/MacKernelSDK
 /clang32
