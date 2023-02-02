@@ -227,7 +227,7 @@ AppleALC Changelog
 - Added verb sending functionality from userspace by black-dragon74
 - Added ALC235 (display as ALC233) layout-id 35 for Lenovo Qitian M420-D046(C) by crysehillmes
 - Added ALC892 layout-id 100 for MSI Z370-A PRO by GeorgeWan
-- Added ALCS1200A layout-id 51 for for ASROCK Z490 Steel Legend by GeorgeWan
+- Added ALCS1200A layout-id 51 for for ASROCK-Z490-Steel-Legend by GeorgeWan
 - Added ALC662 layout-id 66 for Lenovo Qitian M415-D339 by static-host
 - Fixed ALC285 layout-Id 21 for X1C6 (by @fewtarius)
 - Added ALC272 layout-id 12 for Lenovo Y470 by amu_1680c
