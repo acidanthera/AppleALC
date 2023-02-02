@@ -102,6 +102,22 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Realtek ALC255(3234) for Asus N752VX by Feartech</string>
+				<key>Id</key>
+				<integer>22</integer>
+				<key>Path</key>
+				<string>layout22.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Realtek ALC255 for Acer Aspire A515-54G</string>
+				<key>Id</key>
+				<integer>23</integer>
+				<key>Path</key>
+				<string>layout23.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>ALC255 for Asus X556UA m-dudarev</string>
 				<key>Id</key>
 				<integer>27</integer>
@@ -179,6 +195,22 @@
 				<string>96</string>
 				<key>Path</key>
 				<string>layout96.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Realtek ALC255(3234) for Dell Inspiron 5548 by CynCYX</string>
+				<key>Id</key>
+				<integer>255</integer>
+				<key>Path</key>
+				<string>layout255.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>juniorcaesar Acer Aspire A315-56-327T ALC255</string>
+				<key>Id</key>
+				<integer>69</integer>
+				<key>Path</key>
+				<string>layout69.xml.zlib</string>
 			</dict>
 		</array>
 		<key>Platforms</key>
@@ -273,6 +305,22 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Realtek ALC255(3234) for Asus N752VX by Feartech</string>
+				<key>Id</key>
+				<integer>22</integer>
+				<key>Path</key>
+				<string>Platforms22.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Realtek ALC255 for Acer Aspire A515-54G</string>
+				<key>Id</key>
+				<integer>23</integer>
+				<key>Path</key>
+				<string>Platforms23.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>ALC255 for Asus X556UA m-dudarev</string>
 				<key>Id</key>
 				<integer>27</integer>
@@ -350,6 +398,22 @@
 				<integer>96</integer>
 				<key>Path</key>
 				<string>Platforms96.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Realtek ALC255(3234) for Dell Inspiron 5548 by CynCYX</string>
+				<key>Id</key>
+				<integer>255</integer>
+				<key>Path</key>
+				<string>Platforms255.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>juniorcaesar Acer Aspire A315-56-327T ALC255</string>
+				<key>Id</key>
+				<integer>69</integer>
+				<key>Path</key>
+				<string>Platforms69.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>

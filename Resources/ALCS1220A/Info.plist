@@ -76,6 +76,30 @@
 				<key>Path</key>
 				<string>layout11.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Realtek ALC S1220A _MSI_z490i_unify_by_vio</string>
+				<key>Id</key>
+				<integer>8</integer>
+				<key>Path</key>
+				<string>layout8.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Realtek ALC S1220A for Asus ProArt Z690-Creator WiFi (CaseySJ)</string>
+				<key>Id</key>
+				<integer>13</integer>
+				<key>Path</key>
+				<string>layout13.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Realtek ALC S1220A for Asus ROG Strix X570-F Gaming (CaseySJ)</string>
+				<key>Id</key>
+				<integer>15</integer>
+				<key>Path</key>
+				<string>layout15.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -142,6 +166,30 @@
 				<string>11</string>
 				<key>Path</key>
 				<string>Platforms11.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Realtek ALC S1220A _MSI_z490i_unify_by_vio</string>
+				<key>Id</key>
+				<string>8</string>
+				<key>Path</key>
+				<string>Platforms8.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Realtek ALC S1220A for Asus ProArt Z690-Creator WiFi (CaseySJ)</string>
+				<key>Id</key>
+				<integer>13</integer>
+				<key>Path</key>
+				<string>Platforms13.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Realtek ALC S1220A for Asus ROG Strix X570-F Gaming (CaseySJ)</string>
+				<key>Id</key>
+				<integer>15</integer>
+				<key>Path</key>
+				<string>Platforms15.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>
@@ -235,6 +283,11 @@
 			<key>Replace</key>
 			<data>AAAAAA==</data>
 		</dict>
+	</array>
+	<key>Revisions</key>
+	<array>
+		<integer>1048833</integer>
+		<integer>1048579</integer>
 	</array>
 	<key>Vendor</key>
 	<string>Realtek</string>

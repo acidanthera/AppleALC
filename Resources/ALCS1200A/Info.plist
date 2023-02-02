@@ -78,6 +78,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>GeorgeWan - ALCS1200A for MSI-Motar-B460M</string>
+				<key>Id</key>
+				<integer>52</integer>
+				<key>Path</key>
+				<string>layout52.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Lorys89 and Vorshim92 - ALCS1200A for ASROCK Z490M ITX AC</string>
 				<key>Id</key>
 				<integer>69</integer>
@@ -151,8 +159,14 @@
 				<key>Path</key>
 				<string>Platforms51.xml.zlib</string>
 			</dict>
-<<<<<<< HEAD
-=======
+			<dict>
+				<key>Comment</key>
+				<string>GeorgeWan - ALCS1200A for MSI-Motar-B460M</string>
+				<key>Id</key>
+				<integer>52</integer>
+				<key>Path</key>
+				<string>Platforms52.xml.zlib</string>
+			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>Lorys89 and Vorshim92 - ALCS1200A for ASROCK Z490M ITX AC</string>
@@ -161,7 +175,6 @@
 				<key>Path</key>
 				<string>Platforms69.xml.zlib</string>
 			</dict>
->>>>>>> upstream/master
 		</array>
 	</dict>
 	<key>Patches</key>

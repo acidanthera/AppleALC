@@ -375,8 +375,6 @@
 				<key>Path</key>
 				<string>Platforms100.xml.zlib</string>
 			</dict>
-<<<<<<< HEAD
-=======
 			<dict>
 				<key>Comment</key>
 				<string>Custom ALC892 for G4/G5mod by ATL</string>
@@ -385,7 +383,6 @@
 				<key>Path</key>
 				<string>Platforms32.xml.zlib</string>
 			</dict>
->>>>>>> upstream/master
 		</array>
 	</dict>
 	<key>Patches</key>

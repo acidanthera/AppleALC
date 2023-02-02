@@ -46,6 +46,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Deskmini H470 ALC235 by dumk1217</string>
+				<key>Id</key>
+				<integer>13</integer>
+				<key>Path</key>
+				<string>layout13.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>the-braveknight - Realtek ALC235 for Lenovo Legion Y520</string>
 				<key>Id</key>
 				<integer>14</integer>
@@ -118,6 +126,22 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>hla63 - Realtek ALC235 for Msi Moder 15 A10M</string>
+				<key>Id</key>
+				<integer>29</integer>
+				<key>Path</key>
+				<string>layout29.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom by fuzzyrock for ALC235 Lenovo A340-22IWL</string>
+				<key>Id</key>
+				<integer>33</integer>
+				<key>Path</key>
+				<string>layout33.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Realtek ALC235(Display as ALC233) for Lenovo Qitian M420-D046(C) by Cryse Hillmes</string>
 				<key>Id</key>
 				<integer>35</integer>
@@ -134,6 +158,22 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Lenovo M920x ALC235 by meloay</string>
+				<key>Id</key>
+				<integer>72</integer>
+				<key>Path</key>
+				<string>layout72.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>frozenzero123 - NUC8I5BEH JUST MIC ALC235</string>
+				<key>Id</key>
+				<integer>88</integer>
+				<key>Path</key>
+				<string>layout88.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>ALC235 for Lenovo TianYi 510s Mini by DalianSky</string>
 				<key>Id</key>
 				<integer>99</integer>
@@ -142,11 +182,11 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Deskmini H470 ALC235 by dumk1217</string>
+				<string>ALC235 for Lenovo Tianyi 510 pro-18ICB Desktop PC by hgs v1</string>
 				<key>Id</key>
-				<integer>13</integer>
+				<integer>36</integer>
 				<key>Path</key>
-				<string>layout13.xml.zlib</string>
+				<string>layout36.xml.zlib</string>
 			</dict>
 		</array>
 		<key>Platforms</key>
@@ -182,6 +222,14 @@
 				<integer>12</integer>
 				<key>Path</key>
 				<string>Platforms12.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Deskmini H470 ALC235 by dumk1217</string>
+				<key>Id</key>
+				<integer>13</integer>
+				<key>Path</key>
+				<string>Platforms13.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -257,6 +305,22 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>hla63 - Realtek ALC235 for Msi Moder 15 A10M</string>
+				<key>Id</key>
+				<integer>29</integer>
+				<key>Path</key>
+				<string>Platforms29.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom by fuzzyrock for ALC235 Lenovo A340-22IWL</string>
+				<key>Id</key>
+				<integer>33</integer>
+				<key>Path</key>
+				<string>Platforms33.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Realtek ALC235(Display as ALC233) for Lenovo Qitian M420-D046(C) by Cryse Hillmes</string>
 				<key>Id</key>
 				<integer>35</integer>
@@ -273,6 +337,22 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Lenovo M920x ALC235 by meloay</string>
+				<key>Id</key>
+				<integer>72</integer>
+				<key>Path</key>
+				<string>Platforms72.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>frozenzero123 - NUC8I5BEH JUST MIC ALC235</string>
+				<key>Id</key>
+				<integer>88</integer>
+				<key>Path</key>
+				<string>Platforms88.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>ALC235 for Lenovo TianYi 510s Mini by DalianSky</string>
 				<key>Id</key>
 				<integer>99</integer>
@@ -281,11 +361,11 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Deskmini H470 ALC235 by dumk1217</string>
+				<string>ALC235 for Lenovo Tianyi 510 pro-18ICB Desktop PC by hgs v1</string>
 				<key>Id</key>
-				<integer>13</integer>
+				<integer>36</integer>
 				<key>Path</key>
-				<string>Platforms13.xml.zlib</string>
+				<string>Platforms36.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>

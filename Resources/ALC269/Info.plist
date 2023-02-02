@@ -214,6 +214,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Andres ZeroCross - ALC269 for Infinix X1 XL11</string>
+				<key>Id</key>
+				<integer>26</integer>
+				<key>Path</key>
+				<string>layout26.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Custom ALC269 Acer Aspire by Andrey1970</string>
 				<key>Id</key>
 				<integer>27</integer>
@@ -267,6 +275,14 @@
 				<integer>33</integer>
 				<key>Path</key>
 				<string>layout33.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom ALC269-VC Samsung np540U4E by majonez</string>
+				<key>Id</key>
+				<integer>34</integer>
+				<key>Path</key>
+				<string>layout34.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -419,6 +435,14 @@
 				<integer>91</integer>
 				<key>Path</key>
 				<string>layout91.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>5T33Z0 - Lenovo T530 with Dock 4337/4338</string>
+				<key>Id</key>
+				<integer>39</integer>
+				<key>Path</key>
+				<string>layout39.xml.zlib</string>
 			</dict>
 		</array>
 		<key>Platforms</key>
@@ -625,6 +649,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Andres ZeroCross - ALC269 for Infinix X1 XL11</string>
+				<key>Id</key>
+				<integer>26</integer>
+				<key>Path</key>
+				<string>Platforms26.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Custom ALC269 Acer Aspire by Andrey1970</string>
 				<key>Id</key>
 				<integer>27</integer>
@@ -678,6 +710,14 @@
 				<integer>33</integer>
 				<key>Path</key>
 				<string>Platforms28.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom ALC269-VC Samsung np540U4E by majonez</string>
+				<key>Id</key>
+				<integer>34</integer>
+				<key>Path</key>
+				<string>Platforms34.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -830,6 +870,14 @@
 				<integer>91</integer>
 				<key>Path</key>
 				<string>Platforms91.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>5T33Z0 - Lenovo T530 with Dock 4337/4338</string>
+				<key>Id</key>
+				<integer>39</integer>
+				<key>Path</key>
+				<string>Platforms39.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>

@@ -9,10 +9,7 @@
 				<integer>283902512</integer>
 			</array>
 			<key>Headphone</key>
-			<dict>
-				<key>Headset_dBV</key>
-				<integer>-1055916032</integer>
-			</dict>
+			<dict/>
 			<key>Inputs</key>
 			<array>
 				<string>Mic</string>
@@ -833,7 +830,7 @@
 			<key>LineIn</key>
 			<dict>
 				<key>MuteGPIO</key>
-				<integer>1342242842</integer>
+				<integer>1342242841</integer>
 				<key>SignalProcessing</key>
 				<dict>
 					<key>SoftwareDSP</key>
