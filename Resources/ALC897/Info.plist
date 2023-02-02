@@ -16,9 +16,9 @@
 				<key>Comment</key>
 				<string>GeorgeWan - ALC897 for MSI-Z590-A-PRO</string>
 				<key>Id</key>
-				<integer>1</integer>
+				<integer>13</integer>
 				<key>Path</key>
-				<string>layout1.xml.zlib</string>
+				<string>layout13.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -83,9 +83,9 @@
 				<key>Comment</key>
 				<string>GeorgeWan - ALC897 for MSI-Z590-A-PRO</string>
 				<key>Id</key>
-				<integer>1</integer>
+				<integer>13</integer>
 				<key>Path</key>
-				<string>Platforms1.xml.zlib</string>
+				<string>Platforms13.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
