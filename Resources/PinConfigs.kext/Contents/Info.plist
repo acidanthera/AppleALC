@@ -8164,25 +8164,19 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>
-					AwAAAA==
-					</data>
+					<data>AwAAAA==</data>
 					<key>Codec</key>
 					<string>Andres ZeroCross - Conexant CX8070 for Lenovo ThinkPad E14</string>
 					<key>CodecID</key>
 					<integer>351346566</integer>
 					<key>ConfigData</key>
-					<data>
-					AXccEAF3HQABdx4XAXcfkQGnHCABpx0AAaceoAGnH5ABlxwwAZcdEAGXHoEBlx8AAWccQAFnHRABZx4hAWcfAAF3DAIBZwwCAZcHJAGnByQ=
-					</data>
+					<data>AXccEAF3HQABdx4XAXcfkQGnHCABpx0AAaceoAGnH5ABlxwwAZcdEAGXHoEBlx8AAWccQAFnHRABZx4hAWcfAAF3DAIBZwwCAZcHJAGnByQ=</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>21</integer>
 					<key>WakeConfigData</key>
-					<data>
-					AXcMAgFnDAIBlwckAacHJA==
-					</data>
+					<data>AXcMAgFnDAIBlwckAacHJA==</data>
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
