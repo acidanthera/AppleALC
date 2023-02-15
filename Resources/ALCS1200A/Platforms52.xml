@@ -727,6 +727,8 @@
 					<array>
 						<array>
 							<dict>
+								<key>DetectDelegate</key>
+								<integer>22</integer>
 								<key>NodeID</key>
 								<integer>30</integer>
 							</dict>
@@ -739,7 +741,7 @@
 				</array>
 			</array>
 			<key>PathMapID</key>
-			<integer>51</integer>
+			<integer>52</integer>
 		</dict>
 	</array>
 </dict>

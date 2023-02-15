@@ -30,6 +30,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>HafidzRadhival - DELL Vostro 5468 ALC256 (3246)</string>
+				<key>Id</key>
+				<integer>12</integer>
+				<key>Path</key>
+				<string>layout12.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Insanelydeepak - Realtek ALC256 (3246) for Dell Series</string>
 				<key>Id</key>
 				<integer>13</integer>
@@ -238,6 +246,14 @@
 				<integer>11</integer>
 				<key>Path</key>
 				<string>Platforms11.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>HafidzRadhival - DELL Vostro 5468 ALC256 (3246)</string>
+				<key>Id</key>
+				<integer>12</integer>
+				<key>Path</key>
+				<string>Platforms12.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>

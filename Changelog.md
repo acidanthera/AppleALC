@@ -1,5 +1,18 @@
 AppleALC Changelog
 ==================
+#### v1.7.9
+- Added ALC268 layout-id 11 for Dell Inspiron Mini 9 by Goldfish64
+- Added ALC268 support for 10.5 and 10.6
+- Fix 583 pinconfig for nuc9 by littlesum
+- ALC255 layout-id 22 Mic Fix by Feartech
+- ALC255 layout-id 69 ConfigData Fix by juniorcaesar
+- Added ALC256 layout-id 12 for DELL Vostro 5468 ALC256 (3246) by MumetNgoding
+- Update ALC892 layout-id 100 for MSI-Z370-A-PRO by megabes
+- Update ALCS1200A layout-id 51 for ASRock-Z490-Steel-Legend by megabes
+- Added ALC897 layout-id 13 for MSI-Z590-A-PRO by megabes
+- Added ALCS1200A layout-id 52 for MSI-MORTAR-B460M by megabes
+- Add Layout 21 for CX 8070 for Lenovo ThinkPad E14 by andreszerocross
+
 #### v1.7.8
 - Added ALC255 layout-id 69 for Acer Aspire 3 A315-56-327T by juniorcaesar
 - Added ALC1220 layout-id 20 for Gigabyte B550 Vision D by CaseySJ
@@ -227,7 +240,7 @@ AppleALC Changelog
 - Added verb sending functionality from userspace by black-dragon74
 - Added ALC235 (display as ALC233) layout-id 35 for Lenovo Qitian M420-D046(C) by crysehillmes
 - Added ALC892 layout-id 100 for MSI Z370-A PRO by GeorgeWan
-- Added ALCS1200A layout-id 51 for for ASROCK Z490 Steel Legend by GeorgeWan
+- Added ALCS1200A layout-id 51 for for ASROCK-Z490-Steel-Legend by GeorgeWan
 - Added ALC662 layout-id 66 for Lenovo Qitian M415-D339 by static-host
 - Fixed ALC285 layout-Id 21 for X1C6 (by @fewtarius)
 - Added ALC272 layout-id 12 for Lenovo Y470 by amu_1680c
