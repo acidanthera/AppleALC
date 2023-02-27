@@ -32,6 +32,24 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>Floron - Realtek ALC256 (3246) for Honor MagicBook Pro HBB-WAH9</string>
+					<key>CodecID</key>
+					<integer>283902550</integer>
+					<key>ConfigData</key>
+					<data>AUccEAFHHQEBRx4XAUcfkAFHDAICFxwgAhcdEAIXHiECFx8EAhcMAgEnHDABJx0BAScepgEnH5A=</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>95</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgIXDAI=</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>Custom ALC282 Lenovo-IdeaPad-Z510 by hoseinrez</string>
 					<key>CodecID</key>
 					<integer>283902594</integer>
