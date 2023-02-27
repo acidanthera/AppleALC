@@ -1,6 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
 <dict>
 	<key>CommonPeripheralDSP</key>
 	<array>
@@ -63,7 +60,7 @@
 							</dict>
 							<dict>
 								<key>Boost</key>
-								<integer>2</integer>
+								<integer>1</integer>
 								<key>NodeID</key>
 								<integer>18</integer>
 							</dict>
@@ -71,44 +68,6 @@
 					</array>
 				</array>
 				<array>
-					<array>
-						<array>
-							<dict>
-								<key>NodeID</key>
-								<integer>20</integer>
-							</dict>
-							<dict>
-								<key>Amp</key>
-								<dict>
-									<key>Channels</key>
-									<array>
-										<dict>
-											<key>Bind</key>
-											<integer>1</integer>
-											<key>Channel</key>
-											<integer>1</integer>
-										</dict>
-										<dict>
-											<key>Bind</key>
-											<integer>2</integer>
-											<key>Channel</key>
-											<integer>2</integer>
-										</dict>
-									</array>
-									<key>MuteInputAmp</key>
-									<false/>
-									<key>PublishMute</key>
-									<false/>
-									<key>PublishVolume</key>
-									<true/>
-									<key>VolumeInputAmp</key>
-									<false/>
-								</dict>
-								<key>NodeID</key>
-								<integer>2</integer>
-							</dict>
-						</array>
-					</array>
 					<array>
 						<array>
 							<dict>
@@ -147,6 +106,44 @@
 							</dict>
 						</array>
 					</array>
+					<array>
+						<array>
+							<dict>
+								<key>NodeID</key>
+								<integer>20</integer>
+							</dict>
+							<dict>
+								<key>Amp</key>
+								<dict>
+									<key>Channels</key>
+									<array>
+										<dict>
+											<key>Bind</key>
+											<integer>1</integer>
+											<key>Channel</key>
+											<integer>1</integer>
+										</dict>
+										<dict>
+											<key>Bind</key>
+											<integer>2</integer>
+											<key>Channel</key>
+											<integer>2</integer>
+										</dict>
+									</array>
+									<key>MuteInputAmp</key>
+									<false/>
+									<key>PublishMute</key>
+									<false/>
+									<key>PublishVolume</key>
+									<true/>
+									<key>VolumeInputAmp</key>
+									<false/>
+								</dict>
+								<key>NodeID</key>
+								<integer>2</integer>
+							</dict>
+						</array>
+					</array>
 				</array>
 			</array>
 			<key>PathMapID</key>
@@ -154,4 +151,3 @@
 		</dict>
 	</array>
 </dict>
-</plist>
