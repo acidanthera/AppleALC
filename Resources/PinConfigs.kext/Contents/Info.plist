@@ -3386,6 +3386,22 @@
 					<key>CodecID</key>
 					<integer>283902569</integer>
 					<key>Comment</key>
+					<string>ALC269 for minisforum NAG6 by DalianSky</string>
+					<key>ConfigData</key>
+					<data>AYccEAGHHZABhx6BAYcfAQIXHDACFx1AAhceIQIXHwEBRwwC</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>111</integer>
+				</dict>				
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>ALC269</string>
+					<key>CodecID</key>
+					<integer>283902569</integer>
+					<key>Comment</key>
 					<string>Custom ALC269 Acer Aspire by Andrey1970 (No input boost - no noise in Siri)</string>
 					<key>ConfigData</key>
 					<data>AUccAAFHHUEBRx4XAUcfmQGHHBABhx2QAYcegQGHHwEBtxwgAbcdkQG3HqcBtx+ZAhccMAIXHUACFx4hAhcfAQ==</data>
