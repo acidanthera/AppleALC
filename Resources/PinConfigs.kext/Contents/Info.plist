@@ -5558,6 +5558,20 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>Jason Xu - ALC623 Lenovo M435</string>
+					<key>CodecID</key>
+					<integer>283903523</integer>
+					<key>ConfigData</key>
+					<data>AUccEAFHHUABRx4RAUcfAQF3HCABdx0AAXceFwF3H5ABdwwCAZccMAGXHRABlx6gAZcfkQGnHEABpx0wAacegQGnHwECFxxQAhcdEAIXHiECFx8BAbccYAG3HZABtx6AAbcfAQ==</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>25</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>Mirone - Realtek ALC662</string>
 					<key>CodecID</key>
 					<integer>283903586</integer>
