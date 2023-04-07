@@ -888,6 +888,7 @@
 			<key>Outputs</key>
 			<array>
 				<string>Headphone</string>
+				<string>IntSpeaker</string>
 				<string>LineOut</string>
 				<string>SPDIFOut</string>
 			</array>
