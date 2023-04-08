@@ -3393,7 +3393,7 @@
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>111</integer>
-				</dict>				
+				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
@@ -9967,6 +9967,24 @@
 					<integer>37</integer>
 					<key>WakeConfigData</key>
 					<data>AUcMAgIXDAI=</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>CodecID</key>
+					<integer>283906592</integer>
+					<key>CodecName</key>
+					<string>hgsshaanxi- ALC1220 for Gigabyte Z490 Aorus Master</string>
+					<key>ConfigData</key>
+					<data>AScc8AEnHQABJx4AAScfQAFHHBABRx1AAUceIQFHHwIBRwwCAVccIAFXHRABVx4BAVcfAQFnHDABZx1gAWceAQFnHwEBdxzwAXcdAAF3HgABdx9AAYccQAGHHZABhx6gAYcfkQGXHGABlx2QAZcegQGXHwIBpxxQAacdMAGnHoEBpx8BAbcccAG3HUABtx4RAbcfkAG3DAIB1xzwAdcdAAHXHgAB1x9AAecckAHnHSEB5x5FAecfkQ==</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>18</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgG3DAI=</data>
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
