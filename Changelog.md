@@ -1,5 +1,9 @@
 AppleALC Changelog
 ==================
+#### v1.8.2
+- Added ALC1220 layout-id 18 for Gigabyte Z490 Aorus Master by hgsshaanxi
+- Fixed LayoutId 21 for ALC298 on X270 by MKjanek32
+
 #### v1.8.1
 - Added ALC293 layout-id 31 for Hasee Z7-CT7NA by lgh07711
 - Added Alder Lake PCH-P High Definition Audio Controller (0x51C8) by DalianSky
