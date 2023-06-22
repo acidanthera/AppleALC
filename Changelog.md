@@ -1,5 +1,26 @@
 AppleALC Changelog
 ==================
+#### v1.8.3
+- Added layout-id 73 for the ALC283/ThinkCentre M73 Tiny by UHDbits
+- Added constants for macOS 14 support
+
+#### v1.8.2
+- Added ALC1220 layout-id 18 for Gigabyte Z490 Aorus Master by hgsshaanxi
+- Fixed LayoutId 21 for ALC298 on X270 by MKjanek32
+
+#### v1.8.1
+- Added ALC293 layout-id 31 for Hasee Z7-CT7NA by lgh07711
+- Added Alder Lake PCH-P High Definition Audio Controller (0x51C8) by DalianSky
+- Added ALC269 layout-id 111 for minisforum NAG6 by DalianSky
+- Added ALC623 layout-id 13 for Lenovo ThinkCentre M720e with internal speaker by Pinokyo-H
+- Added ALC295 layout-id 11 for ZenBook UX581 by wern-apfel
+- Added ALC255 layout-id 37 for Acer Nitro 5 AN515-52-73Y8 by imoize
+
+#### v1.8.0
+- Fixed ALC274 layout-id 28 in/out 3.5mm jacks audio by Tweakkinn
+- Added ALC256 layout-id 95 for Honor MagicBook Pro HBB-WAH9 by Floron
+- Added ALC236 layout-id 55 for HP-240G8 by 8DireZ3
+
 #### v1.7.9
 - Added ALC268 layout-id 11 for Dell Inspiron Mini 9 by Goldfish64
 - Added ALC268 support for 10.5 and 10.6

@@ -390,6 +390,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>ALC269 for minisforum NAG6 by DalianSky</string>
+				<key>Id</key>
+				<integer>111</integer>
+				<key>Path</key>
+				<string>layout111.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Custom ALC269 Acer Aspire by Andrey1970 (No input boost - no noise in Siri)</string>
 				<key>Id</key>
 				<integer>127</integer>
@@ -822,6 +830,14 @@
 				<integer>100</integer>
 				<key>Path</key>
 				<string>Platforms100.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>ALC269 for minisforum NAG6 by DalianSky</string>
+				<key>Id</key>
+				<integer>111</integer>
+				<key>Path</key>
+				<string>Platforms111.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
