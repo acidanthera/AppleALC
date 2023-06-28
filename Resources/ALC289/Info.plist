@@ -94,8 +94,8 @@
 				<integer>23</integer>
 				<key>Path</key>
 				<string>Platforms23.xml.zlib</string>
-			<dict>
 			</dict>
+			<dict>
 				<key>Comment</key>
 				<string>Realtek ALC289 for Asus ROG Zephyrus G14</string>
 				<key>Id</key>
