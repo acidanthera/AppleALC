@@ -2454,6 +2454,24 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>Hoping - Realtek ALC257 for Lenovo XiaoXin Air14ALC</string>
+					<key>CodecID</key>
+					<integer>283902551</integer>
+					<key>ConfigData</key>
+					<data>ASccIAEnHQABJx6mAScfkAFHHBABRx0AAUceEAFHH5ABRwwCAZccMAGXHRABlx6LAZcfAwIXHEACFx0QAhceKwIXHwM=</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>101</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>MacPeet ALC260 for Fujitsu Celsius M 450</string>
 					<key>CodecID</key>
 					<integer>283902560</integer>
