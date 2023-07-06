@@ -156,6 +156,24 @@
 					<key>CodecID</key>
 					<integer>351359128</integer>
 					<key>Comment</key>
+					<string>Andres ZeroCross - Axioo MyPC One Pro H5</string>
+					<key>ConfigData</key>
+					<data>AYccEAGHHQEBhx4XAYcfkAGHDAIBlxxAAZcdEAGXHiEBlx8CAbccMAG3HRABtx6BAbcfAQG3DAIBpxxAAacdAQGnHqABpx+Q</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>21</integer>
+					<key>WakeConfigData</key>
+					<data>AYcMAgG3DAI=</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>CodecID</key>
+					<integer>351359128</integer>
+					<key>Comment</key>
 					<string>CX20632 by Daniel</string>
 					<key>ConfigData</key>
 					<data>AfccEAH3HQEB9x4XAfcfkgH3DAIBpxwgAacdEAGnHosBpx8CAZccQAGXHRABlx4rAZcfAgHHHNABxx1AAcceIQHHHwIBhxzwAYcdAAGHHgABhx9AAbcc8AG3HQABtx4AAbcfQAHXHPAB1x0AAdceAAHXH0AB5xzwAecdAAHnHgAB5x9AAgcc8AIHHQACBx4AAgcfQAIXHPACFx0AAhceAAIXH0ACZxzwAmcdAAJnHgACZx9A</data>
