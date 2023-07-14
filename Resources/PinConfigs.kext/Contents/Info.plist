@@ -3859,6 +3859,20 @@
 					AwAAAA==
 					</data>
 					<key>Codec</key>
+					<string>Goldfish64 - ALC262 for Dell Studio One 19 1909</string>
+					<key>CodecID</key>
+					<integer>283902562</integer>
+					<key>ConfigData</key>
+					<data>ASccQAEnHQEBJx6gAScfkAFHHDABRx0QAUceAQFHHwEBVxwQAVcdAQFXHhABVx+QAYccIAGHHZABhx6BAYcfAgGnHFABpx1AAaceIQGnHwI=</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>14</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>MacPeet - ALC262 for HP Z800-Z600 series</string>
 					<key>CodecID</key>
 					<integer>283902562</integer>

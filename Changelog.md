@@ -1,5 +1,8 @@
 AppleALC Changelog
 ==================
+#### v1.8.4
+- Added ALC262 layout-id 14 for Dell Studio One 19 1909 by Goldfish64
+
 #### v1.8.3
 - Added layout-id 73 for the ALC283/ThinkCentre M73 Tiny by UHDbits
 - Added constants for macOS 14 support
