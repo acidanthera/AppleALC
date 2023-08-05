@@ -452,6 +452,14 @@
 				<key>Path</key>
 				<string>layout39.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>jayveeballesteros - ALC269 for Fujitsu Esprimo D552</string>
+				<key>Id</key>
+				<integer>38</integer>
+				<key>Path</key>
+				<string>layout38.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -894,6 +902,14 @@
 				<integer>39</integer>
 				<key>Path</key>
 				<string>Platforms39.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>jayveeballesteros - ALC269 for Fujitsu Esprimo D552</string>
+				<key>Id</key>
+				<integer>38</integer>
+				<key>Path</key>
+				<string>Platforms38.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>

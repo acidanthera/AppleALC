@@ -10020,6 +10020,20 @@
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>jayveeballesteros - ALC269 for Fujitsu Esprimo D552</string>
+					<key>CodecID</key>
+					<integer>283902569</integer>
+					<key>ConfigData</key>
+					<data>IaccECGnHUAhpx4BIacfASIXHCAiFx0QIhceISIXHwIhhxxAIYcdkCGHHqEhhx8CIZccUCGXHZAhlx6hIZcfkQ==</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>38</integer>
+				</dict>
 			</array>
 			<key>IOClass</key>
 			<string>AppleALC</string>
