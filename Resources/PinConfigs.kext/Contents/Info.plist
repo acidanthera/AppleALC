@@ -10128,6 +10128,24 @@
 					<key>LayoutID</key>
 					<integer>38</integer>
 				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>Custom ALC897 by Marcos_Vinicios  for HUANANZHI QD4</string>
+					<key>CodecID</key>
+					<integer>283904151</integer>
+					<key>ConfigData</key>
+					<data>ARccAAEXHcABFx4XARcfQAFHHBABRx1AAUceEQFHHwEBRwwCAYccIAGHHZABhx6BAYcfAQGXHDABlx2QAZcegQGXHwIBpxxAAacdMAGnHoEBpx8BAbccUAG3HUABtx4hAbcfAgG3DAIB1xxhAdcdxgHXHiQB1x9A</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>99</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgG3DAI=</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
 			</array>
 			<key>IOClass</key>
 			<string>AppleALC</string>
