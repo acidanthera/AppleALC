@@ -76,6 +76,14 @@
 				<key>Path</key>
 				<string>layout77.xml.zlib</string>
 			</dict>
+            <dict>
+                <key>Comment</key>
+                <string>liangyi - ALC897 for MSI PRO B760M-P DDR4</string>
+                <key>Id</key>
+                <integer>98</integer>
+                <key>Path</key>
+                <string>layout98.xml.zlib</string>
+            </dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -143,6 +151,14 @@
 				<key>Path</key>
 				<string>Platforms77.xml.zlib</string>
 			</dict>
+            <dict>
+                <key>Comment</key>
+                <string>liangyi - ALC897 for MSI PRO B760M-P DDR4</string>
+                <key>Id</key>
+                <integer>98</integer>
+                <key>Path</key>
+                <string>Platforms98.xml.zlib</string>
+            </dict>
 		</array>
 	</dict>
 	<key>Patches</key>

@@ -10128,6 +10128,24 @@
 					<key>LayoutID</key>
 					<integer>38</integer>
 				</dict>
+                <dict>
+                    <key>AFGLowPowerState</key>
+                    <data>AwAAAA==</data>
+                    <key>Codec</key>
+                    <string>liangyi - ALC897 for MSI PRO B760M-P DDR4</string>
+                    <key>CodecID</key>
+                    <integer>283904151</integer>
+                    <key>ConfigData</key>
+                    <data>ARcc8AEXHQABFx4AARcfQAEnHPABJx0AASceAAEnH0ABRxwQAUcdQAFHHhEBRx8BAUcMAgFXHPABVx0AAVceAAFXH0ABZxzwAWcdAAFnHgABZx9AAXcc8AF3HQABdx4AAXcfQAGHHDABhx2QAYceoAGHH5EBlxxwAZcdkAGXHoABlx8BAaccUAGnHTABpx6BAacfAQG3HCABtx1AAbceIQG3HwEBtwwCAccc8AHHHQABxx4AAccfQAHXHPAB1x0AAdceAAHXH0AB5xzwAecdAAHnHgAB5x9AAfcc8AH3HQAB9x4AAfcfQA==</data>
+                    <key>FuncGroup</key>
+                    <integer>1</integer>
+                    <key>LayoutID</key>
+                    <integer>98</integer>
+                    <key>WakeConfigData</key>
+                    <data>AUcMAgG3DAI=</data>
+                    <key>WakeVerbReinit</key>
+                    <true/>
+                </dict>
 			</array>
 			<key>IOClass</key>
 			<string>AppleALC</string>
