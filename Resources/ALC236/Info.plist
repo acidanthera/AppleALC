@@ -126,6 +126,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>ALC236 for Dell ICL for Lorys89 by Vorshim</string>
+				<key>Id</key>
+				<integer>69</integer>
+				<key>Path</key>
+				<string>layout69.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>ALC236 for Lenovo Air 13 IWL by DalianSky</string>
 				<key>Id</key>
 				<integer>99</integer>
@@ -246,6 +254,14 @@
 				<integer>55</integer>
 				<key>Path</key>
 				<string>Platforms55.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>ALC236 for Dell ICL for Lorys89 by Vorshim</string>
+				<key>Id</key>
+				<integer>69</integer>
+				<key>Path</key>
+				<string>Platforms69.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
