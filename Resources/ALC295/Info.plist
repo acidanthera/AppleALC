@@ -22,14 +22,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Vorshim-ALC295 for Lenovo ThinkPad X1 Tablet 3Gen x Baio1977</string>
-				<key>Id</key>
-				<integer>69</integer>
-				<key>Path</key>
-				<string>layout69.xml.zlib</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>Mirone - Realtek ALC295/ALC3254</string>
 				<key>Id</key>
 				<integer>3</integer>
@@ -126,14 +118,6 @@
 				<integer>1</integer>
 				<key>Path</key>
 				<string>Platforms1.xml.zlib</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Vorshim-ALC295 for Lenovo ThinkPad X1 Tablet 3Gen x Baio1977</string>
-				<key>Id</key>
-				<integer>69</integer>
-				<key>Path</key>
-				<string>Platforms69.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
