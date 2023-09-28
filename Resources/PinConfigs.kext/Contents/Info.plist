@@ -5452,24 +5452,6 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
-					<string>Vorshim-ALC295 for Lenovo ThinkPad X1 Tablet 3Gen x Baio1977</string>
-					<key>CodecID</key>
-					<integer>283902613</integer>
-					<key>ConfigData</key>
-					<data>ASccIAEnHQEBJx6mAScfkAFHHEABRx0BAUceFwFHH5ABRwwCAZccQAGXHRABlx6nAZcfAAIXHDACFx0QAhceIQIXHwECFwwCAgUANQIEDZY=</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>69</integer>
-					<key>WakeConfigData</key>
-					<data>AUcMAgGXByQCFwwC</data>
-					<key>WakeVerbReinit</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
-					<key>Codec</key>
 					<string>Mirone - Realtek ALC298 SP4 - ComboJack</string>
 					<key>CodecID</key>
 					<integer>283902616</integer>
