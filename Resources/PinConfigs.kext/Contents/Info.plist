@@ -3214,6 +3214,24 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>Realtek ALC269 - Samsung R780</string>
+					<key>CodecID</key>
+					<integer>283902569</integer>
+					<key>ConfigData</key>
+					<data>AUccEAFHHQABRx4XAUcfkAFXHCABVx0QAVceIQFXHwEBhxwwAYcdEAGHHoEBhx8BAZccQAGXHQABlx6gAZcfkAFHDAI=</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>36</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>vusun123 - Realtek ALC269VC for Lenovo W530</string>
 					<key>CodecID</key>
 					<integer>283902569</integer>
