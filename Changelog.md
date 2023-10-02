@@ -1,7 +1,20 @@
 AppleALC Changelog
 ==================
+#### v1.8.5
+- Added AD1884 layout-id 11 for Panasonic Toughbook CF-30 by Goldfish64
+- Added ALC897 layout-id 99 for HUANANZHI QD4 by vinitosh
+- Added ALC897 layout-id 99 for MSI PRO B760M-P by liangyi9812
+
 #### v1.8.4
 - Added ALC262 layout-id 14 for Dell Studio One 19 1909 by Goldfish64
+- Headphones Fix ALC255 layout-id 69 by juniorcaesar 
+- Added ALC289 layout-id 33 for Asus ROG Zephyrus G14 GA401IV & fix layout-id 93 in xml
+- Added Conexant CX20632 layout-id 21 for Axioo MyPC One Pro H5 by Andres ZeroCross
+- Added ALC257 layout-id 101 for Lenovo XiaoXin Air14ALC by htmambo
+- Added ALC236 layout-id 19 for Lenovo IdeaPad 500-14ISK. Enables Internal Speakers, Internal Mic, Jack Microphone and Jack Headphones by wolf606
+- Added ALC289 layout-id 12 for XPS 13 9300 with working headphones and external microphone by wern-apfel
+- Added ALC269 layout-id 38 for Fujitsu Esprimo D552 by jayveeballesteros
+- Fix no sound after sleep/wake for ALC891 layout 11 by portrayer
 
 #### v1.8.3
 - Added layout-id 73 for the ALC283/ThinkCentre M73 Tiny by UHDbits

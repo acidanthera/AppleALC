@@ -50,8 +50,22 @@
 									<true/>
 								</dict>
 								<key>NodeID</key>
-								<integer>8</integer>
+								<integer>9</integer>
 							</dict>
+							<dict>
+								<key>NodeID</key>
+								<integer>34</integer>
+							</dict>
+							<dict>
+								<key>Boost</key>
+								<integer>3</integer>
+								<key>NodeID</key>
+								<integer>25</integer>
+							</dict>
+						</array>
+					</array>
+					<array>
+						<array>
 							<dict>
 								<key>Amp</key>
 								<dict>
@@ -80,13 +94,17 @@
 									<true/>
 								</dict>
 								<key>NodeID</key>
+								<integer>8</integer>
+							</dict>
+							<dict>
+								<key>NodeID</key>
 								<integer>35</integer>
 							</dict>
 							<dict>
 								<key>Boost</key>
 								<integer>3</integer>
 								<key>NodeID</key>
-								<integer>18</integer>
+								<integer>24</integer>
 							</dict>
 						</array>
 					</array>
@@ -98,7 +116,7 @@
 								<key>Amp</key>
 								<dict>
 									<key>MuteInputAmp</key>
-									<false/>
+									<true/>
 									<key>PublishMute</key>
 									<true/>
 									<key>PublishVolume</key>
@@ -107,7 +125,7 @@
 									<false/>
 								</dict>
 								<key>NodeID</key>
-								<integer>20</integer>
+								<integer>26</integer>
 							</dict>
 							<dict>
 								<key>Amp</key>
@@ -162,7 +180,7 @@
 								<key>Amp</key>
 								<dict>
 									<key>MuteInputAmp</key>
-									<false/>
+									<true/>
 									<key>PublishMute</key>
 									<true/>
 									<key>PublishVolume</key>
@@ -223,9 +241,7 @@
 				</array>
 			</array>
 			<key>PathMapID</key>
-			<integer>255</integer>
-			<key>comment</key>
-			<string>juniorcaesar Acer Aspire A315-56-327T ALC255</string>
+			<integer>38</integer>
 		</dict>
 	</array>
 </dict>

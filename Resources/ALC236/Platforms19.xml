@@ -53,6 +53,22 @@
 								<integer>8</integer>
 							</dict>
 							<dict>
+								<key>NodeID</key>
+								<integer>35</integer>
+							</dict>
+							<dict>
+								<key>Boost</key>
+								<integer>3</integer>
+								<key>NodeID</key>
+								<integer>18</integer>
+							</dict>
+						</array>
+					</array>
+				</array>
+				<array>
+					<array>
+						<array>
+							<dict>
 								<key>Amp</key>
 								<dict>
 									<key>Channels</key>
@@ -80,13 +96,17 @@
 									<true/>
 								</dict>
 								<key>NodeID</key>
-								<integer>35</integer>
+								<integer>9</integer>
+							</dict>
+							<dict>
+								<key>NodeID</key>
+								<integer>34</integer>
 							</dict>
 							<dict>
 								<key>Boost</key>
 								<integer>3</integer>
 								<key>NodeID</key>
-								<integer>18</integer>
+								<integer>25</integer>
 							</dict>
 						</array>
 					</array>
@@ -112,21 +132,6 @@
 							<dict>
 								<key>Amp</key>
 								<dict>
-									<key>MuteInputAmp</key>
-									<true/>
-									<key>PublishMute</key>
-									<true/>
-									<key>PublishVolume</key>
-									<true/>
-									<key>VolumeInputAmp</key>
-									<false/>
-								</dict>
-								<key>NodeID</key>
-								<integer>12</integer>
-							</dict>
-							<dict>
-								<key>Amp</key>
-								<dict>
 									<key>Channels</key>
 									<array>
 										<dict>
@@ -145,7 +150,7 @@
 									<key>MuteInputAmp</key>
 									<true/>
 									<key>PublishMute</key>
-									<true/>
+									<false/>
 									<key>PublishVolume</key>
 									<true/>
 									<key>VolumeInputAmp</key>
@@ -176,21 +181,6 @@
 							<dict>
 								<key>Amp</key>
 								<dict>
-									<key>MuteInputAmp</key>
-									<true/>
-									<key>PublishMute</key>
-									<true/>
-									<key>PublishVolume</key>
-									<true/>
-									<key>VolumeInputAmp</key>
-									<false/>
-								</dict>
-								<key>NodeID</key>
-								<integer>13</integer>
-							</dict>
-							<dict>
-								<key>Amp</key>
-								<dict>
 									<key>Channels</key>
 									<array>
 										<dict>
@@ -209,7 +199,7 @@
 									<key>MuteInputAmp</key>
 									<true/>
 									<key>PublishMute</key>
-									<true/>
+									<false/>
 									<key>PublishVolume</key>
 									<true/>
 									<key>VolumeInputAmp</key>
@@ -223,9 +213,7 @@
 				</array>
 			</array>
 			<key>PathMapID</key>
-			<integer>255</integer>
-			<key>comment</key>
-			<string>juniorcaesar Acer Aspire A315-56-327T ALC255</string>
+			<integer>19</integer>
 		</dict>
 	</array>
 </dict>
