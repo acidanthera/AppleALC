@@ -1,5 +1,62 @@
 AppleALC Changelog
 ==================
+#### v1.8.6
+- Fixed layout55 ALC236 for HP240G8 by 8DireZ3
+- Added ALC269 layout-id 138 for Lenovo G480 by aa820t
+- Added ALC289 layout-id 69 for Dell ICL XPS 2in1 7390 by Vorshim92
+- Added ALC236 layout-id 69 for Dell Vostro 5401 ICL by Vorshim92
+- Added ALC269 layout-id 36 for Samsung R780 by wern-apfel
+
+#### v1.8.5
+- Added AD1884 layout-id 11 for Panasonic Toughbook CF-30 by Goldfish64
+- Added ALC897 layout-id 99 for HUANANZHI QD4 by vinitosh
+- Added ALC897 layout-id 99 for MSI PRO B760M-P by liangyi9812
+
+#### v1.8.4
+- Added ALC262 layout-id 14 for Dell Studio One 19 1909 by Goldfish64
+- Headphones Fix ALC255 layout-id 69 by juniorcaesar 
+- Added ALC289 layout-id 33 for Asus ROG Zephyrus G14 GA401IV & fix layout-id 93 in xml
+- Added Conexant CX20632 layout-id 21 for Axioo MyPC One Pro H5 by Andres ZeroCross
+- Added ALC257 layout-id 101 for Lenovo XiaoXin Air14ALC by htmambo
+- Added ALC236 layout-id 19 for Lenovo IdeaPad 500-14ISK. Enables Internal Speakers, Internal Mic, Jack Microphone and Jack Headphones by wolf606
+- Added ALC289 layout-id 12 for XPS 13 9300 with working headphones and external microphone by wern-apfel
+- Added ALC269 layout-id 38 for Fujitsu Esprimo D552 by jayveeballesteros
+- Fix no sound after sleep/wake for ALC891 layout 11 by portrayer
+
+#### v1.8.3
+- Added layout-id 73 for the ALC283/ThinkCentre M73 Tiny by UHDbits
+- Added constants for macOS 14 support
+
+#### v1.8.2
+- Added ALC1220 layout-id 18 for Gigabyte Z490 Aorus Master by hgsshaanxi
+- Fixed LayoutId 21 for ALC298 on X270 by MKjanek32
+
+#### v1.8.1
+- Added ALC293 layout-id 31 for Hasee Z7-CT7NA by lgh07711
+- Added Alder Lake PCH-P High Definition Audio Controller (0x51C8) by DalianSky
+- Added ALC269 layout-id 111 for minisforum NAG6 by DalianSky
+- Added ALC623 layout-id 13 for Lenovo ThinkCentre M720e with internal speaker by Pinokyo-H
+- Added ALC295 layout-id 11 for ZenBook UX581 by wern-apfel
+- Added ALC255 layout-id 37 for Acer Nitro 5 AN515-52-73Y8 by imoize
+
+#### v1.8.0
+- Fixed ALC274 layout-id 28 in/out 3.5mm jacks audio by Tweakkinn
+- Added ALC256 layout-id 95 for Honor MagicBook Pro HBB-WAH9 by Floron
+- Added ALC236 layout-id 55 for HP-240G8 by 8DireZ3
+
+#### v1.7.9
+- Added ALC268 layout-id 11 for Dell Inspiron Mini 9 by Goldfish64
+- Added ALC268 support for 10.5 and 10.6
+- Fix 583 pinconfig for nuc9 by littlesum
+- ALC255 layout-id 22 Mic Fix by Feartech
+- ALC255 layout-id 69 ConfigData Fix by juniorcaesar
+- Added ALC256 layout-id 12 for DELL Vostro 5468 ALC256 (3246) by MumetNgoding
+- Update ALC892 layout-id 100 for MSI-Z370-A-PRO by megabes
+- Update ALCS1200A layout-id 51 for ASRock-Z490-Steel-Legend by megabes
+- Added ALC897 layout-id 13 for MSI-Z590-A-PRO by megabes
+- Added ALCS1200A layout-id 52 for MSI-MORTAR-B460M by megabes
+- Add Layout 21 for CX 8070 for Lenovo ThinkPad E14 by andreszerocross
+
 #### v1.7.8
 - Added ALC255 layout-id 69 for Acer Aspire 3 A315-56-327T by juniorcaesar
 - Added ALC1220 layout-id 20 for Gigabyte B550 Vision D by CaseySJ
@@ -227,7 +284,7 @@ AppleALC Changelog
 - Added verb sending functionality from userspace by black-dragon74
 - Added ALC235 (display as ALC233) layout-id 35 for Lenovo Qitian M420-D046(C) by crysehillmes
 - Added ALC892 layout-id 100 for MSI Z370-A PRO by GeorgeWan
-- Added ALCS1200A layout-id 51 for for ASROCK Z490 Steel Legend by GeorgeWan
+- Added ALCS1200A layout-id 51 for for ASROCK-Z490-Steel-Legend by GeorgeWan
 - Added ALC662 layout-id 66 for Lenovo Qitian M415-D339 by static-host
 - Fixed ALC285 layout-Id 21 for X1C6 (by @fewtarius)
 - Added ALC272 layout-id 12 for Lenovo Y470 by amu_1680c

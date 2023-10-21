@@ -33,7 +33,7 @@ PluginConfiguration ADDPR(config) {
 	bootargBeta,
 	arrsize(bootargBeta),
 	KernelVersion::Tiger,
-	KernelVersion::Ventura,
+	KernelVersion::Sonoma,
 	[]() {
 		AlcEnabler::createShared();
 		AlcEnabler::getShared()->init();

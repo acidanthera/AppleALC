@@ -14,6 +14,14 @@
 		<array>
 			<dict>
 				<key>Comment</key>
+				<string>GeorgeWan - ALC897 for MSI-Z590-A-PRO</string>
+				<key>Id</key>
+				<integer>13</integer>
+				<key>Path</key>
+				<string>layout13.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>ALC897 for Chuwi-CoreBookX14 by weachy</string>
 				<key>Id</key>
 				<integer>23</integer>
@@ -68,9 +76,33 @@
 				<key>Path</key>
 				<string>layout77.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>liangyi - ALC897 for MSI PRO B760M-P DDR4</string>
+				<key>Id</key>
+				<integer>98</integer>
+				<key>Path</key>
+				<string>layout98.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom ALC897 by Marcos_Vinicios  for HUANANZHI QD4</string>
+				<key>Id</key>
+				<integer>99</integer>
+				<key>Path</key>
+				<string>layout99.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
+			<dict>
+				<key>Comment</key>
+				<string>GeorgeWan - ALC897 for MSI-Z590-A-PRO</string>
+				<key>Id</key>
+				<integer>13</integer>
+				<key>Path</key>
+				<string>Platforms13.xml.zlib</string>
+			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>ALC897 for Chuwi-CoreBookX14 by weachy</string>
@@ -126,6 +158,22 @@
 				<integer>77</integer>
 				<key>Path</key>
 				<string>Platforms77.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>liangyi - ALC897 for MSI PRO B760M-P DDR4</string>
+				<key>Id</key>
+				<integer>98</integer>
+				<key>Path</key>
+				<string>Platforms98.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom ALC897 by Marcos_Vinicios  for HUANANZHI QD4</string>
+				<key>Id</key>
+				<integer>99</integer>
+				<key>Path</key>
+				<string>Platforms99.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>

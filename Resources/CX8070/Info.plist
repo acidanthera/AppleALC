@@ -20,6 +20,14 @@
 				<key>Path</key>
 				<string>layout15.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Andres ZeroCross - Conexant CX8070 for Lenovo ThinkPad E14</string>
+				<key>Id</key>
+				<integer>21</integer>
+				<key>Path</key>
+				<string>layout21.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -30,6 +38,14 @@
 				<integer>15</integer>
 				<key>Path</key>
 				<string>Platforms15.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Andres ZeroCross - Conexant CX8070 for Lenovo ThinkPad E14</string>
+				<key>Id</key>
+				<integer>21</integer>
+				<key>Path</key>
+				<string>Platforms21.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>
