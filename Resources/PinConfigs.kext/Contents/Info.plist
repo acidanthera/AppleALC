@@ -1502,11 +1502,29 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>ALC236 for Dell ICL for Lorys89 by Vorshim</string>
+					<key>CodecID</key>
+					<integer>283902518</integer>
+					<key>ConfigData</key>
+					<data>ASccIAEnHQEBJx6mAScfkAFHHEABRx0BAUceFwFHH5ABRwwCAZccQAGXHRABlx6nAZcfAAIFAEUCBNaJAhcdEAIXHiECFx8BAhcMAg==</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>69</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgGXByQCFwwC</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>ALC236 for HP-240G8 by 8DireZ3</string>
 					<key>CodecID</key>
 					<integer>283902518</integer>
 					<key>ConfigData</key>
-					<data>AUccEAFHHQEBRx4XAUcfkAFHDAICFxwgAhcdEAIXHiECFx8EAhcMAgEnHDABJx0BAScepgEnH5ABlxxAAZcdEAGXHoEBlx8E</data>
+					<data>AUccEAFHHQEBRx4XAUcfkAFHDAICFxwgAhcdEAIXHiECFx8EAhcMAgEnHDABJx0BAScepgEnH5ABlxxAAZcdEAGXHoEBlx8EATcc8AE3HQABNx4AATcfQAHXHPAB1x0AAdceAAHXH0ABhxzwAYcdAAGHHgABhx9AAacc8AGnHQABpx4AAacfQAG3HPABtx0AAbceAAG3H0ABtwwCAecc8AHnHQAB5x4AAecfQA==</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
@@ -4771,6 +4789,24 @@
 					<integer>33</integer>
 					<key>WakeConfigData</key>
 					<data>AUcMAgG3DAICFwwC</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>ALC289 for Dell XPS 2in1 7390 Vorshim</string>
+					<key>CodecID</key>
+					<integer>283902601</integer>
+					<key>ConfigData</key>
+					<data>ASccIAEnHQEBJx6mAScfkAFHHEABRx0BAUceFwFHH5ABRwwCAZccQAGXHRABlx6nAZcfAAIFAEUCBNaJAhcdEAIXHiECFx8BAhcMAg==</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>69</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgGXByQCFwwC</data>
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
@@ -10064,13 +10100,13 @@
 					<key>CodecID</key>
 					<integer>283902550</integer>
 					<key>ConfigData</key>
-					<data>ASccAAEnHQABJx4QAScfQAIXHBACFx0QAhceIQIXHwICFwwCAeccIAHnHREB5x5FAecfAQHXHCkB1x3AAdceRAHXH0ABlxwwAZcdEAGXHqABlx+SAbccQAG3HRABtx4RAbcfAQG3DAI=</data>
+					<data>AZccMAGXHRABlx6gAZcfkgIXHBACFx0QAhceIQIXHwICFwwCAbccQAG3HRABtx4RAbcfAQG3DAIB5xwgAecdEQHnHkUB5x8BAUcc8AFHHREBRx4RAUcfQQFHDAI=</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>68</integer>
 					<key>WakeConfigData</key>
-					<data>AhcMAgG3DAI=</data>
+					<data>AhcMAgG3DAIBRwwC</data>
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
@@ -10193,6 +10229,42 @@
 					<integer>99</integer>
 					<key>WakeConfigData</key>
 					<data>AUcMAgG3DAI=</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>CodecID</key>
+					<integer>283902569</integer>
+					<key>Comment</key>
+					<string>aa820t - Realtek ALC269VC for Lenovo G480</string>
+					<key>ConfigData</key>
+					<data>AUccEAFHHQABRx4XAUcfmQFHDAIBhxwgAYcdEAGHHoEBhx8EAZccMAGXHQABlx6nAZcfmQFXHEABVx0QAVceIQFXHwQBVwwC</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>138</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgFXDAI=</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>IDT 92HD81B1X5 by SkyrilHD for HP Elitebook 8x70 series</string>
+					<key>CodecID</key>
+					<integer>287143429</integer>
+					<key>ConfigData</key>
+					<data>AKccMACnHRAApx4BAKcfIQCnDAIAtxwhALcdEAC3HiEAtx8EALcMAgDHHBEAxx0QAMceoQDHHwQAxwwCANccIADXHQEA1x4TANcfmQDXDAIA5xzwAOcdAADnHvAA5x9AAOcMAgD3HBAA9x0QAPcegQD3HyEA9wwCARccAAEXHQEBFx6jARcfmQ==</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>76</integer>
+					<key>WakeConfigData</key>
+					<data>AKcMAgC3DAIAxwwCANcMAgDnDAIA9wwC</data>
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>

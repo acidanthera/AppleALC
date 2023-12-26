@@ -1,5 +1,19 @@
 AppleALC Changelog
 ==================
+#### v1.8.8
+- Added patch for AMD ZEN to fix microphone issue by qhuyduong
+
+#### v1.8.7
+- Added IDT 92HD81B1X5 layout-ID 76 for HP Elitebook 8x70 series by SkyrilHD
+- Fixed ALC256 layout-ID 68  for NUC 9 by littlesum 
+
+#### v1.8.6
+- Fixed layout55 ALC236 for HP240G8 by 8DireZ3
+- Added ALC269 layout-id 138 for Lenovo G480 by aa820t
+- Added ALC289 layout-id 69 for Dell ICL XPS 2in1 7390 by Vorshim92
+- Added ALC236 layout-id 69 for Dell Vostro 5401 ICL by Vorshim92
+- Added ALC269 layout-id 36 for Samsung R780 by wern-apfel
+
 #### v1.8.5
 - Added AD1884 layout-id 11 for Panasonic Toughbook CF-30 by Goldfish64
 - Added ALC897 layout-id 99 for HUANANZHI QD4 by vinitosh
