@@ -48,6 +48,36 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>Msi-Star GP76 10th - Realtek ALC298</string>
+					<key>CodecID</key>
+					<integer>283902616</integer>
+					<key>ConfigData</key>
+					<data>
+					AXccEAF3HQEBdx4TAXcfmQF3DAICFxwgAhcd
+					QQIXHisCFx8DASccMAEnHQEBJx6jAScfmQGH
+					HEABhx2QAYceqwGHHwMBNxzwATcdAAE3HgAB
+					Nx9AAdcc8AHXHQAB1x4AAdcfQAFHHPABRx0A
+					AUceAAFHH0ABRwwCAZcc8AGXHQABlx4AAZcf
+					QAGnHPABpx0AAaceAAGnH0ABpwwCAecc8AHn
+					HQAB5x4AAecfQAH3HPAB9x0AAfceAAH3H0A=
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>25</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AXcMAg==
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
 					<string>Custom ALC282 Lenovo-IdeaPad-Z510 by hoseinrez</string>
