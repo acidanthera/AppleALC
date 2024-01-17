@@ -31,6 +31,24 @@
 				<dict>
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
+					<key>CodecID</key>
+					<integer>283906408</integer>
+					<key>CodecName</key>
+					<string>Realtek ALC S1220A Hoangtu92, 7.1 outputs (MSI X470 Gaming Pro Carbon)</string>
+					<key>ConfigData</key>
+					<data>AScc8AEnHQABJx4AAScfQAFHHBABRx1QAUceEQFHHwEBRwwCAVccIAFXHRABVx4BAVcfAQFnHDABZx1gAWceAQFnHwEBdxzwAXcdAAF3HgABdx9AAYccQAGHHSABhx4BAYcfAQGXHFABlx2QAZcegQGXHwIBpxxgAacdMAGnHoEBpx8BAbcccAG3HUABtx4hAbcfAgG3DAIB1xzwAdcdAAHXHgAB1x9AAeccgAHnHRAB5x5FAecfAQIFAAcCBAPAAgUAQwIEMAUCBQBdAgQWFgIFAF4CBBAQAgUAXwIEv8UCBQBqAgQCDgIFAG8CBIAz</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>99</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgG3DAI=</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
 					<key>Codec</key>
 					<string>Floron - Realtek ALC256 (3246) for Honor MagicBook Pro HBB-WAH9</string>
 					<key>CodecID</key>
