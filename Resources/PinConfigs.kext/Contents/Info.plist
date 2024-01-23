@@ -4615,6 +4615,24 @@
 				<dict>
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
+					<key>CodecID</key>
+					<integer>283902598</integer>
+					<key>CodecName</key>
+					<string>HP-Pavilion-Wave-600-A058cn</string>
+					<key>ConfigData</key>
+					<data>AYccEAGHHRABhx6BAYcfBAE3HCABNx0BATcepgE3H5ACFxwwAhcdEAIXHiECFx8EAhcMAgF3HEABdx0BAXceFwF3H5ABdwwC</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>69</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgIXDAI=</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
 					<key>Codec</key>
 					<string>Realtek ALC287</string>
 					<key>CodecID</key>
