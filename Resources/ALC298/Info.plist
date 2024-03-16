@@ -126,6 +126,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Custom - Realtek ALC298 for Lenovo Yoga C940 by idalin</string>
+				<key>Id</key>
+				<integer>94</integer>
+				<key>Path</key>
+				<string>layout94.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Daliansky - Realtek ALC298 XiaoMi Pro</string>
 				<key>Id</key>
 				<integer>99</integer>
@@ -246,6 +254,14 @@
 				<integer>72</integer>
 				<key>Path</key>
 				<string>Platforms72.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom - Realtek ALC298 for Lenovo Yoga C940 by idalin</string>
+				<key>Id</key>
+				<integer>94</integer>
+				<key>Path</key>
+				<string>Platforms94.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
