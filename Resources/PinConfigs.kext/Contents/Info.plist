@@ -10394,6 +10394,25 @@
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>ALC269</string>
+					<key>CodecID</key>
+					<integer>283902569</integer>
+					<key>Comment</key>
+					<string>Ar4eR07 - ALC269VB for Tecno T1 IceLake</string>
+					<key>ConfigData</key>
+					<data>AhccIAIXHRACFx4hAhcfBAEnHDABJx0AAScepgEnH5ABhxxAAYcdkAGHHoEBhx8CAUccYAFHHQABRx4XAUcfkAFHDAI=</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>37</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
 			</array>
 			<key>IOClass</key>
 			<string>AppleALC</string>
