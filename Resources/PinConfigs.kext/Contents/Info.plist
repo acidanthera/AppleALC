@@ -1524,13 +1524,13 @@
 					<key>CodecID</key>
 					<integer>283902518</integer>
 					<key>ConfigData</key>
-					<data>ASccIAEnHQEBJx6mAScfkAFHHEABRx0BAUceFwFHH5ABRwwCAZccQAGXHRABlx6nAZcfAAIFAEUCBNaJAhcdEAIXHiECFx8BAhcMAg==</data>
+					<data>AUccEAFHHQEBRx4XAUcfkAFHDAICFxwgAhcdEAIXHiECFx8EAhcMAgEnHDABJx0BASceoAEnH5ABlxxQAZcdEQGXHoEBlx8E</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>69</integer>
 					<key>WakeConfigData</key>
-					<data>AUcMAgGXByQCFwwC</data>
+					<data>AUcMAgIXDAI=</data>
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
