@@ -78,6 +78,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Baio77 - ALC295 Lenovo_X1_Tablet_3°Gen</string>
+				<key>Id</key>
+				<integer>69</integer>
+				<key>Path</key>
+				<string>layout69.xml.zlib</string>
+			</dict>			
+			<dict>
+				<key>Comment</key>
 				<string>Unbelievable9 - Realtek ALC295/ALC3254 for Dell Latitude 5290</string>
 				<key>Id</key>
 				<integer>77</integer>
@@ -175,6 +183,14 @@
 				<key>Path</key>
 				<string>Platforms28.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Baio77 - ALC295 Lenovo_X1_Tablet_3°Gen</string>
+				<key>Id</key>
+				<integer>69</integer>
+				<key>Path</key>
+				<string>Platforms69.xml.zlib</string>
+			</dict>						
 			<dict>
 				<key>Comment</key>
 				<string>Unbelievable9 - Realtek ALC295/ALC3254 for Dell Latitude 5290</string>
