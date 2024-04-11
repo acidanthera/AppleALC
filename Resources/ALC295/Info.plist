@@ -82,7 +82,7 @@
 				<key>Id</key>
 				<integer>33</integer>
 				<key>Path</key>
-				<string>layout77.xml.zlib</string>
+				<string>layout33.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -189,7 +189,7 @@
 				<key>Id</key>
 				<integer>33</integer>
 				<key>Path</key>
-				<string>Platforms77.xml.zlib</string>
+				<string>Platforms33.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
