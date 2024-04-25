@@ -10402,7 +10402,7 @@
 					<key>CodecID</key>
 					<integer>283902613</integer>
 					<key>ConfigData</key>
-					<data>AUccEAFHHQABRx4XAUcfkAFHDAICFxwgAhcdEAIXHiECFx8EAhcMAgEnHDABJx0AASceoAEnH5ABlxxAAZcdEAGXHqEBlx8E</data>
+					<data>AUccEAFHHQABRx4XAUcfkAFHDAICFxwgAhcdEAIXHiECFx8AAhcMAgEnHDABJx0AASceoAEnH5ABlxxAAZcdEAGXHoEBlx8A</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
@@ -10411,7 +10411,7 @@
 					<data>AUcMAgIXDAI=</data>
 					<key>WakeVerbReinit</key>
 					<true/>
-				</dict>				
+				</dict>		
 			</array>
 			<key>IOClass</key>
 			<string>AppleALC</string>
