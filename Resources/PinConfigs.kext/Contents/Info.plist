@@ -4702,7 +4702,7 @@
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
-        <dict>
+				<dict>
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
@@ -10411,7 +10411,7 @@
 					<data>AUcMAgIXDAI=</data>
 					<key>WakeVerbReinit</key>
 					<true/>
-				</dict>		
+				</dict>
 			</array>
 			<key>IOClass</key>
 			<string>AppleALC</string>
