@@ -33,6 +33,7 @@
 		CED6C8D8266BC9AF006BA0A9 /* kern_resources.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 1C88DDEB1C89EE540003E1BF /* kern_resources.hpp */; };
 		CED6C8D9266BC9AF006BA0A9 /* ALCUserClient.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 01ACCCDE25362A8A007704ED /* ALCUserClient.hpp */; };
 		CED6C8DA266BC9AF006BA0A9 /* UserKernelShared.h in Headers */ = {isa = PBXBuildFile; fileRef = 01ACCCE325362AC2007704ED /* UserKernelShared.h */; };
+		DF2B97BC2BE23031003B6F90 /* libkmod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF2B97BB2BE23031003B6F90 /* libkmod.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -160,6 +161,7 @@
 		CE8DA0892517C489008C44E8 /* libkmod.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libkmod.a; path = ../Lilu/MacKernelSDK/Library/x86_64/libkmod.a; sourceTree = "<group>"; };
 		CED6C8E4266BC9AF006BA0A9 /* AppleALCU.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleALCU.kext; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED6C8E8266BCAE5006BA0A9 /* AppleALCU-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppleALCU-Info.plist"; sourceTree = "<group>"; };
+		DF2B97BB2BE23031003B6F90 /* libkmod.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libkmod.a; path = MacKernelSDK/Library/x86_64/libkmod.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +176,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF2B97BC2BE23031003B6F90 /* libkmod.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +351,7 @@
 		CE8DA0882517C489008C44E8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DF2B97BB2BE23031003B6F90 /* libkmod.a */,
 				CE8DA0892517C489008C44E8 /* libkmod.a */,
 			);
 			name = Frameworks;
@@ -886,6 +890,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/MacKernelSDK/Library/universal",
+					"$(PROJECT_DIR)/MacKernelSDK/Library/x86_64",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				"MACOSX_DEPLOYMENT_TARGET[arch=ACID32]" = 10.4;
@@ -965,6 +970,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/MacKernelSDK/Library/universal",
+					"$(PROJECT_DIR)/MacKernelSDK/Library/x86_64",
 				);
 				LLVM_LTO = YES;
 				"LLVM_LTO[arch=ACID32]" = NO;
@@ -1131,6 +1137,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/MacKernelSDK/Library/universal",
+					"$(PROJECT_DIR)/MacKernelSDK/Library/x86_64",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				"MACOSX_DEPLOYMENT_TARGET[arch=ACID32]" = 10.4;
