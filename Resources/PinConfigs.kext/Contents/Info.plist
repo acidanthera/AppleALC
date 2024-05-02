@@ -5614,6 +5614,24 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>Piscean - Realtek ALC298 for Dell Precision 5540</string>
+					<key>CodecID</key>
+					<real>283902616</real>
+					<key>ConfigData</key>
+					<data>ASccMAEnHQEBJx6gAScfkAF3HBABdx0BAXceFwF3H5ABhxxwAYcdIAGHHosBhx8CAhccIAIXHRACFx4rAhcfAwF3DAIBhwclAhcIgw==</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>16</integer>
+					<key>WakeConfigData</key>
+					<data>AXcMAgGHByUCFwiDAScHIA==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>Ping - Realtek ALC298 for Dell Precision 5520</string>
 					<key>CodecID</key>
 					<integer>283902616</integer>
