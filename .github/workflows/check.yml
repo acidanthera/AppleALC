@@ -1,0 +1,37 @@
+name: Check plist files for 'real' key
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+  release:
+    types: [published]
+
+jobs:
+  check-plist:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install xmllint
+        run: sudo apt-get install libxml2-utils
+
+      - name: Find 'real' Key in plist files
+        run: |
+          if result=$(find . -type f -name "*.plist" -exec grep -nH "<real>[0-9]*<\/real>" {} \; 2>/dev/null); then
+            if [ -n "$result" ]; then
+              echo "::error::Found 'real' key in the following files:"
+              while read -r line; do
+                echo "$line" | awk -F: '{print $1}'; # print the file path
+                echo "$line" | awk -F: '{print ":"$2":"$3}'; # print the line number and the line
+              done <<< "$result"
+              exit 1
+            else
+              echo "No 'real' key found."
+              exit 0
+            fi
+          else
+            echo "Error occurred while searching for 'real' key."
+            exit 1
+          fi

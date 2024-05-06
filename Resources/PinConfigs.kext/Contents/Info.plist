@@ -124,7 +124,7 @@
 					<key>Codec</key>
 					<string>agasecond - Realtek ALC256 (3246) for Xiaomi Pro Enhanced 2019</string>
 					<key>CodecID</key>
-					<integer>283902550</integer>
+					<int>283902550</int>
 					<key>ConfigData</key>
 					<data>ASccIAEnHQEBJx6mAScfkAE3HPABNx0AATceAAE3H0ABRxzwAUcdAAFHHgABRx9AAYcc8AGHHQABhx4AAYcfQAGXHEABlx0QAZceqwGXHwQBpxzwAacdAAGnHgABpx9AAbccEAG3HQEBtx4XAbcfkAG3DAIB1xzwAdcdAAHXHgAB1x9AAecc8AHnHQAB5x4AAecfQAIXHDACFx0QAhceKwIXHwQCFwwCAgUAEAIEACACBQBGAgQwpA==</data>
 					<key>FuncGroup</key>
@@ -5670,7 +5670,7 @@
 					<key>Codec</key>
 					<string>Piscean - Realtek ALC298 for Dell Precision 5540</string>
 					<key>CodecID</key>
-					<real>283902616</real>
+					<integer>283902616</integer>
 					<key>ConfigData</key>
 					<data>ASccMAEnHQEBJx6gAScfkAF3HBABdx0BAXceFwF3H5ABhxxwAYcdIAGHHosBhx8CAhccIAIXHRACFx4rAhcfAwF3DAIBhwclAhcIgw==</data>
 					<key>FuncGroup</key>
