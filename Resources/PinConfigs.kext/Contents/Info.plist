@@ -6430,6 +6430,24 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>Baio77 - Realtek ALC700</string>
+					<key>CodecID</key>
+					<integer>283903744</integer>
+					<key>ConfigData</key>
+					<data>AbccEAG3HRABtx4RAbcfAQG3DAICFxwvAhcdEAIXHgECFx8CAhcMAgEnHDABJx0BAScepgEnH5ABNxxAATcdBQE3HqYBNx+QAZccUAGXHRABlx6BAZcfAgHnHGAB5x0RAeceRAHnHwE=</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>22</integer>
+					<key>WakeConfigData</key>
+					<data>AbcMAgIXDAI=</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>				
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>Mirone - Realtek ALC882</string>
 					<key>CodecID</key>
 					<integer>283904130</integer>
