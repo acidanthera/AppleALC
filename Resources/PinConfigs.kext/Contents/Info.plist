@@ -124,7 +124,7 @@
 					<key>Codec</key>
 					<string>agasecond - Realtek ALC256 (3246) for Xiaomi Pro Enhanced 2019</string>
 					<key>CodecID</key>
-					<int>283902550</int>
+					<integer>283902550</integer>
 					<key>ConfigData</key>
 					<data>ASccIAEnHQEBJx6mAScfkAE3HPABNx0AATceAAE3H0ABRxzwAUcdAAFHHgABRx9AAYcc8AGHHQABhx4AAYcfQAGXHEABlx0QAZceqwGXHwQBpxzwAacdAAGnHgABpx9AAbccEAG3HQEBtx4XAbcfkAG3DAIB1xzwAdcdAAHXHgAB1x9AAecc8AHnHQAB5x4AAecfQAIXHDACFx0QAhceKwIXHwQCFwwCAgUAEAIEACACBQBGAgQwpA==</data>
 					<key>FuncGroup</key>
