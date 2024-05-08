@@ -34,7 +34,9 @@
 					<key>Codec</key>
 					<string>Baio77 - ALC295 Lenovo_X1_Tablet_3°Gen</string>
 					<key>CodecID</key>
-					<real>283902613</real>
+					<real>
+                                        283902613
+                                        </real>
 					<key>ConfigData</key>
 					<data>AUccEAFHHQABRx4XAUcfkAFHDAICFxwgAhcdEAIXHiECFx8AAhcMAgEnHDABJx0AASceoAEnH5ABlxxAAZcdEAGXHoEBlx8A</data>
 					<key>FuncGroup</key>
