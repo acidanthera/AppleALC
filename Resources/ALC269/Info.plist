@@ -302,6 +302,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Ar4eR07 - ALC269VB for Tecno T1 IceLake</string>
+				<key>Id</key>
+				<integer>37</integer>
+				<key>Path</key>
+				<string>layout37.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>vusun123 - RealtekALC269VC for Lenovo W530</string>
 				<key>Id</key>
 				<integer>40</integer>
@@ -766,6 +774,14 @@
 				<integer>36</integer>
 				<key>Path</key>
 				<string>Platforms36.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Ar4eR07 - ALC269VB for Tecno T1 IceLake</string>
+				<key>Id</key>
+				<integer>37</integer>
+				<key>Path</key>
+				<string>Platforms37.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>

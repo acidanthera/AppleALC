@@ -1,5 +1,13 @@
 AppleALC Changelog
 ==================
+#### v1.9.0
+- Added ALC298 layout-id 94 for Lenovo Yoga C940 by idalin
+- Added ALC269VB layout-id 37 for Tecno T1 IceLake by Ar4erR07
+- Added ALC298 layout-id 25 for Razer Blade 15 2018 Advanced by hoaug-tran
+- Added ALC295 layout-id 33 for DELL Latitude 7210 2-in-1 by Lorys89
+- Added ALC298 layout-id 15 for DELL Precision 5540 by hiimpiscean
+- Added ALC295 layout-id 69 for Lenovo_X1_Tablet_3°Gen by Baio1977
+
 #### v1.8.9
 - Added ALC255 layout-id 80 for Acer Aspire 7 A715-42G AMD by Long5436
 - Added ALC256 layout-id 38 for Samsung Galaxy Book NT750XDA-KF59U by lshbluesky
