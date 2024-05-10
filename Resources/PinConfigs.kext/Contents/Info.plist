@@ -5670,15 +5670,15 @@
 					<key>Codec</key>
 					<string>Piscean - Realtek ALC298 for Dell Precision 5540</string>
 					<key>CodecID</key>
-					<real>283902616</real>
+					<integer>283902616</integer>
 					<key>ConfigData</key>
-					<data>ASccMAEnHQEBJx6gAScfkAF3HBABdx0BAXceFwF3H5ABhxxwAYcdIAGHHosBhx8CAhccIAIXHRACFx4rAhcfAwF3DAIBhwclAhcIgw==</data>
+					<data>ASccMAEnHQEBJx6gAScfkAF3HBABdx0BAXceFwF3H5ABhxxwAYcdIAGHHosBhx8CAhccIAIXHRACFx4rAhcfAwF3DAIBhwciAhcIgwIFAE8CBNQAAacHIw==</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>15</integer>
 					<key>WakeConfigData</key>
-					<data>AXcMAgGHByUCFwiDAScHIA==</data>
+					<data>AXcMAgGHByICFwiDAgUATwIE1AABpwwCAacHIwEnByA=</data>
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
