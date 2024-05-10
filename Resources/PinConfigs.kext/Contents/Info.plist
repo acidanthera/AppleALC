@@ -3954,6 +3954,20 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>Piscean - ALC275 for Sony Vaio SVD11225PXB</string>
+					<key>CodecID</key>
+					<integer>283902581</integer>
+					<key>ConfigData</key>
+					<data>ASccQAEnHQABJx6gAScfkAFXHBABVx0QAVceIQFXHwABhxwwAYcdUAGHHoEBhx8AAaccUAGnHQABpx4XAacfkAGnDAI=</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>15</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>Custom ALC275 for Sony Vaio - vusun123</string>
 					<key>CodecID</key>
 					<integer>283902581</integer>
