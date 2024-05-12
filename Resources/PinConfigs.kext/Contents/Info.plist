@@ -8210,6 +8210,24 @@
 					<key>CodecID</key>
 					<integer>283906592</integer>
 					<key>CodecName</key>
+					<string>Lorys89 ALC1220 for AMD B450/B550 - SwitchMode</string>
+					<key>ConfigData</key>
+					<data>AUccEAFHHUABRx4RAUcfkAFHDAIBtxwgAbcdQAG3HiEBtx8CAbcMAgGHHEABhx2QAYceoAGHH5ABlxxgAZcdkAGXHoEBlx8C</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>69</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgG3DAI=</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>CodecID</key>
+					<integer>283906592</integer>
+					<key>CodecName</key>
 					<string>Custom ALC1220 for Mi Gaming Notebook Creator by Xsixu</string>
 					<key>ConfigData</key>
 					<data>AaccEAGnHQEBpx4XAacfkAFHHCABRx0QAUceIQFHHwABRwwCASccMAEnHREBJx6mAScfkAGXHGABlx0AAZcegQGXHwABlwwC</data>
