@@ -5582,13 +5582,13 @@
 					<key>CodecID</key>
 					<integer>283902613</integer>
 					<key>ConfigData</key>
-					<data>AUccEAFHHQEBRx4XAUcfkAFHDAICFxwgAhcdEAIXHisCFx8DAhcMAgEnHDABJx0BAScepgEnH5ABlxxAAZcdEAGXHosBlx8DAZcHJAIFAEUCBFKJ</data>
+					<data>AUccEAFHHQEBRx4XAUcfkAFHDAICFxwgAhcdEAIXHisCFx8DAhcMAgEnHDABJx0BAScepgEnH5ABlxxAAZcdEAGXHosBlx8DAgUARQIEUok=</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>33</integer>
 					<key>WakeConfigData</key>
-					<data>AUcMAgIXDAIBlwckAgUARQIEUok=</data>
+					<data>AUcMAgIXDAI=</data>
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
