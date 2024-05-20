@@ -7508,7 +7508,7 @@
 					<key>Comment</key>
 					<string>Custom ALC892 for GIGABYTE B365M AORUS ELITE</string>
 					<key>ConfigData</key>
-					<data>AUccQAFHHUEBRx4RAUcfkQFnHIEBZx1gAWceAQFnHwEBVxyCAVcdEAFXHgEBVx8BAXccgAF3HSABdx4BAXcfAQG3HDABtx1AAbceIQG3HwIBFxxgARcdAAEXHkMBFx+ZAYccEAGHHZEBhx6hAYcfkQGnHCABpx0wAacegQGnHwEBlxxwAZcdkAGXHoEBlx8CAUcMAgG3DAI=</data>
+                                        <data>AUccQAFHHUEBRx4RAUcfkQFnHIEBZx1gAWceAQFnHwEBVxyCAVcdEAFXHgEBVx8BAXccgAF3HSABdx4BAXcfAQG3HDABtx1AAbceIQG3HwIBFxxgARcdAAEXHkMBFx+ZAYccEAGHHZEBhx6hAYcfkQGnHCABpx0wAacegQGnHwEBlxxwAZcdkAGXHoEBlx8CAUcMAgG3DAI=</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
