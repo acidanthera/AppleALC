@@ -56,14 +56,10 @@
 								<key>Boost</key>
 								<integer>3</integer>
 								<key>NodeID</key>
-								<integer>25</integer>
-								<key>VREF</key>
-								<integer>80</integer>
+								<integer>26</integer>
 							</dict>
 						</array>
 					</array>
-				</array>
-				<array>
 					<array>
 						<array>
 							<dict>
@@ -94,13 +90,13 @@
 									<true/>
 								</dict>
 								<key>NodeID</key>
-								<integer>20</integer>
+								<integer>19</integer>
 							</dict>
 							<dict>
 								<key>Boost</key>
 								<integer>3</integer>
 								<key>NodeID</key>
-								<integer>26</integer>
+								<integer>25</integer>
 							</dict>
 						</array>
 					</array>
