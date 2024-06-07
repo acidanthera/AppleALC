@@ -5672,13 +5672,13 @@
 					<key>CodecID</key>
 					<integer>283902616</integer>
 					<key>ConfigData</key>
-					<data>ASccMAEnHQEBJx6gAScfkAF3HBABdx0BAXceFwF3H5ABhxxwAYcdIAGHHosBhx8CAhccIAIXHRACFx4rAhcfAwF3DAIBhwciAhcIgwIFAE8CBNQAAacHIw==</data>
+					<data>ASccMAEnHQEBJx6gAScfkAF3HBABdx0BAXceFwF3H5ABhxxwAYcdIAGHHosBhx8CAdcc8AHXHREB1x4RAdcfQQIXHCACFx0QAhceKwIXHwMBdwwCAYcHIgIXCIICBQBPAgTUAAGnByM=</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>15</integer>
 					<key>WakeConfigData</key>
-					<data>AXcMAgGHByICFwiDAgUATwIE1AABpwwCAacHIwEnByA=</data>
+					<data>AXcMAgGHByICFwiCAgUATwIE1AABpwwCAacHIwEnByA=</data>
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
