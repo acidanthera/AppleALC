@@ -1520,7 +1520,7 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
-					<string>volcbs - ALC236 for Lenovo Ideapad 510s 14isk (modified from MacPeet&apos;s)</string>
+					<string>volcbs - ALC236 for Lenovo Ideapad 510s 14isk (modified from MacPeet's)</string>
 					<key>CodecID</key>
 					<integer>283902518</integer>
 					<key>ConfigData</key>
@@ -6434,16 +6434,16 @@
 					<key>CodecID</key>
 					<integer>283903744</integer>
 					<key>ConfigData</key>
-					<data>AbccEAG3HRABtx4RAbcfAQG3DAICFxwvAhcdEAIXHgECFx8CAhcMAgEnHDABJx0BAScepgEnH5ABNxxAATcdBQE3HqYBNx+QAZccUAGXHRABlx6BAZcfAgHnHGAB5x0RAeceRAHnHwE=</data>
+					<data>AbccEAG3HRABtx4RAbcfAQG3DAICFxwvAhcdEAIXHgECFx8CAhcMAgEnHDABJx0BAScepgEnH5ABNxxAATcdBQE3HqYBNx+QAZccUAGXHRABlx6BAZcfAgHnHGAB5x0RAeceQQHnHwE=</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>22</integer>
 					<key>WakeConfigData</key>
-					<data>AbcMAgIXDAI=</data>
+					<data>AbcMAgGXByACFwwC</data>
 					<key>WakeVerbReinit</key>
 					<true/>
-				</dict>				
+				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
@@ -8554,7 +8554,7 @@
 					<key>CodecID</key>
 					<integer>283906408</integer>
 					<key>CodecName</key>
-					<string>Realtek ALC S1220A Kushamot for Asus Z270G mb (based on Mirone&apos;s layout 7)</string>
+					<string>Realtek ALC S1220A Kushamot for Asus Z270G mb (based on Mirone's layout 7)</string>
 					<key>ConfigData</key>
 					<data>AUccEAFHHUABRx4RAUcfAQFXHFABVx0QAVceAQFXHwEBZxwwAWcdYAFnHgEBZx8BAYccYAGHHZABhx6gAYcfkAGXHHABlx2QAZcegQGXHwEBtxwgAbcdQAG3HiEBtx8BAUcMAg==</data>
 					<key>FuncGroup</key>
@@ -8590,7 +8590,7 @@
 					<key>CodecID</key>
 					<integer>283906408</integer>
 					<key>CodecName</key>
-					<string>Realtek ALC S1220A for Asus ROG Strix X570-F Gaming (based on Mirone&apos;s layout 7)</string>
+					<string>Realtek ALC S1220A for Asus ROG Strix X570-F Gaming (based on Mirone's layout 7)</string>
 					<key>ConfigData</key>
 					<data>AUccEAFHHUABRx4RAUcfAQFXHFABVx0QAVceAQFXHwEBZxwwAWcdYAFnHgEBZx8BAYccYAGHHZABhx6gAYcfkAGXHHABlx2QAZcegQGXHwEBtxwgAbcdQAG3HiEBtx8BAUcMAg==</data>
 					<key>FuncGroup</key>
