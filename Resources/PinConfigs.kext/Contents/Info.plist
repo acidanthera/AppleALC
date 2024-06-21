@@ -10648,6 +10648,24 @@
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>Conexant CX8400 for Zbook G5 - theroadw</string>
+					<key>CodecID</key>
+					<integer>351346896</integer>
+					<key>ConfigData</key>
+					<data>AWccEAFnHRABZx4hAWcfBAFnDAIBlxwgAZcdEAGXHoEBlx8EAaccMAGnHQEBpx6mAacfkAHXHEAB1x0BAdceFwHXH5kB1wwCAZcHJA==</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>14</integer>
+					<key>WakeConfigData</key>
+					<data>AWcMAgHXDAIBlwck</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
 			</array>
 			<key>IOClass</key>
 			<string>AppleALC</string>
