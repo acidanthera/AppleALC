@@ -17,8 +17,6 @@
 	<key>PathMaps</key>
 	<array>
 		<dict>
-			<key>Comment</key>
-			<string>Lorys89 - Realtek ALC295/ALC3254 for Dell Latitude 7210 2-in-1</string>
 			<key>PathMap</key>
 			<array>
 				<array>
@@ -52,22 +50,8 @@
 									<true/>
 								</dict>
 								<key>NodeID</key>
-								<integer>7</integer>
+								<integer>8</integer>
 							</dict>
-							<dict>
-								<key>NodeID</key>
-								<integer>36</integer>
-							</dict>
-							<dict>
-								<key>Boost</key>
-								<integer>0</integer>
-								<key>NodeID</key>
-								<integer>18</integer>
-							</dict>
-						</array>
-					</array>
-					<array>
-						<array>
 							<dict>
 								<key>Amp</key>
 								<dict>
@@ -95,12 +79,6 @@
 									<key>VolumeInputAmp</key>
 									<true/>
 								</dict>
-								<key>MinimumSampleRate</key>
-								<integer>48000</integer>
-								<key>NodeID</key>
-								<integer>8</integer>
-							</dict>
-							<dict>
 								<key>NodeID</key>
 								<integer>35</integer>
 							</dict>
@@ -108,7 +86,7 @@
 								<key>Boost</key>
 								<integer>3</integer>
 								<key>NodeID</key>
-								<integer>25</integer>
+								<integer>26</integer>
 							</dict>
 						</array>
 					</array>
@@ -117,17 +95,6 @@
 					<array>
 						<array>
 							<dict>
-								<key>Amp</key>
-								<dict>
-									<key>MuteInputAmp</key>
-									<false/>
-									<key>PublishMute</key>
-									<true/>
-									<key>PublishVolume</key>
-									<false/>
-									<key>VolumeInputAmp</key>
-									<false/>
-								</dict>
 								<key>NodeID</key>
 								<integer>20</integer>
 							</dict>
@@ -152,33 +119,14 @@
 									<key>MuteInputAmp</key>
 									<true/>
 									<key>PublishMute</key>
-									<false/>
+									<true/>
 									<key>PublishVolume</key>
 									<true/>
 									<key>VolumeInputAmp</key>
 									<false/>
 								</dict>
 								<key>NodeID</key>
-								<integer>2</integer>
-							</dict>
-						</array>
-					</array>
-					<array>
-						<array>
-							<dict>
-								<key>Amp</key>
-								<dict>
-									<key>MuteInputAmp</key>
-									<false/>
-									<key>PublishMute</key>
-									<true/>
-									<key>PublishVolume</key>
-									<false/>
-									<key>VolumeInputAmp</key>
-									<false/>
-								</dict>
-								<key>NodeID</key>
-								<integer>33</integer>
+								<integer>12</integer>
 							</dict>
 							<dict>
 								<key>Amp</key>
@@ -201,7 +149,75 @@
 									<key>MuteInputAmp</key>
 									<true/>
 									<key>PublishMute</key>
+									<true/>
+									<key>PublishVolume</key>
+									<true/>
+									<key>VolumeInputAmp</key>
 									<false/>
+								</dict>
+								<key>NodeID</key>
+								<integer>2</integer>
+							</dict>
+						</array>
+					</array>
+					<array>
+						<array>
+							<dict>
+								<key>NodeID</key>
+								<integer>27</integer>
+							</dict>
+							<dict>
+								<key>Amp</key>
+								<dict>
+									<key>Channels</key>
+									<array>
+										<dict>
+											<key>Bind</key>
+											<integer>1</integer>
+											<key>Channel</key>
+											<integer>1</integer>
+										</dict>
+										<dict>
+											<key>Bind</key>
+											<integer>2</integer>
+											<key>Channel</key>
+											<integer>2</integer>
+										</dict>
+									</array>
+									<key>MuteInputAmp</key>
+									<true/>
+									<key>PublishMute</key>
+									<true/>
+									<key>PublishVolume</key>
+									<true/>
+									<key>VolumeInputAmp</key>
+									<false/>
+								</dict>
+								<key>NodeID</key>
+								<integer>13</integer>
+							</dict>
+							<dict>
+								<key>Amp</key>
+								<dict>
+									<key>Channels</key>
+									<array>
+										<dict>
+											<key>Bind</key>
+											<integer>1</integer>
+											<key>Channel</key>
+											<integer>1</integer>
+										</dict>
+										<dict>
+											<key>Bind</key>
+											<integer>2</integer>
+											<key>Channel</key>
+											<integer>2</integer>
+										</dict>
+									</array>
+									<key>MuteInputAmp</key>
+									<true/>
+									<key>PublishMute</key>
+									<true/>
 									<key>PublishVolume</key>
 									<true/>
 									<key>VolumeInputAmp</key>
@@ -215,7 +231,7 @@
 				</array>
 			</array>
 			<key>PathMapID</key>
-			<integer>33</integer>
+			<integer>22</integer>
 		</dict>
 	</array>
 </dict>

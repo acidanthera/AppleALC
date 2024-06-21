@@ -1,6 +1,6 @@
 <dict>
 	<key>LayoutID</key>
-	<integer>33</integer>
+	<integer>75</integer>
 	<key>PathMapRef</key>
 	<array>
 		<dict>
@@ -1321,7 +1321,7 @@
 				<string>Headphone</string>
 			</array>
 			<key>PathMapID</key>
-			<integer>33</integer>
+			<integer>75</integer>
 		</dict>
 	</array>
 </dict>

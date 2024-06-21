@@ -18,7 +18,7 @@
 	<array>
 		<dict>
 			<key>Comment</key>
-			<string>Lorys89 - Realtek ALC295/ALC3254 for Dell Latitude 7210 2-in-1</string>
+			<string>Lorys89 - Realtek ALC295/ALC3254 for Dell Inspiron 7590</string>
 			<key>PathMap</key>
 			<array>
 				<array>
@@ -215,7 +215,7 @@
 				</array>
 			</array>
 			<key>PathMapID</key>
-			<integer>33</integer>
+			<integer>75</integer>
 		</dict>
 	</array>
 </dict>
