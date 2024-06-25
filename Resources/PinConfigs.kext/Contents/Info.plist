@@ -7586,23 +7586,19 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>
-					AwAAAA==
-					</data>
+					<data>AwAAAA==</data>
 					<key>CodecID</key>
 					<integer>283904146</integer>
 					<key>Comment</key>
 					<string>Custom ALC892 for GIGABYTE B365M AORUS ELITE</string>
 					<key>ConfigData</key>
-                                        <data>AUccQAFHHUEBRx4RAUcfkQFnHIEBZx1gAWceAQFnHwEBVxyCAVcdEAFXHgEBVx8BAXccgAF3HSABdx4BAXcfAQG3HDABtx1AAbceIQG3HwIBFxxgARcdAAEXHkMBFx+ZAYccEAGHHZEBhx6hAYcfkQGnHCABpx0wAacegQGnHwEBlxxwAZcdkAGXHoEBlx8CAUcMAgG3DAI=</data>
+					<data>AUccQAFHHUEBRx4RAUcfkQFnHIEBZx1gAWceAQFnHwEBVxyCAVcdEAFXHgEBVx8BAXccgAF3HSABdx4BAXcfAQG3HDABtx1AAbceIQG3HwIBFxxgARcdAAEXHkMBFx+ZAYccEAGHHZEBhx6hAYcfkQGnHCABpx0wAacegQGnHwEBlxxwAZcdkAGXHoEBlx8CAUcMAgG3DAI=</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>21</integer>
 					<key>WakeConfigData</key>
-					<data>
-					AUcMAg==
-					</data>
+					<data>AUcMAg==</data>
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
@@ -10645,6 +10641,26 @@
 					<integer>37</integer>
 					<key>WakeConfigData</key>
 					<data>AUcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>ALC269</string>
+					<key>CodecID</key>
+					<integer>283902569</integer>
+					<key>Comment</key>
+					<string>Talha - ALC269VB for Acer Aspire Z3-715</string>
+					<key>ConfigData</key>
+					<data>AUccEAFHHQABRx4QAUcfQAFHDAIBVxwgAVcdEAFXHiEBVx8BAVcMAgGnHDABpx0AAaceFwGnH5ABJxxAAScdAAEnHqABJx+Q</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>89</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgFXDAI=</data>
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
