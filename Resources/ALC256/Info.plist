@@ -30,6 +30,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>HafidzRadhival - DELL Vostro 5468 ALC256 (3246)</string>
+				<key>Id</key>
+				<integer>12</integer>
+				<key>Path</key>
+				<string>layout12.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Insanelydeepak - Realtek ALC256 (3246) for Dell Series</string>
 				<key>Id</key>
 				<integer>13</integer>
@@ -212,6 +220,30 @@
 				<key>Path</key>
 				<string>layout99.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Littlesum - Realtek ALC256 (3246) for Nuc9</string>
+				<key>Id</key>
+				<integer>68</integer>
+				<key>Path</key>
+				<string>layout68.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Floron - Realtek ALC256 (3246) for Honor MagicBook Pro HBB-WAH9</string>
+				<key>Id</key>
+				<integer>95</integer>
+				<key>Path</key>
+				<string>layout95.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>lshbluesky - Realtek ALC256 for Samsung Galaxy Book NT750XDA-KF59U</string>
+				<key>Id</key>
+				<integer>38</integer>
+				<key>Path</key>
+				<string>layout38.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -230,6 +262,14 @@
 				<integer>11</integer>
 				<key>Path</key>
 				<string>Platforms11.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>HafidzRadhival - DELL Vostro 5468 ALC256 (3246)</string>
+				<key>Id</key>
+				<integer>12</integer>
+				<key>Path</key>
+				<string>Platforms12.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -414,6 +454,30 @@
 				<integer>99</integer>
 				<key>Path</key>
 				<string>Platforms99.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Littlesum - Realtek ALC256 (3246) for Nuc9</string>
+				<key>Id</key>
+				<integer>68</integer>
+				<key>Path</key>
+				<string>Platforms68.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Floron - Realtek ALC256 (3246) for Honor MagicBook Pro HBB-WAH9</string>
+				<key>Id</key>
+				<integer>95</integer>
+				<key>Path</key>
+				<string>Platforms95.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>lshbluesky - Realtek ALC256 for Samsung Galaxy Book NT750XDA-KF59U</string>
+				<key>Id</key>
+				<integer>38</integer>
+				<key>Path</key>
+				<string>Platforms38.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>

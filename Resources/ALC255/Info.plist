@@ -204,6 +204,30 @@
 				<key>Path</key>
 				<string>layout255.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>juniorcaesar Acer Aspire A315-56-327T ALC255</string>
+				<key>Id</key>
+				<integer>69</integer>
+				<key>Path</key>
+				<string>layout69.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Imoize - Realtek ALC255 for Acer Nitro 5 AN515-52-73Y8</string>
+				<key>Id</key>
+				<integer>37</integer>
+				<key>Path</key>
+				<string>layout37.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Realtek ALC255 for Acer Aspire 7 A715-42G AMD by Long</string>
+				<key>Id</key>
+				<integer>80</integer>
+				<key>Path</key>
+				<string>layout80.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -398,6 +422,30 @@
 				<integer>255</integer>
 				<key>Path</key>
 				<string>Platforms255.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>juniorcaesar Acer Aspire A315-56-327T ALC255</string>
+				<key>Id</key>
+				<integer>69</integer>
+				<key>Path</key>
+				<string>Platforms69.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Imoize - Realtek ALC255 for Acer Nitro 5 AN515-52-73Y8</string>
+				<key>Id</key>
+				<integer>37</integer>
+				<key>Path</key>
+				<string>Platforms37.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Realtek ALC255 for Acer Aspire 7 A715-42G AMD by Long</string>
+				<key>Id</key>
+				<integer>80</integer>
+				<key>Path</key>
+				<string>Platforms80.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>

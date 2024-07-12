@@ -70,11 +70,19 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>GeorgeWan - ALCS1200A for ASROCK Z490 Steel Legend</string>
+				<string>GeorgeWan - ALCS1200A for ASROCK-Z490-Steel-Legend</string>
 				<key>Id</key>
 				<integer>51</integer>
 				<key>Path</key>
 				<string>layout51.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>GeorgeWan - ALCS1200A for MSI-Mortar-B460M</string>
+				<key>Id</key>
+				<integer>52</integer>
+				<key>Path</key>
+				<string>layout52.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -145,11 +153,19 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>GeorgeWan - ALCS1200A for ASROCK Z490 Steel Legend</string>
+				<string>GeorgeWan - ALCS1200A for ASROCK-Z490-Steel-Legend</string>
 				<key>Id</key>
 				<integer>51</integer>
 				<key>Path</key>
 				<string>Platforms51.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>GeorgeWan - ALCS1200A for MSI-Mortar-B460M</string>
+				<key>Id</key>
+				<integer>52</integer>
+				<key>Path</key>
+				<string>Platforms52.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>

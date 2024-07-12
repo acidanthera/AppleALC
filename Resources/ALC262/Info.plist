@@ -46,6 +46,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Goldfish64 - ALC262 for Dell Studio One 19 1909</string>
+				<key>Id</key>
+				<integer>14</integer>
+				<key>Path</key>
+				<string>layout14.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>MacPeet - ALC262 for HP Z800-Z600 series</string>
 				<key>Id</key>
 				<integer>28</integer>
@@ -94,6 +102,14 @@
 				<integer>13</integer>
 				<key>Path</key>
 				<string>Platforms13.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Goldfish64 - ALC262 for Dell Studio One 19 1909</string>
+				<key>Id</key>
+				<integer>14</integer>
+				<key>Path</key>
+				<string>Platforms14.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
