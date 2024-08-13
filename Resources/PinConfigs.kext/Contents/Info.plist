@@ -10700,6 +10700,22 @@
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
+				<dict>
+					<key>CodecID</key>
+					<integer>283904768</integer>
+					<key>CodecName</key>
+					<string>own - Realtek ALCS1200A for ASUS TUF-Z390M-Gaming</string>
+					<key>ConfigData</key>
+					<data>AUccEAFHHUABRx4BAUcfAQFHDAIBtxwgAbcdQAG3HiEBtx8CAbcMAgEXHDABFx0BARceRgEXH5ABhxxQAYcdkAGHHqEBhx8BAaccXwGnHTABpx6BAacfAQGXHGABlx2QAZceoQGXHwI=</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>12</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgG3DAI=</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
 			</array>
 			<key>IOClass</key>
 			<string>AppleALC</string>
