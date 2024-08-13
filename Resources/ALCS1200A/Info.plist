@@ -92,6 +92,14 @@
 				<key>Path</key>
 				<string>layout69.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>ALCS1200A for ASUS-TUF-Z390M-Gaming by mobilestebu</string>
+				<key>Id</key>
+				<integer>12</integer>
+				<key>Path</key>
+				<string>layout12.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -174,6 +182,14 @@
 				<integer>69</integer>
 				<key>Path</key>
 				<string>Platforms69.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>ALCS1200A for ASUS-TUF-Z390M-Gaming by mobilestebu</string>
+				<key>Id</key>
+				<integer>12</integer>
+				<key>Path</key>
+				<string>Platforms12.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>
