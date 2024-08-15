@@ -24,6 +24,14 @@
 				<key>Path</key>
 				<string>layout11.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>HP-Pavilion-Wave-600-A058cn</string>
+				<key>Id</key>
+				<integer>69</integer>
+				<key>Path</key>
+				<string>layout69.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -38,6 +46,14 @@
 				<integer>11</integer>
 				<key>Path</key>
 				<string>Platforms11.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>HP-Pavilion-Wave-600-A058cn</string>
+				<key>Id</key>
+				<integer>69</integer>
+				<key>Path</key>
+				<string>Platforms69.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>

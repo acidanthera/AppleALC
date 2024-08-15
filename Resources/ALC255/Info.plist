@@ -220,6 +220,14 @@
 				<key>Path</key>
 				<string>layout37.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Realtek ALC255 for Acer Aspire 7 A715-42G AMD by Long</string>
+				<key>Id</key>
+				<integer>80</integer>
+				<key>Path</key>
+				<string>layout80.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -430,6 +438,14 @@
 				<integer>37</integer>
 				<key>Path</key>
 				<string>Platforms37.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Realtek ALC255 for Acer Aspire 7 A715-42G AMD by Long</string>
+				<key>Id</key>
+				<integer>80</integer>
+				<key>Path</key>
+				<string>Platforms80.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>

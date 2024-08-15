@@ -302,6 +302,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Ar4eR07 - ALC269VB for Tecno T1 IceLake</string>
+				<key>Id</key>
+				<integer>37</integer>
+				<key>Path</key>
+				<string>layout37.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>vusun123 - RealtekALC269VC for Lenovo W530</string>
 				<key>Id</key>
 				<integer>40</integer>
@@ -475,6 +483,14 @@
 				<integer>138</integer>
 				<key>Path</key>
 				<string>layout138.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Talha - Realtek ALC269VC for Acer Aspire Z3-715</string>
+				<key>Id</key>
+				<integer>89</integer>
+				<key>Path</key>
+				<string>layout89.xml.zlib</string>
 			</dict>
 		</array>
 		<key>Platforms</key>
@@ -769,6 +785,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Ar4eR07 - ALC269VB for Tecno T1 IceLake</string>
+				<key>Id</key>
+				<integer>37</integer>
+				<key>Path</key>
+				<string>Platforms37.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>vusun123 - RealtekALC269VC for Lenovo W530</string>
 				<key>Id</key>
 				<integer>40</integer>
@@ -942,6 +966,14 @@
 				<integer>138</integer>
 				<key>Path</key>
 				<string>Platforms138.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Talha - Realtek ALC269VC for Acer Aspire Z3-715</string>
+				<key>Id</key>
+				<integer>89</integer>
+				<key>Path</key>
+				<string>Platforms89.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>

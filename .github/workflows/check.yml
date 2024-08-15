@@ -1,0 +1,29 @@
+name: Check plist files for 'real' key
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+  release:
+    types: [published]
+
+jobs:
+  check-plist:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install xmllint
+        run: sudo apt-get install libxml2-utils
+
+      - name: Find 'real' key in plist files
+        run: |
+          # Find all plist files and parse them using xmllint, searching for the 'real' key
+          for file in $(find . -type f -name "*.plist"); do
+            if xmllint --xpath "//real" "$file" 2>/dev/null; then
+              echo "::error::Found 'real' key in $file."
+              exit 1
+            fi
+          done
+          echo "No 'real' key found."
