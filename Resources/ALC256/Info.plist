@@ -118,6 +118,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>alvindimas05 - Asus Vivobook 16x M1603QA</string>
+				<key>Id</key>
+				<integer>26</integer>
+				<key>Path</key>
+				<string>layout26.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>vusun123 - ALC256 for Asus X555UJ</string>
 				<key>Id</key>
 				<integer>28</integer>
