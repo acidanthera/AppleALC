@@ -104,24 +104,6 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
-					<string>alvindimas05 - Asus Vivobook 16x M1603QA ALC256</string>
-					<key>CodecID</key>
-					<integer>283902550</integer>
-					<key>ConfigData</key>
-					<data>ASccQAEnHQEBJx6mAScfkAFHHDABRx0BAUceFwFHH5ABRwwCAZccIAGXHRABlx6BAZcfAgIXHBACFx0QAhceIQIXHwICFwwC</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>26</integer>
-					<key>WakeConfigData</key>
-					<data>AUcMAg==</data>
-					<key>WakeVerbReinit</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
-					<key>Codec</key>
 					<string>Custom ALC282 Lenovo-IdeaPad-Z510 by hoseinrez</string>
 					<key>CodecID</key>
 					<integer>283902594</integer>
@@ -10726,13 +10708,13 @@
 					<key>CodecID</key>
 					<integer>283902550</integer>
 					<key>ConfigData</key>
-					<data>ATccAAE3HQABNx4AATcfQAFHHBABRx0BAUceFwFHH5ABRwwCAhccIAIXHRACFx4hAhcfBAIXDAIBJxwwAScdAQEnHqYBJx+QABccRQAXHRsAFx5mABcfQA==</data>
+					<data>ASccQAEnHQEBJx6mAScfkAFHHDABRx0BAUceFwFHH5ABRwwCAZccIAGXHRABlx6BAZcfAgIXHBACFx0QAhceIQIXHwICFwwC</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>26</integer>
 					<key>WakeConfigData</key>
-					<data>AUcMAgIXDAI=</data>
+					<data>AUcMAg==</data>
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
