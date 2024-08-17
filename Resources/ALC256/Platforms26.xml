@@ -18,7 +18,7 @@
 	<array>
 		<dict>
 			<key>Comment</key>
-			<string>alvindimas05 - Asus Vivobook 16x M1603QA ALC256</string>
+			<string>HafidzRadhival - DELL Vostro 5468 ALC256 (3246)</string>
 			<key>PathMap</key>
 			<array>
 				<array>
@@ -52,7 +52,7 @@
 									<true/>
 								</dict>
 								<key>NodeID</key>
-								<integer>7</integer>
+								<integer>9</integer>
 							</dict>
 							<dict>
 								<key>Amp</key>
@@ -82,15 +82,19 @@
 									<true/>
 								</dict>
 								<key>NodeID</key>
-								<integer>36</integer>
+								<integer>34</integer>
 							</dict>
 							<dict>
 								<key>Boost</key>
 								<integer>1</integer>
 								<key>NodeID</key>
-								<integer>18</integer>
+								<integer>25</integer>
 							</dict>
 						</array>
+					</array>
+				</array>
+				<array>
+					<array>
 						<array>
 							<dict>
 								<key>Amp</key>
@@ -257,78 +261,6 @@
 								</dict>
 								<key>NodeID</key>
 								<integer>3</integer>
-							</dict>
-						</array>
-					</array>
-				</array>
-				<array>
-					<array>
-						<array>
-							<dict>
-								<key>Amp</key>
-								<dict>
-									<key>Channels</key>
-									<array>
-										<dict>
-											<key>Bind</key>
-											<integer>1</integer>
-											<key>Channel</key>
-											<integer>1</integer>
-										</dict>
-										<dict>
-											<key>Bind</key>
-											<integer>2</integer>
-											<key>Channel</key>
-											<integer>2</integer>
-										</dict>
-									</array>
-									<key>MuteInputAmp</key>
-									<true/>
-									<key>PublishMute</key>
-									<true/>
-									<key>PublishVolume</key>
-									<true/>
-									<key>VolumeInputAmp</key>
-									<true/>
-								</dict>
-								<key>NodeID</key>
-								<integer>8</integer>
-							</dict>
-							<dict>
-								<key>Amp</key>
-								<dict>
-									<key>Channels</key>
-									<array>
-										<dict>
-											<key>Bind</key>
-											<integer>1</integer>
-											<key>Channel</key>
-											<integer>1</integer>
-										</dict>
-										<dict>
-											<key>Bind</key>
-											<integer>2</integer>
-											<key>Channel</key>
-											<integer>2</integer>
-										</dict>
-									</array>
-									<key>MuteInputAmp</key>
-									<true/>
-									<key>PublishMute</key>
-									<true/>
-									<key>PublishVolume</key>
-									<true/>
-									<key>VolumeInputAmp</key>
-									<true/>
-								</dict>
-								<key>NodeID</key>
-								<integer>35</integer>
-							</dict>
-							<dict>
-								<key>Boost</key>
-								<integer>1</integer>
-								<key>NodeID</key>
-								<integer>24</integer>
 							</dict>
 						</array>
 					</array>
