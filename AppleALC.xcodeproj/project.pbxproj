@@ -21,6 +21,7 @@
 		1C9CB7B01C789FF500231E41 /* kern_alc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C9CB7AE1C789FF500231E41 /* kern_alc.cpp */; };
 		1C9CB7B11C789FF500231E41 /* kern_alc.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 1C9CB7AF1C789FF500231E41 /* kern_alc.hpp */; };
 		1CD5B2BF1C89CF2D00E45373 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1CD5B2BE1C89CF2D00E45373 /* main.mm */; };
+		A2BB46132C6FE95000A7A43E /* libkmod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8DA0892517C489008C44E8 /* libkmod.a */; };
 		CE405ED91E4A080700AA0B3D /* plugin_start.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE405ED81E4A080700AA0B3D /* plugin_start.cpp */; };
 		CED6C8CD266BC9AF006BA0A9 /* kern_alc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C9CB7AE1C789FF500231E41 /* kern_alc.cpp */; };
 		CED6C8CE266BC9AF006BA0A9 /* ALCUserClientProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01ACCCE825362B00007704ED /* ALCUserClientProvider.cpp */; };
@@ -174,6 +175,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2BB46132C6FE95000A7A43E /* libkmod.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
