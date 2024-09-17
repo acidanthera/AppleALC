@@ -54,7 +54,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Realtek ALC289 for Asus ROG Zephyrus G14</string>
+				<string>PIut02 - Realtek ALC289 for ROG-Zephyrus-G14</string>
 				<key>Id</key>
 				<integer>33</integer>
 				<key>Path</key>
@@ -145,7 +145,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Realtek ALC289 for Asus ROG Zephyrus G14</string>
+				<string>PIut02 - Realtek ALC289 for ROG-Zephyrus-G14</string>
 				<key>Id</key>
 				<integer>33</integer>
 				<key>Path</key>
