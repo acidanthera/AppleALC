@@ -7531,6 +7531,24 @@
 				<dict>
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>MSI GE60 2OC/2OE/2OD</string>
+					<key>CodecID</key>
+					<integer>283904146</integer>
+					<key>ConfigData</key>
+					<data>ARcc8AEXHQABFx4AARcfQAEnHPABJx0AASceAAEnH0ABRxwgAUcdEAFHHiEBRx8BAVcc8AFXHQABVx4AAVcfQAFnHPABZx0AAWceAAFnH0ABdxzwAXcdAAF3HgABdx9AAYccUAGHHRABhx6BAYcfAQGXHEABlx0BAZceowGXH5kBpxzwAacdAAGnHgABpx9AAbccEAG3HQEBtx4TAbcfmQHHHPABxx0AAcceAAHHH0AB1xzwAdcdAAHXHgAB1x9AAeccMAHnHRAB5x5FAecfAQH3HPAB9x0AAfceAAH3H0ABRwwC</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>66</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
 					<key>CodecID</key>
 					<integer>283904146</integer>
 					<key>Comment</key>
