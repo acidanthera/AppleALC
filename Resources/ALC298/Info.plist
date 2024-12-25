@@ -164,6 +164,14 @@
 				<key>Path</key>
 				<string>layout99.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>skyfever - Realtek ALC298 for SAMSUNG NT950SBE</string>
+				<key>Id</key>
+				<integer>17</integer>
+				<key>Path</key>
+				<string>layout17.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -318,6 +326,14 @@
 				<integer>99</integer>
 				<key>Path</key>
 				<string>Platforms99.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>skyfever - Realtek ALC298 for SAMSUNG NT950SBE</string>
+				<key>Id</key>
+				<integer>17</integer>
+				<key>Path</key>
+				<string>Platforms17.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>
