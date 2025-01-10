@@ -244,6 +244,22 @@
 				<key>Path</key>
 				<string>layout38.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>nikich768 - Realtek ALC256 ASUS-X515JF-EJ012 var1</string>
+				<key>Id</key>
+				<integer>48</integer>
+				<key>Path</key>
+				<string>layout48.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>nikich768 - Realtek ALC256 ASUS-X515JF-EJ012 var2</string>
+				<key>Id</key>
+				<integer>49</integer>
+				<key>Path</key>
+				<string>layout49.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -478,6 +494,22 @@
 				<integer>38</integer>
 				<key>Path</key>
 				<string>Platforms38.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>nikich768 - Realtek ALC256 ASUS-X515JF-EJ012 var1</string>
+				<key>Id</key>
+				<integer>48</integer>
+				<key>Path</key>
+				<string>Platforms48.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>nikich768 - Realtek ALC256 ASUS-X515JF-EJ012 var2</string>
+				<key>Id</key>
+				<integer>49</integer>
+				<key>Path</key>
+				<string>Platforms49.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>
