@@ -10804,6 +10804,42 @@
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>aobaharuki2005 - ALC230 for Lenovo S145-15IKB (config 1) based on Andres Laptop Patch ALC230 Lenovo 310-14ISK</string>
+					<key>CodecID</key>
+					<integer>283902512</integer>
+					<key>ConfigData</key>
+					<data>ASccMAEnHQABJx6gAScfkAE3HBABNx0AATceEAE3H0ABRxwgAUcdAAFHHhcBRx+QAUcMAgGXHEABlx0QAZcegAGXHwAB1xxQAdcdsAHXHmYB1x9AAhccYAIXHRACFx4hAhcfAAIXDAI=</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>14</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgIXDAI=</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>aobaharuki2005 - ALC230 for Lenovo S145-15IKB (config 2) based on Andres Laptop Patch ALC230 Lenovo 310-14ISK</string>
+					<key>CodecID</key>
+					<integer>283902512</integer>
+					<key>ConfigData</key>
+					<data>ASccMAEnHQABJx6gAScfkAE3HBABNx0AATceEAE3H0ABRxwgAUcdAAFHHhcBRx+QAUcMAgGXHEABlx0QAZcegAGXHwAB1xxQAdcdsAHXHmYB1x9AAhccYAIXHRACFx4hAhcfAAIXDAI=</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>15</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgIXDAI=</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>	
 			</array>
 			<key>IOClass</key>
 			<string>AppleALC</string>
