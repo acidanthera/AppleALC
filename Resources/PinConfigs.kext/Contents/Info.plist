@@ -10804,6 +10804,38 @@
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
+				<dict>
+					<key>Codec</key>
+					<string>nikich768 - Realtek ALC256 ASUS-X515JF-EJ012 var1</string>
+					<key>CodecID</key>
+					<integer>283902550</integer>
+					<key>ConfigData</key>
+					<data>AUccEAFHHWEBRx4QAUcfkAIXHCACFx1wAhceIQIXHwEBtxwwAbcdAQG3HqABtx+QAbcMAgGXHEABlx0wAZcegQGXHwEBJxzwAScdAAEnHgABJx9AATcc8AE3HQABNx4AATcfQAGHHPABhx0AAYceAAGHH0ABpxzwAacdAAGnHgABpx9AAdcc8AHXHQAB1x4AAdcfQAHnHPAB5x0AAeceAAHnH0ACBQAQAgQAIAIFAEUCBFCJ</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>48</integer>
+					<key>WakeConfigData</key>
+					<data>AbcMAgGXByQ=</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>Codec</key>
+					<string>nikich768 - Realtek ALC256 ASUS-X515JF-EJ012 var2</string>
+					<key>CodecID</key>
+					<integer>283902550</integer>
+					<key>ConfigData</key>
+					<data>AUccEAFHHWEBRx4QAUcfkAIXHCACFx1xAhceIQIXHwEBlxwwAZcdMQGXHoEBlx8BAaccQAGnHTEBpx6BAacfAQEnHPABJx0AASceAAEnH0ABNxzwATcdAAE3HgABNx9AAYcc8AGHHQABhx4AAYcfQAG3HPABtx0AAbceAAG3H0ABtwwCAdcc8AHXHQAB1x4AAdcfQAHnHPAB5x0AAeceAAHnH0ACBQAQAgQAIAIFAEUCBFCJ</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>49</integer>
+					<key>WakeConfigData</key>
+					<data>AbcMAgGXByA=</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
 			</array>
 			<key>IOClass</key>
 			<string>AppleALC</string>
