@@ -25,8 +25,12 @@ class EXPORT ALCUserClient : public IOUserClient {
 #if __MAC_OS_X_VERSION_MIN_REQUIRED > __MAC_10_4
 	static const IOExternalMethodDispatch sMethods[kNumberOfMethods];
 #else
-	static IOExternalMethodACID sMethodsLegacy[kNumberOfMethods];
+	static IOExternalMethod sMethodsLegacy[kNumberOfMethods];
+#if (defined(__i386__) && defined(__clang__))
 	static IOReturn sendHdaCommandInternal(ALCUserClient *that, uint16_t nid, uint16_t verb, uint16_t param, uint64_t *outVal);
+#else
+	IOReturn sendHdaCommandInternal(uint16_t nid, uint16_t verb, uint16_t param, uint64_t *outVal);
+#endif
 #endif
 	
 public:
