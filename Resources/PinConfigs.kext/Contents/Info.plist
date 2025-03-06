@@ -10821,6 +10821,24 @@
 					<true/>
 				</dict>
 				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>nikich768 - Realtek ALC256 Dell Latitude 5490 var1</string>
+					<key>CodecID</key>
+					<integer>283902550</integer>
+					<key>ConfigData</key>
+					<data>AUccEAFHHWEBRx4QAUcfkAIXHCACFx1wAhceIQIXHwEBJxwwAScdAQEnHqABJx+QAbcMAgGXHEABlx0wAZcegQGXHwEBtxzwAbcdAAG3HgABtx9AATcc8AE3HQABNx4AATcfQAGHHPABhx0AAYceAAGHH0ABpxzwAacdAAGnHgABpx9AAdcc8AHXHQAB1x4AAdcfQAHnHPAB5x0AAeceAAHnH0ACBQAQAgQAIAIFAEUCBFCJ</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>100</integer>
+					<key>WakeConfigData</key>
+					<data>AbcMAgGXByQ=</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
 					<key>Codec</key>
 					<string>nikich768 - Realtek ALC256 ASUS-X515JF-EJ012 var2</string>
 					<key>CodecID</key>
