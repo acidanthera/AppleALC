@@ -260,7 +260,15 @@
 				<key>Path</key>
 				<string>layout49.xml.zlib</string>
 			</dict>
-		</array>
+			<dict>
+				<key>Comment</key>
+				<string>nikich768 - Realtek ALC256 Dell Latitude 5490 var1</string>
+				<key>Id</key>
+				<integer>100</integer>
+				<key>Path</key>
+				<string>layout100.xml.zlib</string>
+			</dict>
+                </array>
 		<key>Platforms</key>
 		<array>
 			<dict>
@@ -510,6 +518,14 @@
 				<integer>49</integer>
 				<key>Path</key>
 				<string>Platforms49.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>nikich768 - Realtek ALC256 Dell Latitude 5490 var1</string>
+				<key>Id</key>
+				<integer>100</integer>
+				<key>Path</key>
+				<string>Platforms100.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>
