@@ -10852,6 +10852,20 @@
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>nickleby92 - VIA VT1802 for Vit P2402</string>
+					<key>CodecID</key>
+					<integer>285639750</integer>
+					<key>ConfigData</key>
+					<data>AkccEAJHHQECRx4XAkcfkAJHDAMCVxwgAlcdEAJXHiECVx8CAlcMAgKXHDAClx0BApceoAKXH5ACtxxAArcdkAK3HoECtx8BAtccUALXHRAC1x5FAtcfBw==</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>35</integer>
+				</dict>
 			</array>
 			<key>IOClass</key>
 			<string>AppleALC</string>
