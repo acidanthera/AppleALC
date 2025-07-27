@@ -1038,6 +1038,24 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>ALC235 for Lenovo ThinkCentre M920x-N000 by Xezun</string>
+					<key>CodecID</key>
+					<integer>283902517</integer>
+					<key>ConfigData</key>
+					<data>AScc8AEnHQABJx4AAScfQAHXHPAB1x0AAdceAAHXH0ACFxwQAhcdQAIXHiECFx8CAhcMAgG3HPABtx0AAbceAAG3H0ABtwwCAZccMAGXHQABlx6jAZcfmQGnHEABpx1QAacegQGnHwIBRxwgAUcdAAFHHhMBRx+ZAUcMAgF3HPABdx0AAXceAAF3H0ABhxzwAYcdAAGHHgABhx9AAecc8AHnHQAB5x4AAecfQA==</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>20</integer>
+					<key>WakeConfigData</key>
+					<data>AhcMAgG3DAIBRwwC</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>Mirone - Realtek ALC235</string>
 					<key>CodecID</key>
 					<integer>283902517</integer>
