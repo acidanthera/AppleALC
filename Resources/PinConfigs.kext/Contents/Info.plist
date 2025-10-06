@@ -32,6 +32,24 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>Custom ALCS1200A Asus B550M Plus by ycg31</string>
+					<key>CodecID</key>
+					<integer>283904768</integer>
+					<key>ConfigData</key>
+					<data>AUccAAFHHUABRx4RAUcfAQFHDAIBtxwQAbcdQAG3HiEBtx8CAbcMAgFnHCEBZx1gAWceAQFnHwEBVxwiAVcdEAFXHgEBVx8BAeccMAHnHWEB5x5FAecfAQGHHEABhx2QAYceoQGHH5EBlxxQAZcdkAGXHoEBlx8CAaccYAGnHTABpx6BAacfAQ==</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>31</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgG3DAI=</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>Baio77 - ALC295 Lenovo_X1_Tablet_3°Gen</string>
 					<key>CodecID</key>
 					<integer>283902613</integer>
@@ -10851,10 +10869,10 @@
 					<integer>49</integer>
 					<key>WakeConfigData</key>
 					<data>AbcMAgGXByA=</data>
-          <key>WakeVerbReinit</key>
+					<key>WakeVerbReinit</key>
 					<true/>
-        </dict>
-        <dict>
+				</dict>
+				<dict>
 					<key>CodecID</key>
 					<integer>283902616</integer>
 					<key>CodecName</key>
