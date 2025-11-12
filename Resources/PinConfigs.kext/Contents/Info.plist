@@ -32,6 +32,24 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>Msi X670E Gaming Wifi  ALC897 by ycg31</string>
+					<key>CodecID</key>
+					<integer>283904151</integer>
+					<key>ConfigData</key>
+					<data>AUccAAFHHUABRx4RAUcfAQFHDAIBtxwQAbcdQAG3HiEBtx8CAbcMAgGHHCABhx2QAYceoQGHH5EBpxwhAacdMAGnHoEBpx8BAZccIgGXHZABlx6hAZcfAg==</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>7</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgG3DAI=</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>Custom ALCS1200A Asus B550M Plus by ycg31</string>
 					<key>CodecID</key>
 					<integer>283904768</integer>
