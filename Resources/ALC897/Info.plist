@@ -16,9 +16,9 @@
 				<key>Comment</key>
 				<string>Msi X670E GAMING WIFI ALC897 by ycg31</string>
 				<key>Id</key>
-				<integer>7</integer>
+				<integer>31</integer>
 				<key>Path</key>
-				<string>layout7.xml.zlib</string>
+				<string>layout31.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -115,9 +115,9 @@
 				<key>Comment</key>
 				<string>Msi X670E GAMING WIFI ALC897 by ycg31</string>
 				<key>Id</key>
-				<integer>7</integer>
+				<integer>31</integer>
 				<key>Path</key>
-				<string>Platforms7.xml.zlib</string>
+				<string>Platforms31.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
