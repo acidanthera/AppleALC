@@ -1,12 +1,12 @@
 AppleALC
 ========
 
-[![Build Status](https://github.com/acidanthera/AppleALC/workflows/CI/badge.svg?branch=master)](https://github.com/acidanthera/AppleALC/actions) [![Scan Status](https://scan.coverity.com/projects/16166/badge.svg?flat=1)](https://scan.coverity.com/projects/16166)
+[![Build Status](https://github.com/acidanthera/AppleALC/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/acidanthera/AppleALC/actions) [![Scan Status](https://scan.coverity.com/projects/16166/badge.svg?flat=1)](https://scan.coverity.com/projects/16166)
 
 一个开源的内核扩展，为非官方的声卡提供支持的 Codec，无需修改任何系统文件，即可启用原生的 macOS HD 音频，AppleALCU 可用于具有纯数字音频的系统。
 
 [英文](https://github.com/acidanthera/AppleALC/blob/master/README.md)  
-[简体中文](https://github.com/acidanthera/AppleALC/blob/master/README_CN.md)  
+简体中文（当前）
 
 #### 特性
 - 在系统安装阶段即可使用数字或模拟音频
@@ -16,7 +16,9 @@ AppleALC
 - 任意的 Kext 修改补丁
 - 可自定义设备的 Layout 和 platform
 - 工作在 SIP 模式 / El Capitan+ 系统
-- 当前版本兼容: 10.4-13
+- 当前版本兼容: 10.4-26*
+
+\* _注意_: macOS 26 在 DP2 中移除了 AppleHDA.kext。如果需要 AppleHDA.kext，AppleALC 在 macOS 26 上的功能可能需要额外的操作。
 
 #### 致谢
 - [Apple](https://www.apple.com) 设计的 macOS 操作系统 
