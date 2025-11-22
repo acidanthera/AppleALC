@@ -159,22 +159,6 @@
 						<array>
 							<dict>
 								<key>NodeID</key>
-								<integer>10</integer>
-							</dict>
-							<dict>
-								<key>DetectDelegate</key>
-								<string>32</string>
-								<key>NodeID</key>
-								<integer>31</integer>
-							</dict>
-						</array>
-					</array>
-				</array>
-				<array>
-					<array>
-						<array>
-							<dict>
-								<key>NodeID</key>
 								<integer>20</integer>
 							</dict>
 							<dict>
