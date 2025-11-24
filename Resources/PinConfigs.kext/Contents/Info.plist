@@ -7946,6 +7946,24 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>Realtek ALC898 for ASRock Z77 Fatal1ty Professional with Front Panel by AndrewK2685</string>
+					<key>CodecID</key>
+					<integer>283904153</integer>
+					<key>ConfigData</key>
+					<data>AUccEAFHHUABRx4RAUcfkAFXHCABVx0QAVceAQFXHwEBZxwwAWcdYAFnHgEBZx8BAYccUAGHHZABhx6gAYcfkAGXHGABlx2QAZcegQGXHwIBpxxwAacdMAGnHoEBpx8BAbcccAG3HUABtx4hAbcfAgHnHJAB5x1gAeceRQHnHwEBRwwCAbcMAg==</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>64</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>Realtek ALC898 for CLEVO P65xRS(-G) by datasone</string>
 					<key>CodecID</key>
 					<integer>283904153</integer>
