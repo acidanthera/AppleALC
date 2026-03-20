@@ -455,7 +455,7 @@
 			<key>MaxKernel</key>
 			<integer>13</integer>
 			<key>MinKernel</key>
-			<integer>13</integer>
+			<integer>12</integer>
 			<key>Name</key>
 			<string>AppleHDA</string>
 			<key>Replace</key>
@@ -479,7 +479,7 @@
 			<key>Find</key>
 			<data>QcaGQwEAAAA=</data>
 			<key>MinKernel</key>
-			<integer>13</integer>
+			<integer>12</integer>
 			<key>Name</key>
 			<string>AppleHDA</string>
 			<key>Replace</key>
@@ -491,7 +491,7 @@
 			<key>Find</key>
 			<data>ixnUEQ==</data>
 			<key>MinKernel</key>
-			<integer>13</integer>
+			<integer>12</integer>
 			<key>Name</key>
 			<string>AppleHDA</string>
 			<key>Replace</key>
@@ -503,7 +503,7 @@
 			<key>Find</key>
 			<data>hBnUEQ==</data>
 			<key>MinKernel</key>
-			<integer>13</integer>
+			<integer>12</integer>
 			<key>Name</key>
 			<string>AppleHDA</string>
 			<key>Replace</key>
