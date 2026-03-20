@@ -1,5 +1,10 @@
 AppleALC Changelog
 ==================
+#### v1.9.7
+- Added ALC897 layout-id 31 for MSI X670E Gaming WIFI by yandong31
+- ALC892 changed MinKernel 13->12 by bugprogrammer
+- Added ALC898 layout-id 64 for AsRock Fatal1ty by AndrewK2685
+
 #### v1.9.6
 - Added ALC235 layout-id 20 for Lenovo ThinkCentre M920x-N000 by Xezun
 - Added ALCS1220A layout-id 89 for Asus Z890 ProArt Creator WiFi by caley13
