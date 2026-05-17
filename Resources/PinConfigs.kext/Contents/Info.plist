@@ -10982,6 +10982,24 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>sunbo - Realtek ALC298 for Lenovo Yoga 9 15IMH5</string>
+					<key>CodecID</key>
+					<integer>283902616</integer>
+					<key>ConfigData</key>
+					<data>ASccgAEnHQEBJx6mAScfkAE3HAABNx0AATceAAE3H0ABRxxAAUcdAQFHHhcBRx+QAXcc8AF3HREBdx4RAXcfQQGHHCABhx0QAYceoQGHHwQBlxzwAZcdEQGXHhEBlx9BAacc8AGnHREBpx4RAacfQQHXHAEB1x0AAdcecAHXH0AB5xzwAecdEQHnHhEB5x9BAfcc8AH3HREB9x4RAfcfQQIXHBACFx0QAhceIQIXHwQBRwwCAhcMAg==</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>98</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgIXDAI=</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>nickleby92 - VIA VT1802 for Vit P2402</string>
 					<key>CodecID</key>
 					<integer>285639750</integer>
