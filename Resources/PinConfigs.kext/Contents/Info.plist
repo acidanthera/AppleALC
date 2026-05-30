@@ -1819,6 +1819,29 @@
 					<true/>
 				</dict>
 				<dict>
+					<key>Codec</key>
+					<string>ALC3234/ALC255 Layout 89 - Dell OptiPlex 3060 MFF - Lorys89</string>
+					<key>CodecID</key>
+					<integer>283902549</integer>
+					<key>ConfigData</key>
+					<data>
+					AUccEAFHHQEBRx4XAUcfkAGXHBABlx0RAZce
+					gQGXHwQBtxwgAbcdEAG3HgEBtx8CAhccXwIX
+					HRACFx4hAhcfAgFHDAIBtwwCAhcMAgGXBiQC
+					BQBFAgTWiQ==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>89</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAgG3DAICFwwCAZcGJAIFAEUCBNaJ
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
