@@ -1,7 +1,8 @@
 AppleALC Changelog
 ==================
 
-#### v1.7.3
+v1.7.3
+------
 
 - Added constants for macOS 13 support
 - Fix sleep breaking earphone support on ALC295 layout-id 13 by Mahas1
