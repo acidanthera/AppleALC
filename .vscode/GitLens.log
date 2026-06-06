@@ -1,0 +1,117 @@
+2026-06-06 10:00:58.307 [info] To enable debug logging, run "GitLens: Enable Debug Logging" or "Developer: Set Log Level..." from the Command Palette
+2026-06-06 10:00:58.307 [info]    [            1] GitLens v18.0.0  activating in Visual Studio Code (1.123.0) on the desktop; mode=production,language='en', logLevel='info', defaultDateLocale='null' (vscode|3316860e6d6aef0ae7934e78d9bf129f4bb1b630c9859cff5a1661479f343b5d|5490a5db-7fcc-4793-9d08-44b02a1c63221780711253677)
+2026-06-06 10:00:58.307 [info]    [   66 →    69] GlCliGitProvider.onDidOpenRepository(e=file:///g%3A/VM%20FOLDER/AppleALC.worktrees/agents-sad-roundworm, source=scm) repository=<unknown>; deferring to getOrOpenRepository
+2026-06-06 10:00:58.307 [info]    [            1] GitLens v18.0.0 activated [70ms]
+2026-06-06 10:00:58.307 [info]    [   65 →    66] GlCliGitProvider.findGit Git (2.54.0.windows.1) found in C:\Program Files\Git\cmd\git.exe [132ms]
+2026-06-06 10:00:58.307 [info]    [   65 →    90] GlCliGitProvider.repositorySearch(g:\VM FOLDER\AppleALC.worktrees\agents-sad-roundworm) searching (depth=1)...
+2026-06-06 10:00:58.307 [info]    [GIT      94ms] [g:\VM FOLDER\AppleALC.worktrees\agents-sad-roundworm] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree [94ms]
+2026-06-06 10:00:58.307 [info]    [IPC          ] CLI capability published on http://127.0.0.1:29639
+2026-06-06 10:00:58.307 [info]    [   65 →    90] GlCliGitProvider.repositorySearch(g:\VM FOLDER\AppleALC.worktrees\agents-sad-roundworm) found root repository in 'g:\VM FOLDER\AppleALC.worktrees\agents-sad-roundworm'
+2026-06-06 10:00:58.543 [info]    [   64 →    65] GlCliGitProvider.discoverRepositories auto-opening 1 discovered repo(s) in SCM (autoRepositoryDetection=true)
+2026-06-06 10:00:58.574 [info]    [GIT      27ms] [g:/VM FOLDER/AppleALC.worktrees/agents-sad-roundworm] git remote -v [27ms]
+2026-06-06 10:00:58.765 [info]    [GIT     191ms] [g:/VM FOLDER/AppleALC] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree [191ms]
+2026-06-06 10:00:58.766 [info]    [GIT     207ms] [g:\VM FOLDER\AppleALC.worktrees\agents-sad-roundworm] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree [207ms]
+2026-06-06 10:00:58.989 [info]    [GIT     211ms] [g:/VM FOLDER/AppleALC.worktrees/agents-sad-roundworm] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree [211ms]
+2026-06-06 10:00:59.021 [info]    [GIT      32ms] [g:/VM FOLDER/AppleALC.worktrees/agents-sad-roundworm] git config --get -f g:\VM FOLDER\AppleALC\.git\gk\config gk.defaultRemote [32ms]
+2026-06-06 10:01:03.502 [warning] [   7d →   102] GkCliIntegrationProvider.checkCliUpdateRequired completed [*2619ms] (slow)
+2026-06-06 10:01:03.502 [info]    [CLI          ] CLI core version is 3.1.67
+2026-06-06 10:01:03.817 [error]   [GIT          ] [g:\VM FOLDER\AppleALC\.git\worktrees\agents-sad-roundworm] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree · this operation must be run in a work tree [22ms]
+2026-06-06 10:01:03.844 [info]    [GIT      26ms] [g:\VM FOLDER\AppleALC\.git\worktrees\agents-sad-roundworm] git rev-parse --is-bare-repository [26ms]
+2026-06-06 10:01:03.870 [error]   [GIT          ] [g:\VM FOLDER\AppleALC\.git\worktrees] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree · this operation must be run in a work tree [25ms]
+2026-06-06 10:01:03.893 [info]    [GIT      22ms] [g:\VM FOLDER\AppleALC\.git\worktrees] git rev-parse --is-bare-repository [22ms]
+2026-06-06 10:01:03.914 [error]   [GIT          ] [g:\VM FOLDER\AppleALC\.git] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree · this operation must be run in a work tree [21ms]
+2026-06-06 10:01:03.935 [info]    [GIT      20ms] [g:\VM FOLDER\AppleALC\.git] git rev-parse --is-bare-repository [20ms]
+2026-06-06 10:01:03.963 [info]    [GIT      28ms] [g:\VM FOLDER\AppleALC] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree [28ms]
+2026-06-06 10:01:03.965 [info]    [  132 →   133] GitProviderService.getOrOpenRepository Repository found in 'file:///g:/VM FOLDER/AppleALC'
+2026-06-06 10:01:03.988 [info]    [GIT      22ms] [g:/VM FOLDER/AppleALC] git ls-files -- .git/worktrees/agents-sad-roundworm/COMMIT_EDITMSG [22ms]
+2026-06-06 10:01:04.010 [info]    [GIT      21ms] [g:/VM FOLDER/AppleALC/.git/worktrees/agents-sad-roundworm] git ls-files -- COMMIT_EDITMSG [21ms]
+2026-06-06 10:01:33.572 [info]    [GIT      25ms] [g:/VM FOLDER/AppleALC] git rev-list --max-parents=0 HEAD -- [25ms]
+2026-06-06 10:01:33.574 [info]    [GIT      21ms] [g:/VM FOLDER/AppleALC.worktrees/agents-sad-roundworm] git remote -v [21ms]
+2026-06-06 10:01:33.579 [info]    [GIT      32ms] [g:/VM FOLDER/AppleALC] git shortlog -s --all --no-min-parents --since=1.year.ago [32ms]
+2026-06-06 10:01:33.598 [info]    [GIT      20ms] [g:/VM FOLDER/AppleALC] git config --get-regex -f g:\VM FOLDER\AppleALC\.git\gk\config ^branch\..*\.gk-(last-(accessed|modified)|disposition|agent-last-activity)$ [20ms]
+2026-06-06 10:01:33.599 [info]    [GIT      24ms] [g:/VM FOLDER/AppleALC] git for-each-ref --format=%1E%(HEAD)%1D%(refname)%1D%(objectname)%1D%(*objectname)%1D%(upstream)%1D%(upstream:track)%1D%(committerdate:iso8601)%1D%(creatordate:iso8601)%1D%(authordate:iso8601)%1D%(subject)%1D%(worktreepath)%1D refs/heads/ refs/remotes/ refs/tags/ [24ms]
+2026-06-06 10:01:34.535 [info]    [  19d →   19e] LocalSharedGkStorageLocationProvider.load Using shared GK path: C:\Users\johnm\AppData\Local\gk
+2026-06-06 10:02:07.340 [info]    [GIT      33ms] [g:/VM FOLDER/AppleALC.worktrees/agents-sad-roundworm] git ls-files -- Changelog.md [33ms]
+2026-06-06 10:02:07.365 [info]    [GIT      24ms] [g:/VM FOLDER/AppleALC.worktrees/agents-sad-roundworm] git config --get-regex ^user\.(name|email)$ [24ms]
+2026-06-06 10:02:07.389 [info]    [GIT      23ms] [g:/VM FOLDER/AppleALC.worktrees/agents-sad-roundworm] git check-mailmap johnmcnicholas-arch <johnmcnicholas@live.com> [23ms]
+2026-06-06 10:02:07.392 [info]    [GIT:→1       ] (spawn) [g:/VM FOLDER/AppleALC.worktrees/agents-sad-roundworm] git blame --root --incremental --encoding=utf-8 a822e7c7e8f301bbedd60cca631789acd437ba24 -- Changelog.md · starting...
+2026-06-06 10:02:07.438 [info]    [GIT:←1   48ms] (spawn) [g:/VM FOLDER/AppleALC.worktrees/agents-sad-roundworm] git blame --root --incremental --encoding=utf-8 a822e7c7e8f301bbedd60cca631789acd437ba24 -- Changelog.md [48ms]
+2026-06-06 10:02:07.592 [warning] [  1ce →   1cf] LineAnnotationController.refresh • pull request queries took too long (over 100 ms)
+2026-06-06 10:02:07.623 [info]    [GIT      35ms] [g:/VM FOLDER/AppleALC.worktrees/agents-sad-roundworm] git log --format=%x1E%H%x1D%aN%x1D%aE%x1D%at%x1D%cN%x1D%cE%x1D%ct%x1D%P%x1D%D%x1D%B%x1D --numstat --raw -M --use-mailmap -m --no-min-parents -n1 a822e7c7e8f301bbedd60cca631789acd437ba24 -- [35ms]
+2026-06-06 10:02:07.624 [warning] [  1d3 →   1d4] StatusBarController.updateBlame • pull request query took too long (over 100 ms)
+2026-06-06 10:02:14.346 [info]    [GIT      25ms] [g:/VM FOLDER/AppleALC.worktrees/agents-sad-roundworm] git ls-files -- Resources/ALC898/Info.plist [25ms]
+2026-06-06 10:02:14.349 [info]    [GIT:→2       ] (spawn) [g:/VM FOLDER/AppleALC.worktrees/agents-sad-roundworm] git blame --root --incremental --encoding=utf-8 dce81881f228f7cd68a2f44bb6c3d2dee931d885 -- Resources/ALC898/Info.plist · starting...
+2026-06-06 10:02:14.363 [info]    [GIT      23ms] [g:/VM FOLDER/AppleALC.worktrees/agents-sad-roundworm] git ls-files -- Resources/ALC898/Platforms64.xml [23ms]
+2026-06-06 10:02:14.382 [info]    [GIT:←2   35ms] (spawn) [g:/VM FOLDER/AppleALC.worktrees/agents-sad-roundworm] git blame --root --incremental --encoding=utf-8 dce81881f228f7cd68a2f44bb6c3d2dee931d885 -- Resources/ALC898/Info.plist [35ms]
+2026-06-06 10:02:14.503 [warning] [  23a →   23b] LineAnnotationController.refresh • pull request queries took too long (over 100 ms)
+2026-06-06 10:02:14.503 [warning] [  23f →   240] StatusBarController.updateBlame • pull request query took too long (over 100 ms)
+2026-06-06 10:02:14.513 [info]    [GIT      29ms] [g:/VM FOLDER/AppleALC.worktrees/agents-sad-roundworm] git log --format=%x1E%H%x1D%aN%x1D%aE%x1D%at%x1D%cN%x1D%cE%x1D%ct%x1D%P%x1D%D%x1D%B%x1D --numstat --raw -M --use-mailmap -m --no-min-parents -n1 dce81881f228f7cd68a2f44bb6c3d2dee931d885 -- [29ms]
+2026-06-06 10:02:16.276 [info]    [GIT      25ms] [g:/VM FOLDER/AppleALC.worktrees/agents-sad-roundworm] git ls-files -- Resources/ALC892/Info.plist [25ms]
+2026-06-06 10:02:16.279 [info]    [GIT:→3       ] (spawn) [g:/VM FOLDER/AppleALC.worktrees/agents-sad-roundworm] git blame --root --incremental --encoding=utf-8 6ee095652c06433b980740f1d3328f331787090f -- Resources/ALC892/Info.plist · starting...
+2026-06-06 10:02:16.314 [info]    [GIT:←3   37ms] (spawn) [g:/VM FOLDER/AppleALC.worktrees/agents-sad-roundworm] git blame --root --incremental --encoding=utf-8 6ee095652c06433b980740f1d3328f331787090f -- Resources/ALC892/Info.plist [37ms]
+2026-06-06 10:02:16.424 [warning] [  283 →   284] LineAnnotationController.refresh • pull request queries took too long (over 100 ms)
+2026-06-06 10:02:16.425 [warning] [  288 →   289] StatusBarController.updateBlame • pull request query took too long (over 100 ms)
+2026-06-06 10:02:16.442 [info]    [GIT      26ms] [g:/VM FOLDER/AppleALC.worktrees/agents-sad-roundworm] git log --format=%x1E%H%x1D%aN%x1D%aE%x1D%at%x1D%cN%x1D%cE%x1D%ct%x1D%P%x1D%D%x1D%B%x1D --numstat --raw -M --use-mailmap -m --no-min-parents -n1 6ee095652c06433b980740f1d3328f331787090f -- [26ms]
+2026-06-06 10:02:18.950 [info]    [GIT      25ms] [g:/VM FOLDER/AppleALC.worktrees/agents-sad-roundworm] git ls-files -- Resources/ALC897/Info.plist [25ms]
+2026-06-06 10:02:18.964 [info]    [GIT      22ms] [g:/VM FOLDER/AppleALC.worktrees/agents-sad-roundworm] git ls-files -- Resources/ALC897/Platforms31.xml [22ms]
+2026-06-06 10:02:18.966 [info]    [GIT:→4       ] (spawn) [g:/VM FOLDER/AppleALC.worktrees/agents-sad-roundworm] git blame --root --incremental --encoding=utf-8 f4d66f9bfe3914a14d0ac203b2e4ed0cb47960be -- Resources/ALC897/Platforms31.xml · starting...
+2026-06-06 10:02:18.989 [info]    [GIT:←4   25ms] (spawn) [g:/VM FOLDER/AppleALC.worktrees/agents-sad-roundworm] git blame --root --incremental --encoding=utf-8 f4d66f9bfe3914a14d0ac203b2e4ed0cb47960be -- Resources/ALC897/Platforms31.xml [25ms]
+2026-06-06 10:02:18.992 [info]    [GIT:→5       ] (spawn) [g:/VM FOLDER/AppleALC.worktrees/agents-sad-roundworm] git blame --root --incremental --encoding=utf-8 f4d66f9bfe3914a14d0ac203b2e4ed0cb47960be -- Resources/ALC897/Info.plist · starting...
+2026-06-06 10:02:19.016 [info]    [GIT:←5   26ms] (spawn) [g:/VM FOLDER/AppleALC.worktrees/agents-sad-roundworm] git blame --root --incremental --encoding=utf-8 f4d66f9bfe3914a14d0ac203b2e4ed0cb47960be -- Resources/ALC897/Info.plist [26ms]
+2026-06-06 10:02:19.127 [warning] [  2f2 →   2f3] LineAnnotationController.refresh • pull request queries took too long (over 100 ms)
+2026-06-06 10:02:19.127 [warning] [  2f7 →   2f8] StatusBarController.updateBlame • pull request query took too long (over 100 ms)
+2026-06-06 10:02:19.146 [info]    [GIT      28ms] [g:/VM FOLDER/AppleALC.worktrees/agents-sad-roundworm] git log --format=%x1E%H%x1D%aN%x1D%aE%x1D%at%x1D%cN%x1D%cE%x1D%ct%x1D%P%x1D%D%x1D%B%x1D --numstat --raw -M --use-mailmap -m --no-min-parents -n1 f4d66f9bfe3914a14d0ac203b2e4ed0cb47960be -- [28ms]
+2026-06-06 10:02:24.639 [info]    [GIT      24ms] [g:/VM FOLDER/AppleALC.worktrees/agents-sad-roundworm] git ls-files -- .vscode/settings.json [24ms]
+2026-06-06 10:02:24.641 [info]    [GIT:→6       ] (spawn) [g:/VM FOLDER/AppleALC.worktrees/agents-sad-roundworm] git blame --root --incremental --encoding=utf-8 -- .vscode/settings.json · starting...
+2026-06-06 10:02:24.664 [info]    [GIT:←6   25ms] (spawn) [g:/VM FOLDER/AppleALC.worktrees/agents-sad-roundworm] git blame --root --incremental --encoding=utf-8 -- .vscode/settings.json [25ms]
+2026-06-06 10:02:24.673 [info]    [GIT:→7       ] (spawn) [g:/VM FOLDER/AppleALC.worktrees/agents-sad-roundworm] git blame --root --incremental --encoding=utf-8 HEAD -- .vscode/settings.json · starting...
+2026-06-06 10:02:24.694 [error]   [GIT          ] [g:/VM FOLDER/AppleALC.worktrees/agents-sad-roundworm] git show --textconv HEAD:./.vscode/settings.json -- · bad revision 'HEAD:./.vscode/settings.json' [28ms]
+2026-06-06 10:02:24.694 [error] Error: Unable to show '.vscode/settings.json' at revision 'HEAD' because the specified revision is invalid   [  329 →   32a] RevisionGitSubProvider.getRevisionContent — failed [29ms]
+2026-06-06 10:02:24.696 [error]   [GIT:←7       ] (spawn) [g:/VM FOLDER/AppleALC.worktrees/agents-sad-roundworm] git blame --root --incremental --encoding=utf-8 HEAD -- .vscode/settings.json · no such path .vscode/settings.json in HEAD [24ms]
+2026-06-06 10:02:24.696 [info]    [GIT      27ms] [g:/VM FOLDER/AppleALC.worktrees/agents-sad-roundworm] git status --porcelain=v2 --branch -u --find-renames -- [27ms]
+2026-06-06 10:02:24.729 [error]   [GIT          ] [g:/VM FOLDER/AppleALC.worktrees/agents-sad-roundworm] git log --format=%x1E%H%x1D -n2 -L1,1:.vscode/settings.json · There is no path .vscode/settings.json in the commit [32ms]
+2026-06-06 10:02:24.729 [error] Error: fatal: There is no path .vscode/settings.json in the commit   [  332 →   337] DiffGitSubProvider.getPreviousComparisonUrisForRange 
+2026-06-06 10:02:24.729 [error] Error: fatal: There is no path .vscode/settings.json in the commit   [  332 →   337] DiffGitSubProvider.getPreviousComparisonUrisForRange — failed [61ms]
+2026-06-06 10:03:28.257 [info]    [GIT      21ms] [g:/VM FOLDER/AppleALC.worktrees/agents-sad-roundworm] git config --get -f g:\VM FOLDER\AppleALC\.git\gk\config branch.agents/sad-roundworm.gk-last-accessed [21ms]
+2026-06-06 10:03:28.281 [info]    [GIT      23ms] [g:/VM FOLDER/AppleALC.worktrees/agents-sad-roundworm] git config -f g:\VM FOLDER\AppleALC\.git\gk\config branch.agents/sad-roundworm.gk-last-accessed 2026-06-06T02:03:28.236Z [23ms]
+2026-06-06 10:03:34.039 [info]    [GIT      23ms] [g:/VM FOLDER/AppleALC.worktrees/agents-sad-roundworm] git config --get -f g:\VM FOLDER\AppleALC\.git\gk\config branch.agents/sad-roundworm.gk-last-accessed [23ms]
+2026-06-06 10:03:34.060 [info]    [GIT      21ms] [g:/VM FOLDER/AppleALC.worktrees/agents-sad-roundworm] git config --get -f g:\VM FOLDER\AppleALC\.git\gk\config branch.agents/sad-roundworm.gk-last-modified [21ms]
+2026-06-06 10:03:34.082 [info]    [GIT      21ms] [g:/VM FOLDER/AppleALC.worktrees/agents-sad-roundworm] git config -f g:\VM FOLDER\AppleALC\.git\gk\config branch.agents/sad-roundworm.gk-last-modified 2026-06-06T02:03:34.016Z [21ms]
+2026-06-06 10:05:23.569 [info]    [GIT      22ms] [g:/VM FOLDER/AppleALC.worktrees/agents-sad-roundworm] git diff --no-ext-diff --minimal -U0 -M --diff-filter=MRC -- .vscode/settings.json [22ms]
+2026-06-06 10:05:23.573 [info]    [GIT      30ms] [g:/VM FOLDER/AppleALC.worktrees/agents-sad-roundworm] git status --porcelain=v2 --branch -u --find-renames -- [30ms]
+2026-06-06 10:05:23.593 [info]    [GIT      22ms] [g:/VM FOLDER/AppleALC.worktrees/agents-sad-roundworm] git diff --no-ext-diff --minimal -U0 -M --diff-filter=MRC --staged -- .vscode/settings.json [22ms]
+2026-06-06 10:05:23.594 [error]   [GIT          ] [g:/VM FOLDER/AppleALC.worktrees/agents-sad-roundworm] git log --format=%x1E%H%x1D -n2 -L1,1:.vscode/settings.json · There is no path .vscode/settings.json in the commit [21ms]
+2026-06-06 10:05:23.595 [error] Error: fatal: There is no path .vscode/settings.json in the commit   [  382 →   387] DiffGitSubProvider.getPreviousComparisonUrisForRange 
+2026-06-06 10:05:23.595 [error] Error: fatal: There is no path .vscode/settings.json in the commit   [  382 →   387] DiffGitSubProvider.getPreviousComparisonUrisForRange — failed [52ms]
+2026-06-06 10:07:46.761 [info]    [GIT      24ms] [g:/VM FOLDER/AppleALC.worktrees/agents-sad-roundworm] git ls-files -- Resources/ALC897/Info.plist [24ms]
+2026-06-06 10:08:00.159 [info]    [GIT      29ms] [g:/VM FOLDER/AppleALC.worktrees/agents-sad-roundworm] git status --porcelain=v2 --branch -u --find-renames -- [29ms]
+2026-06-06 10:08:00.182 [error]   [GIT          ] [g:/VM FOLDER/AppleALC.worktrees/agents-sad-roundworm] git log --format=%x1E%H%x1D -n2 -L1,1:.vscode/settings.json · There is no path .vscode/settings.json in the commit [22ms]
+2026-06-06 10:08:00.182 [error] Error: fatal: There is no path .vscode/settings.json in the commit   [  408 →   40c] DiffGitSubProvider.getPreviousComparisonUrisForRange 
+2026-06-06 10:08:00.182 [error] Error: fatal: There is no path .vscode/settings.json in the commit   [  408 →   40c] DiffGitSubProvider.getPreviousComparisonUrisForRange — failed [52ms]
+2026-06-06 10:08:02.322 [info]    [GIT      31ms] [g:/VM FOLDER/AppleALC.worktrees/agents-sad-roundworm] git log --format=%x1E%H%x1D --summary -n1 37aa8ebafa94b1da6d52436acf68f7b24aa3bcee^ -- Resources/ALC897/Info.plist [31ms]
+2026-06-06 10:08:02.323 [info]    [GIT      29ms] [g:/VM FOLDER/AppleALC.worktrees/agents-sad-roundworm] git log --format=%x1E%H%x1D%aN%x1D%aE%x1D%at%x1D%cN%x1D%cE%x1D%ct%x1D%P%x1D%D%x1D%B%x1D --numstat --raw -M --use-mailmap -m --no-min-parents -n1 37aa8ebafa94b1da6d52436acf68f7b24aa3bcee -- [29ms]
+2026-06-06 10:08:15.693 [info]    [GIT      28ms] [g:/VM FOLDER/AppleALC.worktrees/agents-sad-roundworm] git status --porcelain=v2 --branch -u --find-renames -- [28ms]
+2026-06-06 10:08:15.715 [error]   [GIT          ] [g:/VM FOLDER/AppleALC.worktrees/agents-sad-roundworm] git log --format=%x1E%H%x1D -n2 -L1,1:.vscode/settings.json · There is no path .vscode/settings.json in the commit [22ms]
+2026-06-06 10:08:15.715 [error] Error: fatal: There is no path .vscode/settings.json in the commit   [  486 →   48a] DiffGitSubProvider.getPreviousComparisonUrisForRange 
+2026-06-06 10:08:15.715 [error] Error: fatal: There is no path .vscode/settings.json in the commit   [  486 →   48a] DiffGitSubProvider.getPreviousComparisonUrisForRange — failed [51ms]
+2026-06-06 10:08:40.791 [info]    [GIT      26ms] [g:/VM FOLDER/AppleALC.worktrees/agents-sad-roundworm] git status --porcelain=v2 --branch -u --find-renames -- [26ms]
+2026-06-06 10:08:40.813 [error]   [GIT          ] [g:/VM FOLDER/AppleALC.worktrees/agents-sad-roundworm] git log --format=%x1E%H%x1D -n2 -L1,1:.vscode/settings.json · There is no path .vscode/settings.json in the commit [21ms]
+2026-06-06 10:08:40.813 [error] Error: fatal: There is no path .vscode/settings.json in the commit   [  4af →   4b3] DiffGitSubProvider.getPreviousComparisonUrisForRange 
+2026-06-06 10:08:40.813 [error] Error: fatal: There is no path .vscode/settings.json in the commit   [  4af →   4b3] DiffGitSubProvider.getPreviousComparisonUrisForRange — failed [49ms]
+2026-06-06 10:09:15.714 [info]    [GIT      29ms] [g:/VM FOLDER/AppleALC.worktrees/agents-sad-roundworm] git ls-files -- Changelog.md [29ms]
+2026-06-06 10:09:19.873 [info]    [GIT      25ms] [g:/VM FOLDER/AppleALC.worktrees/agents-sad-roundworm] git ls-files -- Resources/ALC256/Info.plist [25ms]
+2026-06-06 10:09:19.875 [info]    [GIT:→8       ] (spawn) [g:/VM FOLDER/AppleALC.worktrees/agents-sad-roundworm] git blame --root --incremental --encoding=utf-8 e6277c2fcaedd27f4ac4897fac65c0569596ba24 -- Resources/ALC256/Info.plist · starting...
+2026-06-06 10:09:19.913 [info]    [GIT:←8   39ms] (spawn) [g:/VM FOLDER/AppleALC.worktrees/agents-sad-roundworm] git blame --root --incremental --encoding=utf-8 e6277c2fcaedd27f4ac4897fac65c0569596ba24 -- Resources/ALC256/Info.plist [39ms]
+2026-06-06 10:09:19.916 [info]    [GIT:→9       ] (spawn) [g:/VM FOLDER/AppleALC.worktrees/agents-sad-roundworm] git blame --root --incremental --encoding=utf-8 e6277c2fcaedd27f4ac4897fac65c0569596ba24 -- Changelog.md · starting...
+2026-06-06 10:09:19.966 [info]    [GIT:←9   52ms] (spawn) [g:/VM FOLDER/AppleALC.worktrees/agents-sad-roundworm] git blame --root --incremental --encoding=utf-8 e6277c2fcaedd27f4ac4897fac65c0569596ba24 -- Changelog.md [52ms]
+2026-06-06 10:09:20.071 [warning] [  561 →   562] LineAnnotationController.refresh • pull request queries took too long (over 100 ms)
+2026-06-06 10:09:20.071 [warning] [  566 →   567] StatusBarController.updateBlame • pull request query took too long (over 100 ms)
+2026-06-06 10:09:20.097 [info]    [GIT      28ms] [g:/VM FOLDER/AppleALC.worktrees/agents-sad-roundworm] git log --format=%x1E%H%x1D%aN%x1D%aE%x1D%at%x1D%cN%x1D%cE%x1D%ct%x1D%P%x1D%D%x1D%B%x1D --numstat --raw -M --use-mailmap -m --no-min-parents -n1 e6277c2fcaedd27f4ac4897fac65c0569596ba24 -- [28ms]
+2026-06-06 10:09:32.916 [info]    [GIT      23ms] [g:/VM FOLDER/AppleALC.worktrees/agents-sad-roundworm] git ls-files -- AppleALC.xcodeproj/project.pbxproj [23ms]
+2026-06-06 10:09:32.919 [info]    [GIT:→10      ] (spawn) [g:/VM FOLDER/AppleALC.worktrees/agents-sad-roundworm] git blame --root --incremental --encoding=utf-8 b31765eb65de5536731b9fd88ead43d33ae502ef -- AppleALC.xcodeproj/project.pbxproj · starting...
+2026-06-06 10:09:32.957 [info]    [GIT:←10  40ms] (spawn) [g:/VM FOLDER/AppleALC.worktrees/agents-sad-roundworm] git blame --root --incremental --encoding=utf-8 b31765eb65de5536731b9fd88ead43d33ae502ef -- AppleALC.xcodeproj/project.pbxproj [40ms]
+2026-06-06 10:09:33.061 [warning] [  5b1 →   5b2] LineAnnotationController.refresh • pull request queries took too long (over 100 ms)
+2026-06-06 10:09:33.061 [warning] [  5b6 →   5b7] StatusBarController.updateBlame • pull request query took too long (over 100 ms)
+2026-06-06 10:09:33.085 [info]    [GIT      27ms] [g:/VM FOLDER/AppleALC.worktrees/agents-sad-roundworm] git log --format=%x1E%H%x1D%aN%x1D%aE%x1D%at%x1D%cN%x1D%cE%x1D%ct%x1D%P%x1D%D%x1D%B%x1D --numstat --raw -M --use-mailmap -m --no-min-parents -n1 b31765eb65de5536731b9fd88ead43d33ae502ef -- [27ms]
+2026-06-06 10:09:58.121 [error] CodeExpectedError: Unable to write into user settings. Please open the user settings to correct errors/warnings in it and try again.   [          5da] AIProviderService.sendRequest — failed [347ms]
+2026-06-06 10:09:58.121 [error] CodeExpectedError: Unable to write into user settings. Please open the user settings to correct errors/warnings in it and try again.   GenerateCommitMessageCommand
