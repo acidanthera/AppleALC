@@ -92,6 +92,14 @@
 				<key>Path</key>
 				<string>layout12.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>UHDbits - Realtek ALC283/ALC3239 for the Lenovo ThinkCentre M73 Tiny</string>
+				<key>Id</key>
+				<integer>73</integer>
+				<key>Path</key>
+				<string>layout73.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -174,6 +182,14 @@
 				<integer>12</integer>
 				<key>Path</key>
 				<string>Platforms12.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>UHDbits - Realtek ALC283/ALC3239 for the Lenovo ThinkCentre M73 Tiny</string>
+				<key>Id</key>
+				<integer>73</integer>
+				<key>Path</key>
+				<string>Platforms73.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>
