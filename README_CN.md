@@ -1,7 +1,7 @@
 AppleALC
 ========
 
-[![Build Status](https://github.com/acidanthera/AppleALC/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/acidanthera/AppleALC/actions) [![Scan Status](https://scan.coverity.com/projects/16166/badge.svg?flat=1)](https://scan.coverity.com/projects/16166)
+[![AppleALC build status badge showing the current build result on the master branch from GitHub Actions](https://github.com/acidanthera/AppleALC/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/acidanthera/AppleALC/actions) [![Code scan status badge from Coverity showing the security and quality analysis results](https://scan.coverity.com/projects/16166/badge.svg?flat=1)](https://scan.coverity.com/projects/16166)
 
 一个开源的内核扩展，为非官方的声卡提供支持的 Codec，无需修改任何系统文件，即可启用原生的 macOS HD 音频，AppleALCU 可用于具有纯数字音频的系统。
 
