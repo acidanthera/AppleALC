@@ -1,5 +1,8 @@
 AppleALC Changelog
 ==================
+#### v1.9.8
+- Added ALC255 layout-id 16 for Gigabyte Aorus 15G (warm-reboot/sleep audio fix) by Andergraw
+
 #### v1.9.7
 - Added ALC897 layout-id 31 for MSI X670E Gaming WIFI by yandong31
 - ALC892 changed MinKernel 13->12 by bugprogrammer

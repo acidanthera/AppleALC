@@ -22,6 +22,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Custom - Realtek ALC255 for Gigabyte Aorus 15G (warm-reboot/sleep audio fix, same as layout 3) by Andergraw</string>
+				<key>Id</key>
+				<integer>16</integer>
+				<key>Path</key>
+				<string>layout3.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>ALC255 Optiplex</string>
 				<key>Id</key>
 				<integer>12</integer>
@@ -236,6 +244,14 @@
 				<string>Mirone Laptop Patch ALC255</string>
 				<key>Id</key>
 				<integer>3</integer>
+				<key>Path</key>
+				<string>PlatformsM.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom - Realtek ALC255 for Gigabyte Aorus 15G (warm-reboot/sleep audio fix, same as layout 3) by Andergraw</string>
+				<key>Id</key>
+				<integer>16</integer>
 				<key>Path</key>
 				<string>PlatformsM.xml.zlib</string>
 			</dict>
