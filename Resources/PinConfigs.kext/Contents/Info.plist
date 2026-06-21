@@ -8710,6 +8710,24 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>CodecID</key>
+					<integer>283906408</integer>
+					<key>CodecName</key>
+					<string>ALCS1220A for ROG MAXIMUS XI GENE by Xezun</string>
+					<key>ConfigData</key>
+					<data>AScc8AEnHQABJx4AAScfQAFHHBABRx1AAUceEQFHH5EBRwwCAVccIAFXHRABVx4BAVcfkQFnHDABZx1gAWceAQFnH5EBdxzwAXcdAAF3HgABdx9AAYccQAGHHZABhx6hAYcfkQGXHGABlx1QAZcegQGXHwIBpxxQAacdMAGnHoEBpx+RAbcccAG3HUABtx4hAbcfAgG3DAIB1xzwAdcdAAHXHgAB1x9AAecckAHnHSEB5x5FAecfAQ==</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>6</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>CodecID</key>
 					<integer>283904768</integer>
 					<key>CodecName</key>
 					<string>GeorgeWan - ALCS1200A for ASROCK-Z490-Steel-Legend</string>
