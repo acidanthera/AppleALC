@@ -1,5 +1,8 @@
 AppleALC Changelog
 ==================
+#### v1.9.8
+- Added ALCS1200A layout-id 52 for MAG B660M MORTAR WIFI DDR4 by Kinghammer1
+
 #### v1.9.7
 - Added ALC897 layout-id 31 for MSI X670E Gaming WIFI by yandong31
 - ALC892 changed MinKernel 13->12 by bugprogrammer
