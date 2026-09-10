@@ -1,6 +1,7 @@
 AppleALC Changelog
 ==================
 #### v1.9.7
+- Added ALC289 layout-id 13 pin config for node 0x17 (XPS 15 9500 woofers) by MAXZVER
 - Added ALC897 layout-id 31 for MSI X670E Gaming WIFI by yandong31
 - ALC892 changed MinKernel 13->12 by bugprogrammer
 - Added ALC898 layout-id 64 for AsRock Fatal1ty by AndrewK2685
