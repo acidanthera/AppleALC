@@ -228,6 +228,14 @@
 				<key>Path</key>
 				<string>layout80.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>ALC3234/ALC255 - Dell OptiPlex 3060 MFF - Lorys89</string>
+				<key>Id</key>
+				<integer>89</integer>
+				<key>Path</key>
+				<string>layout89.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -446,6 +454,14 @@
 				<integer>80</integer>
 				<key>Path</key>
 				<string>Platforms80.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>ALC3234/ALC255 - Dell OptiPlex 3060 MFF - Lorys89</string>
+				<key>Id</key>
+				<integer>89</integer>
+				<key>Path</key>
+				<string>Platforms89.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>
