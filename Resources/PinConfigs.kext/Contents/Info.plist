@@ -1769,6 +1769,24 @@
 					<true/>
 				</dict>
 				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>Custom - Realtek ALC255 for Gigabyte Aorus 15G (warm-reboot/sleep audio fix) by Andergraw</string>
+					<key>CodecID</key>
+					<integer>283902549</integer>
+					<key>ConfigData</key>
+					<data>ASccEAEnHQABJx6mAScfkAFHHCABRx0AAUceFwFHH5ABlxwwAZcdEAGXHosBlx8AAhccUAIXHRACFx4rAhcfAgFHDAICBQAQAgQAIA==</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>16</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgIFABACBAAg</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
 					<key>Codec</key>
 					<string>ALC255 for Dell Optiplex7060/7070MT(Separate LineOut)</string>
 					<key>CodecID</key>
