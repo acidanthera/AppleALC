@@ -1824,20 +1824,13 @@
 					<key>CodecID</key>
 					<integer>283902549</integer>
 					<key>ConfigData</key>
-					<data>
-					AUccEAFHHQEBRx4XAUcfkAGXHBABlx0RAZce
-					gQGXHwQBtxwgAbcdEAG3HgEBtx8CAhccXwIX
-					HRACFx4hAhcfAgFHDAIBtwwCAhcMAgGXBiQC
-					BQBFAgTWiQ==
-					</data>
+					<data>AUccEAFHHQEBRx4XAUcfkAGXHBABlx0RAZcegQGXHwQBtxwgAbcdEAG3HgEBtx8CAhccXwIXHRACFx4hAhcfAgFHDAIBtwwCAhcMAgGXBiQCBQBFAgTWiQ==</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>89</integer>
 					<key>WakeConfigData</key>
-					<data>
-					AUcMAgG3DAICFwwCAZcGJAIFAEUCBNaJ
-					</data>
+					<data>AUcMAgG3DAICFwwCAZcGJAIFAEUCBNaJ</data>
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
