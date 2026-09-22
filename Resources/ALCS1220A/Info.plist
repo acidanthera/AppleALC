@@ -116,6 +116,14 @@
 				<key>Path</key>
 				<string>layout89.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>MSI MPG Z390 GAMING PRO CARBON AC - Realtek ALC1220P-VB2 (0x10EC1168, subsystem 0x1462CB17) - independent rear green, front headphone, rear orange, rear black and optical S/PDIF outputs; rear/front microphone and line-in - layout 88 - Tahsin Faiyaz</string>
+				<key>Id</key>
+				<integer>88</integer>
+				<key>Path</key>
+				<string>layout88.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -222,6 +230,14 @@
 				<integer>89</integer>
 				<key>Path</key>
 				<string>Platforms89.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>MSI MPG Z390 GAMING PRO CARBON AC - Realtek ALC1220P-VB2 (0x10EC1168, subsystem 0x1462CB17) - independent rear green, front headphone, rear orange, rear black and optical S/PDIF outputs; rear/front microphone and line-in - layout 88 - Tahsin Faiyaz</string>
+				<key>Id</key>
+				<integer>88</integer>
+				<key>Path</key>
+				<string>Platforms88.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>

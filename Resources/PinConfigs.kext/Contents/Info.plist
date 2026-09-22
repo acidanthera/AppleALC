@@ -31,6 +31,24 @@
 				<dict>
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
+					<key>CodecID</key>
+					<integer>283906408</integer>
+					<key>CodecName</key>
+					<string>MSI MPG Z390 Gaming Pro Carbon AC - Realtek ALC1220P-VB2 - Separate Outputs - Layout 88 - by Tahsin Faiyaz</string>
+					<key>ConfigData</key>
+					<data>ASccAAEnHcUBJx4HAScfQAFHHBABRx1AAUceAQFHHwEBRwwCAWccMAFnHWABZx4BAWcfAQFXHEABVx0QAVceAQFXHwEBtxwgAbcdQAG3HiEBtx8CAbcMAgHXHCkB1x3mAdceRwHXH0AB5xxQAecdEQHnHkUB5x8BAYccYAGHHZABhx6hAYcfAQGnHIABpx0wAacegQGnHwEBlxxwAZcdkAGXHqEBlx8CAXcc8AF3HREBdx4RAXcfQQ==</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>88</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgG3DAI=</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
 					<key>Codec</key>
 					<string>Msi X670E Gaming Wifi  ALC897 by ycg31</string>
 					<key>CodecID</key>
