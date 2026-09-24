@@ -31,6 +31,24 @@
 				<dict>
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
+					<key>CodecID</key>
+					<integer>283904151</integer>
+					<key>Comment</key>
+					<string>Realtek ALC897 for ASUS B560M Tuf Gaming Plus</string>
+					<key>ConfigData</key>
+					<data>AUccEAFHHUABRx4BAUcfAQFHDAIBtxwgAbcdQAG3HiEBtx8BAbcMAgGHHDABhx2QAYceoQGHHwEBFxxAARcdAAEXHjcBFx9AAeccUAHnHeAB5x5FAecfAQEnHGABJx3AASceFwEnH0ABVxxwAVcdEAFXHgEBVx8BAWccgAFnHWABZx4BAWcfAQF3HJABdx0AAXceFwF3H0ABlxygAZcdkAGXHqEBlx8CAaccsAGnHTABpx4BAacfAQHXHMAB1x3QAdceJQHXH0AANxzQADcdAAA3HlYANx8Q</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>97</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgIXDAI=</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
 					<key>Codec</key>
 					<string>Msi X670E Gaming Wifi  ALC897 by ycg31</string>
 					<key>CodecID</key>
