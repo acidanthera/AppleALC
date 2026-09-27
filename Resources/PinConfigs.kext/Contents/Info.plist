@@ -1837,6 +1837,22 @@
 					<true/>
 				</dict>
 				<dict>
+					<key>Codec</key>
+					<string>ALC3234/ALC255 Layout 89 - Dell OptiPlex 3060 MFF - Lorys89</string>
+					<key>CodecID</key>
+					<integer>283902549</integer>
+					<key>ConfigData</key>
+					<data>AUccEAFHHQEBRx4XAUcfkAGXHBABlx0RAZcegQGXHwQBtxwgAbcdEAG3HgEBtx8CAhccXwIXHRACFx4hAhcfAgFHDAIBtwwCAhcMAgGXBiQCBQBFAgTWiQ==</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>89</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgG3DAICFwwCAZcGJAIFAEUCBNaJ</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
@@ -2598,7 +2614,7 @@
 					<key>CodecID</key>
 					<integer>283902551</integer>
 					<key>ConfigData</key>
-					<data>ASccEAEnHQEBJx6gAScfkAGXHCABlx0wAZcegQGXHwEBRxwwAUcdYQFHHhABRx+QAUcMAgIXHEACFx1wAhceIQIXHwECFwwC</data>
+					<data>ASccIAEnHQEBJx6mAScfkAGXHDABlx0QAZcegQGXHwQBRxxAAUcdAQFHHhcBRx+QAUcMAgIXHFACFx0QAhceIQIXHwQCFwwC</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
@@ -11000,6 +11016,24 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>sunbo - Realtek ALC298 for Lenovo Yoga 9 15IMH5</string>
+					<key>CodecID</key>
+					<integer>283902616</integer>
+					<key>ConfigData</key>
+					<data>ASccgAEnHQEBJx6mAScfkAE3HAABNx0AATceAAE3H0ABRxxAAUcdAQFHHhcBRx+QAXcc8AF3HREBdx4RAXcfQQGHHCABhx0QAYceoQGHHwQBlxzwAZcdEQGXHhEBlx9BAacc8AGnHREBpx4RAacfQQHXHAEB1x0AAdcecAHXH0AB5xzwAecdEQHnHhEB5x9BAfcc8AH3HREB9x4RAfcfQQIXHBACFx0QAhceIQIXHwQBRwwCAhcMAg==</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>98</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgIXDAI=</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>nickleby92 - VIA VT1802 for Vit P2402</string>
 					<key>CodecID</key>
 					<integer>285639750</integer>
@@ -11039,6 +11073,24 @@
 					<integer>41</integer>
 					<key>WakeConfigData</key>
 					<data>AUcMAgIXDAI=</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>ALC269 for Infinix XBOOK B15 by kodeaqua</string>
+					<key>CodecID</key>
+					<integer>283902569</integer>
+					<key>ConfigData</key>
+					<data>ASccEAEnHQEBJx6mAScfkAGHHCABhx0QAYceiwGHHwIBRxxAAUcdAQFHHhcBRx9QAUcMAgFXHFABVx0QAVceKwFXHwIBVwwCAbccYAG3HUABtx4RAbcfkQF3HPABdx0AAXceAAF3H0ABlxzwAZcdAAGXHgABlx9AAacc8AGnHQABpx4AAacfQAHXHPAB1x0AAdceAAHXH0AB5xzwAecdAAHnHgAB5x9A</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>120</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAg==</data>
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
