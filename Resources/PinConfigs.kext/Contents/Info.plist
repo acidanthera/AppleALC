@@ -11130,6 +11130,24 @@
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>kodeaqua - Conexant CX8071 for Axioo Hype 7 AMD X7-2</string>
+					<key>CodecID</key>
+					<integer>351346567</integer>
+					<key>ConfigData</key>
+					<data>AXccEAF3HQABdx4XAXcfkQF3DAIBlxwwAZcdEAGXHoEBlx8AAWccQAFnHRABZx4hAWcfAAFnDAI=</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>11</integer>
+					<key>WakeConfigData</key>
+					<data>AXcMAgFnDAI=</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
 			</array>
 			<key>IOClass</key>
 			<string>AppleALC</string>
