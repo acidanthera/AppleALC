@@ -38,6 +38,22 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>antoniomcr96 - Realtek ALC257 for Lenovo Thinkpad L390</string>
+				<key>Id</key>
+				<integer>96</integer>
+				<key>Path</key>
+				<string>layout96.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>savvamitrofanov - Realtek ALC257 for Lenovo Thinkpad T490</string>
+				<key>Id</key>
+				<integer>97</integer>
+				<key>Path</key>
+				<string>layout97.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Realtek ALC257 for Lenovo XiaoXin Pro 2019(81XB/81XD) by DalianSky</string>
 				<key>Id</key>
 				<integer>99</integer>
@@ -51,6 +67,14 @@
 				<integer>100</integer>
 				<key>Path</key>
 				<string>layout100.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Hoping - Realtek ALC257 for Lenovo XiaoXin Air14ALC</string>
+				<key>Id</key>
+				<integer>101</integer>
+				<key>Path</key>
+				<string>layout101.xml.zlib</string>
 			</dict>
 		</array>
 		<key>Platforms</key>
@@ -81,6 +105,22 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>antoniomcr96 - Realtek ALC257 for Lenovo Thinkpad L390</string>
+				<key>Id</key>
+				<integer>96</integer>
+				<key>Path</key>
+				<string>Platforms96.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>savvamitrofanov - Realtek ALC257 for Lenovo Thinkpad T490</string>
+				<key>Id</key>
+				<integer>97</integer>
+				<key>Path</key>
+				<string>Platforms97.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Realtek ALC257 for Lenovo XiaoXin Pro 2019(81XB/81XD) by DalianSky</string>
 				<key>Id</key>
 				<integer>99</integer>
@@ -94,6 +134,14 @@
 				<integer>100</integer>
 				<key>Path</key>
 				<string>Platforms100.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Hoping - Realtek ALC257 for Lenovo XiaoXin Air14ALC</string>
+				<key>Id</key>
+				<integer>101</integer>
+				<key>Path</key>
+				<string>Platforms101.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>

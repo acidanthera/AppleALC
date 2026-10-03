@@ -38,6 +38,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>PIut02 - Realtek ALC285 for ROG-Zephyrus-G14</string>
+				<key>Id</key>
+				<integer>33</integer>
+				<key>Path</key>
+				<string>layout33.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Z Realtek ALC285 for thinkpad p52</string>
 				<key>Id</key>
 				<integer>52</integer>
@@ -102,6 +110,14 @@
 				<integer>31</integer>
 				<key>Path</key>
 				<string>Platforms31.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>PIut02 - Realtek ALC285 for ROG-Zephyrus-G14</string>
+				<key>Id</key>
+				<integer>33</integer>
+				<key>Path</key>
+				<string>Platforms33.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>

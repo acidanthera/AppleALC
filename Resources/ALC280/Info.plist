@@ -70,6 +70,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Dell OptiPlex 9020 AIO ALC280 by james090500</string>
+				<key>Id</key>
+				<integer>18</integer>
+				<key>Path</key>
+				<string>layout18.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Dell Precision ﻿T7610 ﻿Workstation﻿ ALC280 by Andres ZeroCross</string>
 				<key>Id</key>
 				<integer>21</integer>
@@ -134,6 +142,14 @@
 				<integer>17</integer>
 				<key>Path</key>
 				<string>Platforms17.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Dell OptiPlex 9020 AIO ALC280 by james090500</string>
+				<key>Id</key>
+				<integer>18</integer>
+				<key>Path</key>
+				<string>Platforms18.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>

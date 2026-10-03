@@ -92,6 +92,38 @@
 				<key>Path</key>
 				<string>layout13.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Realtek ALC S1220A for Asus ROG Strix X570-F Gaming (CaseySJ)</string>
+				<key>Id</key>
+				<integer>15</integer>
+				<key>Path</key>
+				<string>layout15.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Realtek ALC S1220A for MSI X470 Gaming Pro Carbon</string>
+				<key>Id</key>
+				<integer>99</integer>
+				<key>Path</key>
+				<string>layout99.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Realtek ALC S1220A for Asus Z890 ProArt Creator WiFi (caley13)</string>
+				<key>Id</key>
+				<integer>89</integer>
+				<key>Path</key>
+				<string>layout89.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>MSI MPG Z390 GAMING PRO CARBON AC - Realtek ALC1220P-VB2 (0x10EC1168, subsystem 0x1462CB17) - independent rear green, front headphone, rear orange, rear black and optical S/PDIF outputs; rear/front microphone and line-in - layout 88 - Tahsin Faiyaz</string>
+				<key>Id</key>
+				<integer>88</integer>
+				<key>Path</key>
+				<string>layout88.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -155,7 +187,7 @@
 				<key>Comment</key>
 				<string>Realtek ALC S1220A Kushamot for Asus Z270G mb (based on Mirone's layout 7)</string>
 				<key>Id</key>
-				<string>11</string>
+				<integer>11</integer>
 				<key>Path</key>
 				<string>Platforms11.xml.zlib</string>
 			</dict>
@@ -163,7 +195,7 @@
 				<key>Comment</key>
 				<string>Realtek ALC S1220A _MSI_z490i_unify_by_vio</string>
 				<key>Id</key>
-				<string>8</string>
+				<integer>8</integer>
 				<key>Path</key>
 				<string>Platforms8.xml.zlib</string>
 			</dict>
@@ -174,6 +206,38 @@
 				<integer>13</integer>
 				<key>Path</key>
 				<string>Platforms13.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Realtek ALC S1220A for Asus ROG Strix X570-F Gaming (CaseySJ)</string>
+				<key>Id</key>
+				<integer>15</integer>
+				<key>Path</key>
+				<string>Platforms15.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Realtek ALC S1220A for MSI X470 Gaming Pro Carbon</string>
+				<key>Id</key>
+				<integer>99</integer>
+				<key>Path</key>
+				<string>Platforms99.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Realtek ALC S1220A for Asus Z890 ProArt Creator WiFi (caley13)</string>
+				<key>Id</key>
+				<integer>89</integer>
+				<key>Path</key>
+				<string>Platforms89.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>MSI MPG Z390 GAMING PRO CARBON AC - Realtek ALC1220P-VB2 (0x10EC1168, subsystem 0x1462CB17) - independent rear green, front headphone, rear orange, rear black and optical S/PDIF outputs; rear/front microphone and line-in - layout 88 - Tahsin Faiyaz</string>
+				<key>Id</key>
+				<integer>88</integer>
+				<key>Path</key>
+				<string>Platforms88.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>

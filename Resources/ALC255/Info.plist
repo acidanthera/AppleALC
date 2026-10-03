@@ -22,6 +22,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Custom - Realtek ALC255 for Gigabyte Aorus 15G (warm-reboot/sleep audio fix, same as layout 3) by Andergraw</string>
+				<key>Id</key>
+				<integer>16</integer>
+				<key>Path</key>
+				<string>layout3.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>ALC255 Optiplex</string>
 				<key>Id</key>
 				<integer>12</integer>
@@ -64,7 +72,7 @@
 				<key>Comment</key>
 				<string>Realtek ALC255 Gigabyte Brix BRI5(H) by Najdanovic Ivan</string>
 				<key>Id</key>
-				<string>15</string>
+				<integer>15</integer>
 				<key>Path</key>
 				<string>layout15.xml.zlib</string>
 			</dict>
@@ -99,6 +107,22 @@
 				<integer>21</integer>
 				<key>Path</key>
 				<string>layout21.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Realtek ALC255(3234) for Asus N752VX by Feartech</string>
+				<key>Id</key>
+				<integer>22</integer>
+				<key>Path</key>
+				<string>layout22.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Realtek ALC255 for Acer Aspire A515-54G</string>
+				<key>Id</key>
+				<integer>23</integer>
+				<key>Path</key>
+				<string>layout23.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -176,9 +200,49 @@
 				<key>Comment</key>
 				<string>Bhavin dell 5559 alc255</string>
 				<key>Id</key>
-				<string>96</string>
+				<integer>96</integer>
 				<key>Path</key>
 				<string>layout96.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Realtek ALC255(3234) for Dell Inspiron 5548 by CynCYX</string>
+				<key>Id</key>
+				<integer>255</integer>
+				<key>Path</key>
+				<string>layout255.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>juniorcaesar Acer Aspire A315-56-327T ALC255</string>
+				<key>Id</key>
+				<integer>69</integer>
+				<key>Path</key>
+				<string>layout69.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Imoize - Realtek ALC255 for Acer Nitro 5 AN515-52-73Y8</string>
+				<key>Id</key>
+				<integer>37</integer>
+				<key>Path</key>
+				<string>layout37.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Realtek ALC255 for Acer Aspire 7 A715-42G AMD by Long</string>
+				<key>Id</key>
+				<integer>80</integer>
+				<key>Path</key>
+				<string>layout80.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>ALC3234/ALC255 - Dell OptiPlex 3060 MFF - Lorys89</string>
+				<key>Id</key>
+				<integer>89</integer>
+				<key>Path</key>
+				<string>layout89.xml.zlib</string>
 			</dict>
 		</array>
 		<key>Platforms</key>
@@ -188,6 +252,14 @@
 				<string>Mirone Laptop Patch ALC255</string>
 				<key>Id</key>
 				<integer>3</integer>
+				<key>Path</key>
+				<string>PlatformsM.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom - Realtek ALC255 for Gigabyte Aorus 15G (warm-reboot/sleep audio fix, same as layout 3) by Andergraw</string>
+				<key>Id</key>
+				<integer>16</integer>
 				<key>Path</key>
 				<string>PlatformsM.xml.zlib</string>
 			</dict>
@@ -273,6 +345,22 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Realtek ALC255(3234) for Asus N752VX by Feartech</string>
+				<key>Id</key>
+				<integer>22</integer>
+				<key>Path</key>
+				<string>Platforms22.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Realtek ALC255 for Acer Aspire A515-54G</string>
+				<key>Id</key>
+				<integer>23</integer>
+				<key>Path</key>
+				<string>Platforms23.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>ALC255 for Asus X556UA m-dudarev</string>
 				<key>Id</key>
 				<integer>27</integer>
@@ -350,6 +438,46 @@
 				<integer>96</integer>
 				<key>Path</key>
 				<string>Platforms96.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Realtek ALC255(3234) for Dell Inspiron 5548 by CynCYX</string>
+				<key>Id</key>
+				<integer>255</integer>
+				<key>Path</key>
+				<string>Platforms255.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>juniorcaesar Acer Aspire A315-56-327T ALC255</string>
+				<key>Id</key>
+				<integer>69</integer>
+				<key>Path</key>
+				<string>Platforms69.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Imoize - Realtek ALC255 for Acer Nitro 5 AN515-52-73Y8</string>
+				<key>Id</key>
+				<integer>37</integer>
+				<key>Path</key>
+				<string>Platforms37.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Realtek ALC255 for Acer Aspire 7 A715-42G AMD by Long</string>
+				<key>Id</key>
+				<integer>80</integer>
+				<key>Path</key>
+				<string>Platforms80.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>ALC3234/ALC255 - Dell OptiPlex 3060 MFF - Lorys89</string>
+				<key>Id</key>
+				<integer>89</integer>
+				<key>Path</key>
+				<string>Platforms89.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>

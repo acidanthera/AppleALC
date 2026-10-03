@@ -38,6 +38,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Realtek ALC294, UX434</string>
+				<key>Id</key>
+				<integer>15</integer>
+				<key>Path</key>
+				<string>layout15.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Andres ZeroCross</string>
 				<key>Id</key>
 				<integer>21</integer>
@@ -51,6 +59,14 @@
 				<integer>22</integer>
 				<key>Path</key>
 				<string>layout22.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Theroadw - Realtek ALC294 for Asus rog strix g512li</string>
+				<key>Id</key>
+				<integer>24</integer>
+				<key>Path</key>
+				<string>layout24.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -113,6 +129,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Realtek ALC294, UX434</string>
+				<key>Id</key>
+				<integer>15</integer>
+				<key>Path</key>
+				<string>Platforms15.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Andres ZeroCross</string>
 				<key>Id</key>
 				<integer>21</integer>
@@ -126,6 +150,14 @@
 				<integer>22</integer>
 				<key>Path</key>
 				<string>Platforms22.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Theroadw - Realtek ALC294 for Asus rog strix g512li</string>
+				<key>Id</key>
+				<integer>24</integer>
+				<key>Path</key>
+				<string>Platforms24.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
