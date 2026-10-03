@@ -22,6 +22,22 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>ALC289 for XPS 13 9300</string>
+				<key>Id</key>
+				<integer>12</integer>
+				<key>Path</key>
+				<string>layout12.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>ALC289 for XPS 15 9500</string>
+				<key>Id</key>
+				<integer>13</integer>
+				<key>Path</key>
+				<string>layout13.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>MacPeet - ALC289 for Dell 7730 Precision CM240 </string>
 				<key>Id</key>
 				<integer>15</integer>
@@ -35,6 +51,30 @@
 				<integer>23</integer>
 				<key>Path</key>
 				<string>layout23.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>PIut02 - Realtek ALC289 for ROG-Zephyrus-G14</string>
+				<key>Id</key>
+				<integer>33</integer>
+				<key>Path</key>
+				<string>layout33.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>ALC289 for Dell XPS 7390 ICL 2in1 By Lorys89</string>
+				<key>Id</key>
+				<integer>68</integer>
+				<key>Path</key>
+				<string>layout68.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>ALC289 for Dell XPS 2in1 7390 Vorshim</string>
+				<key>Id</key>
+				<integer>69</integer>
+				<key>Path</key>
+				<string>layout69.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -73,6 +113,22 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>ALC289 for XPS 13 9300</string>
+				<key>Id</key>
+				<integer>12</integer>
+				<key>Path</key>
+				<string>Platforms12.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>ALC289 for XPS 15 9500</string>
+				<key>Id</key>
+				<integer>13</integer>
+				<key>Path</key>
+				<string>Platforms13.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>MacPeet - ALC289 for Dell 7730 Precision CM240 </string>
 				<key>Id</key>
 				<integer>15</integer>
@@ -86,6 +142,30 @@
 				<integer>23</integer>
 				<key>Path</key>
 				<string>Platforms23.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>PIut02 - Realtek ALC289 for ROG-Zephyrus-G14</string>
+				<key>Id</key>
+				<integer>33</integer>
+				<key>Path</key>
+				<string>Platforms33.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>ALC289 for Dell XPS 7390 ICL 2in1 By Lorys89</string>
+				<key>Id</key>
+				<integer>68</integer>
+				<key>Path</key>
+				<string>Platforms68.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>ALC289 for Dell XPS 2in1 7390 Vorshim</string>
+				<key>Id</key>
+				<integer>69</integer>
+				<key>Path</key>
+				<string>Platforms69.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
