@@ -11130,6 +11130,20 @@
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>Conexant CX11970 for VAIO FE15 AMD by raphaelallain</string>
+					<key>CodecID</key>
+					<integer>351346896</integer>
+					<key>ConfigData</key>
+					<data>AXccEAF3HQEBdx4XAXcfkQF3DAIBZxxAAWcdEAFnHiEBZx8DAWcMAgGXHDABlx0QAZceoQGXHwMBlwckAaccUAGnHTEBpx6nAacflQGnByA=</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>15</integer>
+				</dict>
 			</array>
 			<key>IOClass</key>
 			<string>AppleALC</string>
