@@ -116,6 +116,14 @@
 				<key>Path</key>
 				<string>layout31.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>ALCS1200A for MSI MAG B460 TORPEDO by musatDEV</string>
+				<key>Id</key>
+				<integer>81</integer>
+				<key>Path</key>
+				<string>layout81.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -222,6 +230,14 @@
 				<integer>31</integer>
 				<key>Path</key>
 				<string>Platforms31.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>ALCS1200A for MSI MAG B460 TORPEDO by musatDEV</string>
+				<key>Id</key>
+				<integer>81</integer>
+				<key>Path</key>
+				<string>Platforms81.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>
