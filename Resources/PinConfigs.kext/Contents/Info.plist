@@ -11130,6 +11130,33 @@
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
+				<dict>
+					<key>CodecID</key>
+					<integer>283904768</integer>
+					<key>CodecName</key>
+					<string>ALCS1200A for MSI MAG B460 TORPEDO by musatDEV</string>
+					<key>ConfigData</key>
+					<data>
+					ARcc8AEXHQABFx4AARcfQAFHHBABRx1QAUceEQFHH5EBVxwgAVcdEAFXHgEBVx8BAWcc
+					MAFnHRABZx4BAWcfAQF3HPABdx0AAXceAAF3H0ABhxxAAYcdEQGHHqEBhx+RAZccYAGX
+					HZEBlx6hAZcfkgGnHE8Bpx0QAacegQGnHwEBtxxwAbcdQAG3HiEBtx8CAeccgAHnHREB
+					5x5FAecfAQAXFgMAFxcDABcVAwFHDAIBtwwCAYcHJAGXByQBpwcg
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>81</integer>
+					<key>WakeConfigData</key>
+					<data>
+					ABcWAwAXFwMAFxUDAUcMAgG3DAIBhwckAZcHJAGnByA=
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+					<key>AFGLowPowerState</key>
+					<data>
+					AQAAAA==
+					</data>
+				</dict>
 			</array>
 			<key>IOClass</key>
 			<string>AppleALC</string>
