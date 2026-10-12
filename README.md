@@ -39,7 +39,7 @@ The prebuilt binaries are available on [releases](https://github.com/acidanthera
 To support more audio codecs in the binary packages you are asked to submit your configurations. Please read the [wiki](https://github.com/acidanthera/AppleALC/wiki) for more details. For the contributors with programming skills the headers are filled with AppleDOC comments.
 
 #### Support and discussion
-[InsanelyMac topic](http://www.insanelymac.com/forum/topic/311293/applealc-—-dynamic-applehda-patching/) in English  
+[InsanelyMac topic](http://www.insanelymac.com/forum/topic/311293-applealc-—-dynamic-applehda-patching/) in English  
 [AppleLife topic](https://applelife.ru/threads/applealc-dinamicheskij-patching-applehda.1171672/) in Russian
 
 #### Donations
