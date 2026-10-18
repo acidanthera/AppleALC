@@ -1,5 +1,8 @@
 AppleALC Changelog
 ==================
+#### v1.9.9
+- Added ALC230 layout-id 21 for Lenovo B330-15IKBR (BIOS pin config, no speaker DSP) by maiconjs
+
 #### v1.9.8
 - Added ALC255/ALC3234 layout-id 89 for Dell OptiPlex 3060 MFF by Lorys89
 - Added ALC298 layout-id 98 for Lenovo Yoga 9 15IMH5 by sunbo
