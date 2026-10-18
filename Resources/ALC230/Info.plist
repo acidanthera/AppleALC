@@ -14,6 +14,14 @@
 		<array>
 			<dict>
 				<key>Comment</key>
+				<string>ALC230 for Lenovo B330-15IKBR (BIOS pins, no speaker DSP) by maiconjs</string>
+				<key>Id</key>
+				<integer>21</integer>
+				<key>Path</key>
+				<string>layout21.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>ALC 230 for Lenovo Ideapad 320 by maiconjs</string>
 				<key>Id</key>
 				<integer>20</integer>
@@ -31,6 +39,14 @@
 		</array>
 		<key>Platforms</key>
 		<array>
+			<dict>
+				<key>Comment</key>
+				<string>ALC230 for Lenovo B330-15IKBR (BIOS pins, no speaker DSP) by maiconjs</string>
+				<key>Id</key>
+				<integer>21</integer>
+				<key>Path</key>
+				<string>Platforms21.xml.zlib</string>
+			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>ALC 230 for Lenovo Ideapad 320 by maiconjs</string>
