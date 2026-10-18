@@ -67,6 +67,24 @@
 				<dict>
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
+					<key>CodecID</key>
+					<integer>283904151</integer>
+					<key>Comment</key>
+					<string>Realtek ALC897 for ASUS TUF GAMING Z690-PLUS WIFI D4</string>
+					<key>ConfigData</key>
+					<data>ARccQAEXHQABFx43ARcfQAEnHEABJx3AASceFwEnH0ABRxwQAUcdQAFHHgEBRx8BAVccEgFXHRABVx4BAVcfAQFnHBEBZx1gAWceAQFnHwEBdxwAAXcdAAF3HhcBdx9AAYccIAGHHZABhx6hAYcfkQGXHEABlx2QAZceoQGXH5IBpxxgAacdMAGnHoEBpx8BAbccIAG3HUABtx4hAbcfAgHHHPABxx0RAcceEQHHH0EB1xwBAdcd1gHXHiUB1x9AAeccUAHnHWEB5x5FAecfAQH3HPAB9x0RAfceEQH3H0EBRwwCAbcMAg==</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>14</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgG3DAI=</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
 					<key>Codec</key>
 					<string>Msi X670E Gaming Wifi  ALC897 by ycg31</string>
 					<key>CodecID</key>
