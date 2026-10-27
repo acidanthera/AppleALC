@@ -1,6 +1,7 @@
 AppleALC Changelog
 ==================
 #### v1.9.8
+- Added ALC287 layout-id 99 for Lenovo Legion Y9000P IAX10H (83F5) with shared-DAC speaker control by Ersiter
 - Added ALC255/ALC3234 layout-id 89 for Dell OptiPlex 3060 MFF by Lorys89
 - Added ALC298 layout-id 98 for Lenovo Yoga 9 15IMH5 by sunbo
 - Added ALC269 layout-id 120 for Infinix XBOOK B15 by kodeaqua

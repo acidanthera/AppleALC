@@ -382,6 +382,23 @@ bool AlcEnabler::AppleHDAController_start(IOService* service, IOService* provide
 	return FunctionCast(AppleHDAController_start, callbackAlc->orgAppleHDAController_start)(service, provider);
 }
 
+#ifdef HAVE_ANALOG_AUDIO
+static bool isALC287SpeakerCodec(IOService *codec) {
+	auto vendor = OSDynamicCast(OSNumber, codec->getProperty("IOHDACodecVendorID"));
+	if (!vendor || vendor->unsigned32BitValue() != 0x10ec0287)
+		return false;
+	for (auto parent = codec->getParentEntry(gIOServicePlane); parent;
+		 parent = parent->getParentEntry(gIOServicePlane)) {
+		if (strcmp(parent->getName(), "HDEF"))
+			continue;
+		uint32_t layout = 0, controller = 0;
+		return WIOKit::getOSDataValue(parent, "alc-layout-id", layout) && layout == 99 &&
+			WIOKit::getOSDataValue(parent, "device-id", controller) && controller == 0x7f50;
+	}
+	return false;
+}
+#endif
+
 IOReturn AlcEnabler::IOHDACodecDevice_executeVerb(void *hdaCodecDevice, uint16_t nid, uint16_t verb, uint16_t param, unsigned int *output, bool waitForSuccess)
 {
 	if (verb & 0xff0) {
@@ -391,7 +408,67 @@ IOReturn AlcEnabler::IOHDACodecDevice_executeVerb(void *hdaCodecDevice, uint16_t
 		// 4 bit verb
 		DBGLOG("alc", "IOHDACodecDevice::executeVerb with parameters nid = 0x%02X, verb = 0x%X, param = 0x%04X", nid, verb, param);
 	}
-	return FunctionCast(IOHDACodecDevice_executeVerb, callbackAlc->orgIOHDACodecDevice_executeVerb)(hdaCodecDevice, nid, verb, param, output, waitForSuccess);
+	auto execute = FunctionCast(IOHDACodecDevice_executeVerb, callbackAlc->orgIOHDACodecDevice_executeVerb);
+	auto result = execute(hdaCodecDevice, nid, verb, param, output, waitForSuccess);
+#ifdef HAVE_ANALOG_AUDIO
+	constexpr uint16_t bassPin = 0x17, treblePin = 0x14;
+	constexpr uint16_t setPinControl = 0x707, setPower = 0x705, setOutputAmp = 0x3;
+	bool pinWrite = verb == setPinControl || verb == setPower ||
+		(verb == setOutputAmp && (param & 0x8000));
+	auto codec = static_cast<IOService *>(hdaCodecDevice);
+	if (result == kIOReturnSuccess && nid == bassPin && pinWrite && isALC287SpeakerCodec(codec)) {
+		// Declare DAC02 once; mirror its speaker pins instead of allocating a second stereo pair.
+		unsigned int response = 0;
+		if (verb == setPinControl && (param & 0x40)) {
+			result = execute(hdaCodecDevice, treblePin, setPower, 0, &response, waitForSuccess);
+			unsigned int length = 0, selector = 0;
+			bool found = false;
+			if (result == kIOReturnSuccess)
+				result = execute(hdaCodecDevice, treblePin, 0xf00, 0x0e, &length, true);
+			unsigned int count = length & 0x7f, width = (length & 0x80) ? 16 : 8;
+			for (unsigned int index = 0; result == kIOReturnSuccess && !found && index < count; index += 32 / width) {
+				result = execute(hdaCodecDevice, treblePin, 0xf02, index, &response, true);
+				for (unsigned int slot = 0; result == kIOReturnSuccess && slot < 32 / width && index + slot < count; slot++) {
+					unsigned int entry = (response >> (slot * width)) & ((1U << width) - 1);
+					if (entry & (1U << (width - 1))) {
+						result = kIOReturnUnsupported;
+						break;
+					}
+					if (entry == 0x02) {
+						selector = index + slot;
+						found = true;
+						break;
+					}
+				}
+			}
+			if (result == kIOReturnSuccess && !found)
+				result = kIOReturnUnsupported;
+			if (result == kIOReturnSuccess) {
+				result = execute(hdaCodecDevice, treblePin, 0x701, selector, &response, waitForSuccess);
+				if (result == kIOReturnSuccess)
+					codec->setProperty("ALC287SharedDACSecondarySelector", selector, 32);
+			}
+			if (result == kIOReturnSuccess)
+				result = execute(hdaCodecDevice, treblePin, 0x70c, 2, &response, waitForSuccess);
+			for (unsigned int channel = 0; result == kIOReturnSuccess && channel < 2; channel++) {
+				result = execute(hdaCodecDevice, bassPin, 0xb, channel ? 0x8000 : 0xa000, &response, true);
+				if (result == kIOReturnSuccess)
+					result = execute(hdaCodecDevice, treblePin, setOutputAmp,
+						(channel ? 0x9000 : 0xa000) | (response & 0xff), &response, waitForSuccess);
+			}
+		}
+		if (result == kIOReturnSuccess)
+			result = execute(hdaCodecDevice, treblePin, verb, param, &response, waitForSuccess);
+		codec->setProperty("ALC287SharedDACPrimaryPin", bassPin, 32);
+		codec->setProperty("ALC287SharedDACSecondaryPin", treblePin, 32);
+		codec->setProperty("ALC287SharedDACLastError", static_cast<uint32_t>(result), 32);
+		if (result == kIOReturnSuccess && verb == setPinControl)
+			codec->setProperty("ALC287SharedDACOutputEnabled", (param & 0x40) ? kOSBooleanTrue : kOSBooleanFalse);
+		if (result != kIOReturnSuccess)
+			SYSLOG("alc", "ALC287 speaker pin mirror failed: verb 0x%x, status 0x%x", verb, result);
+	}
+#endif
+	return result;
 }
 
 uint32_t AlcEnabler::getAudioLayout(IOService *hdaDriver) {

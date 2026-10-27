@@ -4970,6 +4970,24 @@
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
 					<key>Codec</key>
+					<string>ALC287 for Lenovo Legion Y9000P IAX10H (83F5), shared-DAC speakers by Ersiter</string>
+					<key>CodecID</key>
+					<integer>283902599</integer>
+					<key>ConfigData</key>
+					<data>ASccQAEnHQEBJx6gAScfkAE3HPABNx0AATceAAE3H0ABRxwQAUcdAQFHHhcBRx+QAUcMAgF3HBABdx0BAXceFwF3H5ABhxzwAYcdAAGHHgABhx9AAZccMAGXHRABlx6BAZcfAwGnHPABpx0AAaceAAGnH0ABtxzwAbcdAAG3HgABtx9AAdcc8AHXHQAB1x4AAdcfQAHnHPAB5x0AAeceAAHXH0ACFxwgAhcdEAIXHiECFx8DAhcMAg==</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>99</integer>
+					<key>WakeConfigData</key>
+					<data>AhcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
 					<string>Mirone - Realtek ALC288</string>
 					<key>CodecID</key>
 					<integer>283902600</integer>
