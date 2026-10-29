@@ -11017,6 +11017,24 @@
 					<true/>
 				</dict>
 				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>CodecID</key>
+					<integer>283902550</integer>
+					<key>Comment</key>
+					<string>fang - Realtek ALC256 (3246) for Xiaomi RedmiBook 13 (TIMI TM1921)</string>
+					<key>ConfigData</key>
+					<data>AScc8AEnHREBJx4RAScfQQE3HPABNx0dATceEQE3H0EBRxwQAUcdDQFHHhcBRx+QAYcc8AGHHREBhx4RAYcfQQGXHDABlx0cAZceoQGXHwIBpxzwAacdEQGnHhEBpx9BAbccMAG3HQUBtx6nAbcfkAHXHEUB1x0bAdceZgHXH0AB5xzwAecdFQHnHhEB5x9BAhccUAIXHRACFx4rAhcfAgFHDAICBQAQAgQAIA==</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>101</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAg==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
 					<key>Codec</key>
 					<string>nikich768 - Realtek ALC256 ASUS-X515JF-EJ012 var2</string>
 					<key>CodecID</key>

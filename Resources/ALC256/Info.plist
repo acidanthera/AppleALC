@@ -276,6 +276,14 @@
 				<key>Path</key>
 				<string>layout41.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>fang - Realtek ALC256 (3246) for Xiaomi RedmiBook 13 (TIMI TM1921)</string>
+				<key>Id</key>
+				<integer>101</integer>
+				<key>Path</key>
+				<string>layout101.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -542,6 +550,14 @@
 				<integer>41</integer>
 				<key>Path</key>
 				<string>Platforms41.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>fang - Realtek ALC256 (3246) for Xiaomi RedmiBook 13 (TIMI TM1921)</string>
+				<key>Id</key>
+				<integer>101</integer>
+				<key>Path</key>
+				<string>Platforms101.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>
