@@ -31,6 +31,22 @@
 				<dict>
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>Ardaninho - Conexant SN6140 for Lenovo IdeaPad Slim 5 14AHP10</string>
+					<key>CodecID</key>
+					<integer>351346567</integer>
+					<key>ConfigData</key>
+					<data>AWccQAFnHRABZx4hAWcfAwF3HBABdx0BAXceFwF3H5EBlxwwAZcdEAGXHqEBlx8DAaccIAGnHQEBpx6mAacflQFnDAIBdwwC</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>11</integer>
+					<key>WakeConfigData</key>
+					<data>AWcMAgF3DAI=</data>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
 					<key>CodecID</key>
 					<integer>283906408</integer>
 					<key>CodecName</key>
