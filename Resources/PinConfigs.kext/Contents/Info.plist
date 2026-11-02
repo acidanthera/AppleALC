@@ -31,6 +31,24 @@
 				<dict>
 					<key>AFGLowPowerState</key>
 					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>bygadd - Realtek ALC294 for ASUS ROG STRIX G731GT-H7114</string>
+					<key>CodecID</key>
+					<integer>283902612</integer>
+					<key>ConfigData</key>
+					<data>ASccMAEnHQEBJx6mAScfkAE3HAABNx0AATceAAE3H0ABRxwQAUcdAQFHHhcBRx+QAVcc8AFXHREBVx4RAVcfQQFnHPABZx0RAWceEQFnH0EBdxzwAXcdEQF3HhEBdx9BAYcc8AGHHREBhx4RAYcfQQGXHCABlx0QAZcegQGXHwQBpxzwAacdEQGnHhEBpx9BAbcc8AG3HREBtx4RAbcfQQHXHC0B1x2aAdceZwHXH0AB5xzwAecdEQHnHhEB5x9BAfcc8AH3HREB9x4RAfcfQQIXHCACFx0QAhceIQIXHwMBRwwCAhcMAgIXAQECRwEAAUcHQAIXB8ABJwcgAZcHJAIXCIM=</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>29</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgIXDAICFwEBAkcBAAFHB0ACFwfAAScHIAGXByQCFwiD</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
 					<key>CodecID</key>
 					<integer>283906408</integer>
 					<key>CodecName</key>
