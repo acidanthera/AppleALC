@@ -38,6 +38,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Realtek ALC285 for ROG-Zephyrus-G16 (GU605)</string>
+				<key>Id</key>
+				<integer>16</integer>
+				<key>Path</key>
+				<string>layout16.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>PIut02 - Realtek ALC285 for ROG-Zephyrus-G14</string>
 				<key>Id</key>
 				<integer>33</integer>
@@ -110,6 +118,14 @@
 				<integer>31</integer>
 				<key>Path</key>
 				<string>Platforms31.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Realtek ALC285 for ROG-Zephyrus-G16 (GU605)</string>
+				<key>Id</key>
+				<integer>16</integer>
+				<key>Path</key>
+				<string>Platforms16.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
