@@ -4792,6 +4792,24 @@
 					<key>CodecID</key>
 					<integer>283902597</integer>
 					<key>CodecName</key>
+					<string>Realtek ALC285 for ROG-Zephyrus-G16 (GU605)</string>
+					<key>ConfigData</key>
+					<data>AScccAEnHQEBJx6mAScfkAE3HPABNx0AATceAAE3H0ABRxxAAUcdAQFHHhcBRx+QAUcMAgFnHPABZx0AAWceAAFnH0ABdxxBAXcdAQF3HhcBdx+QAYcc8AGHHQABhx4AAYcfQAGXHCABlx0QAZceiwGXHwIBpxzwAacdAAGnHgABpx9AAbcc8AG3HQABtx4AAbcfQAG3DAIB1xzwAdcdAAHXHgAB1x9AAecc8AHnHQAB5x4AAecfQAIXHFACFx0QAhceKwIXHwICFwwCAXcBAAF3B0ABdwUAAXOwAA==</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>16</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgG3DAICFwwCAXcBAAF3B0ABdwUAAXOwAA==</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>CodecID</key>
+					<integer>283902597</integer>
+					<key>CodecName</key>
 					<string>PIut02 - Realtek ALC285 for ROG-Zephyrus-G14</string>
 					<key>ConfigData</key>
 					<data>AScccAEnHQEBJx6mAScfkAE3HPABNx0AATceAAE3H0ABRxxAAUcdAQFHHhcBRx+QAUcMAgFnHPABZx0AAWceAAFnH0ABdxxBAXcdAQF3HhcBdx+QAYcc8AGHHQABhx4AAYcfQAGXHCABlx0QAZceiwGXHwIBpxzwAacdAAGnHgABpx9AAbcc8AG3HQABtx4AAbcfQAG3DAIB1xzwAdcdAAHXHgAB1x9AAecc8AHnHQAB5x4AAecfQAIXHFACFx0QAhceKwIXHwICFwwC</data>
