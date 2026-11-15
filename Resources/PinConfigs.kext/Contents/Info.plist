@@ -11130,6 +11130,22 @@
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
+				<dict>
+					<key>CodecID</key>
+					<integer>283902569</integer>
+					<key>Comment</key>
+					<string>ALC269VC for Clevo NH50RA (i5-9300H) by Tang1124</string>
+					<key>ConfigData</key>
+					<data>ASccQAEnHQEBJx6mAScfkAFHHBABRx0BAUceFwFHH5ABRwwCAVccIAFXHRABVx4hAVcfAgFXDAIBhxwwAYcdEAGHHqEBhx8CAZcc8AGXHREBlx4RAZcfQQGnHPABpx0RAaceEQGnH0EBtxzwAbcdEQG3HhEBtx9BAecc8AHnHREB5x4RAecfQQ==</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>269</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgFXDAI=</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
 			</array>
 			<key>IOClass</key>
 			<string>AppleALC</string>
