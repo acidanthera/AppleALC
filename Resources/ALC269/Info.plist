@@ -500,6 +500,14 @@
 				<key>Path</key>
 				<string>layout120.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>ALC269 for Clevo NH50RA (i5-9300H) by Tang1124</string>
+				<key>Id</key>
+				<integer>269</integer>
+				<key>Path</key>
+				<string>layout269.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -990,6 +998,14 @@
 				<integer>120</integer>
 				<key>Path</key>
 				<string>Platforms120.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>ALC269 for Clevo NH50RA (i5-9300H) by Tang1124</string>
+				<key>Id</key>
+				<integer>269</integer>
+				<key>Path</key>
+				<string>Platforms269.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>
