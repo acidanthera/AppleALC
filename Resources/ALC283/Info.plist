@@ -100,6 +100,14 @@
 				<key>Path</key>
 				<string>layout73.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Acer Aspire E5-572G (ALC283)</string>
+				<key>Id</key>
+				<integer>99</integer>
+				<key>Path</key>
+				<string>layout99.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -190,6 +198,14 @@
 				<integer>73</integer>
 				<key>Path</key>
 				<string>Platforms73.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Acer Aspire E5-572G (ALC283), PathMap 284</string>
+				<key>Id</key>
+				<integer>99</integer>
+				<key>Path</key>
+				<string>Platforms99.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>
