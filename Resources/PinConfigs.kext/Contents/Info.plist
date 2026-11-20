@@ -1096,13 +1096,13 @@
 					<key>CodecID</key>
 					<integer>283902517</integer>
 					<key>ConfigData</key>
-					<data>ASccIAEnHQEBJx6mAScfkAGXHDABlx6nAZcfAA==</data>
+					<data>ASccIAEnHQEBJx6mAScfkAGXHDABlx6nAZcfAAIFAEUCBNSJAgUAGwIEDCsFdQADBXSOpgGXByQCFwwC</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>8</integer>
 					<key>WakeConfigData</key>
-					<data></data>
+					<data>AgUARQIE1IkCBQAbAgQMKwV1AAMFdI6mAZcHJAIXDAI=</data>
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
