@@ -234,13 +234,13 @@
 					<key>Comment</key>
 					<string>ALC269VC for Panasonic Toughbook CF-C2 by chris</string>
 					<key>ConfigData</key>
-					<data>ASccEAEnHQEBJx6mAScfkAFHHPABRx0RAUceEQFHH0EBVxxAAVcdAQFXHhcBVx+QAXcc8AF3HREBdx4RAXcfQQGHHCABhx0QAYcegQGHHwIBlxzwAZcdEQGXHhEBlx9BAacc8AGnHREBpx4RAacfQQG3HPABtx0RAbceEQG3H0EB1xzwAdcdEQHXHhEB1x9BAecc8AHnHREB5x4RAecfQQFXDAI=</data>
+					<data>ASccEAEnHQEBJx6mAScfkAFHHEABRx0BAUceFwFHH5ABVxxQAVcdEAFXHiEBVx8CAXcc8AF3HREBdx4RAXcfQQGHHCABhx0QAYcegQGHHwIBlxzwAZcdEQGXHhEBlx9BAacc8AGnHREBpx4RAacfQQG3HPABtx0RAbceEQG3H0EB1xzwAdcdEQHXHhEB1x9BAecc8AHnHREB5x4RAecfQQFHDAIBVwwC</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>43</integer>
 					<key>WakeConfigData</key>
-					<data>AVcMAg==</data>
+					<data>AUcMAgFXDAI=</data>
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>

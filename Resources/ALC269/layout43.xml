@@ -2026,6 +2026,7 @@
 			</dict>
 			<key>Outputs</key>
 			<array>
+				<string>Headphone</string>
 				<string>IntSpeaker</string>
 			</array>
 			<key>PathMapID</key>
