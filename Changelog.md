@@ -1,5 +1,8 @@
 AppleALC Changelog
 ==================
+#### v1.9.9
+- Added ALC269 layout-id 43 for Panasonic Toughbook CF-C2 by cuadra8998
+
 #### v1.9.8
 - Added ALC255/ALC3234 layout-id 89 for Dell OptiPlex 3060 MFF by Lorys89
 - Added ALC298 layout-id 98 for Lenovo Yoga 9 15IMH5 by sunbo
